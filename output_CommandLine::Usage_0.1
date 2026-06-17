@@ -1,0 +1,64 @@
+===> Searching for: CommandLine::Usage
+===> Found: CommandLine::Usage:ver<0.1>:auth<github:7ojo> [via Zef::Repository::Ecosystems<rea>]
+[CommandLine::Usage] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781720748.35188.2521.710368804387/CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/CommandLine%3A%3AUsage/CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz
+===> Fetching [OK]: CommandLine::Usage:ver<0.1>:auth<github:7ojo> to /blin/data/zef-data/tmp/1781720748.35188.2521.710368804387/CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz
+[CommandLine::Usage] Command: tar -t -f ./CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz
+[CommandLine::Usage] Command: tar -xvf ./CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz -C ../CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz
+===> Extraction [OK]: CommandLine::Usage to /blin/data/zef-data/tmp/CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz
+===> Testing: CommandLine::Usage:ver<0.1>:auth<github:7ojo>
+[CommandLine::Usage] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz/p6-commandline-usage-master t/00-load.t
+[CommandLine::Usage] 1..8
+[CommandLine::Usage] ok 1 - load Example::Docker::Attach
+[CommandLine::Usage] ok 2 - load Example::Docker::Build
+[CommandLine::Usage] ok 3 - load Example::Docker
+[CommandLine::Usage] ok 4 - load CommandLine::Usage::Header
+[CommandLine::Usage] ok 5 - load CommandLine::Usage::Positionals
+[CommandLine::Usage] ok 6 - load CommandLine::Usage::Subcommands
+[CommandLine::Usage] ok 7 - load CommandLine::Usage::Options
+[CommandLine::Usage] ok 8 - load CommandLine::Usage
+[CommandLine::Usage] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz/p6-commandline-usage-master t/10-parse.t
+[CommandLine::Usage] 1..2
+[CommandLine::Usage] not ok 1 - my-command one two --help
+[CommandLine::Usage] # Failed test 'my-command one two --help'
+[CommandLine::Usage] # at t/10-parse.t line 27
+[CommandLine::Usage] # expected: '
+[CommandLine::Usage] # Usage:	my-command one two
+[CommandLine::Usage] # 
+[CommandLine::Usage] # My explanation here
+[CommandLine::Usage] # '
+[CommandLine::Usage] #      got: 'END'
+[CommandLine::Usage] not ok 2 - my-command run --help
+[CommandLine::Usage] # Failed test 'my-command run --help'
+[CommandLine::Usage] # at t/10-parse.t line 65
+[CommandLine::Usage] # expected: '
+[CommandLine::Usage] # Usage:	my-command run [OPTIONS]
+[CommandLine::Usage] # 
+[CommandLine::Usage] # Explanation of subcommand run and it's options
+[CommandLine::Usage] # 
+[CommandLine::Usage] # Options:
+[CommandLine::Usage] #       --project string     
+[CommandLine::Usage] #       --network string     (default "acme")
+[CommandLine::Usage] #       --domain string      (default "localhost")
+[CommandLine::Usage] #       --data-path string   (default "~/.platform")
+[CommandLine::Usage] #       --port integer       (default "80")
+[CommandLine::Usage] # '
+[CommandLine::Usage] #      got: 'END'
+[CommandLine::Usage] # You failed 2 tests of 2
+[CommandLine::Usage] Saw 1 occurrence of deprecated code.
+[CommandLine::Usage] ================================================================================
+[CommandLine::Usage] Method perl (from Mu) seen at:
+[CommandLine::Usage]   /blin/data/zef-data/tmp/CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz/p6-commandline-usage-master/lib/CommandLine/Usage/Options.pm6 (CommandLine::Usage::Options), lines 63,64,65,66
+[CommandLine::Usage] Please use raku instead.
+[CommandLine::Usage] --------------------------------------------------------------------------------
+[CommandLine::Usage] Please contact the author to have these occurrences of deprecated code
+[CommandLine::Usage] adapted, so that this message will disappear!
+[CommandLine::Usage] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz/p6-commandline-usage-master t/author-examples-docker.t
+[CommandLine::Usage] 1..1
+[CommandLine::Usage] ok 1 - # SKIP Skipping author test
+[CommandLine::Usage] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CommandLine%3A%3AUsage%3Aver%3C0.1%3E%3Aauth%3Cgithub%3A7ojo%3E.tar.gz/p6-commandline-usage-master t/author-my-meta.t
+[CommandLine::Usage] 1..1
+[CommandLine::Usage] ok 1 - # SKIP Skipping author test
+===> Testing [FAIL]: CommandLine::Usage:ver<0.1>:auth<github:7ojo>
+[CommandLine::Usage] Failed to get passing tests, but continuing with --force-test
+===> Installing: CommandLine::Usage:ver<0.1>:auth<github:7ojo>
+===> Install [OK] for CommandLine::Usage:ver<0.1>:auth<github:7ojo>

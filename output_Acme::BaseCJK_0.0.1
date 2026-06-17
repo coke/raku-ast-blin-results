@@ -1,0 +1,20 @@
+===> Searching for: Acme::BaseCJK
+===> Found: Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi> [via Zef::Repository::Ecosystems<fez>]
+[Acme::BaseCJK] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781717423.6965.983.6092221098259/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz https://360.zef.pm/A/CM/ACME_BASECJK/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz
+===> Fetching [OK]: Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi> to /blin/data/zef-data/tmp/1781717423.6965.983.6092221098259/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz
+[Acme::BaseCJK] Command: tar -t -f ./7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz
+[Acme::BaseCJK] Command: tar -xvf ./7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz -C ../7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz
+===> Extraction [OK]: Acme::BaseCJK to /blin/data/zef-data/tmp/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz
+===> Testing: Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi>
+[Acme::BaseCJK] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz/dist t/01-basic.rakutest
+[Acme::BaseCJK] ===SORRY!===
+[Acme::BaseCJK] You can't adverb CJK
+[Acme::BaseCJK] at /blin/data/zef-data/tmp/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz/dist/t/01-basic.rakutest:6
+[Acme::BaseCJK] ------> is CJK:to(CJK:of($_)<HERE>), $_,
+[Acme::BaseCJK] You can't adverb CJK
+[Acme::BaseCJK] at /blin/data/zef-data/tmp/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz/dist/t/01-basic.rakutest:6
+[Acme::BaseCJK] ------> is CJK:to(CJK:of($_))<HERE>, $_,
+===> Testing [FAIL]: Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi>
+[Acme::BaseCJK] Failed to get passing tests, but continuing with --force-test
+===> Installing: Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi>
+===> Install [OK] for Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi>

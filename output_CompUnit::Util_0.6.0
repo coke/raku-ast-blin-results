@@ -1,0 +1,149 @@
+===> Searching for: CompUnit::Util
+===> Found: CompUnit::Util:ver<0.6.0> [via Zef::Repository::Ecosystems<rea>]
+[CompUnit::Util] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781720787.35516.6300.771276627679/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/CompUnit%3A%3AUtil/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
+===> Fetching [OK]: CompUnit::Util:ver<0.6.0> to /blin/data/zef-data/tmp/1781720787.35516.6300.771276627679/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
+[CompUnit::Util] Command: tar -t -f ./CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
+[CompUnit::Util] Command: tar -xvf ./CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz -C ../CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
+===> Extraction [OK]: CompUnit::Util to /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
+===> Testing: CompUnit::Util:ver<0.6.0>
+[CompUnit::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master t/01-utils.t
+[CompUnit::Util] 1..17
+[CompUnit::Util] ok 1 - load
+[CompUnit::Util] ok 2 - load again returns same thing
+[CompUnit::Util] ok 3 - found Test
+[CompUnit::Util] ok 4 - found CompUnit::Util
+[CompUnit::Util] ok 5 - find-loaded on non-existent module returns false
+[CompUnit::Util] ok 6 - returns Failure
+[CompUnit::Util] ok 7 - all-loaded finds the correct units
+[CompUnit::Util] ok 8 - at-unit finds $=pod
+[CompUnit::Util] ok 9 - at-units works with CompUnit
+[CompUnit::Util] ok 10 - at-units works with CompUnit::Handle
+[CompUnit::Util] ok 11 - 
+[CompUnit::Util] ok 12 - unit-to-hash returns same thing
+[CompUnit::Util] ok 13 - set-in-WHO 1 name
+[CompUnit::Util] ok 14 - 
+[CompUnit::Util] ok 15 - set-in-WHO multiple
+[CompUnit::Util] ok 16 - descend-WHO finds $Baz
+[CompUnit::Util] ok 17 - doesn't find non existent
+[CompUnit::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master t/02-re-export.t
+[CompUnit::Util] ===SORRY!=== Error while compiling t/02-re-export.t
+[CompUnit::Util] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/re-exports-stuff.pm6 (re-exports-stuff)
+[CompUnit::Util] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[CompUnit::Util] re-export can only be called at BEGIN time
+[CompUnit::Util] at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/re-exports-stuff.pm6 (re-exports-stuff):4
+[CompUnit::Util] Exception details:
+[CompUnit::Util]   re-export can only be called at BEGIN time
+[CompUnit::Util]     in sub re-export at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/lib/CompUnit/Util.pm6 (CompUnit::Util) line 157
+[CompUnit::Util]     in any PERFORM-BEGIN at src/Raku/ast/statementprefixes.rakumod line 603
+[CompUnit::Util]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CompUnit::Util]     in any statement-prefix:sym<BEGIN> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any statement-prefix at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term:sym<statement-prefix> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util] at t/02-re-export.t:7
+[CompUnit::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master t/03-rexport-globalish.t
+[CompUnit::Util] ===SORRY!=== Error while compiling t/03-rexport-globalish.t
+[CompUnit::Util] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/re-exportglobalish.pm6 (re-exportglobalish)
+[CompUnit::Util] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[CompUnit::Util] steal-globalish can only be called at BEGIN time
+[CompUnit::Util] at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/re-exportglobalish.pm6 (re-exportglobalish):3
+[CompUnit::Util] Exception details:
+[CompUnit::Util]   steal-globalish can only be called at BEGIN time
+[CompUnit::Util]     in sub steal-globalish at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/lib/CompUnit/Util.pm6 (CompUnit::Util) line 184
+[CompUnit::Util]     in any PERFORM-BEGIN at src/Raku/ast/statementprefixes.rakumod line 603
+[CompUnit::Util]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CompUnit::Util]     in any statement-prefix:sym<BEGIN> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any statement-prefix at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term:sym<statement-prefix> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util] at t/03-rexport-globalish.t:7
+[CompUnit::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master t/04-capture-import.t
+[CompUnit::Util] 1..17
+[CompUnit::Util] ok 1 - 
+[CompUnit::Util] ok 2 - foo captured
+[CompUnit::Util] ok 3 - baz captured
+[CompUnit::Util] ok 4 - derp not captured
+[CompUnit::Util] ok 5 - opt not captured
+[CompUnit::Util] ok 6 - bar from sub EXPORT captured
+[CompUnit::Util] ok 7 - derp captured
+[CompUnit::Util] ok 8 - herp captured
+[CompUnit::Util] ok 9 - foo not captured
+[CompUnit::Util] ok 10 - derp captured
+[CompUnit::Util] ok 11 - herp captured
+[CompUnit::Util] ok 12 - foo captured
+[CompUnit::Util] ok 13 - baz captured
+[CompUnit::Util] ok 14 - bar still works
+[CompUnit::Util] ok 15 - passed positional made opt work
+[CompUnit::Util] ok 16 - positional disabled DEFAULT
+[CompUnit::Util] ok 17 - positional + tag
+[CompUnit::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master t/05-rexport-everything.t
+[CompUnit::Util] ===SORRY!=== Error while compiling t/05-rexport-everything.t
+[CompUnit::Util] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/re-exports-everything.pm6 (re-exports-everything)
+[CompUnit::Util] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[CompUnit::Util] re-export-everything can only be called at BEGIN time
+[CompUnit::Util] at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/re-exports-everything.pm6 (re-exports-everything):3
+[CompUnit::Util] Exception details:
+[CompUnit::Util]   re-export-everything can only be called at BEGIN time
+[CompUnit::Util]     in sub re-export-everything at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/lib/CompUnit/Util.pm6 (CompUnit::Util) line 192
+[CompUnit::Util]     in any PERFORM-BEGIN at src/Raku/ast/statementprefixes.rakumod line 603
+[CompUnit::Util]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CompUnit::Util]     in any statement-prefix:sym<BEGIN> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any statement-prefix at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term:sym<statement-prefix> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util] at t/05-rexport-everything.t:7
+[CompUnit::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master t/06-set.t
+[CompUnit::Util] ===SORRY!=== Error while compiling t/06-set.t
+[CompUnit::Util] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/set-symbols.pm6 (set-symbols)
+[CompUnit::Util] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[CompUnit::Util] set-unit can only be called at BEGIN time
+[CompUnit::Util] at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/set-symbols.pm6 (set-symbols):3
+[CompUnit::Util] Exception details:
+[CompUnit::Util]   set-unit can only be called at BEGIN time
+[CompUnit::Util]     in sub set-unit at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/lib/CompUnit/Util.pm6 (CompUnit::Util) line 202
+[CompUnit::Util]     in any PERFORM-BEGIN at src/Raku/ast/statementprefixes.rakumod line 603
+[CompUnit::Util]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CompUnit::Util]     in any statement-prefix:sym<BEGIN> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any statement-prefix at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term:sym<statement-prefix> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util] at t/06-set.t:8
+[CompUnit::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master t/08-get.t
+[CompUnit::Util] 1..5
+[CompUnit::Util] ===SORRY!=== Error while compiling EVAL_0
+[CompUnit::Util] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/set-symbols.pm6 (set-symbols)
+[CompUnit::Util] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[CompUnit::Util] set-unit can only be called at BEGIN time
+[CompUnit::Util] at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/set-symbols.pm6 (set-symbols):3
+[CompUnit::Util] Exception details:
+[CompUnit::Util]   set-unit can only be called at BEGIN time
+[CompUnit::Util]     in sub set-unit at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/lib/CompUnit/Util.pm6 (CompUnit::Util) line 202
+[CompUnit::Util]     in any PERFORM-BEGIN at src/Raku/ast/statementprefixes.rakumod line 603
+[CompUnit::Util]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CompUnit::Util]     in any statement-prefix:sym<BEGIN> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any statement-prefix at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term:sym<statement-prefix> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util] at EVAL_0:2
+[CompUnit::Util] # You planned 5 tests, but ran 0
+[CompUnit::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master t/09-push-multi.t
+[CompUnit::Util] ===SORRY!=== Error while compiling t/09-push-multi.t
+[CompUnit::Util] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/push-multi.pm6 (push-multi)
+[CompUnit::Util] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[CompUnit::Util] push-unit-multi can only be called at BEGIN time
+[CompUnit::Util] at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/push-multi.pm6 (push-multi):3
+[CompUnit::Util] Exception details:
+[CompUnit::Util]   push-unit-multi can only be called at BEGIN time
+[CompUnit::Util]     in sub push-unit-multi at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/lib/CompUnit/Util.pm6 (CompUnit::Util) line 245
+[CompUnit::Util]     in block  at /blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz/p6-CompUnit-Util-master/t/lib/push-multi.pm6 (push-multi) line 3
+[CompUnit::Util]     in any PERFORM-BEGIN at src/Raku/ast/statementprefixes.rakumod line 603
+[CompUnit::Util]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CompUnit::Util]     in any statement-prefix:sym<BEGIN> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any statement-prefix at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term:sym<statement-prefix> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CompUnit::Util] at t/09-push-multi.t:21
+===> Testing [FAIL]: CompUnit::Util:ver<0.6.0>
+[CompUnit::Util] Failed to get passing tests, but continuing with --force-test
+===> Installing: CompUnit::Util:ver<0.6.0>
+===> Install [OK] for CompUnit::Util:ver<0.6.0>

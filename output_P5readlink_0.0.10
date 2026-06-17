@@ -1,0 +1,32 @@
+===> Searching for: P5readlink
+===> Found: P5readlink:ver<0.0.10>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[P5readlink] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781732520.132428.2369.05352683628/87f58e7066be30c1c4b8879307f5ed93cf33f864.tar.gz https://360.zef.pm/P/5R/P5READLINK/87f58e7066be30c1c4b8879307f5ed93cf33f864.tar.gz
+===> Fetching [OK]: P5readlink:ver<0.0.10>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1781732520.132428.2369.05352683628/87f58e7066be30c1c4b8879307f5ed93cf33f864.tar.gz
+[P5readlink] Command: tar -t -f ./87f58e7066be30c1c4b8879307f5ed93cf33f864.tar.gz
+[P5readlink] Command: tar -xvf ./87f58e7066be30c1c4b8879307f5ed93cf33f864.tar.gz -C ../87f58e7066be30c1c4b8879307f5ed93cf33f864.tar.gz
+===> Extraction [OK]: P5readlink to /blin/data/zef-data/tmp/87f58e7066be30c1c4b8879307f5ed93cf33f864.tar.gz
+===> Testing: P5readlink:ver<0.0.10>:auth<zef:lizmat>
+[P5readlink] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/87f58e7066be30c1c4b8879307f5ed93cf33f864.tar.gz/P5readlink-0.0.10 t/01-basic.rakutest
+[P5readlink] 1..9
+[P5readlink] ok 1 - is &readlink imported?
+[P5readlink] ok 2 - did we get a Nil on it non-existing?
+[P5readlink] ok 3 - did we get a Nil on it not being a symlink?
+[P5readlink] ok 4 - is there no "symlink" anymore?
+[P5readlink] ok 5 - create the symlink
+[P5readlink] not ok 6 - did we get this file back as symlink on it?
+[P5readlink] # Failed test 'did we get this file back as symlink on it?'
+[P5readlink] # at t/01-basic.rakutest line 19
+[P5readlink] # expected: 't/01-basic.rakutest'
+[P5readlink] #      got: '/blin/data/zef-data/tmp/87f58e7066be30c1c4b8879307f5ed93cf33f864.tar.gz/P5readlink-0.0.10/t/01-basic.rakutest'
+[P5readlink] not ok 7 - did we get this file back as symlink on $_?
+[P5readlink] # Failed test 'did we get this file back as symlink on $_?'
+[P5readlink] # at t/01-basic.rakutest line 21
+[P5readlink] # expected: 't/01-basic.rakutest'
+[P5readlink] #      got: '/blin/data/zef-data/tmp/87f58e7066be30c1c4b8879307f5ed93cf33f864.tar.gz/P5readlink-0.0.10/t/01-basic.rakutest'
+[P5readlink] ok 8 - did we get a Nil on $_ non-existing?
+[P5readlink] ok 9 - did we get a Nil on $_ not being a symlink?
+[P5readlink] # You failed 2 tests of 9
+===> Testing [FAIL]: P5readlink:ver<0.0.10>:auth<zef:lizmat>
+[P5readlink] Failed to get passing tests, but continuing with --force-test
+===> Installing: P5readlink:ver<0.0.10>:auth<zef:lizmat>
+===> Install [OK] for P5readlink:ver<0.0.10>:auth<zef:lizmat>

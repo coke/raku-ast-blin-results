@@ -1,0 +1,490 @@
+===> Searching for: Encoding::Emacs
+===> Found: Encoding::Emacs:ver<0.1.4>:auth<zef:winfredraj> [via Zef::Repository::Ecosystems<fez>]
+[Encoding::Emacs] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781723050.52688.1637.7484319667046/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz https://360.zef.pm/E/NC/ENCODING_EMACS/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz
+===> Fetching [OK]: Encoding::Emacs:ver<0.1.4>:auth<zef:winfredraj> to /blin/data/zef-data/tmp/1781723050.52688.1637.7484319667046/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz
+[Encoding::Emacs] Command: tar -t -f ./ae32423e29a570c3760ef314c12b7931294c043e.tar.gz
+[Encoding::Emacs] Command: tar -xvf ./ae32423e29a570c3760ef314c12b7931294c043e.tar.gz -C ../ae32423e29a570c3760ef314c12b7931294c043e.tar.gz
+===> Extraction [OK]: Encoding::Emacs to /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz
+===> Testing: Encoding::Emacs:ver<0.1.4>:auth<zef:winfredraj>
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/01-parser.rakutest
+[Encoding::Emacs] 1..7
+[Encoding::Emacs] ok 1 - Parse succeeded
+[Encoding::Emacs] ok 2 - One charset parsed
+[Encoding::Emacs] ok 3 - Charset name correct
+[Encoding::Emacs] ok 4 - Alias parsed
+[Encoding::Emacs] ok 5 - Alias definition parsed
+[Encoding::Emacs] ok 6 - Alias name correct
+[Encoding::Emacs] ok 7 - Alias target correct
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/02-generator.rakutest
+[Encoding::Emacs] 1..5
+[Encoding::Emacs] ok 1 - Kebab to PascalCase with underscores
+[Encoding::Emacs] ok 2 - Windows charset normalized
+[Encoding::Emacs] ok 3 - UTF-8 normalized
+[Encoding::Emacs] ok 4 - Generated class has correct name
+[Encoding::Emacs] ok 5 - Generated class has charset name
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/03-mapping-table.rakutest
+[Encoding::Emacs] ===SORRY!===
+[Encoding::Emacs] Object of type Label in QAST::Var value, but not in SC
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/04-encoding-decoding.rakutest
+[Encoding::Emacs] 1..15
+[Encoding::Emacs] ok 1 - ISO-8859-5 object created
+[Encoding::Emacs] ok 2 - ISO-8859-5 name correct
+[Encoding::Emacs] ok 3 - Decode ISO-8859-5 correctly
+[Encoding::Emacs] ok 4 - Encoded to 3 bytes
+[Encoding::Emacs] ok 5 - First byte correct (A)
+[Encoding::Emacs] ok 6 - Second byte correct (Ё)
+[Encoding::Emacs] ok 7 - Windows-1252 object created
+[Encoding::Emacs] ok 8 - Windows-1252 name correct
+[Encoding::Emacs] ok 9 - Windows-1252 is ASCII compatible
+[Encoding::Emacs] ok 10 - Encoding produces output
+[Encoding::Emacs] ok 11 - Decoding produces output
+[Encoding::Emacs] ok 12 - Contains ASCII part
+[Encoding::Emacs] ok 13 - Has alternative names
+[Encoding::Emacs] ok 14 - Contains expected alias
+[Encoding::Emacs] ok 15 - Description correct
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/05-phase3-encode-decode.rakutest
+[Encoding::Emacs] 1..15
+[Encoding::Emacs] ok 1 - ISO-8859-5 object created
+[Encoding::Emacs] ok 2 - ISO-8859-5 name correct
+[Encoding::Emacs] ok 3 - Decode ISO-8859-5 correctly
+[Encoding::Emacs] ok 4 - Encoded to 3 bytes
+[Encoding::Emacs] ok 5 - First byte correct (A)
+[Encoding::Emacs] ok 6 - Second byte correct (Ё)
+[Encoding::Emacs] ok 7 - Windows-1252 object created
+[Encoding::Emacs] ok 8 - Windows-1252 name correct
+[Encoding::Emacs] ok 9 - Windows-1252 is ASCII compatible
+[Encoding::Emacs] ok 10 - Encoding produces output
+[Encoding::Emacs] ok 11 - Decoding produces output
+[Encoding::Emacs] ok 12 - Contains ASCII part
+[Encoding::Emacs] ok 13 - Has alternative names
+[Encoding::Emacs] ok 14 - Contains expected alias
+[Encoding::Emacs] ok 15 - Description correct
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/06-cp850-encoding.rakutest
+[Encoding::Emacs] 1..8
+[Encoding::Emacs] ok 1 - Decode ASCII in CP850
+[Encoding::Emacs] ok 2 - Decode box drawing character
+[Encoding::Emacs] ok 3 - Decode cent sign
+[Encoding::Emacs] ok 4 - Encoded to 5 bytes
+[Encoding::Emacs] ok 5 - First byte correct
+[Encoding::Emacs] ok 6 - Cent sign encoded correctly
+[Encoding::Emacs] ok 7 - Encoding succeeded
+[Encoding::Emacs] ok 8 - Round-trip successful
+[Encoding::Emacs] ✅ YES! We have CP850 (IBM850/DOS) encoding!
+[Encoding::Emacs]    - Full encode/decode support
+[Encoding::Emacs]    - Box drawing characters ✓
+[Encoding::Emacs]    - Extended ASCII ✓
+[Encoding::Emacs]    - Round-trip accuracy ✓
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/07-iso8859-family.rakutest
+[Encoding::Emacs] 1..52
+[Encoding::Emacs] ok 1 - ISO-8859-2 name
+[Encoding::Emacs] ok 2 - 8859-2: ASCII A
+[Encoding::Emacs] ok 3 - 8859-2: ASCII z
+[Encoding::Emacs] ok 4 - 8859-2: 0xE0 = ŕ
+[Encoding::Emacs] ok 5 - 8859-2: 0xE4 = ä
+[Encoding::Emacs] ok 6 - 8859-2: 0xE9 = é
+[Encoding::Emacs] ok 7 - 8859-2: round-trip café
+[Encoding::Emacs] ok 8 - ISO-8859-5 name
+[Encoding::Emacs] ok 9 - ISO-8859-5 description
+[Encoding::Emacs] ok 10 - 8859-5: 0xA1 = Ё
+[Encoding::Emacs] ok 11 - 8859-5: 0xEF = я
+[Encoding::Emacs] ok 12 - 8859-5: 0xF0 = №
+[Encoding::Emacs] ok 13 - 8859-5: 0xF1 = ё
+[Encoding::Emacs] ok 14 - 8859-5: 0xFD = §
+[Encoding::Emacs] ok 15 - 8859-5: Ё encodes to 0xA1
+[Encoding::Emacs] ok 16 - 8859-5: я encodes to 0xEF
+[Encoding::Emacs] ok 17 - 8859-5: round-trip Привет
+[Encoding::Emacs] ok 18 - 8859-5: has alias cyrillic-iso8859-5
+[Encoding::Emacs] ok 19 - ISO-8859-3 name
+[Encoding::Emacs] ok 20 - 8859-3: ASCII identity
+[Encoding::Emacs] ok 21 - 8859-3: round-trip Hello
+[Encoding::Emacs] ok 22 - ISO-8859-4 name
+[Encoding::Emacs] ok 23 - 8859-4: ASCII identity
+[Encoding::Emacs] ok 24 - 8859-4: round-trip Hello
+[Encoding::Emacs] ok 25 - ISO-8859-7 name
+[Encoding::Emacs] ok 26 - 8859-7: 0xA4 = €
+[Encoding::Emacs] ok 27 - 8859-7: 0xB4 = ΄
+[Encoding::Emacs] ok 28 - 8859-7: 0xC1 = Α
+[Encoding::Emacs] ok 29 - 8859-7: 0xE1 = α
+[Encoding::Emacs] ok 30 - 8859-7: round-trip αβγ
+[Encoding::Emacs] ok 31 - ISO-8859-8 name
+[Encoding::Emacs] ok 32 - 8859-8: 0xA2 = ¢
+[Encoding::Emacs] ok 33 - 8859-8: 0xAA = ×
+[Encoding::Emacs] ok 34 - 8859-8: 0xDF = ‗
+[Encoding::Emacs] ok 35 - 8859-8: 0xE0 = א
+[Encoding::Emacs] ok 36 - 8859-8: 0xE1 = ב
+[Encoding::Emacs] ok 37 - 8859-8: decode אבג
+[Encoding::Emacs] ok 38 - 8859-8: encode אבג
+[Encoding::Emacs] ok 39 - ISO-8859-9 name
+[Encoding::Emacs] ok 40 - 8859-9: ASCII identity
+[Encoding::Emacs] ok 41 - ISO-8859-14 name
+[Encoding::Emacs] ok 42 - ISO-8859-14: ASCII identity
+[Encoding::Emacs] ok 43 - ISO-8859-15 name
+[Encoding::Emacs] ok 44 - 8859-15: 0xA4 = €
+[Encoding::Emacs] ok 45 - 8859-15: 0xA6 = Š
+[Encoding::Emacs] ok 46 - 8859-15: 0xA8 = š
+[Encoding::Emacs] ok 47 - 8859-15: 0xB4 = Ž
+[Encoding::Emacs] ok 48 - 8859-15: 0xB8 = ž
+[Encoding::Emacs] ok 49 - 8859-15: 0xBC = Œ
+[Encoding::Emacs] ok 50 - 8859-15: 0xBD = œ
+[Encoding::Emacs] ok 51 - 8859-15: 0xBE = Ÿ
+[Encoding::Emacs] ok 52 - 8859-15: round-trip €100
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/08-windows-codepages.rakutest
+[Encoding::Emacs] 1..47
+[Encoding::Emacs] ok 1 - CP1250 name
+[Encoding::Emacs] ok 2 - Windows-1250 name
+[Encoding::Emacs] ok 3 - CP1250 is ASCII compatible
+[Encoding::Emacs] ok 4 - CP1250: 0x80 = €
+[Encoding::Emacs] ok 5 - CP1250: 0x8A = Š
+[Encoding::Emacs] ok 6 - CP1250: 0x8E = Ž
+[Encoding::Emacs] ok 7 - CP1250: 0xA3 = Ł
+[Encoding::Emacs] ok 8 - CP1250: 0xC0 = Ŕ
+[Encoding::Emacs] ok 9 - CP1250: 0xE9 = é
+[Encoding::Emacs] ok 10 - CP1250: Š encodes to 0x8A
+[Encoding::Emacs] ok 11 - CP1250: round-trip Ząb
+[Encoding::Emacs] ok 12 - CP1251 name
+[Encoding::Emacs] ok 13 - CP1251: 0x80 = Ђ
+[Encoding::Emacs] ok 14 - CP1251: 0x82 = ‚
+[Encoding::Emacs] ok 15 - CP1251: 0x88 = €
+[Encoding::Emacs] ok 16 - CP1251: 0xA8 = Ё
+[Encoding::Emacs] ok 17 - CP1251: 0xC0 = А
+[Encoding::Emacs] ok 18 - CP1251: 0xFF = я
+[Encoding::Emacs] ok 19 - CP1251: 0xB9 = №
+[Encoding::Emacs] ok 20 - CP1251: А encodes to 0xC0
+[Encoding::Emacs] ok 21 - CP1251: round-trip Привет мир
+[Encoding::Emacs] ok 22 - CP1252 name
+[Encoding::Emacs] ok 23 - Windows-1252 name
+[Encoding::Emacs] ok 24 - Windows-1252 is ASCII compatible
+[Encoding::Emacs] ok 25 - CP1252: 0x80 = €
+[Encoding::Emacs] ok 26 - CP1252: 0x9C = œ
+[Encoding::Emacs] ok 27 - CP1252: 0xA0 = NBSP
+[Encoding::Emacs] ok 28 - CP1252: 0xE9 = é
+[Encoding::Emacs] ok 29 - CP1252: 0xFF = ÿ
+[Encoding::Emacs] ok 30 - CP1252: € encodes to 0x80
+[Encoding::Emacs] ok 31 - CP1252: round-trip Café résumé
+[Encoding::Emacs] ok 32 - Windows-1253 name
+[Encoding::Emacs] ok 33 - CP1253: 0x80 = €
+[Encoding::Emacs] ok 34 - CP1253: 0xA1 = ΅
+[Encoding::Emacs] ok 35 - CP1253: round-trip Αβγ
+[Encoding::Emacs] ok 36 - Windows-1254 name
+[Encoding::Emacs] ok 37 - CP1254: ASCII A
+[Encoding::Emacs] ok 38 - CP1254: round-trip İstanbul
+[Encoding::Emacs] ok 39 - Windows-1255 name
+[Encoding::Emacs] ok 40 - CP1255: ASCII A
+[Encoding::Emacs] ok 41 - Windows-1256 name
+[Encoding::Emacs] ok 42 - CP1256: ASCII A
+[Encoding::Emacs] ok 43 - Windows-1257 name
+[Encoding::Emacs] ok 44 - CP1257: ASCII A
+[Encoding::Emacs] ok 45 - CP1257: round-trip Āēīū
+[Encoding::Emacs] ok 46 - Windows-1258 name
+[Encoding::Emacs] ok 47 - CP1258: ASCII A
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/09-dos-codepages.rakutest
+[Encoding::Emacs] 1..46
+[Encoding::Emacs] ok 1 - CP437 name
+[Encoding::Emacs] ok 2 - CP437 is ASCII compatible
+[Encoding::Emacs] ok 3 - CP437: ASCII Hi
+[Encoding::Emacs] ok 4 - CP437: 0x80 = Ç
+[Encoding::Emacs] ok 5 - CP437: 0x81 = ü
+[Encoding::Emacs] ok 6 - CP437: 0x82 = é
+[Encoding::Emacs] ok 7 - CP437: 0x87 = ç
+[Encoding::Emacs] ok 8 - CP437: ü encodes to 0x81
+[Encoding::Emacs] ok 9 - CP437: round-trip Çüé
+[Encoding::Emacs] ok 10 - CP850 name
+[Encoding::Emacs] ok 11 - IBM850 name
+[Encoding::Emacs] ok 12 - CP850: ASCII ABC
+[Encoding::Emacs] ok 13 - CP850: 0x9B = ø
+[Encoding::Emacs] ok 14 - CP850: 0x9C = £
+[Encoding::Emacs] ok 15 - CP850: 0x9D = Ø
+[Encoding::Emacs] ok 16 - CP850: 0xBD = ¢
+[Encoding::Emacs] ok 17 - CP850: 0xB3 = │
+[Encoding::Emacs] ok 18 - CP850: Ø encodes to 0x9D
+[Encoding::Emacs] ok 19 - CP850: ¢ encodes to 0xBD
+[Encoding::Emacs] ok 20 - CP850: round-trip Grüß Gott
+[Encoding::Emacs] ok 21 - CP852 name
+[Encoding::Emacs] ok 22 - CP852: ASCII A
+[Encoding::Emacs] ok 23 - CP852: round-trip Žluč
+[Encoding::Emacs] ok 24 - CP855 name
+[Encoding::Emacs] ok 25 - CP855: ASCII A
+[Encoding::Emacs] ok 26 - CP855: round-trip Привет
+[Encoding::Emacs] ok 27 - CP860 name
+[Encoding::Emacs] ok 28 - CP860: ASCII A
+[Encoding::Emacs] ok 29 - CP860: round-trip café
+[Encoding::Emacs] ok 30 - CP861 name
+[Encoding::Emacs] ok 31 - CP861: ASCII A
+[Encoding::Emacs] ok 32 - CP862 name
+[Encoding::Emacs] ok 33 - CP862: ASCII A
+[Encoding::Emacs] ok 34 - CP862: round-trip שלום
+[Encoding::Emacs] ok 35 - CP863 name
+[Encoding::Emacs] ok 36 - CP863: ASCII A
+[Encoding::Emacs] ok 37 - CP865 name
+[Encoding::Emacs] ok 38 - CP865: ASCII A
+[Encoding::Emacs] ok 39 - CP866 name
+[Encoding::Emacs] ok 40 - IBM866 name
+[Encoding::Emacs] ok 41 - CP866: 0x80 = А
+[Encoding::Emacs] ok 42 - CP866: 0x81 = Б
+[Encoding::Emacs] ok 43 - CP866: 0xAF = п
+[Encoding::Emacs] ok 44 - CP866: 0xB3 = │
+[Encoding::Emacs] ok 45 - CP866: А encodes to 0x80
+[Encoding::Emacs] ok 46 - CP866: round-trip Привет мир!
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/10-koi8-and-other.rakutest
+[Encoding::Emacs] 1..43
+[Encoding::Emacs] ok 1 - KOI8-R name
+[Encoding::Emacs] ok 2 - KOI8-R is ASCII compatible
+[Encoding::Emacs] ok 3 - KOI8-R: ASCII Hello
+[Encoding::Emacs] ok 4 - KOI8-R: 0x80 = ─
+[Encoding::Emacs] ok 5 - KOI8-R: 0x81 = │
+[Encoding::Emacs] ok 6 - KOI8-R: 0x82 = ┌
+[Encoding::Emacs] ok 7 - KOI8-R: 0xA3 = ё
+[Encoding::Emacs] ok 8 - KOI8-R: 0xB3 = Ё
+[Encoding::Emacs] ok 9 - KOI8-R: 0xC0 = ю
+[Encoding::Emacs] ok 10 - KOI8-R: 0xC1 = а
+[Encoding::Emacs] ok 11 - KOI8-R: 0xC2 = б
+[Encoding::Emacs] ok 12 - KOI8-R: 0xC3 = ц
+[Encoding::Emacs] ok 13 - KOI8-R: 0xE0 = Ю
+[Encoding::Emacs] ok 14 - KOI8-R: 0xE1 = А
+[Encoding::Emacs] ok 15 - KOI8-R: 0xE2 = Б
+[Encoding::Emacs] ok 16 - KOI8-R: 0xFF = Ъ
+[Encoding::Emacs] ok 17 - KOI8-R: а encodes to 0xC1
+[Encoding::Emacs] ok 18 - KOI8-R: А encodes to 0xE1
+[Encoding::Emacs] ok 19 - KOI8-R: round-trip Привет мир
+[Encoding::Emacs] ok 20 - KOI8-R: has alias koi8_r
+[Encoding::Emacs] ok 21 - KOI8-U name
+[Encoding::Emacs] ok 22 - KOI8-U is ASCII compatible
+[Encoding::Emacs] ok 23 - KOI8-U: 0xC0 = ю
+[Encoding::Emacs] ok 24 - KOI8-U: round-trip Привіт світ
+[Encoding::Emacs] ok 25 - KOI8-T name
+[Encoding::Emacs] ok 26 - KOI8-T: ASCII A
+[Encoding::Emacs] ok 27 - Mac Roman name
+[Encoding::Emacs] ok 28 - Mac Roman is ASCII compatible
+[Encoding::Emacs] ok 29 - Mac Roman: ASCII A
+[Encoding::Emacs] ok 30 - Mac Roman: 0x80 = Ä
+[Encoding::Emacs] ok 31 - Mac Roman: 0x81 = Å
+[Encoding::Emacs] ok 32 - Mac Roman: 0x82 = Ç
+[Encoding::Emacs] ok 33 - Mac Roman: 0x83 = É
+[Encoding::Emacs] ok 34 - Mac Roman: 0x87 = á
+[Encoding::Emacs] ok 35 - Mac Roman: Ä encodes to 0x80
+[Encoding::Emacs] ok 36 - Mac Roman: round-trip Café
+[Encoding::Emacs] ok 37 - HP Roman8 name
+[Encoding::Emacs] ok 38 - HP Roman8: ASCII A
+[Encoding::Emacs] ok 39 - MIK name
+[Encoding::Emacs] ok 40 - MIK: ASCII A
+[Encoding::Emacs] ok 41 - MIK: round-trip Привет
+[Encoding::Emacs] ok 42 - Alternativnyj name
+[Encoding::Emacs] ok 43 - Alternativnyj: ASCII A
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/11-edge-cases.rakutest
+[Encoding::Emacs] 1..31
+[Encoding::Emacs] ok 1 - Null byte (0x00) decodes correctly
+[Encoding::Emacs] ok 2 - DEL byte (0x7F) decodes correctly in KOI8-R
+[Encoding::Emacs] ok 3 - Last byte (0xFF) decodes in KOI8-R
+[Encoding::Emacs] ok 4 - Empty Blob decodes to empty string
+[Encoding::Emacs] ok 5 - Empty string encodes to empty Blob
+[Encoding::Emacs] ok 6 - KOI8-R: 'A' encodes to 0x41
+[Encoding::Emacs] ok 7 - KOI8-R: 0x41 decodes to 'A'
+[Encoding::Emacs] ok 8 - KOI8-R: 'а' encodes to 0xC1
+[Encoding::Emacs] ok 9 - KOI8-R: 0xC1 decodes to 'а'
+[Encoding::Emacs] ok 10 - KOI8-R: 'А' encodes to 0xE1
+[Encoding::Emacs] ok 11 - KOI8-R: 0xE1 decodes to 'А'
+[Encoding::Emacs] ok 12 - KOI8-R: 'ю' encodes to 0xC0
+[Encoding::Emacs] ok 13 - KOI8-R: 0xC0 decodes to 'ю'
+[Encoding::Emacs] ok 14 - Unmappable char replaced with ? (0x3F)
+[Encoding::Emacs] ok 15 - CP1252: unmappable Ω defaults to ? replacement
+[Encoding::Emacs] ok 16 - Long buffer (1800 chars) round-trip OK
+[Encoding::Emacs] ok 17 - Decode 5 bytes → 5 characters
+[Encoding::Emacs] ok 18 - First char: A
+[Encoding::Emacs] ok 19 - Second char: Ё (U+0401)
+[Encoding::Emacs] ok 20 - Last char: B
+[Encoding::Emacs] ok 21 - Two decoders return identical results (cache consistent)
+[Encoding::Emacs] ok 22 - Separate instances decode identically (shared class-level cache)
+[Encoding::Emacs] ok 23 - MappingTable: undefined byte falls back to identity
+[Encoding::Emacs] ok 24 - can-encode: 🎉 (U+1F389) not in ISO-8859-5
+[Encoding::Emacs] ok 25 - can-encode: Ё (U+0401) is in ISO-8859-5
+[Encoding::Emacs] ok 26 - CP850: 'A' survives encode→decode
+[Encoding::Emacs] ok 27 - CP850: 'é' survives encode→decode
+[Encoding::Emacs] ok 28 - CP850: 'ü' survives encode→decode
+[Encoding::Emacs] ok 29 - CP850: 'Ø' survives encode→decode
+[Encoding::Emacs] ok 30 - CP850: '¢' survives encode→decode
+[Encoding::Emacs] ok 31 - CP850: '│' survives encode→decode
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/12-roundtrip-all-encodings.rakutest
+[Encoding::Emacs] 1..156
+[Encoding::Emacs] ok 1 - ISO-8859-2: mapping table loads without error
+[Encoding::Emacs] ok 2 - ISO-8859-2: A-Z ASCII decode identity
+[Encoding::Emacs] ok 3 - ISO-8859-2: A-Z ASCII encode identity
+[Encoding::Emacs] ok 4 - ISO-8859-3: mapping table loads without error
+[Encoding::Emacs] ok 5 - ISO-8859-3: A-Z ASCII decode identity
+[Encoding::Emacs] ok 6 - ISO-8859-3: A-Z ASCII encode identity
+[Encoding::Emacs] ok 7 - ISO-8859-4: mapping table loads without error
+[Encoding::Emacs] ok 8 - ISO-8859-4: A-Z ASCII decode identity
+[Encoding::Emacs] ok 9 - ISO-8859-4: A-Z ASCII encode identity
+[Encoding::Emacs] ok 10 - ISO-8859-5: mapping table loads without error
+[Encoding::Emacs] ok 11 - ISO-8859-5: A-Z ASCII decode identity
+[Encoding::Emacs] ok 12 - ISO-8859-5: A-Z ASCII encode identity
+[Encoding::Emacs] ok 13 - ISO-8859-6: mapping table loads without error
+[Encoding::Emacs] ok 14 - ISO-8859-6: A-Z ASCII decode identity
+[Encoding::Emacs] ok 15 - ISO-8859-6: A-Z ASCII encode identity
+[Encoding::Emacs] ok 16 - ISO-8859-7: mapping table loads without error
+[Encoding::Emacs] ok 17 - ISO-8859-7: A-Z ASCII decode identity
+[Encoding::Emacs] ok 18 - ISO-8859-7: A-Z ASCII encode identity
+[Encoding::Emacs] ok 19 - ISO-8859-8: mapping table loads without error
+[Encoding::Emacs] ok 20 - ISO-8859-8: A-Z ASCII decode identity
+[Encoding::Emacs] ok 21 - ISO-8859-8: A-Z ASCII encode identity
+[Encoding::Emacs] ok 22 - ISO-8859-9: mapping table loads without error
+[Encoding::Emacs] ok 23 - ISO-8859-9: A-Z ASCII decode identity
+[Encoding::Emacs] ok 24 - ISO-8859-9: A-Z ASCII encode identity
+[Encoding::Emacs] ok 25 - ISO-8859-14: mapping table loads without error
+[Encoding::Emacs] ok 26 - ISO-8859-14: A-Z ASCII decode identity
+[Encoding::Emacs] ok 27 - ISO-8859-14: A-Z ASCII encode identity
+[Encoding::Emacs] ok 28 - ISO-8859-15: mapping table loads without error
+[Encoding::Emacs] ok 29 - ISO-8859-15: A-Z ASCII decode identity
+[Encoding::Emacs] ok 30 - ISO-8859-15: A-Z ASCII encode identity
+[Encoding::Emacs] ok 31 - Windows-1250: mapping table loads without error
+[Encoding::Emacs] ok 32 - Windows-1250: A-Z ASCII decode identity
+[Encoding::Emacs] ok 33 - Windows-1250: A-Z ASCII encode identity
+[Encoding::Emacs] ok 34 - Windows-1251: mapping table loads without error
+[Encoding::Emacs] ok 35 - Windows-1251: A-Z ASCII decode identity
+[Encoding::Emacs] ok 36 - Windows-1251: A-Z ASCII encode identity
+[Encoding::Emacs] ok 37 - Windows-1252: mapping table loads without error
+[Encoding::Emacs] ok 38 - Windows-1252: A-Z ASCII decode identity
+[Encoding::Emacs] ok 39 - Windows-1252: A-Z ASCII encode identity
+[Encoding::Emacs] ok 40 - Windows-1253: mapping table loads without error
+[Encoding::Emacs] ok 41 - Windows-1253: A-Z ASCII decode identity
+[Encoding::Emacs] ok 42 - Windows-1253: A-Z ASCII encode identity
+[Encoding::Emacs] ok 43 - Windows-1254: mapping table loads without error
+[Encoding::Emacs] ok 44 - Windows-1254: A-Z ASCII decode identity
+[Encoding::Emacs] ok 45 - Windows-1254: A-Z ASCII encode identity
+[Encoding::Emacs] ok 46 - Windows-1255: mapping table loads without error
+[Encoding::Emacs] ok 47 - Windows-1255: A-Z ASCII decode identity
+[Encoding::Emacs] ok 48 - Windows-1255: A-Z ASCII encode identity
+[Encoding::Emacs] ok 49 - Windows-1256: mapping table loads without error
+[Encoding::Emacs] ok 50 - Windows-1256: A-Z ASCII decode identity
+[Encoding::Emacs] ok 51 - Windows-1256: A-Z ASCII encode identity
+[Encoding::Emacs] ok 52 - Windows-1257: mapping table loads without error
+[Encoding::Emacs] ok 53 - Windows-1257: A-Z ASCII decode identity
+[Encoding::Emacs] ok 54 - Windows-1257: A-Z ASCII encode identity
+[Encoding::Emacs] ok 55 - Windows-1258: mapping table loads without error
+[Encoding::Emacs] ok 56 - Windows-1258: A-Z ASCII decode identity
+[Encoding::Emacs] ok 57 - Windows-1258: A-Z ASCII encode identity
+[Encoding::Emacs] ok 58 - IBM-437: mapping table loads without error
+[Encoding::Emacs] ok 59 - IBM-437: A-Z ASCII decode identity
+[Encoding::Emacs] ok 60 - IBM-437: A-Z ASCII encode identity
+[Encoding::Emacs] ok 61 - IBM-850: mapping table loads without error
+[Encoding::Emacs] ok 62 - IBM-850: A-Z ASCII decode identity
+[Encoding::Emacs] ok 63 - IBM-850: A-Z ASCII encode identity
+[Encoding::Emacs] ok 64 - IBM-851: mapping table loads without error
+[Encoding::Emacs] ok 65 - IBM-851: A-Z ASCII decode identity
+[Encoding::Emacs] ok 66 - IBM-851: A-Z ASCII encode identity
+[Encoding::Emacs] ok 67 - IBM-852: mapping table loads without error
+[Encoding::Emacs] ok 68 - IBM-852: A-Z ASCII decode identity
+[Encoding::Emacs] ok 69 - IBM-852: A-Z ASCII encode identity
+[Encoding::Emacs] ok 70 - IBM-855: mapping table loads without error
+[Encoding::Emacs] ok 71 - IBM-855: A-Z ASCII decode identity
+[Encoding::Emacs] ok 72 - IBM-855: A-Z ASCII encode identity
+[Encoding::Emacs] ok 73 - IBM-857: mapping table loads without error
+[Encoding::Emacs] ok 74 - IBM-857: A-Z ASCII decode identity
+[Encoding::Emacs] ok 75 - IBM-857: A-Z ASCII encode identity
+[Encoding::Emacs] ok 76 - IBM-860: mapping table loads without error
+[Encoding::Emacs] ok 77 - IBM-860: A-Z ASCII decode identity
+[Encoding::Emacs] ok 78 - IBM-860: A-Z ASCII encode identity
+[Encoding::Emacs] ok 79 - IBM-861: mapping table loads without error
+[Encoding::Emacs] ok 80 - IBM-861: A-Z ASCII decode identity
+[Encoding::Emacs] ok 81 - IBM-861: A-Z ASCII encode identity
+[Encoding::Emacs] ok 82 - IBM-862: mapping table loads without error
+[Encoding::Emacs] ok 83 - IBM-862: A-Z ASCII decode identity
+[Encoding::Emacs] ok 84 - IBM-862: A-Z ASCII encode identity
+[Encoding::Emacs] ok 85 - IBM-863: mapping table loads without error
+[Encoding::Emacs] ok 86 - IBM-863: A-Z ASCII decode identity
+[Encoding::Emacs] ok 87 - IBM-863: A-Z ASCII encode identity
+[Encoding::Emacs] ok 88 - IBM-864: mapping table loads without error
+[Encoding::Emacs] ok 89 - IBM-864: A-Z ASCII decode identity
+[Encoding::Emacs] ok 90 - IBM-864: A-Z ASCII encode identity
+[Encoding::Emacs] ok 91 - IBM-865: mapping table loads without error
+[Encoding::Emacs] ok 92 - IBM-865: A-Z ASCII decode identity
+[Encoding::Emacs] ok 93 - IBM-865: A-Z ASCII encode identity
+[Encoding::Emacs] ok 94 - IBM-866: mapping table loads without error
+[Encoding::Emacs] ok 95 - IBM-866: A-Z ASCII decode identity
+[Encoding::Emacs] ok 96 - IBM-866: A-Z ASCII encode identity
+[Encoding::Emacs] ok 97 - IBM-869: mapping table loads without error
+[Encoding::Emacs] ok 98 - IBM-869: A-Z ASCII decode identity
+[Encoding::Emacs] ok 99 - IBM-869: A-Z ASCII encode identity
+[Encoding::Emacs] ok 100 - IBM-874: mapping table loads without error
+[Encoding::Emacs] ok 101 - IBM-874: A-Z ASCII decode identity
+[Encoding::Emacs] ok 102 - IBM-874: A-Z ASCII encode identity
+[Encoding::Emacs] ok 103 - CP-720: mapping table loads without error
+[Encoding::Emacs] ok 104 - CP-720: A-Z ASCII decode identity
+[Encoding::Emacs] ok 105 - CP-720: A-Z ASCII encode identity
+[Encoding::Emacs] ok 106 - CP-737: mapping table loads without error
+[Encoding::Emacs] ok 107 - CP-737: A-Z ASCII decode identity
+[Encoding::Emacs] ok 108 - CP-737: A-Z ASCII encode identity
+[Encoding::Emacs] ok 109 - CP-775: mapping table loads without error
+[Encoding::Emacs] ok 110 - CP-775: A-Z ASCII decode identity
+[Encoding::Emacs] ok 111 - CP-775: A-Z ASCII encode identity
+[Encoding::Emacs] ok 112 - CP-858: mapping table loads without error
+[Encoding::Emacs] ok 113 - CP-858: A-Z ASCII decode identity
+[Encoding::Emacs] ok 114 - CP-858: A-Z ASCII encode identity
+[Encoding::Emacs] ok 115 - CP-1125: mapping table loads without error
+[Encoding::Emacs] ok 116 - CP-1125: A-Z ASCII decode identity
+[Encoding::Emacs] ok 117 - CP-1125: A-Z ASCII encode identity
+[Encoding::Emacs] ok 118 - KOI8-R: mapping table loads without error
+[Encoding::Emacs] ok 119 - KOI8-R: A-Z ASCII decode identity
+[Encoding::Emacs] ok 120 - KOI8-R: A-Z ASCII encode identity
+[Encoding::Emacs] ok 121 - KOI8-U: mapping table loads without error
+[Encoding::Emacs] ok 122 - KOI8-U: A-Z ASCII decode identity
+[Encoding::Emacs] ok 123 - KOI8-U: A-Z ASCII encode identity
+[Encoding::Emacs] ok 124 - KOI8-T: mapping table loads without error
+[Encoding::Emacs] ok 125 - KOI8-T: A-Z ASCII decode identity
+[Encoding::Emacs] ok 126 - KOI8-T: A-Z ASCII encode identity
+[Encoding::Emacs] ok 127 - Alternativnyj: mapping table loads without error
+[Encoding::Emacs] ok 128 - Alternativnyj: A-Z ASCII decode identity
+[Encoding::Emacs] ok 129 - Alternativnyj: A-Z ASCII encode identity
+[Encoding::Emacs] ok 130 - MIK: mapping table loads without error
+[Encoding::Emacs] ok 131 - MIK: A-Z ASCII decode identity
+[Encoding::Emacs] ok 132 - MIK: A-Z ASCII encode identity
+[Encoding::Emacs] ok 133 - Mac Roman: mapping table loads without error
+[Encoding::Emacs] ok 134 - Mac Roman: A-Z ASCII decode identity
+[Encoding::Emacs] ok 135 - Mac Roman: A-Z ASCII encode identity
+[Encoding::Emacs] ok 136 - HP Roman8: mapping table loads without error
+[Encoding::Emacs] ok 137 - HP Roman8: A-Z ASCII decode identity
+[Encoding::Emacs] ok 138 - HP Roman8: A-Z ASCII encode identity
+[Encoding::Emacs] ok 139 - NeXTSTEP: mapping table loads without error
+[Encoding::Emacs] ok 140 - NeXTSTEP: A-Z ASCII decode identity
+[Encoding::Emacs] ok 141 - NeXTSTEP: A-Z ASCII encode identity
+[Encoding::Emacs] ok 142 - VISCII: mapping table loads without error
+[Encoding::Emacs] ok 143 - VISCII: A-Z ASCII decode identity
+[Encoding::Emacs] ok 144 - VISCII: A-Z ASCII encode identity
+[Encoding::Emacs] ok 145 - VSCII: mapping table loads without error
+[Encoding::Emacs] ok 146 - VSCII: A-Z ASCII decode identity
+[Encoding::Emacs] ok 147 - VSCII: A-Z ASCII encode identity
+[Encoding::Emacs] ok 148 - VSCII-2: mapping table loads without error
+[Encoding::Emacs] ok 149 - VSCII-2: A-Z ASCII decode identity
+[Encoding::Emacs] ok 150 - VSCII-2: A-Z ASCII encode identity
+[Encoding::Emacs] ok 151 - Georgian Academy: mapping table loads without error
+[Encoding::Emacs] ok 152 - Georgian Academy: A-Z ASCII decode identity
+[Encoding::Emacs] ok 153 - Georgian Academy: A-Z ASCII encode identity
+[Encoding::Emacs] ok 154 - Georgian PS: mapping table loads without error
+[Encoding::Emacs] ok 155 - Georgian PS: A-Z ASCII decode identity
+[Encoding::Emacs] ok 156 - Georgian PS: A-Z ASCII encode identity
+[Encoding::Emacs] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ae32423e29a570c3760ef314c12b7931294c043e.tar.gz/dist t/13-caching-and-errors.rakutest
+[Encoding::Emacs] 1..18
+[Encoding::Emacs] ok 1 - Same map file returns cached object
+[Encoding::Emacs] ok 2 - Cached and fresh object give same decode result
+[Encoding::Emacs] ok 3 - Different map files return different objects
+[Encoding::Emacs] ok 4 - All 20 loads return the same cached object
+[Encoding::Emacs] ok 5 - KOI8-R: second load returns cached object
+[Encoding::Emacs] ok 6 - IBM850: second load returns cached object
+[Encoding::Emacs] ok 7 - 8859-5: second load returns cached object
+[Encoding::Emacs] ok 8 - CP1252: second load returns cached object
+[Encoding::Emacs] ok 9 - MACINTOSH: second load returns cached object
+[Encoding::Emacs] ok 10 - Loading nonexistent map file throws error
+[Encoding::Emacs] ok 11 - Error message mentions "Mapping file not found"
+[Encoding::Emacs] ok 12 - decode-bytes is deterministic for same input
+[Encoding::Emacs] ok 13 - decode-bytes produces one char per byte
+[Encoding::Emacs] ok 14 - Mixed string: 3 bytes (A, ?, B)
+[Encoding::Emacs] ok 15 - Mixed: A → 0x41
+[Encoding::Emacs] ok 16 - Mixed: 🎉 → ? (0x3F)
+[Encoding::Emacs] ok 17 - Mixed: B → 0x42
+[Encoding::Emacs] ok 18 - All printable ASCII chars can be encoded in KOI8-R
+===> Testing [FAIL]: Encoding::Emacs:ver<0.1.4>:auth<zef:winfredraj>
+[Encoding::Emacs] Failed to get passing tests, but continuing with --force-test
+===> Installing: Encoding::Emacs:ver<0.1.4>:auth<zef:winfredraj>
+===> Install [OK] for Encoding::Emacs:ver<0.1.4>:auth<zef:winfredraj>
+
+2 bin/ scripts [demo.raku generate-encodings.raku] installed to:
+/blin/installed/Encoding::Emacs_0.1.4/bin

@@ -1,0 +1,37 @@
+===> Searching for: ADT
+===> Found: ADT:ver<0.5> [via Zef::Repository::Ecosystems<rea>]
+[ADT] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781717152.4276.3596.6825119834143/ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/A/ADT/ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz
+===> Fetching [OK]: ADT:ver<0.5> to /blin/data/zef-data/tmp/1781717152.4276.3596.6825119834143/ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz
+[ADT] Command: tar -t -f ./ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz
+[ADT] Command: tar -xvf ./ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz -C ../ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz
+===> Extraction [OK]: ADT to /blin/data/zef-data/tmp/ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz
+===> Testing: ADT:ver<0.5>
+[ADT] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz/ADT-master t/01-tree.t
+[ADT] ===SORRY!===
+[ADT] Parameter * quantifier not applicable to sigil '&'
+[ADT] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz/ADT-master t/02-EXPORT.t
+[ADT] ok 1 - single ADT from EXPORT
+[ADT] ok 2 - single ADT from EXPORT number 2
+[ADT] ok 3 - two ADTs from EXPORT
+[ADT] 1..3
+[ADT] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz/ADT-master t/03-positional.t
+[ADT] 1..8
+[ADT] ok 1 - positional constructors
+[ADT] ok 2 - 
+[ADT] ok 3 - 
+[ADT] ok 4 - 
+[ADT] ok 5 - 
+[ADT] ok 6 - 
+[ADT] ok 7 - 
+[ADT] ok 8 - 
+[ADT] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ADT%3Aver%3C0.5%3E%3Aauth%3Cgithub%3Atimo%3E.tar.gz/ADT-master t/04-whitespace.t
+[ADT] 1..5
+[ADT] ok 1 - sanity
+[ADT] ok 2 - simple multiline
+[ADT] ok 3 - | on the first line, too
+[ADT] ok 4 - newline after comma
+[ADT] ok 5 - trailing comma
+===> Testing [FAIL]: ADT:ver<0.5>
+[ADT] Failed to get passing tests, but continuing with --force-test
+===> Installing: ADT:ver<0.5>
+===> Install [OK] for ADT:ver<0.5>

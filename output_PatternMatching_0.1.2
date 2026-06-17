@@ -1,0 +1,38 @@
+===> Searching for: PatternMatching
+===> Found: PatternMatching:ver<0.1.2>:auth<zef:CIAvash> [via Zef::Repository::Ecosystems<fez>]
+[PatternMatching] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781733185.137824.8614.898945145977/46dc5556c755009d68b7cd23d5e2b704cc556217.tar.gz https://360.zef.pm/P/AT/PATTERNMATCHING/46dc5556c755009d68b7cd23d5e2b704cc556217.tar.gz
+===> Fetching [OK]: PatternMatching:ver<0.1.2>:auth<zef:CIAvash> to /blin/data/zef-data/tmp/1781733185.137824.8614.898945145977/46dc5556c755009d68b7cd23d5e2b704cc556217.tar.gz
+[PatternMatching] Command: tar -t -f ./46dc5556c755009d68b7cd23d5e2b704cc556217.tar.gz
+[PatternMatching] Command: tar -xvf ./46dc5556c755009d68b7cd23d5e2b704cc556217.tar.gz -C ../46dc5556c755009d68b7cd23d5e2b704cc556217.tar.gz
+===> Extraction [OK]: PatternMatching to /blin/data/zef-data/tmp/46dc5556c755009d68b7cd23d5e2b704cc556217.tar.gz
+===> Testing: PatternMatching:ver<0.1.2>:auth<zef:CIAvash>
+[PatternMatching] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/46dc5556c755009d68b7cd23d5e2b704cc556217.tar.gz/dist t/00-load.rakutest
+[PatternMatching] 1..1
+[PatternMatching] Potential difficulties:
+[PatternMatching]     Missing declarand for leading declarator doc
+[PatternMatching]     at line 
+[PatternMatching] ok 1 - PatternMatching:auth<zef:CIAvash> module can be use-d ok
+[PatternMatching] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/46dc5556c755009d68b7cd23d5e2b704cc556217.tar.gz/dist t/01-pattern-matching.rakutest
+[PatternMatching] 1..20
+[PatternMatching] ok 1 - Int $
+[PatternMatching] ok 2 - Int $, Int $
+[PatternMatching] ok 3 - Str $
+[PatternMatching] ok 4 - Str $, Str $
+[PatternMatching] ok 5 - :$pair
+[PatternMatching] ok 6 - (:key($), :value([$, $]))
+[PatternMatching] ok 7 - Literal 10
+[PatternMatching] ok 8 - Where junction
+[PatternMatching] ok 9 - Where junction
+[PatternMatching] ok 10 - Where junction
+[PatternMatching] ok 11 - where * > 10
+[PatternMatching] ok 12 - Class attribute destructuring
+[PatternMatching] ok 13 - default
+[PatternMatching] ok 14 - Hash() destructuring
+[PatternMatching] ok 15 - Array destructuring with slurpy parameter
+[PatternMatching] Impossible coercion from 'List' into 'Callable': no acceptable coercion method found
+[PatternMatching]   in block <unit> at t/01-pattern-matching.rakutest line 47
+[PatternMatching] # You planned 20 tests, but ran 15
+===> Testing [FAIL]: PatternMatching:ver<0.1.2>:auth<zef:CIAvash>
+[PatternMatching] Failed to get passing tests, but continuing with --force-test
+===> Installing: PatternMatching:ver<0.1.2>:auth<zef:CIAvash>
+===> Install [OK] for PatternMatching:ver<0.1.2>:auth<zef:CIAvash>

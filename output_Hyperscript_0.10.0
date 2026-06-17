@@ -1,0 +1,44 @@
+===> Searching for: Hyperscript
+===> Found: Hyperscript:ver<0.10.0>:auth<cpan:JACKMILES> [via Zef::Repository::Ecosystems<rea>]
+[Hyperscript] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781726230.80404.6215.2569758717245/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/H/Hyperscript/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz
+===> Fetching [OK]: Hyperscript:ver<0.10.0>:auth<cpan:JACKMILES> to /blin/data/zef-data/tmp/1781726230.80404.6215.2569758717245/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz
+[Hyperscript] Command: tar -t -f ./Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz
+[Hyperscript] Command: tar -xvf ./Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz -C ../Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz
+===> Extraction [OK]: Hyperscript to /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz
+===> Testing: Hyperscript:ver<0.10.0>:auth<github:caseyjackmiles>
+[Hyperscript] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz/Hyperscript-0.10.0 t/00-first-element.rakutest
+[Hyperscript] 1..1
+[Hyperscript] ok 1 - should produce inner peace
+[Hyperscript] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz/Hyperscript-0.10.0 t/01-string-attributes.rakutest
+[Hyperscript] 1..3
+[Hyperscript] ok 1 - should produce attributes with adverbial pair literal
+[Hyperscript] ok 2 - should produce attributes with arrow pair literal
+[Hyperscript] ok 3 - should produce attributes with variable form
+[Hyperscript] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz/Hyperscript-0.10.0 t/02-nested-elements.rakutest
+[Hyperscript] ===SORRY!===
+[Hyperscript] already have an 'our constant $expected' in the package
+[Hyperscript] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz/Hyperscript-0.10.0 t/03-empty-elements.rakutest
+[Hyperscript] ===SORRY!===
+[Hyperscript] already have an 'our constant $expected' in the package
+[Hyperscript] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz/Hyperscript-0.10.0 t/04-parse-tag.rakutest
+[Hyperscript] ===SORRY!===
+[Hyperscript] already have an 'our constant $expected' in the package
+[Hyperscript] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz/Hyperscript-0.10.0 t/05-boolean-attributes.rakutest
+[Hyperscript] ===SORRY!===
+[Hyperscript] already have an 'our constant $expected' in the package
+[Hyperscript] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz/Hyperscript-0.10.0 t/06-style-attributes.rakutest
+[Hyperscript] 1..1
+[Hyperscript] ok 1 - produces HTML with style
+[Hyperscript] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz/Hyperscript-0.10.0 t/07-classes-set.rakutest
+[Hyperscript] 1..1
+[Hyperscript] ok 1 - produces class set
+[Hyperscript] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz/Hyperscript-0.10.0 t/08-tag-helpers.rakutest
+[Hyperscript] 1..0 # Skipped: Hyperscript::Helpers module has been removed
+[Hyperscript] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Hyperscript%3Aver%3C0.10.0%3E%3Aauth%3Ccpan%3AJACKMILES%3E.tar.gz/Hyperscript-0.10.0 t/09-pretty-output.rakutest
+[Hyperscript] ok 1 - matches pretty output
+[Hyperscript] ok 2 - matches condensed output
+[Hyperscript] 1..2
+===> Testing [FAIL]: Hyperscript:ver<0.10.0>:auth<github:caseyjackmiles>
+[Hyperscript] Failed to get passing tests, but continuing with --force-test
+===> Installing: Hyperscript:ver<0.10.0>:auth<github:caseyjackmiles>
+===> Install [OK] for Hyperscript:ver<0.10.0>:auth<github:caseyjackmiles>

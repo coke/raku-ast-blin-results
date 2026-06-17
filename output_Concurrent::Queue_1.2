@@ -1,0 +1,51 @@
+===> Searching for: Concurrent::Queue
+===> Found: Concurrent::Queue:ver<1.2>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Concurrent::Queue] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781721031.37711.7340.733690799046/cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz https://360.zef.pm/C/ON/CONCURRENT_QUEUE/cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz
+===> Fetching [OK]: Concurrent::Queue:ver<1.2>:auth<zef:raku-community-modules> to /blin/data/zef-data/tmp/1781721031.37711.7340.733690799046/cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz
+[Concurrent::Queue] Command: tar -t -f ./cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz
+[Concurrent::Queue] Command: tar -xvf ./cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz -C ../cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz
+===> Extraction [OK]: Concurrent::Queue to /blin/data/zef-data/tmp/cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz
+===> Testing: Concurrent::Queue:ver<1.2>:auth<zef:raku-community-modules>
+[Concurrent::Queue] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz/Concurrent-Queue-1.2 t/basic.rakutest
+[Concurrent::Queue] ok 1 - Elements count starts out as 0
+[Concurrent::Queue] ok 2 - Empty queue is falsey
+[Concurrent::Queue] ok 3 - Empty queue snapshots to empty Seq
+[Concurrent::Queue] ok 4 - Empty queue snapshots to empty list
+[Concurrent::Queue] ok 5 - Dequeue of an empty queue fails
+[Concurrent::Queue] ok 6 - Correct exception type in Failure
+[Concurrent::Queue] ok 7 - Can enqueue a value
+[Concurrent::Queue] ok 8 - Can enqueue another value
+[Concurrent::Queue] ok 9 - Correct element count after two enqueues
+[Concurrent::Queue] ok 10 - Snapshots to Seq with correct values
+[Concurrent::Queue] ok 11 - Snapshots to list with correct values
+[Concurrent::Queue] ok 12 - Dequeue gives the first enqueued value
+[Concurrent::Queue] ok 13 - Correct element count after two enqueues and one dequeue
+[Concurrent::Queue] ok 14 - Non-empty queue is truthy
+[Concurrent::Queue] ok 15 - Snapshots to Seq with correct values
+[Concurrent::Queue] ok 16 - Snapshots to list with correct values
+[Concurrent::Queue] ok 17 - Can enqueue another value after dequeueing
+[Concurrent::Queue] ok 18 - Snapshots to Seq with correct values
+[Concurrent::Queue] ok 19 - Snapshots to list with correct values
+[Concurrent::Queue] ok 20 - Second dequeue is second enqueued value
+[Concurrent::Queue] ok 21 - Third dequeue is third enqueued value
+[Concurrent::Queue] ok 22 - Elements count should be 0 after all is dequeued
+[Concurrent::Queue] ok 23 - Empty-again queue is falsey
+[Concurrent::Queue] ok 24 - Empty-again queue snapshots to empty Seq
+[Concurrent::Queue] ok 25 - Empty-again queue snapshots to empty list
+[Concurrent::Queue] ok 26 - Dequeue of now-empty queue again fails
+[Concurrent::Queue] ok 27 - Can enqueue to the now-empty queue
+[Concurrent::Queue] ok 28 - And can dequeue the value
+[Concurrent::Queue] ok 29 - Again, dequeue of now-empty-again queue fails
+[Concurrent::Queue] 1..29
+[Concurrent::Queue] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz/Concurrent-Queue-1.2 t/stress.rakutest
+[Concurrent::Queue] An operation first awaited:
+[Concurrent::Queue]   in block <unit> at t/stress.rakutest line 14
+[Concurrent::Queue] Died with the exception:
+[Concurrent::Queue]     Cannot look up attributes in a Concurrent::Queue::Node type object. Did you forget a '.new'?
+[Concurrent::Queue]       in method next at /blin/data/zef-data/tmp/cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz/Concurrent-Queue-1.2/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/19/1915256979B7575CACC08663516F65870DD5E434 line 1
+[Concurrent::Queue]       in method dequeue at /blin/data/zef-data/tmp/cf48fc6d08d92688b80d779a868f4ac39a3edec4.tar.gz/Concurrent-Queue-1.2/lib/Concurrent/Queue.rakumod (Concurrent::Queue) line 56
+[Concurrent::Queue]       in block  at t/stress.rakutest line 15
+===> Testing [FAIL]: Concurrent::Queue:ver<1.2>:auth<zef:raku-community-modules>
+[Concurrent::Queue] Failed to get passing tests, but continuing with --force-test
+===> Installing: Concurrent::Queue:ver<1.2>:auth<zef:raku-community-modules>
+===> Install [OK] for Concurrent::Queue:ver<1.2>:auth<zef:raku-community-modules>

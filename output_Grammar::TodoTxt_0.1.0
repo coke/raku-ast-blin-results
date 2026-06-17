@@ -1,0 +1,32 @@
+===> Searching for: Grammar::TodoTxt
+===> Found: Grammar::TodoTxt:ver<0.1.0>:auth<cpan:TYIL>:api<0> [via Zef::Repository::Ecosystems<rea>]
+[Grammar::TodoTxt] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781725413.73362.1626.703729081641/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/G/Grammar%3A%3ATodoTxt/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+===> Fetching [OK]: Grammar::TodoTxt:ver<0.1.0>:auth<cpan:TYIL>:api<0> to /blin/data/zef-data/tmp/1781725413.73362.1626.703729081641/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+[Grammar::TodoTxt] Command: tar -t -f ./Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+[Grammar::TodoTxt] Command: tar -xvf ./Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz -C ../Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+===> Extraction [OK]: Grammar::TodoTxt to /blin/data/zef-data/tmp/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+===> Testing: Grammar::TodoTxt:ver<0.1.0>:api<0>
+[Grammar::TodoTxt] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-TodoTxt-0.1.0 t/integration.t
+[Grammar::TodoTxt] ===SORRY!=== Error while compiling t/integration.t
+[Grammar::TodoTxt] ===SORRY!===
+[Grammar::TodoTxt] Object does not exist in serialization context
+[Grammar::TodoTxt] at t/integration.t:5
+[Grammar::TodoTxt] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-TodoTxt-0.1.0 t/rule-1.t
+[Grammar::TodoTxt] ===SORRY!=== Error while compiling t/rule-1.t
+[Grammar::TodoTxt] ===SORRY!===
+[Grammar::TodoTxt] Object does not exist in serialization context
+[Grammar::TodoTxt] at t/rule-1.t:5
+[Grammar::TodoTxt] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-TodoTxt-0.1.0 t/rule-2.t
+[Grammar::TodoTxt] ===SORRY!=== Error while compiling t/rule-2.t
+[Grammar::TodoTxt] ===SORRY!===
+[Grammar::TodoTxt] Object does not exist in serialization context
+[Grammar::TodoTxt] at t/rule-2.t:5
+[Grammar::TodoTxt] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-TodoTxt-0.1.0 t/rule-3.t
+[Grammar::TodoTxt] ===SORRY!=== Error while compiling t/rule-3.t
+[Grammar::TodoTxt] ===SORRY!===
+[Grammar::TodoTxt] Object does not exist in serialization context
+[Grammar::TodoTxt] at t/rule-3.t:5
+===> Testing [FAIL]: Grammar::TodoTxt:ver<0.1.0>:api<0>
+[Grammar::TodoTxt] Failed to get passing tests, but continuing with --force-test
+===> Installing: Grammar::TodoTxt:ver<0.1.0>:api<0>
+===> Install [OK] for Grammar::TodoTxt:ver<0.1.0>:api<0>

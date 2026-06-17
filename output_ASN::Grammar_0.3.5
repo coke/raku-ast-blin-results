@@ -1,0 +1,18 @@
+===> Searching for: ASN::Grammar
+===> Found: ASN::Grammar:ver<0.3.5>:auth<zef:Altai-man> [via Zef::Repository::Ecosystems<fez>]
+[ASN::Grammar] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781717229.5031.8589.908058019688/b559ae5c4aedddbad4b2e14d524c06011f558049.tar.gz https://360.zef.pm/A/SN/ASN_GRAMMAR/b559ae5c4aedddbad4b2e14d524c06011f558049.tar.gz
+===> Fetching [OK]: ASN::Grammar:ver<0.3.5>:auth<zef:Altai-man> to /blin/data/zef-data/tmp/1781717229.5031.8589.908058019688/b559ae5c4aedddbad4b2e14d524c06011f558049.tar.gz
+[ASN::Grammar] Command: tar -t -f ./b559ae5c4aedddbad4b2e14d524c06011f558049.tar.gz
+[ASN::Grammar] Command: tar -xvf ./b559ae5c4aedddbad4b2e14d524c06011f558049.tar.gz -C ../b559ae5c4aedddbad4b2e14d524c06011f558049.tar.gz
+===> Extraction [OK]: ASN::Grammar to /blin/data/zef-data/tmp/b559ae5c4aedddbad4b2e14d524c06011f558049.tar.gz
+===> Testing: ASN::Grammar:ver<0.3.5>:auth<zef:Altai-man>
+[ASN::Grammar] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b559ae5c4aedddbad4b2e14d524c06011f558049.tar.gz t/00-sanity.t
+[ASN::Grammar] ===SORRY!=== Error while compiling t/00-sanity.t
+[ASN::Grammar] ===SORRY!===
+[ASN::Grammar] Unresolved references found in grammar ASN::Grammar:
+[ASN::Grammar]   in token number (at /blin/data/zef-data/tmp/b559ae5c4aedddbad4b2e14d524c06011f558049.tar.gz/lib/ASN/Grammar.pm6 (ASN::Grammar):35): binary-value hex-value
+[ASN::Grammar] at t/00-sanity.t:1
+===> Testing [FAIL]: ASN::Grammar:ver<0.3.5>:auth<zef:Altai-man>
+[ASN::Grammar] Failed to get passing tests, but continuing with --force-test
+===> Installing: ASN::Grammar:ver<0.3.5>:auth<zef:Altai-man>
+===> Install [OK] for ASN::Grammar:ver<0.3.5>:auth<zef:Altai-man>

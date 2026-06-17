@@ -1,0 +1,34 @@
+===> Searching for: Kind
+===> Found: Kind:ver<1.0.3>:auth<zef:Kaiepi>:api<2> [via Zef::Repository::Ecosystems<fez>]
+[Kind] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781727495.91887.7633.50194933041/5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz https://360.zef.pm/K/IN/KIND/5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz
+===> Fetching [OK]: Kind:ver<1.0.3>:auth<zef:Kaiepi>:api<2> to /blin/data/zef-data/tmp/1781727495.91887.7633.50194933041/5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz
+[Kind] Command: tar -t -f ./5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz
+[Kind] Command: tar -xvf ./5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz -C ../5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz
+===> Extraction [OK]: Kind to /blin/data/zef-data/tmp/5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz
+===> Testing: Kind:ver<1.0.3>:auth<zef:Kaiepi>:api<2>
+[Kind] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz/ra-Kind t/01-typecheck.t
+[Kind] ===SORRY!=== Error while compiling t/01-typecheck.t
+[Kind] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz/ra-Kind/lib/Kind.pm6 (Kind)
+[Kind] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[Kind] This element has not been resolved. Type: RakuAST::Var::Lexical
+[Kind] at /blin/data/zef-data/tmp/5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz/ra-Kind/lib/Kind.pm6 (Kind):76
+[Kind] Exception details:
+[Kind]   ===SORRY!=== Error while compiling:
+[Kind]   This element has not been resolved. Type: RakuAST::Var::Lexical
+[Kind]   at line 
+[Kind] at t/01-typecheck.t:2
+[Kind] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz/ra-Kind t/02-meta.t
+[Kind] ===SORRY!=== Error while compiling t/02-meta.t
+[Kind] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz/ra-Kind/lib/Kind.pm6 (Kind)
+[Kind] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[Kind] This element has not been resolved. Type: RakuAST::Var::Lexical
+[Kind] at /blin/data/zef-data/tmp/5a1ea348fa4e0758a292771b655d312d39957aec.tar.gz/ra-Kind/lib/Kind.pm6 (Kind):76
+[Kind] Exception details:
+[Kind]   ===SORRY!=== Error while compiling:
+[Kind]   This element has not been resolved. Type: RakuAST::Var::Lexical
+[Kind]   at line 
+[Kind] at t/02-meta.t:2
+===> Testing [FAIL]: Kind:ver<1.0.3>:auth<zef:Kaiepi>:api<2>
+[Kind] Failed to get passing tests, but continuing with --force-test
+===> Installing: Kind:ver<1.0.3>:auth<zef:Kaiepi>:api<2>
+===> Install [OK] for Kind:ver<1.0.3>:auth<zef:Kaiepi>:api<2>
