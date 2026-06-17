@@ -1,0 +1,35 @@
+===> Searching for: Text::Plot
+===> Found: Text::Plot:ver<0.1.4>:auth<zef:antononcube>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Text::Plot] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781738587.186222.2733.270814219606/a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz https://360.zef.pm/T/EX/TEXT_PLOT/a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz
+===> Fetching [OK]: Text::Plot:ver<0.1.4>:auth<zef:antononcube>:api<1> to /blin/data/zef-data/tmp/1781738587.186222.2733.270814219606/a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz
+[Text::Plot] Command: tar -t -f ./a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz
+[Text::Plot] Command: tar -xvf ./a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz -C ../a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz
+===> Extraction [OK]: Text::Plot to /blin/data/zef-data/tmp/a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz
+===> Testing: Text::Plot:ver<0.1.4>:auth<zef:antononcube>:api<1>
+[Text::Plot] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz/dist t/01-basic-usage.rakutest
+[Text::Plot] ===SORRY!=== Error while compiling t/01-basic-usage.rakutest
+[Text::Plot] Calling text-list-plot() will never work with signature of the proto ($x, |)
+[Text::Plot] at t/01-basic-usage.rakutest:47
+[Text::Plot] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz/dist t/02-pareto-principle-plot-usage.rakutest
+[Text::Plot] 1..5
+[Text::Plot] ok 1 - numeric vector call
+[Text::Plot] ok 2 - string vector call
+[Text::Plot] ok 3 - equivalence of string and tally calls
+[Text::Plot] ok 4 - hash argument
+[Text::Plot] ok 5 - array of numeric pairs argument
+[Text::Plot] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz/dist t/03-from-base64.rakutest
+[Text::Plot] ok 1 - 
+[Text::Plot] 1..1
+[Text::Plot] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/a0f4cfed953440d36c9ef44d0e6f6a0186900ff0.tar.gz/dist t/04-histogram.rakutest
+[Text::Plot] ok 1 - 
+[Text::Plot] ok 2 - 
+[Text::Plot] ok 3 - 
+[Text::Plot] ok 4 - 
+[Text::Plot] 1..4
+===> Testing [FAIL]: Text::Plot:ver<0.1.4>:auth<zef:antononcube>:api<1>
+[Text::Plot] Failed to get passing tests, but continuing with --force-test
+===> Installing: Text::Plot:ver<0.1.4>:auth<zef:antononcube>:api<1>
+===> Install [OK] for Text::Plot:ver<0.1.4>:auth<zef:antononcube>:api<1>
+
+1 bin/ script [text-list-plot] installed to:
+/blin/installed/Text::Plot_0.1.4/bin

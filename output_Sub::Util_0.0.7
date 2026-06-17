@@ -1,0 +1,66 @@
+===> Searching for: Sub::Util
+===> Found: Sub::Util:ver<0.0.7>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Sub::Util] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781736781.169449.348.61134692626194/728faf66dbfcc5e5f354b67d9bffd59c45ea393d.tar.gz https://360.zef.pm/S/UB/SUB_UTIL/728faf66dbfcc5e5f354b67d9bffd59c45ea393d.tar.gz
+===> Fetching [OK]: Sub::Util:ver<0.0.7>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1781736781.169449.348.61134692626194/728faf66dbfcc5e5f354b67d9bffd59c45ea393d.tar.gz
+[Sub::Util] Command: tar -t -f ./728faf66dbfcc5e5f354b67d9bffd59c45ea393d.tar.gz
+[Sub::Util] Command: tar -xvf ./728faf66dbfcc5e5f354b67d9bffd59c45ea393d.tar.gz -C ../728faf66dbfcc5e5f354b67d9bffd59c45ea393d.tar.gz
+===> Extraction [OK]: Sub::Util to /blin/data/zef-data/tmp/728faf66dbfcc5e5f354b67d9bffd59c45ea393d.tar.gz
+===> Testing: Sub::Util:ver<0.0.7>:auth<zef:lizmat>
+[Sub::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/728faf66dbfcc5e5f354b67d9bffd59c45ea393d.tar.gz/Sub-Util-0.0.7 t/01-basic.rakutest
+[Sub::Util] 1..10
+[Sub::Util] ok 1 - is &subname NOT imported?
+[Sub::Util] ok 2 - is &subname externally accessible?
+[Sub::Util] ok 3 - is &set_subname NOT imported?
+[Sub::Util] ok 4 - is &set_subname externally accessible?
+[Sub::Util] ok 5 - is &prototype NOT imported?
+[Sub::Util] ok 6 - is &prototype externally accessible?
+[Sub::Util] ok 7 - is &set_prototype NOT imported?
+[Sub::Util] ok 8 - is &set_prototype externally accessible?
+[Sub::Util] ok 9 - did calling &prototype die?
+[Sub::Util] ok 10 - did calling &set_prototype die?
+[Sub::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/728faf66dbfcc5e5f354b67d9bffd59c45ea393d.tar.gz/Sub-Util-0.0.7 t/set_subname.rakutest
+[Sub::Util] 1..22
+[Sub::Util] ok 1 - did we get a Callable back?
+[Sub::Util] not ok 2 - did we get the right name?
+[Sub::Util] # Failed test 'did we get the right name?'
+[Sub::Util] # at t/set_subname.rakutest line 8
+[Sub::Util] # expected: 'GLOBAL::foo'
+[Sub::Util] #      got: 'Any::foo'
+[Sub::Util] # Failed test 'did we get the right name?'
+[Sub::Util] # at t/set_subname.rakutest line 12
+[Sub::Util] # expected: 'GLOBAL::bar'
+[Sub::Util] #      got: 'Any::bar'
+[Sub::Util] # Failed test 'did we get the right name?'
+[Sub::Util] # at t/set_subname.rakutest line 16
+[Sub::Util] # expected: 'GLOBAL::baz'
+[Sub::Util] #      got: 'Any::baz'
+[Sub::Util] # You failed 3 tests of 22
+[Sub::Util] ok 3 - did we get a Callable back?
+[Sub::Util] not ok 4 - did we get the right name?
+[Sub::Util] ok 5 - did we get a Callable back?
+[Sub::Util] not ok 6 - did we get the right name?
+[Sub::Util] ok 7 - did we get a Callable back?
+[Sub::Util] ok 8 - did we get the right name?
+[Sub::Util] ok 9 - did we get a Callable back?
+[Sub::Util] ok 10 - did we get the right name?
+[Sub::Util] ok 11 - did we get a Callable back?
+[Sub::Util] ok 12 - did we get the right name?
+[Sub::Util] ok 13 - did we get a Callable back?
+[Sub::Util] ok 14 - did we get the right name?
+[Sub::Util] ok 15 - did we get a Callable back?
+[Sub::Util] ok 16 - did we get the right name?
+[Sub::Util] ok 17 - did we get a Callable back?
+[Sub::Util] ok 18 - did we get the right name?
+[Sub::Util] ok 19 - did we get a Callable back?
+[Sub::Util] ok 20 - did we get the right name?
+[Sub::Util] ok 21 - did we get a Callable back?
+[Sub::Util] ok 22 - did we get the right name?
+[Sub::Util] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/728faf66dbfcc5e5f354b67d9bffd59c45ea393d.tar.gz/Sub-Util-0.0.7 t/subname.rakutest
+[Sub::Util] 1..3
+[Sub::Util] ok 1 - did we get __ANON__ for bare Callable?
+[Sub::Util] ok 2 - did we get GLOBAL::foo?
+[Sub::Util] ok 3 - did we get A::bar?
+===> Testing [FAIL]: Sub::Util:ver<0.0.7>:auth<zef:lizmat>
+[Sub::Util] Failed to get passing tests, but continuing with --force-test
+===> Installing: Sub::Util:ver<0.0.7>:auth<zef:lizmat>
+===> Install [OK] for Sub::Util:ver<0.0.7>:auth<zef:lizmat>

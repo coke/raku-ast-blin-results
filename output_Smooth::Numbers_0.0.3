@@ -1,0 +1,42 @@
+===> Searching for: Smooth::Numbers
+===> Found: Smooth::Numbers:ver<0.0.3>:auth<zef:thundergnat> [via Zef::Repository::Ecosystems<fez>]
+[Smooth::Numbers] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781736064.163329.7437.881925114409/be93ec4f37721dba216613878315bf4b5b290387.tar.gz https://360.zef.pm/S/MO/SMOOTH_NUMBERS/be93ec4f37721dba216613878315bf4b5b290387.tar.gz
+===> Fetching [OK]: Smooth::Numbers:ver<0.0.3>:auth<zef:thundergnat> to /blin/data/zef-data/tmp/1781736064.163329.7437.881925114409/be93ec4f37721dba216613878315bf4b5b290387.tar.gz
+[Smooth::Numbers] Command: tar -t -f ./be93ec4f37721dba216613878315bf4b5b290387.tar.gz
+[Smooth::Numbers] Command: tar -xvf ./be93ec4f37721dba216613878315bf4b5b290387.tar.gz -C ../be93ec4f37721dba216613878315bf4b5b290387.tar.gz
+===> Extraction [OK]: Smooth::Numbers to /blin/data/zef-data/tmp/be93ec4f37721dba216613878315bf4b5b290387.tar.gz
+===> Testing: Smooth::Numbers:ver<0.0.3>:auth<zef:thundergnat>
+[Smooth::Numbers] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/be93ec4f37721dba216613878315bf4b5b290387.tar.gz/Smooth-Numbers-0.0.3 t/00-basic.t
+[Smooth::Numbers] 1..9
+[Smooth::Numbers] Use of uninitialized value of type Smooth in numeric context
+[Smooth::Numbers]   in block  at /blin/data/zef-data/tmp/be93ec4f37721dba216613878315bf4b5b290387.tar.gz/Smooth-Numbers-0.0.3/lib/Smooth/Numbers.pm6 (Smooth::Numbers) line 11
+[Smooth::Numbers] Use of uninitialized value of type Smooth in numeric context
+[Smooth::Numbers]   in block  at /blin/data/zef-data/tmp/be93ec4f37721dba216613878315bf4b5b290387.tar.gz/Smooth-Numbers-0.0.3/lib/Smooth/Numbers.pm6 (Smooth::Numbers) line 11
+[Smooth::Numbers] Cannot resolve caller infix:<*>(); none of these signatures matches:
+[Smooth::Numbers]     ( --> 1)
+[Smooth::Numbers]     ($x)
+[Smooth::Numbers]     (\a, \b)
+[Smooth::Numbers]     (Real $a, Real $b)
+[Smooth::Numbers]     (Int:D $a, Int:D $b --> Int:D)
+[Smooth::Numbers]     (int $a, int $b --> int)
+[Smooth::Numbers]     (uint $a, uint $b --> uint)
+[Smooth::Numbers]     (Num:D $a, Num:D $b)
+[Smooth::Numbers]     (num $a, num $b --> num)
+[Smooth::Numbers]     (int $a, num $b --> num)
+[Smooth::Numbers]     (num $a, int $b --> num)
+[Smooth::Numbers]     (Range:D \r, Real:D $v)
+[Smooth::Numbers]     (Real:D $v, Range:D \r)
+[Smooth::Numbers]     (Rational:D $a, Rational:D $b)
+[Smooth::Numbers]     (Rational:D $a, Int:D $b)
+[Smooth::Numbers]     (Int:D $a, Rational:D $b)
+[Smooth::Numbers]     (Complex:D $a, Complex:D $b --> Complex:D)
+[Smooth::Numbers]     (Complex:D $a, Num(Real) $b --> Complex:D)
+[Smooth::Numbers]     (Num(Real) $a, Complex:D $b --> Complex:D)
+[Smooth::Numbers]   in block  at /blin/data/zef-data/tmp/be93ec4f37721dba216613878315bf4b5b290387.tar.gz/Smooth-Numbers-0.0.3/lib/Smooth/Numbers.pm6 (Smooth::Numbers) line 11
+[Smooth::Numbers]   in block  at /blin/data/zef-data/tmp/be93ec4f37721dba216613878315bf4b5b290387.tar.gz/Smooth-Numbers-0.0.3/lib/Smooth/Numbers.pm6 (Smooth::Numbers) line 9
+[Smooth::Numbers]   in block <unit> at t/00-basic.t line 7
+[Smooth::Numbers] # You planned 9 tests, but ran 0
+===> Testing [FAIL]: Smooth::Numbers:ver<0.0.3>:auth<zef:thundergnat>
+[Smooth::Numbers] Failed to get passing tests, but continuing with --force-test
+===> Installing: Smooth::Numbers:ver<0.0.3>:auth<zef:thundergnat>
+===> Install [OK] for Smooth::Numbers:ver<0.0.3>:auth<zef:thundergnat>

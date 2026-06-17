@@ -1,0 +1,20 @@
+===> Searching for: Text::LDIF
+===> Found: Text::LDIF:ver<1.0.6>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Text::LDIF] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781738441.185079.8224.289812766918/dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz https://360.zef.pm/T/EX/TEXT_LDIF/dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz
+===> Fetching [OK]: Text::LDIF:ver<1.0.6>:auth<zef:raku-community-modules> to /blin/data/zef-data/tmp/1781738441.185079.8224.289812766918/dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz
+[Text::LDIF] Command: tar -t -f ./dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz
+[Text::LDIF] Command: tar -xvf ./dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz -C ../dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz
+===> Extraction [OK]: Text::LDIF to /blin/data/zef-data/tmp/dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz
+===> Testing: Text::LDIF:ver<1.0.6>:auth<zef:raku-community-modules>
+[Text::LDIF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz/Text-LDIF-1.0.6 t/01.rakutest
+[Text::LDIF] ===SORRY!=== Error while compiling t/01.rakutest
+[Text::LDIF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz/Text-LDIF-1.0.6/lib/Text/LDIF.rakumod (Text::LDIF)
+[Text::LDIF] ===SORRY!===
+[Text::LDIF] Unresolved references found in grammar Text::LDIF::Grammar:
+[Text::LDIF]   in token change-moddn (at /blin/data/zef-data/tmp/dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz/Text-LDIF-1.0.6/lib/Text/LDIF/Grammar.rakumod (Text::LDIF::Grammar):44): base64-rdn
+[Text::LDIF] at /blin/data/zef-data/tmp/dbc4882d9c50b800530bc2b4d152621adb2314e2.tar.gz/Text-LDIF-1.0.6/lib/Text/LDIF.rakumod (Text::LDIF):1
+[Text::LDIF] at t/01.rakutest:3
+===> Testing [FAIL]: Text::LDIF:ver<1.0.6>:auth<zef:raku-community-modules>
+[Text::LDIF] Failed to get passing tests, but continuing with --force-test
+===> Installing: Text::LDIF:ver<1.0.6>:auth<zef:raku-community-modules>
+===> Install [OK] for Text::LDIF:ver<1.0.6>:auth<zef:raku-community-modules>

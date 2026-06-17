@@ -1,0 +1,18 @@
+===> Searching for: Rakudo::CORE::META
+===> Found: Rakudo::CORE::META:ver<0.0.12>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Rakudo::CORE::META] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781734706.151601.9288.377448059457/90d90b690b7fe621f96ff05b7b398253eeaa9af9.tar.gz https://360.zef.pm/R/AK/RAKUDO_CORE_META/90d90b690b7fe621f96ff05b7b398253eeaa9af9.tar.gz
+===> Fetching [OK]: Rakudo::CORE::META:ver<0.0.12>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1781734706.151601.9288.377448059457/90d90b690b7fe621f96ff05b7b398253eeaa9af9.tar.gz
+[Rakudo::CORE::META] Command: tar -t -f ./90d90b690b7fe621f96ff05b7b398253eeaa9af9.tar.gz
+[Rakudo::CORE::META] Command: tar -xvf ./90d90b690b7fe621f96ff05b7b398253eeaa9af9.tar.gz -C ../90d90b690b7fe621f96ff05b7b398253eeaa9af9.tar.gz
+===> Extraction [OK]: Rakudo::CORE::META to /blin/data/zef-data/tmp/90d90b690b7fe621f96ff05b7b398253eeaa9af9.tar.gz
+===> Testing: Rakudo::CORE::META:ver<0.0.12>:auth<zef:lizmat>
+[Rakudo::CORE::META] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/90d90b690b7fe621f96ff05b7b398253eeaa9af9.tar.gz/Rakudo-CORE-META-0.0.12 t/01-basic.rakutest
+[Rakudo::CORE::META] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Rakudo::CORE::META] ===SORRY!=== Error while compiling:
+[Rakudo::CORE::META] Cannot use pseudo package CORE in package name
+[Rakudo::CORE::META] at line 
+[Rakudo::CORE::META] at t/01-basic.rakutest:2
+===> Testing [FAIL]: Rakudo::CORE::META:ver<0.0.12>:auth<zef:lizmat>
+[Rakudo::CORE::META] Failed to get passing tests, but continuing with --force-test
+===> Installing: Rakudo::CORE::META:ver<0.0.12>:auth<zef:lizmat>
+===> Install [OK] for Rakudo::CORE::META:ver<0.0.12>:auth<zef:lizmat>
