@@ -177,7 +177,7 @@ App::samaki – Unknown
 App::snippet – AlwaysFail
 App::termie – OK
 App::tmeta – OK
-App::upgrade-raku.raku – Unknown
+App::upgrade-raku.raku – OK
 App:Racl – AlwaysFail
 App:Ralc – AlwaysFail
 Archive::Ar – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -347,8 +347,8 @@ Code::Coverage – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CodeUnit – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Cofra – AlwaysFail
 Collection – AlwaysFail
-Collection-Plugin-Development – Unknown
-Collection-Plugins – Unknown
+Collection-Plugin-Development – AlwaysFail
+Collection-Plugins – AlwaysFail
 Collection-Raku-Documentation – Unknown
 Color – OK
 Color::DirColors – OK
@@ -783,7 +783,7 @@ GPGME – AlwaysFail
 GTK::Scintilla – AlwaysFail
 GTK::Simple – OK
 GTK::Simpler – OK
-GUI::Editors – Unknown
+GUI::Editors – AlwaysFail
 Game::Adventure – AlwaysFail
 Game::Amazing – OK
 Game::Bayes – AlwaysFail
@@ -874,7 +874,7 @@ Grammar::Tracer::Compact – OK
 Graph – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Graph::RandomMaze – CyclicDependency
 GraphQL – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-GraphQL – Unknown
+GraphQL – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Graphics::PLplot – OK
 Graphics::TinyTIFF – AlwaysFail
 Graphviz::DOT::Chessboard – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -1077,7 +1077,7 @@ IntlPromptYesNo – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 IoC – OK
 Iter::Able – AlwaysFail
 JS::Minify – OK
-JSON-CSV – Unknown
+JSON-CSV – OK
 JSON-Simd – AlwaysFail
 JSON5::Tiny – AlwaysFail
 JSON::Class – AlwaysFail
@@ -2277,14 +2277,14 @@ Vips::Native – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Vroom::Reveal – AlwaysFail
 W3C::DOM – OK
 WAT – OK
-WAT--CLI – Unknown
+WAT--CLI – OK
 WWW – AlwaysFail
 WWW--CloudHosting--Hetzner – OK
 WWW::CloudHosting::Hetzner – AlwaysFail
 WWW::DuckDuckGo – OK
 WWW::GCloud – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 WWW::GCloud::API::Storage – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-WWW::GCloud::API::Vision – Unknown
+WWW::GCloud::API::Vision – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 WWW::Gemini – OK
 WWW::HorizonsEphemerisSystem – OK
 WWW::LLaMA – OK
@@ -2392,7 +2392,7 @@ content-storage-cli – OK
 cro – ZefFailure
 delete-old-until-size – OK
 deredere – OK
-dosh – Unknown
+dosh – AlwaysFail
 eigenstates – OK
 envy – OK
 epoll – AlwaysFail
