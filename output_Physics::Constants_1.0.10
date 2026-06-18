@@ -1,0 +1,47 @@
+===> Searching for: Physics::Constants
+===> Found: Physics::Constants:ver<1.0.10>:auth<zef:librasteve>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Physics::Constants] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781801642.696287.1528.2940676547908/fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz https://360.zef.pm/P/HY/PHYSICS_CONSTANTS/fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz
+===> Fetching [OK]: Physics::Constants:ver<1.0.10>:auth<zef:librasteve>:api<1> to /blin/data/zef-data/tmp/1781801642.696287.1528.2940676547908/fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz
+[Physics::Constants] Command: tar -t -f ./fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz
+[Physics::Constants] Command: tar -xvf ./fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz -C ../fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz
+===> Extraction [OK]: Physics::Constants to /blin/data/zef-data/tmp/fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz
+===> Testing: Physics::Constants:ver<1.0.10>:auth<zef:librasteve>:api<1>
+[Physics::Constants] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz/dist t/01-tst.rakutest
+[Physics::Constants] ===SORRY!=== Error while compiling t/01-tst.rakutest
+[Physics::Constants] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz/dist/lib/Physics/Constants.rakumod (Physics::Constants)
+[Physics::Constants] Couldn't parse YAML: No such method 'concretize' for string
+[Physics::Constants] '#Physics::Units::Definitions::en_SI - base.yaml #SI Base Units # Format
+[Physics::Constants] key: #Type: [symbol, synonym-one, synonym-two ...] - Length: [m, metre,
+[Physics::Constants] meter] - Mass: [kg, kilogram] - Time: [s, sec, second] - Current: [A,
+[Physics::Constants] amp, ampere] - Temperature: [K, kelvin] - Substance: [mol, mole] -
+[Physics::Constants] Luminosity: [cd, candela, candle] - Angle: [radian, rad] - Currency:
+[Physics::Constants] [USD, US$, $, dollar] - Data: [b, bit] '
+[Physics::Constants] at /blin/data/zef-data/tmp/fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz/dist/lib/Physics/Constants.rakumod (Physics::Constants):4
+[Physics::Constants] Actually thrown at:
+[Physics::Constants]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/DB89D6845A146ECAFA284CF7B691B083E77DC52F (Physics::Unit::Base) line 5
+[Physics::Constants]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/705082F5789EC1CCBC9A9EC31EBE6ED69A5856AA (Physics::Unit::en_SI) line 39
+[Physics::Constants]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/EDFA49CFAA9BDC409012D345E0C19058DD248DA5 (Physics::Unit::Config) line 97
+[Physics::Constants]   in method instance at /blin/installed/Physics::Unit_2.0.31/sources/7122B41FF918535AAA0C2BE23D60F9424AF8BD0D (Physics::Unit::Directory) line 14
+[Physics::Constants]   in sub dxi at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 16
+[Physics::Constants]   in method postfix-to-defn at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 292
+[Physics::Constants]   in block  at /blin/installed/Physics::Measure_2.0.26/sources/0EE1307064B392A114C4C6C9F316E012391459CA (Physics::Measure) line 933
+[Physics::Constants]   in block <unit> at /blin/installed/Physics::Measure_2.0.26/sources/0EE1307064B392A114C4C6C9F316E012391459CA (Physics::Measure) line 1
+[Physics::Constants]   in any <load> at /blin/data/zef-data/tmp/fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz/dist/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/0E/0EE1307064B392A114C4C6C9F316E012391459CA line 1
+[Physics::Constants]   in any IMPL-LOAD-MODULE at src/Raku/ast/statements.rakumod line 1768
+[Physics::Constants]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 1961
+[Physics::Constants]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Physics::Constants]   in any statement-control at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Constants]   in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Constants]   in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Constants]   in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Constants]   in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Constants]   in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Constants]   in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Constants] at t/01-tst.rakutest:8
+[Physics::Constants] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fb5c2bb1f54fbb94b64ca98ea44880874a59e1a3.tar.gz/dist t/99-testMETA.rakutest
+[Physics::Constants] 1..1
+[Physics::Constants] ok 1 - # SKIP Skipping author test
+===> Testing [FAIL]: Physics::Constants:ver<1.0.10>:auth<zef:librasteve>:api<1>
+[Physics::Constants] Failed to get passing tests, but continuing with --force-test
+===> Installing: Physics::Constants:ver<1.0.10>:auth<zef:librasteve>:api<1>
+===> Install [OK] for Physics::Constants:ver<1.0.10>:auth<zef:librasteve>:api<1>

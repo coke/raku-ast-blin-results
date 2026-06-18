@@ -1,0 +1,29 @@
+===> Searching for: App::SerializerPerf
+===> Found: App::SerializerPerf:ver<0.0.5>:auth<zef:japhb> [via Zef::Repository::Ecosystems<fez>]
+[App::SerializerPerf] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781802516.701668.4366.492147765724/566c5cba3a23d43c5894c817e9c619769a156a6e.tar.gz https://360.zef.pm/A/PP/APP_SERIALIZERPERF/566c5cba3a23d43c5894c817e9c619769a156a6e.tar.gz
+===> Fetching [OK]: App::SerializerPerf:ver<0.0.5>:auth<zef:japhb> to /blin/data/zef-data/tmp/1781802516.701668.4366.492147765724/566c5cba3a23d43c5894c817e9c619769a156a6e.tar.gz
+[App::SerializerPerf] Command: tar -t -f ./566c5cba3a23d43c5894c817e9c619769a156a6e.tar.gz
+[App::SerializerPerf] Command: tar -xvf ./566c5cba3a23d43c5894c817e9c619769a156a6e.tar.gz -C ../566c5cba3a23d43c5894c817e9c619769a156a6e.tar.gz
+===> Extraction [OK]: App::SerializerPerf to /blin/data/zef-data/tmp/566c5cba3a23d43c5894c817e9c619769a156a6e.tar.gz
+===> Testing: App::SerializerPerf:ver<0.0.5>:auth<zef:japhb>
+[App::SerializerPerf] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/566c5cba3a23d43c5894c817e9c619769a156a6e.tar.gz/App-SerializerPerf-0.0.5 t/00-use.rakutest
+[App::SerializerPerf] ===SORRY!=== Error while compiling t/00-use.rakutest
+[App::SerializerPerf] Potential difficulties:
+[App::SerializerPerf]     Optional named parameter 'indent' with subset type UInt needs a valid default value
+[App::SerializerPerf]     otherwise it will throw exceptions when a value is absent at the callsite
+[App::SerializerPerf]     at /blin/installed/BSON_0.13.3/sources/5C9ADFB7D4ABA2A85E6B7BE64467012B589A0AB2 (BSON::ObjectId):163
+[App::SerializerPerf] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/566c5cba3a23d43c5894c817e9c619769a156a6e.tar.gz/App-SerializerPerf-0.0.5/lib/App/SerializerPerf.rakumod (App::SerializerPerf)
+[App::SerializerPerf] ===SORRY!=== Error while compiling /blin/installed/BSON::Simple_0.0.2/sources/70F2733666D5CB769729E61E50B3D2D1C76612E3 (BSON::Simple)
+[App::SerializerPerf] ===SORRY!=== Error while compiling:
+[App::SerializerPerf] Redeclaration of symbol 'Hash::Ordered'.
+[App::SerializerPerf] at line 
+[App::SerializerPerf] at /blin/installed/BSON::Simple_0.0.2/sources/70F2733666D5CB769729E61E50B3D2D1C76612E3 (BSON::Simple):5
+[App::SerializerPerf] at /blin/data/zef-data/tmp/566c5cba3a23d43c5894c817e9c619769a156a6e.tar.gz/App-SerializerPerf-0.0.5/lib/App/SerializerPerf.rakumod (App::SerializerPerf):13
+[App::SerializerPerf] at t/00-use.rakutest:5
+===> Testing [FAIL]: App::SerializerPerf:ver<0.0.5>:auth<zef:japhb>
+[App::SerializerPerf] Failed to get passing tests, but continuing with --force-test
+===> Installing: App::SerializerPerf:ver<0.0.5>:auth<zef:japhb>
+===> Install [OK] for App::SerializerPerf:ver<0.0.5>:auth<zef:japhb>
+
+1 bin/ script [serializer-perf] installed to:
+/blin/installed/App::SerializerPerf_0.0.5/bin

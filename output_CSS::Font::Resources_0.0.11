@@ -1,0 +1,61 @@
+===> Searching for: CSS::Font::Resources
+===> Found: CSS::Font::Resources:ver<0.0.11>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[CSS::Font::Resources] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781803576.708185.389.0941874325282/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz https://360.zef.pm/C/SS/CSS_FONT_RESOURCES/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz
+===> Fetching [OK]: CSS::Font::Resources:ver<0.0.11>:auth<zef:dwarring> to /blin/data/zef-data/tmp/1781803576.708185.389.0941874325282/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz
+[CSS::Font::Resources] Command: tar -t -f ./be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz
+[CSS::Font::Resources] Command: tar -xvf ./be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz -C ../be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz
+===> Extraction [OK]: CSS::Font::Resources to /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz
+===> Testing: CSS::Font::Resources:ver<0.0.11>:auth<zef:dwarring>
+[CSS::Font::Resources] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz/CSS-Font-Resources-0.0.11 t/load.t
+[CSS::Font::Resources] ===SORRY!=== Error while compiling t/load.t
+[CSS::Font::Resources] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz/CSS-Font-Resources-0.0.11/lib/CSS/Font/Resources.rakumod (CSS::Font::Resources)
+[CSS::Font::Resources] ===SORRY!=== Error while compiling /blin/installed/CSS::Properties_0.10.8/sources/2FEE610DAD30C15AACE71AD1310AE37E3B497A8C (CSS::Properties::Calculator)
+[CSS::Font::Resources] This element has not been resolved. Type: RakuAST::Var::Lexical
+[CSS::Font::Resources] at /blin/installed/CSS::Properties_0.10.8/sources/2FEE610DAD30C15AACE71AD1310AE37E3B497A8C (CSS::Properties::Calculator):4
+[CSS::Font::Resources] at /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz/CSS-Font-Resources-0.0.11/lib/CSS/Font/Resources.rakumod (CSS::Font::Resources):4
+[CSS::Font::Resources] at t/load.t:3
+[CSS::Font::Resources] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz/CSS-Font-Resources-0.0.11 t/match.t
+[CSS::Font::Resources] ===SORRY!=== Error while compiling t/match.t
+[CSS::Font::Resources] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz/CSS-Font-Resources-0.0.11/lib/CSS/Font/Resources.rakumod (CSS::Font::Resources)
+[CSS::Font::Resources] ===SORRY!=== Error while compiling /blin/installed/CSS::Properties_0.10.8/sources/2FEE610DAD30C15AACE71AD1310AE37E3B497A8C (CSS::Properties::Calculator)
+[CSS::Font::Resources] This element has not been resolved. Type: RakuAST::Var::Lexical
+[CSS::Font::Resources] at /blin/installed/CSS::Properties_0.10.8/sources/2FEE610DAD30C15AACE71AD1310AE37E3B497A8C (CSS::Properties::Calculator):4
+[CSS::Font::Resources] at /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz/CSS-Font-Resources-0.0.11/lib/CSS/Font/Resources.rakumod (CSS::Font::Resources):4
+[CSS::Font::Resources] at t/match.t:3
+[CSS::Font::Resources] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz/CSS-Font-Resources-0.0.11 t/sources.t
+[CSS::Font::Resources] ===SORRY!=== Error while compiling t/sources.t
+[CSS::Font::Resources] ===SORRY!=== Error while compiling /blin/installed/CSS::Properties_0.10.8/sources/ED68483004C073B5EA833709308FA9FFD85CEB02 (CSS::Font)
+[CSS::Font::Resources] ===SORRY!=== Error while compiling /blin/installed/CSS::Properties_0.10.8/sources/F3B2B6C2B8E998652667FB029D6683B526FE6B01 (CSS::Properties)
+[CSS::Font::Resources] ===SORRY!=== Error while compiling /blin/installed/CSS::Module_0.7.7/sources/0558B1B888FA3F2413442A10FBED095150D44A91 (CSS::Module::CSS3)
+[CSS::Font::Resources] ===SORRY!===
+[CSS::Font::Resources] Unresolved references found in grammar CSS::Module::CSS3::Colors:
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):42): keyw
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):44): keyw
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):45): keyw
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):52): color-range
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):53): color-range
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):54): color-range
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):55): usage
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):61): color-range
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):62): color-range
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):63): color-range
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):64): usage
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):74): usage
+[CSS::Font::Resources]   in rule color (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):83): usage
+[CSS::Font::Resources]   in rule color-alpha (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):48): number
+[CSS::Font::Resources]   in rule percentage-range (at /blin/installed/CSS::Module_0.7.7/sources/3E11D863CB5F5ABCC37630C40E76E1AB45406FAB (CSS::Module::CSS3::Colors):68): percentage
+[CSS::Font::Resources] at /blin/installed/CSS::Module_0.7.7/sources/0558B1B888FA3F2413442A10FBED095150D44A91 (CSS::Module::CSS3):7
+[CSS::Font::Resources] at /blin/installed/CSS::Properties_0.10.8/sources/F3B2B6C2B8E998652667FB029D6683B526FE6B01 (CSS::Properties):89
+[CSS::Font::Resources] at /blin/installed/CSS::Properties_0.10.8/sources/ED68483004C073B5EA833709308FA9FFD85CEB02 (CSS::Font):5
+[CSS::Font::Resources] at t/sources.t:3
+[CSS::Font::Resources] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz/CSS-Font-Resources-0.0.11 t/uri.t
+[CSS::Font::Resources] ===SORRY!=== Error while compiling t/uri.t
+[CSS::Font::Resources] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz/CSS-Font-Resources-0.0.11/lib/CSS/URI.rakumod (CSS::URI)
+[CSS::Font::Resources] You can't adverb make-temp-path
+[CSS::Font::Resources] at /blin/data/zef-data/tmp/be6fd4d3d2e949e6a9e9482e04ac9f95a13c0211.tar.gz/CSS-Font-Resources-0.0.11/lib/CSS/URI.rakumod (CSS::URI):46
+[CSS::Font::Resources] ------>                 make-temp-path :$content<HERE>, :$suffix;
+[CSS::Font::Resources] at t/uri.t:3
+===> Testing [FAIL]: CSS::Font::Resources:ver<0.0.11>:auth<zef:dwarring>
+[CSS::Font::Resources] Failed to get passing tests, but continuing with --force-test
+===> Installing: CSS::Font::Resources:ver<0.0.11>:auth<zef:dwarring>
+===> Install [OK] for CSS::Font::Resources:ver<0.0.11>:auth<zef:dwarring>

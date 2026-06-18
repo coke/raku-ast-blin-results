@@ -1,0 +1,103 @@
+===> Searching for: IO::CatHandle::AutoLines
+===> Found: IO::CatHandle::AutoLines:ver<1.1>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[IO::CatHandle::AutoLines] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781803262.706094.8782.892193432976/42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz https://360.zef.pm/I/O_/IO_CATHANDLE_AUTOLINES/42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz
+===> Fetching [OK]: IO::CatHandle::AutoLines:ver<1.1>:auth<zef:raku-community-modules> to /blin/data/zef-data/tmp/1781803262.706094.8782.892193432976/42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz
+[IO::CatHandle::AutoLines] Command: tar -t -f ./42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz
+[IO::CatHandle::AutoLines] Command: tar -xvf ./42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz -C ../42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz
+===> Extraction [OK]: IO::CatHandle::AutoLines to /blin/data/zef-data/tmp/42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz
+===> Testing: IO::CatHandle::AutoLines:ver<1.1>:auth<zef:raku-community-modules>
+[IO::CatHandle::AutoLines] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz/IO-CatHandle-AutoLines-1.1 t/00-argfiles.rakutest
+[IO::CatHandle::AutoLines] 1..2
+[IO::CatHandle::AutoLines] ok 1 - Can recast $*ARGFILES
+[IO::CatHandle::AutoLines] ok 2 - Initialized line counter
+[IO::CatHandle::AutoLines] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz/IO-CatHandle-AutoLines-1.1 t/01-CatHandle.rakutest
+[IO::CatHandle::AutoLines] Potential difficulties:
+[IO::CatHandle::AutoLines]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[IO::CatHandle::AutoLines]     name silently replaces the package in the outer stash. This is legacy
+[IO::CatHandle::AutoLines]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[IO::CatHandle::AutoLines]     installs the role as a nested package instead. Rewrite as 'unit role
+[IO::CatHandle::AutoLines]     Testo::Test;' in its own file (or otherwise avoid the
+[IO::CatHandle::AutoLines]     package+same-named-role collision) to work the same way on either
+[IO::CatHandle::AutoLines]     revision.
+[IO::CatHandle::AutoLines]     at line 
+[IO::CatHandle::AutoLines] Potential difficulties:
+[IO::CatHandle::AutoLines]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[IO::CatHandle::AutoLines]     name silently replaces the package in the outer stash. This is legacy
+[IO::CatHandle::AutoLines]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[IO::CatHandle::AutoLines]     installs the role as a nested package instead. Rewrite as 'unit role
+[IO::CatHandle::AutoLines]     Testo::Test;' in its own file (or otherwise avoid the
+[IO::CatHandle::AutoLines]     package+same-named-role collision) to work the same way on either
+[IO::CatHandle::AutoLines]     revision.
+[IO::CatHandle::AutoLines]     at line 
+[IO::CatHandle::AutoLines] Potential difficulties:
+[IO::CatHandle::AutoLines]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[IO::CatHandle::AutoLines]     name silently replaces the package in the outer stash. This is legacy
+[IO::CatHandle::AutoLines]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[IO::CatHandle::AutoLines]     installs the role as a nested package instead. Rewrite as 'unit role
+[IO::CatHandle::AutoLines]     Testo::Test;' in its own file (or otherwise avoid the
+[IO::CatHandle::AutoLines]     package+same-named-role collision) to work the same way on either
+[IO::CatHandle::AutoLines]     revision.
+[IO::CatHandle::AutoLines]     at line 
+[IO::CatHandle::AutoLines] Potential difficulties:
+[IO::CatHandle::AutoLines]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[IO::CatHandle::AutoLines]     name silently replaces the package in the outer stash. This is legacy
+[IO::CatHandle::AutoLines]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[IO::CatHandle::AutoLines]     installs the role as a nested package instead. Rewrite as 'unit role
+[IO::CatHandle::AutoLines]     Testo::Test;' in its own file (or otherwise avoid the
+[IO::CatHandle::AutoLines]     package+same-named-role collision) to work the same way on either
+[IO::CatHandle::AutoLines]     revision.
+[IO::CatHandle::AutoLines]     at line 
+[IO::CatHandle::AutoLines] Potential difficulties:
+[IO::CatHandle::AutoLines]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[IO::CatHandle::AutoLines]     name silently replaces the package in the outer stash. This is legacy
+[IO::CatHandle::AutoLines]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[IO::CatHandle::AutoLines]     installs the role as a nested package instead. Rewrite as 'unit role
+[IO::CatHandle::AutoLines]     Testo::Test;' in its own file (or otherwise avoid the
+[IO::CatHandle::AutoLines]     package+same-named-role collision) to work the same way on either
+[IO::CatHandle::AutoLines]     revision.
+[IO::CatHandle::AutoLines]     at line 
+[IO::CatHandle::AutoLines] Potential difficulties:
+[IO::CatHandle::AutoLines]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[IO::CatHandle::AutoLines]     name silently replaces the package in the outer stash. This is legacy
+[IO::CatHandle::AutoLines]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[IO::CatHandle::AutoLines]     installs the role as a nested package instead. Rewrite as 'unit role
+[IO::CatHandle::AutoLines]     Testo::Test;' in its own file (or otherwise avoid the
+[IO::CatHandle::AutoLines]     package+same-named-role collision) to work the same way on either
+[IO::CatHandle::AutoLines]     revision.
+[IO::CatHandle::AutoLines]     at line 
+[IO::CatHandle::AutoLines] Potential difficulties:
+[IO::CatHandle::AutoLines]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[IO::CatHandle::AutoLines]     name silently replaces the package in the outer stash. This is legacy
+[IO::CatHandle::AutoLines]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[IO::CatHandle::AutoLines]     installs the role as a nested package instead. Rewrite as 'unit role
+[IO::CatHandle::AutoLines]     Testo::Test;' in its own file (or otherwise avoid the
+[IO::CatHandle::AutoLines]     package+same-named-role collision) to work the same way on either
+[IO::CatHandle::AutoLines]     revision.
+[IO::CatHandle::AutoLines]     at line 
+[IO::CatHandle::AutoLines] Potential difficulties:
+[IO::CatHandle::AutoLines]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[IO::CatHandle::AutoLines]     name silently replaces the package in the outer stash. This is legacy
+[IO::CatHandle::AutoLines]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[IO::CatHandle::AutoLines]     installs the role as a nested package instead. Rewrite as 'unit role
+[IO::CatHandle::AutoLines]     Testo::Test;' in its own file (or otherwise avoid the
+[IO::CatHandle::AutoLines]     package+same-named-role collision) to work the same way on either
+[IO::CatHandle::AutoLines]     revision.
+[IO::CatHandle::AutoLines]     at line 
+[IO::CatHandle::AutoLines] Potential difficulties:
+[IO::CatHandle::AutoLines]     Optional named parameter 'key' with subset type UInt needs a valid default value
+[IO::CatHandle::AutoLines]     otherwise it will throw exceptions when a value is absent at the callsite
+[IO::CatHandle::AutoLines]     at /blin/installed/Testo_1.003009/sources/B784C8CFC84D8A3E48ED14CDD1CE15198ECF3441 (Testo::Tester):33
+[IO::CatHandle::AutoLines] ===SORRY!===
+[IO::CatHandle::AutoLines] You can't adverb make-temp-path
+[IO::CatHandle::AutoLines] at /blin/data/zef-data/tmp/42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz/IO-CatHandle-AutoLines-1.1/t/01-CatHandle.rakutest:9
+[IO::CatHandle::AutoLines] ------>      .map: { make-temp-path :content($_)<HERE> }
+[IO::CatHandle::AutoLines] You can't adverb make-cat
+[IO::CatHandle::AutoLines] at /blin/data/zef-data/tmp/42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz/IO-CatHandle-AutoLines-1.1/t/01-CatHandle.rakutest:49
+[IO::CatHandle::AutoLines] ------> y $cat = (make-cat :on-switch{ $pass++ }<HERE>)
+[IO::CatHandle::AutoLines] You can't adverb make-cat
+[IO::CatHandle::AutoLines] at /blin/data/zef-data/tmp/42dee702a0bb71953071a07a1a27d7951d1b64d1.tar.gz/IO-CatHandle-AutoLines-1.1/t/01-CatHandle.rakutest:63
+[IO::CatHandle::AutoLines] ------> y $cat = (make-cat :on-switch{ $pass++ }<HERE>)
+===> Testing [FAIL]: IO::CatHandle::AutoLines:ver<1.1>:auth<zef:raku-community-modules>
+[IO::CatHandle::AutoLines] Failed to get passing tests, but continuing with --force-test
+===> Installing: IO::CatHandle::AutoLines:ver<1.1>:auth<zef:raku-community-modules>
+===> Install [OK] for IO::CatHandle::AutoLines:ver<1.1>:auth<zef:raku-community-modules>
