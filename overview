@@ -61,7 +61,7 @@ Air::Examples – MissingDependency
 Air::Play – OK
 Air::Plugin::Asciinema – AlwaysFail
 Air::Plugin::Hilite – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-Air::Plugin::Rakudoc – Unknown
+Air::Plugin::Rakudoc – AlwaysFail
 Air::Plugin::Wordcloud – AlwaysFail
 Algorithm::AhoCorasick – OK
 Algorithm::BinaryIndexedTree – OK
@@ -103,7 +103,7 @@ Anolis – OK
 Apache::LogFormat – OK
 App::APOTD – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 App::AizuOnlineJudge – OK
-App::Assixt – Unknown
+App::Assixt – AlwaysFail
 App::Backup – AlwaysFail
 App::Browser – OK
 App::ByWord – OK
@@ -127,7 +127,7 @@ App::JSONDiff – OK
 App::Lorea – AlwaysFail
 App::MPD::AutoQueue – OK
 App::MPD::Notify – OK
-App::Mi6 – Unknown
+App::Mi6 – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 App::Miroku – OK
 App::MoarVM::ConfprogCompiler – AlwaysFail
 App::MoarVM::Debug – OK
@@ -173,7 +173,7 @@ App::pixel-pick – AlwaysFail
 App::pixel::pick – AlwaysFail
 App::pixelpick – AlwaysFail
 App::redpanda – OK
-App::samaki – Unknown
+App::samaki – AlwaysFail
 App::snippet – AlwaysFail
 App::termie – OK
 App::tmeta – OK
@@ -264,7 +264,7 @@ Bitcoin – AlwaysFail
 Bitcoin::Core::Secp256k1 – AlwaysFail
 Bitcoin::RPC::Client – OK
 Bits – OK
-Blin – Unknown
+Blin – OK
 BlkMeV – OK
 Brazilian::FederalDocuments – OK
 BreakDancer – AlwaysFail
@@ -349,7 +349,7 @@ Cofra – AlwaysFail
 Collection – AlwaysFail
 Collection-Plugin-Development – AlwaysFail
 Collection-Plugins – AlwaysFail
-Collection-Raku-Documentation – Unknown
+Collection-Raku-Documentation – AlwaysFail
 Color – OK
 Color::DirColors – OK
 Color::Named – AlwaysFail
@@ -432,7 +432,7 @@ Cro::HTTP::BodySerializerJSONClass – AlwaysFail
 Cro::HTTP::RouterUtils – AlwaysFail
 Cro::HTTP::Session::MySQL – AlwaysFail
 Cro::HTTP::Session::Pg – AlwaysFail
-Cro::HTTP::Session::Red – Unknown
+Cro::HTTP::Session::Red – AlwaysFail
 Cro::HTTP::Session::Redis – AlwaysFail
 Cro::HTTP::Session::SQLite – OK
 Cro::HTTP::Test – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -586,7 +586,7 @@ DateTime::Utils – OK
 DateTime::strftime – OK
 Datetime::Math – OK
 Dawa – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-Ddt – Unknown
+Ddt – AlwaysFail
 Debug::Transput – OK
 Debugger::UI::CommandLine – OK
 Debugging::Tool – OK
@@ -1283,7 +1283,7 @@ MPD::Client – AlwaysFail
 MQ::Posix – OK
 MQTT::Client – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 MUGS – Unknown
-MUGS::Core – Unknown
+MUGS::Core – AlwaysFail
 MUGS::Games – Unknown
 MUGS::UI::CLI – Unknown
 MUGS::UI::TUI – Unknown
@@ -1401,7 +1401,7 @@ Metropolis – OK
 Mi6::Helper – Unknown
 Migration::RTtoGithub – OK
 MinG – OK
-Mint – Unknown
+Mint – AlwaysFail
 Mmap::Native – AlwaysFail
 MoarVM::Bytecode – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 MoarVM::Profile – AlwaysFail
@@ -1670,7 +1670,7 @@ Pod::Load – AlwaysFail
 Pod::Parser – OK
 Pod::Perl5 – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Pod::PerlTricks – Flapper
-Pod::Render – Unknown
+Pod::Render – OK
 Pod::Strip – AlwaysFail
 Pod::Tangle – OK
 Pod::Test::Code – OK
@@ -1690,7 +1690,7 @@ Pod::TreeWalker – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Pod::Usage – OK
 Pod::Utilities – AlwaysFail
 Pod::Utils – AlwaysFail
-Pod::Weave – Unknown
+Pod::Weave – OK
 Podviewer – OK
 Pofig – OK
 Point – OK
@@ -1798,8 +1798,8 @@ Readline – OK
 Reaper::Control – OK
 Recipe::Parser – OK
 Red – AlwaysFail
-RedFactory – Unknown
-RedX::HashedPassword – Unknown
+RedFactory – AlwaysFail
+RedX::HashedPassword – AlwaysFail
 Redis – OK
 Redis::Async – OK
 Regex::FuzzyToken – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -2335,7 +2335,7 @@ WhereList – OK
 Wikidata::API – AlwaysFail
 Win32::DrivesAndTypes – AlwaysFail
 Win32::Registry – OK
-Windows::Test – Unknown
+Windows::Test – OK
 Wkhtmltox – AlwaysFail
 WriteOnceHash – OK
 X11::Xdo – AlwaysFail
