@@ -1,0 +1,669 @@
+===> Searching for: PDF::Class
+===> Found: PDF::Class:ver<0.5.30>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[PDF::Class] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781806598.730733.1975.0043495068326/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz https://360.zef.pm/P/DF/PDF_CLASS/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz
+===> Fetching [OK]: PDF::Class:ver<0.5.30>:auth<zef:dwarring> to /blin/data/zef-data/tmp/1781806598.730733.1975.0043495068326/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz
+[PDF::Class] Command: tar -t -f ./1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz
+[PDF::Class] Command: tar -xvf ./1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz -C ../1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz
+===> Extraction [OK]: PDF::Class to /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz
+===> Testing: PDF::Class:ver<0.5.30>:auth<zef:dwarring>
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/00-readme.t
+[PDF::Class] ===SORRY!=== Error while compiling t/00-readme.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/00-readme.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/defs.t
+[PDF::Class] ===SORRY!=== Error while compiling t/defs.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Defs.rakumod (PDF::Class::Defs)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/5BCDAC362D35715D802CD30317A642DAC7115F54 (PDF::COS::Stream)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/5BCDAC362D35715D802CD30317A642DAC7115F54 (PDF::COS::Stream):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Defs.rakumod (PDF::Class::Defs):5
+[PDF::Class] at t/defs.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/embedded-file.t
+[PDF::Class] ===SORRY!=== Error while compiling t/embedded-file.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/embedded-file.t:4
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/helloworld.t
+[PDF::Class] ===SORRY!=== Error while compiling t/helloworld.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at t/helloworld.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/html-canvas.t
+[PDF::Class] ===SORRY!=== Error while compiling t/html-canvas.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/html-canvas.t:5
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/image-png.t
+[PDF::Class] ===SORRY!=== Error while compiling t/image-png.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Type.rakumod (PDF::Class::Type)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Loader.rakumod (PDF::Class::Loader)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Defs.rakumod (PDF::Class::Defs)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/5BCDAC362D35715D802CD30317A642DAC7115F54 (PDF::COS::Stream)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/5BCDAC362D35715D802CD30317A642DAC7115F54 (PDF::COS::Stream):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Defs.rakumod (PDF::Class::Defs):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Loader.rakumod (PDF::Class::Loader):8
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Type.rakumod (PDF::Class::Type):5
+[PDF::Class] at t/image-png.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/load-delegate.t
+[PDF::Class] ===SORRY!=== Error while compiling t/load-delegate.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/load-delegate.t:5
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-acroform.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-acroform.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-acroform.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-action.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-action.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-action.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-annot.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-annot.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at t/pdf-annot.t:4
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-catalog.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-catalog.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-catalog.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-cmap.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-cmap.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-cmap.t:4
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-colorspace-devicen.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-colorspace-devicen.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-colorspace-devicen.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-colorspace.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-colorspace.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-colorspace.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-destination.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-destination.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-destination.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-font-cidfont.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-font-cidfont.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-font-cidfont.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-font-descriptor.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-font-descriptor.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-font-descriptor.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-font.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-font.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-font.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-function-exponential.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-function-exponential.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-function-exponential.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-function-postscript.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-function-postscript.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-function-postscript.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-function-sampled.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-function-sampled.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-function-sampled.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-function-stitching.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-function-stitching.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-function-stitching.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-group.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-group.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-group.t:5
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-lite.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-lite.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at t/pdf-lite.t:4
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-metadata.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-metadata.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-metadata.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-nametree.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-nametree.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-nametree.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-numbertree.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-numbertree.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-numbertree.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-optional-content.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-optional-content.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-optional-content.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-outline.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-outline.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-outline.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-outlines.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-outlines.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-outlines.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-page.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-page.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-page.t:7
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-pages.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-pages.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Page.rakumod (PDF::Page)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Page.rakumod (PDF::Page):4
+[PDF::Class] at t/pdf-pages.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-pattern.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-pattern.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-pattern.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-resources.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-resources.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-resources.t:5
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-shading.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-shading.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-shading.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-signature.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-signature.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-signature.t:4
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-struct.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-struct.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-struct.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-xobject-form.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-xobject-form.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-xobject-form.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/pdf-xobject-image.t
+[PDF::Class] ===SORRY!=== Error while compiling t/pdf-xobject-image.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/pdf-xobject-image.t:6
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/render.t
+[PDF::Class] ===SORRY!=== Error while compiling t/render.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Content_0.9.11/sources/7F7351ECA7E1E8DB162C5BE1D7641B47F19BE23B (PDF::Content)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Content_0.9.11/sources/76D33018B7E8C361F5704ED6F2C29E300A9FBD45 (PDF::Content::Ops)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/FB9C062CD6FBEDFD39D6D616E0773E6192322E11 (PDF::IO::Writer)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/FD0218107EA3C99E30361667024E6FF9666DA10C (PDF::COS::Type::XRef)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/5BCDAC362D35715D802CD30317A642DAC7115F54 (PDF::COS::Stream)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/5BCDAC362D35715D802CD30317A642DAC7115F54 (PDF::COS::Stream):5
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/FD0218107EA3C99E30361667024E6FF9666DA10C (PDF::COS::Type::XRef):5
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/FB9C062CD6FBEDFD39D6D616E0773E6192322E11 (PDF::IO::Writer):8
+[PDF::Class] at /blin/installed/PDF::Content_0.9.11/sources/76D33018B7E8C361F5704ED6F2C29E300A9FBD45 (PDF::Content::Ops):93
+[PDF::Class] at /blin/installed/PDF::Content_0.9.11/sources/7F7351ECA7E1E8DB162C5BE1D7641B47F19BE23B (PDF::Content):4
+[PDF::Class] at t/render.t:5
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/type-extensibility.t
+[PDF::Class] ===SORRY!=== Error while compiling t/type-extensibility.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Loader.rakumod (PDF::Class::Loader)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Defs.rakumod (PDF::Class::Defs)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/5BCDAC362D35715D802CD30317A642DAC7115F54 (PDF::COS::Stream)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/5BCDAC362D35715D802CD30317A642DAC7115F54 (PDF::COS::Stream):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Defs.rakumod (PDF::Class::Defs):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Loader.rakumod (PDF::Class::Loader):8
+[PDF::Class] at t/type-extensibility.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/update.t
+[PDF::Class] ===SORRY!=== Error while compiling t/update.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Class] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Class] Malformed my
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Class] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Class] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Class] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class.rakumod (PDF::Class):4
+[PDF::Class] at t/update.t:3
+[PDF::Class] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30 t/util.t
+[PDF::Class] ===SORRY!=== Error while compiling t/util.t
+[PDF::Class] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Util.rakumod (PDF::Class::Util)
+[PDF::Class] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PDF::Class] No such method 'CALL-ME' for invocant of type 'Pair'
+[PDF::Class] at /blin/data/zef-data/tmp/1d6c1d4c4ce5070038a42320efe307a6d2c7fdc6.tar.gz/PDF-Class-0.5.30/lib/PDF/Class/Util.rakumod (PDF::Class::Util):3
+[PDF::Class] Exception details:
+[PDF::Class]   No such method 'CALL-ME' for invocant of type 'Pair'
+[PDF::Class]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PDF::Class]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PDF::Class]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PDF::Class]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PDF::Class]     in any IMPL-INTERPRET at src/Raku/ast/statements.rakumod line 807
+[PDF::Class]     in any IMPL-INTERPRET at src/Raku/ast/statements.rakumod line 571
+[PDF::Class]     in any IMPL-INTERPRET at src/Raku/ast/contextualizer.rakumod line 26
+[PDF::Class]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PDF::Class]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PDF::Class]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PDF::Class]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PDF::Class]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PDF::Class]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PDF::Class]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PDF::Class]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PDF::Class]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PDF::Class]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PDF::Class]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PDF::Class]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PDF::Class]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PDF::Class]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PDF::Class] at t/util.t:3
+===> Testing [FAIL]: PDF::Class:ver<0.5.30>:auth<zef:dwarring>
+[PDF::Class] Failed to get passing tests, but continuing with --force-test
+===> Installing: PDF::Class:ver<0.5.30>:auth<zef:dwarring>
+===> Install [OK] for PDF::Class:ver<0.5.30>:auth<zef:dwarring>
+
+8 bin/ scripts [pdf-content-dump.raku pdf-revert.raku pdf-info.raku pdf-checker.raku pdf-toc.raku pdf-append.raku pdf-fields.raku pdf-burst.raku] installed to:
+/blin/installed/PDF::Class_0.5.30/bin

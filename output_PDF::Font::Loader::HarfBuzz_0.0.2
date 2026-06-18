@@ -1,0 +1,50 @@
+===> Searching for: PDF::Font::Loader::HarfBuzz
+===> Found: PDF::Font::Loader::HarfBuzz:ver<0.0.2>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[PDF::Font::Loader::HarfBuzz] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781814492.794751.2952.110036655471/fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz https://360.zef.pm/P/DF/PDF_FONT_LOADER_HARFBUZZ/fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz
+===> Fetching [OK]: PDF::Font::Loader::HarfBuzz:ver<0.0.2>:auth<zef:dwarring> to /blin/data/zef-data/tmp/1781814492.794751.2952.110036655471/fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz
+[PDF::Font::Loader::HarfBuzz] Command: tar -t -f ./fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz
+[PDF::Font::Loader::HarfBuzz] Command: tar -xvf ./fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz -C ../fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz
+===> Extraction [OK]: PDF::Font::Loader::HarfBuzz to /blin/data/zef-data/tmp/fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz
+===> Testing: PDF::Font::Loader::HarfBuzz:ver<0.0.2>:auth<zef:dwarring>
+[PDF::Font::Loader::HarfBuzz] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz/PDF-Font-Loader-HarfBuzz-0.0.2 t/01-basic.rakutest
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz/PDF-Font-Loader-HarfBuzz-0.0.2/lib/PDF/Font/Loader/HarfBuzz.rakumod (PDF::Font::Loader::HarfBuzz)
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/installed/HarfBuzz_0.1.7/sources/197BBA8E1DCE4F24D5D47648C5BDBF2D66123792 (HarfBuzz::Font)
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/installed/HarfBuzz_0.1.7/sources/842DE9980BF96ED76362651175D620FC3B1EB436 (HarfBuzz::Raw)
+[PDF::Font::Loader::HarfBuzz] Variable '$HB' is not declared. Perhaps you forgot a 'sub' if this was
+[PDF::Font::Loader::HarfBuzz] intended to be part of a signature?
+[PDF::Font::Loader::HarfBuzz] at /blin/installed/HarfBuzz_0.1.7/sources/842DE9980BF96ED76362651175D620FC3B1EB436 (HarfBuzz::Raw):4
+[PDF::Font::Loader::HarfBuzz] ------> use HarfBuzz::Raw::Defs <HERE>:$HB, :$CLIB, :types, :hb-memory-mode;
+[PDF::Font::Loader::HarfBuzz] at /blin/installed/HarfBuzz_0.1.7/sources/197BBA8E1DCE4F24D5D47648C5BDBF2D66123792 (HarfBuzz::Font):4
+[PDF::Font::Loader::HarfBuzz] at /blin/data/zef-data/tmp/fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz/PDF-Font-Loader-HarfBuzz-0.0.2/lib/PDF/Font/Loader/HarfBuzz.rakumod (PDF::Font::Loader::HarfBuzz):4
+[PDF::Font::Loader::HarfBuzz] at t/01-basic.rakutest:3
+[PDF::Font::Loader::HarfBuzz] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz/PDF-Font-Loader-HarfBuzz-0.0.2 t/shape+script.rakutest
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling t/shape+script.rakutest
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Font::Loader::HarfBuzz] Malformed my
+[PDF::Font::Loader::HarfBuzz] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Font::Loader::HarfBuzz] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Font::Loader::HarfBuzz] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Font::Loader::HarfBuzz] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Font::Loader::HarfBuzz] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Font::Loader::HarfBuzz] at t/shape+script.rakutest:2
+[PDF::Font::Loader::HarfBuzz] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fbca0ee84049c511559b7370918eb5d1a100217d.tar.gz/PDF-Font-Loader-HarfBuzz-0.0.2 t/shape.rakutest
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling t/shape.rakutest
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite)
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Font::Loader::HarfBuzz] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Font::Loader::HarfBuzz] Malformed my
+[PDF::Font::Loader::HarfBuzz] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Font::Loader::HarfBuzz] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Font::Loader::HarfBuzz] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Font::Loader::HarfBuzz] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Font::Loader::HarfBuzz] at /blin/installed/PDF::Lite_0.0.15/sources/4B8C75FABE2EECDD858ED982A1205411328CBCE2 (PDF::Lite):5
+[PDF::Font::Loader::HarfBuzz] at t/shape.rakutest:2
+===> Testing [FAIL]: PDF::Font::Loader::HarfBuzz:ver<0.0.2>:auth<zef:dwarring>
+[PDF::Font::Loader::HarfBuzz] Failed to get passing tests, but continuing with --force-test
+===> Installing: PDF::Font::Loader::HarfBuzz:ver<0.0.2>:auth<zef:dwarring>
+===> Install [OK] for PDF::Font::Loader::HarfBuzz:ver<0.0.2>:auth<zef:dwarring>

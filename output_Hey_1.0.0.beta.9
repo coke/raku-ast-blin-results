@@ -1,0 +1,22 @@
+===> Searching for: Hey
+===> Found: Hey:ver<1.0.0.beta.9>:auth<zef:masukomi> [via Zef::Repository::Ecosystems<fez>]
+[Hey] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781808572.747994.1209.7317885959658/980a7708741e86481545bff417e38ad920015bd3.tar.gz https://360.zef.pm/H/EY/HEY/980a7708741e86481545bff417e38ad920015bd3.tar.gz
+===> Fetching [OK]: Hey:ver<1.0.0.beta.9>:auth<zef:masukomi> to /blin/data/zef-data/tmp/1781808572.747994.1209.7317885959658/980a7708741e86481545bff417e38ad920015bd3.tar.gz
+[Hey] Command: tar -t -f ./980a7708741e86481545bff417e38ad920015bd3.tar.gz
+[Hey] Command: tar -xvf ./980a7708741e86481545bff417e38ad920015bd3.tar.gz -C ../980a7708741e86481545bff417e38ad920015bd3.tar.gz
+===> Extraction [OK]: Hey to /blin/data/zef-data/tmp/980a7708741e86481545bff417e38ad920015bd3.tar.gz
+===> Testing: Hey:ver<1.0.0.beta.9>:auth<zef:masukomi>
+[Hey] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/980a7708741e86481545bff417e38ad920015bd3.tar.gz/Hey t/Hey/Utilities.rakutest
+[Hey] ===SORRY!=== Error while compiling t/Hey/Utilities.rakutest
+[Hey] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/980a7708741e86481545bff417e38ad920015bd3.tar.gz/Hey/lib/Hey/Utilities.rakumod (Hey::Utilities)
+[Hey] ===SORRY!===
+[Hey] Object does not exist in serialization context
+[Hey] at /blin/data/zef-data/tmp/980a7708741e86481545bff417e38ad920015bd3.tar.gz/Hey/lib/Hey/Utilities.rakumod (Hey::Utilities):3
+[Hey] at t/Hey/Utilities.rakutest:3
+===> Testing [FAIL]: Hey:ver<1.0.0.beta.9>:auth<zef:masukomi>
+[Hey] Failed to get passing tests, but continuing with --force-test
+===> Installing: Hey:ver<1.0.0.beta.9>:auth<zef:masukomi>
+===> Install [OK] for Hey:ver<1.0.0.beta.9>:auth<zef:masukomi>
+
+1 bin/ script [hey] installed to:
+/blin/installed/Hey_1.0.0.beta.9/bin
