@@ -200,7 +200,7 @@ Ask – Unknown
 Asserter – AlwaysFail
 Astro::Almanac – Unknown
 Astro::Sunrise – OK
-Astro::Utils – Unknown
+Astro::Utils – OK
 Async::Command – OK
 Async::Workers – Unknown
 AttrX::InitArg – AlwaysFail
@@ -222,7 +222,7 @@ Audio::Playlist::JSPF – Unknown
 Audio::PortAudio – OK
 Audio::PortMIDI – Unknown
 Audio::Silan – OK
-Audio::Sndfile – Unknown
+Audio::Sndfile – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Audio::TagLib – OK
 Audio::Taglib::Simple – OK
 Auth::PAM::Simple – Unknown
@@ -285,7 +285,7 @@ CI::Gen – Unknown
 CLDR::List – OK
 CLI::AWS::EC2-Simple – Unknown
 CLI::Ecosystem – Unknown
-CLI::Graphing::BarChart – Unknown
+CLI::Graphing::BarChart – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CLI::Help – OK
 CLI::Version – OK
 CLI::Wordpress – Unknown
@@ -491,7 +491,7 @@ DB::Xoos::SQLite – Unknown
 DBDish::ODBC – Unknown
 DBI::Async – Unknown
 DBIish – Unknown
-DBIish – Unknown
+DBIish – AlwaysFail
 DBIish::Pool – Unknown
 DBIish::Transaction – Unknown
 DBIx::NamedQueries – MissingDependency
@@ -663,7 +663,7 @@ Email::MIME – Unknown
 Email::Notmuch – Unknown
 Email::SendGrid – Unknown
 Email::Simple – OK
-Email::Valid – Unknown
+Email::Valid – OK
 Encode – OK
 Encoding::Emacs – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Encoding::Huffman::PP6 – OK
@@ -751,7 +751,7 @@ Foo:: Foo – UnhandledException
 Foo::
 Foo – AlwaysFail
 Foo::<b>Foo – AlwaysFail
-Foo::Bar – Unknown
+Foo::Bar – OK
 Foo::Dependencies::A-on-B – CyclicDependency
 Foo::Dependencies::B-on-A – CyclicDependency
 Foo::Dependencies::Self – CyclicDependency
@@ -770,7 +770,7 @@ Functional::Queue – Unknown
 Functional::Stack – Unknown
 FunctionalParsers – OK
 Future – Unknown
-GD – Unknown
+GD – OK
 GD::Raw – Unknown
 GDBM – Unknown
 GEOS – Unknown
@@ -936,7 +936,7 @@ HTTP::UserAgent – Unknown
 HTTP::UserAgent::Strict – Unknown
 Haikunator – Unknown
 HandleSupplier – OK
-HarfBuzz – Unknown
+HarfBuzz – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 HarfBuzz::Font::FreeType – Unknown
 HarfBuzz::Shaper::Cairo – Unknown
 HarfBuzz::Subset – Unknown
@@ -1033,7 +1033,7 @@ Iec104Parser – OK
 Igo – Unknown
 Ikoko – Unknown
 Image::Libexif – Unknown
-Image::Markup::Utilities – Unknown
+Image::Markup::Utilities – OK
 Image::PNG::Inflated – OK
 Image::PNG::Portable – Unknown
 Image::QRCode – AlwaysFail
@@ -1154,7 +1154,7 @@ LLM::Graph – Unknown
 LLM::Prompts – Unknown
 LLM::Resources – Unknown
 LLM::RetrievalAugmentedGeneration – CyclicDependency
-LLVM – Unknown
+LLVM – OK
 LMDB – Unknown
 LN – Unknown
 LR1 – OK
@@ -1219,7 +1219,7 @@ Linux::NFTables – Unknown
 Linux::Proc::Statm – OK
 Linux::Process::SignalInfo – Unknown
 List::Agnostic – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-List::AllUtils – Unknown
+List::AllUtils – AlwaysFail
 List::Allmax – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 List::Divvy – OK
 List::MoreUtils – OK
@@ -1242,7 +1242,7 @@ Log::Dispatch – Unknown
 Log::JSON – OK
 Log::Minimal – Unknown
 Log::Reader – OK
-Log::Simple – Unknown
+Log::Simple – OK
 Log::Syslog::Native – OK
 Log::Timeline – Unknown
 Log::ZMQ – Unknown
@@ -1280,7 +1280,7 @@ ML::SparseMatrixRecommender – CyclicDependency
 ML::TriesWithFrequencies – OK
 MPD – OK
 MPD::Client – Unknown
-MQ::Posix – Unknown
+MQ::Posix – OK
 MQTT::Client – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 MUGS – Unknown
 MUGS::Core – Unknown
@@ -1334,7 +1334,7 @@ Math::Libgsl::Constants – AlwaysFail
 Math::Libgsl::DigitalFiltering – Unknown
 Math::Libgsl::Eigensystem – Unknown
 Math::Libgsl::Elementary – AlwaysFail
-Math::Libgsl::Function – Unknown
+Math::Libgsl::Function – AlwaysFail
 Math::Libgsl::Histogram – Unknown
 Math::Libgsl::Interpolation – Unknown
 Math::Libgsl::LinearAlgebra – Unknown
@@ -1346,8 +1346,8 @@ Math::Libgsl::Polynomial – Unknown
 Math::Libgsl::QuasiRandom – Unknown
 Math::Libgsl::Random – Unknown
 Math::Libgsl::RandomDistribution – Unknown
-Math::Libgsl::RunningStatistics – Unknown
-Math::Libgsl::Series – Unknown
+Math::Libgsl::RunningStatistics – AlwaysFail
+Math::Libgsl::Series – AlwaysFail
 Math::Libgsl::Sort – Unknown
 Math::Libgsl::Statistics – AlwaysFail
 Math::Libgsl::Wavelet – Unknown
@@ -1417,7 +1417,7 @@ Monad-Result – OK
 Moneys – OK
 MongoDB – Unknown
 MongoDB::Fast – AlwaysFail
-MongoDB::Queue – Unknown
+MongoDB::Queue – AlwaysFail
 Monitor::Monit – Unknown
 Moonphase – OK
 Mortgage – OK
@@ -1427,7 +1427,7 @@ Munge – Unknown
 Music::Engine – Unknown
 Music::Helpers – Unknown
 Mux – OK
-NCurses – Unknown
+NCurses – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 NQP::Eval – OK
 NYI – OK
 Native::Compile – Unknown
@@ -1487,8 +1487,8 @@ Netstring – OK
 Node::Ethereum::Keccak256::Native – Unknown
 Node::Ethereum::KeyStore::V3 – Unknown
 Node::Ethereum::RLP – OK
-Noise::Simplex – Unknown
-Noise::Simplex::Native – Unknown
+Noise::Simplex – OK
+Noise::Simplex::Native – OK
 Notcurses::Native – OK
 Notify – OK
 Num::HexFloat – OK
@@ -1594,8 +1594,8 @@ PDF::Font::Loader – Unknown
 PDF::Font::Loader::CSS – Unknown
 PDF::Font::Loader::HarfBuzz – Unknown
 PDF::Grammar – OK
-PDF::ISO_32000 – Unknown
-PDF::ISO_32000_2 – Unknown
+PDF::ISO_32000 – OK
+PDF::ISO_32000_2 – OK
 PDF::Labelmaker – OK
 PDF::Lite – Unknown
 PDF::NameTags – Unknown
@@ -1951,7 +1951,7 @@ Stache – Unknown
 Stache – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Staticish – OK
 Statistics – AlwaysFail
-Statistics::Distributions – Unknown
+Statistics::Distributions – OK
 Statistics::LinearRegression – OK
 Statistics::OutlierIdentifiers – Unknown
 Stats – OK
@@ -2057,7 +2057,7 @@ Terminal::Caca – OK
 Terminal::Capabilities – Unknown
 Terminal::Gauge – Unknown
 Terminal::Getpass – Unknown
-Terminal::Graphing::BarChart – Unknown
+Terminal::Graphing::BarChart – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Terminal::LineEditor – Unknown
 Terminal::Print – Unknown
 Terminal::QuickCharts – Unknown
@@ -2128,7 +2128,7 @@ Text::Emoji – Unknown
 Text::Emotion – OK
 Text::Flags – OK
 Text::Fortune – OK
-Text::FriBidi – Unknown
+Text::FriBidi – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Text::Homoglyph – OK
 Text::Homoglyph::ASCII – OK
 Text::Homoglyph::Cyrillic – OK
@@ -2364,7 +2364,7 @@ YAML – Unknown
 YAML::Parser::LibYAML – Unknown
 YAMLScript – AlwaysFail
 YAMLStar – OK
-YAMLish – Unknown
+YAMLish – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 YakShave – OK
 Yapsi – AlwaysFail
 Zap – Unknown
