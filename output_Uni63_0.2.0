@@ -1,0 +1,27 @@
+===> Searching for: Uni63
+===> Found: Uni63:ver<0.2.0> [via Zef::Repository::Ecosystems<rea>]
+[Uni63] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781739684.195579.6724.4388764946125/Uni63%3Aver%3C0.2.0%3E%3Aauth%3Cgithub%3Acygx%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/U/Uni63/Uni63%3Aver%3C0.2.0%3E%3Aauth%3Cgithub%3Acygx%3E.tar.gz
+===> Fetching [OK]: Uni63:ver<0.2.0> to /blin/data/zef-data/tmp/1781739684.195579.6724.4388764946125/Uni63%3Aver%3C0.2.0%3E%3Aauth%3Cgithub%3Acygx%3E.tar.gz
+[Uni63] Command: tar -t -f ./Uni63%3Aver%3C0.2.0%3E%3Aauth%3Cgithub%3Acygx%3E.tar.gz
+[Uni63] Command: tar -xvf ./Uni63%3Aver%3C0.2.0%3E%3Aauth%3Cgithub%3Acygx%3E.tar.gz -C ../Uni63%3Aver%3C0.2.0%3E%3Aauth%3Cgithub%3Acygx%3E.tar.gz
+===> Extraction [OK]: Uni63 to /blin/data/zef-data/tmp/Uni63%3Aver%3C0.2.0%3E%3Aauth%3Cgithub%3Acygx%3E.tar.gz
+===> Testing: Uni63:ver<0.2.0>
+[Uni63] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Uni63%3Aver%3C0.2.0%3E%3Aauth%3Cgithub%3Acygx%3E.tar.gz/p6-uni63-master t/01-sanity.t
+[Uni63] ===SORRY!=== Error while compiling t/01-sanity.t
+[Uni63] ===SORRY!===
+[Uni63] Could not find a compile-time-value for lexical !__REGEX_CAPTURE__1
+[Uni63] at t/01-sanity.t:6
+[Uni63] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Uni63%3Aver%3C0.2.0%3E%3Aauth%3Cgithub%3Acygx%3E.tar.gz/p6-uni63-master t/02-null.t
+[Uni63] ===SORRY!=== Error while compiling t/02-null.t
+[Uni63] ===SORRY!===
+[Uni63] Could not find a compile-time-value for lexical !__REGEX_CAPTURE__1
+[Uni63] at t/02-null.t:6
+[Uni63] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/Uni63%3Aver%3C0.2.0%3E%3Aauth%3Cgithub%3Acygx%3E.tar.gz/p6-uni63-master t/03-crlf.t
+[Uni63] ===SORRY!=== Error while compiling t/03-crlf.t
+[Uni63] ===SORRY!===
+[Uni63] Could not find a compile-time-value for lexical !__REGEX_CAPTURE__1
+[Uni63] at t/03-crlf.t:6
+===> Testing [FAIL]: Uni63:ver<0.2.0>
+[Uni63] Failed to get passing tests, but continuing with --force-test
+===> Installing: Uni63:ver<0.2.0>
+===> Install [OK] for Uni63:ver<0.2.0>

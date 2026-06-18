@@ -1,0 +1,158 @@
+===> Searching for: annotations
+===> Found: annotations:ver<0.1.0>:auth<zef:Kaiepi>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[annotations] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781740741.204930.4174.70215101634/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz https://360.zef.pm/A/NN/ANNOTATIONS/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz
+===> Fetching [OK]: annotations:ver<0.1.0>:auth<zef:Kaiepi>:api<1> to /blin/data/zef-data/tmp/1781740741.204930.4174.70215101634/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz
+[annotations] Command: tar -t -f ./1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz
+[annotations] Command: tar -xvf ./1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz -C ../1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz
+===> Extraction [OK]: annotations to /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz
+===> Testing: annotations:ver<0.1.0>:auth<zef:Kaiepi>:api<1>
+[annotations] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations t/01-containers.rakutest
+[annotations] ===SORRY!=== Error while compiling t/01-containers.rakutest
+[annotations] Potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations] Potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> if an RW container was provided before. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> d not appear in the context of an item. <HERE>]
+[annotations] Potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> if an RW container was provided before. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> d not appear in the context of an item. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):112
+[annotations]     ------> ds offsets of values to an empty array. <HERE>]
+[annotations] Potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> if an RW container was provided before. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> d not appear in the context of an item. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):112
+[annotations]     ------> ds offsets of values to an empty array. <HERE>]
+[annotations] Potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> if an RW container was provided before. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> d not appear in the context of an item. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):112
+[annotations]     ------> ds offsets of values to an empty array. <HERE>]
+[annotations] ===SORRY!===
+[annotations] Redeclaration of symbol 'EXPORT'.
+[annotations] at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):1
+[annotations] Other potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> if an RW container was provided before. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> d not appear in the context of an item. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):112
+[annotations]     ------> ds offsets of values to an empty array. <HERE>]
+[annotations] at t/01-containers.rakutest:3
+[annotations] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations t/02-direct.rakutest
+[annotations] ===SORRY!=== Error while compiling t/02-direct.rakutest
+[annotations] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations.rakumod (annotations)
+[annotations] Potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations] Potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> if an RW container was provided before. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> d not appear in the context of an item. <HERE>]
+[annotations] Potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> if an RW container was provided before. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> d not appear in the context of an item. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):112
+[annotations]     ------> ds offsets of values to an empty array. <HERE>]
+[annotations] Potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> if an RW container was provided before. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> d not appear in the context of an item. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):112
+[annotations]     ------> ds offsets of values to an empty array. <HERE>]
+[annotations] Potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> if an RW container was provided before. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> d not appear in the context of an item. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):112
+[annotations]     ------> ds offsets of values to an empty array. <HERE>]
+[annotations] ===SORRY!===
+[annotations] Redeclaration of symbol 'EXPORT'.
+[annotations] at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):1
+[annotations] Other potential difficulties:
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):14
+[annotations]     ------> ppear in the context of a list or hash. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> if an RW container was provided before. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):26
+[annotations]     ------> d not appear in the context of an item. <HERE>]
+[annotations]     Missing declarand for trailing declarator doc
+[annotations]     at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations/containers.rakumod (annotations::containers):112
+[annotations]     ------> ds offsets of values to an empty array. <HERE>]
+[annotations] at /blin/data/zef-data/tmp/1328482a7fccd36a16ed5498e6e4ab2015f611b5.tar.gz/ra-annotations/lib/annotations.rakumod (annotations):4
+[annotations] at t/02-direct.rakutest:3
+===> Testing [FAIL]: annotations:ver<0.1.0>:auth<zef:Kaiepi>:api<1>
+[annotations] Failed to get passing tests, but continuing with --force-test
+===> Installing: annotations:ver<0.1.0>:auth<zef:Kaiepi>:api<1>
+===> Install [OK] for annotations:ver<0.1.0>:auth<zef:Kaiepi>:api<1>

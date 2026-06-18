@@ -1,0 +1,227 @@
+===> Searching for: XML::Parser::Tiny
+===> Found: XML::Parser::Tiny [via Zef::Repository::Ecosystems<rea>]
+[XML::Parser::Tiny] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781740500.202542.5681.140613189221/XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/X/XML%3A%3AParser%3A%3ATiny/XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz
+===> Fetching [OK]: XML::Parser::Tiny to /blin/data/zef-data/tmp/1781740500.202542.5681.140613189221/XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz
+[XML::Parser::Tiny] Command: tar -t -f ./XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz
+[XML::Parser::Tiny] Command: tar -xvf ./XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz -C ../XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz
+===> Extraction [OK]: XML::Parser::Tiny to /blin/data/zef-data/tmp/XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz
+===> Testing: XML::Parser::Tiny
+[XML::Parser::Tiny] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz/p6-xml-parser-tiny-master t/01-grammar.t
+[XML::Parser::Tiny] ok 1 - 
+[XML::Parser::Tiny] ok 2 - 
+[XML::Parser::Tiny] ok 3 - 
+[XML::Parser::Tiny] ok 4 - 
+[XML::Parser::Tiny] ok 5 - 
+[XML::Parser::Tiny] ok 6 - 
+[XML::Parser::Tiny] ok 7 - 
+[XML::Parser::Tiny] ok 8 - 
+[XML::Parser::Tiny] ok 9 - 
+[XML::Parser::Tiny] ok 10 - 
+[XML::Parser::Tiny] ok 11 - 
+[XML::Parser::Tiny] ok 12 - 
+[XML::Parser::Tiny] ok 13 - 
+[XML::Parser::Tiny] ok 14 - 
+[XML::Parser::Tiny] ok 15 - 
+[XML::Parser::Tiny] ok 16 - 
+[XML::Parser::Tiny] ok 17 - 
+[XML::Parser::Tiny] ok 18 - 
+[XML::Parser::Tiny] ok 19 - 
+[XML::Parser::Tiny] ok 20 - 
+[XML::Parser::Tiny] ok 21 - 
+[XML::Parser::Tiny] ok 22 - 
+[XML::Parser::Tiny] ok 23 - 
+[XML::Parser::Tiny] ok 24 - 
+[XML::Parser::Tiny] ok 25 - 
+[XML::Parser::Tiny] ok 26 - 
+[XML::Parser::Tiny] ok 27 - 
+[XML::Parser::Tiny] ok 28 - 
+[XML::Parser::Tiny] ok 29 - 
+[XML::Parser::Tiny] ok 30 - 
+[XML::Parser::Tiny] ok 31 - 
+[XML::Parser::Tiny] ok 32 - 
+[XML::Parser::Tiny] ok 33 - 
+[XML::Parser::Tiny] ok 34 - 
+[XML::Parser::Tiny] ok 35 - 
+[XML::Parser::Tiny] ok 36 - 
+[XML::Parser::Tiny] ok 37 - 
+[XML::Parser::Tiny] ok 38 - 
+[XML::Parser::Tiny] ok 39 - 
+[XML::Parser::Tiny] ok 40 - 
+[XML::Parser::Tiny] ok 41 - 
+[XML::Parser::Tiny] ok 42 - 
+[XML::Parser::Tiny] ok 43 - 
+[XML::Parser::Tiny] ok 44 - 
+[XML::Parser::Tiny] ok 45 - 
+[XML::Parser::Tiny] ok 46 - 
+[XML::Parser::Tiny] ok 47 - 
+[XML::Parser::Tiny] ok 48 - 
+[XML::Parser::Tiny] ok 49 - 
+[XML::Parser::Tiny] ok 50 - 
+[XML::Parser::Tiny] ok 51 - 
+[XML::Parser::Tiny] ok 52 - 
+[XML::Parser::Tiny] ok 53 - 
+[XML::Parser::Tiny] ok 54 - 
+[XML::Parser::Tiny] ok 55 - 
+[XML::Parser::Tiny] ok 56 - 
+[XML::Parser::Tiny] ok 57 - 
+[XML::Parser::Tiny] ok 58 - 
+[XML::Parser::Tiny] ok 59 - 
+[XML::Parser::Tiny] ok 60 - 
+[XML::Parser::Tiny] ok 61 - 
+[XML::Parser::Tiny] ok 62 - 
+[XML::Parser::Tiny] ok 63 - 
+[XML::Parser::Tiny] ok 64 - 
+[XML::Parser::Tiny] ok 65 - 
+[XML::Parser::Tiny] ok 66 - 
+[XML::Parser::Tiny] ok 67 - 
+[XML::Parser::Tiny] ok 68 - 
+[XML::Parser::Tiny] ok 69 - 
+[XML::Parser::Tiny] ok 70 - 
+[XML::Parser::Tiny] ok 71 - 
+[XML::Parser::Tiny] ok 72 - 
+[XML::Parser::Tiny] ok 73 - 
+[XML::Parser::Tiny] ok 74 - 
+[XML::Parser::Tiny] ok 75 - 
+[XML::Parser::Tiny] ok 76 - 
+[XML::Parser::Tiny] ok 77 - 
+[XML::Parser::Tiny] ok 78 - 
+[XML::Parser::Tiny] ok 79 - 
+[XML::Parser::Tiny] ok 80 - 
+[XML::Parser::Tiny] ok 81 - 
+[XML::Parser::Tiny] ok 82 - 
+[XML::Parser::Tiny] ok 83 - 
+[XML::Parser::Tiny] ok 84 - 
+[XML::Parser::Tiny] ok 85 - 
+[XML::Parser::Tiny] ok 86 - 
+[XML::Parser::Tiny] ok 87 - 
+[XML::Parser::Tiny] ok 88 - 
+[XML::Parser::Tiny] ok 89 - 
+[XML::Parser::Tiny] ok 90 - 
+[XML::Parser::Tiny] ok 91 - 
+[XML::Parser::Tiny] ok 92 - 
+[XML::Parser::Tiny] ok 93 - 
+[XML::Parser::Tiny] ok 94 - 
+[XML::Parser::Tiny] ok 95 - 
+[XML::Parser::Tiny] ok 96 - 
+[XML::Parser::Tiny] ok 97 - 
+[XML::Parser::Tiny] ok 98 - 
+[XML::Parser::Tiny] ok 99 - 
+[XML::Parser::Tiny] ok 100 - 
+[XML::Parser::Tiny] ok 101 - 
+[XML::Parser::Tiny] ok 102 - 
+[XML::Parser::Tiny] ok 103 - 
+[XML::Parser::Tiny] ok 104 - 
+[XML::Parser::Tiny] ok 105 - 
+[XML::Parser::Tiny] ok 106 - 
+[XML::Parser::Tiny] ok 107 - 
+[XML::Parser::Tiny] ok 108 - 
+[XML::Parser::Tiny] ok 109 - 
+[XML::Parser::Tiny] ok 110 - 
+[XML::Parser::Tiny] ok 111 - 
+[XML::Parser::Tiny] ok 112 - 
+[XML::Parser::Tiny] ok 113 - 
+[XML::Parser::Tiny] ok 114 - 
+[XML::Parser::Tiny] ok 115 - 
+[XML::Parser::Tiny] ok 116 - 
+[XML::Parser::Tiny] ok 117 - 
+[XML::Parser::Tiny] ok 118 - 
+[XML::Parser::Tiny] ok 119 - 
+[XML::Parser::Tiny] ok 120 - 
+[XML::Parser::Tiny] ok 121 - 
+[XML::Parser::Tiny] ok 122 - 
+[XML::Parser::Tiny] ok 123 - 
+[XML::Parser::Tiny] ok 124 - 
+[XML::Parser::Tiny] ok 125 - 
+[XML::Parser::Tiny] ok 126 - 
+[XML::Parser::Tiny] ok 127 - 
+[XML::Parser::Tiny] ok 128 - 
+[XML::Parser::Tiny] ok 129 - 
+[XML::Parser::Tiny] ok 130 - 
+[XML::Parser::Tiny] ok 131 - 
+[XML::Parser::Tiny] ok 132 - 
+[XML::Parser::Tiny] ok 133 - 
+[XML::Parser::Tiny] 1..133
+[XML::Parser::Tiny] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz/p6-xml-parser-tiny-master t/02-actions.t
+[XML::Parser::Tiny] ok 1 - <html><doc></doc></html>
+[XML::Parser::Tiny] ok 2 - <doc>xxx&lt;&amp;&gt;&apos;&quot;& \#1060;yyy</doc>
+[XML::Parser::Tiny] ok 3 - <doc />
+[XML::Parser::Tiny] ok 4 - <?aaa x='1' ?><?bbb y='2' ?><!-- --><doc />
+[XML::Parser::Tiny] ok 5 - <html x='1'>aaa<doc y='2'>bbb</doc><![CDATA[ccc]]></html>
+[XML::Parser::Tiny] ok 6 - <html x='1'><doc y='2'></doc></html>
+[XML::Parser::Tiny] ok 7 - <?xml ?><doc />
+[XML::Parser::Tiny] ok 8 - <html x='1'><!-- --><doc y='2'><!-- --></doc><!-- --></html>
+[XML::Parser::Tiny] ok 9 - <doc>aaa<!-- --><![CDATA[</doc>]]>ccc</doc>
+[XML::Parser::Tiny] ok 10 - <doc></doc>
+[XML::Parser::Tiny] ok 11 - <html><doc /></html>
+[XML::Parser::Tiny] ok 12 - <doc aaa='bbb' />
+[XML::Parser::Tiny] ok 13 - <doc><!-- yyy --></doc><!-- zzz -->
+[XML::Parser::Tiny] ok 14 - <doc aaa='bbb' ccc="ddd" />
+[XML::Parser::Tiny] ok 15 - <?aaa ?><?bbb ?>   <doc />
+[XML::Parser::Tiny] ok 16 - <doc>bebe<!-- aaa -->be</doc>
+[XML::Parser::Tiny] ok 17 - <doc x="1" y='2'>bebebe</doc>
+[XML::Parser::Tiny] ok 18 - <?aaa x='1' ?><?bbb y='2' ?><doc />
+[XML::Parser::Tiny] ok 19 - <doc x="1">bebebe</doc>
+[XML::Parser::Tiny] ok 20 - <doc aaa='bbb' <!-- yyy --> ccc="ddd" />
+[XML::Parser::Tiny] ok 21 - <?xml version="1.0" encoding="UTF-8"?>
+[XML::Parser::Tiny] # <?xml-stylesheet type="text/xsl" href="http://eax.me/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.4.1" -->
+[XML::Parser::Tiny] # <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.8" -->
+[XML::Parser::Tiny] # <!-- generated-on="29.08.2012 03:05" -->
+[XML::Parser::Tiny] # <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+[XML::Parser::Tiny] # 		<loc>http://eax.me/</loc>
+[XML::Parser::Tiny] # 		<lastmod>2012-08-29T03:04:32+00:00</lastmod>
+[XML::Parser::Tiny] # 		<changefreq>daily</changefreq>
+[XML::Parser::Tiny] # 		<priority>1.0</priority>
+[XML::Parser::Tiny] # 	</url>
+[XML::Parser::Tiny] # 	<url>
+[XML::Parser::Tiny] # 		<loc>http://eax.me/perl-on-android/</loc>
+[XML::Parser::Tiny] # 		<lastmod>2012-08-26T12:52:28+00:00</lastmod>
+[XML::Parser::Tiny] # 		<changefreq>monthly</changefreq>
+[XML::Parser::Tiny] # 		<priority>0.2</priority>
+[XML::Parser::Tiny] # 	</url>
+[XML::Parser::Tiny] # </urlset>
+[XML::Parser::Tiny] #   
+[XML::Parser::Tiny] ok 22 - <?aaa x='1' ?><?bbb y='2' ?><doc z='3'></doc>
+[XML::Parser::Tiny] ok 23 - <?xml aaa='bbb' ?><doc />
+[XML::Parser::Tiny] ok 24 - <doc><![CDATA[<html>&amp;]]></doc>
+[XML::Parser::Tiny] ok 25 - <doc key="xxx&lt;&amp;&gt;&apos;&quot;& \#1060;yyy" />
+[XML::Parser::Tiny] ok 26 - <?aaa x='1' <!-- --> ?><?bbb y='2' ?><doc />
+[XML::Parser::Tiny] ok 27 - <doc key='xxx&lt;&amp;&gt;&apos;&quot;& \#1060;yyy' />
+[XML::Parser::Tiny] ok 28 - <?aaa <!-- --> x='1' ?><?bbb y='2' ?><doc />
+[XML::Parser::Tiny] ok 29 - <?aaa x='1' ?><!-- --> <!-- --><?bbb y='2' ?><doc />
+[XML::Parser::Tiny] ok 30 - <?xml ccc="ddd" aaa='bbb' ?><doc />
+[XML::Parser::Tiny] ok 31 - <doc>bebe&amp;be</doc>
+[XML::Parser::Tiny] ok 32 - <?aaa x='1' ?><?bbb y='2' ?><doc></doc>
+[XML::Parser::Tiny] ok 33 - <doc <!-- xxx --> aaa='bbb' />
+[XML::Parser::Tiny] ok 34 - <!-- xxx --><doc></doc>
+[XML::Parser::Tiny] ok 35 - <?aaa x='1' ?><?bbb y='2' <!-- --> ?><doc />
+[XML::Parser::Tiny] ok 36 - <?aaa x='1' ?><?bbb <!-- --> y='2' ?><doc />
+[XML::Parser::Tiny] ok 37 - <?aaa x='1' ?><!-- --><?bbb y='2' ?><doc />
+[XML::Parser::Tiny] ok 38 - <?aaa ?>   <?bbb ?><doc />
+[XML::Parser::Tiny] 1..38
+[XML::Parser::Tiny] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz/p6-xml-parser-tiny-master t/03-parser.t
+[XML::Parser::Tiny] ok 1 - 
+[XML::Parser::Tiny] No such method 'parse' for invocant of type 'Any'. Did you mean any of
+[XML::Parser::Tiny] these: 'are', 'pairs'?
+[XML::Parser::Tiny]   in method parse at /blin/data/zef-data/tmp/XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz/p6-xml-parser-tiny-master/lib/XML/Parser/Tiny.pm6 (XML::Parser::Tiny) line 18
+[XML::Parser::Tiny]   in block <unit> at t/03-parser.t line 11
+[XML::Parser::Tiny] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/XML%3A%3AParser%3A%3ATiny%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aafiskon%3E.tar.gz/p6-xml-parser-tiny-master t/04-exception.t
+[XML::Parser::Tiny] # Subtest: did we throws-like XML::Parser::Tiny::X::XML::Parser::Tiny::Invalid?
+[XML::Parser::Tiny]     1..2
+[XML::Parser::Tiny]     ok 1 - code dies
+[XML::Parser::Tiny]     not ok 2 - right exception type (XML::Parser::Tiny::X::XML::Parser::Tiny::Invalid)
+[XML::Parser::Tiny]     # Failed test 'right exception type (XML::Parser::Tiny::X::XML::Parser::Tiny::Invalid)'
+[XML::Parser::Tiny]     # at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/core/precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/D2/D235141B8C615FAC09CAB00897146D6C2341B982 line 1
+[XML::Parser::Tiny]     # Expected: XML::Parser::Tiny::X::XML::Parser::Tiny::Invalid
+[XML::Parser::Tiny]     # Got:      X::Method::NotFound
+[XML::Parser::Tiny]     # Exception message: No such method 'parse' for invocant of type 'Any'. Did you mean any of
+[XML::Parser::Tiny]     # these: 'are', 'pairs'?
+[XML::Parser::Tiny]     # You failed 1 test of 2
+[XML::Parser::Tiny] not ok 1 - did we throws-like XML::Parser::Tiny::X::XML::Parser::Tiny::Invalid?
+[XML::Parser::Tiny] # Failed test 'did we throws-like XML::Parser::Tiny::X::XML::Parser::Tiny::Invalid?'
+[XML::Parser::Tiny] # at t/04-exception.t line 6
+[XML::Parser::Tiny] 1..1
+[XML::Parser::Tiny] # You failed 1 test of 1
+===> Testing [FAIL]: XML::Parser::Tiny
+[XML::Parser::Tiny] Failed to get passing tests, but continuing with --force-test
+===> Installing: XML::Parser::Tiny
+===> Install [OK] for XML::Parser::Tiny
