@@ -1,0 +1,190 @@
+===> Searching for: Archive::Libarchive
+===> Found: Archive::Libarchive:ver<0.0.17>:auth<zef:FRITH> [via Zef::Repository::Ecosystems<fez>]
+[Archive::Libarchive] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781746879.262402.7570.7375979142835/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz https://360.zef.pm/A/RC/ARCHIVE_LIBARCHIVE/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz
+===> Fetching [OK]: Archive::Libarchive:ver<0.0.17>:auth<zef:FRITH> to /blin/data/zef-data/tmp/1781746879.262402.7570.7375979142835/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz
+[Archive::Libarchive] Command: tar -t -f ./2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz
+[Archive::Libarchive] Command: tar -xvf ./2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz -C ../2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz
+===> Extraction [OK]: Archive::Libarchive to /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz
+===> Testing: Archive::Libarchive:ver<0.0.17>:auth<zef:FRITH>
+[Archive::Libarchive] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17 t/00-use.rakutest
+[Archive::Libarchive] 1..1
+[Archive::Libarchive] not ok 1 - Archive::Libarchive module can be use-d ok
+[Archive::Libarchive] # Failed test 'Archive::Libarchive module can be use-d ok'
+[Archive::Libarchive] # at t/00-use.rakutest line 8
+[Archive::Libarchive] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive)
+[Archive::Libarchive] # ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Archive::Libarchive] # ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Archive::Libarchive] # An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Archive::Libarchive] # Can't determine actual Offset
+[Archive::Libarchive] # at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Archive::Libarchive] # Exception details:
+[Archive::Libarchive] #   Can't determine actual Offset
+[Archive::Libarchive] #     in code  at src/Raku/ast/code.rakumod line 23
+[Archive::Libarchive] #     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Archive::Libarchive] #     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Archive::Libarchive] #     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Archive::Libarchive] #     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Archive::Libarchive] #     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Archive::Libarchive] #     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] #     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] #     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] #     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] #     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] #     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] #     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] # 
+[Archive::Libarchive] # 
+[Archive::Libarchive] # at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Archive::Libarchive] # 
+[Archive::Libarchive] # at /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive):7
+[Archive::Libarchive] # 
+[Archive::Libarchive] # You failed 1 test of 1
+[Archive::Libarchive] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17 t/01-version.rakutest
+[Archive::Libarchive] ===SORRY!=== Error while compiling t/01-version.rakutest
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive)
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Archive::Libarchive] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Archive::Libarchive] Can't determine actual Offset
+[Archive::Libarchive] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Archive::Libarchive] Exception details:
+[Archive::Libarchive]   Can't determine actual Offset
+[Archive::Libarchive]     in code  at src/Raku/ast/code.rakumod line 23
+[Archive::Libarchive]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Archive::Libarchive]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Archive::Libarchive]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Archive::Libarchive]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Archive::Libarchive]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Archive::Libarchive]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Archive::Libarchive] at /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive):7
+[Archive::Libarchive] at t/01-version.rakutest:4
+[Archive::Libarchive] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17 t/02-read.rakutest
+[Archive::Libarchive] ===SORRY!=== Error while compiling t/02-read.rakutest
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive)
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Archive::Libarchive] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Archive::Libarchive] Can't determine actual Offset
+[Archive::Libarchive] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Archive::Libarchive] Exception details:
+[Archive::Libarchive]   Can't determine actual Offset
+[Archive::Libarchive]     in code  at src/Raku/ast/code.rakumod line 23
+[Archive::Libarchive]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Archive::Libarchive]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Archive::Libarchive]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Archive::Libarchive]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Archive::Libarchive]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Archive::Libarchive]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Archive::Libarchive] at /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive):7
+[Archive::Libarchive] at t/02-read.rakutest:5
+[Archive::Libarchive] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17 t/03-write.rakutest
+[Archive::Libarchive] ===SORRY!=== Error while compiling t/03-write.rakutest
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive)
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Archive::Libarchive] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Archive::Libarchive] Can't determine actual Offset
+[Archive::Libarchive] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Archive::Libarchive] Exception details:
+[Archive::Libarchive]   Can't determine actual Offset
+[Archive::Libarchive]     in code  at src/Raku/ast/code.rakumod line 23
+[Archive::Libarchive]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Archive::Libarchive]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Archive::Libarchive]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Archive::Libarchive]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Archive::Libarchive]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Archive::Libarchive]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Archive::Libarchive] at /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive):7
+[Archive::Libarchive] at t/03-write.rakutest:5
+[Archive::Libarchive] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17 t/04-extract.rakutest
+[Archive::Libarchive] ===SORRY!=== Error while compiling t/04-extract.rakutest
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive)
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Archive::Libarchive] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Archive::Libarchive] Can't determine actual Offset
+[Archive::Libarchive] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Archive::Libarchive] Exception details:
+[Archive::Libarchive]   Can't determine actual Offset
+[Archive::Libarchive]     in code  at src/Raku/ast/code.rakumod line 23
+[Archive::Libarchive]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Archive::Libarchive]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Archive::Libarchive]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Archive::Libarchive]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Archive::Libarchive]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Archive::Libarchive]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Archive::Libarchive] at /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive):7
+[Archive::Libarchive] at t/04-extract.rakutest:5
+[Archive::Libarchive] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17 t/05-entry.rakutest
+[Archive::Libarchive] ===SORRY!=== Error while compiling t/05-entry.rakutest
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive)
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Archive::Libarchive] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Archive::Libarchive] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Archive::Libarchive] Can't determine actual Offset
+[Archive::Libarchive] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Archive::Libarchive] Exception details:
+[Archive::Libarchive]   Can't determine actual Offset
+[Archive::Libarchive]     in code  at src/Raku/ast/code.rakumod line 23
+[Archive::Libarchive]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Archive::Libarchive]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Archive::Libarchive]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Archive::Libarchive]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Archive::Libarchive]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Archive::Libarchive]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Archive::Libarchive] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Archive::Libarchive] at /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17/lib/Archive/Libarchive.rakumod (Archive::Libarchive):7
+[Archive::Libarchive] at t/05-entry.rakutest:5
+[Archive::Libarchive] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2deee7f3e40bf10b74d5b01b0f362ab2bdf35e8f.tar.gz/Archive-Libarchive-0.0.17 t/99-meta.rakutest
+[Archive::Libarchive] 1..1
+[Archive::Libarchive] ok 1 - # SKIP Skipping author test
+===> Testing [FAIL]: Archive::Libarchive:ver<0.0.17>:auth<zef:FRITH>
+[Archive::Libarchive] Failed to get passing tests, but continuing with --force-test
+===> Installing: Archive::Libarchive:ver<0.0.17>:auth<zef:FRITH>
+===> Install [OK] for Archive::Libarchive:ver<0.0.17>:auth<zef:FRITH>

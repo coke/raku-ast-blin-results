@@ -120,7 +120,7 @@ App::GPTrixie – Unknown
 App::GTD – Unknown
 App::Game::Concentration – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 App::Gitstatus – Unknown
-App::Heater – Unknown
+App::Heater – OK
 App::IRC::Log – Unknown
 App::InstallerMaker::WiX – Unknown
 App::JSONDiff – OK
@@ -181,7 +181,7 @@ App::upgrade-raku.raku – Unknown
 App:Racl – Unknown
 App:Ralc – Unknown
 Archive::Ar – Unknown
-Archive::Libarchive – Unknown
+Archive::Libarchive – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Archive::Libarchive::Raw – OK
 Archive::SimpleZip – Unknown
 Archive::Tar::PP – OK
@@ -243,7 +243,7 @@ Badger – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Bailador – Unknown
 Bailador::Plugin::NamedQueries – Unknown
 Base58 – OK
-Base64 – Unknown
+Base64 – OK
 Base64::Native – Unknown
 Base::Any – OK
 Bench – OK
@@ -254,7 +254,7 @@ Bencode – OK
 BigRoot – OK
 Bin::Utils – Unknown
 Binary::Structured – OK
-BinaryHeap – Unknown
+BinaryHeap – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Bio – AlwaysFail
 Bio::ViennaNGS – OK
 BioInfo – Unknown
@@ -364,7 +364,7 @@ Commands – OK
 CommonMark – Unknown
 CompUnit::DynamicLib – Unknown
 CompUnit::Repository::Github – Unknown
-CompUnit::Repository::Lib – Unknown
+CompUnit::Repository::Lib – AlwaysFail
 CompUnit::Repository::Mask – OK
 CompUnit::Repository::Tar – Unknown
 CompUnit::Search – AlwaysFail
@@ -443,7 +443,7 @@ Cro::TLS – Unknown
 Cro::WebApp – Unknown
 Cro::WebApp::Evaluate – Unknown
 Cro::WebSocket – Unknown
-Cro::ZeroMQ – Unknown
+Cro::ZeroMQ – AlwaysFail
 CroX::HTTP::Auth::Munge – Unknown
 CroX::HTTP::FallbackPassthru – Unknown
 CroX::HTTP::Transform::GraphQL – Unknown
@@ -613,7 +613,7 @@ Digest::PSHA1 – Unknown
 Digest::SHA1::Native – Unknown
 Digest::SHA256::Native – Unknown
 Digest::xxHash – AlwaysFail
-DirHandle – Unknown
+DirHandle – OK
 Directory – Unknown
 DirsOfInterest – OK
 Discogs::API – Unknown
@@ -623,7 +623,7 @@ Dist::Helper – Unknown
 Dist::META – Unknown
 Distribution::Builder::Cmake – AlwaysFail
 Distribution::Builder::MakeFromJSON – Unknown
-Distribution::Common – Unknown
+Distribution::Common – OK
 Distribution::Common::Remote – Unknown
 Distribution::Extension::Updater – Unknown
 Distribution::Resources::Menu – Unknown
@@ -771,7 +771,7 @@ Functional::Stack – Unknown
 FunctionalParsers – OK
 Future – Unknown
 GD – OK
-GD::Raw – Unknown
+GD::Raw – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 GDBM – Unknown
 GEOS – Unknown
 GGE – AlwaysFail
@@ -1032,7 +1032,7 @@ Identity::Utils – Unknown
 Iec104Parser – OK
 Igo – Unknown
 Ikoko – Unknown
-Image::Libexif – Unknown
+Image::Libexif – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Image::Markup::Utilities – OK
 Image::PNG::Inflated – OK
 Image::PNG::Portable – Unknown
@@ -1178,7 +1178,7 @@ LibXML::Class – Unknown
 LibXML::Writer – Unknown
 LibXSLT – Unknown
 LibYAML – AlwaysFail
-LibZip – Unknown
+LibZip – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Libarchive – Unknown
 Libclang – AlwaysFail
 LibraryCheck – OK
@@ -1452,7 +1452,7 @@ Net::FTPlib – Unknown
 Net::Ftp – AlwaysFail
 Net::Gemini – Unknown
 Net::Google::Sheets – Unknown
-Net::HTTP – Unknown
+Net::HTTP – OK
 Net::IMAP – Unknown
 Net::IP – Unknown
 Net::IP::Parse – Unknown
@@ -1464,7 +1464,7 @@ Net::NNG – AlwaysFail
 Net::NetRC – Unknown
 Net::Netmask – OK
 Net::Netmask::Fast – OK
-Net::Osc – Unknown
+Net::Osc – OK
 Net::POP3 – Unknown
 Net::Packet – AlwaysFail
 Net::Pcap – AlwaysFail
@@ -1480,9 +1480,9 @@ Net::Whois – OK
 Net::Whois::Async – OK
 Net::XMPP – Unknown
 Net::ZMQ – OK
-Net::netent – Unknown
-Net::protoent – Unknown
-Net::servent – Unknown
+Net::netent – AlwaysFail
+Net::protoent – AlwaysFail
+Net::servent – AlwaysFail
 Netstring – OK
 Node::Ethereum::Keccak256::Native – Unknown
 Node::Ethereum::KeyStore::V3 – Unknown
@@ -1499,7 +1499,7 @@ Numeric::Nearest – Unknown
 Numeric::Pack – OK
 OAuth2::Client::Google – Unknown
 OEIS – Unknown
-OLE::Storage_Lite – Unknown
+OLE::Storage_Lite – OK
 ONNX::Native – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 ONNX::Runtime – AlwaysFail
 OO::Actors – OK
@@ -1537,7 +1537,7 @@ Oyatul – OK
 P5-X – OK
 P5__DATA__ – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 P5__FILE__ – OK
-P5built-ins – Unknown
+P5built-ins – OK
 P5caller – OK
 P5chdir – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 P5chomp – OK
@@ -1634,7 +1634,7 @@ Path::Map – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Path::Router – Unknown
 Path::Through – OK
 Path::Util – OK
-PathTools – Unknown
+PathTools – OK
 PatternMatching – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Pekyll – Unknown
 Perl6 Snowball Binding – AlwaysFail
@@ -1669,15 +1669,15 @@ Pod::Literate – OK
 Pod::Load – Unknown
 Pod::Parser – OK
 Pod::Perl5 – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-Pod::PerlTricks – Unknown
+Pod::PerlTricks – Flapper
 Pod::Render – Unknown
 Pod::Strip – AlwaysFail
-Pod::Tangle – Unknown
+Pod::Tangle – OK
 Pod::Test::Code – Unknown
 Pod::To::Anything – OK
 Pod::To::BigPage – Unknown
 Pod::To::Cached – Unknown
-Pod::To::HTML::Section – Unknown
+Pod::To::HTML::Section – OK
 Pod::To::HTMLBody – Unknown
 Pod::To::Latex – Unknown
 Pod::To::Man – Unknown
@@ -1692,7 +1692,7 @@ Pod::Utilities – Unknown
 Pod::Utils – Unknown
 Pod::Weave – Unknown
 Podviewer – Unknown
-Pofig – Unknown
+Pofig – OK
 Point – OK
 Polyglot::Brainfuck – AlwaysFail
 Polyglot::Regexen – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -1747,7 +1747,7 @@ REPL – Unknown
 RKDS – OK
 RPG::Base – OK
 RPi-native – AlwaysFail
-RPi::ButtonWatcher – Unknown
+RPi::ButtonWatcher – OK
 RPi::Device::DHT11 – Unknown
 RPi::Device::DS18B20 – OK
 RPi::Device::PiFace – OK
@@ -1767,7 +1767,7 @@ Raku::Pod::Render – Unknown
 Raku::Pod::Render – Unknown
 RakuAST::Utils – OK
 RakuAdvent::WordPress – Unknown
-RakuConfig – Unknown
+RakuConfig – OK
 RakuDoc::Load – Unknown
 RakuDoc::Test::Files – OK
 RakuRename – OK
@@ -1814,7 +1814,7 @@ Retry – Unknown
 ReverseIterables – OK
 Roaring::Tags – OK
 Router::Boost – OK
-Router::Right – Unknown
+Router::Right – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Russian – InstallableButUntested
 Ryml – OK
 SAT – Unknown
@@ -1840,7 +1840,7 @@ SSH::LibSSH::Tunnel – Unknown
 SSL – AlwaysFail
 SVG – Unknown
 SVG::Plot – Unknown
-Sanity – Unknown
+Sanity – OK
 SantaClaus::Utils – Unknown
 Scalar::History – OK
 Scalar::Util – OK
@@ -1852,7 +1852,7 @@ Script::Hash – AlwaysFail
 Search::Dict – OK
 SelectiveImporting – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Selenium::WebDriver – Unknown
-Selkie – Unknown
+Selkie – OK
 Selkie::UI – Unknown
 Semantic::Versioning – OK
 Semaphore::ReadersWriters – Unknown
@@ -1999,7 +1999,7 @@ Sys::Lastlog – Unknown
 Sys::OsRelease – OK
 Sys::Utmp – Unknown
 Syslog::Parse – AlwaysFail
-System::DiskAndUpdatesAlerts – Unknown
+System::DiskAndUpdatesAlerts – OK
 System::Passwd – OK
 System::Query – OK
 System::Stats::CPUsage – OK
@@ -2049,7 +2049,7 @@ Termbox – Unknown
 Terminal-API – AlwaysFail
 Terminal-MakeRaw – AlwaysFail
 Terminal-Widgets-Plugins-Anolis – Unknown
-Terminal::ANSI – Unknown
+Terminal::ANSI – OK
 Terminal::ANSIColor – OK
 Terminal::ANSIParser – OK
 Terminal::Boxer – OK
@@ -2088,12 +2088,12 @@ Test::Fuzz – Unknown
 Test::Grammar – Unknown
 Test::HTTP::Server – Unknown
 Test::Harness – OK
-Test::IO::Socket::Async – Unknown
+Test::IO::Socket::Async – OK
 Test::Inline – OK
 Test::Junkie – AlwaysFail
 Test::Lab – Unknown
 Test::META – Unknown
-Test::Mock – Unknown
+Test::Mock – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Test::NoTabs – OK
 Test::Notice – Unknown
 Test::Output – OK
@@ -2136,7 +2136,7 @@ Text::Indented – AlwaysFail
 Text::LDIF – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Text::LTSV – OK
 Text::Levenshtein – OK
-Text::Levenshtein::Damerau – Unknown
+Text::Levenshtein::Damerau – OK
 Text::Lorem – OK
 Text::Markdown – OK
 Text::Markdown::Discount – AlwaysFail
@@ -2154,24 +2154,24 @@ Text::SubParsers – OK
 Text::T9 – OK
 Text::TFIdf – OK
 Text::Table::List – OK
-Text::Table::Simple – Unknown
+Text::Table::Simple – OK
 Text::Tabs – OK
 Text::Template – Unknown
 Text::UpsideDown – OK
 Text::Utils – Unknown
 Text::VimColour – Unknown
 Text::Wrap – OK
-Tie::Array – Unknown
-Tie::Hash – Unknown
-Tie::StdArray – Unknown
-Tie::StdHash – Unknown
+Tie::Array – OK
+Tie::Hash – OK
+Tie::StdArray – OK
+Tie::StdHash – OK
 Time-Duration – AlwaysFail
 Time::Crontab – Unknown
 Time::Duration – InstallableButUntested
 Time::Duration::Parser – OK
 Time::Repeat – OK
-Time::gmtime – Unknown
-Time::localtime – Unknown
+Time::gmtime – AlwaysFail
+Time::localtime – AlwaysFail
 TimeBomb – OK
 TimeUnit – OK
 Timer – OK
@@ -2205,7 +2205,7 @@ Trait::Traced – AlwaysFail
 Transit::Network – Unknown
 Trap – OK
 Tree::Binary – OK
-Trie – Unknown
+Trie – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 TrigPi – OK
 Trove – Unknown
 Tuple – Unknown
@@ -2249,8 +2249,8 @@ UpRooted – Unknown
 Updown – Unknown
 User::Language – Unknown
 User::Timezone – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-User::grent – Unknown
-User::pwent – Unknown
+User::grent – AlwaysFail
+User::pwent – AlwaysFail
 UserTimezone – OK
 Util::Bitfield – OK
 Util::Uuencode – OK
@@ -2339,7 +2339,7 @@ Windows::Test – Unknown
 Wkhtmltox – AlwaysFail
 WriteOnceHash – OK
 X11::Xdo – AlwaysFail
-X11::Xlib::Raw – Unknown
+X11::Xlib::Raw – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 X11::libxdo – Unknown
 X::Intl – OK
 X::Protocol – OK
