@@ -121,7 +121,7 @@ App::GTD – Unknown
 App::Game::Concentration – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 App::Gitstatus – OK
 App::Heater – OK
-App::IRC::Log – Unknown
+App::IRC::Log – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 App::InstallerMaker::WiX – OK
 App::JSONDiff – OK
 App::Lorea – AlwaysFail
@@ -151,7 +151,7 @@ App::Raku::Log – Unknown
 App::RakuCron – AlwaysFail
 App::Rakuman – OK
 App::SerializerPerf – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-App::ShowPath – Unknown
+App::ShowPath – AlwaysFail
 App::SixLib – OK
 App::Squashathons – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 App::Stouch – OK
@@ -537,7 +537,7 @@ Data::MessagePack – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Data::Pretty – AlwaysFail
 Data::RandomKeep – OK
 Data::Record – AlwaysFail
-Data::Reshapers – Unknown
+Data::Reshapers – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Data::Section::Simple – OK
 Data::Selector – OK
 Data::StaticTable – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -627,7 +627,7 @@ Distribution::Common – OK
 Distribution::Common::Remote – OK
 Distribution::Extension::Updater – Unknown
 Distribution::Resources::Menu – OK
-Do123 – Unknown
+Do123 – AlwaysFail
 Doc::Executable – OK
 Doc::TypeGraph – AlwaysFail
 Docker::API – Unknown
@@ -777,7 +777,7 @@ GEOS – AlwaysFail
 GGE – AlwaysFail
 GIO – Unknown
 GLFW – OK
-GLib – Unknown
+GLib – ZefFailure
 GNU::Time – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 GPGME – AlwaysFail
 GTK::Scintilla – AlwaysFail
@@ -972,7 +972,7 @@ Holidays::US::Federal – OK
 HomoGlypher – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 HowToUseModuleResources – OK
 HuggingFace::API – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-Humming-Bird – Unknown
+Humming-Bird – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Hydrate – OK
 Hyperscript – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 I18N::LangTags – OK
@@ -1345,7 +1345,7 @@ Math::Libgsl::Permutation – AlwaysFail
 Math::Libgsl::Polynomial – AlwaysFail
 Math::Libgsl::QuasiRandom – AlwaysFail
 Math::Libgsl::Random – AlwaysFail
-Math::Libgsl::RandomDistribution – Unknown
+Math::Libgsl::RandomDistribution – AlwaysFail
 Math::Libgsl::RunningStatistics – AlwaysFail
 Math::Libgsl::Series – AlwaysFail
 Math::Libgsl::Sort – AlwaysFail
@@ -1498,7 +1498,7 @@ Number::More – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Numeric::Nearest – AlwaysFail
 Numeric::Pack – OK
 OAuth2::Client::Google – OK
-OEIS – Unknown
+OEIS – AlwaysFail
 OLE::Storage_Lite – OK
 ONNX::Native – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 ONNX::Runtime – AlwaysFail
@@ -1625,8 +1625,8 @@ Parse::Paths – AlwaysFail
 Parse::STDF – AlwaysFail
 Parse::Selenese – OK
 Parser::FreeXL::Native – AlwaysFail
-Pastebin::Gist – Unknown
-Pastebin::Pasteee – Unknown
+Pastebin::Gist – OK
+Pastebin::Pasteee – AlwaysFail
 Pastebin::Shadowcat – AlwaysFail
 Path::Canonical – OK
 Path::Finder – OK
@@ -1658,7 +1658,7 @@ Physics::Measure – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Physics::Navigation – AlwaysFail
 Physics::Unit – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Physics::Vector – AlwaysFail
-Pleroma – Unknown
+Pleroma – AlwaysFail
 Plosurin – AlwaysFail
 Pluggable – OK
 Pod::Contents – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -1717,7 +1717,7 @@ Proc::Editor – OK
 Proc::Feed – AlwaysFail
 Proc::InvokeEditor – OK
 Proc::More – OK
-Proc::Q – Unknown
+Proc::Q – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Proc::Screen – AlwaysFail
 Proc::ZMQed – ZefFailure
 ProcStats – OK
@@ -2263,7 +2263,7 @@ ValueMap – OK
 ValuePair – OK
 ValueType – OK
 ValueTypeCache – OK
-Verge::RPC::Client – Unknown
+Verge::RPC::Client – OK
 Version::Conan – OK
 Version::Nginx – OK
 Version::Raku – OK
@@ -2292,7 +2292,7 @@ WWW::MermaidInk – OK
 WWW::MistralAI – OK
 WWW::Ollama – OK
 WWW::OpenAI – OK
-WWW::P6lert – Unknown
+WWW::P6lert – AlwaysFail
 WWW::PaLM – OK
 WWW::SilverGoldBull – OK
 WWW::WolframAlpha – OK
@@ -2332,7 +2332,7 @@ WebSocket – AlwaysFail
 Webservice::Lastfm – AlwaysFail
 Whateverable – Unknown
 WhereList – OK
-Wikidata::API – Unknown
+Wikidata::API – AlwaysFail
 Win32::DrivesAndTypes – AlwaysFail
 Win32::Registry – OK
 Windows::Test – Unknown
@@ -2354,7 +2354,7 @@ XML::Entity::HTML – OK
 XML::Fast – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 XML::Parser::Tiny – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 XML::Query – OK
-XML::Rabbit – Unknown
+XML::Rabbit – AlwaysFail
 XML::Signature – AlwaysFail
 XML::Writer – OK
 XML::XPath – AlwaysFail
@@ -2417,7 +2417,7 @@ mandelbrot – OK
 mod-div-specs – OK
 mv2d – OK
 nano – OK
-octans – Unknown
+octans – OK
 orion – OK
 overload::constant – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 p6-RandomColor – OK
