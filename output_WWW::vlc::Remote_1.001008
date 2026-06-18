@@ -1,0 +1,46 @@
+===> Searching for: WWW::vlc::Remote
+===> Found: WWW::vlc::Remote:ver<1.001008> [via Zef::Repository::Ecosystems<rea>]
+[WWW::vlc::Remote] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781799063.678625.1244.1845503306358/WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/W/WWW%3A%3Avlc%3A%3ARemote/WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz
+===> Fetching [OK]: WWW::vlc::Remote:ver<1.001008> to /blin/data/zef-data/tmp/1781799063.678625.1244.1845503306358/WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz
+[WWW::vlc::Remote] Command: tar -t -f ./WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz
+[WWW::vlc::Remote] Command: tar -xvf ./WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz -C ../WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz
+===> Extraction [OK]: WWW::vlc::Remote to /blin/data/zef-data/tmp/WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz
+===> Testing: WWW::vlc::Remote:ver<1.001008>
+[WWW::vlc::Remote] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/WWW-vlc-Remote-master t/00-use.t
+[WWW::vlc::Remote] 1..1
+[WWW::vlc::Remote] not ok 1 - WWW::vlc::Remote module can be use-d ok
+[WWW::vlc::Remote] # Failed test 'WWW::vlc::Remote module can be use-d ok'
+[WWW::vlc::Remote] # at t/00-use.t line 4
+[WWW::vlc::Remote] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/WWW-vlc-Remote-master/lib/WWW/vlc/Remote.pm6 (WWW::vlc::Remote)
+[WWW::vlc::Remote] # ===SORRY!=== Error while compiling /blin/installed/DOM::Tiny_0.5.2/sources/31B1A1532090F5B2AE4C50457DAEDB7E3C2A199D (DOM::Tiny)
+[WWW::vlc::Remote] # ===SORRY!=== Error while compiling /blin/installed/DOM::Tiny_0.5.2/sources/1710CACF7B3C3A52FE470AF552E16E56853A542D (DOM::Tiny::CSS)
+[WWW::vlc::Remote] # ===SORRY!=== Error while compiling /blin/installed/DOM::Tiny_0.5.2/sources/428DC0FD38F5DF6FF563BDE6B16310FF076046C2 (DOM::Tiny::HTML)
+[WWW::vlc::Remote] # ===SORRY!===
+[WWW::vlc::Remote] # Could not find a compile-time-value for lexical $ENTITY_DATA
+[WWW::vlc::Remote] # 
+[WWW::vlc::Remote] # at /blin/installed/DOM::Tiny_0.5.2/sources/428DC0FD38F5DF6FF563BDE6B16310FF076046C2 (DOM::Tiny::HTML):5
+[WWW::vlc::Remote] # 
+[WWW::vlc::Remote] # at /blin/installed/DOM::Tiny_0.5.2/sources/1710CACF7B3C3A52FE470AF552E16E56853A542D (DOM::Tiny::CSS):5
+[WWW::vlc::Remote] # 
+[WWW::vlc::Remote] # at /blin/installed/DOM::Tiny_0.5.2/sources/31B1A1532090F5B2AE4C50457DAEDB7E3C2A199D (DOM::Tiny):5
+[WWW::vlc::Remote] # 
+[WWW::vlc::Remote] # at /blin/data/zef-data/tmp/WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/WWW-vlc-Remote-master/lib/WWW/vlc/Remote.pm6 (WWW::vlc::Remote):2
+[WWW::vlc::Remote] # 
+[WWW::vlc::Remote] # You failed 1 test of 1
+[WWW::vlc::Remote] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/WWW-vlc-Remote-master t/01-basic.t
+[WWW::vlc::Remote] ===SORRY!=== Error while compiling t/01-basic.t
+[WWW::vlc::Remote] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/WWW-vlc-Remote-master/lib/WWW/vlc/Remote.pm6 (WWW::vlc::Remote)
+[WWW::vlc::Remote] ===SORRY!=== Error while compiling /blin/installed/DOM::Tiny_0.5.2/sources/31B1A1532090F5B2AE4C50457DAEDB7E3C2A199D (DOM::Tiny)
+[WWW::vlc::Remote] ===SORRY!=== Error while compiling /blin/installed/DOM::Tiny_0.5.2/sources/1710CACF7B3C3A52FE470AF552E16E56853A542D (DOM::Tiny::CSS)
+[WWW::vlc::Remote] ===SORRY!=== Error while compiling /blin/installed/DOM::Tiny_0.5.2/sources/428DC0FD38F5DF6FF563BDE6B16310FF076046C2 (DOM::Tiny::HTML)
+[WWW::vlc::Remote] ===SORRY!===
+[WWW::vlc::Remote] Could not find a compile-time-value for lexical $ENTITY_DATA
+[WWW::vlc::Remote] at /blin/installed/DOM::Tiny_0.5.2/sources/428DC0FD38F5DF6FF563BDE6B16310FF076046C2 (DOM::Tiny::HTML):5
+[WWW::vlc::Remote] at /blin/installed/DOM::Tiny_0.5.2/sources/1710CACF7B3C3A52FE470AF552E16E56853A542D (DOM::Tiny::CSS):5
+[WWW::vlc::Remote] at /blin/installed/DOM::Tiny_0.5.2/sources/31B1A1532090F5B2AE4C50457DAEDB7E3C2A199D (DOM::Tiny):5
+[WWW::vlc::Remote] at /blin/data/zef-data/tmp/WWW%3A%3Avlc%3A%3ARemote%3Aver%3C1.001008%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/WWW-vlc-Remote-master/lib/WWW/vlc/Remote.pm6 (WWW::vlc::Remote):2
+[WWW::vlc::Remote] at t/01-basic.t:3
+===> Testing [FAIL]: WWW::vlc::Remote:ver<1.001008>
+[WWW::vlc::Remote] Failed to get passing tests, but continuing with --force-test
+===> Installing: WWW::vlc::Remote:ver<1.001008>
+===> Install [OK] for WWW::vlc::Remote:ver<1.001008>

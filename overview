@@ -104,7 +104,7 @@ Apache::LogFormat – OK
 App::APOTD – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 App::AizuOnlineJudge – Unknown
 App::Assixt – Unknown
-App::Backup – Unknown
+App::Backup – AlwaysFail
 App::Browser – OK
 App::ByWord – OK
 App::CPAN – AlwaysFail
@@ -450,7 +450,7 @@ CroX::HTTP::Transform::GraphQL – AlwaysFail
 Crolite – Unknown
 Cromponent – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Cromtit – OK
-Crust – Unknown
+Crust – AlwaysFail
 Crust::Handler::SCGI – OK
 Crust::Middleware::Session – Unknown
 Crust::Middleware::Session::Store::DBIish – Unknown
@@ -543,7 +543,7 @@ Data::Selector – OK
 Data::StaticTable – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Data::Summarizers – Unknown
 Data::TextOrBinary – OK
-Data::Translators – Unknown
+Data::Translators – OK
 Data::Tree – OK
 Data::TypeSystem – OK
 Data::UkraineWar::MoD – AlwaysFail
@@ -619,7 +619,7 @@ DirsOfInterest – OK
 Discogs::API – AlwaysFail
 DispatchMap – OK
 Display::Listings – Unknown
-Dist::Helper – Unknown
+Dist::Helper – OK
 Dist::META – AlwaysFail
 Distribution::Builder::Cmake – AlwaysFail
 Distribution::Builder::MakeFromJSON – OK
@@ -1107,8 +1107,8 @@ JSONHound – AlwaysFail
 JSONL – OK
 Japanese – OK
 Java::Generate – OK
-JavaScript::D3 – Unknown
-JavaScript::Google::Charts – Unknown
+JavaScript::D3 – OK
+JavaScript::Google::Charts – OK
 JavaScript::SpiderMonkey – AlwaysFail
 JsonC – AlwaysFail
 Jupyter::Chatbook – Unknown
@@ -1513,7 +1513,7 @@ Object::Permission – OK
 Object::Permission::Group – OK
 Object::Trampoline – AlwaysFail
 ObjectCache – OK
-Oddmuse6 – Unknown
+Oddmuse6 – AlwaysFail
 Odoo::Client – OK
 OneSeq – OK
 OpenAPI::Model – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -1696,7 +1696,7 @@ Pofig – OK
 Point – OK
 Polyglot::Brainfuck – AlwaysFail
 Polyglot::Regexen – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-Pop – Unknown
+Pop – OK
 Portuguese – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 PostCocoon::Url – OK
 PowerNap – OK
@@ -1895,7 +1895,7 @@ Slang:Date – AlwaysFail
 Slangify – OK
 Slangify::Tutorial – Unknown
 Slippy::Semilist – AlwaysFail
-Smack – Unknown
+Smack – AlwaysFail
 Smooth::Numbers – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 SnowFlake – OK
 Solstice – OK
@@ -1908,7 +1908,7 @@ Sparky-Job-Api – Unknown
 Sparky::Plugin::Hello – Unknown
 Sparky::Plugin::Notify::Email – Unknown
 Sparky::Plugin::Notify::Telegram – Unknown
-Sparrow6 – Unknown
+Sparrow6 – OK
 Sparrow6::Rakudo::Install – Unknown
 SparrowCI – OK
 SparrowCI - super fun and flexible CI system with many programming languages support – AlwaysFail
@@ -2286,7 +2286,7 @@ WWW::GCloud – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 WWW::GCloud::API::Storage – Unknown
 WWW::GCloud::API::Vision – Unknown
 WWW::Gemini – OK
-WWW::HorizonsEphemerisSystem – Unknown
+WWW::HorizonsEphemerisSystem – OK
 WWW::LLaMA – OK
 WWW::MermaidInk – OK
 WWW::MistralAI – OK
@@ -2297,7 +2297,7 @@ WWW::PaLM – OK
 WWW::SilverGoldBull – OK
 WWW::WolframAlpha – OK
 WWW::YouTube – OK
-WWW::vlc::Remote – Unknown
+WWW::vlc::Remote – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 WaitGroup – OK
 Wasm::Emitter – OK
 Weather – OK
