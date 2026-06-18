@@ -1,0 +1,36 @@
+===> Searching for: IRC::Log::Textual
+===> Found: IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[IRC::Log::Textual] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781762773.388843.8036.690420875007/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz https://360.zef.pm/I/RC/IRC_LOG_TEXTUAL/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
+===> Fetching [OK]: IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1781762773.388843.8036.690420875007/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
+[IRC::Log::Textual] Command: tar -t -f ./a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
+[IRC::Log::Textual] Command: tar -xvf ./a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz -C ../a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
+===> Extraction [OK]: IRC::Log::Textual to /blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
+===> Testing: IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat>
+[IRC::Log::Textual] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17 t/01-basic.rakutest
+[IRC::Log::Textual] Type check failed in binding; expected Positional[Str] but got Array (["tyil"]). You have to pass an
+[IRC::Log::Textual] explicitly typed array, not one that just might happen to contain
+[IRC::Log::Textual] elements of the correct type.
+[IRC::Log::Textual]   in block  at /blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17/lib/IRC/Log/Textual.rakumod (IRC::Log::Textual) line 141
+[IRC::Log::Textual]   in block  at /blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17/lib/IRC/Log/Textual.rakumod (IRC::Log::Textual) line 70
+[IRC::Log::Textual]   in method parse-log at /blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17/lib/IRC/Log/Textual.rakumod (IRC::Log::Textual) line 41
+[IRC::Log::Textual]   in method parse at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 568
+[IRC::Log::Textual]   in method INIT at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 243
+[IRC::Log::Textual]   in method new at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 248
+[IRC::Log::Textual]   in method new at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 228
+[IRC::Log::Textual]   in block <unit> at t/01-basic.rakutest line 9
+[IRC::Log::Textual] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17 t/02-search.rakutest
+[IRC::Log::Textual] Type check failed in binding; expected Positional[Str] but got Array (["tyil"]). You have to pass an
+[IRC::Log::Textual] explicitly typed array, not one that just might happen to contain
+[IRC::Log::Textual] elements of the correct type.
+[IRC::Log::Textual]   in block  at /blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17/lib/IRC/Log/Textual.rakumod (IRC::Log::Textual) line 141
+[IRC::Log::Textual]   in block  at /blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17/lib/IRC/Log/Textual.rakumod (IRC::Log::Textual) line 70
+[IRC::Log::Textual]   in method parse-log at /blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17/lib/IRC/Log/Textual.rakumod (IRC::Log::Textual) line 41
+[IRC::Log::Textual]   in method parse at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 568
+[IRC::Log::Textual]   in method INIT at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 243
+[IRC::Log::Textual]   in method new at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 248
+[IRC::Log::Textual]   in method new at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 232
+[IRC::Log::Textual]   in block <unit> at t/02-search.rakutest line 7
+===> Testing [FAIL]: IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat>
+[IRC::Log::Textual] Failed to get passing tests, but continuing with --force-test
+===> Installing: IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat>
+===> Install [OK] for IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat>

@@ -1,0 +1,33 @@
+===> Searching for: Archive::Ar
+===> Found: Archive::Ar:ver<0.1.0>:auth<zef:samy>:api<0> [via Zef::Repository::Ecosystems<fez>]
+[Archive::Ar] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781756870.341275.5872.438264934984/4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz https://360.zef.pm/A/RC/ARCHIVE_AR/4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz
+===> Fetching [OK]: Archive::Ar:ver<0.1.0>:auth<zef:samy>:api<0> to /blin/data/zef-data/tmp/1781756870.341275.5872.438264934984/4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz
+[Archive::Ar] Command: tar -t -f ./4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz
+[Archive::Ar] Command: tar -xvf ./4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz -C ../4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz
+===> Extraction [OK]: Archive::Ar to /blin/data/zef-data/tmp/4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz
+===> Testing: Archive::Ar:ver<0.1.0>:auth<zef:samy>:api<0>
+[Archive::Ar] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz/dist t/00-use.rakutest
+[Archive::Ar] 1..1
+[Archive::Ar] not ok 1 - Archive::Ar module can be use-d ok
+[Archive::Ar] # Failed test 'Archive::Ar module can be use-d ok'
+[Archive::Ar] # at t/00-use.rakutest line 5
+[Archive::Ar] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz/dist/lib/Archive/Ar.rakumod (Archive::Ar)
+[Archive::Ar] # ===SORRY!=== Error while compiling:
+[Archive::Ar] # Redeclaration of symbol 'Hash::Ordered'.
+[Archive::Ar] # at line 
+[Archive::Ar] # 
+[Archive::Ar] # at /blin/data/zef-data/tmp/4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz/dist/lib/Archive/Ar.rakumod (Archive::Ar):3
+[Archive::Ar] # 
+[Archive::Ar] # You failed 1 test of 1
+[Archive::Ar] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz/dist t/01-ar.rakutest
+[Archive::Ar] ===SORRY!=== Error while compiling t/01-ar.rakutest
+[Archive::Ar] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz/dist/lib/Archive/Ar.rakumod (Archive::Ar)
+[Archive::Ar] ===SORRY!=== Error while compiling:
+[Archive::Ar] Redeclaration of symbol 'Hash::Ordered'.
+[Archive::Ar] at line 
+[Archive::Ar] at /blin/data/zef-data/tmp/4d72000f29ab74445f7b11a9a5658e46cab11f23.tar.gz/dist/lib/Archive/Ar.rakumod (Archive::Ar):3
+[Archive::Ar] at t/01-ar.rakutest:2
+===> Testing [FAIL]: Archive::Ar:ver<0.1.0>:auth<zef:samy>:api<0>
+[Archive::Ar] Failed to get passing tests, but continuing with --force-test
+===> Installing: Archive::Ar:ver<0.1.0>:auth<zef:samy>:api<0>
+===> Install [OK] for Archive::Ar:ver<0.1.0>:auth<zef:samy>:api<0>

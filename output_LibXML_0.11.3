@@ -1,0 +1,1315 @@
+===> Searching for: LibXML
+===> Found: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11> [via Zef::Repository::Ecosystems<fez>]
+[LibXML] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781771421.471159.5882.741633381771/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz https://360.zef.pm/L/IB/LIBXML/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz
+===> Fetching [OK]: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11> to /blin/data/zef-data/tmp/1781771421.471159.5882.741633381771/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz
+[LibXML] Command: tar -t -f ./f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz
+[LibXML] Command: tar -xvf ./f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz -C ../f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz
+===> Extraction [OK]: LibXML to /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz
+===> Building: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -e require '/blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/Build.pm6'; ::('Build').new.build('/blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3') ?? exit(0) !! exit(1);
+[LibXML] make: Nothing to be done for 'all'.
+[LibXML] make: Nothing to be done for 'all'.
+===> Building [OK] for LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>
+===> Testing: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/000sanity.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/t/000sanity.t
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/t/000sanity.t:4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :$BIND-XML2, :$CLIB;
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00ast.t
+[LibXML] ===SORRY!=== Error while compiling t/00ast.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/00ast.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00config.t
+[LibXML] ===SORRY!=== Error while compiling t/00config.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at t/00config.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00dict.t
+[LibXML] ===SORRY!=== Error while compiling t/00dict.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Dict.rakumod (LibXML::Dict)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Dict.rakumod (LibXML::Dict):4
+[LibXML] at t/00dict.t:2
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00dom-w3c.t
+[LibXML] ===SORRY!=== Error while compiling t/00dom-w3c.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/00dom-w3c.t:1
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00dom.t
+[LibXML] ===SORRY!=== Error while compiling t/00dom.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/00dom.t:6
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00dtd-decls.t
+[LibXML] ===SORRY!=== Error while compiling t/00dtd-decls.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Dtd.rakumod (LibXML::Dtd)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Dtd.rakumod (LibXML::Dtd):4
+[LibXML] at t/00dtd-decls.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00dtd.t
+[LibXML] ===SORRY!=== Error while compiling t/00dtd.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/00dtd.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00errors.t
+[LibXML] ===SORRY!=== Error while compiling t/00errors.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/XPath/Context.rakumod (LibXML::XPath::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/XPath/Context.rakumod (LibXML::XPath::Context):4
+[LibXML] at t/00errors.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00hash-object.t
+[LibXML] ===SORRY!=== Error while compiling t/00hash-object.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/HashMap.rakumod (LibXML::HashMap)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/HashMap.rakumod (LibXML::HashMap):4
+[LibXML] at t/00hash-object.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00hash-type.t
+[LibXML] ===SORRY!=== Error while compiling t/00hash-type.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/HashMap.rakumod (LibXML::HashMap)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/HashMap.rakumod (LibXML::HashMap):4
+[LibXML] at t/00hash-type.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00input-callback.t
+[LibXML] ===SORRY!=== Error while compiling t/00input-callback.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/00input-callback.t:7
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00native.t
+[LibXML] ===SORRY!=== Error while compiling t/00native.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at t/00native.t:2
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00query-selectors.t
+[LibXML] ===SORRY!=== Error while compiling t/00query-selectors.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/00query-selectors.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00sax-coverage.t
+[LibXML] ===SORRY!=== Error while compiling t/00sax-coverage.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Document.rakumod (LibXML::Document)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Node.rakumod (LibXML::Node)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Item.rakumod (LibXML::Item)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Item.rakumod (LibXML::Item):24
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Node.rakumod (LibXML::Node):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Document.rakumod (LibXML::Document):5
+[LibXML] at t/00sax-coverage.t:1
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00sax.t
+[LibXML] ===SORRY!=== Error while compiling t/00sax.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/00sax.t:7
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00subclass.t
+[LibXML] ===SORRY!=== Error while compiling t/00subclass.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/00subclass.t:7
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00threads.t
+[LibXML] ===SORRY!=== Error while compiling t/00threads.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at t/00threads.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00with-cache.t
+[LibXML] ===SORRY!=== Error while compiling t/00with-cache.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Document.rakumod (LibXML::Document)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Node.rakumod (LibXML::Node)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Item.rakumod (LibXML::Item)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Item.rakumod (LibXML::Item):24
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Node.rakumod (LibXML::Node):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Document.rakumod (LibXML::Document):5
+[LibXML] at t/00with-cache.t:2
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00xpath-object.t
+[LibXML] ===SORRY!=== Error while compiling t/00xpath-object.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/00xpath-object.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/01basic.t
+[LibXML] ===SORRY!=== Error while compiling t/01basic.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/01basic.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/02parse.t
+[LibXML] ===SORRY!=== Error while compiling t/02parse.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/02parse.t:8
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/03doc.t
+[LibXML] ===SORRY!=== Error while compiling t/03doc.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/03doc.t:12
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/04node.t
+[LibXML] ===SORRY!=== Error while compiling t/04node.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/04node.t:12
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/05text.t
+[LibXML] ===SORRY!=== Error while compiling t/05text.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/05text.t:7
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/06elements.t
+[LibXML] ===SORRY!=== Error while compiling t/06elements.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/06elements.t:7
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/07dtd.t
+[LibXML] ===SORRY!=== Error while compiling t/07dtd.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/07dtd.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/08findnodes.t
+[LibXML] ===SORRY!=== Error while compiling t/08findnodes.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/08findnodes.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/09xpath.t
+[LibXML] ===SORRY!=== Error while compiling t/09xpath.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/09xpath.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/10ns.t
+[LibXML] ===SORRY!=== Error while compiling t/10ns.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/10ns.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/12html.t
+[LibXML] ===SORRY!=== Error while compiling t/12html.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/12html.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/13dtd.t
+[LibXML] ===SORRY!=== Error while compiling t/13dtd.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/13dtd.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/14sax.t
+[LibXML] ===SORRY!=== Error while compiling t/14sax.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/14sax.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/15nodelist.t
+[LibXML] ===SORRY!=== Error while compiling t/15nodelist.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/15nodelist.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/16docnodes.t
+[LibXML] ===SORRY!=== Error while compiling t/16docnodes.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/16docnodes.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/17callbacks.t
+[LibXML] ===SORRY!=== Error while compiling t/17callbacks.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/17callbacks.t:6
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/18docfree.t
+[LibXML] ===SORRY!=== Error while compiling t/18docfree.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/18docfree.t:4
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/19encoding.t
+[LibXML] ===SORRY!=== Error while compiling t/19encoding.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/19encoding.t:4
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/20extras.t
+[LibXML] ===SORRY!=== Error while compiling t/20extras.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/20extras.t:6
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/21catalog.t
+[LibXML] ===SORRY!=== Error while compiling t/21catalog.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/21catalog.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/23rawfunctions.t
+[LibXML] ===SORRY!=== Error while compiling t/23rawfunctions.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/23rawfunctions.t:4
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/24c14n.t
+[LibXML] ===SORRY!=== Error while compiling t/24c14n.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/24c14n.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/25relaxng.t
+[LibXML] ===SORRY!=== Error while compiling t/25relaxng.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/25relaxng.t:4
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/26schema.t
+[LibXML] ===SORRY!=== Error while compiling t/26schema.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/26schema.t:4
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/27input_callbacks_simple.t
+[LibXML] ===SORRY!=== Error while compiling t/27input_callbacks_simple.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/27input_callbacks_simple.t:6
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/28input_callbacks_multiple.t
+[LibXML] ===SORRY!=== Error while compiling t/28input_callbacks_multiple.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/28input_callbacks_multiple.t:6
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/29id.t
+[LibXML] ===SORRY!=== Error while compiling t/29id.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/29id.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/30keep_blanks.t
+[LibXML] ===SORRY!=== Error while compiling t/30keep_blanks.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/30keep_blanks.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/30xpathcontext.t
+[LibXML] ===SORRY!=== Error while compiling t/30xpathcontext.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/30xpathcontext.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/31xpc_functions.t
+[LibXML] ===SORRY!=== Error while compiling t/31xpc_functions.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/31xpc_functions.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/32xpc_variables.t
+[LibXML] ===SORRY!=== Error while compiling t/32xpc_variables.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/32xpc_variables.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/35huge_mode.t
+[LibXML] ===SORRY!=== Error while compiling t/35huge_mode.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/35huge_mode.t:9
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/40reader.t
+[LibXML] ===SORRY!=== Error while compiling t/40reader.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/40reader.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/40reader_mem_error.t
+[LibXML] ===SORRY!=== Error while compiling t/40reader_mem_error.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/40reader_mem_error.t:6
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/41xinclude.t
+[LibXML] ===SORRY!=== Error while compiling t/41xinclude.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/41xinclude.t:2
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/42common.t
+[LibXML] 1..2
+[LibXML] ok 1 - Loading
+[LibXML] ok 2 - XML_ELEMENT_NODE is 1.
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/43options.t
+[LibXML] ===SORRY!=== Error while compiling t/43options.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/43options.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/44extent.t
+[LibXML] ===SORRY!=== Error while compiling t/44extent.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/44extent.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/45regex.t
+[LibXML] ===SORRY!=== Error while compiling t/45regex.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/RegExp.rakumod (LibXML::RegExp)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/RegExp.rakumod (LibXML::RegExp):28
+[LibXML] at t/45regex.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/46err_column.t
+[LibXML] ===SORRY!=== Error while compiling t/46err_column.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/46err_column.t:4
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/47load_xml_callbacks.t
+[LibXML] ===SORRY!=== Error while compiling t/47load_xml_callbacks.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/47load_xml_callbacks.t:7
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/48importing_nodes_IDs.t
+[LibXML] ===SORRY!=== Error while compiling t/48importing_nodes_IDs.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/48importing_nodes_IDs.t:12
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/49global_extent.t
+[LibXML] ===SORRY!=== Error while compiling t/49global_extent.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/49global_extent.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/60error_prev_chain.t
+[LibXML] ===SORRY!=== Error while compiling t/60error_prev_chain.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/60error_prev_chain.t:6
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/61error.t
+[LibXML] ===SORRY!=== Error while compiling t/61error.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/61error.t:3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/90threads.t
+[LibXML] ===SORRY!=== Error while compiling t/90threads.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/90threads.t:4
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/91unique_key.t
+[LibXML] ===SORRY!=== Error while compiling t/91unique_key.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/91unique_key.t:5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/99doc-examples.t
+[LibXML] ===SORRY!=== Error while compiling t/99doc-examples.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Attr.rakumod (LibXML::Attr)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Node.rakumod (LibXML::Node)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Item.rakumod (LibXML::Item)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Item.rakumod (LibXML::Item):24
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Node.rakumod (LibXML::Node):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Attr.rakumod (LibXML::Attr):4
+[LibXML] at t/99doc-examples.t:4
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/issue#025.t
+[LibXML] ===SORRY!=== Error while compiling t/issue#025.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/issue#025.t:2
+[LibXML] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/issue#095.t
+[LibXML] ===SORRY!=== Error while compiling t/issue#095.t
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw)
+[LibXML] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict)
+[LibXML] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[LibXML] was intended to be part of a signature?
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/Dict.rakumod (LibXML::Raw::Dict):4
+[LibXML] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):68
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Config.rakumod (LibXML::Config):63
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/_Configurable.rakumod (LibXML::_Configurable):3
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser/Context.rakumod (LibXML::Parser::Context):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Parser.rakumod (LibXML::Parser):4
+[LibXML] at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML.rakumod (LibXML):3
+[LibXML] at t/issue#095.t:2
+===> Testing [FAIL]: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>
+[LibXML] Failed to get passing tests, but continuing with --force-test
+===> Installing: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>
+===> Install [OK] for LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>

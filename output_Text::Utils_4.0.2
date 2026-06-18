@@ -1,0 +1,546 @@
+===> Searching for: Text::Utils
+===> Found: Text::Utils:ver<4.0.2>:auth<zef:tbrowder>:api<3> [via Zef::Repository::Ecosystems<fez>]
+[Text::Utils] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781755635.330804.3602.849401114545/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz https://360.zef.pm/T/EX/TEXT_UTILS/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz
+===> Fetching [OK]: Text::Utils:ver<4.0.2>:auth<zef:tbrowder>:api<3> to /blin/data/zef-data/tmp/1781755635.330804.3602.849401114545/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz
+[Text::Utils] Command: tar -t -f ./c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz
+[Text::Utils] Command: tar -xvf ./c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz -C ../c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz
+===> Extraction [OK]: Text::Utils to /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz
+===> Testing: Text::Utils:ver<4.0.2>:auth<zef:tbrowder>:api<3>
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/0-load.t
+[Text::Utils] 1..4
+[Text::Utils] not ok 1 - Module 'Text::Utils' used okay
+[Text::Utils] # Failed test 'Module 'Text::Utils' used okay'
+[Text::Utils] # at t/0-load.t line 13
+[Text::Utils] # Potential difficulties:
+[Text::Utils] #     Optional named parameter 'limit' with subset type Text::Utils::Subs::LevelOp needs a valid default value
+[Text::Utils] #     otherwise it will throw exceptions when a value is absent at the callsite
+[Text::Utils] #     at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils/Subs.rakumod (Text::Utils::Subs):160
+[Text::Utils] #     Optional named parameter 'opt' with subset type Text::Utils::Subs::SplitOp needs a valid default value
+[Text::Utils] #     otherwise it will throw exceptions when a value is absent at the callsite
+[Text::Utils] #     at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils/Subs.rakumod (Text::Utils::Subs):161
+[Text::Utils] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] # ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] # An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] # No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] # at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] # Exception details:
+[Text::Utils] #   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] #     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils] #     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils] #     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils] #     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils] #     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils] #     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils] #     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils] #     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] #     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] #     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] #     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] #     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] #     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] #     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] # 
+[Text::Utils] # 
+[Text::Utils] # at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] # 
+[Text::Utils] ok 2 - Module 'Text::Utils::Classes' used okay
+[Text::Utils] ok 3 - Module 'Text::Utils::Subs' used okay
+[Text::Utils] ok 4 - Module 'Text::Utils::Vars' used okay
+[Text::Utils] # You failed 1 test of 4
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/10-commify.t
+[Text::Utils] ===SORRY!=== Error while compiling t/10-commify.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/10-commify.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/11-AFM-font-class.t
+[Text::Utils] ===SORRY!=== Error while compiling t/11-AFM-font-class.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/11-AFM-font-class.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/12-count-substrs.t
+[Text::Utils] ===SORRY!=== Error while compiling t/12-count-substrs.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/12-count-substrs.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/13-list2text.t
+[Text::Utils] ===SORRY!=== Error while compiling t/13-list2text.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/13-list2text.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/14-normalize-string.t
+[Text::Utils] ===SORRY!=== Error while compiling t/14-normalize-string.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/14-normalize-string.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/15-sorting.t
+[Text::Utils] ===SORRY!=== Error while compiling t/15-sorting.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/15-sorting.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/16-split-line.t
+[Text::Utils] ===SORRY!=== Error while compiling t/16-split-line.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/16-split-line.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/16b-split-line.t
+[Text::Utils] ===SORRY!=== Error while compiling t/16b-split-line.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/16b-split-line.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/17-strip-comment.t
+[Text::Utils] ===SORRY!=== Error while compiling t/17-strip-comment.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/17-strip-comment.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/17b-strip-comment.t
+[Text::Utils] ===SORRY!=== Error while compiling t/17b-strip-comment.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/17b-strip-comment.t:5
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/17c-str2intlist.t
+[Text::Utils] ===SORRY!=== Error while compiling t/17c-str2intlist.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/17c-str2intlist.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/18-wrap-paragraph.t
+[Text::Utils] ===SORRY!=== Error while compiling t/18-wrap-paragraph.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/18-wrap-paragraph.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/19-str2intlist.t
+[Text::Utils] ===SORRY!=== Error while compiling t/19-str2intlist.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/19-str2intlist.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/20-typeset.t
+[Text::Utils] ===SORRY!=== Error while compiling t/20-typeset.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at t/20-typeset.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/21-newline-in-cells.t
+[Text::Utils] ===SORRY!=== Error while compiling t/21-newline-in-cells.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils)
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2/lib/Text/Utils.rakumod (Text::Utils):6
+[Text::Utils] at t/21-newline-in-cells.t:3
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/98-is-odd.t
+[Text::Utils] 1..10
+[Text::Utils] ok 1 - is-odd: 0, got False, exp False
+[Text::Utils] ok 2 - is-odd: 1, got True, exp True
+[Text::Utils] ok 3 - is-odd: 2, got False, exp False
+[Text::Utils] ok 4 - is-odd: 3, got True, exp True
+[Text::Utils] ok 5 - is-odd: 4, got False, exp False
+[Text::Utils] ok 6 - is-odd: 5, got True, exp True
+[Text::Utils] ok 7 - is-odd: 6, got False, exp False
+[Text::Utils] ok 8 - is-odd: 7, got True, exp True
+[Text::Utils] ok 9 - is-odd: 8, got False, exp False
+[Text::Utils] ok 10 - is-odd: 9, got True, exp True
+[Text::Utils] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c1ef0c9aff91a06b7a62b2463f1befd0f2030588.tar.gz/Text-Utils-4.0.2 t/99-wrap-text.t
+[Text::Utils] ===SORRY!=== Error while compiling t/99-wrap-text.t
+[Text::Utils] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[Text::Utils] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Utils] No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[Text::Utils] Exception details:
+[Text::Utils]   No such method 'CALL-ME' for invocant of type 'Pair'
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[Text::Utils]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[Text::Utils]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[Text::Utils]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Text::Utils]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Text::Utils]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Utils]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Text::Utils]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Utils] at t/99-wrap-text.t:3
+===> Testing [FAIL]: Text::Utils:ver<4.0.2>:auth<zef:tbrowder>:api<3>
+[Text::Utils] Failed to get passing tests, but continuing with --force-test
+===> Installing: Text::Utils:ver<4.0.2>:auth<zef:tbrowder>:api<3>
+===> Install [OK] for Text::Utils:ver<4.0.2>:auth<zef:tbrowder>:api<3>

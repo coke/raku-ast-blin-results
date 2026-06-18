@@ -1,0 +1,42 @@
+===> Searching for: Text::Emoji
+===> Found: Text::Emoji:ver<0.0.10>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Text::Emoji] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781766300.428480.2751.017198203536/c396b850998549dc48aaf2aa2a2304bb37f19629.tar.gz https://360.zef.pm/T/EX/TEXT_EMOJI/c396b850998549dc48aaf2aa2a2304bb37f19629.tar.gz
+===> Fetching [OK]: Text::Emoji:ver<0.0.10>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1781766300.428480.2751.017198203536/c396b850998549dc48aaf2aa2a2304bb37f19629.tar.gz
+[Text::Emoji] Command: tar -t -f ./c396b850998549dc48aaf2aa2a2304bb37f19629.tar.gz
+[Text::Emoji] Command: tar -xvf ./c396b850998549dc48aaf2aa2a2304bb37f19629.tar.gz -C ../c396b850998549dc48aaf2aa2a2304bb37f19629.tar.gz
+===> Extraction [OK]: Text::Emoji to /blin/data/zef-data/tmp/c396b850998549dc48aaf2aa2a2304bb37f19629.tar.gz
+===> Testing: Text::Emoji:ver<0.0.10>:auth<zef:lizmat>
+[Text::Emoji] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c396b850998549dc48aaf2aa2a2304bb37f19629.tar.gz/Text-Emoji-0.0.10 t/01-basic.rakutest
+[Text::Emoji] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Text::Emoji] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/c396b850998549dc48aaf2aa2a2304bb37f19629.tar.gz/Text-Emoji-0.0.10/lib/Text/Emoji.rakumod (Text::Emoji)
+[Text::Emoji] An exception X::Parameter::InvalidConcreteness+{X::Comp} occurred while evaluating a BEGIN:
+[Text::Emoji] Invocant of method 'STORE' must be an object instance of type
+[Text::Emoji] 'Map::Agnostic', not a type object of type 'Map::Match'. Did you forget
+[Text::Emoji] a '.new'?
+[Text::Emoji] at /blin/data/zef-data/tmp/c396b850998549dc48aaf2aa2a2304bb37f19629.tar.gz/Text-Emoji-0.0.10/lib/Text/Emoji.rakumod (Text::Emoji):13
+[Text::Emoji] Exception details:
+[Text::Emoji]   Invocant of method 'STORE' must be an object instance of type
+[Text::Emoji]   'Map::Agnostic', not a type object of type 'Map::Match'. Did you forget
+[Text::Emoji]   a '.new'?
+[Text::Emoji]     in method STORE at /blin/installed/Map::Agnostic_0.0.14/sources/D2548FA181EF2C5C75C5B287B49F97D7DA6A824A (Map::Agnostic) line 25
+[Text::Emoji]     in any PERFORM-BEGIN at src/Raku/ast/statementprefixes.rakumod line 603
+[Text::Emoji]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Text::Emoji]     in any statement-prefix:sym<BEGIN> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji]     in any statement-prefix at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji]     in any term:sym<statement-prefix> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji]     in any initializer:sym<:=> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji]     in any initializer at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji]     in any declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji]     in any scope-declarator:sym<my> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Text::Emoji] at t/01-basic.rakutest:3
+===> Testing [FAIL]: Text::Emoji:ver<0.0.10>:auth<zef:lizmat>
+[Text::Emoji] Failed to get passing tests, but continuing with --force-test
+===> Installing: Text::Emoji:ver<0.0.10>:auth<zef:lizmat>
+===> Install [OK] for Text::Emoji:ver<0.0.10>:auth<zef:lizmat>
+
+1 bin/ script [em] installed to:
+/blin/installed/Text::Emoji_0.0.10/bin

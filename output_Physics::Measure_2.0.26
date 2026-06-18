@@ -1,0 +1,135 @@
+===> Searching for: Physics::Measure
+===> Found: Physics::Measure:ver<2.0.26>:auth<zef:librasteve>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Physics::Measure] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781776034.508118.3100.1336912706934/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz https://360.zef.pm/P/HY/PHYSICS_MEASURE/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz
+===> Fetching [OK]: Physics::Measure:ver<2.0.26>:auth<zef:librasteve>:api<1> to /blin/data/zef-data/tmp/1781776034.508118.3100.1336912706934/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz
+[Physics::Measure] Command: tar -t -f ./85223271234955ae3e2a43f3874a9207f91f8009.tar.gz
+[Physics::Measure] Command: tar -xvf ./85223271234955ae3e2a43f3874a9207f91f8009.tar.gz -C ../85223271234955ae3e2a43f3874a9207f91f8009.tar.gz
+===> Extraction [OK]: Physics::Measure to /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz
+===> Testing: Physics::Measure:ver<2.0.26>:auth<zef:librasteve>:api<1>
+[Physics::Measure] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist t/04-uni.rakutest
+[Physics::Measure] ===SORRY!=== Error while compiling t/04-uni.rakutest
+[Physics::Measure] Couldn't parse YAML: No such method 'concretize' for string
+[Physics::Measure] '#Physics::Units::Definitions::en_SI - base.yaml #SI Base Units # Format
+[Physics::Measure] key: #Type: [symbol, synonym-one, synonym-two ...] - Length: [m, metre,
+[Physics::Measure] meter] - Mass: [kg, kilogram] - Time: [s, sec, second] - Current: [A,
+[Physics::Measure] amp, ampere] - Temperature: [K, kelvin] - Substance: [mol, mole] -
+[Physics::Measure] Luminosity: [cd, candela, candle] - Angle: [radian, rad] - Currency:
+[Physics::Measure] [USD, US$, $, dollar] - Data: [b, bit] '
+[Physics::Measure] at t/04-uni.rakutest:6
+[Physics::Measure] Actually thrown at:
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/DB89D6845A146ECAFA284CF7B691B083E77DC52F (Physics::Unit::Base) line 5
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/705082F5789EC1CCBC9A9EC31EBE6ED69A5856AA (Physics::Unit::en_SI) line 39
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/EDFA49CFAA9BDC409012D345E0C19058DD248DA5 (Physics::Unit::Config) line 97
+[Physics::Measure]   in method instance at /blin/installed/Physics::Unit_2.0.31/sources/7122B41FF918535AAA0C2BE23D60F9424AF8BD0D (Physics::Unit::Directory) line 14
+[Physics::Measure]   in sub dxi at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 16
+[Physics::Measure]   in method postfix-to-defn at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 292
+[Physics::Measure]   in block  at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/lib/Physics/Measure.rakumod (Physics::Measure) line 933
+[Physics::Measure]   in block <unit> at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/lib/Physics/Measure.rakumod (Physics::Measure) line 1
+[Physics::Measure]   in any <load> at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/../lib/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/33/333D18C1592AE27B4664A6C755031085F504F7CB line 1
+[Physics::Measure]   in any IMPL-LOAD-MODULE at src/Raku/ast/statements.rakumod line 1768
+[Physics::Measure]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 1961
+[Physics::Measure]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Physics::Measure]   in any statement-control at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Measure] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist t/05-cvt.rakutest
+[Physics::Measure] ===SORRY!=== Error while compiling t/05-cvt.rakutest
+[Physics::Measure] Couldn't parse YAML: No such method 'concretize' for string
+[Physics::Measure] '#Physics::Units::Definitions::en_SI - base.yaml #SI Base Units # Format
+[Physics::Measure] key: #Type: [symbol, synonym-one, synonym-two ...] - Length: [m, metre,
+[Physics::Measure] meter] - Mass: [kg, kilogram] - Time: [s, sec, second] - Current: [A,
+[Physics::Measure] amp, ampere] - Temperature: [K, kelvin] - Substance: [mol, mole] -
+[Physics::Measure] Luminosity: [cd, candela, candle] - Angle: [radian, rad] - Currency:
+[Physics::Measure] [USD, US$, $, dollar] - Data: [b, bit] '
+[Physics::Measure] at t/05-cvt.rakutest:7
+[Physics::Measure] Actually thrown at:
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/DB89D6845A146ECAFA284CF7B691B083E77DC52F (Physics::Unit::Base) line 5
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/705082F5789EC1CCBC9A9EC31EBE6ED69A5856AA (Physics::Unit::en_SI) line 39
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/EDFA49CFAA9BDC409012D345E0C19058DD248DA5 (Physics::Unit::Config) line 97
+[Physics::Measure]   in method instance at /blin/installed/Physics::Unit_2.0.31/sources/7122B41FF918535AAA0C2BE23D60F9424AF8BD0D (Physics::Unit::Directory) line 14
+[Physics::Measure]   in sub dxi at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 16
+[Physics::Measure]   in method postfix-to-defn at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 292
+[Physics::Measure]   in block  at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/lib/Physics/Measure.rakumod (Physics::Measure) line 933
+[Physics::Measure]   in block <unit> at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/lib/Physics/Measure.rakumod (Physics::Measure) line 1
+[Physics::Measure]   in any <load> at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/../lib/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/33/333D18C1592AE27B4664A6C755031085F504F7CB line 1
+[Physics::Measure]   in any IMPL-LOAD-MODULE at src/Raku/ast/statements.rakumod line 1768
+[Physics::Measure]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 1961
+[Physics::Measure]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Physics::Measure]   in any statement-control at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Measure] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist t/06-com.rakutest
+[Physics::Measure] ===SORRY!=== Error while compiling t/06-com.rakutest
+[Physics::Measure] Couldn't parse YAML: No such method 'concretize' for string
+[Physics::Measure] '#Physics::Units::Definitions::en_SI - base.yaml #SI Base Units # Format
+[Physics::Measure] key: #Type: [symbol, synonym-one, synonym-two ...] - Length: [m, metre,
+[Physics::Measure] meter] - Mass: [kg, kilogram] - Time: [s, sec, second] - Current: [A,
+[Physics::Measure] amp, ampere] - Temperature: [K, kelvin] - Substance: [mol, mole] -
+[Physics::Measure] Luminosity: [cd, candela, candle] - Angle: [radian, rad] - Currency:
+[Physics::Measure] [USD, US$, $, dollar] - Data: [b, bit] '
+[Physics::Measure] at t/06-com.rakutest:7
+[Physics::Measure] Actually thrown at:
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/DB89D6845A146ECAFA284CF7B691B083E77DC52F (Physics::Unit::Base) line 5
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/705082F5789EC1CCBC9A9EC31EBE6ED69A5856AA (Physics::Unit::en_SI) line 39
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/EDFA49CFAA9BDC409012D345E0C19058DD248DA5 (Physics::Unit::Config) line 97
+[Physics::Measure]   in method instance at /blin/installed/Physics::Unit_2.0.31/sources/7122B41FF918535AAA0C2BE23D60F9424AF8BD0D (Physics::Unit::Directory) line 14
+[Physics::Measure]   in sub dxi at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 16
+[Physics::Measure]   in method postfix-to-defn at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 292
+[Physics::Measure]   in block  at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/lib/Physics/Measure.rakumod (Physics::Measure) line 933
+[Physics::Measure]   in block <unit> at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/lib/Physics/Measure.rakumod (Physics::Measure) line 1
+[Physics::Measure]   in any <load> at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/../lib/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/33/333D18C1592AE27B4664A6C755031085F504F7CB line 1
+[Physics::Measure]   in any IMPL-LOAD-MODULE at src/Raku/ast/statements.rakumod line 1768
+[Physics::Measure]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 1961
+[Physics::Measure]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Physics::Measure]   in any statement-control at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Measure] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist t/14-err.rakutest
+[Physics::Measure] ===SORRY!=== Error while compiling t/14-err.rakutest
+[Physics::Measure] Couldn't parse YAML: No such method 'concretize' for string
+[Physics::Measure] '#Physics::Units::Definitions::en_SI - base.yaml #SI Base Units # Format
+[Physics::Measure] key: #Type: [symbol, synonym-one, synonym-two ...] - Length: [m, metre,
+[Physics::Measure] meter] - Mass: [kg, kilogram] - Time: [s, sec, second] - Current: [A,
+[Physics::Measure] amp, ampere] - Temperature: [K, kelvin] - Substance: [mol, mole] -
+[Physics::Measure] Luminosity: [cd, candela, candle] - Angle: [radian, rad] - Currency:
+[Physics::Measure] [USD, US$, $, dollar] - Data: [b, bit] '
+[Physics::Measure] at t/14-err.rakutest:6
+[Physics::Measure] Actually thrown at:
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/DB89D6845A146ECAFA284CF7B691B083E77DC52F (Physics::Unit::Base) line 5
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/705082F5789EC1CCBC9A9EC31EBE6ED69A5856AA (Physics::Unit::en_SI) line 39
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/EDFA49CFAA9BDC409012D345E0C19058DD248DA5 (Physics::Unit::Config) line 97
+[Physics::Measure]   in method instance at /blin/installed/Physics::Unit_2.0.31/sources/7122B41FF918535AAA0C2BE23D60F9424AF8BD0D (Physics::Unit::Directory) line 14
+[Physics::Measure]   in sub dxi at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 16
+[Physics::Measure]   in method postfix-to-defn at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 292
+[Physics::Measure]   in block  at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/lib/Physics/Measure.rakumod (Physics::Measure) line 933
+[Physics::Measure]   in block <unit> at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/lib/Physics/Measure.rakumod (Physics::Measure) line 1
+[Physics::Measure]   in any <load> at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/../lib/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/33/333D18C1592AE27B4664A6C755031085F504F7CB line 1
+[Physics::Measure]   in any IMPL-LOAD-MODULE at src/Raku/ast/statements.rakumod line 1768
+[Physics::Measure]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 1961
+[Physics::Measure]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Physics::Measure]   in any statement-control at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Measure] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist t/16-rnd.rakutest
+[Physics::Measure] ===SORRY!=== Error while compiling t/16-rnd.rakutest
+[Physics::Measure] Couldn't parse YAML: No such method 'concretize' for string
+[Physics::Measure] '#Physics::Units::Definitions::en_SI - base.yaml #SI Base Units # Format
+[Physics::Measure] key: #Type: [symbol, synonym-one, synonym-two ...] - Length: [m, metre,
+[Physics::Measure] meter] - Mass: [kg, kilogram] - Time: [s, sec, second] - Current: [A,
+[Physics::Measure] amp, ampere] - Temperature: [K, kelvin] - Substance: [mol, mole] -
+[Physics::Measure] Luminosity: [cd, candela, candle] - Angle: [radian, rad] - Currency:
+[Physics::Measure] [USD, US$, $, dollar] - Data: [b, bit] '
+[Physics::Measure] at t/16-rnd.rakutest:6
+[Physics::Measure] Actually thrown at:
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/DB89D6845A146ECAFA284CF7B691B083E77DC52F (Physics::Unit::Base) line 5
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/705082F5789EC1CCBC9A9EC31EBE6ED69A5856AA (Physics::Unit::en_SI) line 39
+[Physics::Measure]   in method load at /blin/installed/Physics::Unit_2.0.31/sources/EDFA49CFAA9BDC409012D345E0C19058DD248DA5 (Physics::Unit::Config) line 97
+[Physics::Measure]   in method instance at /blin/installed/Physics::Unit_2.0.31/sources/7122B41FF918535AAA0C2BE23D60F9424AF8BD0D (Physics::Unit::Directory) line 14
+[Physics::Measure]   in sub dxi at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 16
+[Physics::Measure]   in method postfix-to-defn at /blin/installed/Physics::Unit_2.0.31/sources/9BC5057D3A46EA745615C2472D9C32400158B0C4 (Physics::Unit) line 292
+[Physics::Measure]   in block  at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/lib/Physics/Measure.rakumod (Physics::Measure) line 933
+[Physics::Measure]   in block <unit> at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/lib/Physics/Measure.rakumod (Physics::Measure) line 1
+[Physics::Measure]   in any <load> at /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist/../lib/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/33/333D18C1592AE27B4664A6C755031085F504F7CB line 1
+[Physics::Measure]   in any IMPL-LOAD-MODULE at src/Raku/ast/statements.rakumod line 1768
+[Physics::Measure]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 1961
+[Physics::Measure]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Physics::Measure]   in any statement-control at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Physics::Measure] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/85223271234955ae3e2a43f3874a9207f91f8009.tar.gz/dist t/99-testMETA.rakutest
+[Physics::Measure] 1..1
+[Physics::Measure] ok 1 - # SKIP Skipping author test
+===> Testing [FAIL]: Physics::Measure:ver<2.0.26>:auth<zef:librasteve>:api<1>
+[Physics::Measure] Failed to get passing tests, but continuing with --force-test
+===> Installing: Physics::Measure:ver<2.0.26>:auth<zef:librasteve>:api<1>
+===> Install [OK] for Physics::Measure:ver<2.0.26>:auth<zef:librasteve>:api<1>

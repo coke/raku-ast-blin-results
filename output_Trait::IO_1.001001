@@ -1,0 +1,87 @@
+===> Searching for: Trait::IO
+===> Found: Trait::IO:ver<1.1>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Trait::IO] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781792690.632309.6863.116710163867/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz https://360.zef.pm/T/RA/TRAIT_IO/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz
+===> Fetching [OK]: Trait::IO:ver<1.1>:auth<zef:raku-community-modules> to /blin/data/zef-data/tmp/1781792690.632309.6863.116710163867/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz
+[Trait::IO] Command: tar -t -f ./632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz
+[Trait::IO] Command: tar -xvf ./632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz -C ../632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz
+===> Extraction [OK]: Trait::IO to /blin/data/zef-data/tmp/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz
+===> Testing: Trait::IO:ver<1.1>:auth<zef:raku-community-modules>
+[Trait::IO] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz/Trait-IO-1.1 t/00-use.rakutest
+[Trait::IO] 1..1
+[Trait::IO] ok 1 - Trait::IO module can be use-d ok
+[Trait::IO] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz/Trait-IO-1.1 t/01-auto-close.rakutest
+[Trait::IO] ===SORRY!===
+[Trait::IO] No such method 'add_phaser' for invocant of type 'Mu'
+[Trait::IO]   in sub trait_mod:<does> at /blin/data/zef-data/tmp/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz/Trait-IO-1.1/lib/Trait/IO.rakumod (Trait::IO) line 7
+[Trait::IO]   in any IMPL-BEGIN-TIME-CALL at src/Raku/ast/begintime.rakumod line 109
+[Trait::IO]   in any apply at src/Raku/ast/traits.rakumod line 158
+[Trait::IO]   in any  at src/Raku/ast/traits.rakumod line 64
+[Trait::IO]   in any apply-traits at src/Raku/ast/traits.rakumod line 50
+[Trait::IO]   in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 1072
+[Trait::IO]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Trait::IO]   in any to-begin-time at src/Raku/ast/base.rakumod line 95
+[Trait::IO]   in any declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any scope-declarator:sym<my> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO] No such method 'add_phaser' for invocant of type 'Mu'
+[Trait::IO]   in sub trait_mod:<does> at /blin/data/zef-data/tmp/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz/Trait-IO-1.1/lib/Trait/IO.rakumod (Trait::IO) line 7
+[Trait::IO]   in any IMPL-BEGIN-TIME-CALL at src/Raku/ast/begintime.rakumod line 109
+[Trait::IO]   in any apply at src/Raku/ast/traits.rakumod line 158
+[Trait::IO]   in any  at src/Raku/ast/traits.rakumod line 64
+[Trait::IO]   in any apply-traits at src/Raku/ast/traits.rakumod line 50
+[Trait::IO]   in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 1072
+[Trait::IO]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 18
+[Trait::IO]   in any to-begin-time at src/Raku/ast/base.rakumod line 95
+[Trait::IO]   in any declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any scope-declarator:sym<my> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO] No such method 'add_phaser' for invocant of type 'Mu'
+[Trait::IO]   in sub trait_mod:<does> at /blin/data/zef-data/tmp/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz/Trait-IO-1.1/lib/Trait/IO.rakumod (Trait::IO) line 7
+[Trait::IO]   in any IMPL-BEGIN-TIME-CALL at src/Raku/ast/begintime.rakumod line 109
+[Trait::IO]   in any apply at src/Raku/ast/traits.rakumod line 158
+[Trait::IO]   in any  at src/Raku/ast/traits.rakumod line 64
+[Trait::IO]   in any apply-traits at src/Raku/ast/traits.rakumod line 50
+[Trait::IO]   in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 1072
+[Trait::IO]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 18
+[Trait::IO]   in any to-begin-time at src/Raku/ast/base.rakumod line 95
+[Trait::IO]   in any declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any scope-declarator:sym<my> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO] No such method 'add_phaser' for invocant of type 'Mu'
+[Trait::IO]   in sub trait_mod:<does> at /blin/data/zef-data/tmp/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz/Trait-IO-1.1/lib/Trait/IO.rakumod (Trait::IO) line 7
+[Trait::IO]   in any IMPL-BEGIN-TIME-CALL at src/Raku/ast/begintime.rakumod line 109
+[Trait::IO]   in any apply at src/Raku/ast/traits.rakumod line 158
+[Trait::IO]   in any  at src/Raku/ast/traits.rakumod line 64
+[Trait::IO]   in any apply-traits at src/Raku/ast/traits.rakumod line 50
+[Trait::IO]   in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 1072
+[Trait::IO]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 18
+[Trait::IO]   in any to-begin-time at src/Raku/ast/base.rakumod line 95
+[Trait::IO]   in any declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any scope-declarator:sym<my> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO] No such method 'add_phaser' for invocant of type 'Mu'
+[Trait::IO]   in sub trait_mod:<does> at /blin/data/zef-data/tmp/632e113f88ee647b6ed5368271c0a4f80031fb3a.tar.gz/Trait-IO-1.1/lib/Trait/IO.rakumod (Trait::IO) line 7
+[Trait::IO]   in any IMPL-BEGIN-TIME-CALL at src/Raku/ast/begintime.rakumod line 109
+[Trait::IO]   in any apply at src/Raku/ast/traits.rakumod line 158
+[Trait::IO]   in any  at src/Raku/ast/traits.rakumod line 64
+[Trait::IO]   in any apply-traits at src/Raku/ast/traits.rakumod line 50
+[Trait::IO]   in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 1072
+[Trait::IO]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 18
+[Trait::IO]   in any to-begin-time at src/Raku/ast/base.rakumod line 95
+[Trait::IO]   in any declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any scope-declarator:sym<my> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Trait::IO]   in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+===> Testing [FAIL]: Trait::IO:ver<1.1>:auth<zef:raku-community-modules>
+[Trait::IO] Failed to get passing tests, but continuing with --force-test
+===> Installing: Trait::IO:ver<1.1>:auth<zef:raku-community-modules>
+===> Install [OK] for Trait::IO:ver<1.1>:auth<zef:raku-community-modules>

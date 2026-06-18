@@ -1,0 +1,39 @@
+===> Searching for: Proc::Easier
+===> Found: Proc::Easier:ver<0.0.5>:auth<zef:sdondley> [via Zef::Repository::Ecosystems<fez>]
+[Proc::Easier] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781750707.294491.2544.050854320122/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz https://360.zef.pm/P/RO/PROC_EASIER/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+===> Fetching [OK]: Proc::Easier:ver<0.0.5>:auth<zef:sdondley> to /blin/data/zef-data/tmp/1781750707.294491.2544.050854320122/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+[Proc::Easier] Command: tar -t -f ./a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+[Proc::Easier] Command: tar -xvf ./a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz -C ../a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+===> Extraction [OK]: Proc::Easier to /blin/data/zef-data/tmp/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+===> Testing: Proc::Easier:ver<0.0.5>:auth<zef:sdondley>
+[Proc::Easier] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz/Proc-Easier-0.0.5 t/01-basic.rakutest
+[Proc::Easier] 1..16
+[Proc::Easier] ok 1 - creates object using standard constructor notation
+[Proc::Easier] ok 2 - creates object using simplified interface
+[Proc::Easier] ok 3 - cmd attribute set
+[Proc::Easier] ok 4 - sets/get output
+[Proc::Easier] ok 5 - lazy works
+[Proc::Easier] ok 6 - has exit method
+[Proc::Easier] ok 7 - has exit method
+[Proc::Easier] not ok 8 - get calling line number
+[Proc::Easier] # Failed test 'get calling line number'
+[Proc::Easier] # at t/01-basic.rakutest line 21
+[Proc::Easier] # expected: '18'
+[Proc::Easier] #      got: '17'
+[Proc::Easier] not ok 9 - get calling file name
+[Proc::Easier] # Failed test 'get calling file name'
+[Proc::Easier] # at t/01-basic.rakutest line 22
+[Proc::Easier] # expected a match with: /01\-basic\.rakutest/
+[Proc::Easier] #                   got: "/blin/data/zef-data/tmp/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz/Proc-Easier-0.0.5/lib/Proc/Easier.rakumod (Proc::Easier)"
+[Proc::Easier] ok 10 - does gist
+[Proc::Easier] ok 11 - get calling line number
+[Proc::Easier] ok 12 - dies with bad command with :die
+[Proc::Easier] ok 13 - deos not die with bad command, without :die
+[Proc::Easier] ok 14 - autodie on works
+[Proc::Easier] ok 15 - autodie off works
+[Proc::Easier] ok 16 - issues a real command
+[Proc::Easier] # You failed 2 tests of 16
+===> Testing [FAIL]: Proc::Easier:ver<0.0.5>:auth<zef:sdondley>
+[Proc::Easier] Failed to get passing tests, but continuing with --force-test
+===> Installing: Proc::Easier:ver<0.0.5>:auth<zef:sdondley>
+===> Install [OK] for Proc::Easier:ver<0.0.5>:auth<zef:sdondley>

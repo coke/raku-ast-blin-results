@@ -1,0 +1,36 @@
+===> Searching for: CLI::Wordpress::Migrator
+===> Found: CLI::Wordpress::Migrator:ver<0.0.1>:auth<zef:librasteve> [via Zef::Repository::Ecosystems<fez>]
+[CLI::Wordpress::Migrator] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781758496.355002.1970.0610369680571/afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz https://360.zef.pm/C/LI/CLI_WORDPRESS_MIGRATOR/afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz
+===> Fetching [OK]: CLI::Wordpress::Migrator:ver<0.0.1>:auth<zef:librasteve> to /blin/data/zef-data/tmp/1781758496.355002.1970.0610369680571/afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz
+[CLI::Wordpress::Migrator] Command: tar -t -f ./afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz
+[CLI::Wordpress::Migrator] Command: tar -xvf ./afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz -C ../afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz
+===> Extraction [OK]: CLI::Wordpress::Migrator to /blin/data/zef-data/tmp/afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz
+===> Building: CLI::Wordpress::Migrator:ver<0.0.1>:auth<zef:librasteve>
+[CLI::Wordpress::Migrator] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -e require '/blin/data/zef-data/tmp/afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz/CLI-Wordpress-Migrator-0.0.1/Build.rakumod'; ::('Build').new.build('/blin/data/zef-data/tmp/afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz/CLI-Wordpress-Migrator-0.0.1') ?? exit(0) !! exit(1);
+[CLI::Wordpress::Migrator] Build successful
+[CLI::Wordpress::Migrator]   in method build at /blin/data/zef-data/tmp/afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz/CLI-Wordpress-Migrator-0.0.1/Build.rakumod line 18
+===> Building [OK] for CLI::Wordpress::Migrator:ver<0.0.1>:auth<zef:librasteve>
+===> Testing: CLI::Wordpress::Migrator:ver<0.0.1>:auth<zef:librasteve>
+[CLI::Wordpress::Migrator] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz/CLI-Wordpress-Migrator-0.0.1 t/01-basic.rakutest
+[CLI::Wordpress::Migrator] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[CLI::Wordpress::Migrator] Couldn't parse YAML: No such method 'concretize' for string 'from: user: myusername subdom:
+[CLI::Wordpress::Migrator] sdname domain: mydomain.com key-pub: kpname port: 22 to: user:
+[CLI::Wordpress::Migrator] myusername subdom: sdname domain: mydomain.com key-pub: kpname port: 22
+[CLI::Wordpress::Migrator] wp-config: locale: en_GB db: name: dbname user: dbuser pass: dbpass
+[CLI::Wordpress::Migrator] prefix: wp_ title: My New WP Installation url: mysite.com admin: user:
+[CLI::Wordpress::Migrator] aduser pass: adpass email: ademail '
+[CLI::Wordpress::Migrator] at t/01-basic.rakutest:2
+[CLI::Wordpress::Migrator] Actually thrown at:
+[CLI::Wordpress::Migrator]   in block <unit> at /blin/data/zef-data/tmp/afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz/CLI-Wordpress-Migrator-0.0.1/lib/CLI/Wordpress/Migrator.rakumod (CLI::Wordpress::Migrator) line 5
+[CLI::Wordpress::Migrator]   in any <load> at /blin/data/zef-data/tmp/afc90cd622cd8015f6477a4437499adb971ec63b.tar.gz/CLI-Wordpress-Migrator-0.0.1/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/2E/2EEE858F91507F44A61B8490E5C7D70E8A1814F3 line 1
+[CLI::Wordpress::Migrator]   in any IMPL-LOAD-MODULE at src/Raku/ast/statements.rakumod line 1768
+[CLI::Wordpress::Migrator]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 1961
+[CLI::Wordpress::Migrator]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CLI::Wordpress::Migrator]   in any statement-control at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+===> Testing [FAIL]: CLI::Wordpress::Migrator:ver<0.0.1>:auth<zef:librasteve>
+[CLI::Wordpress::Migrator] Failed to get passing tests, but continuing with --force-test
+===> Installing: CLI::Wordpress::Migrator:ver<0.0.1>:auth<zef:librasteve>
+===> Install [OK] for CLI::Wordpress::Migrator:ver<0.0.1>:auth<zef:librasteve>
+
+1 bin/ script [rawm] installed to:
+/blin/installed/CLI::Wordpress::Migrator_0.0.1/bin

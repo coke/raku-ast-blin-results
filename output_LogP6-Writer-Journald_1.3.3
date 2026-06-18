@@ -1,0 +1,90 @@
+===> Searching for: LogP6-Writer-Journald
+===> Found: LogP6-Writer-Journald:ver<1.3.3>:auth<cpan:ATROXAPER> [via Zef::Repository::Ecosystems<rea>]
+[LogP6-Writer-Journald] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781762425.386041.8580.544903300733/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/L/LogP6-Writer-Journald/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+===> Fetching [OK]: LogP6-Writer-Journald:ver<1.3.3>:auth<cpan:ATROXAPER> to /blin/data/zef-data/tmp/1781762425.386041.8580.544903300733/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+[LogP6-Writer-Journald] Command: tar -t -f ./LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+[LogP6-Writer-Journald] Command: tar -xvf ./LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz -C ../LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+===> Extraction [OK]: LogP6-Writer-Journald to /blin/data/zef-data/tmp/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+===> Testing: LogP6-Writer-Journald:ver<1.3.3>:auth<github:atroxaper>
+[LogP6-Writer-Journald] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-Writer-Journald-1.3.3 t/00-functionality.t
+[LogP6-Writer-Journald] Potential difficulties:
+[LogP6-Writer-Journald]     Declaring class 'LogP6::ConfigFile' inside an enclosing module of the
+[LogP6-Writer-Journald]     same name silently replaces the module in the outer stash. This is
+[LogP6-Writer-Journald]     legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the same
+[LogP6-Writer-Journald]     pattern installs the class as a nested package instead. Rewrite as 'unit
+[LogP6-Writer-Journald]     class LogP6::ConfigFile;' in its own file (or otherwise avoid the
+[LogP6-Writer-Journald]     module+same-named-class collision) to work the same way on either
+[LogP6-Writer-Journald]     revision.
+[LogP6-Writer-Journald]     at line 
+[LogP6-Writer-Journald] 1..4
+[LogP6-Writer-Journald] LogP6 error: X::Role::Parametric::NoSuchCandidate: No appropriate parametric role variant available for 'LogP6::GroovesPartsManager':
+[LogP6-Writer-Journald]     Cannot resolve caller (LogP6::GroovesPartsManager[Lock,Str,LogP6::FilterConf::Std,LogP6::FilterConf], Lock:D, Str:D, LogP6::FilterConf::Std:U, LogP6::FilterConf:U); Routine does not have any candidates.  Is only the proto defined?
+[LogP6-Writer-Journald]   in sub clean-all-settings at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 151
+[LogP6-Writer-Journald]   in sub wipe-log-config at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 123
+[LogP6-Writer-Journald]   in block  at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 81
+[LogP6-Writer-Journald]   in sub init-from-file at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 72
+[LogP6-Writer-Journald]   in sub try-initialize at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 67
+[LogP6-Writer-Journald]   in sub writer at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 427
+[LogP6-Writer-Journald]   in block <unit> at t/00-functionality.t line 11
+[LogP6-Writer-Journald] LogP6 error: X::AdHoc: Attempt to unlock mutex by thread not holding it
+[LogP6-Writer-Journald]   in sub clean-all-settings at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 151
+[LogP6-Writer-Journald]   in sub wipe-log-config at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 123
+[LogP6-Writer-Journald]   in block  at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 81
+[LogP6-Writer-Journald]   in sub init-from-file at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 72
+[LogP6-Writer-Journald]   in sub try-initialize at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 67
+[LogP6-Writer-Journald]   in sub writer at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 427
+[LogP6-Writer-Journald]   in block <unit> at t/00-functionality.t line 11
+[LogP6-Writer-Journald] This exception is not resumable
+[LogP6-Writer-Journald]   in block  at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 117
+[LogP6-Writer-Journald]   in any  at /blin/data/zef-data/tmp/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-Writer-Journald-1.3.3/t/resources/00-config-file/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/B0/B08BD331DE63A75C577EF8374D4452ED6622FA26 line 1
+[LogP6-Writer-Journald]   in sub clean-all-settings at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 151
+[LogP6-Writer-Journald]   in sub wipe-log-config at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 123
+[LogP6-Writer-Journald]   in block  at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 81
+[LogP6-Writer-Journald]   in sub init-from-file at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 72
+[LogP6-Writer-Journald]   in sub try-initialize at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 67
+[LogP6-Writer-Journald]   in sub writer at /blin/installed/LogP6_1.6.4/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 427
+[LogP6-Writer-Journald]   in block <unit> at t/00-functionality.t line 11
+[LogP6-Writer-Journald] # You planned 4 tests, but ran 0
+[LogP6-Writer-Journald] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-Writer-Journald-1.3.3 t/01-integration.t
+[LogP6-Writer-Journald] 1..37
+[LogP6-Writer-Journald] ok 1 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 2 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 3 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 4 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 5 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 6 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 7 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 8 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 9 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 10 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 11 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 12 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 13 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 14 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 15 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 16 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 17 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 18 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 19 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 20 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 21 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 22 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 23 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 24 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 25 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 26 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 27 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 28 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 29 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 30 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 31 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 32 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 33 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 34 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 35 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 36 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+[LogP6-Writer-Journald] ok 37 - # SKIP did not find "systemd" library. install libsystemd-dev (Ubuntu)
+===> Testing [FAIL]: LogP6-Writer-Journald:ver<1.3.3>:auth<github:atroxaper>
+[LogP6-Writer-Journald] Failed to get passing tests, but continuing with --force-test
+===> Installing: LogP6-Writer-Journald:ver<1.3.3>:auth<github:atroxaper>
+===> Install [OK] for LogP6-Writer-Journald:ver<1.3.3>:auth<github:atroxaper>

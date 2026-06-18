@@ -1,0 +1,848 @@
+===> Searching for: SBOM::CycloneDX
+===> Found: SBOM::CycloneDX:ver<0.0.16>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[SBOM::CycloneDX] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781770034.460628.7823.202911226254/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz https://360.zef.pm/S/BO/SBOM_CYCLONEDX/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz
+===> Fetching [OK]: SBOM::CycloneDX:ver<0.0.16>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1781770034.460628.7823.202911226254/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz
+[SBOM::CycloneDX] Command: tar -t -f ./fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz
+[SBOM::CycloneDX] Command: tar -xvf ./fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz -C ../fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz
+===> Extraction [OK]: SBOM::CycloneDX to /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz
+===> Testing: SBOM::CycloneDX:ver<0.0.16>:auth<zef:lizmat>
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/01-basic.rakutest
+[SBOM::CycloneDX] 1..11
+[SBOM::CycloneDX] ok 1 - did we get the correct URL for BSD
+[SBOM::CycloneDX] ok 2 - Ok object with minimal
+[SBOM::CycloneDX] ok 3 - minimal: is the bomFormat correct
+[SBOM::CycloneDX] ok 4 - minimal: is the specVersion correct
+[SBOM::CycloneDX] ok 5 - minimal: is the version correct
+[SBOM::CycloneDX] ok 6 - is the JSON ok
+[SBOM::CycloneDX] ok 7 - Ok object with Hash
+[SBOM::CycloneDX] ok 8 - Hash: is the bomFormat correct
+[SBOM::CycloneDX] ok 9 - Hash: is the specVersion correct
+[SBOM::CycloneDX] ok 10 - Hash: is the version correct
+[SBOM::CycloneDX] ok 11 - is the JSON ok
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/02-contact.rakutest
+[SBOM::CycloneDX] 1..4
+[SBOM::CycloneDX] # Subtest: SBOM::Contact: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Contact'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Contact: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Contact: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Contact'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Contact: minimal
+[SBOM::CycloneDX] ok 3 - Any as arguments should be ignored
+[SBOM::CycloneDX] ok 4 - No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/03-address.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::Address: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Address'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Address: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Address: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Address'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Address: minimal
+[SBOM::CycloneDX] ok 3 - No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/04-organization.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::Organization: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Organization'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Organization: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Organization: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Organization'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Organization: minimal
+[SBOM::CycloneDX] ok 3 - No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/05-property.rakutest
+[SBOM::CycloneDX] 1..4
+[SBOM::CycloneDX] # Subtest: SBOM::Property: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Property'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Property: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Property: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Property'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Property: minimal
+[SBOM::CycloneDX] ok 3 - No args throws
+[SBOM::CycloneDX] ok 4 - is the stringification correct
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/06-energycost.rakutest
+[SBOM::CycloneDX] 1..2
+[SBOM::CycloneDX] # Subtest: SBOM::EnergyCost: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::EnergyCost'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::EnergyCost: complete
+[SBOM::CycloneDX] ok 2 - No args throws
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/07-analysis.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::Analysis: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Analysis'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Analysis: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Analysis: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Analysis'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Analysis: minimal
+[SBOM::CycloneDX] ok 3 - No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/08-affects.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::Affects: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Affects'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Affects: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Affects: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Affects'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Affects: minimal
+[SBOM::CycloneDX] ok 3 - No args throws
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/09-annotation.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::Annotation: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Annotation'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Annotation: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Annotation: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Annotation'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Annotation: minimal
+[SBOM::CycloneDX] ok 3 - No args throws
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/10-licensing.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::Licensing: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Licensing'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Licensing: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Licensing: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Licensing'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Licensing: minimal
+[SBOM::CycloneDX] ok 3 - No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/11-license.rakutest
+[SBOM::CycloneDX] 1..6
+[SBOM::CycloneDX] # Subtest: SBOM::License: SBOM::License: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::License'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::License: SBOM::License: complete
+[SBOM::CycloneDX] # Subtest: SBOM::AnyLicense: SBOM::AnyLicense: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::AnyLicense'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::AnyLicense: SBOM::AnyLicense: complete
+[SBOM::CycloneDX] # Subtest: SBOM::License: SBOM::License: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::License'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 3 - SBOM::License: SBOM::License: minimal
+[SBOM::CycloneDX] # Subtest: SBOM::AnyLicense: SBOM::AnyLicense: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::AnyLicense'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 4 - SBOM::AnyLicense: SBOM::AnyLicense: minimal
+[SBOM::CycloneDX] ok 5 - SBOM::License: no args throws
+[SBOM::CycloneDX] ok 6 - SBOM::AnyLicense: no args throws
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/12-spdxlicense.rakutest
+[SBOM::CycloneDX] 1..6
+[SBOM::CycloneDX] # Subtest: SBOM::SPDXLicense: SBOM::SPDXLicense: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::SPDXLicense'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::SPDXLicense: SBOM::SPDXLicense: complete
+[SBOM::CycloneDX] # Subtest: SBOM::AnyLicense: SBOM::AnyLicense: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::AnyLicense'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::AnyLicense: SBOM::AnyLicense: complete
+[SBOM::CycloneDX] # Subtest: SBOM::SPDXLicense: SBOM::SPDXLicense: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::SPDXLicense'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 3 - SBOM::SPDXLicense: SBOM::SPDXLicense: minimal
+[SBOM::CycloneDX] # Subtest: SBOM::AnyLicense: SBOM::AnyLicense: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::AnyLicense'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 4 - SBOM::AnyLicense: SBOM::AnyLicense: minimal
+[SBOM::CycloneDX] ok 5 - SBOM::SPDXLicense: no args throws
+[SBOM::CycloneDX] ok 6 - SBOM::AnyLicense: no args throws
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/14-publickey.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::PublicKey: EC
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::PublicKey'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::PublicKey: EC
+[SBOM::CycloneDX] # Subtest: SBOM::PublicKey: OKP
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::PublicKey'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::PublicKey: OKP
+[SBOM::CycloneDX] # Subtest: SBOM::PublicKey: RSA
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::PublicKey'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 3 - SBOM::PublicKey: RSA
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/15-signature.rakutest
+[SBOM::CycloneDX] 1..6
+[SBOM::CycloneDX] # Subtest: SBOM::Signature: SBOM::Signature complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Signature'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Signature: SBOM::Signature complete
+[SBOM::CycloneDX] # Subtest: SBOM::ValidSignature: SBOM::ValidSignature complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::ValidSignature'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::ValidSignature: SBOM::ValidSignature complete
+[SBOM::CycloneDX] # Subtest: SBOM::Signature: SBOM::Signature: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Signature'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 3 - SBOM::Signature: SBOM::Signature: minimal
+[SBOM::CycloneDX] # Subtest: SBOM::ValidSignature: SBOM::ValidSignature: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::ValidSignature'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 4 - SBOM::ValidSignature: SBOM::ValidSignature: minimal
+[SBOM::CycloneDX] ok 5 - SBOM::Signature: no args throws
+[SBOM::CycloneDX] ok 6 - SBOM::ValidSignature: no args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/16-chain.rakutest
+[SBOM::CycloneDX] 1..6
+[SBOM::CycloneDX] # Subtest: SBOM::SignatureChain: SBOM::SignatureChain complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::SignatureChain'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::SignatureChain: SBOM::SignatureChain complete
+[SBOM::CycloneDX] # Subtest: SBOM::ValidSignature: SBOM::ValidSignature complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::ValidSignature'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::ValidSignature: SBOM::ValidSignature complete
+[SBOM::CycloneDX] # Subtest: SBOM::SignatureChain: SBOM::SignatureChain minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::SignatureChain'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 3 - SBOM::SignatureChain: SBOM::SignatureChain minimal
+[SBOM::CycloneDX] # Subtest: SBOM::ValidSignature: SBOM::ValidSignature minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::ValidSignature'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 4 - SBOM::ValidSignature: SBOM::ValidSignature minimal
+[SBOM::CycloneDX] ok 5 - SBOM::SignatureChain: No args return Nil
+[SBOM::CycloneDX] ok 6 - SBOM::ValidSignature: No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/17-signers.rakutest
+[SBOM::CycloneDX] 1..6
+[SBOM::CycloneDX] # Subtest: SBOM::SignatureSigners: SBOM::SignatureSigners complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::SignatureSigners'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::SignatureSigners: SBOM::SignatureSigners complete
+[SBOM::CycloneDX] # Subtest: SBOM::ValidSignature: SBOM::ValidSignature complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::ValidSignature'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::ValidSignature: SBOM::ValidSignature complete
+[SBOM::CycloneDX] # Subtest: SBOM::SignatureSigners: SBOM::SignatureSigners minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::SignatureSigners'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 3 - SBOM::SignatureSigners: SBOM::SignatureSigners minimal
+[SBOM::CycloneDX] # Subtest: SBOM::ValidSignature: SBOM::ValidSignature minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::ValidSignature'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 4 - SBOM::ValidSignature: SBOM::ValidSignature minimal
+[SBOM::CycloneDX] ok 5 - SBOM::SignatureSigners: No args return Nil
+[SBOM::CycloneDX] ok 6 - SBOM::ValidSignature: No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/18-composition.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::Composition: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Composition'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Composition: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Composition: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Composition'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Composition: minimal
+[SBOM::CycloneDX] ok 3 - No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/19-servicedataset.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::ServiceDataset: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::ServiceDataset'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::ServiceDataset: complete
+[SBOM::CycloneDX] # Subtest: SBOM::ServiceDataset: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::ServiceDataset'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Map work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::ServiceDataset: minimal
+[SBOM::CycloneDX] ok 3 - No args throws
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/20-governor.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::Governor: complete
+[SBOM::CycloneDX]     1..7
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Governor'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - Does ddoe provide an instance
+[SBOM::CycloneDX]     ok 4 - does .Map work
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 6 - can we roundtrip on the .Map
+[SBOM::CycloneDX]     ok 7 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Governor: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Governor: complete
+[SBOM::CycloneDX]     1..8
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Governor'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - Does AcmeInc provide an instance
+[SBOM::CycloneDX]     ok 4 - Does home provide an instance
+[SBOM::CycloneDX]     ok 5 - does .Hash work
+[SBOM::CycloneDX]     ok 6 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 7 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 8 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Governor: complete
+[SBOM::CycloneDX] ok 3 - No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/21-governance.rakutest
+[SBOM::CycloneDX] 1..2
+[SBOM::CycloneDX] # Subtest: SBOM::Governance: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Governance'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Governance: complete
+[SBOM::CycloneDX] ok 2 - No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/22-metadata.rakutest
+[SBOM::CycloneDX] 1..2
+[SBOM::CycloneDX] # Subtest: SBOM::Metadata: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Metadata'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Metadata: complete
+[SBOM::CycloneDX] ok 2 - No args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/23-tool.rakutest
+[SBOM::CycloneDX] 1..2
+[SBOM::CycloneDX] # Subtest: SBOM::Tool: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Tool'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Tool: complete
+[SBOM::CycloneDX] ok 2 - no args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/24-legacytool.rakutest
+[SBOM::CycloneDX] 1..2
+[SBOM::CycloneDX] # Subtest: SBOM::LegacyTool: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::LegacyTool'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::LegacyTool: complete
+[SBOM::CycloneDX] ok 2 - no args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/25-identity.rakutest
+[SBOM::CycloneDX] 1..3
+[SBOM::CycloneDX] # Subtest: SBOM::Identity: complete
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Identity'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 1 - SBOM::Identity: complete
+[SBOM::CycloneDX] # Subtest: SBOM::Identity: minimal
+[SBOM::CycloneDX]     1..6
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::Identity'
+[SBOM::CycloneDX]     ok 2 - should be without errors
+[SBOM::CycloneDX]     ok 3 - does .Hash work
+[SBOM::CycloneDX]     ok 4 - can we roundtrip on .raku
+[SBOM::CycloneDX]     ok 5 - can we roundtrip on the .Hash
+[SBOM::CycloneDX]     ok 6 - is the JSON correct
+[SBOM::CycloneDX] ok 2 - SBOM::Identity: minimal
+[SBOM::CycloneDX] ok 3 - no args return Nil
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/26-all-methods.rakutest
+[SBOM::CycloneDX] 1..6
+[SBOM::CycloneDX] ok 1 - The object is-a 'SBOM::CycloneDX'
+[SBOM::CycloneDX] ok 2 - are all components found
+[SBOM::CycloneDX] ok 3 - are they all PURL objects
+[SBOM::CycloneDX] ok 4 - are all purls found
+[SBOM::CycloneDX] ok 5 - need example with actual VERS strings
+[SBOM::CycloneDX] ok 6 - need example with actual services
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/90-valid.rakutest
+[SBOM::CycloneDX] 1..45
+[SBOM::CycloneDX] # Subtest: Testing t/valid/valid-annotation-1.6.json
+[SBOM::CycloneDX]     1..9
+[SBOM::CycloneDX]     ok 1 - The object is-a 'SBOM::CycloneDX'
+[SBOM::CycloneDX]     ok 2 - The object is-a 'Str'
+[SBOM::CycloneDX]     ok 3 - The object is-a 'SBOM::CycloneDX'
+[SBOM::CycloneDX]     ok 4 - did we roundtrip from .JSON correctly
+[SBOM::CycloneDX]     ok 5 - The object is-a 'Str'
+[SBOM::CycloneDX]     ok 6 - The object is-a 'SBOM::CycloneDX'
+[SBOM::CycloneDX]     ok 7 - did we roundtrip from .raku correctly
+[SBOM::CycloneDX] Earlier failure:
+[SBOM::CycloneDX]  Couldn't parse YAML: No such method 'concretize' for string '--- "annotations": -
+[SBOM::CycloneDX] "annotator": "organization": "contact": - "email":
+[SBOM::CycloneDX] "professional.services@example.com" "name": "Acme Professional Services"
+[SBOM::CycloneDX] "name": "Acme, Inc." "url": - "https://example.com" "bom-ref":
+[SBOM::CycloneDX] "annotation-1" "subjects": - "component-a" "text": "This is a sample
+[SBOM::CycloneDX] annotation made by an organization" "timestamp":
+[SBOM::CycloneDX] "2022-01-01T00:00:00+00:00" - "annotator": "individual": "email":
+[SBOM::CycloneDX] "samantha.wright@example.com" "name": "Samantha Wright" "phone":
+[SBOM::CycloneDX] "800-555-1212" "bom-ref": "annotation-2" "subjects": - "component-a"
+[SBOM::CycloneDX] "text": "This is a sample annotation made by a person" "timestamp":
+[SBOM::CycloneDX] "2022-01-01T00:00:00+00:00" - "annotator": "component": "name": "Awesome
+[SBOM::CycloneDX] Tool" "type": "application" "version": "9.1.2" "bom-ref": "annotation-3"
+[SBOM::CycloneDX] "subjects": - "component-a" "text": "This is a sample annotation made by
+[SBOM::CycloneDX] a component" "timestamp": "2022-01-01T00:00:00+00:00" - "annotator":
+[SBOM::CycloneDX] "service": "authenticated": true "bom-ref":
+[SBOM::CycloneDX] "b2a46a4b-8367-4bae-9820-95557cfe03a8" "data": - "classification":
+[SBOM::CycloneDX] "public" "flow": "bi-directional" "endpoints": -
+[SBOM::CycloneDX] "https://partner.org/api/v1/inspect" -
+[SBOM::CycloneDX] "https://partner.org/api/v1/annotate" "group": "org.partner" "name":
+[SBOM::CycloneDX] "BOM Annotation Service" "provider": "contact": - "email":
+[SBOM::CycloneDX] "support@partner.org" "name": "Support" "phone": "800-555-1212" "name":
+[SBOM::CycloneDX] "Partner Org" "url": - "https://partner.org" "version": "2020-Q2"
+[SBOM::CycloneDX] "x-trust-boundary": true "bom-ref": "annotation-4" "subjects": -
+[SBOM::CycloneDX] "component-a" "text": "This is a sample annotation made by a service"
+[SBOM::CycloneDX] "timestamp": "2022-01-01T00:00:00+00:00" "bomFormat": "CycloneDX"
+[SBOM::CycloneDX] "components": - "bom-ref": "component-a" "name": "Component A" "type":
+[SBOM::CycloneDX] "library" "version": "1.0.0" "serialNumber":
+[SBOM::CycloneDX] "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" "specVersion": "1.6"
+[SBOM::CycloneDX] "version": 1 ...'
+[SBOM::CycloneDX]   in sub load-yaml at /blin/installed/YAMLish_0.1.2/sources/1D5CA23E666A17E4A015880D6C1CEFD63F6C7B12 (YAMLish) line 948
+[SBOM::CycloneDX]   in method new at /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16/lib/SBOM.rakumod (SBOM) line 82
+[SBOM::CycloneDX]   in block  at t/90-valid.rakutest line 50
+[SBOM::CycloneDX]   in block <unit> at t/90-valid.rakutest line 17
+[SBOM::CycloneDX] Final error:
+[SBOM::CycloneDX]  Type check failed in binding to parameter '%in'; expected Associative but got Failure
+[SBOM::CycloneDX]   in method ingest at /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16/lib/SBOM.rakumod (SBOM) line 85
+[SBOM::CycloneDX]   in method new at /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16/lib/SBOM.rakumod (SBOM) line 82
+[SBOM::CycloneDX]   in block  at t/90-valid.rakutest line 50
+[SBOM::CycloneDX]   in block <unit> at t/90-valid.rakutest line 17
+[SBOM::CycloneDX]     # You planned 9 tests, but ran 7
+[SBOM::CycloneDX] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/fce94e60cb3a6ea316ed1a1d02c8926a3b263ae2.tar.gz/SBOM-CycloneDX-0.0.16 t/91-invalid.rakutest
+[SBOM::CycloneDX] 1..24
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-bomformat-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - did we get expected raw message
+[SBOM::CycloneDX]     1..2
+[SBOM::CycloneDX] ok 1 - Testing t/invalid/invalid-bomformat-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-component-ref-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 2 - Testing t/invalid/invalid-component-ref-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-component-swid-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 3 - Testing t/invalid/invalid-component-swid-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-component-type-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 4 - Testing t/invalid/invalid-component-type-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-dependency-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 5 - Testing t/invalid/invalid-dependency-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-empty-component-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 6 - Testing t/invalid/invalid-empty-component-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-hash-alg-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 7 - Testing t/invalid/invalid-hash-alg-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-hash-md5-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 8 - Testing t/invalid/invalid-hash-md5-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-hash-sha1-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 9 - Testing t/invalid/invalid-hash-sha1-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-hash-sha256-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 10 - Testing t/invalid/invalid-hash-sha256-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-hash-sha512-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 11 - Testing t/invalid/invalid-hash-sha512-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-issue-type-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 12 - Testing t/invalid/invalid-issue-type-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-license-choice-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 13 - Testing t/invalid/invalid-license-choice-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-license-encoding-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 14 - Testing t/invalid/invalid-license-encoding-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-license-id-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     ok 6 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 7 - Is the error message correct
+[SBOM::CycloneDX]     1..7
+[SBOM::CycloneDX] ok 15 - Testing t/invalid/invalid-license-id-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-license-missing-id-and-name-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 16 - Testing t/invalid/invalid-license-missing-id-and-name-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-metadata-license-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     ok 6 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 7 - Is the error message correct
+[SBOM::CycloneDX]     1..7
+[SBOM::CycloneDX] ok 17 - Testing t/invalid/invalid-metadata-license-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-metadata-timestamp-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 18 - Testing t/invalid/invalid-metadata-timestamp-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-missing-component-type-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 19 - Testing t/invalid/invalid-missing-component-type-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-patch-type-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 20 - Testing t/invalid/invalid-patch-type-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-properties-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     ok 6 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 7 - Is the error message correct
+[SBOM::CycloneDX]     ok 8 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 9 - Is the error message correct
+[SBOM::CycloneDX]     ok 10 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 11 - Is the error message correct
+[SBOM::CycloneDX]     ok 12 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 13 - Is the error message correct
+[SBOM::CycloneDX]     ok 14 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 15 - Is the error message correct
+[SBOM::CycloneDX]     ok 16 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 17 - Is the error message correct
+[SBOM::CycloneDX]     ok 18 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 19 - Is the error message correct
+[SBOM::CycloneDX]     ok 20 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 21 - Is the error message correct
+[SBOM::CycloneDX]     ok 22 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 23 - Is the error message correct
+[SBOM::CycloneDX]     ok 24 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 25 - Is the error message correct
+[SBOM::CycloneDX]     ok 26 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 27 - Is the error message correct
+[SBOM::CycloneDX]     1..27
+[SBOM::CycloneDX] ok 21 - Testing t/invalid/invalid-properties-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-scope-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 22 - Testing t/invalid/invalid-scope-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-serialnumber-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - did we get expected raw message
+[SBOM::CycloneDX]     1..2
+[SBOM::CycloneDX] ok 23 - Testing t/invalid/invalid-serialnumber-1.6.json
+[SBOM::CycloneDX] # Subtest: Testing t/invalid/invalid-service-data-1.6.json
+[SBOM::CycloneDX]     ok 1 - :raw-error: should not have succeeded in building
+[SBOM::CycloneDX]     ok 2 - Could create an object
+[SBOM::CycloneDX]     ok 3 - Same number of errors
+[SBOM::CycloneDX]     ok 4 - Is the crumb trail correct
+[SBOM::CycloneDX]     ok 5 - Is the error message correct
+[SBOM::CycloneDX]     1..5
+[SBOM::CycloneDX] ok 24 - Testing t/invalid/invalid-service-data-1.6.json
+===> Testing [FAIL]: SBOM::CycloneDX:ver<0.0.16>:auth<zef:lizmat>
+[SBOM::CycloneDX] Failed to get passing tests, but continuing with --force-test
+===> Installing: SBOM::CycloneDX:ver<0.0.16>:auth<zef:lizmat>
+===> Install [OK] for SBOM::CycloneDX:ver<0.0.16>:auth<zef:lizmat>
+
+2 bin/ scripts [cyclonedx-enums cyclonedx] installed to:
+/blin/installed/SBOM::CycloneDX_0.0.16/bin

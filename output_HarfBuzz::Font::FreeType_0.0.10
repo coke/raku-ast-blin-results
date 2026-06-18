@@ -1,0 +1,22 @@
+===> Searching for: HarfBuzz::Font::FreeType
+===> Found: HarfBuzz::Font::FreeType:ver<0.0.10>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[HarfBuzz::Font::FreeType] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781773044.484882.1334.5040820199984/53ef788428cd3ea72486859511db36407544c3f0.tar.gz https://360.zef.pm/H/AR/HARFBUZZ_FONT_FREETYPE/53ef788428cd3ea72486859511db36407544c3f0.tar.gz
+===> Fetching [OK]: HarfBuzz::Font::FreeType:ver<0.0.10>:auth<zef:dwarring> to /blin/data/zef-data/tmp/1781773044.484882.1334.5040820199984/53ef788428cd3ea72486859511db36407544c3f0.tar.gz
+[HarfBuzz::Font::FreeType] Command: tar -t -f ./53ef788428cd3ea72486859511db36407544c3f0.tar.gz
+[HarfBuzz::Font::FreeType] Command: tar -xvf ./53ef788428cd3ea72486859511db36407544c3f0.tar.gz -C ../53ef788428cd3ea72486859511db36407544c3f0.tar.gz
+===> Extraction [OK]: HarfBuzz::Font::FreeType to /blin/data/zef-data/tmp/53ef788428cd3ea72486859511db36407544c3f0.tar.gz
+===> Testing: HarfBuzz::Font::FreeType:ver<0.0.10>:auth<zef:dwarring>
+[HarfBuzz::Font::FreeType] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/53ef788428cd3ea72486859511db36407544c3f0.tar.gz/HarfBuzz-Font-FreeType-0.0.10 t/basic.t
+[HarfBuzz::Font::FreeType] ===SORRY!=== Error while compiling t/basic.t
+[HarfBuzz::Font::FreeType] ===SORRY!=== Error while compiling /blin/installed/HarfBuzz_0.1.7/sources/EE87CA6BAA6AB657BA3F36542DC998D3B4B1DA65 (HarfBuzz)
+[HarfBuzz::Font::FreeType] ===SORRY!=== Error while compiling /blin/installed/HarfBuzz_0.1.7/sources/842DE9980BF96ED76362651175D620FC3B1EB436 (HarfBuzz::Raw)
+[HarfBuzz::Font::FreeType] Variable '$HB' is not declared. Perhaps you forgot a 'sub' if this was
+[HarfBuzz::Font::FreeType] intended to be part of a signature?
+[HarfBuzz::Font::FreeType] at /blin/installed/HarfBuzz_0.1.7/sources/842DE9980BF96ED76362651175D620FC3B1EB436 (HarfBuzz::Raw):4
+[HarfBuzz::Font::FreeType] ------> use HarfBuzz::Raw::Defs <HERE>:$HB, :$CLIB, :types, :hb-memory-mode;
+[HarfBuzz::Font::FreeType] at /blin/installed/HarfBuzz_0.1.7/sources/EE87CA6BAA6AB657BA3F36542DC998D3B4B1DA65 (HarfBuzz):2
+[HarfBuzz::Font::FreeType] at t/basic.t:1
+===> Testing [FAIL]: HarfBuzz::Font::FreeType:ver<0.0.10>:auth<zef:dwarring>
+[HarfBuzz::Font::FreeType] Failed to get passing tests, but continuing with --force-test
+===> Installing: HarfBuzz::Font::FreeType:ver<0.0.10>:auth<zef:dwarring>
+===> Install [OK] for HarfBuzz::Font::FreeType:ver<0.0.10>:auth<zef:dwarring>

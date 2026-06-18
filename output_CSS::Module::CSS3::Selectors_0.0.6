@@ -1,0 +1,124 @@
+===> Searching for: CSS::Module::CSS3::Selectors
+===> Found: CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[CSS::Module::CSS3::Selectors] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781757260.344408.2314.397433098627/7167453e1346af70f5194176044416f55906978f.tar.gz https://360.zef.pm/C/SS/CSS_MODULE_CSS3_SELECTORS/7167453e1346af70f5194176044416f55906978f.tar.gz
+===> Fetching [OK]: CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring> to /blin/data/zef-data/tmp/1781757260.344408.2314.397433098627/7167453e1346af70f5194176044416f55906978f.tar.gz
+[CSS::Module::CSS3::Selectors] Command: tar -t -f ./7167453e1346af70f5194176044416f55906978f.tar.gz
+[CSS::Module::CSS3::Selectors] Command: tar -xvf ./7167453e1346af70f5194176044416f55906978f.tar.gz -C ../7167453e1346af70f5194176044416f55906978f.tar.gz
+===> Extraction [OK]: CSS::Module::CSS3::Selectors to /blin/data/zef-data/tmp/7167453e1346af70f5194176044416f55906978f.tar.gz
+===> Testing: CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring>
+[CSS::Module::CSS3::Selectors] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/7167453e1346af70f5194176044416f55906978f.tar.gz/CSS-Module-CSS3-Selectors-0.0.6 t/00basic.t
+[CSS::Module::CSS3::Selectors] not ok 1 - CSS::Grammar version
+[CSS::Module::CSS3::Selectors] # Failed test 'CSS::Grammar version'
+[CSS::Module::CSS3::Selectors] # at t/00basic.t line 9
+[CSS::Module::CSS3::Selectors] # Could not find CSS::Grammar:ver<0.3.3+> in:
+[CSS::Module::CSS3::Selectors] #     /blin/data/zef-data/tmp/7167453e1346af70f5194176044416f55906978f.tar.gz/CSS-Module-CSS3-Selectors-0.0.6
+[CSS::Module::CSS3::Selectors] #     /blin/installed/CSS::Module::CSS3::Selectors_0.0.6
+[CSS::Module::CSS3::Selectors] #     /blin/data/zef-data/tmp/7167453e1346af70f5194176044416f55906978f.tar.gz/CSS-Module-CSS3-Selectors-0.0.6/data/zef/lib
+[CSS::Module::CSS3::Selectors] #     /blin/installed/JSON::Fast_0.20.1
+[CSS::Module::CSS3::Selectors] #     /blin/installed/CSS::Grammar_0.4.3
+[CSS::Module::CSS3::Selectors] #     /home/azureuser/.raku
+[CSS::Module::CSS3::Selectors] #     /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/site
+[CSS::Module::CSS3::Selectors] #     /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/vendor
+[CSS::Module::CSS3::Selectors] #     /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/core
+[CSS::Module::CSS3::Selectors] #     CompUnit::Repository::AbsolutePath<5085694048848>
+[CSS::Module::CSS3::Selectors] #     CompUnit::Repository::NQP<5085555434920>
+[CSS::Module::CSS3::Selectors] #     CompUnit::Repository::Perl5<5085555434960>
+[CSS::Module::CSS3::Selectors] # 
+[CSS::Module::CSS3::Selectors] # Please note that a 'META6.json' file was found in '.', of which the 'provides' section was used to determine if a dependency is available or not.  Perhaps you need to add 'CSS::Grammar:ver<0.3.3+>' in the <provides> section of that file?  Or need to specify a directory that does *not* have a 'META6.json' file?
+[CSS::Module::CSS3::Selectors] ok 2 - css3x-selectors pseudo parse: ::my-elem
+[CSS::Module::CSS3::Selectors] ok 3 - css3x-selectors pseudo no warnings
+[CSS::Module::CSS3::Selectors] ok 4 - css3x-selectors pseudo ast
+[CSS::Module::CSS3::Selectors] ok 5 - css3x-selectors simple-selector parse: :not(p)
+[CSS::Module::CSS3::Selectors] ok 6 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 7 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 8 - css3x-selectors simple-selector parse: :not(:not(p))
+[CSS::Module::CSS3::Selectors] ok 9 - css3x-selectors simple-selector warnings
+[CSS::Module::CSS3::Selectors] ok 10 - css3x-selectors simple-selector parse: :not(.home)
+[CSS::Module::CSS3::Selectors] ok 11 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 12 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 13 - css3x-selectors selector parse: div *:not(P)
+[CSS::Module::CSS3::Selectors] ok 14 - css3x-selectors selector no warnings
+[CSS::Module::CSS3::Selectors] ok 15 - css3x-selectors selector ast
+[CSS::Module::CSS3::Selectors] ok 16 - css3x-selectors simple-selector parse: input:not([type='file'])
+[CSS::Module::CSS3::Selectors] ok 17 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 18 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 19 - css3x-selectors selector parse: li:not(.pingback) .comment-content p:first-child:first-line
+[CSS::Module::CSS3::Selectors] ok 20 - css3x-selectors selector no warnings
+[CSS::Module::CSS3::Selectors] ok 21 - css3x-selectors selector ast
+[CSS::Module::CSS3::Selectors] ok 22 - css3x-selectors selector parse: body:not(.home) h2 + p:first-letter
+[CSS::Module::CSS3::Selectors] ok 23 - css3x-selectors selector no warnings
+[CSS::Module::CSS3::Selectors] ok 24 - css3x-selectors selector ast
+[CSS::Module::CSS3::Selectors] ok 25 - css3x-selectors selector parse: h2:not(:first-of-type):not(:last-of-type)
+[CSS::Module::CSS3::Selectors] ok 26 - css3x-selectors selector no warnings
+[CSS::Module::CSS3::Selectors] ok 27 - css3x-selectors selector ast
+[CSS::Module::CSS3::Selectors] ok 28 - css3x-selectors simple-selector parse: *
+[CSS::Module::CSS3::Selectors] ok 29 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 30 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 31 - css3x-selectors simple-selector parse: foo|h1
+[CSS::Module::CSS3::Selectors] ok 32 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 33 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 34 - css3x-selectors simple-selector parse: Foo|H1
+[CSS::Module::CSS3::Selectors] ok 35 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 36 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 37 - css3x-selectors simple-selector parse: foo|*
+[CSS::Module::CSS3::Selectors] ok 38 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 39 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 40 - css3x-selectors simple-selector parse: *|*
+[CSS::Module::CSS3::Selectors] ok 41 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 42 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 43 - css3x-selectors simple-selector parse: |h1
+[CSS::Module::CSS3::Selectors] ok 44 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 45 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 46 - css3x-selectors simple-selector parse: *|h1
+[CSS::Module::CSS3::Selectors] ok 47 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 48 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 49 - css3x-selectors simple-selector parse: span[hello='Cleveland'][goodbye='Columbus']
+[CSS::Module::CSS3::Selectors] ok 50 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 51 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 52 - css3x-selectors simple-selector parse: object[type^='image/']
+[CSS::Module::CSS3::Selectors] ok 53 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 54 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 55 - css3x-selectors simple-selector parse: foo:lang(en)
+[CSS::Module::CSS3::Selectors] ok 56 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 57 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 58 - css3x-selectors simple-selector parse: bar:nth-child(3n+1)
+[CSS::Module::CSS3::Selectors] ok 59 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 60 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 61 - css3x-selectors simple-selector parse: bar:nth-last-child(odd)
+[CSS::Module::CSS3::Selectors] ok 62 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 63 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 64 - css3x-selectors simple-selector parse: bar:nth-child(  even  )
+[CSS::Module::CSS3::Selectors] ok 65 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 66 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 67 - css3x-selectors simple-selector parse: tr:nth-last-child(-n+2)
+[CSS::Module::CSS3::Selectors] ok 68 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 69 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 70 - css3x-selectors simple-selector parse: td:nth-child(3)
+[CSS::Module::CSS3::Selectors] ok 71 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 72 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 73 - css3x-selectors simple-selector parse: tr:nth-last-child(2n)
+[CSS::Module::CSS3::Selectors] ok 74 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 75 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 76 - css3x-selectors simple-selector parse: tr:nth-child( 3n + 1 )
+[CSS::Module::CSS3::Selectors] ok 77 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 78 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 79 - css3x-selectors simple-selector parse: tr:nth-child( +3n - 2 )
+[CSS::Module::CSS3::Selectors] ok 80 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 81 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 82 - css3x-selectors simple-selector parse: tr:nth-child( -n+ 6 )
+[CSS::Module::CSS3::Selectors] ok 83 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 84 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 85 - css3x-selectors simple-selector parse: tr:nth-child( +6 )
+[CSS::Module::CSS3::Selectors] ok 86 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 87 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] ok 88 - css3x-selectors selector parse: tr:nth-child(+ 2n)
+[CSS::Module::CSS3::Selectors] ok 89 - css3x-selectors selector warnings
+[CSS::Module::CSS3::Selectors] ok 90 - css3x-selectors simple-selector parse: :eq(0)
+[CSS::Module::CSS3::Selectors] ok 91 - css3x-selectors simple-selector no warnings
+[CSS::Module::CSS3::Selectors] ok 92 - css3x-selectors simple-selector ast
+[CSS::Module::CSS3::Selectors] 1..92
+[CSS::Module::CSS3::Selectors] # You failed 1 test of 92
+===> Testing [FAIL]: CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring>
+[CSS::Module::CSS3::Selectors] Failed to get passing tests, but continuing with --force-test
+===> Installing: CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring>
+===> Install [OK] for CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring>

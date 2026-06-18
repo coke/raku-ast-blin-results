@@ -1,0 +1,36 @@
+===> Searching for: IRC::Log::Colabti
+===> Found: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[IRC::Log::Colabti] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781762679.388049.6385.551415871799/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz https://360.zef.pm/I/RC/IRC_LOG_COLABTI/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
+===> Fetching [OK]: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1781762679.388049.6385.551415871799/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
+[IRC::Log::Colabti] Command: tar -t -f ./ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
+[IRC::Log::Colabti] Command: tar -xvf ./ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz -C ../ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
+===> Extraction [OK]: IRC::Log::Colabti to /blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
+===> Testing: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat>
+[IRC::Log::Colabti] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52 t/01-basic.rakutest
+[IRC::Log::Colabti] Type check failed in binding; expected Positional[Str] but got Array (["tyil"]). You have to pass an
+[IRC::Log::Colabti] explicitly typed array, not one that just might happen to contain
+[IRC::Log::Colabti] elements of the correct type.
+[IRC::Log::Colabti]   in block  at /blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52/lib/IRC/Log/Colabti.rakumod (IRC::Log::Colabti) line 107
+[IRC::Log::Colabti]   in block  at /blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52/lib/IRC/Log/Colabti.rakumod (IRC::Log::Colabti) line 83
+[IRC::Log::Colabti]   in method parse-log at /blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52/lib/IRC/Log/Colabti.rakumod (IRC::Log::Colabti) line 35
+[IRC::Log::Colabti]   in method parse at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 568
+[IRC::Log::Colabti]   in method INIT at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 243
+[IRC::Log::Colabti]   in method new at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 248
+[IRC::Log::Colabti]   in method new at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 228
+[IRC::Log::Colabti]   in block <unit> at t/01-basic.rakutest line 12
+[IRC::Log::Colabti] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52 t/02-search.rakutest
+[IRC::Log::Colabti] Type check failed in binding; expected Positional[Str] but got Array (["tyil"]). You have to pass an
+[IRC::Log::Colabti] explicitly typed array, not one that just might happen to contain
+[IRC::Log::Colabti] elements of the correct type.
+[IRC::Log::Colabti]   in block  at /blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52/lib/IRC/Log/Colabti.rakumod (IRC::Log::Colabti) line 107
+[IRC::Log::Colabti]   in block  at /blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52/lib/IRC/Log/Colabti.rakumod (IRC::Log::Colabti) line 83
+[IRC::Log::Colabti]   in method parse-log at /blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52/lib/IRC/Log/Colabti.rakumod (IRC::Log::Colabti) line 35
+[IRC::Log::Colabti]   in method parse at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 568
+[IRC::Log::Colabti]   in method INIT at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 243
+[IRC::Log::Colabti]   in method new at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 248
+[IRC::Log::Colabti]   in method new at /blin/installed/IRC::Log_0.0.26/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 232
+[IRC::Log::Colabti]   in block <unit> at t/02-search.rakutest line 7
+===> Testing [FAIL]: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat>
+[IRC::Log::Colabti] Failed to get passing tests, but continuing with --force-test
+===> Installing: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat>
+===> Install [OK] for IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat>

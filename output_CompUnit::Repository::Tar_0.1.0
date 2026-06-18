@@ -1,0 +1,30 @@
+===> Searching for: CompUnit::Repository::Tar
+===> Found: CompUnit::Repository::Tar:ver<0.1.0>:auth<github:ugexe>:api<0> [via Zef::Repository::Ecosystems<rea>]
+[CompUnit::Repository::Tar] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781760222.368998.7848.193818291871/CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/CompUnit%3A%3ARepository%3A%3ATar/CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+===> Fetching [OK]: CompUnit::Repository::Tar:ver<0.1.0>:auth<github:ugexe>:api<0> to /blin/data/zef-data/tmp/1781760222.368998.7848.193818291871/CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+[CompUnit::Repository::Tar] Command: tar -t -f ./CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+[CompUnit::Repository::Tar] Command: tar -xvf ./CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz -C ../CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+===> Extraction [OK]: CompUnit::Repository::Tar to /blin/data/zef-data/tmp/CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+===> Testing: CompUnit::Repository::Tar:ver<0.1.0>:auth<github:ugexe>:api<0>
+[CompUnit::Repository::Tar] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz/Raku-CompUnit--Repository--Tar-main t/00-load.rakutest
+[CompUnit::Repository::Tar] 1..1
+[CompUnit::Repository::Tar] ok 1 - CompUnit::Repository::Tar module can be use-d ok
+[CompUnit::Repository::Tar] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz/Raku-CompUnit--Repository--Tar-main t/files.rakutest
+[CompUnit::Repository::Tar] ===SORRY!===
+[CompUnit::Repository::Tar] Cannot find method 'List' on object of type BOOTStr
+[CompUnit::Repository::Tar] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz/Raku-CompUnit--Repository--Tar-main t/require-name.rakutest
+[CompUnit::Repository::Tar] ===SORRY!===
+[CompUnit::Repository::Tar] Cannot find method 'List' on object of type BOOTStr
+[CompUnit::Repository::Tar] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz/Raku-CompUnit--Repository--Tar-main t/require-path.rakutest
+[CompUnit::Repository::Tar] ===SORRY!===
+[CompUnit::Repository::Tar] Cannot find method 'List' on object of type BOOTStr
+[CompUnit::Repository::Tar] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz/Raku-CompUnit--Repository--Tar-main t/resolve.rakutest
+[CompUnit::Repository::Tar] ===SORRY!===
+[CompUnit::Repository::Tar] Cannot find method 'List' on object of type BOOTStr
+[CompUnit::Repository::Tar] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/CompUnit%3A%3ARepository%3A%3ATar%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz/Raku-CompUnit--Repository--Tar-main t/use.rakutest
+[CompUnit::Repository::Tar] ===SORRY!===
+[CompUnit::Repository::Tar] Cannot find method 'List' on object of type BOOTStr
+===> Testing [FAIL]: CompUnit::Repository::Tar:ver<0.1.0>:auth<github:ugexe>:api<0>
+[CompUnit::Repository::Tar] Failed to get passing tests, but continuing with --force-test
+===> Installing: CompUnit::Repository::Tar:ver<0.1.0>:auth<github:ugexe>:api<0>
+===> Install [OK] for CompUnit::Repository::Tar:ver<0.1.0>:auth<github:ugexe>:api<0>

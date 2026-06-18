@@ -1,0 +1,59 @@
+===> Searching for: XML::Fast
+===> Found: XML::Fast:ver<0.0.3>:auth<zef:jonathanstowe> [via Zef::Repository::Ecosystems<fez>]
+[XML::Fast] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781778491.524330.9485.871208947974/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz https://360.zef.pm/X/ML/XML_FAST/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz
+===> Fetching [OK]: XML::Fast:ver<0.0.3>:auth<zef:jonathanstowe> to /blin/data/zef-data/tmp/1781778491.524330.9485.871208947974/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz
+[XML::Fast] Command: tar -t -f ./8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz
+[XML::Fast] Command: tar -xvf ./8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz -C ../8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz
+===> Extraction [OK]: XML::Fast to /blin/data/zef-data/tmp/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz
+===> Testing: XML::Fast:ver<0.0.3>:auth<zef:jonathanstowe>
+[XML::Fast] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz/XML-Fast-0.0.3 t/001-meta.t
+[XML::Fast] 1..1
+[XML::Fast] ok 1 - # SKIP no Test::META - skipping
+[XML::Fast] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz/XML-Fast-0.0.3 t/010-basic.t
+[XML::Fast] ===SORRY!=== Error while compiling t/010-basic.t
+[XML::Fast] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz/XML-Fast-0.0.3/lib/XML/Fast.rakumod (XML::Fast)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/FFD55D0270E8635178EFB442563838E66DD1D33B (LibXML)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/EE30E323AC5A1998385E7241DC3DBF78508C251F (LibXML::Parser)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/2452FF3DF65B69DA787B7E29882788EAECE5149B (LibXML::Parser::Context)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/1F27445DBD200FA2D89A605F99E70B298AC93035 (LibXML::_Configurable)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/785B5F5E7195E6A7F6F7DA074394EC59A25AE48D (LibXML::Config)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/181FDEA75D8C46F89B5E3AFD123A1C5BA52CE472 (LibXML::Raw)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/EE34C52B2C2DA01B6C4F4C5D5864165A6ED0DB1B (LibXML::Raw::Dict)
+[XML::Fast] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[XML::Fast] was intended to be part of a signature?
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/EE34C52B2C2DA01B6C4F4C5D5864165A6ED0DB1B (LibXML::Raw::Dict):4
+[XML::Fast] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/181FDEA75D8C46F89B5E3AFD123A1C5BA52CE472 (LibXML::Raw):68
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/785B5F5E7195E6A7F6F7DA074394EC59A25AE48D (LibXML::Config):63
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/1F27445DBD200FA2D89A605F99E70B298AC93035 (LibXML::_Configurable):3
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/2452FF3DF65B69DA787B7E29882788EAECE5149B (LibXML::Parser::Context):4
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/EE30E323AC5A1998385E7241DC3DBF78508C251F (LibXML::Parser):4
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/FFD55D0270E8635178EFB442563838E66DD1D33B (LibXML):3
+[XML::Fast] at /blin/data/zef-data/tmp/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz/XML-Fast-0.0.3/lib/XML/Fast.rakumod (XML::Fast):44
+[XML::Fast] at t/010-basic.t:4
+[XML::Fast] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz/XML-Fast-0.0.3 t/020-xml.t
+[XML::Fast] ===SORRY!=== Error while compiling t/020-xml.t
+[XML::Fast] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz/XML-Fast-0.0.3/lib/XML/Fast.rakumod (XML::Fast)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/FFD55D0270E8635178EFB442563838E66DD1D33B (LibXML)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/EE30E323AC5A1998385E7241DC3DBF78508C251F (LibXML::Parser)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/2452FF3DF65B69DA787B7E29882788EAECE5149B (LibXML::Parser::Context)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/1F27445DBD200FA2D89A605F99E70B298AC93035 (LibXML::_Configurable)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/785B5F5E7195E6A7F6F7DA074394EC59A25AE48D (LibXML::Config)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/181FDEA75D8C46F89B5E3AFD123A1C5BA52CE472 (LibXML::Raw)
+[XML::Fast] ===SORRY!=== Error while compiling /blin/installed/LibXML_0.11.3/sources/EE34C52B2C2DA01B6C4F4C5D5864165A6ED0DB1B (LibXML::Raw::Dict)
+[XML::Fast] Variable '$XML2' is not declared. Perhaps you forgot a 'sub' if this
+[XML::Fast] was intended to be part of a signature?
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/EE34C52B2C2DA01B6C4F4C5D5864165A6ED0DB1B (LibXML::Raw::Dict):4
+[XML::Fast] ------> use LibXML::Raw::Defs <HERE>:$XML2, :Opaque;
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/181FDEA75D8C46F89B5E3AFD123A1C5BA52CE472 (LibXML::Raw):68
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/785B5F5E7195E6A7F6F7DA074394EC59A25AE48D (LibXML::Config):63
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/1F27445DBD200FA2D89A605F99E70B298AC93035 (LibXML::_Configurable):3
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/2452FF3DF65B69DA787B7E29882788EAECE5149B (LibXML::Parser::Context):4
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/EE30E323AC5A1998385E7241DC3DBF78508C251F (LibXML::Parser):4
+[XML::Fast] at /blin/installed/LibXML_0.11.3/sources/FFD55D0270E8635178EFB442563838E66DD1D33B (LibXML):3
+[XML::Fast] at /blin/data/zef-data/tmp/8f8fbbb8a847602c82dd15a167de34478aae62e4.tar.gz/XML-Fast-0.0.3/lib/XML/Fast.rakumod (XML::Fast):44
+[XML::Fast] at t/020-xml.t:4
+===> Testing [FAIL]: XML::Fast:ver<0.0.3>:auth<zef:jonathanstowe>
+[XML::Fast] Failed to get passing tests, but continuing with --force-test
+===> Installing: XML::Fast:ver<0.0.3>:auth<zef:jonathanstowe>
+===> Install [OK] for XML::Fast:ver<0.0.3>:auth<zef:jonathanstowe>

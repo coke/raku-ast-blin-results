@@ -1,0 +1,70 @@
+===> Searching for: Physics::Unit
+===> Found: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2> [via Zef::Repository::Ecosystems<fez>]
+[Physics::Unit] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781769626.457715.321.2401099048479/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz https://360.zef.pm/P/HY/PHYSICS_UNIT/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz
+===> Fetching [OK]: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2> to /blin/data/zef-data/tmp/1781769626.457715.321.2401099048479/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz
+[Physics::Unit] Command: tar -t -f ./2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz
+[Physics::Unit] Command: tar -xvf ./2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz -C ../2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz
+===> Extraction [OK]: Physics::Unit to /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz
+===> Building: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+[Physics::Unit] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -e require '/blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/Build.rakumod'; ::('Build').new.build('/blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist') ?? exit(0) !! exit(1);
+[Physics::Unit] Selection of us / imperial depends on your locale
+[Physics::Unit] ***export CRAGLANG=[us|imp] to override***
+[Physics::Unit] Fetching currency exchange rates
+[Physics::Unit] ***zef install Physics::Unit --force-install for latest rates***
+===> Building [OK] for Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+===> Testing: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+[Physics::Unit] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist t/01-tst.rakutest
+[Physics::Unit] 1..15
+[Physics::Unit] Couldn't parse YAML: No such method 'concretize' for string
+[Physics::Unit] '#Physics::Units::Definitions::en_SI - base.yaml #SI Base Units # Format
+[Physics::Unit] key: #Type: [symbol, synonym-one, synonym-two ...] - Length: [m, metre,
+[Physics::Unit] meter] - Mass: [kg, kilogram] - Time: [s, sec, second] - Current: [A,
+[Physics::Unit] amp, ampere] - Temperature: [K, kelvin] - Substance: [mol, mole] -
+[Physics::Unit] Luminosity: [cd, candela, candle] - Angle: [radian, rad] - Currency:
+[Physics::Unit] [USD, US$, $, dollar] - Data: [b, bit] '
+[Physics::Unit]   in sub load-yaml at /blin/installed/YAMLish_0.1.2/sources/1D5CA23E666A17E4A015880D6C1CEFD63F6C7B12 (YAMLish) line 948
+[Physics::Unit]   in method load at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/en_SI.rakumod (Physics::Unit::en_SI) line 28
+[Physics::Unit]   in method load at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/Config.rakumod (Physics::Unit::Config) line 97
+[Physics::Unit]   in method instance at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/Directory.rakumod (Physics::Unit::Directory) line 14
+[Physics::Unit]   in method new at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit.rakumod (Physics::Unit) line 127
+[Physics::Unit]   in block <unit> at t/01-tst.rakutest line 11
+[Physics::Unit] Actually thrown at:
+[Physics::Unit]   in method load at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/Base.rakumod (Physics::Unit::Base) line 5
+[Physics::Unit]   in method load at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/en_SI.rakumod (Physics::Unit::en_SI) line 39
+[Physics::Unit]   in method load at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/Config.rakumod (Physics::Unit::Config) line 97
+[Physics::Unit]   in method instance at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/Directory.rakumod (Physics::Unit::Directory) line 14
+[Physics::Unit]   in method new at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit.rakumod (Physics::Unit) line 127
+[Physics::Unit]   in block <unit> at t/01-tst.rakutest line 11
+[Physics::Unit] # You planned 15 tests, but ran 0
+[Physics::Unit] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist t/02-dim.rakutest
+[Physics::Unit] 1..17
+[Physics::Unit] Couldn't parse YAML: No such method 'concretize' for string
+[Physics::Unit] '#Physics::Units::Definitions::en_SI - base.yaml #SI Base Units # Format
+[Physics::Unit] key: #Type: [symbol, synonym-one, synonym-two ...] - Length: [m, metre,
+[Physics::Unit] meter] - Mass: [kg, kilogram] - Time: [s, sec, second] - Current: [A,
+[Physics::Unit] amp, ampere] - Temperature: [K, kelvin] - Substance: [mol, mole] -
+[Physics::Unit] Luminosity: [cd, candela, candle] - Angle: [radian, rad] - Currency:
+[Physics::Unit] [USD, US$, $, dollar] - Data: [b, bit] '
+[Physics::Unit]   in sub load-yaml at /blin/installed/YAMLish_0.1.2/sources/1D5CA23E666A17E4A015880D6C1CEFD63F6C7B12 (YAMLish) line 948
+[Physics::Unit]   in method load at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/en_SI.rakumod (Physics::Unit::en_SI) line 28
+[Physics::Unit]   in method load at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/Config.rakumod (Physics::Unit::Config) line 97
+[Physics::Unit]   in method instance at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/Directory.rakumod (Physics::Unit::Directory) line 14
+[Physics::Unit]   in sub dxi at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit.rakumod (Physics::Unit) line 16
+[Physics::Unit]   in method find at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit.rakumod (Physics::Unit) line 261
+[Physics::Unit]   in block <unit> at t/02-dim.rakutest line 69
+[Physics::Unit] Actually thrown at:
+[Physics::Unit]   in method load at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/Base.rakumod (Physics::Unit::Base) line 5
+[Physics::Unit]   in method load at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/en_SI.rakumod (Physics::Unit::en_SI) line 39
+[Physics::Unit]   in method load at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/Config.rakumod (Physics::Unit::Config) line 97
+[Physics::Unit]   in method instance at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit/Directory.rakumod (Physics::Unit::Directory) line 14
+[Physics::Unit]   in sub dxi at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit.rakumod (Physics::Unit) line 16
+[Physics::Unit]   in method find at /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/lib/Physics/Unit.rakumod (Physics::Unit) line 261
+[Physics::Unit]   in block <unit> at t/02-dim.rakutest line 69
+[Physics::Unit] # You planned 17 tests, but ran 0
+[Physics::Unit] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist t/99-testMETA.rakutest
+[Physics::Unit] 1..1
+[Physics::Unit] ok 1 - # SKIP Skipping author test
+===> Testing [FAIL]: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+[Physics::Unit] Failed to get passing tests, but continuing with --force-test
+===> Installing: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+===> Install [OK] for Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>

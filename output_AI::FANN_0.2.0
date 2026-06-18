@@ -1,0 +1,42 @@
+===> Searching for: AI::FANN
+===> Found: AI::FANN:ver<0.2.0>:auth<zef:jjatria> [via Zef::Repository::Ecosystems<fez>]
+[AI::FANN] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781754711.323787.2381.9551062592645/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz https://360.zef.pm/A/I_/AI_FANN/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz
+===> Fetching [OK]: AI::FANN:ver<0.2.0>:auth<zef:jjatria> to /blin/data/zef-data/tmp/1781754711.323787.2381.9551062592645/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz
+[AI::FANN] Command: tar -t -f ./3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz
+[AI::FANN] Command: tar -xvf ./3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz -C ../3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz
+===> Extraction [OK]: AI::FANN to /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz
+===> Testing: AI::FANN:ver<0.2.0>:auth<zef:jjatria>
+[AI::FANN] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0 t/creation.t
+[AI::FANN] ===SORRY!=== Error while compiling t/creation.t
+[AI::FANN] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0/lib/AI/FANN.rakumod (AI::FANN)
+[AI::FANN] BEGIN time calls only supported for simple constructs so far
+[AI::FANN] at /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0/lib/AI/FANN.rakumod (AI::FANN):98
+[AI::FANN] at t/creation.t:4
+[AI::FANN] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0 t/errors.t
+[AI::FANN] ===SORRY!=== Error while compiling t/errors.t
+[AI::FANN] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0/lib/AI/FANN.rakumod (AI::FANN)
+[AI::FANN] BEGIN time calls only supported for simple constructs so far
+[AI::FANN] at /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0/lib/AI/FANN.rakumod (AI::FANN):98
+[AI::FANN] at t/errors.t:4
+[AI::FANN] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0 t/imports.t
+[AI::FANN] ===SORRY!=== Error while compiling t/imports.t
+[AI::FANN] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0/lib/AI/FANN.rakumod (AI::FANN)
+[AI::FANN] BEGIN time calls only supported for simple constructs so far
+[AI::FANN] at /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0/lib/AI/FANN.rakumod (AI::FANN):98
+[AI::FANN] at t/imports.t:7
+[AI::FANN] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0 t/train-data.t
+[AI::FANN] ===SORRY!=== Error while compiling t/train-data.t
+[AI::FANN] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0/lib/AI/FANN.rakumod (AI::FANN)
+[AI::FANN] BEGIN time calls only supported for simple constructs so far
+[AI::FANN] at /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0/lib/AI/FANN.rakumod (AI::FANN):98
+[AI::FANN] at t/train-data.t:4
+[AI::FANN] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0 t/training.t
+[AI::FANN] ===SORRY!=== Error while compiling t/training.t
+[AI::FANN] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0/lib/AI/FANN.rakumod (AI::FANN)
+[AI::FANN] BEGIN time calls only supported for simple constructs so far
+[AI::FANN] at /blin/data/zef-data/tmp/3bd5f6105ccebe2920c7704cf3ef8976313c07d4.tar.gz/AI-FANN-0.2.0/lib/AI/FANN.rakumod (AI::FANN):98
+[AI::FANN] at t/training.t:4
+===> Testing [FAIL]: AI::FANN:ver<0.2.0>:auth<zef:jjatria>
+[AI::FANN] Failed to get passing tests, but continuing with --force-test
+===> Installing: AI::FANN:ver<0.2.0>:auth<zef:jjatria>
+===> Install [OK] for AI::FANN:ver<0.2.0>:auth<zef:jjatria>

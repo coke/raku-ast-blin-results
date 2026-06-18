@@ -1,0 +1,21 @@
+===> Searching for: Functional::Stack
+===> Found: Functional::Stack:ver<0.0.3>:auth<zef:FCO> [via Zef::Repository::Ecosystems<fez>]
+[Functional::Stack] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781776916.513632.2637.0461545041526/f1718b8e919d6987841ce7ad2ffef9f75aebfe12.tar.gz https://360.zef.pm/F/UN/FUNCTIONAL_STACK/f1718b8e919d6987841ce7ad2ffef9f75aebfe12.tar.gz
+===> Fetching [OK]: Functional::Stack:ver<0.0.3>:auth<zef:FCO> to /blin/data/zef-data/tmp/1781776916.513632.2637.0461545041526/f1718b8e919d6987841ce7ad2ffef9f75aebfe12.tar.gz
+[Functional::Stack] Command: tar -t -f ./f1718b8e919d6987841ce7ad2ffef9f75aebfe12.tar.gz
+[Functional::Stack] Command: tar -xvf ./f1718b8e919d6987841ce7ad2ffef9f75aebfe12.tar.gz -C ../f1718b8e919d6987841ce7ad2ffef9f75aebfe12.tar.gz
+===> Extraction [OK]: Functional::Stack to /blin/data/zef-data/tmp/f1718b8e919d6987841ce7ad2ffef9f75aebfe12.tar.gz
+===> Testing: Functional::Stack:ver<0.0.3>:auth<zef:FCO>
+[Functional::Stack] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f1718b8e919d6987841ce7ad2ffef9f75aebfe12.tar.gz/Functional-Stack-0.0.3 t/01-basic.rakutest
+[Functional::Stack] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Functional::Stack] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f1718b8e919d6987841ce7ad2ffef9f75aebfe12.tar.gz/Functional-Stack-0.0.3/lib/Functional/Stack.rakumod (Functional::Stack)
+[Functional::Stack] ===SORRY!=== Error while compiling /blin/installed/Functional::LinkedList_0.0.4/sources/F122ED32AF094D459636613D881065217F628238 (Functional::LinkedList)
+[Functional::Stack] Malformed my
+[Functional::Stack] at /blin/installed/Functional::LinkedList_0.0.4/sources/F122ED32AF094D459636613D881065217F628238 (Functional::LinkedList):83
+[Functional::Stack] ------>   my<HERE> :($node, $value) := $!next.DELETE-POS: 
+[Functional::Stack] at /blin/data/zef-data/tmp/f1718b8e919d6987841ce7ad2ffef9f75aebfe12.tar.gz/Functional-Stack-0.0.3/lib/Functional/Stack.rakumod (Functional::Stack):2
+[Functional::Stack] at t/01-basic.rakutest:2
+===> Testing [FAIL]: Functional::Stack:ver<0.0.3>:auth<zef:FCO>
+[Functional::Stack] Failed to get passing tests, but continuing with --force-test
+===> Installing: Functional::Stack:ver<0.0.3>:auth<zef:FCO>
+===> Install [OK] for Functional::Stack:ver<0.0.3>:auth<zef:FCO>

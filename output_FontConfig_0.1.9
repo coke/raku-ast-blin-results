@@ -1,0 +1,79 @@
+===> Searching for: FontConfig
+===> Found: FontConfig:ver<0.1.9>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[FontConfig] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781763838.406882.1099.6018446892963/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz https://360.zef.pm/F/ON/FONTCONFIG/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz
+===> Fetching [OK]: FontConfig:ver<0.1.9>:auth<zef:dwarring> to /blin/data/zef-data/tmp/1781763838.406882.1099.6018446892963/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz
+[FontConfig] Command: tar -t -f ./aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz
+[FontConfig] Command: tar -xvf ./aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz -C ../aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz
+===> Extraction [OK]: FontConfig to /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz
+===> Building: FontConfig:ver<0.1.9>:auth<zef:dwarring>
+[FontConfig] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -e require '/blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/Build.pm6'; ::('Build').new.build('/blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9') ?? exit(0) !! exit(1);
+[FontConfig] make: Nothing to be done for 'all'.
+[FontConfig] make: Nothing to be done for 'all'.
+===> Building [OK] for FontConfig:ver<0.1.9>:auth<zef:dwarring>
+===> Testing: FontConfig:ver<0.1.9>:auth<zef:dwarring>
+[FontConfig] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9 t/00raw.t
+[FontConfig] ===SORRY!=== Error while compiling t/00raw.t
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw)
+[FontConfig] Variable '$FC-LIB' is not declared. Perhaps you forgot a 'sub' if this
+[FontConfig] was intended to be part of a signature?
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw):4
+[FontConfig] ------> use FontConfig::Defs <HERE>:$FC-LIB, :$FC-BIND-LIB, :$types, :enums
+[FontConfig] at t/00raw.t:2
+[FontConfig] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9 t/basic.t
+[FontConfig] ===SORRY!=== Error while compiling t/basic.t
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Match.rakumod (FontConfig::Match)
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig.rakumod (FontConfig)
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw)
+[FontConfig] Variable '$FC-LIB' is not declared. Perhaps you forgot a 'sub' if this
+[FontConfig] was intended to be part of a signature?
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw):4
+[FontConfig] ------> use FontConfig::Defs <HERE>:$FC-LIB, :$FC-BIND-LIB, :$types, :enums
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig.rakumod (FontConfig):4
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Match.rakumod (FontConfig::Match):4
+[FontConfig] at t/basic.t:3
+[FontConfig] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9 t/custom-conf.t
+[FontConfig] ===SORRY!=== Error while compiling t/custom-conf.t
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig.rakumod (FontConfig)
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw)
+[FontConfig] Variable '$FC-LIB' is not declared. Perhaps you forgot a 'sub' if this
+[FontConfig] was intended to be part of a signature?
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw):4
+[FontConfig] ------> use FontConfig::Defs <HERE>:$FC-LIB, :$FC-BIND-LIB, :$types, :enums
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig.rakumod (FontConfig):4
+[FontConfig] at t/custom-conf.t:3
+[FontConfig] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9 t/empty-config.t
+[FontConfig] ===SORRY!=== Error while compiling t/empty-config.t
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig.rakumod (FontConfig)
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw)
+[FontConfig] Variable '$FC-LIB' is not declared. Perhaps you forgot a 'sub' if this
+[FontConfig] was intended to be part of a signature?
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw):4
+[FontConfig] ------> use FontConfig::Defs <HERE>:$FC-LIB, :$FC-BIND-LIB, :$types, :enums
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig.rakumod (FontConfig):4
+[FontConfig] at t/empty-config.t:4
+[FontConfig] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9 t/match-series.t
+[FontConfig] ===SORRY!=== Error while compiling t/match-series.t
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig.rakumod (FontConfig)
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw)
+[FontConfig] Variable '$FC-LIB' is not declared. Perhaps you forgot a 'sub' if this
+[FontConfig] was intended to be part of a signature?
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw):4
+[FontConfig] ------> use FontConfig::Defs <HERE>:$FC-LIB, :$FC-BIND-LIB, :$types, :enums
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig.rakumod (FontConfig):4
+[FontConfig] at t/match-series.t:3
+[FontConfig] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9 t/query-ft-face.t
+[FontConfig] ===SORRY!=== Error while compiling t/query-ft-face.t
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Match.rakumod (FontConfig::Match)
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig.rakumod (FontConfig)
+[FontConfig] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw)
+[FontConfig] Variable '$FC-LIB' is not declared. Perhaps you forgot a 'sub' if this
+[FontConfig] was intended to be part of a signature?
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Raw.rakumod (FontConfig::Raw):4
+[FontConfig] ------> use FontConfig::Defs <HERE>:$FC-LIB, :$FC-BIND-LIB, :$types, :enums
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig.rakumod (FontConfig):4
+[FontConfig] at /blin/data/zef-data/tmp/aafc4c897f43dabffd93b2eaeee1d9bcdfb24803.tar.gz/FontConfig-0.1.9/lib/FontConfig/Match.rakumod (FontConfig::Match):4
+[FontConfig] at t/query-ft-face.t:3
+===> Testing [FAIL]: FontConfig:ver<0.1.9>:auth<zef:dwarring>
+[FontConfig] Failed to get passing tests, but continuing with --force-test
+===> Installing: FontConfig:ver<0.1.9>:auth<zef:dwarring>
+===> Install [OK] for FontConfig:ver<0.1.9>:auth<zef:dwarring>

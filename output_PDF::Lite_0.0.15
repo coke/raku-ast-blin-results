@@ -1,0 +1,505 @@
+===> Searching for: PDF::Lite
+===> Found: PDF::Lite:ver<0.0.15>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[PDF::Lite] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781794123.642315.2579.2145202414054/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz https://360.zef.pm/P/DF/PDF_LITE/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz
+===> Fetching [OK]: PDF::Lite:ver<0.0.15>:auth<zef:dwarring> to /blin/data/zef-data/tmp/1781794123.642315.2579.2145202414054/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz
+[PDF::Lite] Command: tar -t -f ./5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz
+[PDF::Lite] Command: tar -xvf ./5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz -C ../5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz
+===> Extraction [OK]: PDF::Lite to /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz
+===> Testing: PDF::Lite:ver<0.0.15>:auth<zef:dwarring>
+[PDF::Lite] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15 t/00-readme.t
+[PDF::Lite] 1..12
+[PDF::Lite] not ok 1 - code sample
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use v6;
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] my PDF::Lite $pdf .= new;
+[PDF::Lite] $pdf.media-box = 'Letter';
+[PDF::Lite] my PDF::Lite::Page $page = $pdf.add-page;
+[PDF::Lite] constant X-Margin = 10;
+[PDF::Lite] constant Padding = 10;
+[PDF::Lite] $page.graphics: {
+[PDF::Lite]     enum <x0 y0 x1 y1>;
+[PDF::Lite]     my $font = $pdf.core-font( :family<Helvetica>, :weight<bold>, :style<italic> );
+[PDF::Lite]     my @position = [10, 10];
+[PDF::Lite]     my @box = .say: "Hello World", :@position, :$font;
+[PDF::Lite]     my PDF::Lite::XObject $img = .load-image: "t/images/lightbulb.gif";
+[PDF::Lite]     .do: $img, :position[@box[x1] + Padding, 10];
+[PDF::Lite] }
+[PDF::Lite] given $pdf.Info //= {} {
+[PDF::Lite]     .CreationDate = DateTime.new( :year(2015), :month(12), :day(25) );
+[PDF::Lite] }
+[PDF::Lite] $pdf.save-as: "examples/hello-world.pdf";
+[PDF::Lite] not ok 2 - code sample
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] enum <x0 y0 x1 y1>;
+[PDF::Lite] my PDF::Lite $pdf .= new;
+[PDF::Lite] $pdf.media-box = [0, 0, 500, 150];
+[PDF::Lite] my PDF::Lite::Page $page = $pdf.add-page;
+[PDF::Lite] my $font = $pdf.core-font( :family<Helvetica> );
+[PDF::Lite] my $header-font = $pdf.core-font( :family<Helvetica>, :weight<bold> );
+[PDF::Lite] $page.text: -> $txt {
+[PDF::Lite]     $txt.font = $header-font, 16;
+[PDF::Lite]     $txt.text-position = 250, 112;
+[PDF::Lite]     $txt.say: 'Some Sample PDF::Lite Text', :align<center>, :valign<bottom>;
+[PDF::Lite]     my $width := 200;
+[PDF::Lite]     my $text = q:to"--END--";
+[PDF::Lite]     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+[PDF::Lite]     ut labore et dolore magna aliqua.
+[PDF::Lite]     --END--
+[PDF::Lite]             
+[PDF::Lite]     $txt.font = $font, 12;
+[PDF::Lite]     # output text with left, top corner at (20, 100)
+[PDF::Lite]     my @box = $txt.say: $text, :$width, :position[20, 100];
+[PDF::Lite]     note "text height: {@box[y1] - @box[y0]}";
+[PDF::Lite]     # output kerned paragraph, flow from right to left, right, top edge at (450, 100)
+[PDF::Lite]     $txt.say( $text, :$width, :height(150), :align<right>, :kern, :position[450, 100] );
+[PDF::Lite]     # add another line of text, flowing on to the next line
+[PDF::Lite]     $txt.font = $pdf.core-font( :family<Helvetica>, :weight<bold> ), 12;
+[PDF::Lite]     $txt.say( "But wait, there's more!!", :align<right>, :kern );
+[PDF::Lite] }
+[PDF::Lite] $pdf.save-as: "examples/sample-text.pdf";
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] my PDF::Lite $pdf .= new;
+[PDF::Lite] $pdf.media-box = [0, 0, 450, 250];
+[PDF::Lite] my PDF::Lite::Page $page = $pdf.add-page;
+[PDF::Lite] $page.graphics: -> $gfx {
+[PDF::Lite]     my PDF::Lite::XObject $img = $gfx.load-image("t/images/snoopy-happy-dance.jpg");
+[PDF::Lite]     $gfx.do($img, 50, 40, :width(150) );
+[PDF::Lite]     # displays the image again, semi-transparently with translation, rotation and scaling
+[PDF::Lite]     $gfx.transform( :translate[180, 100]);
+[PDF::Lite]     $gfx.transform( :rotate(-.5), :scale(.75) );
+[PDF::Lite]     $gfx.FillAlpha = 0.5;
+[PDF::Lite]     $gfx.do($img, :width(150) );
+[PDF::Lite] }
+[PDF::Lite] $pdf.save-as: "examples/sample-image.pdf";
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] use PDF::Content::Color :rgb;
+[PDF::Lite] my PDF::Lite $pdf .= new;
+[PDF::Lite] $pdf.media-box = [0, 0, 400, 120];
+[PDF::Lite] my PDF::Lite::Page $page = $pdf.add-page;
+[PDF::Lite] $page.graphics: {
+[PDF::Lite]     $page.text: {
+[PDF::Lite] 	.text-position = [20, 70];
+[PDF::Lite] 	.font = [ $pdf.core-font('ZapfDingbats'), 24];
+[PDF::Lite] 	.WordSpacing = 16;
+[PDF::Lite] 	.print("♠ ♣\c[NO-BREAK SPACE]");
+[PDF::Lite] 	.FillColor = rgb(1, .3, .3);  # reddish
+[PDF::Lite] 	.say("♦ ♥");
+[PDF::Lite]     }
+[PDF::Lite]     # Display outline, slanted text
+[PDF::Lite]     my $header-font = $pdf.core-font( :family<Helvetica>, :weight<bold> );
+[PDF::Lite]     $page.text: {
+[PDF::Lite] 	 use PDF::Content::Ops :TextMode;
+[PDF::Lite] 	.font = ( $header-font, 18);
+[PDF::Lite] 	.TextRender = TextMode::FillOutlineText;
+[PDF::Lite] 	.LineWidth = .5;
+[PDF::Lite]         .text-transform( :skew[0, -6], :translate[10, 30] );
+[PDF::Lite] 	.FillColor = rgb(.6, .7, .9);
+[PDF::Lite] 	.print('Outline Slanted Text @(10,30)');
+[PDF::Lite]     }
+[PDF::Lite] }
+[PDF::Lite] $pdf.save-as: "examples/text-effects.pdf";
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use v6;
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] use PDF::Content::Page :PageSizes, :&to-landscape;
+[PDF::Lite] my PDF::Lite $pdf .= new;
+[PDF::Lite] $pdf.media-box = Letter; # Set a default page size
+[PDF::Lite] my $page1 = $pdf.add-page;
+[PDF::Lite] say $page1.media-box; # [0 0 612 792]
+[PDF::Lite] my $page2 = $pdf.add-page;
+[PDF::Lite] $page2.media-box = A4;
+[PDF::Lite] say $page2.media-box; # [0 0 595 842]
+[PDF::Lite] my $page3 = $pdf.add-page;
+[PDF::Lite] $page3.media-box = to-landscape(A4);
+[PDF::Lite] say $page3.media-box; # [0 0 842 595]
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] use PDF::Content::Color :rgb;
+[PDF::Lite] my PDF::Lite $pdf .= new;
+[PDF::Lite] $pdf.media-box = [0, 0, 400, 120];
+[PDF::Lite] my PDF::Lite::Page $page = $pdf.add-page;
+[PDF::Lite] $page.graphics: {
+[PDF::Lite]     my $font = $pdf.core-font( :family<Helvetica> );
+[PDF::Lite]     my PDF::Lite::XObject $form = .xobject-form(:BBox[0, 0, 95, 25]);
+[PDF::Lite]     $form.graphics: {
+[PDF::Lite]         # Set a background color
+[PDF::Lite]         .FillColor = rgb(.8, .9, .9);
+[PDF::Lite]         .Rectangle: |$form<BBox>;
+[PDF::Lite]         .paint: :fill;
+[PDF::Lite]         .font = $font;
+[PDF::Lite]         .FillColor = rgb(1, .3, .3);  # reddish
+[PDF::Lite]         .say("Simple Form", :position[2, 5]);
+[PDF::Lite]     }
+[PDF::Lite]      # display a simple form a couple of times
+[PDF::Lite]     .do($form, 10, 10);
+[PDF::Lite]     .transform: :translate(10,40), :rotate(.1), :scale(.75);
+[PDF::Lite]     .do($form, 10, 10);
+[PDF::Lite] }
+[PDF::Lite] $page.graphics: {
+[PDF::Lite]     my PDF::Lite::Tiling-Pattern $pattern = .tiling-pattern(:BBox[0, 0, 25, 25], );
+[PDF::Lite]     $pattern.graphics: {
+[PDF::Lite]         # Set a background color
+[PDF::Lite]         .FillColor = rgb(.8, .8, .9);
+[PDF::Lite]         .Rectangle: |$pattern<BBox>;
+[PDF::Lite]         .paint: :fill;
+[PDF::Lite]         # Display an image
+[PDF::Lite]         my PDF::Lite::XObject $img = .load-image("t/images/lightbulb.gif");
+[PDF::Lite]         .do($img, 6, 2 );
+[PDF::Lite]     }
+[PDF::Lite]     # fill a rectangle using this pattern
+[PDF::Lite]     .FillColor = .use-pattern($pattern);
+[PDF::Lite]     .Rectangle(125, 10, 200, 100);
+[PDF::Lite]     .paint: :stroke, :fill;
+[PDF::Lite] }
+[PDF::Lite] $pdf.save-as: "examples/forms-and-patterns.pdf";
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] my $pdf-with-images = PDF::Lite.open: "t/images.pdf";
+[PDF::Lite] my $pdf-with-text = PDF::Lite.open: "examples/sample-text.pdf";
+[PDF::Lite] my PDF::Lite $new-doc .= new;
+[PDF::Lite] $new-doc.media-box = [0, 0, 500, 400];
+[PDF::Lite] # add a page; layup imported pages and images
+[PDF::Lite] my PDF::Lite::Page $page = $new-doc.add-page;
+[PDF::Lite] my PDF::Lite::XObject $xobj-image = $pdf-with-images.page(1).images[6];
+[PDF::Lite] my PDF::Lite::XObject $xobj-with-text = $pdf-with-text.page(1).to-xobject;
+[PDF::Lite] my PDF::Lite::XObject $xobj-with-images = $pdf-with-images.page(1).to-xobject;
+[PDF::Lite] $page.graphics: {
+[PDF::Lite]     # scale up an image; use it as a semi-transparent background
+[PDF::Lite]     .FillAlpha = 0.5; 
+[PDF::Lite]     .do($xobj-image, 0, 0, :width(500), :height(400) );
+[PDF::Lite]     };
+[PDF::Lite] $page.graphics: {
+[PDF::Lite]     # overlay pages; scale these down
+[PDF::Lite]     .do($xobj-with-text, 20, 100, :width(300) );
+[PDF::Lite]     .do($xobj-with-images, 300, 100, :width(200) );
+[PDF::Lite] }
+[PDF::Lite] # copy whole pages from a document
+[PDF::Lite] for 1 .. $pdf-with-text.page-count -> $page-no {
+[PDF::Lite]     $new-doc.add-page: $pdf-with-text.page($page-no);
+[PDF::Lite] }
+[PDF::Lite] $new-doc.save-as: "examples/reuse.pdf";
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] my $pdf = PDF::Lite.open: "t/images.pdf";
+[PDF::Lite] for 1 ... $pdf.page-count -> $page-no {
+[PDF::Lite]     say "page: $page-no";
+[PDF::Lite]     my PDF::Lite::Page $page = $pdf.page: $page-no;
+[PDF::Lite]     # get all X-Objects (images and forms) on the page
+[PDF::Lite]     my PDF::Lite::XObject %object = $page.resources('XObject');
+[PDF::Lite]     # also report on images embedded in the page content
+[PDF::Lite]     my $k = "(inline-0)";
+[PDF::Lite]     %object{++$k} = $_
+[PDF::Lite]         for $page.gfx.inline-images;
+[PDF::Lite]     for %object.keys -> $key {
+[PDF::Lite]         my $xobject = %object{$key};
+[PDF::Lite]         my $subtype = $xobject<Subtype>;
+[PDF::Lite]         my $size = $xobject.encoded.codes;
+[PDF::Lite]         say "\t$key: $subtype {$xobject.width}x{$xobject.height} $size bytes"
+[PDF::Lite]     }
+[PDF::Lite] }
+[PDF::Lite] not ok 3 - code sample
+[PDF::Lite] not ok 4 - code sample
+[PDF::Lite] not ok 5 - code sample
+[PDF::Lite] not ok 6 - code sample
+[PDF::Lite] not ok 7 - code sample
+[PDF::Lite] not ok 8 - code sample
+[PDF::Lite] not ok 9 - code sample
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] my PDF::Lite $pdf .= new;
+[PDF::Lite] my $page = $pdf.add-page;
+[PDF::Lite] # Draw a simple Bézier curve:
+[PDF::Lite] # ------------------------
+[PDF::Lite] # Alternative 1: Using operator functions (see PDF::Content)
+[PDF::Lite] sub draw-curve1($gfx) {
+[PDF::Lite]     $gfx.Save;
+[PDF::Lite]     $gfx.MoveTo(175, 720);
+[PDF::Lite]     $gfx.LineTo(175, 700);
+[PDF::Lite]     $gfx.CurveToInitial( 300, 800,  400, 720 );
+[PDF::Lite]     $gfx.ClosePath;
+[PDF::Lite]     $gfx.Stroke;
+[PDF::Lite]     $gfx.Restore;
+[PDF::Lite] }
+[PDF::Lite] draw-curve1($page.gfx);
+[PDF::Lite] # ------------------------
+[PDF::Lite] # Alternative 2: draw from content instructions string:
+[PDF::Lite] sub draw-curve2($gfx) {
+[PDF::Lite]     $gfx.ops: q:to"--END--"
+[PDF::Lite]         q                     % save
+[PDF::Lite]           175 720 m           % move-to
+[PDF::Lite]           175 700 l           % line-to
+[PDF::Lite]           300 800 400 720 v   % curve-to
+[PDF::Lite]           h                   % close
+[PDF::Lite]           S                   % stroke
+[PDF::Lite]         Q                     % restore
+[PDF::Lite]         --END--
+[PDF::Lite] }
+[PDF::Lite] draw-curve2($pdf.add-page.gfx);
+[PDF::Lite] # ------------------------
+[PDF::Lite] # Alternative 3: draw from raw data
+[PDF::Lite] sub draw-curve3($gfx) {
+[PDF::Lite]     $gfx.ops: [
+[PDF::Lite]          'q',               # save,
+[PDF::Lite]          :m[175, 720],      # move-to
+[PDF::Lite]          :l[175, 700],      # line-to 
+[PDF::Lite]          :v[300, 800,
+[PDF::Lite]             400, 720],      # curve-to
+[PDF::Lite]          :h[],              # close (or equivalently, 'h')
+[PDF::Lite]          'S',               # stroke (or equivalently, :S[])
+[PDF::Lite]          'Q',               # restore
+[PDF::Lite]      ];
+[PDF::Lite] }
+[PDF::Lite] draw-curve3($pdf.add-page.gfx);
+[PDF::Lite] not ok 10 - code sample
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] my $pdf = PDF::Lite.open: "examples/hello-world.pdf";
+[PDF::Lite] say $pdf.page(1).gfx.ops;
+[PDF::Lite] not ok 11 - code sample
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] my PDF::Lite $pdf .= new;
+[PDF::Lite] my PDF::Lite::Page $page = $pdf.add-page;
+[PDF::Lite] $page.graphics: {
+[PDF::Lite]     .text: {  # start a text block
+[PDF::Lite]         .CharSpacing = 1.0;     # show text with wide spacing
+[PDF::Lite]         # Set the font to twelve point helvetica
+[PDF::Lite]         my $face = $pdf.core-font( :family<Helvetica>, :weight<bold>, :style<italic> );
+[PDF::Lite]         .font = [ $face, 10 ];
+[PDF::Lite]         .TextLeading = 12; # new-line advances 12 points
+[PDF::Lite]         .text-position = 10, 20;
+[PDF::Lite]         .say("Sample Text", :position[10, 20]);
+[PDF::Lite]         # '$gfx.say' has updated the text position to the next line
+[PDF::Lite]         say .text-position;
+[PDF::Lite]     } # restore previous text state
+[PDF::Lite]     say .CharSpacing; # restored to 0
+[PDF::Lite] }
+[PDF::Lite] not ok 12 - code sample
+[PDF::Lite] # Failed test 'code sample'
+[PDF::Lite] # at t/00-readme.t line 19
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] # ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] # Malformed my
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] # ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] # 
+[PDF::Lite] # at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] # 
+[PDF::Lite] use PDF::Lite;
+[PDF::Lite] use PDF::Content::Ops :OpCode;
+[PDF::Lite] my PDF::Lite $pdf .= open: "examples/hello-world.pdf";
+[PDF::Lite] my &callback = -> $op, *@args {
+[PDF::Lite]    given $op {
+[PDF::Lite]        when SetTextMatrix {
+[PDF::Lite]            say "text matrix set to: {$*gfx.TextMatrix}";
+[PDF::Lite]        }
+[PDF::Lite]    }
+[PDF::Lite] }
+[PDF::Lite] my $gfx = $pdf.page(1).render(:&callback);
+[PDF::Lite] # text matrix set to: 1 0 0 1 10 10
+[PDF::Lite] # You failed 12 tests of 12
+[PDF::Lite] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15 t/01-pdf-lite.t
+[PDF::Lite] ===SORRY!=== Error while compiling t/01-pdf-lite.t
+[PDF::Lite] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] Malformed my
+[PDF::Lite] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] at t/01-pdf-lite.t:4
+[PDF::Lite] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15 t/html-canvas.t
+[PDF::Lite] ===SORRY!=== Error while compiling t/html-canvas.t
+[PDF::Lite] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite)
+[PDF::Lite] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF)
+[PDF::Lite] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict)
+[PDF::Lite] ===SORRY!=== Error while compiling /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie)
+[PDF::Lite] Malformed my
+[PDF::Lite] at /blin/installed/PDF_0.6.15/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie):170
+[PDF::Lite] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF::Lite] at /blin/installed/PDF_0.6.15/sources/36FAF4F9D03BD9250063BE40C801CDF52BD53033 (PDF::COS::Dict):8
+[PDF::Lite] at /blin/installed/PDF_0.6.15/sources/3C6EC686D695EBF3B06092B95F042B2F49CC80BD (PDF):5
+[PDF::Lite] at /blin/data/zef-data/tmp/5896e36c51e1ca148f7800ab848bc1f242be4940.tar.gz/PDF-Lite-0.0.15/lib/PDF/Lite.rakumod (PDF::Lite):5
+[PDF::Lite] at t/html-canvas.t:5
+===> Testing [FAIL]: PDF::Lite:ver<0.0.15>:auth<zef:dwarring>
+[PDF::Lite] Failed to get passing tests, but continuing with --force-test
+===> Installing: PDF::Lite:ver<0.0.15>:auth<zef:dwarring>
+===> Install [OK] for PDF::Lite:ver<0.0.15>:auth<zef:dwarring>

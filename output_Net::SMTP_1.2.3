@@ -1,0 +1,46 @@
+===> Searching for: Net::SMTP
+===> Found: Net::SMTP:ver<1.2.3>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Net::SMTP] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781767570.440616.2304.549232351898/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz https://360.zef.pm/N/ET/NET_SMTP/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz
+===> Fetching [OK]: Net::SMTP:ver<1.2.3>:auth<zef:raku-community-modules> to /blin/data/zef-data/tmp/1781767570.440616.2304.549232351898/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz
+[Net::SMTP] Command: tar -t -f ./b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz
+[Net::SMTP] Command: tar -xvf ./b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz -C ../b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz
+===> Extraction [OK]: Net::SMTP to /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz
+===> Testing: Net::SMTP:ver<1.2.3>:auth<zef:raku-community-modules>
+[Net::SMTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3 t/01-raw.rakutest
+[Net::SMTP] 1..12
+[Net::SMTP] ok 1 - Module loaded
+[Net::SMTP] ok 2 - Created raw class
+[Net::SMTP] ok 3 - with right host
+[Net::SMTP] ok 4 - with right port
+[Net::SMTP] ok 5 - with right line sep
+[Net::SMTP] ok 6 - Greeting
+[Net::SMTP] Bad client-send
+[Net::SMTP]   in method print at t/01-raw.rakutest line 35
+[Net::SMTP]   in method send at /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3/lib/Net/SMTP/Raw.rakumod (Net::SMTP::Raw) line 21
+[Net::SMTP]   in method helo at /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3/lib/Net/SMTP/Raw.rakumod (Net::SMTP::Raw) line 30
+[Net::SMTP]   in block <unit> at t/01-raw.rakutest line 51
+[Net::SMTP] # You planned 12 tests, but ran 6
+[Net::SMTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3 t/02-simple.rakutest
+[Net::SMTP] 1..5
+[Net::SMTP] Bad client-send: EHLO clientdomain.com
+[Net::SMTP]   in method print at t/02-simple.rakutest line 59
+[Net::SMTP]   in method send at /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3/lib/Net/SMTP/Raw.rakumod (Net::SMTP::Raw) line 21
+[Net::SMTP]   in method ehlo at /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3/lib/Net/SMTP/Raw.rakumod (Net::SMTP::Raw) line 26
+[Net::SMTP]   in method start at /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3/lib/Net/SMTP/Simple.rakumod (Net::SMTP::Simple) line 93
+[Net::SMTP]   in method new at /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3/lib/Net/SMTP.rakumod (Net::SMTP) line 51
+[Net::SMTP]   in block <unit> at t/02-simple.rakutest line 66
+[Net::SMTP] # You planned 5 tests, but ran 0
+[Net::SMTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3 t/03-auth.rakutest
+[Net::SMTP] 1..5
+[Net::SMTP] Bad client-send: EHLO clientdomain.com
+[Net::SMTP]   in method print at t/03-auth.rakutest line 38
+[Net::SMTP]   in method send at /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3/lib/Net/SMTP/Raw.rakumod (Net::SMTP::Raw) line 21
+[Net::SMTP]   in method ehlo at /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3/lib/Net/SMTP/Raw.rakumod (Net::SMTP::Raw) line 26
+[Net::SMTP]   in method start at /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3/lib/Net/SMTP/Simple.rakumod (Net::SMTP::Simple) line 93
+[Net::SMTP]   in method new at /blin/data/zef-data/tmp/b2bd90ea7e52efc3c40bd57c06312c66cbcda769.tar.gz/Net-SMTP-1.2.3/lib/Net/SMTP.rakumod (Net::SMTP) line 51
+[Net::SMTP]   in block <unit> at t/03-auth.rakutest line 45
+[Net::SMTP] # You planned 5 tests, but ran 0
+===> Testing [FAIL]: Net::SMTP:ver<1.2.3>:auth<zef:raku-community-modules>
+[Net::SMTP] Failed to get passing tests, but continuing with --force-test
+===> Installing: Net::SMTP:ver<1.2.3>:auth<zef:raku-community-modules>
+===> Install [OK] for Net::SMTP:ver<1.2.3>:auth<zef:raku-community-modules>

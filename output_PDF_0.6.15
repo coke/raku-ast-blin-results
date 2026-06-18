@@ -1,0 +1,755 @@
+===> Searching for: PDF
+===> Found: PDF:ver<0.6.15>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[PDF] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781757604.347366.9467.094079141454/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz https://360.zef.pm/P/DF/PDF/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz
+===> Fetching [OK]: PDF:ver<0.6.15>:auth<zef:dwarring> to /blin/data/zef-data/tmp/1781757604.347366.9467.094079141454/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz
+[PDF] Command: tar -t -f ./8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz
+[PDF] Command: tar -xvf ./8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz -C ../8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz
+===> Extraction [OK]: PDF to /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz
+===> Testing: PDF:ver<0.6.15>:auth<zef:dwarring>
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/00-helloworld.t
+[PDF] ===SORRY!=== Error while compiling t/00-helloworld.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/00-helloworld.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/01-readme.t
+[PDF] ===SORRY!=== Error while compiling t/01-readme.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/01-readme.t:4
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-coerce.t
+[PDF] ===SORRY!=== Error while compiling t/cos-coerce.t
+[PDF] This element has not been resolved. Type: RakuAST::Var::Lexical
+[PDF] at t/cos-coerce.t:4
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-date-string.t
+[PDF] ===SORRY!=== Error while compiling t/cos-date-string.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at t/cos-date-string.t:28
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-deref.t
+[PDF] ===SORRY!=== Error while compiling t/cos-deref.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at t/cos-deref.t:6
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-text-string.t
+[PDF] 1..9
+[PDF] ok 1 - The object is-a 'PDF::COS::TextString'
+[PDF] ok 2 - simple string value
+[PDF] ok 3 - simple string content
+[PDF] ok 4 - utf16-encode
+[PDF] ok 5 - simple string value
+[PDF] ok 6 - utf-8 string content
+[PDF] ok 7 - pdfdoc encoded value
+[PDF] ok 8 - pdfdoc encoded content
+[PDF] ok 9 - utf8 encoded content
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-tie-entry.t
+[PDF] ===SORRY!=== Error while compiling t/cos-tie-entry.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at t/cos-tie-entry.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-tie-index.t
+[PDF] ===SORRY!=== Error while compiling t/cos-tie-index.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Array.rakumod (PDF::COS::Array)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie/Array.rakumod (PDF::COS::Tie::Array)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie/Array.rakumod (PDF::COS::Tie::Array):5
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Array.rakumod (PDF::COS::Array):8
+[PDF] at t/cos-tie-index.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-tie.t
+[PDF] ===SORRY!=== Error while compiling t/cos-tie.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Reader.rakumod (PDF::IO::Reader)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt/PDF.rakumod (PDF::IO::Crypt::PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt.rakumod (PDF::IO::Crypt)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt.rakumod (PDF::IO::Crypt):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt/PDF.rakumod (PDF::IO::Crypt::PDF):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Reader.rakumod (PDF::IO::Reader):9
+[PDF] at t/cos-tie.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-type-info.t
+[PDF] ===SORRY!=== Error while compiling t/cos-type-info.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at t/cos-type-info.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-type-objstm.t
+[PDF] ===SORRY!=== Error while compiling t/cos-type-objstm.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Type/ObjStm.rakumod (PDF::COS::Type::ObjStm)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream):5
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Type/ObjStm.rakumod (PDF::COS::Type::ObjStm):3
+[PDF] at t/cos-type-objstm.t:6
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-type-xref.t
+[PDF] Potential difficulties:
+[PDF]     Missing declarand for trailing declarator doc
+[PDF]     at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Util.rakumod (PDF::IO::Util):24
+[PDF]     ------> dian) ordered byte packing and unpacking<HERE><EOL>
+[PDF] 1..24
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream):5
+[PDF]   in sub resolve-package-slow-path at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 74
+[PDF]   in method required at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 78
+[PDF]   in method coerce at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 147
+[PDF]   in submethod TWEAK at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/IndObj.rakumod (PDF::IO::IndObj) line 17
+[PDF]   in block <unit> at t/cos-type-xref.t line 17
+[PDF] # You planned 24 tests, but ran 0
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/cos-util.t
+[PDF] ===SORRY!=== Error while compiling t/cos-util.t
+[PDF] This element has not been resolved. Type: RakuAST::Var::Lexical
+[PDF] at t/cos-util.t:3
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/crypt-ast.t
+[PDF] ===SORRY!=== Error while compiling t/crypt-ast.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/crypt-ast.t:4
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/filter-ascii85.t
+[PDF] 1..5
+[PDF] ok 1 - ASCII85 test string is encoded correctly
+[PDF] ok 2 - ASCII85 test string with EOD marker is encoded correctly
+[PDF] ok 3 - ASCII85 test string with EOD marker is decoded correctly
+[PDF] ok 4 - decoding/encoding of null characters
+[PDF] ok 5 - ASCII85 dies if invalid characters are passed to decode
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/filter-asciihex.t
+[PDF] 1..10
+[PDF] ok 1 - ASCIIHex missing eod marker handled
+[PDF] ok 2 - ASCIIHex test string is encoded correctly
+[PDF] ok 3 - ASCIIHex test string is decoded correctly
+[PDF] ok 4 - ASCIIHex test string is decoded correctly
+[PDF] ok 5 - ASCIIHex test string is encoded correctly
+[PDF] ok 6 - ASCIIHex test string with EOD marker is encoded correctly
+[PDF] ok 7 - ASCIIHex test string with EOD marker is decoded correctly
+[PDF] ok 8 - ASCIIHex is case-insensitive
+[PDF] ok 9 - ASCIIHex dies if invalid characters are passed to decode
+[PDF] ok 10 - ASCIIHex handles odd numbers of characters correctly
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/filter-flate.t
+[PDF] 1..5
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream):5
+[PDF]   in sub resolve-package-slow-path at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 74
+[PDF]   in method required at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 78
+[PDF]   in method coerce at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 147
+[PDF]   in submethod TWEAK at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/IndObj.rakumod (PDF::IO::IndObj) line 17
+[PDF]   in block <unit> at t/filter-flate.t line 18
+[PDF] # You planned 5 tests, but ran 0
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/filter-lzw.t
+[PDF] 1..2
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream):5
+[PDF]   in sub resolve-package-slow-path at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 74
+[PDF]   in method required at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 78
+[PDF]   in method coerce at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 147
+[PDF]   in submethod TWEAK at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/IndObj.rakumod (PDF::IO::IndObj) line 17
+[PDF]   in block <unit> at t/filter-lzw.t line 23
+[PDF] # You planned 2 tests, but ran 0
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/filter-predictors.t
+[PDF] 1..49
+[PDF] ok 1 - NOOP predictive filter sanity
+[PDF] ok 2 - TIFF predictive filter sanity
+[PDF] ok 3 - PNG predictive filter sanity
+[PDF] ok 4 - no-op predictor (1) - appears lossless
+[PDF] ok 5 - no-op predictor (1) multi-channel 4 bpc - appears lossless
+[PDF] ok 6 - no-op predictor (1) multi-channel 8 bpc - appears lossless
+[PDF] ok 7 - no-op predictor (1) multi-channel 16 bpc - appears lossless
+[PDF] ok 8 - no-op predictor (1) multi-channel 32 bpc - appears lossless
+[PDF] ok 9 - TIFF predictor (2) - appears lossless
+[PDF] ok 10 - TIFF predictor (2) multi-channel 4 bpc - encoding
+[PDF] ok 11 - TIFF predictor (2) multi-channel 4 bpc - appears lossless
+[PDF] ok 12 - TIFF predictor (2) multi-channel 8 bpc - encoding
+[PDF] ok 13 - TIFF predictor (2) multi-channel 8 bpc - appears lossless
+[PDF] ok 14 - TIFF predictor (2) multi-channel 16 bpc - encoding
+[PDF] ok 15 - TIFF predictor (2) multi-channel 16 bpc - appears lossless
+[PDF] ok 16 - TIFF predictor (2) multi-channel 32 bpc - appears lossless
+[PDF] ok 17 - PNG predictor (10) - appears lossless
+[PDF] ok 18 - PNG predictor (10) multi-channel 4 bpc - appears lossless
+[PDF] ok 19 - PNG predictor (10) multi-channel 8 bpc - appears lossless
+[PDF] ok 20 - PNG predictor (10) multi-channel 16 bpc - appears lossless
+[PDF] ok 21 - PNG predictor (10) multi-channel 32 bpc - appears lossless
+[PDF] ok 22 - PNG predictor (11) - appears lossless
+[PDF] ok 23 - PNG predictor (11) multi-channel 4 bpc - appears lossless
+[PDF] ok 24 - PNG predictor (11) multi-channel 8 bpc - appears lossless
+[PDF] ok 25 - PNG predictor (11) multi-channel 16 bpc - appears lossless
+[PDF] ok 26 - PNG predictor (11) multi-channel 32 bpc - appears lossless
+[PDF] ok 27 - PNG predictor (12) - appears lossless
+[PDF] ok 28 - PNG predictor (12) multi-channel 4 bpc - appears lossless
+[PDF] ok 29 - PNG predictor (12) multi-channel 8 bpc - appears lossless
+[PDF] ok 30 - PNG predictor (12) multi-channel 16 bpc - appears lossless
+[PDF] ok 31 - PNG predictor (12) multi-channel 32 bpc - appears lossless
+[PDF] ok 32 - PNG predictor (13) - appears lossless
+[PDF] ok 33 - PNG predictor (13) multi-channel 4 bpc - appears lossless
+[PDF] ok 34 - PNG predictor (13) multi-channel 8 bpc - appears lossless
+[PDF] ok 35 - PNG predictor (13) multi-channel 16 bpc - appears lossless
+[PDF] ok 36 - PNG predictor (13) multi-channel 32 bpc - appears lossless
+[PDF] ok 37 - PNG predictor (14) - appears lossless
+[PDF] ok 38 - PNG predictor (14) multi-channel 4 bpc - appears lossless
+[PDF] ok 39 - PNG predictor (14) multi-channel 8 bpc - appears lossless
+[PDF] ok 40 - PNG predictor (14) multi-channel 16 bpc - appears lossless
+[PDF] ok 41 - PNG predictor (14) multi-channel 32 bpc - appears lossless
+[PDF] ok 42 - PNG predictor (15) - appears lossless
+[PDF] ok 43 - PNG predictor (15) multi-channel 4 bpc - appears lossless
+[PDF] ok 44 - PNG predictor (15) multi-channel 8 bpc - appears lossless
+[PDF] ok 45 - PNG predictor (15) multi-channel 16 bpc - appears lossless
+[PDF] ok 46 - PNG predictor (15) multi-channel 32 bpc - appears lossless
+[PDF] ok 47 - FlateDecode encode with encode
+[PDF] ok 48 - FlateDecode encode with encode
+[PDF] ok 49 - FlateDecode round-trip with encode
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/filter-runlength.t
+[PDF] 1..15
+[PDF] ok 1 - RunLength missing EOD marker is handled correctly
+[PDF] ok 2 - RunLength test string is encoded correctly
+[PDF] ok 3 - RunLength test string is decoded correctly
+[PDF] ok 4 - empty round trip
+[PDF] ok 5 - RunLength empty round-trip
+[PDF] ok 6 - single-byte round trip
+[PDF] ok 7 - RunLength single-byte round-trip
+[PDF] ok 8 - min-run round trip
+[PDF] ok 9 - RunLength min-run round-trip
+[PDF] ok 10 - min-lit round trip
+[PDF] ok 11 - RunLength min-lit round-trip
+[PDF] ok 12 - long-run round trip
+[PDF] ok 13 - RunLength long-run round-trip
+[PDF] ok 14 - long-lit round trip
+[PDF] ok 15 - RunLength long-lit round-trip
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/filter.t
+[PDF] 1..92
+[PDF] ok 1 - ASCIIHexDecode decode chars > \xFF - dies
+[PDF] ok 2 - ASCIIHexDecode encoding - lives
+[PDF] ok 3 - ASCIIHexDecode decoding - lives
+[PDF] ok 4 - ASCIIHexDecode roundtrip: empty
+[PDF] ok 5 - ASCIIHexDecode encoding - lives
+[PDF] ok 6 - ASCIIHexDecode is encoded
+[PDF] ok 7 - ASCIIHexDecode decoding - lives
+[PDF] ok 8 - ASCIIHexDecode roundtrip: latin-chars
+[PDF] ok 9 - ASCIIHexDecode encoding - lives
+[PDF] ok 10 - ASCIIHexDecode is encoded
+[PDF] ok 11 - ASCIIHexDecode decoding - lives
+[PDF] ok 12 - ASCIIHexDecode roundtrip: low-repeat
+[PDF] ok 13 - ASCIIHexDecode encoding - lives
+[PDF] ok 14 - ASCIIHexDecode is encoded
+[PDF] ok 15 - ASCIIHexDecode decoding - lives
+[PDF] ok 16 - ASCIIHexDecode roundtrip: high-repeat
+[PDF] ok 17 - ASCIIHexDecode encoding - lives
+[PDF] ok 18 - ASCIIHexDecode is encoded
+[PDF] ok 19 - ASCIIHexDecode decoding - lives
+[PDF] ok 20 - ASCIIHexDecode roundtrip: longish
+[PDF] ok 21 - ASCIIHexDecode Blob encoding - lives
+[PDF] ok 22 - ASCIIHexDecode Blob decoding - lives
+[PDF] ok 23 - Blob round-trip
+[PDF] ok 24 - FlateDecode decode chars > \xFF - dies
+[PDF] ok 25 - FlateDecode encoding - lives
+[PDF] ok 26 - FlateDecode decoding - lives
+[PDF] ok 27 - FlateDecode roundtrip: empty
+[PDF] ok 28 - FlateDecode encoding - lives
+[PDF] ok 29 - FlateDecode is encoded
+[PDF] ok 30 - FlateDecode decoding - lives
+[PDF] ok 31 - FlateDecode roundtrip: latin-chars
+[PDF] ok 32 - FlateDecode encoding - lives
+[PDF] ok 33 - FlateDecode is encoded
+[PDF] ok 34 - FlateDecode decoding - lives
+[PDF] ok 35 - FlateDecode roundtrip: low-repeat
+[PDF] ok 36 - FlateDecode encoding - lives
+[PDF] ok 37 - FlateDecode is encoded
+[PDF] ok 38 - FlateDecode decoding - lives
+[PDF] ok 39 - FlateDecode roundtrip: high-repeat
+[PDF] ok 40 - FlateDecode encoding - lives
+[PDF] ok 41 - FlateDecode is encoded
+[PDF] ok 42 - FlateDecode decoding - lives
+[PDF] ok 43 - FlateDecode roundtrip: longish
+[PDF] ok 44 - FlateDecode Blob encoding - lives
+[PDF] ok 45 - FlateDecode Blob decoding - lives
+[PDF] ok 46 - Blob round-trip
+[PDF] ok 47 - RunLengthDecode decode chars > \xFF - dies
+[PDF] ok 48 - RunLengthDecode encoding - lives
+[PDF] ok 49 - RunLengthDecode decoding - lives
+[PDF] ok 50 - RunLengthDecode roundtrip: empty
+[PDF] ok 51 - RunLengthDecode encoding - lives
+[PDF] ok 52 - RunLengthDecode is encoded
+[PDF] ok 53 - RunLengthDecode decoding - lives
+[PDF] ok 54 - RunLengthDecode roundtrip: latin-chars
+[PDF] ok 55 - RunLengthDecode encoding - lives
+[PDF] ok 56 - RunLengthDecode is encoded
+[PDF] ok 57 - RunLengthDecode decoding - lives
+[PDF] ok 58 - RunLengthDecode roundtrip: low-repeat
+[PDF] ok 59 - RunLengthDecode encoding - lives
+[PDF] ok 60 - RunLengthDecode is encoded
+[PDF] ok 61 - RunLengthDecode decoding - lives
+[PDF] ok 62 - RunLengthDecode roundtrip: high-repeat
+[PDF] ok 63 - RunLengthDecode encoding - lives
+[PDF] ok 64 - RunLengthDecode is encoded
+[PDF] ok 65 - RunLengthDecode decoding - lives
+[PDF] ok 66 - RunLengthDecode roundtrip: longish
+[PDF] ok 67 - RunLengthDecode Blob encoding - lives
+[PDF] ok 68 - RunLengthDecode Blob decoding - lives
+[PDF] ok 69 - Blob round-trip
+[PDF] ok 70 - FlateDecode, RunLengthDecode decode chars > \xFF - dies
+[PDF] ok 71 - FlateDecode, RunLengthDecode encoding - lives
+[PDF] ok 72 - FlateDecode, RunLengthDecode decoding - lives
+[PDF] ok 73 - FlateDecode, RunLengthDecode roundtrip: empty
+[PDF] ok 74 - FlateDecode, RunLengthDecode encoding - lives
+[PDF] ok 75 - FlateDecode, RunLengthDecode is encoded
+[PDF] ok 76 - FlateDecode, RunLengthDecode decoding - lives
+[PDF] ok 77 - FlateDecode, RunLengthDecode roundtrip: latin-chars
+[PDF] ok 78 - FlateDecode, RunLengthDecode encoding - lives
+[PDF] ok 79 - FlateDecode, RunLengthDecode is encoded
+[PDF] ok 80 - FlateDecode, RunLengthDecode decoding - lives
+[PDF] ok 81 - FlateDecode, RunLengthDecode roundtrip: low-repeat
+[PDF] ok 82 - FlateDecode, RunLengthDecode encoding - lives
+[PDF] ok 83 - FlateDecode, RunLengthDecode is encoded
+[PDF] ok 84 - FlateDecode, RunLengthDecode decoding - lives
+[PDF] ok 85 - FlateDecode, RunLengthDecode roundtrip: high-repeat
+[PDF] ok 86 - FlateDecode, RunLengthDecode encoding - lives
+[PDF] ok 87 - FlateDecode, RunLengthDecode is encoded
+[PDF] ok 88 - FlateDecode, RunLengthDecode decoding - lives
+[PDF] ok 89 - FlateDecode, RunLengthDecode roundtrip: longish
+[PDF] ok 90 - FlateDecode, RunLengthDecode Blob encoding - lives
+[PDF] ok 91 - FlateDecode, RunLengthDecode Blob decoding - lives
+[PDF] ok 92 - Blob round-trip
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/indobj-array.t
+[PDF] ===SORRY!=== Error while compiling t/indobj-array.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Array.rakumod (PDF::COS::Array)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie/Array.rakumod (PDF::COS::Tie::Array)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie/Array.rakumod (PDF::COS::Tie::Array):5
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Array.rakumod (PDF::COS::Array):8
+[PDF] at t/indobj-array.t:31
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/indobj-bool.t
+[PDF] 1..8
+[PDF] ok 1 - $.obj-num
+[PDF] ok 2 - $.gen-num
+[PDF] ok 3 - The object is-a 'Bool'
+[PDF] ok 4 - The object does role 'PDF::COS::Bool'
+[PDF] ok 5 - $.object
+[PDF] ok 6 - The object is-a 'Pair'
+[PDF] ok 7 - $.content
+[PDF] ok 8 - ast regeneration
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/indobj-dict.t
+[PDF] ===SORRY!=== Error while compiling t/indobj-dict.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at t/indobj-dict.t:7
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/indobj-name.t
+[PDF] 1..13
+[PDF] ok 1 - coerce to name subset
+[PDF] ok 2 - role hasn't leaked
+[PDF] ok 3 - coerce to enum lives
+[PDF] ok 4 - coerce to enum is name
+[PDF] ok 5 - content
+[PDF] ok 6 - The object is-a 'Str'
+[PDF] ok 7 - .object
+[PDF] ok 8 - $.obj-num
+[PDF] ok 9 - $.gen-num
+[PDF] ok 10 - $.object
+[PDF] ok 11 - The object is-a 'Pair'
+[PDF] ok 12 - $.content
+[PDF] ok 13 - ast regeneration
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/indobj-null.t
+[PDF] 1..10
+[PDF] ok 1 - The object is-a 'PDF::COS::Null'
+[PDF] ok 2 - $.obj-num
+[PDF] ok 3 - $.gen-num
+[PDF] ok 4 - The object is-a '"PDF::COS::Null"'
+[PDF] ok 5 - $.object
+[PDF] ok 6 - 
+[PDF] ok 7 - 
+[PDF] ok 8 - The object is-a 'Pair'
+[PDF] ok 9 - $.content
+[PDF] ok 10 - ast regeneration
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/indobj-num.t
+[PDF] ===SORRY!=== Error while compiling t/indobj-num.t
+[PDF] This element has not been resolved. Type: RakuAST::Var::Lexical
+[PDF] at t/indobj-num.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/indobj-stream.t
+[PDF] ===SORRY!=== Error while compiling t/indobj-stream.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream):5
+[PDF] at t/indobj-stream.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/indobj-string.t
+[PDF] 1..13
+[PDF] ok 1 - The object is-a 'Str'
+[PDF] ok 2 - $.obj-num
+[PDF] ok 3 - $.gen-num
+[PDF] ok 4 - $.object
+[PDF] ok 5 - The object is-a 'Pair'
+[PDF] ok 6 - $.content
+[PDF] ok 7 - The object is-a 'Str'
+[PDF] ok 8 - $.obj-num
+[PDF] ok 9 - $.gen-num
+[PDF] ok 10 - $.object
+[PDF] ok 11 - The object is-a 'Pair'
+[PDF] ok 12 - $.content
+[PDF] ok 13 - ast regeneration
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/indobj.t
+[PDF] 1..23
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream):5
+[PDF]   in sub resolve-package-slow-path at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 74
+[PDF]   in method required at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 78
+[PDF]   in method coerce at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS.rakumod (PDF::COS) line 147
+[PDF]   in submethod TWEAK at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/IndObj.rakumod (PDF::IO::IndObj) line 17
+[PDF]   in block <unit> at t/indobj.t line 17
+[PDF] # You planned 23 tests, but ran 0
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/io-crypt.t
+[PDF] ===SORRY!=== Error while compiling t/io-crypt.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/io-crypt.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/io-serialize.t
+[PDF] ===SORRY!=== Error while compiling t/io-serialize.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Serializer.rakumod (PDF::IO::Serializer)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream):5
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Serializer.rakumod (PDF::IO::Serializer):6
+[PDF] at t/io-serialize.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/io-util.t
+[PDF] 1..19
+[PDF] ok 1 - 4 bit unpack
+[PDF] ok 2 - pack round-trip: 8 => 4 => 8
+[PDF] ok 3 - 8 bit pack
+[PDF] ok 4 - 8 bit unpack
+[PDF] ok 5 - 16 bit unpack
+[PDF] ok 6 - resample round-trip: 16 => 8 => 16
+[PDF] ok 7 - 32 bit packing
+[PDF] ok 8 - 32 bit packing (twos comp)
+[PDF] ok 9 - 6 bit big-endian unpack
+[PDF] ok 10 - resample round-trip: 8 => 6 => 8
+[PDF] ok 11 - 1 bit unpack
+[PDF] ok 12 - 8 => 1 => 8 round trip
+[PDF] ok 13 - [1, 3, 2] unpack
+[PDF] ok 14 - [1, 3, 2] => 8 pack
+[PDF] ok 15 - @W[1, 2, 1] packing
+[PDF] ok 16 - 
+[PDF] ok 17 - packing widths - zero column
+[PDF] ok 18 - @W[1, 2, 0] pack
+[PDF] ok 19 - 
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/io.t
+[PDF] 1..37
+[PDF] ok 1 - The object is-a '"PDF::IO::Handle"'
+[PDF] ok 2 - The object is-a '"PDF::IO::Blob"'
+[PDF] ok 3 - 
+[PDF] ok 4 - 
+[PDF] ok 5 - The object is-a '"PDF::IO::Str"'
+[PDF] ok 6 - The object is-a 'PDF::IO'
+[PDF] ok 7 - in-ioh .codes
+[PDF] ok 8 - in-ioh read
+[PDF] ok 9 - in-ioh seek
+[PDF] ok 10 - in-ioh read
+[PDF] ok 11 - in-ioh head byte-str
+[PDF] ok 12 - in-ioh not at eof yet
+[PDF] ok 13 - in-ioh now at eof
+[PDF] ok 14 - in-ioh tail byte-str
+[PDF] ok 15 - in-ioh seek from beginning
+[PDF] ok 16 - in-ioh read from beginning
+[PDF] ok 17 - in-ioh seek from end
+[PDF] ok 18 - in-ioh read from end
+[PDF] ok 19 - in-ioh slurp
+[PDF] ok 20 - in-ioh close
+[PDF] ok 21 - The object is-a 'PDF::IO'
+[PDF] ok 22 - in-blob .codes
+[PDF] ok 23 - The object is-a 'PDF::IO'
+[PDF] ok 24 - in-str .codes
+[PDF] ok 25 - in-str read
+[PDF] ok 26 - in-str seek
+[PDF] ok 27 - in-str read
+[PDF] ok 28 - in-str head byte-str
+[PDF] ok 29 - in-str not at eof yet
+[PDF] ok 30 - in-str now at eof
+[PDF] ok 31 - in-str tail byte-str
+[PDF] ok 32 - in-str seek from beginning
+[PDF] ok 33 - in-str read from beginning
+[PDF] ok 34 - in-str seek from end
+[PDF] ok 35 - in-str read from end
+[PDF] ok 36 - in-str slurp
+[PDF] ok 37 - in-str close
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/pdf-cos.t
+[PDF] ===SORRY!=== Error while compiling t/pdf-cos.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/pdf-cos.t:2
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/pdf-crypt-aes.t
+[PDF] ===SORRY!=== Error while compiling t/pdf-crypt-aes.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/pdf-crypt-aes.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/pdf-crypt-rc4.t
+[PDF] ===SORRY!=== Error while compiling t/pdf-crypt-rc4.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/pdf-crypt-rc4.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/pdf-open.t
+[PDF] ===SORRY!=== Error while compiling t/pdf-open.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/pdf-open.t:4
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/pdf-reencrypt.t
+[PDF] ===SORRY!=== Error while compiling t/pdf-reencrypt.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/pdf-reencrypt.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/read-fdf.t
+[PDF] ===SORRY!=== Error while compiling t/read-fdf.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Reader.rakumod (PDF::IO::Reader)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt/PDF.rakumod (PDF::IO::Crypt::PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt.rakumod (PDF::IO::Crypt)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt.rakumod (PDF::IO::Crypt):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt/PDF.rakumod (PDF::IO::Crypt::PDF):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Reader.rakumod (PDF::IO::Reader):9
+[PDF] at t/read-fdf.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/read-pdf.t
+[PDF] ===SORRY!=== Error while compiling t/read-pdf.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Reader.rakumod (PDF::IO::Reader)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt/PDF.rakumod (PDF::IO::Crypt::PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt.rakumod (PDF::IO::Crypt)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt.rakumod (PDF::IO::Crypt):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt/PDF.rakumod (PDF::IO::Crypt::PDF):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Reader.rakumod (PDF::IO::Reader):9
+[PDF] at t/read-pdf.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/reader-deref.t
+[PDF] ===SORRY!=== Error while compiling t/reader-deref.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Reader.rakumod (PDF::IO::Reader)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt/PDF.rakumod (PDF::IO::Crypt::PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt.rakumod (PDF::IO::Crypt)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt.rakumod (PDF::IO::Crypt):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt/PDF.rakumod (PDF::IO::Crypt::PDF):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Reader.rakumod (PDF::IO::Reader):9
+[PDF] at t/reader-deref.t:6
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/reader-exceptions.t
+[PDF] ===SORRY!=== Error while compiling t/reader-exceptions.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Reader.rakumod (PDF::IO::Reader)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt/PDF.rakumod (PDF::IO::Crypt::PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt.rakumod (PDF::IO::Crypt)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt.rakumod (PDF::IO::Crypt):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Crypt/PDF.rakumod (PDF::IO::Crypt::PDF):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Reader.rakumod (PDF::IO::Reader):9
+[PDF] at t/reader-exceptions.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/threads.t
+[PDF] ===SORRY!=== Error while compiling t/threads.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/threads.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/update-encrypted.t
+[PDF] ===SORRY!=== Error while compiling t/update-encrypted.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/update-encrypted.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/update.t
+[PDF] ===SORRY!=== Error while compiling t/update.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF.rakumod (PDF):5
+[PDF] at t/update.t:5
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/write-ast.t
+[PDF] ===SORRY!=== Error while compiling t/write-ast.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Writer.rakumod (PDF::IO::Writer)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Type/XRef.rakumod (PDF::COS::Type::XRef)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream):5
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Type/XRef.rakumod (PDF::COS::Type::XRef):5
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Writer.rakumod (PDF::IO::Writer):8
+[PDF] at t/write-ast.t:6
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/write-indobj.t
+[PDF] ===SORRY!=== Error while compiling t/write-indobj.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Writer.rakumod (PDF::IO::Writer)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Type/XRef.rakumod (PDF::COS::Type::XRef)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream):5
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Type/XRef.rakumod (PDF::COS::Type::XRef):5
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Writer.rakumod (PDF::IO::Writer):8
+[PDF] at t/write-indobj.t:6
+[PDF] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15 t/write-pdf.t
+[PDF] ===SORRY!=== Error while compiling t/write-pdf.t
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Writer.rakumod (PDF::IO::Writer)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Type/XRef.rakumod (PDF::COS::Type::XRef)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict)
+[PDF] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie)
+[PDF] Malformed my
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Tie.rakumod (PDF::COS::Tie):170
+[PDF] ------>         my<HERE> :($sigil, $type) := do given $!type {
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Dict.rakumod (PDF::COS::Dict):8
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Stream.rakumod (PDF::COS::Stream):5
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/COS/Type/XRef.rakumod (PDF::COS::Type::XRef):5
+[PDF] at /blin/data/zef-data/tmp/8ed9b2ebd02a3a43a298ee8d299d2083410e3fe8.tar.gz/PDF-0.6.15/lib/PDF/IO/Writer.rakumod (PDF::IO::Writer):8
+[PDF] at t/write-pdf.t:10
+===> Testing [FAIL]: PDF:ver<0.6.15>:auth<zef:dwarring>
+[PDF] Failed to get passing tests, but continuing with --force-test
+===> Installing: PDF:ver<0.6.15>:auth<zef:dwarring>
+===> Install [OK] for PDF:ver<0.6.15>:auth<zef:dwarring>
+
+1 bin/ script [pdf-rewriter.raku] installed to:
+/blin/installed/PDF_0.6.15/bin

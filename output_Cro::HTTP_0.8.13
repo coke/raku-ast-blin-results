@@ -1,0 +1,1492 @@
+===> Searching for: Cro::HTTP
+===> Found: Cro::HTTP:ver<0.8.13>:auth<zef:cro>:api<0> [via Zef::Repository::Ecosystems<fez>]
+[Cro::HTTP] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781774749.497323.3120.6455703571432/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz https://360.zef.pm/C/RO/CRO_HTTP/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz
+===> Fetching [OK]: Cro::HTTP:ver<0.8.13>:auth<zef:cro>:api<0> to /blin/data/zef-data/tmp/1781774749.497323.3120.6455703571432/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz
+[Cro::HTTP] Command: tar -t -f ./3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz
+[Cro::HTTP] Command: tar -xvf ./3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz -C ../3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz
+===> Extraction [OK]: Cro::HTTP to /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz
+===> Testing: Cro::HTTP:ver<0.8.13>:auth<zef:cro>:api<0>
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-auth-basic-with-session.rakutest
+[Cro::HTTP] Potential difficulties:
+[Cro::HTTP]     Optional named parameter 'version' with subset type OpenSSL::ProtocolVersion needs a valid default value
+[Cro::HTTP]     otherwise it will throw exceptions when a value is absent at the callsite
+[Cro::HTTP]     at /blin/installed/IO::Socket::Async::SSL_0.8.2/sources/54DA18A673601FAFD8F6161DA647BED3ABCA650F (IO::Socket::Async::SSL):623
+[Cro::HTTP]     Optional named parameter 'version' with subset type OpenSSL::ProtocolVersion needs a valid default value
+[Cro::HTTP]     otherwise it will throw exceptions when a value is absent at the callsite
+[Cro::HTTP]     at /blin/installed/IO::Socket::Async::SSL_0.8.2/sources/54DA18A673601FAFD8F6161DA647BED3ABCA650F (IO::Socket::Async::SSL):738
+[Cro::HTTP] Could not find symbol '&InMemory' in 'Cro::HTTP::Session'
+[Cro::HTTP]   in block <unit> at t/http-auth-basic-with-session.rakutest line 22
+[Cro::HTTP] Some exceptions were thrown in END blocks:
+[Cro::HTTP]   X::Method::NotFound: No such method 'stop' for invocant of type 'Any'. Did you mean any of
+[Cro::HTTP] these: 'Slip', 'Str', 'skip', 'so'?
+[Cro::HTTP]       in any <main> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/runtime/perl6.moarvm line 1
+[Cro::HTTP]       in any <entry> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/runtime/perl6.moarvm line 1
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-auth-basic.rakutest
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 39
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Middleware.rakumod (Cro::HTTP::Middleware) line 185
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Internal.rakumod (Cro::HTTP::Internal) line 45
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 337
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 39
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Middleware.rakumod (Cro::HTTP::Middleware) line 185
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Internal.rakumod (Cro::HTTP::Internal) line 45
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 337
+[Cro::HTTP] An operation first awaited:
+[Cro::HTTP]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BEB7EB3E0A8B921B5ACB9F16103917443EF908CF (Cro) line 347
+[Cro::HTTP] Died with the exception:
+[Cro::HTTP]     Tried to get the result of a broken Promise
+[Cro::HTTP]       in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 108
+[Cro::HTTP]     Original exception:
+[Cro::HTTP]         connection refused
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-auth-webtoken-bearer.rakutest
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 39
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Internal.rakumod (Cro::HTTP::Internal) line 45
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 337
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 39
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Internal.rakumod (Cro::HTTP::Internal) line 45
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 337
+[Cro::HTTP] An operation first awaited:
+[Cro::HTTP]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BEB7EB3E0A8B921B5ACB9F16103917443EF908CF (Cro) line 347
+[Cro::HTTP] Died with the exception:
+[Cro::HTTP]     Tried to get the result of a broken Promise
+[Cro::HTTP]       in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 108
+[Cro::HTTP]     Original exception:
+[Cro::HTTP]         connection refused
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-auth-webtoken-cookie.rakutest
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 39
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Internal.rakumod (Cro::HTTP::Internal) line 45
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 337
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 39
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Internal.rakumod (Cro::HTTP::Internal) line 45
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 337
+[Cro::HTTP] An operation first awaited:
+[Cro::HTTP]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BEB7EB3E0A8B921B5ACB9F16103917443EF908CF (Cro) line 347
+[Cro::HTTP] Died with the exception:
+[Cro::HTTP]     Tried to get the result of a broken Promise
+[Cro::HTTP]       in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 108
+[Cro::HTTP]     Original exception:
+[Cro::HTTP]         connection refused
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-cookie.rakutest
+[Cro::HTTP] ok 1 - Correct cookie names are into the subset
+[Cro::HTTP] ok 2 - Empty cookie name is now allowed
+[Cro::HTTP] ok 3 - No parens allowed in a cookie
+[Cro::HTTP] ok 4 - Cookie octet can be wrapped in double quotes
+[Cro::HTTP] # Subtest: Incorrect symbols are outside of CookieName subset
+[Cro::HTTP]     ok 1 - 
+[Cro::HTTP]     ok 2 - 
+[Cro::HTTP]     ok 3 - 
+[Cro::HTTP]     ok 4 - 
+[Cro::HTTP]     ok 5 - 
+[Cro::HTTP]     ok 6 - 
+[Cro::HTTP]     ok 7 - 
+[Cro::HTTP]     ok 8 - 
+[Cro::HTTP]     ok 9 - 
+[Cro::HTTP]     ok 10 - 
+[Cro::HTTP]     ok 11 - 
+[Cro::HTTP]     ok 12 - 
+[Cro::HTTP]     ok 13 - 
+[Cro::HTTP]     ok 14 - 
+[Cro::HTTP]     ok 15 - 
+[Cro::HTTP]     ok 16 - 
+[Cro::HTTP]     ok 17 - 
+[Cro::HTTP]     ok 18 - 
+[Cro::HTTP]     ok 19 - 
+[Cro::HTTP]     ok 20 - 
+[Cro::HTTP]     ok 21 - 
+[Cro::HTTP]     ok 22 - 
+[Cro::HTTP]     ok 23 - 
+[Cro::HTTP]     ok 24 - 
+[Cro::HTTP]     ok 25 - 
+[Cro::HTTP]     ok 26 - 
+[Cro::HTTP]     ok 27 - 
+[Cro::HTTP]     ok 28 - 
+[Cro::HTTP]     ok 29 - 
+[Cro::HTTP]     ok 30 - 
+[Cro::HTTP]     ok 31 - 
+[Cro::HTTP]     ok 32 - 
+[Cro::HTTP]     ok 33 - 
+[Cro::HTTP]     ok 34 - 
+[Cro::HTTP]     ok 35 - 
+[Cro::HTTP]     ok 36 - 
+[Cro::HTTP]     ok 37 - 
+[Cro::HTTP]     ok 38 - 
+[Cro::HTTP]     ok 39 - 
+[Cro::HTTP]     ok 40 - 
+[Cro::HTTP]     ok 41 - 
+[Cro::HTTP]     ok 42 - 
+[Cro::HTTP]     ok 43 - 
+[Cro::HTTP]     ok 44 - 
+[Cro::HTTP]     ok 45 - 
+[Cro::HTTP]     ok 46 - 
+[Cro::HTTP]     ok 47 - 
+[Cro::HTTP]     ok 48 - 
+[Cro::HTTP]     ok 49 - 
+[Cro::HTTP]     ok 50 - 
+[Cro::HTTP]     ok 51 - 
+[Cro::HTTP]     1..51
+[Cro::HTTP] ok 5 - Incorrect symbols are outside of CookieName subset
+[Cro::HTTP] ok 6 - Correct cookie values are into the subset
+[Cro::HTTP] ok 7 - Empty cookie value is allowed
+[Cro::HTTP] # Subtest: Incorrect symbols are outside of CookieValue subset
+[Cro::HTTP]     ok 1 - 
+[Cro::HTTP]     ok 2 - 
+[Cro::HTTP]     ok 3 - 
+[Cro::HTTP]     ok 4 - 
+[Cro::HTTP]     ok 5 - 
+[Cro::HTTP]     1..5
+[Cro::HTTP] ok 8 - Incorrect symbols are outside of CookieValue subset
+[Cro::HTTP] ok 9 - Correct domain name works
+[Cro::HTTP] ok 10 - Incorrect domain name with bad character
+[Cro::HTTP] ok 11 - Empty domain name cannot be created
+[Cro::HTTP] ok 12 - Domain name cannot contain spaces
+[Cro::HTTP] ok 13 - Set-Cookie string 1 parses
+[Cro::HTTP] ok 14 - Set-Cookie string 2 parses
+[Cro::HTTP] ok 15 - Set-Cookie string 3 parses
+[Cro::HTTP] ok 16 - Set-Cookie ala buggy Tomcat (missing space); we tolerate this
+[Cro::HTTP] ok 17 - Cookie cannot be created with no arguments
+[Cro::HTTP] ok 18 - Cookie cannot be created without value
+[Cro::HTTP] ok 19 - Cookie cannot be created without name
+[Cro::HTTP] ok 20 - Cookie can be created
+[Cro::HTTP] ok 21 - New is read only
+[Cro::HTTP] ok 22 - Value is read only
+[Cro::HTTP] ok 23 - Expires is read only
+[Cro::HTTP] ok 24 - Max-age is read only
+[Cro::HTTP] ok 25 - Domain is read only
+[Cro::HTTP] ok 26 - Path is read only
+[Cro::HTTP] ok 27 - Secure is read only
+[Cro::HTTP] ok 28 - Http-only is read only
+[Cro::HTTP] ok 29 - SameSite is read only
+[Cro::HTTP] ok 30 - Set cookie 1 works
+[Cro::HTTP] ok 31 - Cookie 1 works
+[Cro::HTTP] ok 32 - Cookie 1 can be parsed
+[Cro::HTTP] ok 33 - Set cookie 2 works
+[Cro::HTTP] ok 34 - Cookie 2 works
+[Cro::HTTP] ok 35 - Cookie 2 can be parsed
+[Cro::HTTP] ok 36 - Set cookie 3 works
+[Cro::HTTP] ok 37 - Cookie 3 works
+[Cro::HTTP] ok 38 - Cookie 3 can be parsed
+[Cro::HTTP] ok 39 - Set cookie 4 works
+[Cro::HTTP] ok 40 - Cookie 4 works
+[Cro::HTTP] ok 41 - Cookie 4 can be parsed
+[Cro::HTTP] ok 42 - Invalid SameSite value discarded
+[Cro::HTTP] ok 43 - Valid SameSite value cookie 0 can be parsed
+[Cro::HTTP] ok 44 - Valid SameSite value cookie 1 can be parsed
+[Cro::HTTP] ok 45 - Valid SameSite value cookie 2 can be parsed
+[Cro::HTTP] ok 46 - Correct path after extension
+[Cro::HTTP] ok 47 - Secure parsed after extension
+[Cro::HTTP] ok 48 - Extensions are parsed and extracted also
+[Cro::HTTP] ok 49 - Correct cookie name when illegal whitespace in value
+[Cro::HTTP] ok 50 - Cookie value parsed up to illegal whitespace
+[Cro::HTTP] ok 51 - Recovered to parse path after illegal cookie value
+[Cro::HTTP] 1..51
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-cookiejar.rakutest
+[Cro::HTTP] ok 1 - Empty cookie jar contents returns empty list
+[Cro::HTTP] ok 2 - Empty cookie jar contents with uri returns empty list
+[Cro::HTTP] ok 3 - Two cookies were added
+[Cro::HTTP] ok 4 - Cookie addition is neutral
+[Cro::HTTP] ok 5 - Cookie with bad domain was not added
+[Cro::HTTP] ok 6 - Uri-based check
+[Cro::HTTP] ok 7 - Good cookies are here
+[Cro::HTTP] ok 8 - Clear for absent url leaves jar untouched
+[Cro::HTTP] ok 9 - Clear for absent url with existing cookie name leaves jar untouched
+[Cro::HTTP] ok 10 - One cookie was removed
+[Cro::HTTP] ok 11 - All cookies from correct domain were removed
+[Cro::HTTP] ok 12 - Call to clear clears cookie jar
+[Cro::HTTP] ok 13 - Cookie with duration was added successfully
+[Cro::HTTP] ok 14 - Creation time is preserved during cookie update
+[Cro::HTTP] ok 15 - Cookie was deleted on negative-time cookie addition
+[Cro::HTTP] ok 16 - Cookies are added for sub-domains
+[Cro::HTTP] ok 17 - Rejected for incorrect sub-domain
+[Cro::HTTP] ok 18 - Header was added
+[Cro::HTTP] ok 19 - Set string is correct
+[Cro::HTTP] ok 20 - A single cookie was added, successfully
+[Cro::HTTP] ok 21 - Added cookie has correct name
+[Cro::HTTP] ok 22 - Added cookie has correct value
+[Cro::HTTP] ok 23 - Added cookie has proper domain
+[Cro::HTTP] ok 24 - Added cookie has proper path
+[Cro::HTTP] ok 25 - Cookie has proper expiration time
+[Cro::HTTP] ok 26 - A second cookie was added successfully
+[Cro::HTTP] ok 27 - New cookie is not persistent
+[Cro::HTTP] ok 28 - New cookie has expected expiration time with no max-age set
+[Cro::HTTP] ok 29 - First cookie was added to request
+[Cro::HTTP] ok 30 - Second cookie was added to request
+[Cro::HTTP] 1..30
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-log-file.rakutest
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 39
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Middleware.rakumod (Cro::HTTP::Middleware) line 72
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Log/File.rakumod (Cro::HTTP::Log::File) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Internal.rakumod (Cro::HTTP::Internal) line 45
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 337
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 39
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Middleware.rakumod (Cro::HTTP::Middleware) line 72
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Log/File.rakumod (Cro::HTTP::Log::File) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Internal.rakumod (Cro::HTTP::Internal) line 45
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 337
+[Cro::HTTP] not ok 1 - Correct responses logged
+[Cro::HTTP] # Failed test 'Correct responses logged'
+[Cro::HTTP] # at t/http-log-file.rakutest line 67
+[Cro::HTTP] # expected a match with: /'[OK] 200 / - '      ('127.0.0.1' || '::1') \n
+[Cro::HTTP] #          '[OK] 200 /route - ' ('127.0.0.1' || '::1') \n
+[Cro::HTTP] #          '[OK] 200 /route - ' ('127.0.0.1' || '::1') \n
+[Cro::HTTP] #          '[OK] 200 /special/first - ' ('127.0.0.1' || '::1') \n/
+[Cro::HTTP] #                   got: "[OK] 200 / - 127.0.0.1\n"
+[Cro::HTTP] not ok 2 - Error responses logged
+[Cro::HTTP] # Failed test 'Error responses logged'
+[Cro::HTTP] # at t/http-log-file.rakutest line 73
+[Cro::HTTP] # expected a match with: /'[ERROR] 500 /error - ' ('127.0.0.1' || '::1') \n/
+[Cro::HTTP] #                   got: ""
+[Cro::HTTP] 1..2
+[Cro::HTTP] # You failed 2 tests of 2
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-middleware.rakutest
+[Cro::HTTP] # Subtest: Request and response middleware written using a transform
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 39
+[Cro::HTTP]   in block  at t/http-middleware.rakutest line 68
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Internal.rakumod (Cro::HTTP::Internal) line 45
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 337
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 39
+[Cro::HTTP]   in block  at t/http-middleware.rakutest line 68
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Internal.rakumod (Cro::HTTP::Internal) line 45
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 337
+[Cro::HTTP] An operation first awaited:
+[Cro::HTTP]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BEB7EB3E0A8B921B5ACB9F16103917443EF908CF (Cro) line 347
+[Cro::HTTP] Died with the exception:
+[Cro::HTTP]     Tried to get the result of a broken Promise
+[Cro::HTTP]       in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 108
+[Cro::HTTP]     Original exception:
+[Cro::HTTP]         connection refused
+[Cro::HTTP]           in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 108
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-rawbodyparserselector.rakutest
+[Cro::HTTP] ok 1 - got the correct 'Cro::HTTP::RawBodyParser'
+[Cro::HTTP] ok 2 - No content-length or transfer-encoding
+[Cro::HTTP] ok 3 - got the correct 'Cro::HTTP::RawBodyParser'
+[Cro::HTTP] ok 4 - Content-Length
+[Cro::HTTP] ok 5 - got the correct 'Cro::HTTP::RawBodyParser'
+[Cro::HTTP] ok 6 - Chunked transfer encoding
+[Cro::HTTP] ok 7 - got the correct 'Cro::HTTP::RawBodyParser'
+[Cro::HTTP] ok 8 - Identity transfer encoding - no content-length
+[Cro::HTTP] ok 9 - got the correct 'Cro::HTTP::RawBodyParser'
+[Cro::HTTP] ok 10 - Identity transfer encoding - with content-length
+[Cro::HTTP] 1..10
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-request-parser.rakutest
+[Cro::HTTP] ok 1 - HTTP request parser is a transform
+[Cro::HTTP] ok 2 - HTTP request parser consumes TCP messages
+[Cro::HTTP] ok 3 - HTTP request parser produces HTTP requests
+[Cro::HTTP] ok 4 - Malformed request line - only verb
+[Cro::HTTP] ok 5 - check 1
+[Cro::HTTP] ok 6 - Malformed request line - no version
+[Cro::HTTP] ok 7 - check 1
+[Cro::HTTP] ok 8 - Malformed request line - utter crap
+[Cro::HTTP] ok 9 - check 1
+[Cro::HTTP] ok 10 - Malformed HTTP version (1)
+[Cro::HTTP] ok 11 - check 1
+[Cro::HTTP] ok 12 - Malformed HTTP version (2)
+[Cro::HTTP] ok 13 - check 1
+[Cro::HTTP] ok 14 - Malformed HTTP version (3)
+[Cro::HTTP] ok 15 - check 1
+[Cro::HTTP] ok 16 - Malformed HTTP version (4)
+[Cro::HTTP] ok 17 - check 1
+[Cro::HTTP] ok 18 - Malformed HTTP version (5)
+[Cro::HTTP] ok 19 - check 1
+[Cro::HTTP] ok 20 - Unimplemented HTTP version
+[Cro::HTTP] ok 21 - check 1
+[Cro::HTTP] ok 22 - Simple GET request with no headers
+[Cro::HTTP] ok 23 - check 1
+[Cro::HTTP] ok 24 - check 2
+[Cro::HTTP] ok 25 - check 3
+[Cro::HTTP] ok 26 - Simple HEAD request with no headers
+[Cro::HTTP] ok 27 - check 1
+[Cro::HTTP] ok 28 - check 2
+[Cro::HTTP] ok 29 - check 3
+[Cro::HTTP] ok 30 - Simple POST request with no headers
+[Cro::HTTP] ok 31 - check 1
+[Cro::HTTP] ok 32 - check 2
+[Cro::HTTP] ok 33 - check 3
+[Cro::HTTP] ok 34 - Simple PUT request with no headers
+[Cro::HTTP] ok 35 - check 1
+[Cro::HTTP] ok 36 - check 2
+[Cro::HTTP] ok 37 - check 3
+[Cro::HTTP] ok 38 - Simple DELETE request with no headers
+[Cro::HTTP] ok 39 - check 1
+[Cro::HTTP] ok 40 - check 2
+[Cro::HTTP] ok 41 - check 3
+[Cro::HTTP] ok 42 - Simple OPTIONS request with no headers
+[Cro::HTTP] ok 43 - check 1
+[Cro::HTTP] ok 44 - check 2
+[Cro::HTTP] ok 45 - check 3
+[Cro::HTTP] ok 46 - The TRACE method, as it is not implemented by default
+[Cro::HTTP] ok 47 - check 1
+[Cro::HTTP] ok 48 - Simple PATCH request with no headers
+[Cro::HTTP] ok 49 - check 1
+[Cro::HTTP] ok 50 - check 2
+[Cro::HTTP] ok 51 - check 3
+[Cro::HTTP] ok 52 - The TRACE method, as it is not implemented by default
+[Cro::HTTP] ok 53 - check 1
+[Cro::HTTP] ok 54 - The TRACE method if included in allowed-methods
+[Cro::HTTP] ok 55 - check 1
+[Cro::HTTP] ok 56 - check 2
+[Cro::HTTP] ok 57 - check 3
+[Cro::HTTP] ok 58 - PUT when it is not included in the allowed methods
+[Cro::HTTP] ok 59 - check 1
+[Cro::HTTP] ok 60 - An empty line before the request line
+[Cro::HTTP] ok 61 - check 1
+[Cro::HTTP] ok 62 - check 2
+[Cro::HTTP] ok 63 - check 3
+[Cro::HTTP] ok 64 - A few empty lines before the request line
+[Cro::HTTP] ok 65 - check 1
+[Cro::HTTP] ok 66 - check 2
+[Cro::HTTP] ok 67 - check 3
+[Cro::HTTP] ok 68 - Host header
+[Cro::HTTP] ok 69 - check 1
+[Cro::HTTP] ok 70 - check 2
+[Cro::HTTP] ok 71 - check 3
+[Cro::HTTP] ok 72 - check 4
+[Cro::HTTP] ok 73 - check 5
+[Cro::HTTP] ok 74 - check 6
+[Cro::HTTP] ok 75 - check 7
+[Cro::HTTP] ok 76 - Host header with no whitespace
+[Cro::HTTP] ok 77 - check 1
+[Cro::HTTP] ok 78 - check 2
+[Cro::HTTP] ok 79 - check 3
+[Cro::HTTP] ok 80 - check 4
+[Cro::HTTP] ok 81 - check 5
+[Cro::HTTP] ok 82 - check 6
+[Cro::HTTP] ok 83 - check 7
+[Cro::HTTP] ok 84 - Host header with trailing whitespace
+[Cro::HTTP] ok 85 - check 1
+[Cro::HTTP] ok 86 - check 2
+[Cro::HTTP] ok 87 - check 3
+[Cro::HTTP] ok 88 - check 4
+[Cro::HTTP] ok 89 - check 5
+[Cro::HTTP] ok 90 - check 6
+[Cro::HTTP] ok 91 - check 7
+[Cro::HTTP] ok 92 - Host header with tab before and after value
+[Cro::HTTP] ok 93 - check 1
+[Cro::HTTP] ok 94 - check 2
+[Cro::HTTP] ok 95 - check 3
+[Cro::HTTP] ok 96 - check 4
+[Cro::HTTP] ok 97 - check 5
+[Cro::HTTP] ok 98 - check 6
+[Cro::HTTP] ok 99 - check 7
+[Cro::HTTP] ok 100 - Header with insane but actually totally legit name
+[Cro::HTTP] ok 101 - check 1
+[Cro::HTTP] ok 102 - check 2
+[Cro::HTTP] ok 103 - check 3
+[Cro::HTTP] ok 104 - check 4
+[Cro::HTTP] ok 105 - check 5
+[Cro::HTTP] ok 106 - check 6
+[Cro::HTTP] ok 107 - check 7
+[Cro::HTTP] ok 108 - Not allowed " in header
+[Cro::HTTP] ok 109 - check 1
+[Cro::HTTP] ok 110 - Not allowed ( in header
+[Cro::HTTP] ok 111 - check 1
+[Cro::HTTP] ok 112 - Not allowed ) in header
+[Cro::HTTP] ok 113 - check 1
+[Cro::HTTP] ok 114 - Not allowed [ in header
+[Cro::HTTP] ok 115 - check 1
+[Cro::HTTP] ok 116 - Not allowed ] in header
+[Cro::HTTP] ok 117 - check 1
+[Cro::HTTP] ok 118 - Not allowed { in header
+[Cro::HTTP] ok 119 - check 1
+[Cro::HTTP] ok 120 - Not allowed } in header
+[Cro::HTTP] ok 121 - check 1
+[Cro::HTTP] ok 122 - Not allowed @ in header
+[Cro::HTTP] ok 123 - check 1
+[Cro::HTTP] ok 124 - Not allowed \ in header
+[Cro::HTTP] ok 125 - check 1
+[Cro::HTTP] ok 126 - Not allowed / in header
+[Cro::HTTP] ok 127 - check 1
+[Cro::HTTP] ok 128 - Not allowed < in header
+[Cro::HTTP] ok 129 - check 1
+[Cro::HTTP] ok 130 - Not allowed > in header
+[Cro::HTTP] ok 131 - check 1
+[Cro::HTTP] ok 132 - Not allowed , in header
+[Cro::HTTP] ok 133 - check 1
+[Cro::HTTP] ok 134 - Not allowed ; in header
+[Cro::HTTP] ok 135 - check 1
+[Cro::HTTP] ok 136 - Header with empty field
+[Cro::HTTP] ok 137 - check 1
+[Cro::HTTP] ok 138 - check 2
+[Cro::HTTP] ok 139 - check 3
+[Cro::HTTP] ok 140 - check 4
+[Cro::HTTP] ok 141 - check 5
+[Cro::HTTP] ok 142 - check 6
+[Cro::HTTP] ok 143 - check 7
+[Cro::HTTP] ok 144 - Field value can be any printable char including latin-1 range
+[Cro::HTTP] ok 145 - check 1
+[Cro::HTTP] ok 146 - check 2
+[Cro::HTTP] ok 147 - check 3
+[Cro::HTTP] ok 148 - check 4
+[Cro::HTTP] ok 149 - check 5
+[Cro::HTTP] ok 150 - check 6
+[Cro::HTTP] ok 151 - check 7
+[Cro::HTTP] ok 152 - Field values may have whitespace in them
+[Cro::HTTP] ok 153 - check 1
+[Cro::HTTP] ok 154 - check 2
+[Cro::HTTP] ok 155 - check 3
+[Cro::HTTP] ok 156 - check 4
+[Cro::HTTP] ok 157 - check 5
+[Cro::HTTP] ok 158 - check 6
+[Cro::HTTP] ok 159 - check 7
+[Cro::HTTP] ok 160 - Whitespace after field name ignored
+[Cro::HTTP] ok 161 - check 1
+[Cro::HTTP] ok 162 - check 2
+[Cro::HTTP] ok 163 - check 3
+[Cro::HTTP] ok 164 - check 4
+[Cro::HTTP] ok 165 - check 5
+[Cro::HTTP] ok 166 - check 6
+[Cro::HTTP] ok 167 - check 7
+[Cro::HTTP] ok 168 - Control chars other than space/tab not allowed (0)
+[Cro::HTTP] ok 169 - check 1
+[Cro::HTTP] ok 170 - Control chars other than space/tab not allowed (1)
+[Cro::HTTP] ok 171 - check 1
+[Cro::HTTP] ok 172 - Request with multiple headers (example from RFC)
+[Cro::HTTP] ok 173 - check 1
+[Cro::HTTP] ok 174 - check 2
+[Cro::HTTP] ok 175 - check 3
+[Cro::HTTP] ok 176 - check 4
+[Cro::HTTP] ok 177 - check 5
+[Cro::HTTP] ok 178 - check 6
+[Cro::HTTP] ok 179 - check 7
+[Cro::HTTP] ok 180 - check 8
+[Cro::HTTP] ok 181 - check 9
+[Cro::HTTP] ok 182 - check 10
+[Cro::HTTP] ok 183 - check 11
+[Cro::HTTP] ok 184 - check 12
+[Cro::HTTP] ok 185 - check 13
+[Cro::HTTP] ok 186 - Request path and path segments for /hello.txt
+[Cro::HTTP] ok 187 - check 1
+[Cro::HTTP] ok 188 - check 2
+[Cro::HTTP] ok 189 - Request path and path segments for /oh/my/path
+[Cro::HTTP] ok 190 - check 1
+[Cro::HTTP] ok 191 - check 2
+[Cro::HTTP] ok 192 - Query strings are parsed and accessible
+[Cro::HTTP] ok 193 - check 1
+[Cro::HTTP] ok 194 - check 2
+[Cro::HTTP] ok 195 - check 3
+[Cro::HTTP] ok 196 - check 4
+[Cro::HTTP] ok 197 - check 5
+[Cro::HTTP] ok 198 - check 6
+[Cro::HTTP] ok 199 - check 7
+[Cro::HTTP] ok 200 - Query strings with empty values
+[Cro::HTTP] ok 201 - check 1
+[Cro::HTTP] ok 202 - check 2
+[Cro::HTTP] ok 203 - check 3
+[Cro::HTTP] ok 204 - check 4
+[Cro::HTTP] ok 205 - check 5
+[Cro::HTTP] ok 206 - check 6
+[Cro::HTTP] ok 207 - check 7
+[Cro::HTTP] ok 208 - Query string keys and values that are encoded
+[Cro::HTTP] ok 209 - check 1
+[Cro::HTTP] ok 210 - check 2
+[Cro::HTTP] ok 211 - check 3
+[Cro::HTTP] ok 212 - check 4
+[Cro::HTTP] ok 213 - check 5
+[Cro::HTTP] ok 214 - check 6
+[Cro::HTTP] ok 215 - check 7
+[Cro::HTTP] ok 216 - Query strings with multiple values for the same key
+[Cro::HTTP] ok 217 - check 1
+[Cro::HTTP] ok 218 - check 2
+[Cro::HTTP] ok 219 - check 3
+[Cro::HTTP] ok 220 - check 4
+[Cro::HTTP] ok 221 - check 5
+[Cro::HTTP] ok 222 - check 6
+[Cro::HTTP] ok 223 - check 7
+[Cro::HTTP] ok 224 - check 8
+[Cro::HTTP] ok 225 - check 9
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 226 - Request with body, length specified by content-length
+[Cro::HTTP] # Failed test 'Request with body, length specified by content-length'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] ok 227 - # SKIP Failed to parse
+[Cro::HTTP] ok 228 - # SKIP Failed to parse
+[Cro::HTTP] ok 229 - # SKIP Failed to parse
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 230 - Request with body, sent with chunked encoding
+[Cro::HTTP] # Failed test 'Request with body, sent with chunked encoding'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] ok 231 - # SKIP Failed to parse
+[Cro::HTTP] ok 232 - # SKIP Failed to parse
+[Cro::HTTP] ok 233 - # SKIP Failed to parse
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 234 - A text/whatever request with body
+[Cro::HTTP] # Failed test 'A text/whatever request with body'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 235 - A unknown/foo request with body
+[Cro::HTTP] # Failed test 'A unknown/foo request with body'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] # Failed test 'Basic case of application/x-www-form-urlencoded'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] not ok 236 - Basic case of application/x-www-form-urlencoded
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] # Failed test 'Multiple entries with same name in application/x-www-form-urlencoded'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] not ok 237 - Multiple entries with same name in application/x-www-form-urlencoded
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] # Failed test 'Charset present in content-type header field after application/x-www-form-urlencoded'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] not ok 238 - Charset present in content-type header field after application/x-www-form-urlencoded
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 239 - WWWFormUrlEncoded with empty body
+[Cro::HTTP] # Failed test 'WWWFormUrlEncoded with empty body'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 240 - Basic %-encoded things in an application/x-www-form-urlencoded
+[Cro::HTTP] # Failed test 'Basic %-encoded things in an application/x-www-form-urlencoded'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] # Failed test '%-encoded non-ASCII is utf-8 by default in  application/x-www-form-urlencoded'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] not ok 241 - %-encoded non-ASCII is utf-8 by default in  application/x-www-form-urlencoded
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 242 - Can pick default encoding for application/x-www-form-urlencoded
+[Cro::HTTP] # Failed test 'Can pick default encoding for application/x-www-form-urlencoded'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 243 - Respects encoding set by _charset_ in application/x-www-form-urlencoded
+[Cro::HTTP] # Failed test 'Respects encoding set by _charset_ in application/x-www-form-urlencoded'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 244 - A _charset_ in application/x-www-form-urlencoded overrides configured default
+[Cro::HTTP] # Failed test 'A _charset_ in application/x-www-form-urlencoded overrides configured default'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 245 - No errors on keys with empty value or missing value
+[Cro::HTTP] # Failed test 'No errors on keys with empty value or missing value'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 246 - Simple multipart/form-data
+[Cro::HTTP] # Failed test 'Simple multipart/form-data'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 247 - A multipart/form-data with a file upload
+[Cro::HTTP] # Failed test 'A multipart/form-data with a file upload'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 248 - An application/json request decodes JSON body
+[Cro::HTTP] # Failed test 'An application/json request decodes JSON body'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] # Request parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 249 - An media type with the +json suffix decodes JSON body
+[Cro::HTTP] # Failed test 'An media type with the +json suffix decodes JSON body'
+[Cro::HTTP] # at t/http-request-parser.rakutest line 41
+[Cro::HTTP] Unhandled exception in code scheduled on thread 8
+[Cro::HTTP] Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/RequestParser.rakumod (Cro::HTTP::RequestParser) line 109
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/RequestParser.rakumod (Cro::HTTP::RequestParser) line 105
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/RequestParser.rakumod (Cro::HTTP::RequestParser) line 55
+[Cro::HTTP]   in block  at t/http-request-parser.rakutest line 909
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-request-serializer.rakutest
+[Cro::HTTP] ok 1 - Basic request with no Host header uses HTTP/1.0
+[Cro::HTTP] ok 2 - Basic request with Host header uses HTTP/1.1
+[Cro::HTTP] Too few positionals passed; expected 1 argument but got 0
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/RequestSerializer.rakumod (Cro::HTTP::RequestSerializer) line 16
+[Cro::HTTP]   in sub is-request at t/http-request-serializer.rakutest line 10
+[Cro::HTTP]   in block <unit> at t/http-request-serializer.rakutest line 45
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-request.rakutest
+[Cro::HTTP] # Subtest: Request missing method and target throws on .Str
+[Cro::HTTP]     1..2
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Request::Incomplete)
+[Cro::HTTP] ok 1 - Request missing method and target throws on .Str
+[Cro::HTTP] # Subtest: Request missing target throws on .Str
+[Cro::HTTP]     1..2
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Request::Incomplete)
+[Cro::HTTP] ok 2 - Request missing target throws on .Str
+[Cro::HTTP] # Subtest: Request missing method throws on .Str
+[Cro::HTTP]     1..2
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Request::Incomplete)
+[Cro::HTTP] ok 3 - Request missing method throws on .Str
+[Cro::HTTP] ok 4 - Can serialize simple request built with accessors (HTTP/1.0 with no Host)
+[Cro::HTTP] ok 5 - Can serialize simple request with method/target in constructor (HTTP/1.0 with no Host)
+[Cro::HTTP] ok 6 - Lowercase method not allowed
+[Cro::HTTP] ok 7 - Mixed case method not allowed
+[Cro::HTTP] ok 8 - Method with space not allowed
+[Cro::HTTP] ok 9 - Target with space in not allowed
+[Cro::HTTP] ok 10 - Target with newline in not allowed
+[Cro::HTTP] ok 11 - Target with control char not allowed
+[Cro::HTTP] ok 12 - Target with non-Latin-1 characters not allowed
+[Cro::HTTP] ok 13 - Request with Host header will use HTTP/1.1
+[Cro::HTTP] ok 14 - Request header constructed with single-arg append-header overload works
+[Cro::HTTP] ok 15 - Refuses to add request header with illegal control char in value (single-arg)
+[Cro::HTTP] ok 16 - Refuses to add request header with illegal control char in value (single-arg)
+[Cro::HTTP] ok 17 - Refuses to add request header with illegal control char in value (single-arg)
+[Cro::HTTP] ok 18 - Refuses to add request header with illegal control char in value (single-arg)
+[Cro::HTTP] ok 19 - Refuses to add request header with illegal name containing " (single-arg)
+[Cro::HTTP] ok 20 - Refuses to add request header with illegal name containing ( (single-arg)
+[Cro::HTTP] ok 21 - Refuses to add request header with illegal name containing ) (single-arg)
+[Cro::HTTP] ok 22 - Refuses to add request header with illegal name containing [ (single-arg)
+[Cro::HTTP] ok 23 - Refuses to add request header with illegal name containing ] (single-arg)
+[Cro::HTTP] ok 24 - Refuses to add request header with illegal name containing { (single-arg)
+[Cro::HTTP] ok 25 - Refuses to add request header with illegal name containing } (single-arg)
+[Cro::HTTP] ok 26 - Refuses to add request header with illegal name containing @ (single-arg)
+[Cro::HTTP] ok 27 - Refuses to add request header with illegal name containing \ (single-arg)
+[Cro::HTTP] ok 28 - Refuses to add request header with illegal name containing / (single-arg)
+[Cro::HTTP] ok 29 - Refuses to add request header with illegal name containing < (single-arg)
+[Cro::HTTP] ok 30 - Refuses to add request header with illegal name containing > (single-arg)
+[Cro::HTTP] ok 31 - Refuses to add request header with illegal name containing , (single-arg)
+[Cro::HTTP] ok 32 - Refuses to add request header with illegal name containing ; (single-arg)
+[Cro::HTTP] ok 33 - Utterly crazy but valid header can be added (single-arg)
+[Cro::HTTP] ok 34 - Request header constructed with two-arg append-header overload works
+[Cro::HTTP] ok 35 - Refuses to add request header with illegal control char in value (two-arg)
+[Cro::HTTP] ok 36 - Refuses to add request header with illegal control char in value (two-arg)
+[Cro::HTTP] ok 37 - Refuses to add request header with illegal control char in value (two-arg)
+[Cro::HTTP] ok 38 - Refuses to add request header with illegal control char in value (two-arg)
+[Cro::HTTP] ok 39 - Refuses to add request header with illegal name containing " (two-arg)
+[Cro::HTTP] ok 40 - Refuses to add request header with illegal name containing ( (two-arg)
+[Cro::HTTP] ok 41 - Refuses to add request header with illegal name containing ) (two-arg)
+[Cro::HTTP] ok 42 - Refuses to add request header with illegal name containing [ (two-arg)
+[Cro::HTTP] ok 43 - Refuses to add request header with illegal name containing ] (two-arg)
+[Cro::HTTP] ok 44 - Refuses to add request header with illegal name containing { (two-arg)
+[Cro::HTTP] ok 45 - Refuses to add request header with illegal name containing } (two-arg)
+[Cro::HTTP] ok 46 - Refuses to add request header with illegal name containing @ (two-arg)
+[Cro::HTTP] ok 47 - Refuses to add request header with illegal name containing \ (two-arg)
+[Cro::HTTP] ok 48 - Refuses to add request header with illegal name containing / (two-arg)
+[Cro::HTTP] ok 49 - Refuses to add request header with illegal name containing < (two-arg)
+[Cro::HTTP] ok 50 - Refuses to add request header with illegal name containing > (two-arg)
+[Cro::HTTP] ok 51 - Refuses to add request header with illegal name containing , (two-arg)
+[Cro::HTTP] ok 52 - Refuses to add request header with illegal name containing ; (two-arg)
+[Cro::HTTP] ok 53 - Utterly crazy but valid header can be added (two-arg)
+[Cro::HTTP] ok 54 - has-header returns True on header we have
+[Cro::HTTP] ok 55 - has-header is not case-sensitive (1)
+[Cro::HTTP] ok 56 - has-header is not case-sensitive (2)
+[Cro::HTTP] ok 57 - has-header returns False on header we do not have
+[Cro::HTTP] ok 58 - header method fetches a header
+[Cro::HTTP] ok 59 - header method is not case sensitive (1)
+[Cro::HTTP] ok 60 - header method is not case sensitive (2)
+[Cro::HTTP] ok 61 - when there are multiple headers with the name, the value comma-joins them
+[Cro::HTTP] ok 62 - header we do not have returns Nil
+[Cro::HTTP] ok 63 - header-list method returns a List of one header for Host
+[Cro::HTTP] ok 64 - header-list method works case-insensitively
+[Cro::HTTP] ok 65 - header-list method returns a list of values when there are multiple headers
+[Cro::HTTP] ok 66 - header-list methods returns an empty list when no header of the requested name
+[Cro::HTTP] ok 67 - Removing single Host header returns 1
+[Cro::HTTP] ok 68 - Host header was really removed
+[Cro::HTTP] ok 69 - Removing 2 accept-language headers returns 2
+[Cro::HTTP] ok 70 - Headers really removed
+[Cro::HTTP] ok 71 - Removing single header matched by predicate works
+[Cro::HTTP] ok 72 - Header identified by predicate was really removed
+[Cro::HTTP] ok 73 - Removing an exact header returns 1
+[Cro::HTTP] ok 74 - Headers really removed
+[Cro::HTTP] ok 75 - 
+[Cro::HTTP] ok 76 - content-type method returns a Cro::MediaType when there is a content-type header
+[Cro::HTTP] ok 77 - Correct type
+[Cro::HTTP] ok 78 - Correct subtype
+[Cro::HTTP] ok 79 - Correct parameters list
+[Cro::HTTP] ok 80 - content-type returns Nil when no header
+[Cro::HTTP] ok 81 - has-cookie on non-existent cookie returns False
+[Cro::HTTP] ok 82 - cookie-value on non-existent cookie returns Nil
+[Cro::HTTP] ok 83 - cookie-hash returns empty hash when cookies not set
+[Cro::HTTP] ok 84 - Can add cookie
+[Cro::HTTP] ok 85 - has-cookie on added cookie returns True
+[Cro::HTTP] ok 86 - cookie-value on added cookie returns correct value
+[Cro::HTTP] ok 87 - cookie-hash returns correct result
+[Cro::HTTP] ok 88 - Can update cookie
+[Cro::HTTP] ok 89 - has-cookie on updated cookie returns True
+[Cro::HTTP] ok 90 - cookie-value on updated cookie returns correct value
+[Cro::HTTP] ok 91 - Can remove cookie
+[Cro::HTTP] ok 92 - Removed cookie is removed
+[Cro::HTTP] ok 93 - Empty names are not permitted
+[Cro::HTTP] ok 94 - Cookie header looks good
+[Cro::HTTP] ok 95 - lang cookie header should not be parsed for HTTP 1.1
+[Cro::HTTP] ok 96 - lang cookie header should be parsed for HTTP 2
+[Cro::HTTP] ok 97 - Can cope with trailing ; in cookie line
+[Cro::HTTP] ok 98 - Target is set
+[Cro::HTTP] ok 99 - original-target equals target
+[Cro::HTTP] ok 100 - original-path path equals target
+[Cro::HTTP] ok 101 - original-path-segments are equal to target segments
+[Cro::HTTP] ok 102 - target on stripped request changes
+[Cro::HTTP] ok 103 - original-target preserves
+[Cro::HTTP] ok 104 - original-path preserves
+[Cro::HTTP] ok 105 - original-path-segments are preserved
+[Cro::HTTP] ok 106 - target on second stripped request changes
+[Cro::HTTP] ok 107 - original-target preserves
+[Cro::HTTP] ok 108 - original-path preserves
+[Cro::HTTP] ok 109 - original-path-segments are preserved
+[Cro::HTTP] 1..109
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-response-parser.rakutest
+[Cro::HTTP] ok 1 - HTTP response parser is a transform
+[Cro::HTTP] ok 2 - HTTP response parser consumes TCP messages
+[Cro::HTTP] ok 3 - HTTP respose parser produces HTTP responses
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 4 - Simple 204 no content response
+[Cro::HTTP] # Failed test 'Simple 204 no content response'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 5 - # SKIP Failed to parse
+[Cro::HTTP] ok 6 - # SKIP Failed to parse
+[Cro::HTTP] ok 7 - Malformed status line - only version
+[Cro::HTTP] ok 8 - Malformed status line - missing space after status code
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 9 - Simple 204 no content response with empty reason
+[Cro::HTTP] # Failed test 'Simple 204 no content response with empty reason'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 10 - # SKIP Failed to parse
+[Cro::HTTP] ok 11 - # SKIP Failed to parse
+[Cro::HTTP] ok 12 - Malformed status line - code is only one digit
+[Cro::HTTP] ok 13 - Malformed status line - code is only two digits
+[Cro::HTTP] ok 14 - Malformed status line - code is four digits
+[Cro::HTTP] not ok 15 - Minor version other than 1 OK (1)
+[Cro::HTTP] ok 16 - # SKIP Failed to parse
+[Cro::HTTP] ok 17 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] # Failed test 'Minor version other than 1 OK (1)'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 18 - Minor version other than 1 OK (2)
+[Cro::HTTP] # Failed test 'Minor version other than 1 OK (2)'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 19 - # SKIP Failed to parse
+[Cro::HTTP] ok 20 - # SKIP Failed to parse
+[Cro::HTTP] ok 21 - Invalid major version (1)
+[Cro::HTTP] ok 22 - Invalid major version (2)
+[Cro::HTTP] ok 23 - Double-digit minor version
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 24 - All non-controls allowed in reason
+[Cro::HTTP] # Failed test 'All non-controls allowed in reason'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 25 - # SKIP Failed to parse
+[Cro::HTTP] ok 26 - # SKIP Failed to parse
+[Cro::HTTP] ok 27 - Control chars in reason (0)
+[Cro::HTTP] ok 28 - Control chars in reason (1)
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 29 - Single simple header
+[Cro::HTTP] # Failed test 'Single simple header'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 30 - # SKIP Failed to parse
+[Cro::HTTP] ok 31 - # SKIP Failed to parse
+[Cro::HTTP] ok 32 - # SKIP Failed to parse
+[Cro::HTTP] ok 33 - # SKIP Failed to parse
+[Cro::HTTP] ok 34 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 35 - Single header without whitespace
+[Cro::HTTP] # Failed test 'Single header without whitespace'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 36 - # SKIP Failed to parse
+[Cro::HTTP] ok 37 - # SKIP Failed to parse
+[Cro::HTTP] ok 38 - # SKIP Failed to parse
+[Cro::HTTP] ok 39 - # SKIP Failed to parse
+[Cro::HTTP] ok 40 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 41 - Single header with trailing whitespace
+[Cro::HTTP] # Failed test 'Single header with trailing whitespace'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 42 - # SKIP Failed to parse
+[Cro::HTTP] ok 43 - # SKIP Failed to parse
+[Cro::HTTP] ok 44 - # SKIP Failed to parse
+[Cro::HTTP] ok 45 - # SKIP Failed to parse
+[Cro::HTTP] ok 46 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] # Failed test 'Host header with tab before and after value'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] not ok 47 - Host header with tab before and after value
+[Cro::HTTP] ok 48 - # SKIP Failed to parse
+[Cro::HTTP] ok 49 - # SKIP Failed to parse
+[Cro::HTTP] ok 50 - # SKIP Failed to parse
+[Cro::HTTP] ok 51 - # SKIP Failed to parse
+[Cro::HTTP] ok 52 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 53 - Header with insane but actually totally legit name
+[Cro::HTTP] # Failed test 'Header with insane but actually totally legit name'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 54 - # SKIP Failed to parse
+[Cro::HTTP] ok 55 - # SKIP Failed to parse
+[Cro::HTTP] ok 56 - # SKIP Failed to parse
+[Cro::HTTP] ok 57 - # SKIP Failed to parse
+[Cro::HTTP] ok 58 - # SKIP Failed to parse
+[Cro::HTTP] ok 59 - Not allowed " in header name
+[Cro::HTTP] ok 60 - Not allowed ( in header name
+[Cro::HTTP] ok 61 - Not allowed ) in header name
+[Cro::HTTP] ok 62 - Not allowed [ in header name
+[Cro::HTTP] ok 63 - Not allowed ] in header name
+[Cro::HTTP] ok 64 - Not allowed { in header name
+[Cro::HTTP] ok 65 - Not allowed } in header name
+[Cro::HTTP] ok 66 - Not allowed @ in header name
+[Cro::HTTP] ok 67 - Not allowed \ in header name
+[Cro::HTTP] ok 68 - Not allowed / in header name
+[Cro::HTTP] ok 69 - Not allowed < in header name
+[Cro::HTTP] ok 70 - Not allowed > in header name
+[Cro::HTTP] ok 71 - Not allowed , in header name
+[Cro::HTTP] ok 72 - Not allowed ; in header name
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 73 - Header field value can be any printable char including latin-1 range
+[Cro::HTTP] # Failed test 'Header field value can be any printable char including latin-1 range'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 74 - # SKIP Failed to parse
+[Cro::HTTP] ok 75 - # SKIP Failed to parse
+[Cro::HTTP] ok 76 - # SKIP Failed to parse
+[Cro::HTTP] ok 77 - # SKIP Failed to parse
+[Cro::HTTP] ok 78 - # SKIP Failed to parse
+[Cro::HTTP] ok 79 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 80 - Single header with whitespace in value
+[Cro::HTTP] # Failed test 'Single header with whitespace in value'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 81 - # SKIP Failed to parse
+[Cro::HTTP] ok 82 - # SKIP Failed to parse
+[Cro::HTTP] ok 83 - # SKIP Failed to parse
+[Cro::HTTP] ok 84 - # SKIP Failed to parse
+[Cro::HTTP] ok 85 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 86 - Response with multiple headers and content-length body (example from RFC)
+[Cro::HTTP] # Failed test 'Response with multiple headers and content-length body (example from RFC)'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 87 - # SKIP Failed to parse
+[Cro::HTTP] ok 88 - # SKIP Failed to parse
+[Cro::HTTP] ok 89 - # SKIP Failed to parse
+[Cro::HTTP] ok 90 - # SKIP Failed to parse
+[Cro::HTTP] ok 91 - # SKIP Failed to parse
+[Cro::HTTP] ok 92 - # SKIP Failed to parse
+[Cro::HTTP] ok 93 - # SKIP Failed to parse
+[Cro::HTTP] ok 94 - # SKIP Failed to parse
+[Cro::HTTP] ok 95 - # SKIP Failed to parse
+[Cro::HTTP] ok 96 - # SKIP Failed to parse
+[Cro::HTTP] ok 97 - # SKIP Failed to parse
+[Cro::HTTP] ok 98 - # SKIP Failed to parse
+[Cro::HTTP] ok 99 - # SKIP Failed to parse
+[Cro::HTTP] ok 100 - # SKIP Failed to parse
+[Cro::HTTP] ok 101 - # SKIP Failed to parse
+[Cro::HTTP] ok 102 - # SKIP Failed to parse
+[Cro::HTTP] ok 103 - # SKIP Failed to parse
+[Cro::HTTP] ok 104 - # SKIP Failed to parse
+[Cro::HTTP] ok 105 - # SKIP Failed to parse
+[Cro::HTTP] ok 106 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 107 - Response with body terminated by close of connection
+[Cro::HTTP] # Failed test 'Response with body terminated by close of connection'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 108 - # SKIP Failed to parse
+[Cro::HTTP] ok 109 - # SKIP Failed to parse
+[Cro::HTTP] ok 110 - # SKIP Failed to parse
+[Cro::HTTP] ok 111 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 112 - Connection close with incomplete body throws
+[Cro::HTTP] ok 113 - # SKIP Failed to parse
+[Cro::HTTP] ok 114 - # SKIP Failed to parse
+[Cro::HTTP] ok 115 - # SKIP Failed to parse
+[Cro::HTTP] ok 116 - # SKIP Failed to parse
+[Cro::HTTP] # Failed test 'Connection close with incomplete body throws'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 117 - Response with chunked encoding
+[Cro::HTTP] # Failed test 'Response with chunked encoding'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 118 - # SKIP Failed to parse
+[Cro::HTTP] ok 119 - # SKIP Failed to parse
+[Cro::HTTP] ok 120 - # SKIP Failed to parse
+[Cro::HTTP] ok 121 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] # Failed test 'A text/whatever response has Str .body'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] not ok 122 - A text/whatever response has Str .body
+[Cro::HTTP] ok 123 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 124 - A unknown/foo response has Blob .body
+[Cro::HTTP] # Failed test 'A unknown/foo response has Blob .body'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 125 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 126 - charset in content-type is respected by body-text
+[Cro::HTTP] # Failed test 'charset in content-type is respected by body-text'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 127 - # SKIP Failed to parse
+[Cro::HTTP] ok 128 - # SKIP Failed to parse
+[Cro::HTTP] ok 129 - # SKIP Failed to parse
+[Cro::HTTP] ok 130 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 131 - A UTF-8 BOM is respected and stripped
+[Cro::HTTP] # Failed test 'A UTF-8 BOM is respected and stripped'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 132 - # SKIP Failed to parse
+[Cro::HTTP] ok 133 - # SKIP Failed to parse
+[Cro::HTTP] ok 134 - # SKIP Failed to parse
+[Cro::HTTP] ok 135 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 136 - A UTF-16 LE BOM is respected and stripped
+[Cro::HTTP] # Failed test 'A UTF-16 LE BOM is respected and stripped'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 137 - # SKIP Failed to parse
+[Cro::HTTP] ok 138 - # SKIP Failed to parse
+[Cro::HTTP] ok 139 - # SKIP Failed to parse
+[Cro::HTTP] ok 140 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 141 - A UTF-16 BE BOM is respected and stripped
+[Cro::HTTP] # Failed test 'A UTF-16 BE BOM is respected and stripped'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 142 - # SKIP Failed to parse
+[Cro::HTTP] ok 143 - # SKIP Failed to parse
+[Cro::HTTP] ok 144 - # SKIP Failed to parse
+[Cro::HTTP] ok 145 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 146 - With not other indications, and it utf-8 fails, decode as latin-1
+[Cro::HTTP] # Failed test 'With not other indications, and it utf-8 fails, decode as latin-1'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] ok 147 - # SKIP Failed to parse
+[Cro::HTTP] ok 148 - # SKIP Failed to parse
+[Cro::HTTP] ok 149 - # SKIP Failed to parse
+[Cro::HTTP] ok 150 - # SKIP Failed to parse
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 151 - An application/json response decodes JSON body
+[Cro::HTTP] # Failed test 'An application/json response decodes JSON body'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] # Response parsing failed: Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::HTTP] not ok 152 - A media type with the +json suffix decodes JSON body
+[Cro::HTTP] # Failed test 'A media type with the +json suffix decodes JSON body'
+[Cro::HTTP] # at t/http-response-parser.rakutest line 38
+[Cro::HTTP] 1..152
+[Cro::HTTP] # You failed 25 tests of 152
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-response-serializer.rakutest
+[Cro::HTTP] ok 1 - Basic 204 status response serialized correctly
+[Cro::HTTP] Too few positionals passed; expected 1 argument but got 0
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 31
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/ResponseSerializer.rakumod (Cro::HTTP::ResponseSerializer) line 29
+[Cro::HTTP]   in sub is-response at t/http-response-serializer.rakutest line 10
+[Cro::HTTP]   in block <unit> at t/http-response-serializer.rakutest line 32
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-response.rakutest
+[Cro::HTTP] ok 1 - Unconfigured HTTP response is HTTP/1.1 and 204 status
+[Cro::HTTP] ok 2 - Setting status in constructor includes it in the response
+[Cro::HTTP] ok 3 - Setting status and version in constructor includes it in the response
+[Cro::HTTP] ok 4 - Setting status and version attributes includes them in the response
+[Cro::HTTP] ok 5 - Status of 10 is invalid
+[Cro::HTTP] ok 6 - Status of 99 is invalid
+[Cro::HTTP] ok 7 - Status of 1000 is invalid
+[Cro::HTTP] ok 8 - Status of 4004 is invalid
+[Cro::HTTP] ok 9 - Headers are included in the response
+[Cro::HTTP] ok 10 - has-header returns True on header we have
+[Cro::HTTP] ok 11 - has-header is not case-sensitive (1)
+[Cro::HTTP] ok 12 - has-header is not case-sensitive (2)
+[Cro::HTTP] ok 13 - has-header returns False on header we do not have
+[Cro::HTTP] ok 14 - header method fetches a header
+[Cro::HTTP] ok 15 - header method is not case sensitive (1)
+[Cro::HTTP] ok 16 - header method is not case sensitive (2)
+[Cro::HTTP] ok 17 - header method returns Nil on header we do not have
+[Cro::HTTP] ok 18 - Refuses to add response header with illegal control char in value (single-arg)
+[Cro::HTTP] ok 19 - Refuses to add response header with illegal control char in value (single-arg)
+[Cro::HTTP] ok 20 - Refuses to add response header with illegal control char in value (single-arg)
+[Cro::HTTP] ok 21 - Refuses to add response header with illegal control char in value (single-arg)
+[Cro::HTTP] ok 22 - Refuses to add response header with illegal control char in value (two-arg)
+[Cro::HTTP] ok 23 - Refuses to add response header with illegal control char in value (two-arg)
+[Cro::HTTP] ok 24 - Refuses to add response header with illegal control char in value (two-arg)
+[Cro::HTTP] ok 25 - Refuses to add response header with illegal control char in value (two-arg)
+[Cro::HTTP] ok 26 - Refuses to add response header with illegal name containing " (single-arg)
+[Cro::HTTP] ok 27 - Refuses to add response header with illegal name containing ( (single-arg)
+[Cro::HTTP] ok 28 - Refuses to add response header with illegal name containing ) (single-arg)
+[Cro::HTTP] ok 29 - Refuses to add response header with illegal name containing [ (single-arg)
+[Cro::HTTP] ok 30 - Refuses to add response header with illegal name containing ] (single-arg)
+[Cro::HTTP] ok 31 - Refuses to add response header with illegal name containing { (single-arg)
+[Cro::HTTP] ok 32 - Refuses to add response header with illegal name containing } (single-arg)
+[Cro::HTTP] ok 33 - Refuses to add response header with illegal name containing @ (single-arg)
+[Cro::HTTP] ok 34 - Refuses to add response header with illegal name containing \ (single-arg)
+[Cro::HTTP] ok 35 - Refuses to add response header with illegal name containing / (single-arg)
+[Cro::HTTP] ok 36 - Refuses to add response header with illegal name containing < (single-arg)
+[Cro::HTTP] ok 37 - Refuses to add response header with illegal name containing > (single-arg)
+[Cro::HTTP] ok 38 - Refuses to add response header with illegal name containing , (single-arg)
+[Cro::HTTP] ok 39 - Refuses to add response header with illegal name containing ; (single-arg)
+[Cro::HTTP] ok 40 - Refuses to add response header with illegal name containing " (two-arg)
+[Cro::HTTP] ok 41 - Refuses to add response header with illegal name containing ( (two-arg)
+[Cro::HTTP] ok 42 - Refuses to add response header with illegal name containing ) (two-arg)
+[Cro::HTTP] ok 43 - Refuses to add response header with illegal name containing [ (two-arg)
+[Cro::HTTP] ok 44 - Refuses to add response header with illegal name containing ] (two-arg)
+[Cro::HTTP] ok 45 - Refuses to add response header with illegal name containing { (two-arg)
+[Cro::HTTP] ok 46 - Refuses to add response header with illegal name containing } (two-arg)
+[Cro::HTTP] ok 47 - Refuses to add response header with illegal name containing @ (two-arg)
+[Cro::HTTP] ok 48 - Refuses to add response header with illegal name containing \ (two-arg)
+[Cro::HTTP] ok 49 - Refuses to add response header with illegal name containing / (two-arg)
+[Cro::HTTP] ok 50 - Refuses to add response header with illegal name containing < (two-arg)
+[Cro::HTTP] ok 51 - Refuses to add response header with illegal name containing > (two-arg)
+[Cro::HTTP] ok 52 - Refuses to add response header with illegal name containing , (two-arg)
+[Cro::HTTP] ok 53 - Refuses to add response header with illegal name containing ; (two-arg)
+[Cro::HTTP] ok 54 - Utterly crazy but valid header can be added (single-arg)
+[Cro::HTTP] ok 55 - Utterly crazy but valid header can be added (two-arg)
+[Cro::HTTP] ok 56 - Can set body
+[Cro::HTTP] ok 57 - Default status code when body set is 200, not 204
+[Cro::HTTP] ok 58 - Can set correct cookie
+[Cro::HTTP] ok 59 - Cookie header is set
+[Cro::HTTP] ok 60 - Cookie cannot be set twice
+[Cro::HTTP] ok 61 - Cookie header is set for two cookies
+[Cro::HTTP] ok 62 - Cookie header is set for a complex cookie
+[Cro::HTTP] ok 63 - Cookies are returned from .cookies call
+[Cro::HTTP] ok 64 - All cookies are returned
+[Cro::HTTP] 1..64
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-router-named-urls.t
+[Cro::HTTP] Cannot return Cro::HTP::Router::LinkGenerator.new(prefix => "",
+[Cro::HTTP] signature => :("search", $category, :$query)) with .return when return
+[Cro::HTTP] value IterationEnd is already specified in the signature of method
+[Cro::HTTP] sink-all
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1603
+[Cro::HTTP]   in sub get-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1601
+[Cro::HTTP]   in sub abs-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1592
+[Cro::HTTP]   in block  at t/http-router-named-urls.t line 17
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 217
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 214
+[Cro::HTTP] ok 1 - No named urls
+[Cro::HTTP] ok 2 - No named urls with a prefix
+[Cro::HTTP] Cannot return Cro::HTP::Router::LinkGenerator.new(prefix => "",
+[Cro::HTTP] signature => :()) with .return when return value IterationEnd is already
+[Cro::HTTP] specified in the signature of method sink-all
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1603
+[Cro::HTTP]   in sub get-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1601
+[Cro::HTTP]   in sub abs-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1592
+[Cro::HTTP]   in block  at t/http-router-named-urls.t line 52
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 217
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 214
+[Cro::HTTP] # Subtest: did we throws-like X::Cro::HTTP::Router::DuplicateLinkName?
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::DuplicateLinkName)
+[Cro::HTTP]     ok 3 - .message matches Conflicting link name: home
+[Cro::HTTP] ok 3 - did we throws-like X::Cro::HTTP::Router::DuplicateLinkName?
+[Cro::HTTP] # Subtest: did we throws-like X::Cro::HTTP::Router::DuplicateLinkName?
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::DuplicateLinkName)
+[Cro::HTTP]     ok 3 - .message matches Conflicting link name: main.home
+[Cro::HTTP] ok 4 - did we throws-like X::Cro::HTTP::Router::DuplicateLinkName?
+[Cro::HTTP] Cannot return Cro::HTP::Router::LinkGenerator.new(prefix => "",
+[Cro::HTTP] signature => :("hello", $name)) with .return when return value
+[Cro::HTTP] IterationEnd is already specified in the signature of method sink-all
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1603
+[Cro::HTTP]   in sub get-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1601
+[Cro::HTTP]   in sub abs-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1592
+[Cro::HTTP]   in block  at t/http-router-named-urls.t line 72
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 217
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 214
+[Cro::HTTP] Cannot return Cro::HTP::Router::LinkGenerator.new(prefix => "",
+[Cro::HTTP] signature => :(:$a, :$b)) with .return when return value IterationEnd is
+[Cro::HTTP] already specified in the signature of method sink-all
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1603
+[Cro::HTTP]   in sub get-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1601
+[Cro::HTTP]   in sub abs-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1592
+[Cro::HTTP]   in block  at t/http-router-named-urls.t line 82
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 217
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 214
+[Cro::HTTP] Cannot return Cro::HTP::Router::LinkGenerator.new(prefix => "",
+[Cro::HTTP] signature => :(:$a!, :$b!)) with .return when return value IterationEnd
+[Cro::HTTP] is already specified in the signature of method sink-all
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1603
+[Cro::HTTP]   in sub get-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1601
+[Cro::HTTP]   in sub abs-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1592
+[Cro::HTTP]   in block  at t/http-router-named-urls.t line 93
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 217
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 214
+[Cro::HTTP] Cannot return Cro::HTP::Router::LinkGenerator.new(prefix => "",
+[Cro::HTTP] signature => :("css", +a)) with .return when return value IterationEnd
+[Cro::HTTP] is already specified in the signature of method sink-all
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1603
+[Cro::HTTP]   in sub get-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1601
+[Cro::HTTP]   in sub abs-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1592
+[Cro::HTTP]   in block  at t/http-router-named-urls.t line 106
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 217
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 214
+[Cro::HTTP] Cannot return Cro::HTP::Router::LinkGenerator.new(prefix => "",
+[Cro::HTTP] signature => :(*@a, *%b)) with .return when return value IterationEnd is
+[Cro::HTTP] already specified in the signature of method sink-all
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1603
+[Cro::HTTP]   in sub get-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1601
+[Cro::HTTP]   in sub abs-link at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 1592
+[Cro::HTTP]   in block  at t/http-router-named-urls.t line 115
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 217
+[Cro::HTTP]   in block  at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/lib/Cro/HTTP/Router.rakumod (Cro::HTTP::Router) line 214
+[Cro::HTTP] ok 5 - Conflict check is per-route block 1
+[Cro::HTTP] ok 6 - Conflict check is per-route block 2
+[Cro::HTTP] ok 7 - Conflict check is by route name
+[Cro::HTTP] # Subtest: did we throws-like X::Cro::HTTP::Router::DuplicateLinkName?
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::DuplicateLinkName)
+[Cro::HTTP]     ok 3 - .message matches Conflicting link name: foo.home
+[Cro::HTTP] ok 8 - did we throws-like X::Cro::HTTP::Router::DuplicateLinkName?
+[Cro::HTTP] 1..8
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-router-plugin.rakutest
+[Cro::HTTP] # Subtest: router-plugin-add-config throws outside of route block
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::OnlyInRouteBlock)
+[Cro::HTTP]     ok 3 - .what matches add-message
+[Cro::HTTP] ok 1 - router-plugin-add-config throws outside of route block
+[Cro::HTTP] ok 2 - Can add plugin configuration to the route block
+[Cro::HTTP] ok 3 - Got expected error from add-message
+[Cro::HTTP] # Subtest: Access to configuration with single level route block
+[Cro::HTTP]     ok 1 - Got a response
+[Cro::HTTP] An operation first awaited:
+[Cro::HTTP]   in block  at t/http-router-plugin.rakutest line 50
+[Cro::HTTP]   in sub subtest at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/core/sources/D235141B8C615FAC09CAB00897146D6C2341B982 (Test) line 430
+[Cro::HTTP]   in sub subtest at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/core/sources/D235141B8C615FAC09CAB00897146D6C2341B982 (Test) line 415
+[Cro::HTTP]   in block <unit> at t/http-router-plugin.rakutest line 43
+[Cro::HTTP] Died with the exception:
+[Cro::HTTP]     Tried to get the result of a broken Promise
+[Cro::HTTP]       in block  at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 48
+[Cro::HTTP]     Original exception:
+[Cro::HTTP]         Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]           in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]           in method body-blob at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 39
+[Cro::HTTP]           in method body-text at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 47
+[Cro::HTTP]           in block  at t/http-router-plugin.rakutest line 50
+[Cro::HTTP]           in sub subtest at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/core/sources/D235141B8C615FAC09CAB00897146D6C2341B982 (Test) line 430
+[Cro::HTTP]           in sub subtest at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/core/sources/D235141B8C615FAC09CAB00897146D6C2341B982 (Test) line 415
+[Cro::HTTP]           in block <unit> at t/http-router-plugin.rakutest line 43
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-router.rakutest
+[Cro::HTTP] Potential difficulties:
+[Cro::HTTP]     Optional named parameter 'page' with subset type UInt needs a valid default value
+[Cro::HTTP]     otherwise it will throw exceptions when a value is absent at the callsite
+[Cro::HTTP]     at t/http-router.rakutest:363
+[Cro::HTTP] ok 1 - Route block with no routes gives back a Cro::Transform
+[Cro::HTTP] ok 2 - Empty route set gives a response
+[Cro::HTTP] ok 3 - Status code from empty route set is 404
+[Cro::HTTP] ok 4 - No matching route gets a HTTP response
+[Cro::HTTP] ok 5 - Status code uri is invalid is 400
+[Cro::HTTP] # Subtest: Can only use request term inside of a handler
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::OnlyInHandler)
+[Cro::HTTP]     ok 3 - .what matches request
+[Cro::HTTP] ok 6 - Can only use request term inside of a handler
+[Cro::HTTP] # Subtest: Can only use response term inside of a handler
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::OnlyInHandler)
+[Cro::HTTP]     ok 3 - .what matches response
+[Cro::HTTP] ok 7 - Can only use response term inside of a handler
+[Cro::HTTP] # Subtest: Can only use created term inside of a handler
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::OnlyInHandler)
+[Cro::HTTP]     ok 3 - .what matches created
+[Cro::HTTP] ok 8 - Can only use created term inside of a handler
+[Cro::HTTP] # Subtest: Can only use not-found term inside of a handler
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::OnlyInHandler)
+[Cro::HTTP]     ok 3 - .what matches not-found
+[Cro::HTTP] ok 9 - Can only use not-found term inside of a handler
+[Cro::HTTP] # Subtest: Can only use forbidden term inside of a handler
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::OnlyInHandler)
+[Cro::HTTP]     ok 3 - .what matches forbidden
+[Cro::HTTP] ok 10 - Can only use forbidden term inside of a handler
+[Cro::HTTP] # Subtest: Can only use redirect term inside of a handler
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::OnlyInHandler)
+[Cro::HTTP]     ok 3 - .what matches redirected
+[Cro::HTTP] ok 11 - Can only use redirect term inside of a handler
+[Cro::HTTP] # Subtest: Can only use conflict term inside of a handler
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::OnlyInHandler)
+[Cro::HTTP]     ok 3 - .what matches conflict
+[Cro::HTTP] ok 12 - Can only use conflict term inside of a handler
+[Cro::HTTP] # Subtest: Can only use i'm-a-teapot term inside of a handler
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::OnlyInHandler)
+[Cro::HTTP]     ok 3 - .what matches i'm-a-teapot
+[Cro::HTTP] ok 13 - Can only use i'm-a-teapot term inside of a handler
+[Cro::HTTP] # Subtest: Can only use bad-request term inside of a handler
+[Cro::HTTP]     1..3
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP::Router::OnlyInHandler)
+[Cro::HTTP]     ok 3 - .what matches bad-request
+[Cro::HTTP] ok 14 - Can only use bad-request term inside of a handler
+[Cro::HTTP] ok 15 - Route block with routes gives back a Cro::Transform
+[Cro::HTTP] ok 16 - Route set routes / correctly
+[Cro::HTTP] ok 17 - Got 200 response
+[Cro::HTTP] ok 18 - Got expected header
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in sub body-text at t/http-router.rakutest line 9
+[Cro::HTTP]   in block  at t/http-router.rakutest line 78
+[Cro::HTTP]   in block <unit> at t/http-router.rakutest line 49
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-session-inmemory.rakutest
+[Cro::HTTP] Could not find symbol '&InMemory' in 'Cro::HTTP::Session'
+[Cro::HTTP]   in block <unit> at t/http-session-inmemory.rakutest line 21
+[Cro::HTTP] Some exceptions were thrown in END blocks:
+[Cro::HTTP]   X::Method::NotFound: No such method 'stop' for invocant of type 'Any'. Did you mean any of
+[Cro::HTTP] these: 'Slip', 'Str', 'skip', 'so'?
+[Cro::HTTP]       in any <main> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/runtime/perl6.moarvm line 1
+[Cro::HTTP]       in any <entry> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/runtime/perl6.moarvm line 1
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http-session-persistent.rakutest
+[Cro::HTTP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/t/http-session-persistent.rakutest
+[Cro::HTTP] Invalid typename 'Cro::HTTP::Session::Persistent'
+[Cro::HTTP] at /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist/t/http-session-persistent.rakutest:36
+[Cro::HTTP] ------> tent does Cro::HTTP::Session::Persistent<HERE>[SessionData] {
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http2-frame-parser.rakutest
+[Cro::HTTP] ok 1 - HTTP2 frame parser is a transform
+[Cro::HTTP] ok 2 - HTTP2 frame parser consumes TCP messages
+[Cro::HTTP] ok 3 - HTTP2 frame parser produces HTTP2 frames
+[Cro::HTTP] ok 4 - DATA Frame length cannot be less than padding length
+[Cro::HTTP] ok 5 - Empty DATA frame
+[Cro::HTTP] ok 6 - Empty DATA frame is serialized back
+[Cro::HTTP] ok 7 - DATA frame without padding
+[Cro::HTTP] ok 8 - DATA frame without padding is serialized back
+[Cro::HTTP] ok 9 - DATA frame with zero padding
+[Cro::HTTP] ok 10 - DATA frame with zero padding is serialized back
+[Cro::HTTP] ok 11 - DATA frame with padding
+[Cro::HTTP] ok 12 - DATA frame with padding is serialized back
+[Cro::HTTP] ok 13 - HEADERS Frame length cannot be less than padding length
+[Cro::HTTP] ok 14 - Empty HEADERS frame
+[Cro::HTTP] ok 15 - Empty HEADERS frame is serialized back
+[Cro::HTTP] ok 16 - HEADERS frame without padding
+[Cro::HTTP] ok 17 - HEADERS frame without padding is serialized back
+[Cro::HTTP] ok 18 - HEADERS frame with zero padding
+[Cro::HTTP] ok 19 - HEADERS frame with zero padding is serialized back
+[Cro::HTTP] ok 20 - PRIORITY Frame length is always 5 bytes
+[Cro::HTTP] ok 21 - RST_STREAM Frame length is always 4 bytes
+[Cro::HTTP] ok 22 - Ack SETTINGS Frame length is always 0
+[Cro::HTTP] ok 23 - SETTINGS Frame length is always divisible by 6
+[Cro::HTTP] ok 24 - SETTINGS Frame length is always divisible by 6
+[Cro::HTTP] ok 25 - WindowIncrement Frame length is always 4
+[Cro::HTTP] ok 26 - SETTINGS frame with zero content is emitted correctly
+[Cro::HTTP] 1..26
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http2-frame-serializer.rakutest
+[Cro::HTTP] ok 1 - HTTP2 frame serializer is a transform
+[Cro::HTTP] ok 2 - HTTP2 frame serializer consumes HTTP2 frames
+[Cro::HTTP] ok 3 - HTTP2 frame serializer produces TCP messages
+[Cro::HTTP] ok 4 - Simple data frame
+[Cro::HTTP] ok 5 - Simple data frame is parsed back
+[Cro::HTTP] ok 6 - Simple data frame with padding
+[Cro::HTTP] ok 7 - Simple data frame with padding is parsed back
+[Cro::HTTP] ok 8 - Simple headers frame
+[Cro::HTTP] ok 9 - Simple headers frame is parsed back
+[Cro::HTTP] ok 10 - Simple headers frame with padding
+[Cro::HTTP] ok 11 - Simple headers frame with padding is parsed back
+[Cro::HTTP] ok 12 - Simple priority frame
+[Cro::HTTP] ok 13 - Simple priority frame is parsed back
+[Cro::HTTP] ok 14 - Simple RstStream frame
+[Cro::HTTP] ok 15 - Simple RstStream frame is parsed back
+[Cro::HTTP] ok 16 - RstStream frame with a custom error treats it as INTERNAL_ERROR
+[Cro::HTTP] ok 17 - RstStream frame with a custom error treats it as INTERNAL_ERROR is parsed back
+[Cro::HTTP] ok 18 - Simple Settings frame
+[Cro::HTTP] ok 19 - Settings frame is successful
+[Cro::HTTP] ok 20 - Simple PushPromise frame
+[Cro::HTTP] ok 21 - Simple PushPromise frame is parsed back
+[Cro::HTTP] ok 22 - PushPromise frame with padding
+[Cro::HTTP] ok 23 - PushPromise frame with padding is parsed back
+[Cro::HTTP] ok 24 - Simple Ping frame
+[Cro::HTTP] ok 25 - Ping frame is successful
+[Cro::HTTP] ok 26 - Ping payload cannot be more than 8 bytes
+[Cro::HTTP] ok 27 - Simple GoAway frame
+[Cro::HTTP] ok 28 - Simple GoAway frame is parsed back
+[Cro::HTTP] ok 29 - GoAway frame with a custom error treats it as INTERNAL_ERROR
+[Cro::HTTP] ok 30 - GoAway frame with a custom error treats it as INTERNAL_ERROR is parsed back
+[Cro::HTTP] ok 31 - Simple WindowUpdate frame
+[Cro::HTTP] ok 32 - Simple WindowUpdate frame is parsed back
+[Cro::HTTP] ok 33 - Simple Continuation frame
+[Cro::HTTP] ok 34 - Simple Continuation frame is parsed back
+[Cro::HTTP] ok 35 - 
+[Cro::HTTP] ok 36 - 
+[Cro::HTTP] ok 37 - 
+[Cro::HTTP] ok 38 - 
+[Cro::HTTP] ok 39 - Too long Headers frame is splitted
+[Cro::HTTP] ok 40 - 
+[Cro::HTTP] ok 41 - 
+[Cro::HTTP] ok 42 - 
+[Cro::HTTP] ok 43 - 
+[Cro::HTTP] ok 44 - Too long Data frame is splitted
+[Cro::HTTP] 1..44
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http2-frame.rakutest
+[Cro::HTTP] ok 1 - DATA frame stream identifier cannot be 0
+[Cro::HTTP] ok 2 - HEADERS frame stream identifier cannot be 0
+[Cro::HTTP] ok 3 - PRIORITY frame stream identifier cannot be 0
+[Cro::HTTP] ok 4 - Settings stream-identifier cannot be non-zero
+[Cro::HTTP] ok 5 - PUSH_PROMISE frame stream identifier cannot be 0
+[Cro::HTTP] ok 6 - Ping stream-identifier cannot be non-zero
+[Cro::HTTP] ok 7 - GOAWAY Frame stream-identifier cannot be non-zero
+[Cro::HTTP] 1..7
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http2-request-parser.rakutest
+[Cro::HTTP] ok 1 - check 1
+[Cro::HTTP] ok 2 - check 2
+[Cro::HTTP] ok 3 - check 3
+[Cro::HTTP] ok 4 - check 4
+[Cro::HTTP] ok 5 - check 5
+[Cro::HTTP] ok 6 - Headers
+[Cro::HTTP] ok 7 - check 1
+[Cro::HTTP] ok 8 - check 2
+[Cro::HTTP] ok 9 - check 3
+[Cro::HTTP] ok 10 - check 4
+[Cro::HTTP] ok 11 - check 5
+[Cro::HTTP] ok 12 - check 6
+[Cro::HTTP] ok 13 - Headers + Continuation
+[Cro::HTTP] ok 14 - check 1
+[Cro::HTTP] ok 15 - check 2
+[Cro::HTTP] ok 16 - check 3
+[Cro::HTTP] ok 17 - check 4
+[Cro::HTTP] ok 18 - Headers + Data
+[Cro::HTTP] ok 19 - check 1
+[Cro::HTTP] ok 20 - check 2
+[Cro::HTTP] ok 21 - check 3
+[Cro::HTTP] ok 22 - check 4
+[Cro::HTTP] ok 23 - check 5
+[Cro::HTTP] ok 24 - check 6
+[Cro::HTTP] ok 25 - check 7
+[Cro::HTTP] ok 26 - Headers + Continuation + Data
+[Cro::HTTP] ok 27 - check 1
+[Cro::HTTP] ok 28 - check 2
+[Cro::HTTP] ok 29 - check 3
+[Cro::HTTP] ok 30 - check 4
+[Cro::HTTP] ok 31 - check 5
+[Cro::HTTP] ok 32 - check 6
+[Cro::HTTP] ok 33 - check 7
+[Cro::HTTP] ok 34 - check 8
+[Cro::HTTP] ok 35 - Headers + Continuation + Data + Headers
+[Cro::HTTP] ok 36 - check 1
+[Cro::HTTP] ok 37 - check 2
+[Cro::HTTP] ok 38 - check 3
+[Cro::HTTP] ok 39 - check 4
+[Cro::HTTP] ok 40 - check 1
+[Cro::HTTP] ok 41 - check 2
+[Cro::HTTP] ok 42 - check 3
+[Cro::HTTP] ok 43 - Header1 + Header2 + Data1
+[Cro::HTTP] ok 44 - check 1
+[Cro::HTTP] ok 45 - check 2
+[Cro::HTTP] ok 46 - check 3
+[Cro::HTTP] ok 47 - check 4
+[Cro::HTTP] ok 48 - check 1
+[Cro::HTTP] ok 49 - check 2
+[Cro::HTTP] ok 50 - check 3
+[Cro::HTTP] ok 51 - check 4
+[Cro::HTTP] ok 52 - Header1 + Header2 + Data1 + Data2
+[Cro::HTTP] ok 53 - check 1
+[Cro::HTTP] ok 54 - check 2
+[Cro::HTTP] ok 55 - check 3
+[Cro::HTTP] ok 56 - check 4
+[Cro::HTTP] ok 57 - check 1
+[Cro::HTTP] ok 58 - check 2
+[Cro::HTTP] ok 59 - check 3
+[Cro::HTTP] ok 60 - Header1 + Continuation1 + Header2 + Data1
+[Cro::HTTP] # Subtest: Unfinished header cannot be interrupted
+[Cro::HTTP]     1..2
+[Cro::HTTP]     ok 1 - code dies
+[Cro::HTTP]     ok 2 - right exception type (X::Cro::HTTP2::Error)
+[Cro::HTTP] ok 61 - Unfinished header cannot be interrupted
+[Cro::HTTP] 1..61
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http2-request-serializer.rakutest
+[Cro::HTTP] ok 1 - check 1
+[Cro::HTTP] ok 2 - check 2
+[Cro::HTTP] ok 3 - check 3
+[Cro::HTTP] ok 4 - check 4
+[Cro::HTTP] ok 5 - Header
+[Cro::HTTP] ok 6 - check 1
+[Cro::HTTP] ok 7 - check 2
+[Cro::HTTP] ok 8 - check 3
+[Cro::HTTP] ok 9 - check 4
+[Cro::HTTP] ok 10 - check 1
+[Cro::HTTP] ok 11 - check 2
+[Cro::HTTP] ok 12 - check 3
+[Cro::HTTP] ok 13 - check 4
+[Cro::HTTP] ok 14 - Header + Data
+[Cro::HTTP] ok 15 - check 1
+[Cro::HTTP] ok 16 - check 2
+[Cro::HTTP] ok 17 - check 3
+[Cro::HTTP] ok 18 - check 4
+[Cro::HTTP] ok 19 - check 1
+[Cro::HTTP] ok 20 - check 2
+[Cro::HTTP] ok 21 - check 3
+[Cro::HTTP] ok 22 - check 4
+[Cro::HTTP] ok 23 - check 1
+[Cro::HTTP] ok 24 - check 2
+[Cro::HTTP] ok 25 - check 3
+[Cro::HTTP] ok 26 - check 4
+[Cro::HTTP] ok 27 - Header + Data with unknown Content-Length
+[Cro::HTTP] not ok 28 - POST with set-body round-trips correctly over HTTP/2
+[Cro::HTTP] # Failed test 'POST with set-body round-trips correctly over HTTP/2'
+[Cro::HTTP] # at t/http2-request-serializer.rakutest line 153
+[Cro::HTTP] 1..28
+[Cro::HTTP] # You failed 1 test of 28
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http2-response-parser.rakutest
+[Cro::HTTP] ok 1 - check 1
+[Cro::HTTP] ok 2 - check 2
+[Cro::HTTP] ok 3 - check 3
+[Cro::HTTP] ok 4 - Headers
+[Cro::HTTP] ok 5 - check 1
+[Cro::HTTP] ok 6 - check 2
+[Cro::HTTP] ok 7 - check 3
+[Cro::HTTP] ok 8 - check 4
+[Cro::HTTP] ok 9 - Headers + Data
+[Cro::HTTP] 1..9
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/http2-response-serializer.rakutest
+[Cro::HTTP] ok 1 - check 1
+[Cro::HTTP] ok 2 - check 2
+[Cro::HTTP] ok 3 - check 3
+[Cro::HTTP] ok 4 - check 4
+[Cro::HTTP] ok 5 - Header
+[Cro::HTTP] not ok 6 - Header + Data
+[Cro::HTTP] # Failed test 'Header + Data'
+[Cro::HTTP] # at t/http2-response-serializer.rakutest line 37
+[Cro::HTTP] not ok 7 - Header + Data - Content-Length unspecified
+[Cro::HTTP] # Failed test 'Header + Data - Content-Length unspecified'
+[Cro::HTTP] # at t/http2-response-serializer.rakutest line 37
+[Cro::HTTP] ok 8 - Too small body throws
+[Cro::HTTP] ok 9 - Too big body throws
+[Cro::HTTP] 1..9
+[Cro::HTTP] # You failed 2 tests of 9
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/router-auth.rakutest
+[Cro::HTTP] # Subtest: Auth parameter with type that implements Cro::HTTP::Auth
+[Cro::HTTP]     ok 1 - Can request / successfully with non-logged-in, non-admin
+[Cro::HTTP] Method 'select' must be implemented by Cro::BodySerializerSelector because it is required by roles: Cro::BodySerializerSelector.
+[Cro::HTTP]   in method body-byte-stream at /blin/installed/Cro::Core_0.8.10/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 29
+[Cro::HTTP]   in sub body-text at t/router-auth.rakutest line 8
+[Cro::HTTP]   in block  at t/router-auth.rakutest line 45
+[Cro::HTTP]   in sub subtest at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/core/sources/D235141B8C615FAC09CAB00897146D6C2341B982 (Test) line 430
+[Cro::HTTP]   in block <unit> at t/router-auth.rakutest line 11
+[Cro::HTTP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3a9832b52924f07d3c66fadcd2309ab8e0cffa41.tar.gz/dist t/uri-http.rakutest
+[Cro::HTTP] ok 1 - A single / request target
+[Cro::HTTP] ok 2 - Check 1
+[Cro::HTTP] ok 3 - Check 2
+[Cro::HTTP] ok 4 - Check 3
+[Cro::HTTP] ok 5 - Check 4
+[Cro::HTTP] ok 6 - Check 5
+[Cro::HTTP] ok 7 - Check 6
+[Cro::HTTP] ok 8 - A single /foo/bar.html request target
+[Cro::HTTP] ok 9 - Check 1
+[Cro::HTTP] ok 10 - Check 2
+[Cro::HTTP] ok 11 - Check 3
+[Cro::HTTP] # Subtest: Basic query string additions as pair arguemnts
+[Cro::HTTP]     ok 1 - Path was retained correctly
+[Cro::HTTP]     ok 2 - Query string correctly appended
+[Cro::HTTP]     1..2
+[Cro::HTTP] ok 12 - Basic query string additions as pair arguemnts
+[Cro::HTTP] # Subtest: Basic query string additions as named arguments
+[Cro::HTTP]     ok 1 - Path was retained correctly
+[Cro::HTTP]     ok 2 - Query string correctly appended
+[Cro::HTTP]     1..2
+[Cro::HTTP] ok 13 - Basic query string additions as named arguments
+[Cro::HTTP] # Subtest: Basic query string additions retain what was originally there
+[Cro::HTTP]     ok 1 - Path was retained correctly
+[Cro::HTTP]     ok 2 - Existing query string values were retained
+[Cro::HTTP]     1..2
+[Cro::HTTP] ok 14 - Basic query string additions retain what was originally there
+[Cro::HTTP] # Subtest: Query string keys and values are encoded
+[Cro::HTTP]     ok 1 - Path was retained correctly
+[Cro::HTTP]     ok 2 - Correct encoding
+[Cro::HTTP]     1..2
+[Cro::HTTP] ok 15 - Query string keys and values are encoded
+[Cro::HTTP] ok 16 - + signs in query string decoded correctly
+[Cro::HTTP] 1..16
+===> Testing [FAIL]: Cro::HTTP:ver<0.8.13>:auth<zef:cro>:api<0>
+[Cro::HTTP] Failed to get passing tests, but continuing with --force-test
+===> Installing: Cro::HTTP:ver<0.8.13>:auth<zef:cro>:api<0>
+===> Install [OK] for Cro::HTTP:ver<0.8.13>:auth<zef:cro>:api<0>

@@ -1,0 +1,374 @@
+===> Searching for: Terminal::LineEditor
+===> Found: Terminal::LineEditor:ver<0.0.23>:auth<zef:japhb> [via Zef::Repository::Ecosystems<fez>]
+[Terminal::LineEditor] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781761340.378292.8907.998529350374/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz https://360.zef.pm/T/ER/TERMINAL_LINEEDITOR/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz
+===> Fetching [OK]: Terminal::LineEditor:ver<0.0.23>:auth<zef:japhb> to /blin/data/zef-data/tmp/1781761340.378292.8907.998529350374/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz
+[Terminal::LineEditor] Command: tar -t -f ./2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz
+[Terminal::LineEditor] Command: tar -xvf ./2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz -C ../2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz
+===> Extraction [OK]: Terminal::LineEditor to /blin/data/zef-data/tmp/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz
+===> Testing: Terminal::LineEditor:ver<0.0.23>:auth<zef:japhb>
+[Terminal::LineEditor] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz/Terminal-LineEditor-0.0.23 t/00-use.rakutest
+[Terminal::LineEditor] ok 1 - all modules loaded successfully
+[Terminal::LineEditor] 1..1
+[Terminal::LineEditor] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz/Terminal-LineEditor-0.0.23 t/01-single-line-text-buffer.rakutest
+[Terminal::LineEditor] 1..174
+[Terminal::LineEditor] ok 1 - The object does role 'Terminal::LineEditor::EditableBuffer'
+[Terminal::LineEditor] ok 2 - The object is-a 'Terminal::LineEditor::SingleLineTextBuffer'
+[Terminal::LineEditor] ok 3 - The object does role 'Terminal::LineEditor::EditableBuffer'
+[Terminal::LineEditor] ok 4 - The object is-a 'Terminal::LineEditor::SingleLineTextBuffer'
+[Terminal::LineEditor] ok 5 - The object does role 'Terminal::LineEditor::EditableBuffer'
+[Terminal::LineEditor] ok 6 - 
+[Terminal::LineEditor] ok 7 - 
+[Terminal::LineEditor] ok 8 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 9 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] ok 10 - 
+[Terminal::LineEditor] ok 11 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 12 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 13 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] ok 14 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 15 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] ok 16 - 
+[Terminal::LineEditor] ok 17 - 
+[Terminal::LineEditor] ok 18 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 19 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 20 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 21 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] ok 22 - 
+[Terminal::LineEditor] ok 23 - 
+[Terminal::LineEditor] ok 24 - 
+[Terminal::LineEditor] ok 25 - 
+[Terminal::LineEditor] ok 26 - 
+[Terminal::LineEditor] ok 27 - 
+[Terminal::LineEditor] ok 28 - 
+[Terminal::LineEditor] ok 29 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 30 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 31 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 32 - 
+[Terminal::LineEditor] ok 33 - 
+[Terminal::LineEditor] ok 34 - 
+[Terminal::LineEditor] ok 35 - 
+[Terminal::LineEditor] ok 36 - 
+[Terminal::LineEditor] ok 37 - 
+[Terminal::LineEditor] ok 38 - 
+[Terminal::LineEditor] ok 39 - 
+[Terminal::LineEditor] ok 40 - 
+[Terminal::LineEditor] ok 41 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 42 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 43 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 44 - 
+[Terminal::LineEditor] ok 45 - 
+[Terminal::LineEditor] ok 46 - 
+[Terminal::LineEditor] ok 47 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 48 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] ok 49 - 
+[Terminal::LineEditor] ok 50 - 
+[Terminal::LineEditor] ok 51 - 
+[Terminal::LineEditor] ok 52 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 53 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 54 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 55 - 
+[Terminal::LineEditor] ok 56 - 
+[Terminal::LineEditor] ok 57 - 
+[Terminal::LineEditor] ok 58 - 
+[Terminal::LineEditor] ok 59 - 
+[Terminal::LineEditor] ok 60 - 
+[Terminal::LineEditor] ok 61 - 
+[Terminal::LineEditor] ok 62 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidPosition)
+[Terminal::LineEditor] ok 63 - did we throws-like X::Terminal::LineEditor::InvalidPosition?
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 64 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 65 - 
+[Terminal::LineEditor] ok 66 - 
+[Terminal::LineEditor] ok 67 - 
+[Terminal::LineEditor] ok 68 - 
+[Terminal::LineEditor] ok 69 - 
+[Terminal::LineEditor] ok 70 - 
+[Terminal::LineEditor] ok 71 - 
+[Terminal::LineEditor] ok 72 - 
+[Terminal::LineEditor] ok 73 - 
+[Terminal::LineEditor] ok 74 - 
+[Terminal::LineEditor] ok 75 - 
+[Terminal::LineEditor] ok 76 - 
+[Terminal::LineEditor] ok 77 - 
+[Terminal::LineEditor] ok 78 - 
+[Terminal::LineEditor] ok 79 - 
+[Terminal::LineEditor] ok 80 - 
+[Terminal::LineEditor] ok 81 - 
+[Terminal::LineEditor] ok 82 - 
+[Terminal::LineEditor] ok 83 - 
+[Terminal::LineEditor] ok 84 - 
+[Terminal::LineEditor] ok 85 - 
+[Terminal::LineEditor] ok 86 - 
+[Terminal::LineEditor] ok 87 - 
+[Terminal::LineEditor] ok 88 - 
+[Terminal::LineEditor] ok 89 - 
+[Terminal::LineEditor] ok 90 - 
+[Terminal::LineEditor] ok 91 - 
+[Terminal::LineEditor] ok 92 - 
+[Terminal::LineEditor] ok 93 - 
+[Terminal::LineEditor] ok 94 - 
+[Terminal::LineEditor] ok 95 - 
+[Terminal::LineEditor] ok 96 - 
+[Terminal::LineEditor] ok 97 - 
+[Terminal::LineEditor] ok 98 - 
+[Terminal::LineEditor] ok 99 - 
+[Terminal::LineEditor] ok 100 - 
+[Terminal::LineEditor] ok 101 - 
+[Terminal::LineEditor] ok 102 - 
+[Terminal::LineEditor] ok 103 - 
+[Terminal::LineEditor] ok 104 - 
+[Terminal::LineEditor] ok 105 - 
+[Terminal::LineEditor] ok 106 - 
+[Terminal::LineEditor] ok 107 - 
+[Terminal::LineEditor] ok 108 - 
+[Terminal::LineEditor] ok 109 - 
+[Terminal::LineEditor] ok 110 - 
+[Terminal::LineEditor] ok 111 - 
+[Terminal::LineEditor] ok 112 - 
+[Terminal::LineEditor] ok 113 - 
+[Terminal::LineEditor] ok 114 - 
+[Terminal::LineEditor] ok 115 - 
+[Terminal::LineEditor] ok 116 - 
+[Terminal::LineEditor] ok 117 - 
+[Terminal::LineEditor] ok 118 - 
+[Terminal::LineEditor] ok 119 - 
+[Terminal::LineEditor] ok 120 - 
+[Terminal::LineEditor] ok 121 - 
+[Terminal::LineEditor] ok 122 - 
+[Terminal::LineEditor] ok 123 - 
+[Terminal::LineEditor] ok 124 - 
+[Terminal::LineEditor] ok 125 - 
+[Terminal::LineEditor] ok 126 - 
+[Terminal::LineEditor] ok 127 - 
+[Terminal::LineEditor] ok 128 - 
+[Terminal::LineEditor] ok 129 - 
+[Terminal::LineEditor] ok 130 - 
+[Terminal::LineEditor] ok 131 - 
+[Terminal::LineEditor] ok 132 - 
+[Terminal::LineEditor] ok 133 - 
+[Terminal::LineEditor] ok 134 - 
+[Terminal::LineEditor] ok 135 - 
+[Terminal::LineEditor] ok 136 - 
+[Terminal::LineEditor] ok 137 - 
+[Terminal::LineEditor] ok 138 - 
+[Terminal::LineEditor] ok 139 - 
+[Terminal::LineEditor] ok 140 - 
+[Terminal::LineEditor] ok 141 - 
+[Terminal::LineEditor] ok 142 - 
+[Terminal::LineEditor] ok 143 - 
+[Terminal::LineEditor] ok 144 - 
+[Terminal::LineEditor] ok 145 - 
+[Terminal::LineEditor] ok 146 - 
+[Terminal::LineEditor] ok 147 - 
+[Terminal::LineEditor] ok 148 - 
+[Terminal::LineEditor] ok 149 - 
+[Terminal::LineEditor] ok 150 - 
+[Terminal::LineEditor] ok 151 - 
+[Terminal::LineEditor] ok 152 - 
+[Terminal::LineEditor] ok 153 - 
+[Terminal::LineEditor] ok 154 - 
+[Terminal::LineEditor] ok 155 - 
+[Terminal::LineEditor] ok 156 - 
+[Terminal::LineEditor] ok 157 - 
+[Terminal::LineEditor] ok 158 - 
+[Terminal::LineEditor] ok 159 - 
+[Terminal::LineEditor] ok 160 - 
+[Terminal::LineEditor] ok 161 - 
+[Terminal::LineEditor] ok 162 - 
+[Terminal::LineEditor] ok 163 - 
+[Terminal::LineEditor] ok 164 - 
+[Terminal::LineEditor] ok 165 - 
+[Terminal::LineEditor] ok 166 - 
+[Terminal::LineEditor] ok 167 - 
+[Terminal::LineEditor] ok 168 - 
+[Terminal::LineEditor] ok 169 - 
+[Terminal::LineEditor] ok 170 - 
+[Terminal::LineEditor] ok 171 - 
+[Terminal::LineEditor] ok 172 - 
+[Terminal::LineEditor] ok 173 - 
+[Terminal::LineEditor] ok 174 - 
+[Terminal::LineEditor] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz/Terminal-LineEditor-0.0.23 t/02-sltb-with-cursors.rakutest
+[Terminal::LineEditor] 1..141
+[Terminal::LineEditor] ok 1 - The object is-a 'Terminal::LineEditor::SingleLineTextBuffer'
+[Terminal::LineEditor] ok 2 - The object does role 'Terminal::LineEditor::EditableBuffer'
+[Terminal::LineEditor] ok 3 - The object is-a 'Terminal::LineEditor::SingleLineTextBuffer'
+[Terminal::LineEditor] ok 4 - The object does role 'Terminal::LineEditor::EditableBuffer'
+[Terminal::LineEditor] not ok 5 - The object is-a 'Terminal::LineEditor::SingleLineTextBuffer::Cursor'
+[Terminal::LineEditor] # Failed test 'The object is-a 'Terminal::LineEditor::SingleLineTextBuffer::Cursor''
+[Terminal::LineEditor] # at t/02-sltb-with-cursors.rakutest line 22
+[Terminal::LineEditor] # Actual type: Any
+[Terminal::LineEditor] ok 6 - cursor collection starts empty
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidCursor?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidCursor)
+[Terminal::LineEditor] ok 7 - did we throws-like X::Terminal::LineEditor::InvalidCursor?
+[Terminal::LineEditor] ok 8 - The object is-a 'Any'
+[Terminal::LineEditor] ok 9 - 
+[Terminal::LineEditor] No such method 'id' for invocant of type 'Any'
+[Terminal::LineEditor]   in block <unit> at t/02-sltb-with-cursors.rakutest line 34
+[Terminal::LineEditor] # You planned 141 tests, but ran 9
+[Terminal::LineEditor] # You failed 1 test of 9
+[Terminal::LineEditor] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz/Terminal-LineEditor-0.0.23 t/03-single-line-text-input.rakutest
+[Terminal::LineEditor] 1..251
+[Terminal::LineEditor] No such method 'add-cursor' for invocant of type 'Any'
+[Terminal::LineEditor]   in method  at /blin/data/zef-data/tmp/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz/Terminal-LineEditor-0.0.23/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/B4/B4EE888AAC2565DFEEE75DA48DC1DF9667ECAAFB line 1
+[Terminal::LineEditor]   in block <unit> at t/03-single-line-text-input.rakutest line 18
+[Terminal::LineEditor] # You planned 251 tests, but ran 0
+[Terminal::LineEditor] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz/Terminal-LineEditor-0.0.23 t/10-duospace-layout.rakutest
+[Terminal::LineEditor] 1..44
+[Terminal::LineEditor] ok 1 - The object does role 'Terminal::LineEditor::DuospaceLayoutCache'
+[Terminal::LineEditor] ok 2 - 
+[Terminal::LineEditor] ok 3 - 
+[Terminal::LineEditor] ok 4 - 
+[Terminal::LineEditor] ok 5 - 
+[Terminal::LineEditor] ok 6 - 
+[Terminal::LineEditor] ok 7 - 
+[Terminal::LineEditor] ok 8 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 9 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 10 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 11 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 12 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 13 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 14 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 15 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 16 - 
+[Terminal::LineEditor] ok 17 - 
+[Terminal::LineEditor] ok 18 - 
+[Terminal::LineEditor] ok 19 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 20 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 21 - 
+[Terminal::LineEditor] ok 22 - 
+[Terminal::LineEditor] ok 23 - 
+[Terminal::LineEditor] ok 24 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 25 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 26 - 
+[Terminal::LineEditor] ok 27 - 
+[Terminal::LineEditor] ok 28 - 
+[Terminal::LineEditor] ok 29 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 30 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 31 - 
+[Terminal::LineEditor] ok 32 - 
+[Terminal::LineEditor] ok 33 - 
+[Terminal::LineEditor] ok 34 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 35 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 36 - 
+[Terminal::LineEditor] ok 37 - 
+[Terminal::LineEditor] ok 38 - 
+[Terminal::LineEditor] ok 39 - 
+[Terminal::LineEditor] # Subtest: did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor]     1..2
+[Terminal::LineEditor]     ok 1 - code dies
+[Terminal::LineEditor]     ok 2 - right exception type (X::Terminal::LineEditor::InvalidRange)
+[Terminal::LineEditor] ok 40 - did we throws-like X::Terminal::LineEditor::InvalidRange?
+[Terminal::LineEditor] ok 41 - 
+[Terminal::LineEditor] ok 42 - 
+[Terminal::LineEditor] ok 43 - 
+[Terminal::LineEditor] ok 44 - 
+[Terminal::LineEditor] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz/Terminal-LineEditor-0.0.23 t/11-scrolling-single-line-input.rakutest
+[Terminal::LineEditor] 1..54
+[Terminal::LineEditor] ok 1 - The object does role 'Terminal::LineEditor::SingleLineTextInput'
+[Terminal::LineEditor] ok 2 - The object does role 'Terminal::LineEditor::DuospaceLayoutCache'
+[Terminal::LineEditor] ok 3 - 
+[Terminal::LineEditor] No such method 'add-cursor' for invocant of type 'Any'
+[Terminal::LineEditor]   in method  at /blin/data/zef-data/tmp/2799b876ac19de9e9005822e0e0512acd48f453f.tar.gz/Terminal-LineEditor-0.0.23/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/B4/B4EE888AAC2565DFEEE75DA48DC1DF9667ECAAFB line 1
+[Terminal::LineEditor]   in block <unit> at t/11-scrolling-single-line-input.rakutest line 20
+[Terminal::LineEditor] # You planned 54 tests, but ran 3
+===> Testing [FAIL]: Terminal::LineEditor:ver<0.0.23>:auth<zef:japhb>
+[Terminal::LineEditor] Failed to get passing tests, but continuing with --force-test
+===> Installing: Terminal::LineEditor:ver<0.0.23>:auth<zef:japhb>
+===> Install [OK] for Terminal::LineEditor:ver<0.0.23>:auth<zef:japhb>

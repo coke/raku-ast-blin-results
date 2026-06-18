@@ -1,0 +1,89 @@
+===> Searching for: HuggingFace::API
+===> Found: HuggingFace::API:ver<0.2.1>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[HuggingFace::API] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781781474.548153.5714.670176678163/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz https://360.zef.pm/H/UG/HUGGINGFACE_API/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz
+===> Fetching [OK]: HuggingFace::API:ver<0.2.1>:auth<zef:apogee> to /blin/data/zef-data/tmp/1781781474.548153.5714.670176678163/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz
+[HuggingFace::API] Command: tar -t -f ./dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz
+[HuggingFace::API] Command: tar -xvf ./dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz -C ../dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz
+===> Extraction [OK]: HuggingFace::API to /blin/data/zef-data/tmp/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz
+===> Testing: HuggingFace::API:ver<0.2.1>:auth<zef:apogee>
+[HuggingFace::API] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz/HuggingFace-API-0.2.1 t/01-api.rakutest
+[HuggingFace::API] Potential difficulties:
+[HuggingFace::API]     Optional named parameter 'version' with subset type OpenSSL::ProtocolVersion needs a valid default value
+[HuggingFace::API]     otherwise it will throw exceptions when a value is absent at the callsite
+[HuggingFace::API]     at /blin/installed/IO::Socket::Async::SSL_0.8.2/sources/54DA18A673601FAFD8F6161DA647BED3ABCA650F (IO::Socket::Async::SSL):623
+[HuggingFace::API]     Optional named parameter 'version' with subset type OpenSSL::ProtocolVersion needs a valid default value
+[HuggingFace::API]     otherwise it will throw exceptions when a value is absent at the callsite
+[HuggingFace::API]     at /blin/installed/IO::Socket::Async::SSL_0.8.2/sources/54DA18A673601FAFD8F6161DA647BED3ABCA650F (IO::Socket::Async::SSL):738
+[HuggingFace::API] 1..6
+[HuggingFace::API] # Subtest: search returns results
+[HuggingFace::API]     1..2
+[HuggingFace::API] An operation first awaited:
+[HuggingFace::API]   in method search at /blin/data/zef-data/tmp/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz/HuggingFace-API-0.2.1/lib/HuggingFace/API.rakumod (HuggingFace::API) line 65
+[HuggingFace::API]   in block <unit> at t/01-api.rakutest line 12
+[HuggingFace::API] Died with the exception:
+[HuggingFace::API]     Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[HuggingFace::API]       in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BE74DF4D5815ABCF2DD1BB81A081E56E9E88B5B (Cro::HTTP::ResponseParser) line 87
+[HuggingFace::API]       in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BE74DF4D5815ABCF2DD1BB81A081E56E9E88B5B (Cro::HTTP::ResponseParser) line 79
+[HuggingFace::API]       in block  at /blin/installed/Cro::TLS_0.8.10/sources/ABAF64BE62A481E7D08FE8DF38CAF35183A7DB16 (Cro::TLS) line 93
+[HuggingFace::API]     # You planned 2 tests, but ran 0
+[HuggingFace::API] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz/HuggingFace-API-0.2.1 t/03-generic-file.rakutest
+[HuggingFace::API] 1..5
+[HuggingFace::API] # Subtest: get-file returns text content at pinned revision
+[HuggingFace::API]     1..3
+[HuggingFace::API] An operation first awaited:
+[HuggingFace::API]   in method get-file at /blin/data/zef-data/tmp/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz/HuggingFace-API-0.2.1/lib/HuggingFace/API.rakumod (HuggingFace::API) line 91
+[HuggingFace::API]   in block <unit> at t/03-generic-file.rakutest line 22
+[HuggingFace::API] Died with the exception:
+[HuggingFace::API]     Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[HuggingFace::API]       in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BE74DF4D5815ABCF2DD1BB81A081E56E9E88B5B (Cro::HTTP::ResponseParser) line 87
+[HuggingFace::API]       in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BE74DF4D5815ABCF2DD1BB81A081E56E9E88B5B (Cro::HTTP::ResponseParser) line 79
+[HuggingFace::API]       in block  at /blin/installed/Cro::TLS_0.8.10/sources/ABAF64BE62A481E7D08FE8DF38CAF35183A7DB16 (Cro::TLS) line 93
+[HuggingFace::API]     # You planned 3 tests, but ran 0
+[HuggingFace::API] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz/HuggingFace-API-0.2.1 t/04-chat-template.rakutest
+[HuggingFace::API] 1..11
+[HuggingFace::API] # Subtest: extract: string-form chat_template
+[HuggingFace::API]     1..1
+[HuggingFace::API]     ok 1 - String form returned verbatim
+[HuggingFace::API] ok 1 - extract: string-form chat_template
+[HuggingFace::API] # Subtest: extract: array-form picks "default" entry
+[HuggingFace::API]     1..1
+[HuggingFace::API]     ok 1 - Selects the entry named "default"
+[HuggingFace::API] ok 2 - extract: array-form picks "default" entry
+[HuggingFace::API] # Subtest: extract: array-form falls back to first entry
+[HuggingFace::API]     1..1
+[HuggingFace::API]     ok 1 - Falls back to first when no "default" name
+[HuggingFace::API] ok 3 - extract: array-form falls back to first entry
+[HuggingFace::API] # Subtest: extract: missing chat_template returns Str (undef)
+[HuggingFace::API]     1..2
+[HuggingFace::API]     ok 1 - Returns undefined Str
+[HuggingFace::API]     ok 2 - Type is still Str
+[HuggingFace::API] ok 4 - extract: missing chat_template returns Str (undef)
+[HuggingFace::API] # Subtest: extract: empty-string chat_template returned as-is
+[HuggingFace::API]     1..2
+[HuggingFace::API]     ok 1 - Empty string is defined
+[HuggingFace::API]     ok 2 - Empty string preserved
+[HuggingFace::API] ok 5 - extract: empty-string chat_template returned as-is
+[HuggingFace::API] # Subtest: extract: malformed JSON returns Str (undef)
+[HuggingFace::API]     1..1
+[HuggingFace::API]     ok 1 - Bad JSON returns undefined rather than throwing
+[HuggingFace::API] ok 6 - extract: malformed JSON returns Str (undef)
+[HuggingFace::API] # Subtest: extract: array-form with no usable entries returns Str
+[HuggingFace::API]     1..1
+[HuggingFace::API]     ok 1 - No template fields → undefined
+[HuggingFace::API] ok 7 - extract: array-form with no usable entries returns Str
+[HuggingFace::API] # Subtest: get-chat-template: prefers chat_template.jinja when present
+[HuggingFace::API]     1..3
+[HuggingFace::API] An operation first awaited:
+[HuggingFace::API]   in method try-get-file at /blin/data/zef-data/tmp/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz/HuggingFace-API-0.2.1/lib/HuggingFace/API.rakumod (HuggingFace::API) line 192
+[HuggingFace::API]   in method get-chat-template at /blin/data/zef-data/tmp/dcea1c5d9e30e0a05334ff1bc8e68d97ed0c730c.tar.gz/HuggingFace-API-0.2.1/lib/HuggingFace/API.rakumod (HuggingFace::API) line 157
+[HuggingFace::API]   in block <unit> at t/04-chat-template.rakutest line 97
+[HuggingFace::API] Died with the exception:
+[HuggingFace::API]     Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[HuggingFace::API]       in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BE74DF4D5815ABCF2DD1BB81A081E56E9E88B5B (Cro::HTTP::ResponseParser) line 87
+[HuggingFace::API]       in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BE74DF4D5815ABCF2DD1BB81A081E56E9E88B5B (Cro::HTTP::ResponseParser) line 79
+[HuggingFace::API]       in block  at /blin/installed/Cro::TLS_0.8.10/sources/ABAF64BE62A481E7D08FE8DF38CAF35183A7DB16 (Cro::TLS) line 93
+[HuggingFace::API]     # You planned 3 tests, but ran 0
+===> Testing [FAIL]: HuggingFace::API:ver<0.2.1>:auth<zef:apogee>
+[HuggingFace::API] Failed to get passing tests, but continuing with --force-test
+===> Installing: HuggingFace::API:ver<0.2.1>:auth<zef:apogee>
+===> Install [OK] for HuggingFace::API:ver<0.2.1>:auth<zef:apogee>

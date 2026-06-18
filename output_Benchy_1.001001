@@ -1,0 +1,99 @@
+===> Searching for: Benchy
+===> Found: Benchy:ver<1.1>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Benchy] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781785366.577551.8574.38265801314/e9c115f1985e530bea6780521291440d5d505b6a.tar.gz https://360.zef.pm/B/EN/BENCHY/e9c115f1985e530bea6780521291440d5d505b6a.tar.gz
+===> Fetching [OK]: Benchy:ver<1.1>:auth<zef:raku-community-modules> to /blin/data/zef-data/tmp/1781785366.577551.8574.38265801314/e9c115f1985e530bea6780521291440d5d505b6a.tar.gz
+[Benchy] Command: tar -t -f ./e9c115f1985e530bea6780521291440d5d505b6a.tar.gz
+[Benchy] Command: tar -xvf ./e9c115f1985e530bea6780521291440d5d505b6a.tar.gz -C ../e9c115f1985e530bea6780521291440d5d505b6a.tar.gz
+===> Extraction [OK]: Benchy to /blin/data/zef-data/tmp/e9c115f1985e530bea6780521291440d5d505b6a.tar.gz
+===> Testing: Benchy:ver<1.1>:auth<zef:raku-community-modules>
+[Benchy] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e9c115f1985e530bea6780521291440d5d505b6a.tar.gz/Benchy-1.1 t/01-operation.rakutest
+[Benchy] Potential difficulties:
+[Benchy]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[Benchy]     name silently replaces the package in the outer stash. This is legacy
+[Benchy]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[Benchy]     installs the role as a nested package instead. Rewrite as 'unit role
+[Benchy]     Testo::Test;' in its own file (or otherwise avoid the
+[Benchy]     package+same-named-role collision) to work the same way on either
+[Benchy]     revision.
+[Benchy]     at line 
+[Benchy] Potential difficulties:
+[Benchy]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[Benchy]     name silently replaces the package in the outer stash. This is legacy
+[Benchy]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[Benchy]     installs the role as a nested package instead. Rewrite as 'unit role
+[Benchy]     Testo::Test;' in its own file (or otherwise avoid the
+[Benchy]     package+same-named-role collision) to work the same way on either
+[Benchy]     revision.
+[Benchy]     at line 
+[Benchy] Potential difficulties:
+[Benchy]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[Benchy]     name silently replaces the package in the outer stash. This is legacy
+[Benchy]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[Benchy]     installs the role as a nested package instead. Rewrite as 'unit role
+[Benchy]     Testo::Test;' in its own file (or otherwise avoid the
+[Benchy]     package+same-named-role collision) to work the same way on either
+[Benchy]     revision.
+[Benchy]     at line 
+[Benchy] Potential difficulties:
+[Benchy]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[Benchy]     name silently replaces the package in the outer stash. This is legacy
+[Benchy]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[Benchy]     installs the role as a nested package instead. Rewrite as 'unit role
+[Benchy]     Testo::Test;' in its own file (or otherwise avoid the
+[Benchy]     package+same-named-role collision) to work the same way on either
+[Benchy]     revision.
+[Benchy]     at line 
+[Benchy] Potential difficulties:
+[Benchy]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[Benchy]     name silently replaces the package in the outer stash. This is legacy
+[Benchy]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[Benchy]     installs the role as a nested package instead. Rewrite as 'unit role
+[Benchy]     Testo::Test;' in its own file (or otherwise avoid the
+[Benchy]     package+same-named-role collision) to work the same way on either
+[Benchy]     revision.
+[Benchy]     at line 
+[Benchy] Potential difficulties:
+[Benchy]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[Benchy]     name silently replaces the package in the outer stash. This is legacy
+[Benchy]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[Benchy]     installs the role as a nested package instead. Rewrite as 'unit role
+[Benchy]     Testo::Test;' in its own file (or otherwise avoid the
+[Benchy]     package+same-named-role collision) to work the same way on either
+[Benchy]     revision.
+[Benchy]     at line 
+[Benchy] Potential difficulties:
+[Benchy]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[Benchy]     name silently replaces the package in the outer stash. This is legacy
+[Benchy]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[Benchy]     installs the role as a nested package instead. Rewrite as 'unit role
+[Benchy]     Testo::Test;' in its own file (or otherwise avoid the
+[Benchy]     package+same-named-role collision) to work the same way on either
+[Benchy]     revision.
+[Benchy]     at line 
+[Benchy] Potential difficulties:
+[Benchy]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[Benchy]     name silently replaces the package in the outer stash. This is legacy
+[Benchy]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[Benchy]     installs the role as a nested package instead. Rewrite as 'unit role
+[Benchy]     Testo::Test;' in its own file (or otherwise avoid the
+[Benchy]     package+same-named-role collision) to work the same way on either
+[Benchy]     revision.
+[Benchy]     at line 
+[Benchy] Potential difficulties:
+[Benchy]     Optional named parameter 'key' with subset type UInt needs a valid default value
+[Benchy]     otherwise it will throw exceptions when a value is absent at the callsite
+[Benchy]     at /blin/installed/Testo_1.003009/sources/B784C8CFC84D8A3E48ED14CDD1CE15198ECF3441 (Testo::Tester):33
+[Benchy] ===SORRY!=== Error while compiling t/01-operation.rakutest
+[Benchy] Dynamic variable $*W not found
+[Benchy] at t/01-operation.rakutest:2
+[Benchy] Actually thrown at:
+[Benchy]   in sub EXPORT at /blin/data/zef-data/tmp/e9c115f1985e530bea6780521291440d5d505b6a.tar.gz/Benchy-1.1/lib/Benchy.rakumod (Benchy) line 2
+[Benchy]   in any  at src/Raku/ast/statements.rakumod line 1807
+[Benchy]   in any IMPL-IMPORT at src/Raku/ast/statements.rakumod line 1776
+[Benchy]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 1962
+[Benchy]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Benchy]   in any statement-control at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+===> Testing [FAIL]: Benchy:ver<1.1>:auth<zef:raku-community-modules>
+[Benchy] Failed to get passing tests, but continuing with --force-test
+===> Installing: Benchy:ver<1.1>:auth<zef:raku-community-modules>
+===> Install [OK] for Benchy:ver<1.1>:auth<zef:raku-community-modules>

@@ -1,0 +1,61 @@
+===> Searching for: CSV-Autoclass
+===> Found: CSV-Autoclass:ver<0.2.0>:auth<zef:tbrowder>:api<2> [via Zef::Repository::Ecosystems<fez>]
+[CSV-Autoclass] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781764854.416133.4632.152659264678/f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz https://360.zef.pm/C/SV/CSVAUTOCLASS/f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz
+===> Fetching [OK]: CSV-Autoclass:ver<0.2.0>:auth<zef:tbrowder>:api<2> to /blin/data/zef-data/tmp/1781764854.416133.4632.152659264678/f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz
+[CSV-Autoclass] Command: tar -t -f ./f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz
+[CSV-Autoclass] Command: tar -xvf ./f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz -C ../f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz
+===> Extraction [OK]: CSV-Autoclass to /blin/data/zef-data/tmp/f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz
+===> Testing: CSV-Autoclass:ver<0.2.0>:auth<zef:tbrowder>:api<2>
+[CSV-Autoclass] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz/CSV-Autoclass-0.2.0 t/1-module-tests.t
+[CSV-Autoclass] ===SORRY!=== Error while compiling t/1-module-tests.t
+[CSV-Autoclass] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz/CSV-Autoclass-0.2.0/lib/CSV-Autoclass.rakumod (CSV-Autoclass)
+[CSV-Autoclass] Potential difficulties:
+[CSV-Autoclass]     Optional named parameter 'limit' with subset type Text::Utils::Subs::LevelOp needs a valid default value
+[CSV-Autoclass]     otherwise it will throw exceptions when a value is absent at the callsite
+[CSV-Autoclass]     at /blin/installed/Text::Utils_4.0.2/sources/E87B2C93AA28243C3EE4C6706811362843350C8E (Text::Utils::Subs):160
+[CSV-Autoclass]     Optional named parameter 'opt' with subset type Text::Utils::Subs::SplitOp needs a valid default value
+[CSV-Autoclass]     otherwise it will throw exceptions when a value is absent at the callsite
+[CSV-Autoclass]     at /blin/installed/Text::Utils_4.0.2/sources/E87B2C93AA28243C3EE4C6706811362843350C8E (Text::Utils::Subs):161
+[CSV-Autoclass] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV-Autoclass] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV-Autoclass] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV-Autoclass] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV-Autoclass] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV-Autoclass] Exception details:
+[CSV-Autoclass]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV-Autoclass]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV-Autoclass]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV-Autoclass]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV-Autoclass]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV-Autoclass]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV-Autoclass]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV-Autoclass]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV-Autoclass]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV-Autoclass]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV-Autoclass]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV-Autoclass]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV-Autoclass]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV-Autoclass]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV-Autoclass]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV-Autoclass]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV-Autoclass]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV-Autoclass]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV-Autoclass]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV-Autoclass]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV-Autoclass] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV-Autoclass] at /blin/data/zef-data/tmp/f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz/CSV-Autoclass-0.2.0/lib/CSV-Autoclass.rakumod (CSV-Autoclass):78
+[CSV-Autoclass] at t/1-module-tests.t:4
+[CSV-Autoclass] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f40181b266a6b58469d4e1c682622b798930ee2e.tar.gz/CSV-Autoclass-0.2.0 t/2-bin-tests.t
+[CSV-Autoclass] ok 1 - unknown named arg
+[CSV-Autoclass] ok 2 - 
+[CSV-Autoclass] ok 3 - test comments and blank lines
+[CSV-Autoclass] ok 4 - 
+[CSV-Autoclass] ok 5 - 
+[CSV-Autoclass] 1..5
+===> Testing [FAIL]: CSV-Autoclass:ver<0.2.0>:auth<zef:tbrowder>:api<2>
+[CSV-Autoclass] Failed to get passing tests, but continuing with --force-test
+===> Installing: CSV-Autoclass:ver<0.2.0>:auth<zef:tbrowder>:api<2>
+===> Install [OK] for CSV-Autoclass:ver<0.2.0>:auth<zef:tbrowder>:api<2>
+
+2 bin/ scripts [use-class csv2class] installed to:
+/blin/installed/CSV-Autoclass_0.2.0/bin

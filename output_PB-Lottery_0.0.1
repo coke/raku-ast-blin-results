@@ -1,0 +1,424 @@
+===> Searching for: PB-Lottery
+===> Found: PB-Lottery:ver<0.0.1>:auth<zef:tbrowder> [via Zef::Repository::Ecosystems<fez>]
+[PB-Lottery] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781764965.416905.3454.2570092268434/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz https://360.zef.pm/P/BL/PBLOTTERY/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz
+===> Fetching [OK]: PB-Lottery:ver<0.0.1>:auth<zef:tbrowder> to /blin/data/zef-data/tmp/1781764965.416905.3454.2570092268434/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz
+[PB-Lottery] Command: tar -t -f ./3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz
+[PB-Lottery] Command: tar -xvf ./3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz -C ../3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz
+===> Extraction [OK]: PB-Lottery to /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz
+===> Testing: PB-Lottery:ver<0.0.1>:auth<zef:tbrowder>
+[PB-Lottery] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1 t/0-load-test.t
+[PB-Lottery] 1..6
+[PB-Lottery] not ok 1 - Module 'PB-Lottery' can be used okay
+[PB-Lottery] # Failed test 'Module 'PB-Lottery' can be used okay'
+[PB-Lottery] # at t/0-load-test.t line 15
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery.rakumod (PB-Lottery)
+[PB-Lottery] # Potential difficulties:
+[PB-Lottery] #     Optional named parameter 'limit' with subset type Text::Utils::Subs::LevelOp needs a valid default value
+[PB-Lottery] #     otherwise it will throw exceptions when a value is absent at the callsite
+[PB-Lottery] #     at /blin/installed/Text::Utils_4.0.2/sources/E87B2C93AA28243C3EE4C6706811362843350C8E (Text::Utils::Subs):160
+[PB-Lottery] #     Optional named parameter 'opt' with subset type Text::Utils::Subs::SplitOp needs a valid default value
+[PB-Lottery] #     otherwise it will throw exceptions when a value is absent at the callsite
+[PB-Lottery] #     at /blin/installed/Text::Utils_4.0.2/sources/E87B2C93AA28243C3EE4C6706811362843350C8E (Text::Utils::Subs):161
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] # An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] # No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] # at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] # Exception details:
+[PB-Lottery] #   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery] #     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery] #     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery] #     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery] #     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery] #     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery] #     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] # 
+[PB-Lottery] # 
+[PB-Lottery] # at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] # 
+[PB-Lottery] # at /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery.rakumod (PB-Lottery):5
+[PB-Lottery] # 
+[PB-Lottery] not ok 2 - Module 'PB-Lottery::Subs' can be used okay
+[PB-Lottery] # Failed test 'Module 'PB-Lottery::Subs' can be used okay'
+[PB-Lottery] # at t/0-load-test.t line 15
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery/Subs.rakumod (PB-Lottery::Subs)
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] # An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] # No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] # at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] # Exception details:
+[PB-Lottery] #   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery] #     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery] #     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery] #     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery] #     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery] #     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery] #     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] # 
+[PB-Lottery] # 
+[PB-Lottery] # at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] # 
+[PB-Lottery] # at /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery/Subs.rakumod (PB-Lottery::Subs):5
+[PB-Lottery] # 
+[PB-Lottery] not ok 3 - Module 'PB-Lottery::Draw' can be used okay
+[PB-Lottery] # Failed test 'Module 'PB-Lottery::Draw' can be used okay'
+[PB-Lottery] # at t/0-load-test.t line 15
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery/Draw.rakumod (PB-Lottery::Draw)
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] # An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] # No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] # at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] # Exception details:
+[PB-Lottery] #   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery] #     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery] #     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery] #     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery] #     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery] #     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery] #     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] # 
+[PB-Lottery] # 
+[PB-Lottery] # at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] # 
+[PB-Lottery] # at /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery/Draw.rakumod (PB-Lottery::Draw):5
+[PB-Lottery] # 
+[PB-Lottery] not ok 4 - Module 'PB-Lottery::Numbers' can be used okay
+[PB-Lottery] # Failed test 'Module 'PB-Lottery::Numbers' can be used okay'
+[PB-Lottery] # at t/0-load-test.t line 15
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery/Numbers.rakumod (PB-Lottery::Numbers)
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] # An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] # No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] # at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] # Exception details:
+[PB-Lottery] #   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery] #     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery] #     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery] #     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery] #     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery] #     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery] #     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] # 
+[PB-Lottery] # 
+[PB-Lottery] # at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] # 
+[PB-Lottery] # at /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery/Numbers.rakumod (PB-Lottery::Numbers):5
+[PB-Lottery] # 
+[PB-Lottery] not ok 5 - Module 'PB-Lottery::Ticket' can be used okay
+[PB-Lottery] # Failed test 'Module 'PB-Lottery::Ticket' can be used okay'
+[PB-Lottery] # at t/0-load-test.t line 15
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery/Ticket.rakumod (PB-Lottery::Ticket)
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] # ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] # An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] # No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] # at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] # Exception details:
+[PB-Lottery] #   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery] #     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery] #     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery] #     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery] #     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery] #     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery] #     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery] #     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] #     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] # 
+[PB-Lottery] # 
+[PB-Lottery] # at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] # 
+[PB-Lottery] # at /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery/Ticket.rakumod (PB-Lottery::Ticket):5
+[PB-Lottery] # 
+[PB-Lottery] ok 6 - Module 'PB-Lottery::Vars' can be used okay
+[PB-Lottery] # You failed 5 tests of 6
+[PB-Lottery] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1 t/1-pb-test.t
+[PB-Lottery] ===SORRY!=== Error while compiling t/1-pb-test.t
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery.rakumod (PB-Lottery)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] Exception details:
+[PB-Lottery]   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] at /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery.rakumod (PB-Lottery):5
+[PB-Lottery] at t/1-pb-test.t:3
+[PB-Lottery] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1 t/2-class-tests.t
+[PB-Lottery] ===SORRY!=== Error while compiling t/2-class-tests.t
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] Exception details:
+[PB-Lottery]   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] at t/2-class-tests.t:3
+[PB-Lottery] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1 t/3-check-good-formats.t
+[PB-Lottery] ===SORRY!=== Error while compiling t/3-check-good-formats.t
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery.rakumod (PB-Lottery)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] Exception details:
+[PB-Lottery]   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] at /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery.rakumod (PB-Lottery):5
+[PB-Lottery] at t/3-check-good-formats.t:3
+[PB-Lottery] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1 t/4-calc-winnings.t
+[PB-Lottery] ===SORRY!=== Error while compiling t/4-calc-winnings.t
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] Exception details:
+[PB-Lottery]   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] at t/4-calc-winnings.t:3
+[PB-Lottery] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1 t/5-vars-hash.t
+[PB-Lottery] ===SORRY!=== Error while compiling t/5-vars-hash.t
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] Exception details:
+[PB-Lottery]   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] at t/5-vars-hash.t:3
+[PB-Lottery] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1 t/8-hash-tests.t
+[PB-Lottery] ===SORRY!=== Error while compiling t/8-hash-tests.t
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery.rakumod (PB-Lottery)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] Exception details:
+[PB-Lottery]   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] at /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery.rakumod (PB-Lottery):5
+[PB-Lottery] at t/8-hash-tests.t:3
+[PB-Lottery] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1 t/9-set-tests.t
+[PB-Lottery] ===SORRY!=== Error while compiling t/9-set-tests.t
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery/Subs.rakumod (PB-Lottery::Subs)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[PB-Lottery] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[PB-Lottery] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[PB-Lottery] No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[PB-Lottery] Exception details:
+[PB-Lottery]   No such method 'CALL-ME' for invocant of type 'Pair'
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[PB-Lottery]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[PB-Lottery]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[PB-Lottery]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[PB-Lottery]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[PB-Lottery]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[PB-Lottery]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[PB-Lottery]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[PB-Lottery] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[PB-Lottery] at /blin/data/zef-data/tmp/3931b79a64ca9a4ba72b2234eff51e1b0b0a9f3a.tar.gz/PB-Lottery-0.0.1/lib/PB-Lottery/Subs.rakumod (PB-Lottery::Subs):5
+[PB-Lottery] at t/9-set-tests.t:3
+===> Testing [FAIL]: PB-Lottery:ver<0.0.1>:auth<zef:tbrowder>
+[PB-Lottery] Failed to get passing tests, but continuing with --force-test
+===> Installing: PB-Lottery:ver<0.0.1>:auth<zef:tbrowder>
+===> Install [OK] for PB-Lottery:ver<0.0.1>:auth<zef:tbrowder>
+
+1 bin/ script [pb-lottery] installed to:
+/blin/installed/PB-Lottery_0.0.1/bin

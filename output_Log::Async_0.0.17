@@ -1,0 +1,112 @@
+===> Searching for: Log::Async
+===> Found: Log::Async:ver<0.0.17>:auth<zef:bduggan> [via Zef::Repository::Ecosystems<fez>]
+[Log::Async] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781759731.364897.1028.658534801099/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz https://360.zef.pm/L/OG/LOG_ASYNC/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz
+===> Fetching [OK]: Log::Async:ver<0.0.17>:auth<zef:bduggan> to /blin/data/zef-data/tmp/1781759731.364897.1028.658534801099/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz
+[Log::Async] Command: tar -t -f ./098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz
+[Log::Async] Command: tar -xvf ./098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz -C ../098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz
+===> Extraction [OK]: Log::Async to /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz
+===> Testing: Log::Async:ver<0.0.17>:auth<zef:bduggan>
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/01-basic.rakutest
+[Log::Async] 1..2
+[Log::Async] ok 1 - Use Log::Async
+[Log::Async] ok 2 - version is > 0.0.0
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/02-levels.rakutest
+[Log::Async] 1..2
+[Log::Async] ok 1 - level order
+[Log::Async] ok 2 - smart match
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/03-log.rakutest
+[Log::Async] 1..12
+[Log::Async] ok 1 - found message
+[Log::Async] ok 2 - found level
+[Log::Async] ok 3 - found message
+[Log::Async] ok 4 - found level
+[Log::Async] ok 5 - found message
+[Log::Async] ok 6 - found level
+[Log::Async] ok 7 - found message
+[Log::Async] ok 8 - found level
+[Log::Async] ok 9 - found message
+[Log::Async] ok 10 - found level
+[Log::Async] ok 11 - found message
+[Log::Async] ok 12 - found level
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/04-filter.rakutest
+[Log::Async] 1..10
+[Log::Async] ok 1 - got trace message
+[Log::Async] ok 2 - debug message not sent to trace log
+[Log::Async] ok 3 - warning message not sent to trace log
+[Log::Async] ok 4 - error message not sent to trace log
+[Log::Async] ok 5 - trace messages are still sent
+[Log::Async] ok 6 - filter with junction
+[Log::Async] ok 7 - filter with whatever
+[Log::Async] ok 8 - not severe
+[Log::Async] ok 9 - filtered by msg
+[Log::Async] ok 10 - filtered by msg
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/05-concurrent.rakutest
+[Log::Async] 1..3
+[Log::Async] ok 1 - four hundred messages
+[Log::Async] ok 2 - 4000 characters
+[Log::Async] ok 3 - messages are all separate
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/06-sleep.rakutest
+[Log::Async] 1..2
+[Log::Async] ok 1 - no message yet
+[Log::Async] ok 2 - now there is a message
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/07-done.rakutest
+[Log::Async] 1..2
+[Log::Async] ok 1 - found first in output
+[Log::Async] ok 2 - found second in output
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/08-use.rakutest
+[Log::Async] 1..3
+[Log::Async] ok 1 - one module can be use-d ok
+[Log::Async] ok 2 - two module can be use-d ok
+[Log::Async] ok 3 - didn't die
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/10-formatter.rakutest
+[Log::Async] 1..5
+[Log::Async] ok 1 - default format
+[Log::Async] ok 2 - default format again
+[Log::Async] ok 3 - custom format
+[Log::Async] ok 4 - custom format again
+[Log::Async] ok 5 - custom format with filter
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/11-log-async-context.rakutest
+[Log::Async] 1..5
+[Log::Async] ok 1 - no compilation errors
+[Log::Async] No such method 'file' for invocant of type 'Any'
+[Log::Async]   in method generate at /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17/lib/Log/Async/Context.rakumod (Log::Async::Context) line 14
+[Log::Async]   in block <unit> at t/11-log-async-context.rakutest line 10
+[Log::Async] # You planned 5 tests, but ran 1
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/12-context.rakutest
+[Log::Async] 1..1
+[Log::Async] No such method 'file' for invocant of type 'Any'
+[Log::Async]   in method generate at /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17/lib/Log/Async/Context.rakumod (Log::Async::Context) line 14
+[Log::Async]   in block <unit> at t/12-context.rakutest line 18
+[Log::Async] # You planned 1 test, but ran 0
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/13-remove-tap.rakutest
+[Log::Async] 1..4
+[Log::Async] ok 1 - got a tap
+[Log::Async] ok 2 - got a tap
+[Log::Async] ok 3 - got a tap
+[Log::Async] ok 4 - two out of three taps still there
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/14-frame.rakutest
+[Log::Async] 1..6
+[Log::Async] ok 1 - right frame output in sub
+[Log::Async] ok 2 - right frame output in sub
+[Log::Async] ok 3 - right frame output in sub
+[Log::Async] ok 4 - right frame output in method
+[Log::Async] ok 5 - right frame output in method
+[Log::Async] ok 6 - right frame output in main
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/15-untapped.rakutest
+[Log::Async] 1..2
+[Log::Async] ok 1 - untapped-ok set to false
+[Log::Async] ok 2 - set to true
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/16-imports.rakutest
+[Log::Async] 1..2
+[Log::Async] ok 1 - level info will be logged
+[Log::Async] ok 2 - level debug will not be logged
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/16-imports2.rakutest
+[Log::Async] 1..1
+[Log::Async] ok 1 - trace will be logged
+[Log::Async] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/098def28100a9a5e0dfde1037eec3cff945a7e62.tar.gz/Log-Async-0.0.17 t/99-meta.rakutest
+[Log::Async] 1..1
+[Log::Async] ok 1 - # SKIP Skipping author test
+===> Testing [FAIL]: Log::Async:ver<0.0.17>:auth<zef:bduggan>
+[Log::Async] Failed to get passing tests, but continuing with --force-test
+===> Installing: Log::Async:ver<0.0.17>:auth<zef:bduggan>
+===> Install [OK] for Log::Async:ver<0.0.17>:auth<zef:bduggan>

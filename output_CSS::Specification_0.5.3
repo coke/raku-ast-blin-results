@@ -1,0 +1,25 @@
+===> Searching for: CSS::Specification
+===> Found: CSS::Specification:ver<0.5.3>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[CSS::Specification] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781757320.345043.8100.936178298401/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz https://360.zef.pm/C/SS/CSS_SPECIFICATION/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
+===> Fetching [OK]: CSS::Specification:ver<0.5.3>:auth<zef:dwarring> to /blin/data/zef-data/tmp/1781757320.345043.8100.936178298401/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
+[CSS::Specification] Command: tar -t -f ./2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
+[CSS::Specification] Command: tar -xvf ./2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz -C ../2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
+===> Extraction [OK]: CSS::Specification to /blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
+===> Testing: CSS::Specification:ver<0.5.3>:auth<zef:dwarring>
+[CSS::Specification] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3 t/00basic.t
+[CSS::Specification] ===SORRY!=== Error while compiling t/00basic.t
+[CSS::Specification] ===SORRY!===
+[CSS::Specification] Unresolved references found in grammar CSS::Specification:
+[CSS::Specification]   in token unicode (at /blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3/lib/CSS/Specification.rakumod (CSS::Specification):93): wc
+[CSS::Specification] at t/00basic.t:7
+[CSS::Specification] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3 t/defs.t
+[CSS::Specification] ===SORRY!=== Error while compiling t/defs.t
+[CSS::Specification] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3/lib/CSS/Specification/Base/Actions.rakumod (CSS::Specification::Base::Actions)
+[CSS::Specification] Malformed my
+[CSS::Specification] at /blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3/lib/CSS/Specification/Base/Actions.rakumod (CSS::Specification::Base::Actions):44
+[CSS::Specification] ------>         my<HERE> :($key, $value) := $ast.kv;
+[CSS::Specification] at t/defs.t:7
+===> Testing [FAIL]: CSS::Specification:ver<0.5.3>:auth<zef:dwarring>
+[CSS::Specification] Failed to get passing tests, but continuing with --force-test
+===> Installing: CSS::Specification:ver<0.5.3>:auth<zef:dwarring>
+===> Install [OK] for CSS::Specification:ver<0.5.3>:auth<zef:dwarring>

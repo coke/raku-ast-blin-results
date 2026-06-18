@@ -1,0 +1,388 @@
+===> Searching for: LLM::Chat
+===> Found: LLM::Chat:ver<0.5.1>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[LLM::Chat] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781782063.552545.5368.1205718485035/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz https://360.zef.pm/L/LM/LLM_CHAT/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz
+===> Fetching [OK]: LLM::Chat:ver<0.5.1>:auth<zef:apogee> to /blin/data/zef-data/tmp/1781782063.552545.5368.1205718485035/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz
+[LLM::Chat] Command: tar -t -f ./e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz
+[LLM::Chat] Command: tar -xvf ./e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz -C ../e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz
+===> Extraction [OK]: LLM::Chat to /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz
+===> Testing: LLM::Chat:ver<0.5.1>:auth<zef:apogee>
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/01_message.rakutest
+[LLM::Chat] 1..16
+[LLM::Chat] ok 1 - Created message object
+[LLM::Chat] ok 2 - Role is set correctly
+[LLM::Chat] ok 3 - Content is correct
+[LLM::Chat] ok 4 - Message is insert-at-depth
+[LLM::Chat] ok 5 - Message is not a system prompt
+[LLM::Chat] ok 6 - Depth is set correctly
+[LLM::Chat] ok 7 - Sticky is True
+[LLM::Chat] ok 8 - Created message object
+[LLM::Chat] ok 9 - Role is set correctly
+[LLM::Chat] ok 10 - Content is correct
+[LLM::Chat] ok 11 - Depth is correctly undefined
+[LLM::Chat] ok 12 - Message is the system prompt
+[LLM::Chat] ok 13 - Sticky is True
+[LLM::Chat] ok 14 - Checksum is valid hex
+[LLM::Chat] ok 15 - Checksum returns expected value
+[LLM::Chat] ok 16 - .to-hash returns correct structure
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/02_mistral.rakutest
+[LLM::Chat] 1..3
+[LLM::Chat] ok 1 - Template name is correct
+[LLM::Chat] ok 2 - Renders all message roles correctly
+[LLM::Chat] ok 3 - Renders continuation correctly
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/03_token_counter.rakutest
+[LLM::Chat] 1..4
+[LLM::Chat] ok 1 - Instantiated a token counter
+[LLM::Chat] ok 2 - Correct token count for template
+[LLM::Chat] ok 3 - Correct token count for message
+[LLM::Chat] ok 4 - Correct token count for conversation
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/04_conversation.rakutest
+[LLM::Chat] ok 1 - Fails if context is exceeded by sticky messages
+[LLM::Chat] ok 2 - Returns unchanged messages when under budget
+[LLM::Chat] ok 3 - IAD message inserted correctly
+[LLM::Chat] ok 4 - Context shift drops old non-stickies
+[LLM::Chat] ok 5 - Sysprompt is first
+[LLM::Chat] ok 6 - Sticky message retained during context shift
+[LLM::Chat] 1..6
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/05_response.rakutest
+[LLM::Chat] 1..38
+[LLM::Chat] ok 1 - Last emitted message is stored correctly
+[LLM::Chat] ok 2 - Response is marked as done
+[LLM::Chat] ok 3 - Response is marked as success
+[LLM::Chat] ok 4 - Response is not cancelled
+[LLM::Chat] ok 5 - Supply events captured in order
+[LLM::Chat] ok 6 - Cancel flag is set correctly
+[LLM::Chat] ok 7 - Correct error value
+[LLM::Chat] ok 8 - Get a partial message mid-stream.
+[LLM::Chat] ok 9 - Message correctly not set
+[LLM::Chat] ok 10 - Stream is not done
+[LLM::Chat] ok 11 - Correct events
+[LLM::Chat] ok 12 - Got a complete response from stream
+[LLM::Chat] ok 13 - Message correctly set
+[LLM::Chat] ok 14 - Stream is done
+[LLM::Chat] ok 15 - Correct events
+[LLM::Chat] ok 16 - prompt-tokens undefined by default
+[LLM::Chat] ok 17 - model-used undefined by default
+[LLM::Chat] ok 18 - prompt-tokens populated
+[LLM::Chat] ok 19 - completion-tokens populated
+[LLM::Chat] ok 20 - total-tokens populated
+[LLM::Chat] ok 21 - model-used populated
+[LLM::Chat] ok 22 - completion updated
+[LLM::Chat] ok 23 - prompt unchanged by partial update
+[LLM::Chat] ok 24 - error-class undefined by default
+[LLM::Chat] ok 25 - error-status undefined by default
+[LLM::Chat] ok 26 - error-class populated
+[LLM::Chat] ok 27 - error-status populated
+[LLM::Chat] ok 28 - error-class overwritten by later _set-error-info
+[LLM::Chat] ok 29 - error-status retained when later call omits :status
+[LLM::Chat] ok 30 - quitted response is done
+[LLM::Chat] ok 31 - quitted response not success
+[LLM::Chat] ok 32 - error-class survives quit
+[LLM::Chat] ok 33 - error-status survives quit
+[LLM::Chat] ok 34 - raw error message survives quit
+[LLM::Chat] ok 35 - reasoning-text starts undefined for non-reasoning models
+[LLM::Chat] ok 36 - reasoning chunks concatenate in order
+[LLM::Chat] ok 37 - empty reasoning chunk is a no-op (idempotent)
+[LLM::Chat] ok 38 - reasoning-text stays undefined when only empty chunks arrive
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/06_chatml.rakutest
+[LLM::Chat] 1..3
+[LLM::Chat] ok 1 - Template name is correct
+[LLM::Chat] ok 2 - ChatML full render correct
+[LLM::Chat] ok 3 - ChatML continuation omits final im_end
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/07-mock-backend.rakutest
+[LLM::Chat] 1..12
+[LLM::Chat] # Subtest: chat-completion returns canned response
+[LLM::Chat]     1..3
+[LLM::Chat] Type check failed in binding to parameter '$resp'; expected Any but got Mu (Mu.new)
+[LLM::Chat]   in method apply-fake-usage at /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1/lib/LLM/Chat/Backend/Mock.rakumod (LLM::Chat::Backend::Mock) line 276
+[LLM::Chat]   in method chat-completion at /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1/lib/LLM/Chat/Backend/Mock.rakumod (LLM::Chat::Backend::Mock) line 306
+[LLM::Chat]   in block <unit> at t/07-mock-backend.rakutest line 22
+[LLM::Chat]     # You planned 3 tests, but ran 0
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/07_llama3.rakutest
+[LLM::Chat] 1..3
+[LLM::Chat] ok 1 - Correct template name
+[LLM::Chat] ok 2 - LLaMA3 format renders correctly
+[LLM::Chat] ok 3 - LLaMA3 continuation renders correctly
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/08_llama4.rakutest
+[LLM::Chat] 1..3
+[LLM::Chat] ok 1 - Correct template name
+[LLM::Chat] ok 2 - LLaMA4 format renders correctly
+[LLM::Chat] ok 3 - LLaMA4 continuation renders correctly
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/09_gemma2.rakutest
+[LLM::Chat] 1..3
+[LLM::Chat] ok 1 - Template name is correct
+[LLM::Chat] ok 2 - Gemma2 full render correct
+[LLM::Chat] ok 3 - Gemma2 continuation omits final im_end
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/10_jinja2.rakutest
+[LLM::Chat] 1..6
+[LLM::Chat] # Subtest: Jinja2 ChatML: basic render
+[LLM::Chat]     1..2
+[LLM::Chat]     ok 1 - Name is jinja2
+[LLM::Chat]     ok 2 - Renders messages with ChatML markers
+[LLM::Chat] ok 1 - Jinja2 ChatML: basic render
+[LLM::Chat] # Subtest: Jinja2 ChatML: generation prompt
+[LLM::Chat]     1..2
+[LLM::Chat]     ok 1 - Non-continuation adds generation prompt
+[LLM::Chat]     ok 2 - Continuation mode omits generation prompt
+[LLM::Chat] ok 2 - Jinja2 ChatML: generation prompt
+[LLM::Chat] # Subtest: Jinja2 ChatML: multi-turn
+[LLM::Chat]     1..1
+[LLM::Chat]     ok 1 - Multi-turn renders all messages
+[LLM::Chat] ok 3 - Jinja2 ChatML: multi-turn
+[LLM::Chat] # Subtest: Jinja2: bos_token
+[LLM::Chat]     1..1
+[LLM::Chat]     ok 1 - bos_token passed through
+[LLM::Chat] ok 4 - Jinja2: bos_token
+[LLM::Chat] # Subtest: from-tokenizer-config: Command A
+[LLM::Chat]     1..3
+[LLM::Chat]     ok 1 - Creates Jinja2 template
+[LLM::Chat]     ok 2 - Template loaded (>1000 chars)
+[LLM::Chat]     ok 3 - Renders Command A template with user message
+[LLM::Chat] ok 5 - from-tokenizer-config: Command A
+[LLM::Chat] # Subtest: from-tokenizer-config: renders correctly
+[LLM::Chat]     1..2
+[LLM::Chat]     ok 1 - System message rendered
+[LLM::Chat]     ok 2 - Assistant message rendered
+[LLM::Chat] ok 6 - from-tokenizer-config: renders correctly
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/11_tool_calls.rakutest
+[LLM::Chat] Potential difficulties:
+[LLM::Chat]     Optional named parameter 'version' with subset type OpenSSL::ProtocolVersion needs a valid default value
+[LLM::Chat]     otherwise it will throw exceptions when a value is absent at the callsite
+[LLM::Chat]     at /blin/installed/IO::Socket::Async::SSL_0.8.2/sources/54DA18A673601FAFD8F6161DA647BED3ABCA650F (IO::Socket::Async::SSL):623
+[LLM::Chat]     Optional named parameter 'version' with subset type OpenSSL::ProtocolVersion needs a valid default value
+[LLM::Chat]     otherwise it will throw exceptions when a value is absent at the callsite
+[LLM::Chat]     at /blin/installed/IO::Socket::Async::SSL_0.8.2/sources/54DA18A673601FAFD8F6161DA647BED3ABCA650F (IO::Socket::Async::SSL):738
+[LLM::Chat] 1..6
+[LLM::Chat] # Subtest: Response: no tool calls by default
+[LLM::Chat]     1..2
+[LLM::Chat]     ok 1 - No tool calls initially
+[LLM::Chat]     ok 2 - Empty tool calls list
+[LLM::Chat] ok 1 - Response: no tool calls by default
+[LLM::Chat] # Subtest: Response: tool calls set and retrieved
+[LLM::Chat]     1..3
+[LLM::Chat]     ok 1 - Has tool calls
+[LLM::Chat]     ok 2 - Tool name extracted
+[LLM::Chat]     ok 3 - Finish reason set
+[LLM::Chat] ok 2 - Response: tool calls set and retrieved
+[LLM::Chat] # Subtest: Response: multiple tool calls
+[LLM::Chat]     1..2
+[LLM::Chat]     ok 1 - Two tool calls
+[LLM::Chat]     ok 2 - Second tool name
+[LLM::Chat] ok 3 - Response: multiple tool calls
+[LLM::Chat] # Subtest: Tool definition format
+[LLM::Chat]     1..3
+[LLM::Chat]     ok 1 - Tool type
+[LLM::Chat]     ok 2 - Function name
+[LLM::Chat]     ok 3 - Required param
+[LLM::Chat] ok 4 - Tool definition format
+[LLM::Chat] # Subtest: Simulated tool call response parsing
+[LLM::Chat]     1..4
+[LLM::Chat]     ok 1 - Finish reason is tool_calls
+[LLM::Chat]     ok 2 - Tool calls present
+[LLM::Chat]     ok 3 - Tool name
+[LLM::Chat]     ok 4 - Tool arguments parsed
+[LLM::Chat] ok 5 - Simulated tool call response parsing
+[LLM::Chat] # Subtest: Tool result message format
+[LLM::Chat]     1..3
+[LLM::Chat]     ok 1 - Tool message role
+[LLM::Chat]     ok 2 - Tool result content
+[LLM::Chat]     ok 3 - Tool role in hash
+[LLM::Chat] ok 6 - Tool result message format
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/12-openrouter-backend.rakutest
+[LLM::Chat] 1..12
+[LLM::Chat] # Subtest: class hierarchy
+[LLM::Chat]     1..3
+[LLM::Chat]     ok 1 - is-a OpenAICommon
+[LLM::Chat]     ok 2 - is-a Backend
+[LLM::Chat]     ok 3 - default api_url
+[LLM::Chat] ok 1 - class hierarchy
+[LLM::Chat] # Subtest: api_url override is honoured
+[LLM::Chat]     1..1
+[LLM::Chat]     ok 1 - caller-supplied api_url wins
+[LLM::Chat] ok 2 - api_url override is honoured
+[LLM::Chat] # Subtest: make-response returns Response::OpenRouter
+[LLM::Chat]     1..2
+[LLM::Chat]     ok 1 - OR-typed response
+[LLM::Chat]     ok 2 - response has a generated id
+[LLM::Chat] ok 3 - make-response returns Response::OpenRouter
+[LLM::Chat] # Subtest: make-stream-response returns Response::OpenRouter::Stream
+[LLM::Chat]     1..1
+[LLM::Chat]     ok 1 - OR Stream-typed response
+[LLM::Chat] ok 4 - make-stream-response returns Response::OpenRouter::Stream
+[LLM::Chat] # Subtest: _get-api-settings matches SillyTavern wire shape
+[LLM::Chat]     1..9
+[LLM::Chat]     ok 1 - OAI-spec model preserved
+[LLM::Chat]     ok 2 - OAI-spec temperature preserved
+[LLM::Chat]     ok 3 - OAI-spec max_tokens preserved
+[LLM::Chat]     ok 4 - OAI-spec top_p preserved
+[LLM::Chat]     ok 5 - top_k plumbed (matches ST)
+[LLM::Chat]     ok 6 - include_reasoning is False when no reasoning_effort configured
+[LLM::Chat]     ok 7 - usage block NOT sent (was triggering OR header-phase hangs)
+[LLM::Chat]     ok 8 - stream_options NOT sent (was triggering OR header-phase hangs)
+[LLM::Chat]     ok 9 - repetition_penalty omitted at default 1.0 (matches ST conditional)
+[LLM::Chat] ok 5 - _get-api-settings matches SillyTavern wire shape
+[LLM::Chat] # Subtest: _get-api-headers adds attribution when configured, omits when not
+[LLM::Chat]     1..6
+[LLM::Chat]     ok 1 - Authorization preserved
+[LLM::Chat]     ok 2 - no HTTP-Referer when unset
+[LLM::Chat]     ok 3 - no X-Title when unset
+[LLM::Chat]     ok 4 - Authorization still set
+[LLM::Chat]     ok 5 - HTTP-Referer set
+[LLM::Chat]     ok 6 - X-Title set
+[LLM::Chat] ok 6 - _get-api-headers adds attribution when configured, omits when not
+[LLM::Chat] # Subtest: _lift-usage extracts OR extras from a full response body
+[LLM::Chat]     1..8
+[LLM::Chat]     ok 1 - OAI prompt-tokens via callsame
+[LLM::Chat]     ok 2 - OAI completion-tokens via callsame
+[LLM::Chat]     ok 3 - OAI total-tokens via callsame
+[LLM::Chat]     ok 4 - OAI model via callsame
+[LLM::Chat]     ok 5 - OR cost extracted
+[LLM::Chat]     ok 6 - OR generation-id extracted from top-level id
+[LLM::Chat]     ok 7 - OR provider-name extracted
+[LLM::Chat]     ok 8 - OR is-byok extracted
+[LLM::Chat] ok 7 - _lift-usage extracts OR extras from a full response body
+[LLM::Chat] # Subtest: _lift-usage is presence-gated for partial bodies
+[LLM::Chat]     1..6
+[LLM::Chat]     ok 1 - cost set
+[LLM::Chat]     ok 2 - generation-id stays undefined
+[LLM::Chat]     ok 3 - provider-name stays undefined
+[LLM::Chat]     ok 4 - generation-id set
+[LLM::Chat]     ok 5 - cost stays undefined
+[LLM::Chat]     ok 6 - empty payload leaves OR fields untouched
+[LLM::Chat] ok 8 - _lift-usage is presence-gated for partial bodies
+[LLM::Chat] # Subtest: _lift-usage is defensive against base Response (no _set-or-usage)
+[LLM::Chat]     1..3
+[LLM::Chat]     ok 1 - lift-usage tolerates a non-OR Response
+[LLM::Chat]     ok 2 - OAI-spec lift still works
+[LLM::Chat]     ok 3 - OAI-spec model lift still works
+[LLM::Chat] ok 9 - _lift-usage is defensive against base Response (no _set-or-usage)
+[LLM::Chat] # Subtest: reasoning_effort omitted from request when unset
+[LLM::Chat]     1..2
+[LLM::Chat]     ok 1 - reasoning field stays out of the body when not configured
+[LLM::Chat]     ok 2 - include_reasoning is Boolean False when reasoning_effort unset
+[LLM::Chat] ok 10 - reasoning_effort omitted from request when unset
+[LLM::Chat] # Subtest: completion hooks defend against missing gen-id and non-OR Response
+[LLM::Chat]     1..4
+[LLM::Chat]     ok 1 - _on-blocking-complete is a no-op when generation-id is undefined
+[LLM::Chat]     ok 2 - _on-stream-complete is a no-op when generation-id is undefined
+[LLM::Chat]     ok 3 - _on-blocking-complete tolerates a non-OR Response
+[LLM::Chat]     ok 4 - OR-typed response carries the Augment role
+[LLM::Chat] ok 11 - completion hooks defend against missing gen-id and non-OR Response
+[LLM::Chat] # Subtest: reasoning_effort serialises only `effort` (matches ST shape)
+[LLM::Chat]     1..7
+[LLM::Chat]     ok 1 - low effort serialised under reasoning.effort
+[LLM::Chat]     ok 2 - medium effort serialised under reasoning.effort
+[LLM::Chat]     ok 3 - high effort serialised under reasoning.effort
+[LLM::Chat]     ok 4 - `enabled` key NOT sent (matches ST shape)
+[LLM::Chat]     ok 5 - reasoning hash has exactly the effort key
+[LLM::Chat]     ok 6 - effort still carries the configured level
+[LLM::Chat]     ok 7 - include_reasoning Boolean True when reasoning_effort set
+[LLM::Chat] ok 12 - reasoning_effort serialises only `effort` (matches ST shape)
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/13-or-response.rakutest
+[LLM::Chat] 1..6
+[LLM::Chat] # Subtest: Response::OpenRouter inherits + composes correctly
+[LLM::Chat]     1..4
+[LLM::Chat]     ok 1 - is-a base Response
+[LLM::Chat]     ok 2 - does Augment role
+[LLM::Chat]     ok 3 - is NOT a Stream
+[LLM::Chat]     ok 4 - role method available
+[LLM::Chat] ok 1 - Response::OpenRouter inherits + composes correctly
+[LLM::Chat] # Subtest: Response::OpenRouter::Stream inherits + composes correctly
+[LLM::Chat]     1..4
+[LLM::Chat]     ok 1 - is-a Stream
+[LLM::Chat]     ok 2 - is-a base Response (transitive)
+[LLM::Chat]     ok 3 - does Augment role
+[LLM::Chat]     ok 4 - role method available
+[LLM::Chat] ok 2 - Response::OpenRouter::Stream inherits + composes correctly
+[LLM::Chat] # Subtest: OR fields undefined by default
+[LLM::Chat]     1..4
+[LLM::Chat]     ok 1 - cost undefined
+[LLM::Chat]     ok 2 - generation-id undefined
+[LLM::Chat]     ok 3 - provider-name undefined
+[LLM::Chat]     ok 4 - is-byok undefined
+[LLM::Chat] ok 3 - OR fields undefined by default
+[LLM::Chat] # Subtest: _set-or-usage populates all OR fields
+[LLM::Chat]     1..4
+[LLM::Chat]     ok 1 - cost populated as Num
+[LLM::Chat]     ok 2 - generation-id populated
+[LLM::Chat]     ok 3 - provider-name populated
+[LLM::Chat]     ok 4 - is-byok populated
+[LLM::Chat] ok 4 - _set-or-usage populates all OR fields
+[LLM::Chat] # Subtest: _set-or-usage is presence-gated and idempotent
+[LLM::Chat]     1..6
+[LLM::Chat]     ok 1 - cost set on first call
+[LLM::Chat]     ok 2 - generation-id still undefined
+[LLM::Chat]     ok 3 - cost preserved by later partial update
+[LLM::Chat]     ok 4 - generation-id added
+[LLM::Chat]     ok 5 - idempotent on repeat
+[LLM::Chat]     ok 6 - cost still preserved after idempotent call
+[LLM::Chat] ok 5 - _set-or-usage is presence-gated and idempotent
+[LLM::Chat] # Subtest: cost.defined distinguishes "unknown" from literal zero
+[LLM::Chat]     1..4
+[LLM::Chat]     ok 1 - unknown: .cost.defined False
+[LLM::Chat]     ok 2 - zero: .cost.defined True
+[LLM::Chat]     ok 3 - zero: cost is 0e0
+[LLM::Chat]     ok 4 - zero: cost is falsy as a number
+[LLM::Chat] ok 6 - cost.defined distinguishes "unknown" from literal zero
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/14-debug-log.rakutest
+[LLM::Chat] 1..5
+[LLM::Chat] # Subtest: no-op when LLM_CHAT_DEBUG is unset
+[LLM::Chat]     1..1
+[LLM::Chat]     ok 1 - all log calls are silent no-ops without env var
+[LLM::Chat] ok 1 - no-op when LLM_CHAT_DEBUG is unset
+[LLM::Chat] # Subtest: log writes labelled records to LLM_CHAT_DEBUG path
+[LLM::Chat]     1..3
+[LLM::Chat]     ok 1 - log file created
+[LLM::Chat]     ok 2 - section banner emitted
+[LLM::Chat]     ok 3 - body content recorded
+[LLM::Chat] ok 2 - log writes labelled records to LLM_CHAT_DEBUG path
+[LLM::Chat] # Subtest: log-json pretty-prints associative bodies
+[LLM::Chat]     1..2
+[LLM::Chat]     ok 1 - JSON-formatted output
+[LLM::Chat]     ok 2 - multi-line pretty body
+[LLM::Chat] ok 3 - log-json pretty-prints associative bodies
+[LLM::Chat] # Subtest: log-headers redacts Authorization
+[LLM::Chat]     1..3
+[LLM::Chat]     ok 1 - real token NOT in log
+[LLM::Chat]     ok 2 - redacted marker present
+[LLM::Chat]     ok 3 - attribution headers visible
+[LLM::Chat] ok 4 - log-headers redacts Authorization
+[LLM::Chat] # Subtest: multiple writes append rather than overwrite
+[LLM::Chat]     1..1
+[LLM::Chat]     ok 1 - all three records present
+[LLM::Chat] ok 5 - multiple writes append rather than overwrite
+[LLM::Chat] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/e0adb6ac18841d6d90b15dace0604f1fd6729076.tar.gz/LLM-Chat-0.5.1 t/15-streaming-resilience.rakutest
+[LLM::Chat] 1..4
+[LLM::Chat] # Subtest: SSE buffering reassembles JSON split across chunk boundaries
+[LLM::Chat]     1..6
+[LLM::Chat]     ok 1 - one-chunk: 2 chunks parsed
+[LLM::Chat]     ok 2 - one-chunk: first chunk content
+[LLM::Chat]     ok 3 - one-chunk: [DONE] seen
+[LLM::Chat]     ok 4 - mid-JSON split: still 2 chunks parsed
+[LLM::Chat]     ok 5 - mid-JSON split: first chunk content reassembled
+[LLM::Chat]     ok 6 - mid-JSON split: [DONE] still seen
+[LLM::Chat] ok 1 - SSE buffering reassembles JSON split across chunk boundaries
+[LLM::Chat] # Subtest: SSE buffering survives byte-by-byte feed
+[LLM::Chat]     1..3
+[LLM::Chat]     ok 1 - byte-fed: 2 chunks parsed
+[LLM::Chat]     ok 2 - byte-fed: second chunk content reassembled
+[LLM::Chat]     ok 3 - byte-fed: [DONE] seen
+[LLM::Chat] ok 2 - SSE buffering survives byte-by-byte feed
+[LLM::Chat] # Subtest: SSE comments and blank lines are dropped silently
+[LLM::Chat]     1..4
+[LLM::Chat]     ok 1 - heartbeats not produced as chunks
+[LLM::Chat]     ok 2 - data event between heartbeats parsed normally
+[LLM::Chat]     ok 3 - [DONE] seen
+[LLM::Chat]     ok 4 - no incomplete tail held back
+[LLM::Chat] ok 3 - SSE comments and blank lines are dropped silently
+[LLM::Chat] # Subtest: Error classification only treats X::Cro::HTTP::Client::Timeout as timeout
+[LLM::Chat]     1..5
+[LLM::Chat]     ok 1 - unrelated exception with "timeout" in message → unknown (not timeout)
+[LLM::Chat]     ok 2 - connection refused → connection
+[LLM::Chat]     ok 3 - DNS failure → connection
+[LLM::Chat]     ok 4 - arbitrary message → unknown
+[LLM::Chat]     ok 5 - X::Cro::HTTP::Client::Timeout → timeout
+[LLM::Chat] ok 4 - Error classification only treats X::Cro::HTTP::Client::Timeout as timeout
+===> Testing [FAIL]: LLM::Chat:ver<0.5.1>:auth<zef:apogee>
+[LLM::Chat] Failed to get passing tests, but continuing with --force-test
+===> Installing: LLM::Chat:ver<0.5.1>:auth<zef:apogee>
+===> Install [OK] for LLM::Chat:ver<0.5.1>:auth<zef:apogee>

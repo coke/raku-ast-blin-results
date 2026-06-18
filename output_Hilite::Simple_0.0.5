@@ -1,0 +1,25 @@
+===> Searching for: Hilite::Simple
+===> Found: Hilite::Simple:ver<0.0.5>:auth<zef:librasteve> [via Zef::Repository::Ecosystems<fez>]
+[Hilite::Simple] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781748796.280142.1423.1157906902902/3d415fcdf15117851153e966aa004ee0b13a5eb7.tar.gz https://360.zef.pm/H/IL/HILITE_SIMPLE/3d415fcdf15117851153e966aa004ee0b13a5eb7.tar.gz
+===> Fetching [OK]: Hilite::Simple:ver<0.0.5>:auth<zef:librasteve> to /blin/data/zef-data/tmp/1781748796.280142.1423.1157906902902/3d415fcdf15117851153e966aa004ee0b13a5eb7.tar.gz
+[Hilite::Simple] Command: tar -t -f ./3d415fcdf15117851153e966aa004ee0b13a5eb7.tar.gz
+[Hilite::Simple] Command: tar -xvf ./3d415fcdf15117851153e966aa004ee0b13a5eb7.tar.gz -C ../3d415fcdf15117851153e966aa004ee0b13a5eb7.tar.gz
+===> Extraction [OK]: Hilite::Simple to /blin/data/zef-data/tmp/3d415fcdf15117851153e966aa004ee0b13a5eb7.tar.gz
+===> Testing: Hilite::Simple:ver<0.0.5>:auth<zef:librasteve>
+[Hilite::Simple] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3d415fcdf15117851153e966aa004ee0b13a5eb7.tar.gz/Hilite-Simple-0.0.5 t/01-basic.rakutest
+[Hilite::Simple] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Hilite::Simple] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/3d415fcdf15117851153e966aa004ee0b13a5eb7.tar.gz/Hilite-Simple-0.0.5/lib/Hilite/Simple.rakumod (Hilite::Simple)
+[Hilite::Simple] ===SORRY!=== Error while compiling /blin/installed/Rainbow_0.4.2/sources/679A709EEC15A341B8B3E088C5497B0CD76FAAC4 (Rainbow)
+[Hilite::Simple] ===SORRY!===
+[Hilite::Simple] Unresolved references found in grammar Rainbow::RakuGrammar:
+[Hilite::Simple]   in token rakudoc-implicit-code-block (at /blin/installed/Rainbow_0.4.2/sources/3DC639CE6DEA84644B7930F1F26D076166A3636D (Rainbow::RakuGrammar):861): rakudoc-code-block
+[Hilite::Simple] at /blin/installed/Rainbow_0.4.2/sources/679A709EEC15A341B8B3E088C5497B0CD76FAAC4 (Rainbow):3
+[Hilite::Simple] at /blin/data/zef-data/tmp/3d415fcdf15117851153e966aa004ee0b13a5eb7.tar.gz/Hilite-Simple-0.0.5/lib/Hilite/Simple.rakumod (Hilite::Simple):3
+[Hilite::Simple] at t/01-basic.rakutest:2
+===> Testing [FAIL]: Hilite::Simple:ver<0.0.5>:auth<zef:librasteve>
+[Hilite::Simple] Failed to get passing tests, but continuing with --force-test
+===> Installing: Hilite::Simple:ver<0.0.5>:auth<zef:librasteve>
+===> Install [OK] for Hilite::Simple:ver<0.0.5>:auth<zef:librasteve>
+
+1 bin/ script [hilite.raku] installed to:
+/blin/installed/Hilite::Simple_0.0.5/bin

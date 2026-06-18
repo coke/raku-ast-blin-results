@@ -1,0 +1,45 @@
+===> Searching for: CLI::AWS::EC2-Simple
+===> Found: CLI::AWS::EC2-Simple:ver<0.0.11>:auth<zef:librasteve>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[CLI::AWS::EC2-Simple] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781758176.352287.3432.8325992556242/9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz https://360.zef.pm/C/LI/CLI_AWS_EC2SIMPLE/9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz
+===> Fetching [OK]: CLI::AWS::EC2-Simple:ver<0.0.11>:auth<zef:librasteve>:api<1> to /blin/data/zef-data/tmp/1781758176.352287.3432.8325992556242/9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz
+[CLI::AWS::EC2-Simple] Command: tar -t -f ./9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz
+[CLI::AWS::EC2-Simple] Command: tar -xvf ./9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz -C ../9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz
+===> Extraction [OK]: CLI::AWS::EC2-Simple to /blin/data/zef-data/tmp/9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz
+===> Building: CLI::AWS::EC2-Simple:ver<0.0.11>:auth<zef:librasteve>:api<1>
+[CLI::AWS::EC2-Simple] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -e require '/blin/data/zef-data/tmp/9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz/dist/Build.rakumod'; ::('Build').new.build('/blin/data/zef-data/tmp/9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz/dist') ?? exit(0) !! exit(1);
+[CLI::AWS::EC2-Simple] /bin/sh: 9: /home/ubuntu/.rakubrew/bin/rakubrew: not found
+[CLI::AWS::EC2-Simple] Build successful
+[CLI::AWS::EC2-Simple]   in method build at /blin/data/zef-data/tmp/9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz/dist/Build.rakumod line 64
+===> Building [OK] for CLI::AWS::EC2-Simple:ver<0.0.11>:auth<zef:librasteve>:api<1>
+===> Testing: CLI::AWS::EC2-Simple:ver<0.0.11>:auth<zef:librasteve>:api<1>
+[CLI::AWS::EC2-Simple] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz/dist t/01-run.rakutest
+[CLI::AWS::EC2-Simple] ===SORRY!=== Error while compiling t/01-run.rakutest
+[CLI::AWS::EC2-Simple] Earlier failure:
+[CLI::AWS::EC2-Simple]  Couldn't parse YAML: No such method 'concretize' for string 'instance: nametag: amitest
+[CLI::AWS::EC2-Simple] #image: ami-0e8d228ad90af673b # <== the standard, clean AWS Ubuntu
+[CLI::AWS::EC2-Simple] 24.04LTS image: ami-04bc7403c36ed1222 # <== AWS Ubuntu 24.04LTS plus
+[CLI::AWS::EC2-Simple] raws-ec2 setup already applied (use --nsu flag) type: t2.micro # <== the
+[CLI::AWS::EC2-Simple] basic, free tier eligible machine (12 credits/hr) #type: t3.small # <==
+[CLI::AWS::EC2-Simple] $0.0209/hr viable static WP #type: t3.medium # <== a step above t2.micro
+[CLI::AWS::EC2-Simple] for more beefy server needs #type: c6a.4xlarge # <== a mega machine for
+[CLI::AWS::EC2-Simple] benchmarking storage: 30 # <== EBS size for launch security-group: name:
+[CLI::AWS::EC2-Simple] MySG rules: - inbound: port: 22 cidr: 0.0.0.0/0 - inbound: port: 80
+[CLI::AWS::EC2-Simple] cidr: 0.0.0.0/0 - inbound: port: 443 cidr: 0.0.0.0/0 - inbound: port:
+[CLI::AWS::EC2-Simple] 8080 cidr: 0.0.0.0/0 - inbound: port: 8888 cidr: 0.0.0.0/0 '
+[CLI::AWS::EC2-Simple]   in sub load-yaml at /blin/installed/YAMLish_0.1.2/sources/1D5CA23E666A17E4A015880D6C1CEFD63F6C7B12 (YAMLish) line 948
+[CLI::AWS::EC2-Simple]   in block <unit> at /blin/data/zef-data/tmp/9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz/dist/lib/CLI/AWS/EC2-Simple.rakumod (CLI::AWS::EC2-Simple) line 9
+[CLI::AWS::EC2-Simple]   in any <load> at /blin/data/zef-data/tmp/9b7295c591e1e194d7d079315f2d68a5a7b9581c.tar.gz/dist/.precomp/3D60A57750F851FC00179AF8EAECD7D1F21904FB/CF/CFED058384EE32C5FF9186679D425CDFC207834B line 1
+[CLI::AWS::EC2-Simple]   in any IMPL-LOAD-MODULE at src/Raku/ast/statements.rakumod line 1768
+[CLI::AWS::EC2-Simple]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 1961
+[CLI::AWS::EC2-Simple]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CLI::AWS::EC2-Simple]   in any statement-control at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CLI::AWS::EC2-Simple] Final error:
+[CLI::AWS::EC2-Simple]  Type check failed in binding; expected Associative but got Failure
+[CLI::AWS::EC2-Simple] at t/01-run.rakutest:4
+===> Testing [FAIL]: CLI::AWS::EC2-Simple:ver<0.0.11>:auth<zef:librasteve>:api<1>
+[CLI::AWS::EC2-Simple] Failed to get passing tests, but continuing with --force-test
+===> Installing: CLI::AWS::EC2-Simple:ver<0.0.11>:auth<zef:librasteve>:api<1>
+===> Install [OK] for CLI::AWS::EC2-Simple:ver<0.0.11>:auth<zef:librasteve>:api<1>
+
+1 bin/ script [raws-ec2] installed to:
+/blin/installed/CLI::AWS::EC2-Simple_0.0.11/bin

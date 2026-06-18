@@ -1,0 +1,135 @@
+===> Searching for: Date::Event
+===> Found: Date::Event:ver<0.0.12>:auth<zef:tbrowder> [via Zef::Repository::Ecosystems<fez>]
+[Date::Event] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781770858.467398.7563.113242758434/3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz https://360.zef.pm/D/AT/DATE_EVENT/3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz
+===> Fetching [OK]: Date::Event:ver<0.0.12>:auth<zef:tbrowder> to /blin/data/zef-data/tmp/1781770858.467398.7563.113242758434/3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz
+[Date::Event] Command: tar -t -f ./3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz
+[Date::Event] Command: tar -xvf ./3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz -C ../3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz
+===> Extraction [OK]: Date::Event to /blin/data/zef-data/tmp/3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz
+===> Testing: Date::Event:ver<0.0.12>:auth<zef:tbrowder>
+[Date::Event] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz/Date-Event-0.0.12 t/0-load-ok.t
+[Date::Event] ok 1 - Date::Event module can be use-d ok
+[Date::Event] ok 2 - Date::DB module can be use-d ok
+[Date::Event] ok 3 - Date::Utilities module can be use-d ok
+[Date::Event] ok 4 - is uuid-v4
+[Date::Event] 1..4
+[Date::Event] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz/Date-Event-0.0.12 t/2-attrs.t
+[Date::Event] ok 1 - The object is-a 'Date::Event'
+[Date::Event] ok 2 - Date::Event module can be use-d ok
+[Date::Event] ok 3 - Date::DB module can be use-d ok
+[Date::Event] ok 4 - Date::Utilities module can be use-d ok
+[Date::Event] ok 5 - Holiday type 100 was set on instantiation
+[Date::Event] ok 6 - name of a given EType number 200
+[Date::Event] ok 7 - number value given EType name 'Birth'
+[Date::Event] ok 8 - number value given EType name 'Birthday'
+[Date::Event] ok 9 - 
+[Date::Event] ok 10 - 
+[Date::Event] ok 11 - The object is-a 'DateTime'
+[Date::Event] 1..11
+[Date::Event] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz/Date-Event-0.0.12 t/3-enums.t
+[Date::Event] ok 1 - The object is-a 'Date::Event'
+[Date::Event] ok 2 - default Etype: Unknown
+[Date::Event] ok 3 - name of a given EType number 200
+[Date::Event] ok 4 - name of a given EType number 200
+[Date::Event] ok 5 - name of a given EType number 12
+[Date::Event] ok 6 - enums smart match
+[Date::Event] ok 7 - can use literal name of .etype
+[Date::Event] ok 8 - The object is-a 'Map'
+[Date::Event] ok 9 - created an enums map
+[Date::Event] ok 10 - there are 16 enums as expected
+[Date::Event] ok 11 - value 100 is a Holiday event
+[Date::Event] ok 12 - The object is-a 'Str'
+[Date::Event] ok 13 - The object is-a 'UInt'
+[Date::Event] ok 14 - The object is-a 'Str'
+[Date::Event] ok 15 - The object is-a 'UInt'
+[Date::Event] ok 16 - The object is-a 'Str'
+[Date::Event] ok 17 - The object is-a 'UInt'
+[Date::Event] ok 18 - The object is-a 'Str'
+[Date::Event] ok 19 - The object is-a 'UInt'
+[Date::Event] ok 20 - The object is-a 'Str'
+[Date::Event] ok 21 - The object is-a 'UInt'
+[Date::Event] ok 22 - The object is-a 'Str'
+[Date::Event] ok 23 - The object is-a 'UInt'
+[Date::Event] ok 24 - The object is-a 'Str'
+[Date::Event] ok 25 - The object is-a 'UInt'
+[Date::Event] ok 26 - The object is-a 'Str'
+[Date::Event] ok 27 - The object is-a 'UInt'
+[Date::Event] ok 28 - The object is-a 'Str'
+[Date::Event] ok 29 - The object is-a 'UInt'
+[Date::Event] ok 30 - The object is-a 'Str'
+[Date::Event] ok 31 - The object is-a 'UInt'
+[Date::Event] ok 32 - The object is-a 'Str'
+[Date::Event] ok 33 - The object is-a 'UInt'
+[Date::Event] ok 34 - The object is-a 'Str'
+[Date::Event] ok 35 - The object is-a 'UInt'
+[Date::Event] ok 36 - The object is-a 'Str'
+[Date::Event] ok 37 - The object is-a 'UInt'
+[Date::Event] ok 38 - The object is-a 'Str'
+[Date::Event] ok 39 - The object is-a 'UInt'
+[Date::Event] ok 40 - The object is-a 'Str'
+[Date::Event] ok 41 - The object is-a 'UInt'
+[Date::Event] ok 42 - The object is-a 'Str'
+[Date::Event] ok 43 - The object is-a 'UInt'
+[Date::Event] 1..43
+[Date::Event] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz/Date-Event-0.0.12 t/4-readme.t
+[Date::Event] ok 1 - The object is-a 'Date::Event'
+[Date::Event] ok 2 - Etype value 11 is Birthday
+[Date::Event] ok 3 - Etype value for 'Holiday' is '100'
+[Date::Event] ok 4 - Etype name  for value '100' is 'Holiday'
+[Date::Event] ok 5 - Etype value for 'Retirement' is '9'
+[Date::Event] ok 6 - Etype name  for value '9' is 'Retirement'
+[Date::Event] ok 7 - Etype value for 'Astro' is '150'
+[Date::Event] ok 8 - Etype name  for value '150' is 'Astro'
+[Date::Event] ok 9 - Etype value for 'Anniversary' is '8'
+[Date::Event] ok 10 - Etype name  for value '8' is 'Anniversary'
+[Date::Event] ok 11 - Etype value for 'Wedding' is '7'
+[Date::Event] ok 12 - Etype name  for value '7' is 'Wedding'
+[Date::Event] ok 13 - Etype value for 'BarMitzvah' is '4'
+[Date::Event] ok 14 - Etype name  for value '4' is 'BarMitzvah'
+[Date::Event] ok 15 - Etype value for 'Other' is '200'
+[Date::Event] ok 16 - Etype name  for value '200' is 'Other'
+[Date::Event] ok 17 - Etype value for 'Unknown' is '0'
+[Date::Event] ok 18 - Etype name  for value '0' is 'Unknown'
+[Date::Event] ok 19 - Etype value for 'Birthday' is '11'
+[Date::Event] ok 20 - Etype name  for value '11' is 'Birthday'
+[Date::Event] ok 21 - Etype value for 'Baptism' is '3'
+[Date::Event] ok 22 - Etype name  for value '3' is 'Baptism'
+[Date::Event] ok 23 - Etype value for 'Graduation' is '6'
+[Date::Event] ok 24 - Etype name  for value '6' is 'Graduation'
+[Date::Event] ok 25 - Etype value for 'BatMitzvah' is '5'
+[Date::Event] ok 26 - Etype name  for value '5' is 'BatMitzvah'
+[Date::Event] ok 27 - Etype value for 'Birth' is '1'
+[Date::Event] ok 28 - Etype name  for value '1' is 'Birth'
+[Date::Event] ok 29 - Etype value for 'Death' is '10'
+[Date::Event] ok 30 - Etype name  for value '10' is 'Death'
+[Date::Event] ok 31 - Etype value for 'Liturgy' is '12'
+[Date::Event] ok 32 - Etype name  for value '12' is 'Liturgy'
+[Date::Event] ok 33 - Etype value for 'Christening' is '2'
+[Date::Event] ok 34 - Etype name  for value '2' is 'Christening'
+[Date::Event] not ok 35 - invalid Etype value of 300
+[Date::Event] # Failed test 'invalid Etype value of 300'
+[Date::Event] # at t/4-readme.t line 25
+[Date::Event] ok 36 - invalid Etype value of 'Moon'
+[Date::Event] 1..36
+[Date::Event] # You failed 1 test of 36
+[Date::Event] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3e02498d3b9ec61e2d36162b4e8a7a5757a9061a.tar.gz/Date-Event-0.0.12 t/5-lat-lon.t
+[Date::Event] ok 1 - The object is-a 'Date::Event'
+[Date::Event] ok 2 - Date::Event module can be use-d ok
+[Date::Event] ok 3 - Date::DB module can be use-d ok
+[Date::Event] ok 4 - Date::Utilities module can be use-d ok
+[Date::Event] ok 5 - Event type 150 was set on instantiation
+[Date::Event] ok 6 - 
+[Date::Event] ok 7 - 
+[Date::Event] ok 8 - 
+[Date::Event] ok 9 - 
+[Date::Event] ok 10 - 
+[Date::Event] ok 11 - 
+[Date::Event] ok 12 - 
+[Date::Event] ok 13 - 
+[Date::Event] 1..13
+===> Testing [FAIL]: Date::Event:ver<0.0.12>:auth<zef:tbrowder>
+[Date::Event] Failed to get passing tests, but continuing with --force-test
+===> Installing: Date::Event:ver<0.0.12>:auth<zef:tbrowder>
+===> Install [OK] for Date::Event:ver<0.0.12>:auth<zef:tbrowder>
+
+1 bin/ script [use-date-event] installed to:
+/blin/installed/Date::Event_0.0.12/bin

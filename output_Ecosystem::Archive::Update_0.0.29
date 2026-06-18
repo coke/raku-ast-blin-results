@@ -1,0 +1,20 @@
+===> Searching for: Ecosystem::Archive::Update
+===> Found: Ecosystem::Archive::Update:ver<0.0.29>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Ecosystem::Archive::Update] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781793659.638725.8314.742984366841/142546ce78e9656799da86300379b7c8f5316bea.tar.gz https://360.zef.pm/E/CO/ECOSYSTEM_ARCHIVE_UPDATE/142546ce78e9656799da86300379b7c8f5316bea.tar.gz
+===> Fetching [OK]: Ecosystem::Archive::Update:ver<0.0.29>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1781793659.638725.8314.742984366841/142546ce78e9656799da86300379b7c8f5316bea.tar.gz
+[Ecosystem::Archive::Update] Command: tar -t -f ./142546ce78e9656799da86300379b7c8f5316bea.tar.gz
+[Ecosystem::Archive::Update] Command: tar -xvf ./142546ce78e9656799da86300379b7c8f5316bea.tar.gz -C ../142546ce78e9656799da86300379b7c8f5316bea.tar.gz
+===> Extraction [OK]: Ecosystem::Archive::Update to /blin/data/zef-data/tmp/142546ce78e9656799da86300379b7c8f5316bea.tar.gz
+===> Testing: Ecosystem::Archive::Update:ver<0.0.29>:auth<zef:lizmat>
+[Ecosystem::Archive::Update] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/142546ce78e9656799da86300379b7c8f5316bea.tar.gz/Ecosystem-Archive-Update-0.0.29 t/01-basic.rakutest
+[Ecosystem::Archive::Update] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Ecosystem::Archive::Update] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/142546ce78e9656799da86300379b7c8f5316bea.tar.gz/Ecosystem-Archive-Update-0.0.29/lib/Ecosystem/Archive/Update.rakumod (Ecosystem::Archive::Update)
+[Ecosystem::Archive::Update] ===SORRY!=== Error while compiling:
+[Ecosystem::Archive::Update] Cannot use pseudo package CORE in package name
+[Ecosystem::Archive::Update] at line 
+[Ecosystem::Archive::Update] at /blin/data/zef-data/tmp/142546ce78e9656799da86300379b7c8f5316bea.tar.gz/Ecosystem-Archive-Update-0.0.29/lib/Ecosystem/Archive/Update.rakumod (Ecosystem::Archive::Update):3
+[Ecosystem::Archive::Update] at t/01-basic.rakutest:2
+===> Testing [FAIL]: Ecosystem::Archive::Update:ver<0.0.29>:auth<zef:lizmat>
+[Ecosystem::Archive::Update] Failed to get passing tests, but continuing with --force-test
+===> Installing: Ecosystem::Archive::Update:ver<0.0.29>:auth<zef:lizmat>
+===> Install [OK] for Ecosystem::Archive::Update:ver<0.0.29>:auth<zef:lizmat>

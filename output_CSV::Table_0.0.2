@@ -1,0 +1,339 @@
+===> Searching for: CSV::Table
+===> Found: CSV::Table:ver<0.0.2>:auth<zef:tbrowder> [via Zef::Repository::Ecosystems<fez>]
+[CSV::Table] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781764877.416330.454.5788087732661/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz https://360.zef.pm/C/SV/CSV_TABLE/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz
+===> Fetching [OK]: CSV::Table:ver<0.0.2>:auth<zef:tbrowder> to /blin/data/zef-data/tmp/1781764877.416330.454.5788087732661/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz
+[CSV::Table] Command: tar -t -f ./cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz
+[CSV::Table] Command: tar -xvf ./cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz -C ../cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz
+===> Extraction [OK]: CSV::Table to /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz
+===> Testing: CSV::Table:ver<0.0.2>:auth<zef:tbrowder>
+[CSV::Table] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2 t/1-delimiters.t
+[CSV::Table] ===SORRY!=== Error while compiling t/1-delimiters.t
+[CSV::Table] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table)
+[CSV::Table] Potential difficulties:
+[CSV::Table]     Optional named parameter 'limit' with subset type Text::Utils::Subs::LevelOp needs a valid default value
+[CSV::Table]     otherwise it will throw exceptions when a value is absent at the callsite
+[CSV::Table]     at /blin/installed/Text::Utils_4.0.2/sources/E87B2C93AA28243C3EE4C6706811362843350C8E (Text::Utils::Subs):160
+[CSV::Table]     Optional named parameter 'opt' with subset type Text::Utils::Subs::SplitOp needs a valid default value
+[CSV::Table]     otherwise it will throw exceptions when a value is absent at the callsite
+[CSV::Table]     at /blin/installed/Text::Utils_4.0.2/sources/E87B2C93AA28243C3EE4C6706811362843350C8E (Text::Utils::Subs):161
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV::Table] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV::Table] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV::Table] Exception details:
+[CSV::Table]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV::Table]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV::Table]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV::Table]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV::Table]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV::Table]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV::Table]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV::Table] at /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table):5
+[CSV::Table] at t/1-delimiters.t:2
+[CSV::Table] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2 t/10-normalize-trim.t
+[CSV::Table] ===SORRY!=== Error while compiling t/10-normalize-trim.t
+[CSV::Table] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV::Table] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV::Table] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV::Table] Exception details:
+[CSV::Table]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV::Table]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV::Table]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV::Table]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV::Table]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV::Table]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV::Table]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV::Table] at /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table):5
+[CSV::Table] at t/10-normalize-trim.t:2
+[CSV::Table] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2 t/2-commented.t
+[CSV::Table] ===SORRY!=== Error while compiling t/2-commented.t
+[CSV::Table] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV::Table] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV::Table] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV::Table] Exception details:
+[CSV::Table]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV::Table]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV::Table]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV::Table]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV::Table]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV::Table]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV::Table]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV::Table] at /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table):5
+[CSV::Table] at t/2-commented.t:2
+[CSV::Table] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2 t/3-headers.t
+[CSV::Table] ===SORRY!=== Error while compiling t/3-headers.t
+[CSV::Table] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV::Table] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV::Table] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV::Table] Exception details:
+[CSV::Table]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV::Table]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV::Table]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV::Table]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV::Table]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV::Table]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV::Table]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV::Table] at /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table):5
+[CSV::Table] at t/3-headers.t:2
+[CSV::Table] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2 t/4-line-ending.t
+[CSV::Table] ===SORRY!=== Error while compiling t/4-line-ending.t
+[CSV::Table] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV::Table] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV::Table] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV::Table] Exception details:
+[CSV::Table]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV::Table]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV::Table]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV::Table]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV::Table]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV::Table]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV::Table]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV::Table] at /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table):5
+[CSV::Table] at t/4-line-ending.t:2
+[CSV::Table] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2 t/5-save.t
+[CSV::Table] ===SORRY!=== Error while compiling t/5-save.t
+[CSV::Table] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV::Table] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV::Table] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV::Table] Exception details:
+[CSV::Table]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV::Table]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV::Table]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV::Table]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV::Table]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV::Table]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV::Table]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV::Table] at /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table):5
+[CSV::Table] at t/5-save.t:5
+[CSV::Table] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2 t/6-slice.t
+[CSV::Table] ===SORRY!=== Error while compiling t/6-slice.t
+[CSV::Table] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV::Table] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV::Table] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV::Table] Exception details:
+[CSV::Table]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV::Table]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV::Table]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV::Table]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV::Table]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV::Table]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV::Table]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV::Table] at /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table):5
+[CSV::Table] at t/6-slice.t:3
+[CSV::Table] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2 t/7-half-matrix.t
+[CSV::Table] ===SORRY!=== Error while compiling t/7-half-matrix.t
+[CSV::Table] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV::Table] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV::Table] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV::Table] Exception details:
+[CSV::Table]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV::Table]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV::Table]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV::Table]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV::Table]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV::Table]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV::Table]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV::Table] at /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table):5
+[CSV::Table] at t/7-half-matrix.t:3
+[CSV::Table] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2 t/8-config.t
+[CSV::Table] ===SORRY!=== Error while compiling t/8-config.t
+[CSV::Table] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV::Table] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV::Table] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV::Table] Exception details:
+[CSV::Table]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV::Table]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV::Table]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV::Table]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV::Table]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV::Table]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV::Table]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV::Table] at /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table):5
+[CSV::Table] at t/8-config.t:3
+[CSV::Table] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2 t/9-row-and-xtras.t
+[CSV::Table] ===SORRY!=== Error while compiling t/9-row-and-xtras.t
+[CSV::Table] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils)
+[CSV::Table] ===SORRY!=== Error while compiling /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM)
+[CSV::Table] An exception X::Method::NotFound+{X::Comp} occurred while evaluating a BEGIN:
+[CSV::Table] No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table] at /blin/installed/Font::AFM_1.24.10/sources/30F4027ACC69B75F0DECCF942539E47DA9665A1B (Font::AFM):71
+[CSV::Table] Exception details:
+[CSV::Table]   No such method 'CALL-ME' for invocant of type 'Pair'
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/call.rakumod line 576
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 3482
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 738
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/expressions.rakumod line 2403
+[CSV::Table]     in any IMPL-INTERPRET at src/Raku/ast/circumfix.rakumod line 250
+[CSV::Table]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 62
+[CSV::Table]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[CSV::Table]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[CSV::Table]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[CSV::Table]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[CSV::Table]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator:sym<class> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[CSV::Table] at /blin/installed/Text::Utils_4.0.2/sources/CA578283481E6EDF8B81577F18E69EADC3032B50 (Text::Utils):6
+[CSV::Table] at /blin/data/zef-data/tmp/cb1203476575f1344d0a10429e6dba51cea916f7.tar.gz/CSV-Table-0.0.2/lib/CSV/Table.rakumod (CSV::Table):5
+[CSV::Table] at t/9-row-and-xtras.t:2
+===> Testing [FAIL]: CSV::Table:ver<0.0.2>:auth<zef:tbrowder>
+[CSV::Table] Failed to get passing tests, but continuing with --force-test
+===> Installing: CSV::Table:ver<0.0.2>:auth<zef:tbrowder>
+===> Install [OK] for CSV::Table:ver<0.0.2>:auth<zef:tbrowder>

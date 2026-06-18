@@ -1,0 +1,84 @@
+===> Searching for: Concurrent::Progress
+===> Found: Concurrent::Progress:ver<1.2>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Concurrent::Progress] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781751228.298259.3794.416210558501/c2b1dec774d24434d4ad4880d3e819d209885e61.tar.gz https://360.zef.pm/C/ON/CONCURRENT_PROGRESS/c2b1dec774d24434d4ad4880d3e819d209885e61.tar.gz
+===> Fetching [OK]: Concurrent::Progress:ver<1.2>:auth<zef:raku-community-modules> to /blin/data/zef-data/tmp/1781751228.298259.3794.416210558501/c2b1dec774d24434d4ad4880d3e819d209885e61.tar.gz
+[Concurrent::Progress] Command: tar -t -f ./c2b1dec774d24434d4ad4880d3e819d209885e61.tar.gz
+[Concurrent::Progress] Command: tar -xvf ./c2b1dec774d24434d4ad4880d3e819d209885e61.tar.gz -C ../c2b1dec774d24434d4ad4880d3e819d209885e61.tar.gz
+===> Extraction [OK]: Concurrent::Progress to /blin/data/zef-data/tmp/c2b1dec774d24434d4ad4880d3e819d209885e61.tar.gz
+===> Testing: Concurrent::Progress:ver<1.2>:auth<zef:raku-community-modules>
+[Concurrent::Progress] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c2b1dec774d24434d4ad4880d3e819d209885e61.tar.gz/Concurrent-Progress-1.2 t/basic.rakutest
+[Concurrent::Progress] ok 1 - Got a report after increment
+[Concurrent::Progress] ok 2 - Not done yet
+[Concurrent::Progress] ok 3 - First increment produces value of 1
+[Concurrent::Progress] ok 4 - No target set means target is Int type object
+[Concurrent::Progress] ok 5 - No target set means percent is Int type object
+[Concurrent::Progress] ok 6 - Got a second report after increment
+[Concurrent::Progress] ok 7 - Not done yet
+[Concurrent::Progress] ok 8 - Second increment produces value of 2
+[Concurrent::Progress] ok 9 - No target set means target is still Int type object
+[Concurrent::Progress] ok 10 - No target set means percent is still Int type object
+[Concurrent::Progress] ok 11 - Got a third report after add
+[Concurrent::Progress] ok 12 - Not done yet
+[Concurrent::Progress] ok 13 - Add of 3 produces value of 5 after 2 increments
+[Concurrent::Progress] ok 14 - No target set means target is still Int type object
+[Concurrent::Progress] ok 15 - No target set means percent is still Int type object
+[Concurrent::Progress] ok 16 - Got a fourth report after set-value
+[Concurrent::Progress] ok 17 - Not done yet
+[Concurrent::Progress] ok 18 - Value is 10 after set-value of 10
+[Concurrent::Progress] ok 19 - No target set means target is still Int type object
+[Concurrent::Progress] ok 20 - No target set means percent is still Int type object
+[Concurrent::Progress] ok 21 - Got a report when setting target
+[Concurrent::Progress] ok 22 - Not done yet
+[Concurrent::Progress] ok 23 - Value is 0 on initial report after setting target
+[Concurrent::Progress] ok 24 - Target is correctly set
+[Concurrent::Progress] ok 25 - Percentage is correctly calculated
+[Concurrent::Progress] ok 26 - Got second report after increment
+[Concurrent::Progress] ok 27 - Not done yet
+[Concurrent::Progress] ok 28 - Value is 1 after increment
+[Concurrent::Progress] ok 29 - Target is still correctly set
+[Concurrent::Progress] ok 30 - Percentage is still correctly calculated
+[Concurrent::Progress] ok 31 - Got third report after add
+[Concurrent::Progress] ok 32 - Not done yet
+[Concurrent::Progress] ok 33 - Value is 24 after adding 23
+[Concurrent::Progress] ok 34 - Target is still correctly set
+[Concurrent::Progress] ok 35 - Percentage is still correctly calculated
+[Concurrent::Progress] ok 36 - Got fourth report after add
+[Concurrent::Progress] ok 37 - We *are* done now the target is hit
+[Concurrent::Progress] ok 38 - Value is 25 after another increment
+[Concurrent::Progress] ok 39 - Target is still correctly set
+[Concurrent::Progress] ok 40 - Percentage is still correctly calculated
+[Concurrent::Progress] ok 41 - Got a report when setting target
+[Concurrent::Progress] ok 42 - Not done yet
+[Concurrent::Progress] ok 43 - Value is 0 on initial report after setting target
+[Concurrent::Progress] ok 44 - Target is correctly set
+[Concurrent::Progress] ok 45 - Percentage is correctly calculated
+[Concurrent::Progress] ok 46 - Got second report after increment
+[Concurrent::Progress] ok 47 - Not done yet
+[Concurrent::Progress] ok 48 - Value is 1 after increment
+[Concurrent::Progress] ok 49 - Target is still correctly set
+[Concurrent::Progress] ok 50 - Percentage is still correctly calculated
+[Concurrent::Progress] ok 51 - Got third report after increasing target by 10
+[Concurrent::Progress] ok 52 - Not done yet
+[Concurrent::Progress] ok 53 - Value is still 1 after increasing target
+[Concurrent::Progress] ok 54 - Target is correctly increased
+[Concurrent::Progress] ok 55 - Percentage is still correctly calculated
+[Concurrent::Progress] ok 56 - Got fourth report after add
+[Concurrent::Progress] ok 57 - We *are* done now the target is hit
+[Concurrent::Progress] ok 58 - Value is 20 after another increment
+[Concurrent::Progress] ok 59 - Target is still correctly set
+[Concurrent::Progress] ok 60 - Percentage is still correctly calculated
+[Concurrent::Progress] 1..60
+[Concurrent::Progress] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/c2b1dec774d24434d4ad4880d3e819d209885e61.tar.gz/Concurrent-Progress-1.2 t/min-interval.rakutest
+[Concurrent::Progress] No such method 'cue' for invocant of type 'Scalar'. Possible causes
+[Concurrent::Progress] are:
+[Concurrent::Progress]     - You actually called 'cue' on a container, was that what you
+[Concurrent::Progress]     intended?
+[Concurrent::Progress]     - Found 'cue' on type 'ThreadPoolScheduler'
+[Concurrent::Progress]   in block  at /blin/installed/Test::Scheduler_1.2/sources/B81D3C637F6CF3A8605CE9F597C8A6297FB2838B (Test::Scheduler) line 207
+[Concurrent::Progress]   in method run-due at /blin/installed/Test::Scheduler_1.2/sources/B81D3C637F6CF3A8605CE9F597C8A6297FB2838B (Test::Scheduler) line 192
+[Concurrent::Progress]   in method advance at /blin/installed/Test::Scheduler_1.2/sources/B81D3C637F6CF3A8605CE9F597C8A6297FB2838B (Test::Scheduler) line 162
+[Concurrent::Progress]   in block <unit> at t/min-interval.rakutest line 11
+===> Testing [FAIL]: Concurrent::Progress:ver<1.2>:auth<zef:raku-community-modules>
+[Concurrent::Progress] Failed to get passing tests, but continuing with --force-test
+===> Installing: Concurrent::Progress:ver<1.2>:auth<zef:raku-community-modules>
+===> Install [OK] for Concurrent::Progress:ver<1.2>:auth<zef:raku-community-modules>

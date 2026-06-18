@@ -1,0 +1,55 @@
+===> Searching for: SBOM::Raku
+===> Found: SBOM::Raku:ver<0.0.13>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[SBOM::Raku] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781777443.516768.558.7256241124139/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz https://360.zef.pm/S/BO/SBOM_RAKU/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz
+===> Fetching [OK]: SBOM::Raku:ver<0.0.13>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1781777443.516768.558.7256241124139/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz
+[SBOM::Raku] Command: tar -t -f ./9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz
+[SBOM::Raku] Command: tar -xvf ./9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz -C ../9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz
+===> Extraction [OK]: SBOM::Raku to /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz
+===> Testing: SBOM::Raku:ver<0.0.13>:auth<zef:lizmat>
+[SBOM::Raku] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13 t/01-basic.rakutest
+[SBOM::Raku] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[SBOM::Raku] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13/lib/SBOM/Raku.rakumod (SBOM::Raku)
+[SBOM::Raku] ===SORRY!=== Error while compiling:
+[SBOM::Raku] Cannot use pseudo package CORE in package name
+[SBOM::Raku] at line 
+[SBOM::Raku] at /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13/lib/SBOM/Raku.rakumod (SBOM::Raku):4
+[SBOM::Raku] at t/01-basic.rakutest:2
+[SBOM::Raku] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13 t/02-component.rakutest
+[SBOM::Raku] ===SORRY!=== Error while compiling t/02-component.rakutest
+[SBOM::Raku] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13/lib/SBOM/Raku.rakumod (SBOM::Raku)
+[SBOM::Raku] ===SORRY!=== Error while compiling:
+[SBOM::Raku] Cannot use pseudo package CORE in package name
+[SBOM::Raku] at line 
+[SBOM::Raku] at /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13/lib/SBOM/Raku.rakumod (SBOM::Raku):4
+[SBOM::Raku] at t/02-component.rakutest:2
+[SBOM::Raku] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13 t/03-metadata.rakutest
+[SBOM::Raku] ===SORRY!=== Error while compiling t/03-metadata.rakutest
+[SBOM::Raku] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13/lib/SBOM/Raku.rakumod (SBOM::Raku)
+[SBOM::Raku] ===SORRY!=== Error while compiling:
+[SBOM::Raku] Cannot use pseudo package CORE in package name
+[SBOM::Raku] at line 
+[SBOM::Raku] at /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13/lib/SBOM/Raku.rakumod (SBOM::Raku):4
+[SBOM::Raku] at t/03-metadata.rakutest:2
+[SBOM::Raku] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13 t/05-produce-source.rakutest
+[SBOM::Raku] ===SORRY!=== Error while compiling t/05-produce-source.rakutest
+[SBOM::Raku] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13/lib/SBOM/Raku.rakumod (SBOM::Raku)
+[SBOM::Raku] ===SORRY!=== Error while compiling:
+[SBOM::Raku] Cannot use pseudo package CORE in package name
+[SBOM::Raku] at line 
+[SBOM::Raku] at /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13/lib/SBOM/Raku.rakumod (SBOM::Raku):4
+[SBOM::Raku] at t/05-produce-source.rakutest:2
+[SBOM::Raku] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13 t/06-modernize.rakutest
+[SBOM::Raku] ===SORRY!=== Error while compiling t/06-modernize.rakutest
+[SBOM::Raku] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13/lib/SBOM/Raku.rakumod (SBOM::Raku)
+[SBOM::Raku] ===SORRY!=== Error while compiling:
+[SBOM::Raku] Cannot use pseudo package CORE in package name
+[SBOM::Raku] at line 
+[SBOM::Raku] at /blin/data/zef-data/tmp/9fe77b1fb75f744d11e475e153a97a36bf0e9582.tar.gz/SBOM-Raku-0.0.13/lib/SBOM/Raku.rakumod (SBOM::Raku):4
+[SBOM::Raku] at t/06-modernize.rakutest:2
+===> Testing [FAIL]: SBOM::Raku:ver<0.0.13>:auth<zef:lizmat>
+[SBOM::Raku] Failed to get passing tests, but continuing with --force-test
+===> Installing: SBOM::Raku:ver<0.0.13>:auth<zef:lizmat>
+===> Install [OK] for SBOM::Raku:ver<0.0.13>:auth<zef:lizmat>
+
+2 bin/ scripts [modernize-meta source-sbom] installed to:
+/blin/installed/SBOM::Raku_0.0.13/bin

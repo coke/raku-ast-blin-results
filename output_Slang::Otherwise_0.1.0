@@ -1,0 +1,15 @@
+===> Searching for: Slang::Otherwise
+===> Found: Slang::Otherwise:ver<0.1.0>:auth<zef:elcaro>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Slang::Otherwise] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781749363.284087.7333.843127381252/f09abb0910f11e03fb07c853f1cd97bfb49cc204.tar.gz https://360.zef.pm/S/LA/SLANG_OTHERWISE/f09abb0910f11e03fb07c853f1cd97bfb49cc204.tar.gz
+===> Fetching [OK]: Slang::Otherwise:ver<0.1.0>:auth<zef:elcaro>:api<1> to /blin/data/zef-data/tmp/1781749363.284087.7333.843127381252/f09abb0910f11e03fb07c853f1cd97bfb49cc204.tar.gz
+[Slang::Otherwise] Command: tar -t -f ./f09abb0910f11e03fb07c853f1cd97bfb49cc204.tar.gz
+[Slang::Otherwise] Command: tar -xvf ./f09abb0910f11e03fb07c853f1cd97bfb49cc204.tar.gz -C ../f09abb0910f11e03fb07c853f1cd97bfb49cc204.tar.gz
+===> Extraction [OK]: Slang::Otherwise to /blin/data/zef-data/tmp/f09abb0910f11e03fb07c853f1cd97bfb49cc204.tar.gz
+===> Testing: Slang::Otherwise:ver<0.1.0>:auth<zef:elcaro>:api<1>
+[Slang::Otherwise] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/f09abb0910f11e03fb07c853f1cd97bfb49cc204.tar.gz/dist t/01-basic.rakutest
+[Slang::Otherwise] ===SORRY!===
+[Slang::Otherwise] Method Raku::Grammar+{Otherwise::Grammar}.dispatch:<.?> not found
+===> Testing [FAIL]: Slang::Otherwise:ver<0.1.0>:auth<zef:elcaro>:api<1>
+[Slang::Otherwise] Failed to get passing tests, but continuing with --force-test
+===> Installing: Slang::Otherwise:ver<0.1.0>:auth<zef:elcaro>:api<1>
+===> Install [OK] for Slang::Otherwise:ver<0.1.0>:auth<zef:elcaro>:api<1>
