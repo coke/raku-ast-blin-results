@@ -98,7 +98,7 @@ Algorithm::ZhangShasha – Unknown
 Algorithm::ZobristHashing – OK
 AlgorithmsIT – OK
 Alma – AlwaysFail
-Amazon::DynamoDB – Unknown
+Amazon::DynamoDB – OK
 Anolis – OK
 Apache::LogFormat – OK
 App::APOTD – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -140,7 +140,7 @@ App::P6Dx – AlwaysFail
 App::P6Ghq – OK
 App::Perl6LangServer – MissingDependency
 App::Platform – AlwaysFail
-App::Pray – Unknown
+App::Pray – OK
 App::Prove6 – OK
 App::RaCoCo – AlwaysFail
 App::Racoco::Report::ReporterCoveralls – AlwaysFail
@@ -202,7 +202,7 @@ Astro::Almanac – OK
 Astro::Sunrise – OK
 Astro::Utils – OK
 Async::Command – OK
-Async::Workers – Unknown
+Async::Workers – AlwaysFail
 AttrX::InitArg – AlwaysFail
 AttrX::Lazy – OK
 AttrX::Mooish – AlwaysFail
@@ -311,7 +311,7 @@ CSV-Autoclass – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CSV::Parser – OK
 CSV::Table – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CUID – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-CWT-Repository-Hash – Unknown
+CWT-Repository-Hash – OK
 Cache::Async – AlwaysFail
 Cache::Dir – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Cache::LRU – OK
@@ -357,7 +357,7 @@ Color::Names – OK
 Color::Palette – OK
 Color::Scheme – OK
 Colorizable – OK
-ComfyUI::API – Unknown
+ComfyUI::API – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Command::Despatch – OK
 CommandLine::Usage – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Commands – OK
@@ -411,7 +411,7 @@ Context – AlwaysFail
 Control::Bail – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Cookie::Baker – OK
 Cookie::Jar – OK
-Cooklang – Unknown
+Cooklang – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CoreHacker::Q – OK
 CoreHackers::NfaChainsaw – AlwaysFail
 CoreHackers::Q – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -422,14 +422,14 @@ Crane – OK
 Cro-HTTP-Middleware-GoatCounter – OK
 Cro::APIToken – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Cro::APIToken::Store::Pg – Unknown
-Cro::CBOR – Unknown
+Cro::CBOR – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Cro::Core – OK
 Cro::FCGI – AlwaysFail
 Cro::H – OK
 Cro::HTTP – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Cro::HTTP::BodyParser::JSONClass – AlwaysFail
 Cro::HTTP::BodySerializerJSONClass – AlwaysFail
-Cro::HTTP::RouterUtils – Unknown
+Cro::HTTP::RouterUtils – AlwaysFail
 Cro::HTTP::Session::MySQL – Unknown
 Cro::HTTP::Session::Pg – Unknown
 Cro::HTTP::Session::Red – Unknown
@@ -437,18 +437,18 @@ Cro::HTTP::Session::Redis – AlwaysFail
 Cro::HTTP::Session::SQLite – OK
 Cro::HTTP::Test – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Cro::OpenAPI::RoutesFromDefinition – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-Cro::RPC::JSON – Unknown
+Cro::RPC::JSON – ZefFailure
 Cro::SSL – AlwaysFail
 Cro::TLS – OK
 Cro::WebApp – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-Cro::WebApp::Evaluate – Unknown
+Cro::WebApp::Evaluate – AlwaysFail
 Cro::WebSocket – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Cro::ZeroMQ – AlwaysFail
 CroX::HTTP::Auth::Munge – Unknown
 CroX::HTTP::FallbackPassthru – AlwaysFail
 CroX::HTTP::Transform::GraphQL – AlwaysFail
 Crolite – Unknown
-Cromponent – Unknown
+Cromponent – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Cromtit – OK
 Crust – Unknown
 Crust::Handler::SCGI – OK
@@ -461,7 +461,7 @@ Crypt::Bcrypt – OK
 Crypt::CAST5 – OK
 Crypt::Game – AlwaysFail
 Crypt::LibGcrypt – AlwaysFail
-Crypt::LibScrypt – Unknown
+Crypt::LibScrypt – AlwaysFail
 Crypt::Libcrypt – OK
 Crypt::Passphrase – AlwaysFail
 Crypt::RC4 – OK
@@ -479,11 +479,11 @@ DB – OK
 DB::Migration::Declare – OK
 DB::Migration::Simple – AlwaysFail
 DB::Model::Easy – OK
-DB::MySQL – Unknown
+DB::MySQL – AlwaysFail
 DB::ORM::Quicky – OK
 DB::Pg – Unknown
 DB::Rscs – AlwaysFail
-DB::SQLite – Unknown
+DB::SQLite – AlwaysFail
 DB::Xoos – Unknown
 DB::Xoos::MySQL – Unknown
 DB::Xoos::Pg – Unknown
@@ -548,14 +548,14 @@ Data::Tree – OK
 Data::TypeSystem – OK
 Data::UkraineWar::MoD – AlwaysFail
 DataStar – OK
-Date::Calendar::Armenian – Unknown
-Date::Calendar::Bahai – Unknown
-Date::Calendar::CopticEthiopic – Unknown
-Date::Calendar::FrenchRevolutionary – Unknown
-Date::Calendar::Gregorian – Unknown
-Date::Calendar::Hebrew – Unknown
-Date::Calendar::Hijri – Unknown
-Date::Calendar::Julian – Unknown
+Date::Calendar::Armenian – AlwaysFail
+Date::Calendar::Bahai – AlwaysFail
+Date::Calendar::CopticEthiopic – OK
+Date::Calendar::FrenchRevolutionary – AlwaysFail
+Date::Calendar::Gregorian – AlwaysFail
+Date::Calendar::Hebrew – AlwaysFail
+Date::Calendar::Hijri – AlwaysFail
+Date::Calendar::Julian – AlwaysFail
 Date::Calendar::MayaAztec – Unknown
 Date::Calendar::Persian – Unknown
 Date::Calendar::Strftime – AlwaysFail
@@ -1061,10 +1061,10 @@ InterceptAllMethods – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Interval – OK
 Intl::CLDR – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Intl::CLDR – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-Intl::Fluent – Unknown
+Intl::Fluent – AlwaysFail
 Intl::Format::List – AlwaysFail
 Intl::Format::Number – AlwaysFail
-Intl::Format::Unit – Unknown
+Intl::Format::Unit – AlwaysFail
 Intl::LanguageTag – AlwaysFail
 Intl::LanguageTag – AlwaysFail
 Intl::LanguageTag – AlwaysFail
@@ -1141,13 +1141,13 @@ LCS::All – OK
 LCS::BV – OK
 LEB128 – OK
 LIVR – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-LLM::Character – Unknown
+LLM::Character – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 LLM::Chat – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-LLM::Classifiers::Emotions – Unknown
+LLM::Classifiers::Emotions – OK
 LLM::Containerization – CyclicDependency
 LLM::DWIM – Unknown
 LLM::Data::ContentTag – OK
-LLM::Data::Inference – Unknown
+LLM::Data::Inference – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 LLM::Data::Pipeline – OK
 LLM::Functions – Unknown
 LLM::Graph – Unknown
@@ -1415,7 +1415,7 @@ Module::Toolkit – OK
 Monad – OK
 Monad-Result – OK
 Moneys – OK
-MongoDB – Unknown
+MongoDB – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 MongoDB::Fast – AlwaysFail
 MongoDB::Queue – AlwaysFail
 Monitor::Monit – OK
@@ -1443,7 +1443,7 @@ NativeHelpers::Callback – AlwaysFail
 NativeHelpers::iovec – OK
 Needle::Compile – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Net::AMQP – OK
-Net::BGP – Unknown
+Net::BGP – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Net::Curl – AlwaysFail
 Net::DNS – Flapper
 Net::Ethereum – AlwaysFail
@@ -1472,7 +1472,7 @@ Net::Postgres – OK
 Net::Postgres::Abstract – AlwaysFail
 Net::RCON – OK
 Net::SMTP – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-Net::SMTP::Client::Async – Unknown
+Net::SMTP::Client::Async – AlwaysFail
 Net::SOCKS – OK
 Net::Snapcast – OK
 Net::Telnet – ZefFailure
@@ -1701,7 +1701,7 @@ Portuguese – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 PostCocoon::Url – OK
 PowerNap – OK
 Powerline::Prompt – OK
-Pray – Unknown
+Pray – OK
 Prettier::Table – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Pretty::Table – OK
 PrettyDump – OK
@@ -1910,7 +1910,7 @@ Sparky::Plugin::Notify::Email – Unknown
 Sparky::Plugin::Notify::Telegram – Unknown
 Sparrow6 – Unknown
 Sparrow6::Rakudo::Install – Unknown
-SparrowCI – Unknown
+SparrowCI – OK
 SparrowCI - super fun and flexible CI system with many programming languages support – AlwaysFail
 SparrowCI-SandBox – OK
 Sparrowdo – Unknown
@@ -2282,7 +2282,7 @@ WWW – AlwaysFail
 WWW--CloudHosting--Hetzner – OK
 WWW::CloudHosting::Hetzner – AlwaysFail
 WWW::DuckDuckGo – OK
-WWW::GCloud – Unknown
+WWW::GCloud – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 WWW::GCloud::API::Storage – Unknown
 WWW::GCloud::API::Vision – Unknown
 WWW::Gemini – OK
@@ -2389,7 +2389,7 @@ caelum – OK
 cmark::Simple – Unknown
 colomon::App::TagTools – OK
 content-storage-cli – Unknown
-cro – Unknown
+cro – ZefFailure
 delete-old-until-size – OK
 deredere – OK
 dosh – Unknown

@@ -1,0 +1,36 @@
+===> Searching for: MongoDB
+===> Found: MongoDB:ver<0.45.3>:auth<cpan:MARTIMM> [via Zef::Repository::Ecosystems<rea>]
+[MongoDB] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781796556.659167.6497.501483634635/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/M/MongoDB/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz
+===> Fetching [OK]: MongoDB:ver<0.45.3>:auth<cpan:MARTIMM> to /blin/data/zef-data/tmp/1781796556.659167.6497.501483634635/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz
+[MongoDB] Command: tar -t -f ./MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz
+[MongoDB] Command: tar -xvf ./MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz -C ../MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz
+===> Extraction [OK]: MongoDB to /blin/data/zef-data/tmp/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz
+===> Testing: MongoDB:ver<0.45.3>:auth<cpan:MARTIMM>
+[MongoDB] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/raku-mongodb-driver-0.45.3 t/MongoDB-Load-Test.rakutest
+[MongoDB] Potential difficulties:
+[MongoDB]     Optional named parameter 'indent' with subset type UInt needs a valid default value
+[MongoDB]     otherwise it will throw exceptions when a value is absent at the callsite
+[MongoDB]     at /blin/installed/BSON_0.13.3/sources/5C9ADFB7D4ABA2A85E6B7BE64467012B589A0AB2 (BSON::ObjectId):163
+[MongoDB] ===SORRY!=== Error while compiling t/MongoDB-Load-Test.rakutest
+[MongoDB] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/raku-mongodb-driver-0.45.3/lib/MongoDB/Client.rakumod (MongoDB::Client)
+[MongoDB] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/raku-mongodb-driver-0.45.3/lib/MongoDB/ServerPool/Server.rakumod (MongoDB::ServerPool::Server)
+[MongoDB] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/raku-mongodb-driver-0.45.3/lib/MongoDB/SocketPool.rakumod (MongoDB::SocketPool)
+[MongoDB] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/raku-mongodb-driver-0.45.3/lib/MongoDB/SocketPool/Socket.rakumod (MongoDB::SocketPool::Socket)
+[MongoDB] ===SORRY!=== Error while compiling /blin/installed/Auth::SCRAM_0.4.8.2/sources/45E86B63489A84DAE4A53DDAB5E7D10E2C299C9E (Auth::SCRAM)
+[MongoDB] ===SORRY!=== Error while compiling /blin/installed/Unicode::PRECIS_0.5.2/sources/4B2AEEED272621B91E428CA967C86884CFCD9892 (Unicode::PRECIS::Identifier::UsernameCaseMapped)
+[MongoDB] ===SORRY!===
+[MongoDB] 'Unicode::PRECIS::Identifier' cannot inherit from 'Unicode::PRECIS' because it is unknown.
+[MongoDB] at /blin/installed/Unicode::PRECIS_0.5.2/sources/4B2AEEED272621B91E428CA967C86884CFCD9892 (Unicode::PRECIS::Identifier::UsernameCaseMapped):3
+[MongoDB] at /blin/installed/Auth::SCRAM_0.4.8.2/sources/45E86B63489A84DAE4A53DDAB5E7D10E2C299C9E (Auth::SCRAM):7
+[MongoDB] at /blin/data/zef-data/tmp/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/raku-mongodb-driver-0.45.3/lib/MongoDB/SocketPool/Socket.rakumod (MongoDB::SocketPool::Socket):25
+[MongoDB] at /blin/data/zef-data/tmp/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/raku-mongodb-driver-0.45.3/lib/MongoDB/SocketPool.rakumod (MongoDB::SocketPool):33
+[MongoDB] at /blin/data/zef-data/tmp/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/raku-mongodb-driver-0.45.3/lib/MongoDB/ServerPool/Server.rakumod (MongoDB::ServerPool::Server):10
+[MongoDB] at /blin/data/zef-data/tmp/MongoDB%3Aver%3C0.45.3%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/raku-mongodb-driver-0.45.3/lib/MongoDB/Client.rakumod (MongoDB::Client):58
+[MongoDB] at t/MongoDB-Load-Test.rakutest:6
+===> Testing [FAIL]: MongoDB:ver<0.45.3>:auth<cpan:MARTIMM>
+[MongoDB] Failed to get passing tests, but continuing with --force-test
+===> Installing: MongoDB:ver<0.45.3>:auth<cpan:MARTIMM>
+===> Install [OK] for MongoDB:ver<0.45.3>:auth<cpan:MARTIMM>
+
+4 bin/ scripts [make-replicaset.raku stop-servers.raku mongodb-accounting.raku start-servers.raku] installed to:
+/blin/installed/MongoDB_0.45.3/bin

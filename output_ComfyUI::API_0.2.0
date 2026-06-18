@@ -1,0 +1,209 @@
+===> Searching for: ComfyUI::API
+===> Found: ComfyUI::API:ver<0.2.0>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[ComfyUI::API] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781794576.645552.9393.28491706147/11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz https://360.zef.pm/C/OM/COMFYUI_API/11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz
+===> Fetching [OK]: ComfyUI::API:ver<0.2.0>:auth<zef:apogee> to /blin/data/zef-data/tmp/1781794576.645552.9393.28491706147/11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz
+[ComfyUI::API] Command: tar -t -f ./11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz
+[ComfyUI::API] Command: tar -xvf ./11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz -C ../11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz
+===> Extraction [OK]: ComfyUI::API to /blin/data/zef-data/tmp/11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz
+===> Testing: ComfyUI::API:ver<0.2.0>:auth<zef:apogee>
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz/ComfyUI-API-0.2.0 t/01-workflow.rakutest
+[ComfyUI::API] 1..11
+[ComfyUI::API] # Subtest: from-file loads workflow
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Workflow loaded
+[ComfyUI::API] ok 1 - from-file loads workflow
+[ComfyUI::API] # Subtest: from-json parses JSON string
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Workflow parsed
+[ComfyUI::API] ok 2 - from-json parses JSON string
+[ComfyUI::API] # Subtest: to-hash returns data
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - KSampler node exists in hash
+[ComfyUI::API] ok 3 - to-hash returns data
+[ComfyUI::API] # Subtest: set changes a node field
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Seed updated
+[ComfyUI::API] ok 4 - set changes a node field
+[ComfyUI::API] # Subtest: set-by-title finds node and sets field
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Steps updated by title
+[ComfyUI::API] ok 5 - set-by-title finds node and sets field
+[ComfyUI::API] # Subtest: set-by-title dies for unknown title
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Dies for unknown title
+[ComfyUI::API] ok 6 - set-by-title dies for unknown title
+[ComfyUI::API] # Subtest: find-nodes-by-class returns correct IDs
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - Two CLIP nodes found
+[ComfyUI::API]     ok 2 - Correct node IDs
+[ComfyUI::API] ok 7 - find-nodes-by-class returns correct IDs
+[ComfyUI::API] # Subtest: render substitutes {{vars}} in all string values
+[ComfyUI::API]     1..3
+[ComfyUI::API]     ok 1 - Positive prompt rendered
+[ComfyUI::API]     ok 2 - Negative prompt rendered
+[ComfyUI::API]     ok 3 - Model name rendered
+[ComfyUI::API] ok 8 - render substitutes {{vars}} in all string values
+[ComfyUI::API] # Subtest: render leaves non-string values untouched
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - Integer preserved
+[ComfyUI::API]     ok 2 - Numeric preserved
+[ComfyUI::API] ok 9 - render leaves non-string values untouched
+[ComfyUI::API] # Subtest: render dies on missing variable
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Dies when variables are missing
+[ComfyUI::API] ok 10 - render dies on missing variable
+[ComfyUI::API] # Subtest: to-json round-trips
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Round-trip preserves data
+[ComfyUI::API] ok 11 - to-json round-trips
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz/ComfyUI-API-0.2.0 t/02-client.rakutest
+[ComfyUI::API] Potential difficulties:
+[ComfyUI::API]     Optional named parameter 'version' with subset type OpenSSL::ProtocolVersion needs a valid default value
+[ComfyUI::API]     otherwise it will throw exceptions when a value is absent at the callsite
+[ComfyUI::API]     at /blin/installed/IO::Socket::Async::SSL_0.8.2/sources/54DA18A673601FAFD8F6161DA647BED3ABCA650F (IO::Socket::Async::SSL):623
+[ComfyUI::API]     Optional named parameter 'version' with subset type OpenSSL::ProtocolVersion needs a valid default value
+[ComfyUI::API]     otherwise it will throw exceptions when a value is absent at the callsite
+[ComfyUI::API]     at /blin/installed/IO::Socket::Async::SSL_0.8.2/sources/54DA18A673601FAFD8F6161DA647BED3ABCA650F (IO::Socket::Async::SSL):738
+[ComfyUI::API] 1..0 # Skipped: Set COMFYUI_URL to run client tests
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz/ComfyUI-API-0.2.0 t/03-result.rakutest
+[ComfyUI::API] 1..5
+[ComfyUI::API] # Subtest: images returns image list
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Two images found
+[ComfyUI::API] ok 1 - images returns image list
+[ComfyUI::API] # Subtest: image-filenames returns filenames
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Filenames extracted
+[ComfyUI::API] ok 2 - image-filenames returns filenames
+[ComfyUI::API] # Subtest: output-for-node returns node output
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Node 9 has images
+[ComfyUI::API] ok 3 - output-for-node returns node output
+[ComfyUI::API] # Subtest: output-for-node unknown returns empty hash
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Unknown node returns empty
+[ComfyUI::API] ok 4 - output-for-node unknown returns empty hash
+[ComfyUI::API] # Subtest: prompt-id accessible
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Prompt ID correct
+[ComfyUI::API] ok 5 - prompt-id accessible
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz/ComfyUI-API-0.2.0 t/04-introspection.rakutest
+[ComfyUI::API] 1..9
+[ComfyUI::API] # Subtest: list-checkpoints parses CheckpointLoaderSimple.ckpt_name
+[ComfyUI::API]     1..3
+[ComfyUI::API]     ok 1 - Four checkpoints in fixture
+[ComfyUI::API]     ok 2 - Flux checkpoint present
+[ComfyUI::API]     ok 3 - Sorted output
+[ComfyUI::API] ok 1 - list-checkpoints parses CheckpointLoaderSimple.ckpt_name
+[ComfyUI::API] # Subtest: list-loras parses LoraLoader.lora_name
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - Four LoRAs in fixture
+[ComfyUI::API]     ok 2 - Alice LoRA present
+[ComfyUI::API] ok 2 - list-loras parses LoraLoader.lora_name
+[ComfyUI::API] # Subtest: list-samplers parses KSampler.sampler_name
+[ComfyUI::API]     1..3
+[ComfyUI::API]     ok 1 - Multiple samplers
+[ComfyUI::API]     ok 2 - euler_ancestral present
+[ComfyUI::API]     ok 3 - dpmpp_2m present
+[ComfyUI::API] ok 3 - list-samplers parses KSampler.sampler_name
+[ComfyUI::API] # Subtest: list-schedulers parses KSampler.scheduler
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - normal scheduler
+[ComfyUI::API]     ok 2 - karras scheduler
+[ComfyUI::API] ok 4 - list-schedulers parses KSampler.scheduler
+[ComfyUI::API] # Subtest: list-vaes parses VAELoader.vae_name
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - Three VAEs in fixture
+[ComfyUI::API]     ok 2 - SDXL VAE present
+[ComfyUI::API] ok 5 - list-vaes parses VAELoader.vae_name
+[ComfyUI::API] # Subtest: IntrospectionMissing throws when node class absent
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - Throws IntrospectionMissing
+[ComfyUI::API]     ok 2 - Reports missing class
+[ComfyUI::API] ok 6 - IntrospectionMissing throws when node class absent
+[ComfyUI::API] # Subtest: IntrospectionMissing throws when field absent
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Throws when ckpt_name field is missing
+[ComfyUI::API] ok 7 - IntrospectionMissing throws when field absent
+[ComfyUI::API] # Subtest: list-* methods de-duplicate
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Duplicates removed
+[ComfyUI::API] ok 8 - list-* methods de-duplicate
+[ComfyUI::API] # Subtest: health returns False against unreachable URL quickly
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - health returned False within 0.27489507s
+[ComfyUI::API] ok 9 - health returns False against unreachable URL quickly
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/11a6aa3ad1c1b536cbafffcbc2d28695eaf8d918.tar.gz/ComfyUI-API-0.2.0 t/05-progress.rakutest
+[ComfyUI::API] 1..8
+[ComfyUI::API] # Subtest: parse-progress-message: status → queue event
+[ComfyUI::API]     1..3
+[ComfyUI::API]     ok 1 - type
+[ComfyUI::API]     ok 2 - pending count
+[ComfyUI::API]     ok 3 - running count default
+[ComfyUI::API] ok 1 - parse-progress-message: status → queue event
+[ComfyUI::API] # Subtest: parse-progress-message: execution_start
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API] ok 2 - parse-progress-message: execution_start
+[ComfyUI::API] # Subtest: parse-progress-message: executing with node → executing event
+[ComfyUI::API]     1..3
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API]     ok 3 - 
+[ComfyUI::API] ok 3 - parse-progress-message: executing with node → executing event
+[ComfyUI::API] # Subtest: parse-progress-message: executing with null node → execution-end (legacy)
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API] ok 4 - parse-progress-message: executing with null node → execution-end (legacy)
+[ComfyUI::API] # Subtest: parse-progress-message: progress
+[ComfyUI::API]     1..5
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API]     ok 3 - 
+[ComfyUI::API]     ok 4 - 
+[ComfyUI::API]     ok 5 - 
+[ComfyUI::API] ok 5 - parse-progress-message: progress
+[ComfyUI::API] # Subtest: parse-progress-message: execution_success → execution-end
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API] ok 6 - parse-progress-message: execution_success → execution-end
+[ComfyUI::API] # Subtest: parse-progress-message: execution_error
+[ComfyUI::API]     1..4
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API]     ok 3 - 
+[ComfyUI::API]     ok 4 - 
+[ComfyUI::API] ok 7 - parse-progress-message: execution_error
+[ComfyUI::API] # Subtest: progress-supply emits typed events from a live WebSocket fixture
+[ComfyUI::API]     1..3
+[ComfyUI::API] Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[ComfyUI::API]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 109
+[ComfyUI::API]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 105
+[ComfyUI::API]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 55
+[ComfyUI::API]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 54
+[ComfyUI::API] Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[ComfyUI::API]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 109
+[ComfyUI::API]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 105
+[ComfyUI::API]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 55
+[ComfyUI::API]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 54
+[ComfyUI::API]     not ok 1 - Saw execution-start (got: )
+[ComfyUI::API]     # Failed test 'Saw execution-start (got: )'
+[ComfyUI::API]     # at t/05-progress.rakutest line 156
+[ComfyUI::API]     not ok 2 - Saw progress
+[ComfyUI::API]     # Failed test 'Saw progress'
+[ComfyUI::API]     # at t/05-progress.rakutest line 157
+[ComfyUI::API]     not ok 3 - Saw execution-end
+[ComfyUI::API]     # Failed test 'Saw execution-end'
+[ComfyUI::API]     # at t/05-progress.rakutest line 158
+[ComfyUI::API]     # You failed 3 tests of 3
+[ComfyUI::API] not ok 8 - progress-supply emits typed events from a live WebSocket fixture
+[ComfyUI::API] # Failed test 'progress-supply emits typed events from a live WebSocket fixture'
+[ComfyUI::API] # at t/05-progress.rakutest line 100
+[ComfyUI::API] # You failed 1 test of 8
+===> Testing [FAIL]: ComfyUI::API:ver<0.2.0>:auth<zef:apogee>
+[ComfyUI::API] Failed to get passing tests, but continuing with --force-test
+===> Installing: ComfyUI::API:ver<0.2.0>:auth<zef:apogee>
+===> Install [OK] for ComfyUI::API:ver<0.2.0>:auth<zef:apogee>

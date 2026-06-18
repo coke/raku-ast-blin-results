@@ -1,0 +1,1017 @@
+===> Searching for: Net::BGP
+===> Found: Net::BGP:ver<0.9.0>:auth<zef:jmaslak> [via Zef::Repository::Ecosystems<fez>]
+[Net::BGP] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781796073.656455.9360.005005510471/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz https://360.zef.pm/N/ET/NET_BGP/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz
+===> Fetching [OK]: Net::BGP:ver<0.9.0>:auth<zef:jmaslak> to /blin/data/zef-data/tmp/1781796073.656455.9360.005005510471/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz
+[Net::BGP] Command: tar -t -f ./b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz
+[Net::BGP] Command: tar -xvf ./b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz -C ../b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz
+===> Extraction [OK]: Net::BGP to /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz
+===> Testing: Net::BGP:ver<0.9.0>:auth<zef:jmaslak>
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/00-conversions.t
+[Net::BGP] # Subtest: nuint16
+[Net::BGP]     ok 1 - 
+[Net::BGP]     ok 2 - 
+[Net::BGP]     ok 3 - 
+[Net::BGP]     ok 4 - 
+[Net::BGP]     ok 5 - 
+[Net::BGP]     ok 6 - 
+[Net::BGP]     ok 7 - 
+[Net::BGP]     ok 8 - 
+[Net::BGP]     ok 9 - 
+[Net::BGP]     ok 10 - 
+[Net::BGP]     ok 11 - 
+[Net::BGP]     ok 12 - 
+[Net::BGP]     ok 13 - 
+[Net::BGP]     ok 14 - 
+[Net::BGP]     ok 15 - 
+[Net::BGP]     ok 16 - 
+[Net::BGP]     ok 17 - 258 is encoded properly
+[Net::BGP]     1..17
+[Net::BGP] ok 1 - nuint16
+[Net::BGP] # Subtest: nunit32
+[Net::BGP]     ok 1 - 
+[Net::BGP]     ok 2 - 
+[Net::BGP]     ok 3 - 
+[Net::BGP]     ok 4 - 
+[Net::BGP]     ok 5 - 
+[Net::BGP]     ok 6 - 
+[Net::BGP]     ok 7 - 
+[Net::BGP]     ok 8 - 
+[Net::BGP]     ok 9 - 
+[Net::BGP]     ok 10 - 
+[Net::BGP]     ok 11 - 
+[Net::BGP]     ok 12 - 
+[Net::BGP]     ok 13 - 
+[Net::BGP]     ok 14 - 
+[Net::BGP]     ok 15 - 
+[Net::BGP]     ok 16 - 
+[Net::BGP]     ok 17 - 
+[Net::BGP]     ok 18 - 
+[Net::BGP]     ok 19 - 
+[Net::BGP]     ok 20 - 
+[Net::BGP]     ok 21 - 
+[Net::BGP]     1..21
+[Net::BGP] ok 2 - nunit32
+[Net::BGP] # Subtest: nunit128
+[Net::BGP]     ok 1 - 
+[Net::BGP]     ok 2 - 
+[Net::BGP]     ok 3 - 
+[Net::BGP]     ok 4 - 
+[Net::BGP]     ok 5 - 
+[Net::BGP]     ok 6 - 
+[Net::BGP]     ok 7 - 
+[Net::BGP]     ok 8 - 
+[Net::BGP]     ok 9 - 
+[Net::BGP]     ok 10 - 
+[Net::BGP]     ok 11 - 
+[Net::BGP]     1..11
+[Net::BGP] ok 3 - nunit128
+[Net::BGP] 1..3
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/01-ip-test.t
+[Net::BGP] ok 1 - 1.2.3.4 ipv4-to-int
+[Net::BGP] ok 2 - 1.2.3.4 int-to-ipv4
+[Net::BGP] ok 3 - 1.2.3.4 ipv4-to-int-to-ipv4
+[Net::BGP] ok 4 - 1.2.3.4 int-to-ipv4-to-int
+[Net::BGP] ok 5 - 1.2.3.4 ipv4-to-buf8
+[Net::BGP] ok 6 - 1.2.3.4 ip-valid
+[Net::BGP] ok 7 - 2001:db8::1 ipv6-expand
+[Net::BGP] ok 8 - 2001:db8::1 ipv6-expand (full)
+[Net::BGP] ok 9 - 2001:db8::1 ipv6-to-int
+[Net::BGP] ok 10 - 2001:db8::1 ipv6-compact
+[Net::BGP] ok 11 - 2001:db8::1 int-to-ipv6
+[Net::BGP] ok 12 - 2001:db8::1 ip-valid
+[Net::BGP] ok 13 - 2001:db8::1 ipv6-to-buf-length
+[Net::BGP] ok 14 - 2001:db8::1 0 ipv6-to-buf8
+[Net::BGP] ok 15 - 2001:db8::1 1 ipv6-to-buf8
+[Net::BGP] ok 16 - 2001:db8::1 2 ipv6-to-buf8
+[Net::BGP] ok 17 - 2001:db8::1 3 ipv6-to-buf8
+[Net::BGP] ok 18 - 2001:db8::1 4 ipv6-to-buf8
+[Net::BGP] ok 19 - 2001:db8::1 5 ipv6-to-buf8
+[Net::BGP] ok 20 - 2001:db8::1 6 ipv6-to-buf8
+[Net::BGP] ok 21 - 2001:db8::1 7 ipv6-to-buf8
+[Net::BGP] ok 22 - 2001:db8::1 8 ipv6-to-buf8
+[Net::BGP] ok 23 - 2001:db8::1 9 ipv6-to-buf8
+[Net::BGP] ok 24 - 2001:db8::1 10 ipv6-to-buf8
+[Net::BGP] ok 25 - 2001:db8::1 11 ipv6-to-buf8
+[Net::BGP] ok 26 - 2001:db8::1 12 ipv6-to-buf8
+[Net::BGP] ok 27 - 2001:db8::1 13 ipv6-to-buf8
+[Net::BGP] ok 28 - 2001:db8::1 14 ipv6-to-buf8
+[Net::BGP] ok 29 - 2001:db8::1 15 ipv6-to-buf8
+[Net::BGP] ok 30 - 2001:db8::1 buf8-to-ipv6
+[Net::BGP] ok 31 - 2001:db8::1/0 ipv6-to-buf-length
+[Net::BGP] ok 32 - 2001:db8::1/0 buf8-to-ipv6
+[Net::BGP] ok 33 - 2001:db8::1/64 buf8-to-ipv6
+[Net::BGP] ok 34 - 2001:db8::1/127 ipv6-to-buf-length
+[Net::BGP] ok 35 - 2001:db8::1/127 0 ipv6-to-buf8
+[Net::BGP] ok 36 - 2001:db8::1/127 1 ipv6-to-buf8
+[Net::BGP] ok 37 - 2001:db8::1/127 2 ipv6-to-buf8
+[Net::BGP] ok 38 - 2001:db8::1/127 3 ipv6-to-buf8
+[Net::BGP] ok 39 - 2001:db8::1/127 4 ipv6-to-buf8
+[Net::BGP] ok 40 - 2001:db8::1/127 5 ipv6-to-buf8
+[Net::BGP] ok 41 - 2001:db8::1/127 6 ipv6-to-buf8
+[Net::BGP] ok 42 - 2001:db8::1/127 7 ipv6-to-buf8
+[Net::BGP] ok 43 - 2001:db8::1/127 8 ipv6-to-buf8
+[Net::BGP] ok 44 - 2001:db8::1/127 9 ipv6-to-buf8
+[Net::BGP] ok 45 - 2001:db8::1/127 10 ipv6-to-buf8
+[Net::BGP] ok 46 - 2001:db8::1/127 11 ipv6-to-buf8
+[Net::BGP] ok 47 - 2001:db8::1/127 12 ipv6-to-buf8
+[Net::BGP] ok 48 - 2001:db8::1/127 13 ipv6-to-buf8
+[Net::BGP] ok 49 - 2001:db8::1/127 14 ipv6-to-buf8
+[Net::BGP] ok 50 - 2001:db8::1/127 15 ipv6-to-buf8
+[Net::BGP] ok 51 - 2001:db8::1/127 buf8-to-ipv6
+[Net::BGP] ok 52 - 2001:db8:0:2:3::1 ipv6-expand
+[Net::BGP] ok 53 - 2001:db8:0:2:3::1 ipv6-expand (full)
+[Net::BGP] ok 54 - 2001:db8:0:2:3::1 ipv6-to-int
+[Net::BGP] ok 55 - 2001:db8:0:2:3::1 ipv6-compact
+[Net::BGP] ok 56 - 2001:db8:0:2:3::1 int-to-ipv6
+[Net::BGP] ok 57 - 2001:db8:0:2:3::1 ip-valid
+[Net::BGP] ok 58 - 2001:db8:0:2:3::1 buf8-to-ipv6
+[Net::BGP] ok 59 - 2001:db8:0:2:3::1/0 ipv6-to-buf-length
+[Net::BGP] ok 60 - 2001:db8:0:2:3::1/0 buf8-to-ipv6
+[Net::BGP] ok 61 - 2001:db8:0:002:03::1 ipv6-expand
+[Net::BGP] ok 62 - 2001:db8:0:002:03::1 ipv6-expand (full)
+[Net::BGP] ok 63 - 2001:db8:0:002:03::1 ipv6-to-int
+[Net::BGP] ok 64 - 2001:db8:0:002:03::1 ipv6-compact
+[Net::BGP] ok 65 - 2001:db8:0:002:03::1 int-to-ipv6
+[Net::BGP] ok 66 - 2001:db8:0:002:03::1 ip-valid
+[Net::BGP] ok 67 - 2001:db8:0:002:03::1 buf8-to-ipv6
+[Net::BGP] ok 68 - 2001:db8:0:002:03::1/0 ipv6-to-buf-length
+[Net::BGP] ok 69 - 2001:db8:0:002:03::1/0 buf8-to-ipv6
+[Net::BGP] ok 70 - 2001:dB8:0:002:03::1 ipv6-expand
+[Net::BGP] ok 71 - 2001:dB8:0:002:03::1 ipv6-expand (full)
+[Net::BGP] ok 72 - 2001:dB8:0:002:03::1 ipv6-to-int
+[Net::BGP] ok 73 - 2001:dB8:0:002:03::1 ipv6-compact
+[Net::BGP] ok 74 - 2001:dB8:0:002:03::1 int-to-ipv6
+[Net::BGP] ok 75 - 2001:dB8:0:002:03::1 ip-valid
+[Net::BGP] ok 76 - 2001:dB8:0:002:03::1 buf8-to-ipv6
+[Net::BGP] ok 77 - 2001:dB8:0:002:03::1/0 ipv6-to-buf-length
+[Net::BGP] ok 78 - 2001:dB8:0:002:03::1/0 buf8-to-ipv6
+[Net::BGP] ok 79 - 2605:2700:0:3::4713:93e3 ipv6-expand
+[Net::BGP] ok 80 - 2605:2700:0:3::4713:93e3 ipv6-expand (full)
+[Net::BGP] ok 81 - 2605:2700:0:3::4713:93e3 ipv6-to-int
+[Net::BGP] ok 82 - 2605:2700:0:3::4713:93e3 ipv6-compact
+[Net::BGP] ok 83 - 2605:2700:0:3::4713:93e3 int-to-ipv6
+[Net::BGP] ok 84 - 2605:2700:0:3::4713:93e3 ip-valid
+[Net::BGP] ok 85 - 2605:2700:0:3::4713:93e3 buf8-to-ipv6
+[Net::BGP] ok 86 - 2605:2700:0:3::4713:93e3/0 ipv6-to-buf-length
+[Net::BGP] ok 87 - 2605:2700:0:3::4713:93e3/0 buf8-to-ipv6
+[Net::BGP] ok 88 - :: ipv6-expand
+[Net::BGP] ok 89 - :: ipv6-expand (full)
+[Net::BGP] ok 90 - :: ipv6-to-int
+[Net::BGP] ok 91 - :: ipv6-compact
+[Net::BGP] ok 92 - :: int-to-ipv6
+[Net::BGP] ok 93 - :: ip-valid
+[Net::BGP] ok 94 - :: ipv6-to-buf-length
+[Net::BGP] ok 95 - :: 0 ipv6-to-buf8
+[Net::BGP] ok 96 - :: 1 ipv6-to-buf8
+[Net::BGP] ok 97 - :: 2 ipv6-to-buf8
+[Net::BGP] ok 98 - :: 3 ipv6-to-buf8
+[Net::BGP] ok 99 - :: 4 ipv6-to-buf8
+[Net::BGP] ok 100 - :: 5 ipv6-to-buf8
+[Net::BGP] ok 101 - :: 6 ipv6-to-buf8
+[Net::BGP] ok 102 - :: 7 ipv6-to-buf8
+[Net::BGP] ok 103 - :: 8 ipv6-to-buf8
+[Net::BGP] ok 104 - :: 9 ipv6-to-buf8
+[Net::BGP] ok 105 - :: 10 ipv6-to-buf8
+[Net::BGP] ok 106 - :: 11 ipv6-to-buf8
+[Net::BGP] ok 107 - :: 12 ipv6-to-buf8
+[Net::BGP] ok 108 - :: 13 ipv6-to-buf8
+[Net::BGP] ok 109 - :: 14 ipv6-to-buf8
+[Net::BGP] ok 110 - :: 15 ipv6-to-buf8
+[Net::BGP] ok 111 - :: buf8-to-ipv6
+[Net::BGP] ok 112 - ::/0 ipv6-to-buf-length
+[Net::BGP] ok 113 - ::/0 buf8-to-ipv6
+[Net::BGP] ok 114 - ::/64 buf8-to-ipv6
+[Net::BGP] ok 115 - ::/127 ipv6-to-buf-length
+[Net::BGP] ok 116 - ::/127 0 ipv6-to-buf8
+[Net::BGP] ok 117 - ::/127 1 ipv6-to-buf8
+[Net::BGP] ok 118 - ::/127 2 ipv6-to-buf8
+[Net::BGP] ok 119 - ::/127 3 ipv6-to-buf8
+[Net::BGP] ok 120 - ::/127 4 ipv6-to-buf8
+[Net::BGP] ok 121 - ::/127 5 ipv6-to-buf8
+[Net::BGP] ok 122 - ::/127 6 ipv6-to-buf8
+[Net::BGP] ok 123 - ::/127 7 ipv6-to-buf8
+[Net::BGP] ok 124 - ::/127 8 ipv6-to-buf8
+[Net::BGP] ok 125 - ::/127 9 ipv6-to-buf8
+[Net::BGP] ok 126 - ::/127 10 ipv6-to-buf8
+[Net::BGP] ok 127 - ::/127 11 ipv6-to-buf8
+[Net::BGP] ok 128 - ::/127 12 ipv6-to-buf8
+[Net::BGP] ok 129 - ::/127 13 ipv6-to-buf8
+[Net::BGP] ok 130 - ::/127 14 ipv6-to-buf8
+[Net::BGP] ok 131 - ::/127 15 ipv6-to-buf8
+[Net::BGP] ok 132 - ::/127 buf8-to-ipv6
+[Net::BGP] ok 133 - 2001:db8::1 ip-cannonical
+[Net::BGP] ok 134 - 2001:db8::1 ip-cannonical²
+[Net::BGP] ok 135 - 2001:db8:0::0:1 ip-cannonical
+[Net::BGP] ok 136 - 2001:db8:0::0:1 ip-cannonical²
+[Net::BGP] ok 137 - ::ffff:192.0.2.1 ip-cannonical
+[Net::BGP] ok 138 - ::ffff:192.0.2.1 ip-cannonical²
+[Net::BGP] ok 139 - ::FFFF:192.0.2.1 ip-cannonical
+[Net::BGP] ok 140 - ::FFFF:192.0.2.1 ip-cannonical²
+[Net::BGP] ok 141 - 192.0.2.1 ip-cannonical
+[Net::BGP] ok 142 - 192.0.2.1 ip-cannonical²
+[Net::BGP] ok 143 - :: ip-cannonical
+[Net::BGP] ok 144 - :: ip-cannonical²
+[Net::BGP] ok 145 - 127.0.0.1 ip-cannonical
+[Net::BGP] ok 146 - 127.0.0.1 ip-cannonical²
+[Net::BGP] ok 147 - ::ffff:127.0.0.1 ip-cannonical
+[Net::BGP] ok 148 - ::ffff:127.0.0.1 ip-cannonical²
+[Net::BGP] ok 149 - 1920.0.2.1 ip-valid (invalid)
+[Net::BGP] ok 150 - 1::2::3 ip-valid (invalid)
+[Net::BGP] ok 151 - 2001:db8:g::1 ip-valid (invalid)
+[Net::BGP] # Subtest: IPv4 CIDRs
+[Net::BGP]     ok 1 - CIDR 0.0.0.0/24
+[Net::BGP]     ok 2 - CIDR 10.0.0.0/8
+[Net::BGP]     ok 3 - CIDR 0.0.0.0/0 maps to CIDR
+[Net::BGP]     ok 4 - CIDR 10.0.0.0/8 maps to CIDR
+[Net::BGP]     ok 5 - CIDR 10.0.0.0/24 maps to CIDR
+[Net::BGP]     ok 6 - CIDR 192.0.2.4/30 maps to CIDR
+[Net::BGP]     ok 7 - CIDR 255.255.255.255/32 maps to CIDR
+[Net::BGP]     ok 8 - CIDR 0.0.0.0/a dies ok
+[Net::BGP]     ok 9 - CIDR 192.0.2.1/33 dies ok
+[Net::BGP]     not ok 10 - CIDR 3/29 dies ok # TODO Regex matching is slow...fix lib/Net/BGP/IP.pm6
+[Net::BGP]     # Failed test 'CIDR 3/29 dies ok'
+[Net::BGP]     # at t/01-ip-test.t line 194
+[Net::BGP]     ok 11 - Test 1 - Count Correct
+[Net::BGP]     ok 12 - Test 1 - String Correct
+[Net::BGP]     ok 13 - Test 2 - Count Correct
+[Net::BGP]     ok 14 - Test 2 - String Correct
+[Net::BGP]     ok 15 - Test 3 - Count Correct
+[Net::BGP]     ok 16 - Test 3 - String Correct
+[Net::BGP]     ok 17 - Test 4 - Count Correct
+[Net::BGP]     ok 18 - Test 4 - String Correct
+[Net::BGP]     ok 19 - Test 5 - Count Correct
+[Net::BGP]     ok 20 - Test 5a - String Correct
+[Net::BGP]     ok 21 - Test 5b - String Correct
+[Net::BGP]     ok 22 - 0.0.0.0/0 contains 0.0.0.0/0
+[Net::BGP]     ok 23 - 0.0.0.0/32 does not contain 0.0.0.0/0
+[Net::BGP]     ok 24 - 0.0.0.0/0 contains 10.0.0.0/8
+[Net::BGP]     ok 25 - 0.0.0.0/32 does not contain 10.0.0.0/8
+[Net::BGP]     ok 26 - 0.0.0.0/0 contains 10.0.0.0/24
+[Net::BGP]     ok 27 - 0.0.0.0/32 does not contain 10.0.0.0/24
+[Net::BGP]     ok 28 - 0.0.0.0/0 contains 192.0.2.4/30
+[Net::BGP]     ok 29 - 0.0.0.0/32 does not contain 192.0.2.4/30
+[Net::BGP]     ok 30 - 0.0.0.0/0 contains 255.255.255.255/32
+[Net::BGP]     ok 31 - 0.0.0.0/32 does not contain 255.255.255.255/32
+[Net::BGP]     ok 32 - 4.2.2.0/24 contains 4.2.2.0/24
+[Net::BGP]     ok 33 - 4.2.2.0/32 does not contain 4.2.2.0/32
+[Net::BGP]     ok 34 - 4.2.2.0/24 contains 4.2.2.0/24
+[Net::BGP]     ok 35 - 4.2.2.0/24 contains 4.2.2.0/24
+[Net::BGP]     1..35
+[Net::BGP] ok 152 - IPv4 CIDRs
+[Net::BGP] # Subtest: IPv6 CIDRs
+[Net::BGP]     ok 1 - CIDR ::/0
+[Net::BGP]     ok 2 - CIDR 2001::/16
+[Net::BGP]     ok 3 - CIDR ::/0 maps to CIDR
+[Net::BGP]     ok 4 - CIDR 2001:db8::/32 maps to CIDR
+[Net::BGP]     ok 5 - CIDR 2001:db8:1234::/48 maps to CIDR
+[Net::BGP]     ok 6 - CIDR 2001:db8:4321::ff00/120 maps to CIDR
+[Net::BGP]     ok 7 - CIDR ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128 maps to CIDR
+[Net::BGP]     ok 8 - CIDR ::/a dies ok
+[Net::BGP]     ok 9 - CIDR 2001 dies ok
+[Net::BGP]     ok 10 - CIDR db8	True dies ok
+[Net::BGP]     ok 11 - CIDR ::/129 dies ok
+[Net::BGP]     ok 12 - CIDR 2001:/16 dies ok
+[Net::BGP]     ok 13 - CIDR 2001:55555::/32 dies ok
+[Net::BGP]     ok 14 - Test 1 - Count Correct
+[Net::BGP]     ok 15 - Test 1 - String Correct
+[Net::BGP]     ok 16 - Test 2 - Count Correct
+[Net::BGP]     ok 17 - Test 2 - String Correct
+[Net::BGP]     ok 18 - Test 3 - Count Correct
+[Net::BGP]     ok 19 - Test 3 - String Correct
+[Net::BGP]     ok 20 - Test 4 - Count Correct
+[Net::BGP]     ok 21 - Test 4 - String Correct
+[Net::BGP]     ok 22 - Test 5 - Count Correct
+[Net::BGP]     ok 23 - Test 5a - String Correct
+[Net::BGP]     ok 24 - Test 5b - String Correct
+[Net::BGP]     ok 25 - ::/0 contains ::/0
+[Net::BGP]     ok 26 - ::/128 does not contain ::/0
+[Net::BGP]     ok 27 - ::/0 contains 2001:db8::/32
+[Net::BGP]     ok 28 - ::/128 does not contain 2001:db8::/32
+[Net::BGP]     ok 29 - ::/0 contains 2001:db8:1234::/48
+[Net::BGP]     ok 30 - ::/128 does not contain 2001:db8:1234::/48
+[Net::BGP]     ok 31 - ::/0 contains 2001:db8:4321::ff00/120
+[Net::BGP]     ok 32 - ::/128 does not contain 2001:db8:4321::ff00/120
+[Net::BGP]     ok 33 - ::/0 contains ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128
+[Net::BGP]     ok 34 - ::/128 does not contain ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128
+[Net::BGP]     ok 35 - 2001:db8::/32 contains 2001:db8::/32
+[Net::BGP]     ok 36 - 2001:db8::/48 does not contain 2001:db8::/48
+[Net::BGP]     ok 37 - 2001:db8::/32 contains 2001:db8::/32
+[Net::BGP]     ok 38 - 2001:db8::/32 contains 2001:db8::/32
+[Net::BGP]     1..38
+[Net::BGP] ok 153 - IPv6 CIDRs
+[Net::BGP] # Subtest: Misc. Tests
+[Net::BGP]     ok 1 - buf8-to-ipv4 returns good value
+[Net::BGP]     ok 2 - Long IPv6-ish parts fail parse
+[Net::BGP]     1..2
+[Net::BGP] ok 154 - Misc. Tests
+[Net::BGP] 1..154
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/02-as-list.t
+[Net::BGP] Potential difficulties:
+[Net::BGP]     Optional named parameter 'elems' with subset type UInt needs a valid default value
+[Net::BGP]     otherwise it will throw exceptions when a value is absent at the callsite
+[Net::BGP]     at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP/AS-List.pm6 (Net::BGP::AS-List):33
+[Net::BGP]     Optional named parameter 'elems' with subset type UInt needs a valid default value
+[Net::BGP]     otherwise it will throw exceptions when a value is absent at the callsite
+[Net::BGP]     at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP/AS-List.pm6 (Net::BGP::AS-List):51
+[Net::BGP] ok 1 - (0) ordered
+[Net::BGP] ok 2 - (0) asn-size
+[Net::BGP] ok 3 - (0) asn-count
+[Net::BGP] ok 4 - (0) elems
+[Net::BGP] ok 5 - (1) ordered
+[Net::BGP] ok 6 - (1) asn-size
+[Net::BGP] ok 7 - (1) asn-count
+[Net::BGP] ok 8 - (1) elems
+[Net::BGP] ok 9 - (1) First ASN
+[Net::BGP] ok 10 - (1) Second ASN
+[Net::BGP] ok 11 - (2) ordered
+[Net::BGP] ok 12 - (2) asn-size
+[Net::BGP] ok 13 - (2) asn-count
+[Net::BGP] ok 14 - (2) elems
+[Net::BGP] ok 15 - (2) First ASN
+[Net::BGP] ok 16 - (2) Second ASN
+[Net::BGP] ok 17 - Proper number of AS lists
+[Net::BGP] ok 18 - First AS Sequence is correct
+[Net::BGP] ok 19 - Second AS Sequence is correct
+[Net::BGP] ok 20 - (A) Proper number of AS lists
+[Net::BGP] ok 21 - (A) First AS Sequence is correct
+[Net::BGP] ok 22 - (B) Proper number of AS lists
+[Net::BGP] ok 23 - (B) First AS Sequence is correct
+[Net::BGP] ok 24 - (B) First AS Sequence is correct (elems)
+[Net::BGP] ok 25 - (B) First AS Sequence Ordering
+[Net::BGP] ok 26 - (B) First AS Sequence path length is correct
+[Net::BGP] ok 27 - (B) Second AS Sequence is correct
+[Net::BGP] ok 28 - (B) Second AS Sequence is correct (elems 1)
+[Net::BGP] ok 29 - (B) Second AS Sequence is correct (elems 2)
+[Net::BGP] ok 30 - (B) Second AS Sequence Ordering
+[Net::BGP] ok 31 - (B) Second AS Sequence path length is correct
+[Net::BGP] ok 32 - (B) Third AS Sequence is correct
+[Net::BGP] ok 33 - (B) Third AS Sequence Ordering
+[Net::BGP] ok 34 - (B) Third AS Sequence path length is correct
+[Net::BGP] ok 35 - (B) Forth AS Sequence is correct
+[Net::BGP] ok 36 - (B) Forth AS Sequence is correct (elems 1)
+[Net::BGP] ok 37 - (B) Forth AS Sequence Ordering
+[Net::BGP] ok 38 - (B) Forth AS Sequence path length is correct
+[Net::BGP] ok 39 - (C) Proper number of AS lists
+[Net::BGP] 1..39
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/03-afi-safi.t
+[Net::BGP] # Subtest: afi
+[Net::BGP]     ok 1 - IP correct¹
+[Net::BGP]     ok 2 - IP correct²
+[Net::BGP]     ok 3 - 15000 correct¹
+[Net::BGP]     ok 4 - 15000 correct²
+[Net::BGP]     ok 5 - Properly dies on unknown name
+[Net::BGP]     1..5
+[Net::BGP] ok 1 - afi
+[Net::BGP] # Subtest: safi
+[Net::BGP]     ok 1 - Unicast correct¹
+[Net::BGP]     ok 2 - Unicast correct²
+[Net::BGP]     ok 3 - 77 correct¹
+[Net::BGP]     ok 4 - 77 correct²
+[Net::BGP]     ok 5 - Properly dies on unknown name
+[Net::BGP]     1..5
+[Net::BGP] ok 2 - safi
+[Net::BGP] 1..2
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/10-linux-socket.t
+[Net::BGP] ===SORRY!=== Error while compiling t/10-linux-socket.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at t/10-linux-socket.t:10
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/11-socket.t
+[Net::BGP] ===SORRY!=== Error while compiling t/11-socket.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at t/11-socket.t:10
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/30-basic.t
+[Net::BGP] ===SORRY!=== Error while compiling t/30-basic.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/30-basic.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/31-conn-open-close-event.t
+[Net::BGP] ===SORRY!=== Error while compiling t/31-conn-open-close-event.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/31-conn-open-close-event.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/32-Command-Dead-Child.t
+[Net::BGP] ===SORRY!=== Error while compiling t/32-Command-Dead-Child.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/32-Command-Dead-Child.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/50-messages.t
+[Net::BGP] ===SORRY!=== Error while compiling t/50-messages.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/50-messages.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/51-bgp-messages-from-hash.t
+[Net::BGP] ===SORRY!=== Error while compiling t/51-bgp-messages-from-hash.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/51-bgp-messages-from-hash.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/52-bgp-messages-raw.t
+[Net::BGP] ===SORRY!=== Error while compiling t/52-bgp-messages-raw.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/52-bgp-messages-raw.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/53-Open-With-Multiple-CapOpts.t
+[Net::BGP] ===SORRY!=== Error while compiling t/53-Open-With-Multiple-CapOpts.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/53-Open-With-Multiple-CapOpts.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/54-Update-Failure.t
+[Net::BGP] ===SORRY!=== Error while compiling t/54-Update-Failure.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/54-Update-Failure.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/55-bgp-notification-raw.t
+[Net::BGP] ===SORRY!=== Error while compiling t/55-bgp-notification-raw.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/55-bgp-notification-raw.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/56-bgp-invalid-marker.t
+[Net::BGP] ===SORRY!=== Error while compiling t/56-bgp-invalid-marker.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/56-bgp-invalid-marker.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/57-bgp-open-bad-asn.t
+[Net::BGP] ===SORRY!=== Error while compiling t/57-bgp-open-bad-asn.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/57-bgp-open-bad-asn.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/58-as4-update.t
+[Net::BGP] ===SORRY!=== Error while compiling t/58-as4-update.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/58-as4-update.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/60-Path-Attributes.t
+[Net::BGP] # Subtest: Extended-Community
+[Net::BGP]     ok 1 - Created Path Attribute
+[Net::BGP]     ok 2 - From Hash capability correct
+[Net::BGP]     ok 3 - From RAW capability correct
+[Net::BGP]     ok 4 - Route type is correct
+[Net::BGP]     1..4
+[Net::BGP] ok 1 - Extended-Community
+[Net::BGP] 1..1
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/70-peer-object.t
+[Net::BGP] # Subtest: eBGP
+[Net::BGP]     ok 1 - Created BGP Class
+[Net::BGP]     ok 2 - Peer IP is correct
+[Net::BGP]     ok 3 - Peer port is okay
+[Net::BGP]     ok 4 - Peer ASN is okay
+[Net::BGP]     ok 5 - My ASN is okay
+[Net::BGP]     ok 6 - Peer state is okay
+[Net::BGP]     ok 7 - ASN 32 support not indicated
+[Net::BGP]     ok 8 - Not iBGP
+[Net::BGP]     1..8
+[Net::BGP] ok 1 - eBGP
+[Net::BGP] # Subtest: iBGP
+[Net::BGP]     ok 1 - Created BGP Class
+[Net::BGP]     ok 2 - Peer IP is correct
+[Net::BGP]     ok 3 - Peer port is okay
+[Net::BGP]     ok 4 - Peer ASN is okay
+[Net::BGP]     ok 5 - My ASN is okay
+[Net::BGP]     ok 6 - Peer state is okay
+[Net::BGP]     ok 7 - ASN 32 supported
+[Net::BGP]     ok 8 - iBGP
+[Net::BGP]     1..8
+[Net::BGP] ok 2 - iBGP
+[Net::BGP] 1..2
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/80-Validator-Aggregation.t
+[Net::BGP] ===SORRY!=== Error while compiling t/80-Validator-Aggregation.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/80-Validator-Aggregation.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/81-Validator-AS-Path.t
+[Net::BGP] ===SORRY!=== Error while compiling t/81-Validator-AS-Path.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/81-Validator-AS-Path.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/90-basic-bgp.t
+[Net::BGP] ===SORRY!=== Error while compiling t/90-basic-bgp.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/90-basic-bgp.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/91-send-update.t
+[Net::BGP] ===SORRY!=== Error while compiling t/91-send-update.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at t/91-send-update.t:9
+[Net::BGP] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0 t/95-bgpmon.t
+[Net::BGP] ===SORRY!=== Error while compiling t/95-bgpmon.t
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP/Speaker.pm6 (Net::BGP::Speaker)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[Net::BGP] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[Net::BGP] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[Net::BGP] Can't determine actual Offset
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[Net::BGP] Exception details:
+[Net::BGP]   Can't determine actual Offset
+[Net::BGP]     in code  at src/Raku/ast/code.rakumod line 23
+[Net::BGP]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 79
+[Net::BGP]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[Net::BGP]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 484
+[Net::BGP]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[Net::BGP]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[Net::BGP]     in any type-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any package-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any scope-declarator at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP]     in any term at /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Net::BGP] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/36C19A9BBB8C229CF7C356646C6DE2B9FCB15B44 (TCP::LowLevel::Socket-Linux):17
+[Net::BGP] at /blin/installed/TCP::LowLevel_0.1.2/sources/6BF1ABD5872D2081244178F0F4550CFAA0B8D0E8 (TCP::LowLevel):16
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP.pm6 (Net::BGP):50
+[Net::BGP] at /blin/data/zef-data/tmp/b2acc52958f570b9100f1f523aeae0d1bdade510.tar.gz/Net-BGP-0.9.0/lib/Net/BGP/Speaker.pm6 (Net::BGP::Speaker):11
+[Net::BGP] at t/95-bgpmon.t:9
+===> Testing [FAIL]: Net::BGP:ver<0.9.0>:auth<zef:jmaslak>
+[Net::BGP] Failed to get passing tests, but continuing with --force-test
+===> Installing: Net::BGP:ver<0.9.0>:auth<zef:jmaslak>
+===> Install [OK] for Net::BGP:ver<0.9.0>:auth<zef:jmaslak>
+
+2 bin/ scripts [bgpmon.p6 bgpmon.rakudoc] installed to:
+/blin/installed/Net::BGP_0.9.0/bin

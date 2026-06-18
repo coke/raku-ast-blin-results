@@ -1,0 +1,62 @@
+===> Searching for: Cro::CBOR
+===> Found: Cro::CBOR:ver<0.0.7>:auth<zef:japhb> [via Zef::Repository::Ecosystems<fez>]
+[Cro::CBOR] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781794646.646075.7448.657139071058/3c1bf0568e400a9a81f1248bdf6b76b7b6a637e0.tar.gz https://360.zef.pm/C/RO/CRO_CBOR/3c1bf0568e400a9a81f1248bdf6b76b7b6a637e0.tar.gz
+===> Fetching [OK]: Cro::CBOR:ver<0.0.7>:auth<zef:japhb> to /blin/data/zef-data/tmp/1781794646.646075.7448.657139071058/3c1bf0568e400a9a81f1248bdf6b76b7b6a637e0.tar.gz
+[Cro::CBOR] Command: tar -t -f ./3c1bf0568e400a9a81f1248bdf6b76b7b6a637e0.tar.gz
+[Cro::CBOR] Command: tar -xvf ./3c1bf0568e400a9a81f1248bdf6b76b7b6a637e0.tar.gz -C ../3c1bf0568e400a9a81f1248bdf6b76b7b6a637e0.tar.gz
+===> Extraction [OK]: Cro::CBOR to /blin/data/zef-data/tmp/3c1bf0568e400a9a81f1248bdf6b76b7b6a637e0.tar.gz
+===> Testing: Cro::CBOR:ver<0.0.7>:auth<zef:japhb>
+[Cro::CBOR] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3c1bf0568e400a9a81f1248bdf6b76b7b6a637e0.tar.gz/Cro-CBOR-0.0.7 t/00-use.rakutest
+[Cro::CBOR] Potential difficulties:
+[Cro::CBOR]     Optional named parameter 'version' with subset type OpenSSL::ProtocolVersion needs a valid default value
+[Cro::CBOR]     otherwise it will throw exceptions when a value is absent at the callsite
+[Cro::CBOR]     at /blin/installed/IO::Socket::Async::SSL_0.8.2/sources/54DA18A673601FAFD8F6161DA647BED3ABCA650F (IO::Socket::Async::SSL):623
+[Cro::CBOR]     Optional named parameter 'version' with subset type OpenSSL::ProtocolVersion needs a valid default value
+[Cro::CBOR]     otherwise it will throw exceptions when a value is absent at the callsite
+[Cro::CBOR]     at /blin/installed/IO::Socket::Async::SSL_0.8.2/sources/54DA18A673601FAFD8F6161DA647BED3ABCA650F (IO::Socket::Async::SSL):738
+[Cro::CBOR] ok 1 - all modules loaded successfully
+[Cro::CBOR] 1..1
+[Cro::CBOR] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3c1bf0568e400a9a81f1248bdf6b76b7b6a637e0.tar.gz/Cro-CBOR-0.0.7 t/01-http-router-websocket.rakutest
+[Cro::CBOR] 1..8
+[Cro::CBOR] Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 109
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 105
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 55
+[Cro::CBOR]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 54
+[Cro::CBOR] Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 109
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 105
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 55
+[Cro::CBOR]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 54
+[Cro::CBOR] An operation first awaited:
+[Cro::CBOR]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BEB7EB3E0A8B921B5ACB9F16103917443EF908CF (Cro) line 347
+[Cro::CBOR] Died with the exception:
+[Cro::CBOR]     Tried to get the result of a broken Promise
+[Cro::CBOR]       in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 108
+[Cro::CBOR]     Original exception:
+[Cro::CBOR]         connection refused
+[Cro::CBOR] # You planned 8 tests, but ran 0
+[Cro::CBOR] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/3c1bf0568e400a9a81f1248bdf6b76b7b6a637e0.tar.gz/Cro-CBOR-0.0.7 t/02-websocket-client.rakutest
+[Cro::CBOR] 1..12
+[Cro::CBOR] Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 109
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 105
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 55
+[Cro::CBOR]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 54
+[Cro::CBOR] Method 'select' must be implemented by Cro::HTTP::RawBodyParserSelector because it is required by roles: Cro::HTTP::RawBodyParserSelector.
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 109
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 105
+[Cro::CBOR]   in block  at /blin/installed/Cro::HTTP_0.8.13/sources/0BD8971A468105F8FED70471BA5482D8565FA726 (Cro::HTTP::RequestParser) line 55
+[Cro::CBOR]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 54
+[Cro::CBOR] An operation first awaited:
+[Cro::CBOR]   in block  at /blin/installed/Cro::Core_0.8.10/sources/BEB7EB3E0A8B921B5ACB9F16103917443EF908CF (Cro) line 347
+[Cro::CBOR] Died with the exception:
+[Cro::CBOR]     Tried to get the result of a broken Promise
+[Cro::CBOR]       in block  at /blin/installed/Cro::Core_0.8.10/sources/BECCB970FB76D53C78A87E43F9B9AD8A59D8A0A3 (Cro::TCP) line 108
+[Cro::CBOR]     Original exception:
+[Cro::CBOR]         connection refused
+[Cro::CBOR] # You planned 12 tests, but ran 0
+===> Testing [FAIL]: Cro::CBOR:ver<0.0.7>:auth<zef:japhb>
+[Cro::CBOR] Failed to get passing tests, but continuing with --force-test
+===> Installing: Cro::CBOR:ver<0.0.7>:auth<zef:japhb>
+===> Install [OK] for Cro::CBOR:ver<0.0.7>:auth<zef:japhb>

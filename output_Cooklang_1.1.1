@@ -1,0 +1,140 @@
+===> Searching for: Cooklang
+===> Found: Cooklang:ver<1.1.1>:auth<zef:uniejo> [via Zef::Repository::Ecosystems<fez>]
+[Cooklang] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781797724.669163.5279.9061025495685/b21ca627f70e3efd0e8f84873d3f7c4465abf6e9.tar.gz https://360.zef.pm/C/OO/COOKLANG/b21ca627f70e3efd0e8f84873d3f7c4465abf6e9.tar.gz
+===> Fetching [OK]: Cooklang:ver<1.1.1>:auth<zef:uniejo> to /blin/data/zef-data/tmp/1781797724.669163.5279.9061025495685/b21ca627f70e3efd0e8f84873d3f7c4465abf6e9.tar.gz
+[Cooklang] Command: tar -t -f ./b21ca627f70e3efd0e8f84873d3f7c4465abf6e9.tar.gz
+[Cooklang] Command: tar -xvf ./b21ca627f70e3efd0e8f84873d3f7c4465abf6e9.tar.gz -C ../b21ca627f70e3efd0e8f84873d3f7c4465abf6e9.tar.gz
+===> Extraction [OK]: Cooklang to /blin/data/zef-data/tmp/b21ca627f70e3efd0e8f84873d3f7c4465abf6e9.tar.gz
+===> Testing: Cooklang:ver<1.1.1>:auth<zef:uniejo>
+[Cooklang] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b21ca627f70e3efd0e8f84873d3f7c4465abf6e9.tar.gz/dist t/00-use.rakutest
+[Cooklang] 1..1
+[Cooklang] ok 1 - Cooklang module can be use-d ok
+[Cooklang] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b21ca627f70e3efd0e8f84873d3f7c4465abf6e9.tar.gz/dist t/full_data.t
+[Cooklang] # Subtest: is-deeply
+[Cooklang]     ok 1 - Test .data output
+[Cooklang]     1..1
+[Cooklang] ok 1 - is-deeply
+[Cooklang] # Subtest: is-deeply
+[Cooklang]     ok 1 - Test .metadata output
+[Cooklang]     1..1
+[Cooklang] ok 2 - is-deeply
+[Cooklang] # Subtest: is-deeply
+[Cooklang]     ok 1 - Test .ingredients output
+[Cooklang]     1..1
+[Cooklang] ok 3 - is-deeply
+[Cooklang] # Subtest: is-deeply
+[Cooklang]     ok 1 - Test .comments output
+[Cooklang]     1..1
+[Cooklang] ok 4 - is-deeply
+[Cooklang] 1..4
+[Cooklang] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/b21ca627f70e3efd0e8f84873d3f7c4465abf6e9.tar.gz/dist t/recipe.t
+[Cooklang] Couldn't parse YAML: No such method 'concretize' for string '--- version: 1 tests:
+[Cooklang] testBasicDirection: source: | Add a bit of chilli result: steps: - -
+[Cooklang] type: text value: "Add a bit of chilli" metadata: [] testComments:
+[Cooklang] source: | -- testing comments result: steps: [] metadata: []
+[Cooklang] testCommentsAfterIngredients: source: | @thyme{2%springs} -- testing
+[Cooklang] comments and some text result: steps: - - type: ingredient name: "thyme"
+[Cooklang] quantity: 2 units: "springs" - type: text value: " " - - type: text
+[Cooklang] value: "and some text" metadata: [] testCommentsWithIngredients: source:
+[Cooklang] | -- testing comments @thyme{2%springs} result: steps: - - type:
+[Cooklang] ingredient name: "thyme" quantity: 2 units: "springs" metadata: []
+[Cooklang] testDirectionsWithDegrees: source: | Heat oven up to 200°C result:
+[Cooklang] steps: - - type: text value: "Heat oven up to 200°C" metadata: []
+[Cooklang] testDirectionsWithNumbers: source: | Heat 5L of water result: steps: - -
+[Cooklang] type: text value: "Heat 5L of water" metadata: []
+[Cooklang] testDirectionWithIngrident: source: | Add @chilli{3%items},
+[Cooklang] @ginger{10%g} and @milk{1%l}. result: steps: - - type: text value: "Add
+[Cooklang] " - type: ingredient name: "chilli" quantity: 3 units: "items" - type:
+[Cooklang] text value: ", " - type: ingredient name: "ginger" quantity: 10 units:
+[Cooklang] "g" - type: text value: " and " - type: ingredient name: "milk"
+[Cooklang] quantity: 1 units: "l" - type: text value: "." metadata: []
+[Cooklang] testEquipmentMultipleWords: source: | Fry in #frying pan{} result:
+[Cooklang] steps: - - type: text value: "Fry in " - type: cookware name: "frying
+[Cooklang] pan" quantity: "" metadata: []
+[Cooklang] testEquipmentMultipleWordsWithLeadingNumber: source: | Fry in #7-inch
+[Cooklang] nonstick frying pan{ } result: steps: - - type: text value: "Fry in " -
+[Cooklang] type: cookware name: "7-inch nonstick frying pan" quantity: "" metadata:
+[Cooklang] [] testEquipmentMultipleWordsWithSpaces: source: | Fry in #frying pan{ }
+[Cooklang] result: steps: - - type: text value: "Fry in " - type: cookware name:
+[Cooklang] "frying pan" quantity: "" metadata: [] testEquipmentOneWord: source: |
+[Cooklang] Simmer in #pan for some time result: steps: - - type: text value:
+[Cooklang] "Simmer in " - type: cookware name: "pan" quantity: "" - type: text
+[Cooklang] value: " for some time" metadata: [] testFractions: source: |
+[Cooklang] @milk{1/2%cup} result: steps: - - type: ingredient name: "milk"
+[Cooklang] quantity: 0.5 units: "cup" metadata: [] testFractionsInDirections:
+[Cooklang] source: | knife cut about every 1/2 inches result: steps: - - type: text
+[Cooklang] value: "knife cut about every 1/2 inches" metadata: []
+[Cooklang] testFractionsLike: source: | @milk{01/2%cup} result: steps: - - type:
+[Cooklang] ingredient name: "milk" quantity: 01/2 units: "cup" metadata: []
+[Cooklang] testFractionsWithSpaces: source: | @milk{1 / 2 %cup} result: steps: - -
+[Cooklang] type: ingredient name: "milk" quantity: 0.5 units: "cup" metadata: []
+[Cooklang] testIngredientMultipleWordsWithLeadingNumber: source: | Top with @1000
+[Cooklang] island dressing{ } result: steps: - - type: text value: "Top with " -
+[Cooklang] type: ingredient name: "1000 island dressing" quantity: 1 units: ""
+[Cooklang] metadata: [] testIngredientWithEmoji: source: | Add some @🧂 result:
+[Cooklang] steps: - - type: text value: "Add some " - type: ingredient name: "🧂"
+[Cooklang] quantity: 1 units: "" metadata: [] testIngridentExplicitUnits: source: |
+[Cooklang] @chilli{3%items} result: steps: - - type: ingredient name: "chilli"
+[Cooklang] quantity: 3 units: "items" metadata: []
+[Cooklang] testIngridentExplicitUnitsWithSpaces: source: | @chilli{ 3 % items }
+[Cooklang] result: steps: - - type: ingredient name: "chilli" quantity: 3 units:
+[Cooklang] "items" metadata: [] testIngridentImplicitQuantity: source: |
+[Cooklang] @chilli{%items} result: steps: - - type: ingredient name: "chilli"
+[Cooklang] quantity: 1 units: "items" metadata: [] testIngridentImplicitUnits:
+[Cooklang] source: | @chilli{3} result: steps: - - type: ingredient name: "chilli"
+[Cooklang] quantity: 3 units: "" metadata: [] testIngridentNoUnits: source: |
+[Cooklang] @chilli result: steps: - - type: ingredient name: "chilli" quantity: 1
+[Cooklang] units: "" metadata: [] testIngridentNoUnitsNotOnlyString: source: |
+[Cooklang] @5peppers result: steps: - - type: ingredient name: "5peppers" quantity:
+[Cooklang] 1 units: "" metadata: [] testIngridentWithNumbers: source: | @tipo 00
+[Cooklang] flour{250%g} result: steps: - - type: ingredient name: "tipo 00 flour"
+[Cooklang] quantity: 250 units: "g" metadata: [] testIngridentWithoutStopper:
+[Cooklang] source: | @chilli cut into pieces result: steps: - - type: ingredient
+[Cooklang] name: "chilli" quantity: 1 units: "" - type: text value: " cut into
+[Cooklang] pieces" metadata: [] testMetadata: source: | >> sourced: babooshka
+[Cooklang] result: steps: [] metadata: "sourced": babooshka testMetadataBreak:
+[Cooklang] source: | hello >> sourced: babooshka result: steps: - - type: text
+[Cooklang] value: "hello >> sourced: babooshka" metadata: []
+[Cooklang] testMetadataMultiwordKey: source: | >> cooking time: 30 mins result:
+[Cooklang] steps: [] metadata: "cooking time": 30 mins
+[Cooklang] testMetadataMultiwordKeyWithSpaces: source: | >>cooking time :30 mins
+[Cooklang] result: steps: [] metadata: "cooking time": 30 mins
+[Cooklang] testMultiLineDirections: source: | Add a bit of chilli Add a bit of
+[Cooklang] hummus result: steps: - - type: text value: "Add a bit of chilli" - -
+[Cooklang] type: text value: "Add a bit of hummus" metadata: [] testMultipleLines:
+[Cooklang] source: | >> Prep Time: 15 minutes >> Cook Time: 30 minutes result:
+[Cooklang] steps: [] metadata: "Prep Time": 15 minutes "Cook Time": 30 minutes
+[Cooklang] testMultiWordIngrident: source: | @hot chilli{3} result: steps: - -
+[Cooklang] type: ingredient name: "hot chilli" quantity: 3 units: "" metadata: []
+[Cooklang] testMultiWordIngridentNoAmount: source: | @hot chilli{} result: steps: -
+[Cooklang] - type: ingredient name: "hot chilli" quantity: 1 units: "" metadata: []
+[Cooklang] testMutipleIngridentsWithoutStopper: source: | @chilli cut into pieces
+[Cooklang] and @garlic result: steps: - - type: ingredient name: "chilli" quantity:
+[Cooklang] 1 units: "" - type: text value: " cut into pieces and " - type:
+[Cooklang] ingredient name: "garlic" quantity: 1 units: "" metadata: []
+[Cooklang] testQuantityAsText: source: | @thyme{few%springs} result: steps: - -
+[Cooklang] type: ingredient name: "thyme" quantity: few units: "springs" metadata:
+[Cooklang] [] testQuantityDigitalString: source: | @water{7 k } result: steps: - -
+[Cooklang] type: ingredient name: "water" quantity: 7 k units: "" metadata: []
+[Cooklang] testServings: source: | >> servings: 1|2|3 result: steps: [] metadata:
+[Cooklang] "servings": 1|2|3 testSlashInText: source: | Preheat the oven to
+[Cooklang] 200℃/Fan 180°C. result: steps: - - type: text value: "Preheat the oven
+[Cooklang] to 200℃/Fan 180°C." metadata: [] testTimerDecimal: source: | Fry for
+[Cooklang] ~{1.5%minutes} result: steps: - - type: text value: "Fry for " - type:
+[Cooklang] timer quantity: 1.5 units: "minutes" name: "" metadata: []
+[Cooklang] testTimerFractional: source: | Fry for ~{1/2%hour} result: steps: - -
+[Cooklang] type: text value: "Fry for " - type: timer quantity: 0.5 units: "hour"
+[Cooklang] name: "" metadata: [] testTimerInteger: source: | Fry for ~{10%minutes}
+[Cooklang] result: steps: - - type: text value: "Fry for " - type: timer quantity:
+[Cooklang] 10 units: "minutes" name: "" metadata: [] testTimerWithName: source: |
+[Cooklang] Fry for ~potato{42%minutes} result: steps: - - type: text value: "Fry
+[Cooklang] for " - type: timer quantity: 42 units: "minutes" name: "potato"
+[Cooklang] metadata: [] # TODO add common syntax errors '
+[Cooklang]   in sub load-yaml at /blin/installed/YAMLish_0.1.2/sources/1D5CA23E666A17E4A015880D6C1CEFD63F6C7B12 (YAMLish) line 948
+[Cooklang]   in block <unit> at t/recipe.t line 9
+[Cooklang] Actually thrown at:
+[Cooklang]   in block <unit> at t/recipe.t line 12
+===> Testing [FAIL]: Cooklang:ver<1.1.1>:auth<zef:uniejo>
+[Cooklang] Failed to get passing tests, but continuing with --force-test
+===> Installing: Cooklang:ver<1.1.1>:auth<zef:uniejo>
+===> Install [OK] for Cooklang:ver<1.1.1>:auth<zef:uniejo>

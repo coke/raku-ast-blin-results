@@ -1,0 +1,263 @@
+===> Searching for: LLM::Data::Inference
+===> Found: LLM::Data::Inference:ver<0.3.0>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[LLM::Data::Inference] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781796103.656588.3360.749157019126/d56265121499c2abb774ecf721519bf120194991.tar.gz https://360.zef.pm/L/LM/LLM_DATA_INFERENCE/d56265121499c2abb774ecf721519bf120194991.tar.gz
+===> Fetching [OK]: LLM::Data::Inference:ver<0.3.0>:auth<zef:apogee> to /blin/data/zef-data/tmp/1781796103.656588.3360.749157019126/d56265121499c2abb774ecf721519bf120194991.tar.gz
+[LLM::Data::Inference] Command: tar -t -f ./d56265121499c2abb774ecf721519bf120194991.tar.gz
+[LLM::Data::Inference] Command: tar -xvf ./d56265121499c2abb774ecf721519bf120194991.tar.gz -C ../d56265121499c2abb774ecf721519bf120194991.tar.gz
+===> Extraction [OK]: LLM::Data::Inference to /blin/data/zef-data/tmp/d56265121499c2abb774ecf721519bf120194991.tar.gz
+===> Testing: LLM::Data::Inference:ver<0.3.0>:auth<zef:apogee>
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/d56265121499c2abb774ecf721519bf120194991.tar.gz/LLM-Data-Inference-0.3.0 t/01-prompt-builder.rakutest
+[LLM::Data::Inference] 1..7
+[LLM::Data::Inference] # Subtest: Simple substitution
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Single variable replaced
+[LLM::Data::Inference] ok 1 - Simple substitution
+[LLM::Data::Inference] # Subtest: Multiple variables
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Multiple variables replaced
+[LLM::Data::Inference] ok 2 - Multiple variables
+[LLM::Data::Inference] # Subtest: Missing variable dies
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Dies on missing variable
+[LLM::Data::Inference] ok 3 - Missing variable dies
+[LLM::Data::Inference] # Subtest: Unused variables ignored
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Extra vars ignored
+[LLM::Data::Inference] ok 4 - Unused variables ignored
+[LLM::Data::Inference] # Subtest: Empty template
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Empty template returns empty
+[LLM::Data::Inference] ok 5 - Empty template
+[LLM::Data::Inference] # Subtest: No variables returns as-is
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - No placeholders returns template as-is
+[LLM::Data::Inference] ok 6 - No variables returns as-is
+[LLM::Data::Inference] # Subtest: Same variable used twice
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Repeated variable works
+[LLM::Data::Inference] ok 7 - Same variable used twice
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/d56265121499c2abb774ecf721519bf120194991.tar.gz/LLM-Data-Inference-0.3.0 t/02-task.rakutest
+[LLM::Data::Inference] 1..11
+[LLM::Data::Inference] # Subtest: Execute with no parser returns raw string
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Raw string returned
+[LLM::Data::Inference] ok 1 - Execute with no parser returns raw string
+[LLM::Data::Inference] # Subtest: Execute with parser returns parsed result
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Parser applied
+[LLM::Data::Inference] ok 2 - Execute with parser returns parsed result
+[LLM::Data::Inference] # Subtest: Parser failure advances to next backend
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - Advanced and got valid result
+[LLM::Data::Inference]     ok 2 - Parser invoked once per backend
+[LLM::Data::Inference] ok 3 - Parser failure advances to next backend
+[LLM::Data::Inference] # Subtest: Retries exhausted dies
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Dies after exhausting retries
+[LLM::Data::Inference] ok 4 - Retries exhausted dies
+[LLM::Data::Inference] # Subtest: System prompt included
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - System prompt does not cause error
+[LLM::Data::Inference] ok 5 - System prompt included
+[LLM::Data::Inference] # Subtest: Execute returns on first success without extra retries
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Parser called only once on success
+[LLM::Data::Inference] ok 6 - Execute returns on first success without extra retries
+[LLM::Data::Inference] # Subtest: Network error triggers backoff-retry and eventually succeeds
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - Succeeded after two transient failures
+[LLM::Data::Inference]     ok 2 - Exactly three backend calls — two failures + one success
+[LLM::Data::Inference] ok 7 - Network error triggers backoff-retry and eventually succeeds
+[LLM::Data::Inference] # Subtest: Network error that never recovers dies after max-retries
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - Dies when every attempt fails
+[LLM::Data::Inference]     ok 2 - Stopped at max-retries without infinite retry
+[LLM::Data::Inference] ok 8 - Network error that never recovers dies after max-retries
+[LLM::Data::Inference] # Subtest: on-call-complete fires once per network call (success path)
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - exactly one hook fire
+[LLM::Data::Inference]     ok 2 - attempt=1 on first success
+[LLM::Data::Inference]     ok 3 - success flag True
+[LLM::Data::Inference]     ok 4 - stage=network
+[LLM::Data::Inference]     ok 5 - latency-ms is non-negative
+[LLM::Data::Inference] ok 9 - on-call-complete fires once per network call (success path)
+[LLM::Data::Inference] # Subtest: on-call-complete fires on each backend in a fallback chain
+[LLM::Data::Inference]     1..6
+[LLM::Data::Inference]     ok 1 - advanced and got valid result
+[LLM::Data::Inference]     ok 2 - two hook fires — one per backend
+[LLM::Data::Inference]     ok 3 - first fire is attempt=1
+[LLM::Data::Inference]     ok 4 - second fire is attempt=2
+[LLM::Data::Inference]     ok 5 - first fire is backend 0
+[LLM::Data::Inference]     ok 6 - second fire is backend 1
+[LLM::Data::Inference] ok 10 - on-call-complete fires on each backend in a fallback chain
+[LLM::Data::Inference] # Subtest: on-call-complete fires even on network failure
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - succeeded after two failures
+[LLM::Data::Inference]     ok 2 - three hook fires — two failures + one success
+[LLM::Data::Inference]     ok 3 - first fire is a failure
+[LLM::Data::Inference]     ok 4 - failure fire carries the error message
+[LLM::Data::Inference] ok 11 - on-call-complete fires even on network failure
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/d56265121499c2abb774ecf721519bf120194991.tar.gz/LLM-Data-Inference-0.3.0 t/03-json-task.rakutest
+[LLM::Data::Inference] 1..7
+[LLM::Data::Inference] # Subtest: Valid JSON parsed correctly
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - Name parsed
+[LLM::Data::Inference]     ok 2 - Age parsed
+[LLM::Data::Inference] ok 1 - Valid JSON parsed correctly
+[LLM::Data::Inference] # Subtest: JSON wrapped in prose extracted
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - JSON extracted from prose
+[LLM::Data::Inference] ok 2 - JSON wrapped in prose extracted
+[LLM::Data::Inference] # Subtest: Required keys missing advances to next backend
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Advanced until required keys present
+[LLM::Data::Inference] ok 3 - Required keys missing advances to next backend
+[LLM::Data::Inference] # Subtest: Custom validator failure advances to next backend
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Advanced until validator passed
+[LLM::Data::Inference] ok 4 - Custom validator failure advances to next backend
+[LLM::Data::Inference] # Subtest: Invalid JSON advances to next backend
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Advanced past invalid JSON
+[LLM::Data::Inference] ok 5 - Invalid JSON advances to next backend
+[LLM::Data::Inference] # Subtest: Array JSON response
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - Array result
+[LLM::Data::Inference]     ok 2 - Three elements
+[LLM::Data::Inference] ok 6 - Array JSON response
+[LLM::Data::Inference] # Subtest: Exhausted backend chain dies
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Dies after every backend returns unparseable text
+[LLM::Data::Inference] ok 7 - Exhausted backend chain dies
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/d56265121499c2abb774ecf721519bf120194991.tar.gz/LLM-Data-Inference-0.3.0 t/04-router.rakutest
+[LLM::Data::Inference] 1..6
+[LLM::Data::Inference] # Subtest: No routes match — default backend
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Falls back to default
+[LLM::Data::Inference] ok 1 - No routes match — default backend
+[LLM::Data::Inference] # Subtest: Single tag route matches
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - NSFW doc routed correctly
+[LLM::Data::Inference] ok 2 - Single tag route matches
+[LLM::Data::Inference] # Subtest: Multi-tag AND route matches
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - AND route matches doc with both tags
+[LLM::Data::Inference]     ok 2 - AND route does not match doc with only one tag
+[LLM::Data::Inference] ok 3 - Multi-tag AND route matches
+[LLM::Data::Inference] # Subtest: First matching route wins
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - First route takes priority
+[LLM::Data::Inference] ok 4 - First matching route wins
+[LLM::Data::Inference] # Subtest: Non-matching route skipped, later route matches
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Skipped gore, matched nsfw
+[LLM::Data::Inference] ok 5 - Non-matching route skipped, later route matches
+[LLM::Data::Inference] # Subtest: Complex query route
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - OR route matches violent
+[LLM::Data::Inference]     ok 2 - Safe doc not matched by OR route
+[LLM::Data::Inference] ok 6 - Complex query route
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/d56265121499c2abb774ecf721519bf120194991.tar.gz/LLM-Data-Inference-0.3.0 t/05-main.rakutest
+[LLM::Data::Inference] 1..4
+[LLM::Data::Inference] # Subtest: Task accessible
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Task type available
+[LLM::Data::Inference] ok 1 - Task accessible
+[LLM::Data::Inference] # Subtest: JSONTask accessible
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - JSONTask type available
+[LLM::Data::Inference] ok 2 - JSONTask accessible
+[LLM::Data::Inference] # Subtest: Router accessible
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Router type available
+[LLM::Data::Inference] ok 3 - Router accessible
+[LLM::Data::Inference] # Subtest: PromptBuilder accessible
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - PromptBuilder type available
+[LLM::Data::Inference] ok 4 - PromptBuilder accessible
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/d56265121499c2abb774ecf721519bf120194991.tar.gz/LLM-Data-Inference-0.3.0 t/06-fallback.rakutest
+[LLM::Data::Inference] 1..13
+[LLM::Data::Inference] # Subtest: classify-error: 4xx auth codes abort
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - HTTP 400 → abort
+[LLM::Data::Inference]     ok 2 - HTTP 401 → abort
+[LLM::Data::Inference]     ok 3 - HTTP 402 → abort
+[LLM::Data::Inference]     ok 4 - HTTP 403 → abort
+[LLM::Data::Inference]     ok 5 - HTTP 404 → abort
+[LLM::Data::Inference] ok 1 - classify-error: 4xx auth codes abort
+[LLM::Data::Inference] # Subtest: classify-error: 429 + timeout + malformed → advance
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - 429 → advance
+[LLM::Data::Inference]     ok 2 - timeout → advance
+[LLM::Data::Inference]     ok 3 - response (malformed/empty) → advance
+[LLM::Data::Inference]     ok 4 - parser-failed → advance
+[LLM::Data::Inference] ok 2 - classify-error: 429 + timeout + malformed → advance
+[LLM::Data::Inference] # Subtest: classify-error: 5xx + connection + unknown → retry-same
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - 500 → retry-same
+[LLM::Data::Inference]     ok 2 - 503 → retry-same
+[LLM::Data::Inference]     ok 3 - 599 → retry-same
+[LLM::Data::Inference]     ok 4 - connection → retry-same
+[LLM::Data::Inference]     ok 5 - unknown → retry-same
+[LLM::Data::Inference] ok 3 - classify-error: 5xx + connection + unknown → retry-same
+[LLM::Data::Inference] # Subtest: 4xx auth error aborts immediately without trying fallbacks
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - dies on 401
+[LLM::Data::Inference]     not ok 2 - primary hit once
+[LLM::Data::Inference]     # Failed test 'primary hit once'
+[LLM::Data::Inference]     # at t/06-fallback.rakutest line 85
+[LLM::Data::Inference]     # expected: '1'
+[LLM::Data::Inference]     #      got: '0'
+[LLM::Data::Inference]     ok 3 - fallback NOT hit (abort before advancing)
+[LLM::Data::Inference]     # You failed 1 test of 3
+[LLM::Data::Inference] not ok 4 - 4xx auth error aborts immediately without trying fallbacks
+[LLM::Data::Inference] # Failed test '4xx auth error aborts immediately without trying fallbacks'
+[LLM::Data::Inference] # at t/06-fallback.rakutest line 77
+[LLM::Data::Inference] # Subtest: 402 payment-required aborts
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - dies on 402
+[LLM::Data::Inference]     ok 2 - 402 does not cascade to fallback
+[LLM::Data::Inference] ok 5 - 402 payment-required aborts
+[LLM::Data::Inference] # Subtest: Timeout advances to next backend without retrying same
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference] LLM::Data::Inference::Task: all 2 backend(s) exhausted.
+[LLM::Data::Inference]   [backend 0 unknown] unknown: LLM::Data::Inference::Task: Type check failed in binding to parameter '$resp'; expected Any but got Mu (Mu.new)
+[LLM::Data::Inference]   [backend 0 unknown] unknown: LLM::Data::Inference::Task: Type check failed in binding to parameter '$resp'; expected Any but got Mu (Mu.new)
+[LLM::Data::Inference]   [backend 0 unknown] unknown: LLM::Data::Inference::Task: Type check failed in binding to parameter '$resp'; expected Any but got Mu (Mu.new)
+[LLM::Data::Inference]   [backend 1 unknown] unknown: LLM::Data::Inference::Task: Type check failed in binding to parameter '$resp'; expected Any but got Mu (Mu.new)
+[LLM::Data::Inference]   [backend 1 unknown] unknown: LLM::Data::Inference::Task: Type check failed in binding to parameter '$resp'; expected Any but got Mu (Mu.new)
+[LLM::Data::Inference]   [backend 1 unknown] unknown: LLM::Data::Inference::Task: Type check failed in binding to parameter '$resp'; expected Any but got Mu (Mu.new)
+[LLM::Data::Inference]   in method execute at /blin/data/zef-data/tmp/d56265121499c2abb774ecf721519bf120194991.tar.gz/LLM-Data-Inference-0.3.0/lib/LLM/Data/Inference/Task.rakumod (LLM::Data::Inference::Task) line 283
+[LLM::Data::Inference]   in block <unit> at t/06-fallback.rakutest line 109
+[LLM::Data::Inference]     # You planned 3 tests, but ran 0
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/d56265121499c2abb774ecf721519bf120194991.tar.gz/LLM-Data-Inference-0.3.0 t/07-or-telemetry.rakutest
+[LLM::Data::Inference] 1..4
+[LLM::Data::Inference] # Subtest: OR Response → hook payload carries generation-id, not provider-id
+[LLM::Data::Inference]     1..6
+[LLM::Data::Inference]     ok 1 - one hook fire
+[LLM::Data::Inference]     ok 2 - cost in payload
+[LLM::Data::Inference]     ok 3 - generation-id in payload
+[LLM::Data::Inference]     ok 4 - provider-name in payload
+[LLM::Data::Inference]     ok 5 - is-byok in payload
+[LLM::Data::Inference]     ok 6 - provider-id key removed
+[LLM::Data::Inference] ok 1 - OR Response → hook payload carries generation-id, not provider-id
+[LLM::Data::Inference] # Subtest: OAI-spec keys still flow alongside OR extras
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - OAI prompt-tokens lifted
+[LLM::Data::Inference]     ok 2 - OAI completion-tokens lifted
+[LLM::Data::Inference]     ok 3 - OAI total-tokens lifted
+[LLM::Data::Inference]     ok 4 - OAI model-used lifted
+[LLM::Data::Inference] ok 2 - OAI-spec keys still flow alongside OR extras
+[LLM::Data::Inference] # Subtest: Base Response → OR keys absent from payload
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference] LLM::Data::Inference::Task: all 1 backend(s) exhausted.
+[LLM::Data::Inference]   [backend 0 unknown] unknown: LLM::Data::Inference::Task: Type check failed in binding to parameter '$resp'; expected Any but got Mu (Mu.new)
+[LLM::Data::Inference]   [backend 0 unknown] unknown: LLM::Data::Inference::Task: Type check failed in binding to parameter '$resp'; expected Any but got Mu (Mu.new)
+[LLM::Data::Inference]   [backend 0 unknown] unknown: LLM::Data::Inference::Task: Type check failed in binding to parameter '$resp'; expected Any but got Mu (Mu.new)
+[LLM::Data::Inference]   in method execute at /blin/data/zef-data/tmp/d56265121499c2abb774ecf721519bf120194991.tar.gz/LLM-Data-Inference-0.3.0/lib/LLM/Data/Inference/Task.rakumod (LLM::Data::Inference::Task) line 283
+[LLM::Data::Inference]   in block <unit> at t/07-or-telemetry.rakutest line 92
+[LLM::Data::Inference]     # You planned 5 tests, but ran 0
+===> Testing [FAIL]: LLM::Data::Inference:ver<0.3.0>:auth<zef:apogee>
+[LLM::Data::Inference] Failed to get passing tests, but continuing with --force-test
+===> Installing: LLM::Data::Inference:ver<0.3.0>:auth<zef:apogee>
+===> Install [OK] for LLM::Data::Inference:ver<0.3.0>:auth<zef:apogee>
