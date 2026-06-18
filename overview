@@ -65,7 +65,7 @@ Air::Plugin::Rakudoc – Unknown
 Air::Plugin::Wordcloud – Unknown
 Algorithm::AhoCorasick – OK
 Algorithm::BinaryIndexedTree – OK
-Algorithm::BloomFilter – Unknown
+Algorithm::BloomFilter – AlwaysFail
 Algorithm::DawkinsWeasel – OK
 Algorithm::Diff – OK
 Algorithm::Elo – OK
@@ -94,7 +94,7 @@ Algorithm::Treap – OK
 Algorithm::Trie::libdatrie – AlwaysFail
 Algorithm::Viterbi – AlwaysFail
 Algorithm::XGBoost – CyclicDependency
-Algorithm::ZhangShasha – Unknown
+Algorithm::ZhangShasha – AlwaysFail
 Algorithm::ZobristHashing – OK
 AlgorithmsIT – OK
 Alma – AlwaysFail
@@ -114,7 +114,7 @@ App::Doc-N-Save – Unknown
 App::Ebread – MissingDependency
 App::Ecosystems – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 App::FIT2GPX – OK
-App::FindSource – Unknown
+App::FindSource – AlwaysFail
 App::Football – OK
 App::GPTrixie – OK
 App::GTD – Unknown
@@ -402,7 +402,7 @@ Config::Parser::yaml – Unknown
 Config::Simple – OK
 Config::TOML – OK
 Configuration – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-Console::Blackjack – Unknown
+Console::Blackjack – OK
 Constants::Net::If – OK
 Constants::Netinet::In – OK
 Constants::Sys::Socket – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -556,8 +556,8 @@ Date::Calendar::Gregorian – AlwaysFail
 Date::Calendar::Hebrew – AlwaysFail
 Date::Calendar::Hijri – AlwaysFail
 Date::Calendar::Julian – AlwaysFail
-Date::Calendar::MayaAztec – Unknown
-Date::Calendar::Persian – Unknown
+Date::Calendar::MayaAztec – AlwaysFail
+Date::Calendar::Persian – AlwaysFail
 Date::Calendar::Strftime – AlwaysFail
 Date::Christian::Advent – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Date::Discordian – OK
@@ -614,7 +614,7 @@ Digest::SHA1::Native – OK
 Digest::SHA256::Native – OK
 Digest::xxHash – AlwaysFail
 DirHandle – OK
-Directory – Unknown
+Directory – AlwaysFail
 DirsOfInterest – OK
 Discogs::API – AlwaysFail
 DispatchMap – OK
@@ -922,7 +922,7 @@ HTTP::Server::Async – InstallableButUntested
 HTTP::Server::Async::Plugins::Router::Simple – OK
 HTTP::Server::Logger – AlwaysFail
 HTTP::Server::Middleware::JSON – OK
-HTTP::Server::Ogre – Unknown
+HTTP::Server::Ogre – OK
 HTTP::Server::Router – AlwaysFail
 HTTP::Server::Router::YAML – AlwaysFail
 HTTP::Server::Simple – AlwaysFail
@@ -1326,7 +1326,7 @@ Math::FourierTransform – OK
 Math::FractionalPart – OK
 Math::GameTheory – OK
 Math::Handy – OK
-Math::Interval – Unknown
+Math::Interval – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Math::Libgsl::BLAS – AlwaysFail
 Math::Libgsl::Combination – AlwaysFail
 Math::Libgsl::Complex – AlwaysFail
@@ -2026,7 +2026,7 @@ Telegram – OK
 TelegramBot – OK
 Temp::Path – OK
 Template6 – OK
-Template::Anti – Unknown
+Template::Anti – AlwaysFail
 Template::Classic – OK
 Template::HAML – Unknown
 Template::Jinja2 – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -2207,7 +2207,7 @@ Trap – OK
 Tree::Binary – OK
 Trie – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 TrigPi – OK
-Trove – Unknown
+Trove – AlwaysFail
 Tuple – OK
 TweetNacl – AlwaysFail
 Twitter – AlwaysFail
@@ -2422,7 +2422,7 @@ orion – OK
 overload::constant – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 p6-RandomColor – OK
 p6lert – Unknown
-pack6 – Unknown
+pack6 – OK
 panda – OK
 panda-stub – OK
 path-coverage – OK
