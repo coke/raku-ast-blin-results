@@ -1,0 +1,108 @@
+===> Searching for: Template::Mustache
+===> Found: Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0> [via Zef::Repository::Ecosystems<fez>]
+[Template::Mustache] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781745203.245993.6752.084722513061/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz https://360.zef.pm/T/EM/TEMPLATE_MUSTACHE/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz
+===> Fetching [OK]: Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0> to /blin/data/zef-data/tmp/1781745203.245993.6752.084722513061/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz
+[Template::Mustache] Command: tar -t -f ./88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz
+[Template::Mustache] Command: tar -xvf ./88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz -C ../88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz
+===> Extraction [OK]: Template::Mustache to /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz
+===> Testing: Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0>
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/01-basic.rakutest
+[Template::Mustache] 1..10
+[Template::Mustache] ok 1 - Standalone interpolation should not alter surrounding whitesp
+[Template::Mustache] ok 2 - Context Precedence: Dotted names should be resolved against former resolutions
+[Template::Mustache] ok 3 - delimiter change
+[Template::Mustache] ok 4 - Comment with unmatched }
+[Template::Mustache] ok 5 - {{var}} substitution
+[Template::Mustache] ok 6 - {{=delim=}} substitution
+[Template::Mustache] ok 7 - The digit 0 prints
+[Template::Mustache] ok 8 - Triple-mustache substitution works
+[Template::Mustache] ok 9 - Triple-mustache substitution works when field name contains a minus
+[Template::Mustache] ok 10 - Can specify a log routine
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/02-file.rakutest
+[Template::Mustache] 1..8
+[Template::Mustache] Cannot return
+[Template::Mustache] IO::Path.new("/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/t/views/hello.mustache",
+[Template::Mustache] :SPEC(IO::Spec::Unix), :CWD("/")) with .return when return value
+[Template::Mustache] IterationEnd is already specified in the signature of method sink-all
+[Template::Mustache]   in block  at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 350
+[Template::Mustache]   in sub specify-template at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 344
+[Template::Mustache]   in sub get-template at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 301
+[Template::Mustache]   in method render at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 286
+[Template::Mustache]   in block <unit> at t/02-file.rakutest line 8
+[Template::Mustache] # You planned 8 tests, but ran 0
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/03-cascade.rakutest
+[Template::Mustache] 1..5
+[Template::Mustache] Cannot return "override" with .return when return value IterationEnd is
+[Template::Mustache] already specified in the signature of method sink-all
+[Template::Mustache]   in block  at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 346
+[Template::Mustache]   in sub specify-template at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 344
+[Template::Mustache]   in sub get-template at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 301
+[Template::Mustache]   in method render at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 286
+[Template::Mustache]   in block <unit> at t/03-cascade.rakutest line 8
+[Template::Mustache] # You planned 5 tests, but ran 0
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/04-lambda.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] ok 1 - Interpolate lambda value
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/05-promise.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] ok 1 - Interpolate promise object
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/06-logging.rakutest
+[Template::Mustache] 1..3
+[Template::Mustache] ok 1 - Warn missing field(s)
+[Template::Mustache] ok 2 - Warn missing . field
+[Template::Mustache] ok 3 - Set log routine for Warn level to &die
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/10-objects.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] ok 1 - Object stringifies
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/11-iterable.rakutest
+[Template::Mustache] 1..6
+[Template::Mustache] ok 1 - with Positional
+[Template::Mustache] ok 2 - with Iterable
+[Template::Mustache] ok 3 - with Positional Object
+[Template::Mustache] ok 4 - with Iterable Object
+[Template::Mustache] ok 5 - Can run parallel hyper and list comparison routine
+[Template::Mustache] ok 6 - # SKIP set TEST_BENCHMARK to enable this test
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/12-inheritence.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] Cannot return
+[Template::Mustache] IO::Path.new("/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/t/views/article.mustache",
+[Template::Mustache] :SPEC(IO::Spec::Unix), :CWD("/")) with .return when return value
+[Template::Mustache] IterationEnd is already specified in the signature of method sink-all
+[Template::Mustache]   in block  at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 350
+[Template::Mustache]   in sub specify-template at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 344
+[Template::Mustache]   in sub get-template at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 301
+[Template::Mustache]   in method render at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 286
+[Template::Mustache]   in block <unit> at t/12-inheritence.rakutest line 8
+[Template::Mustache] # You planned 1 test, but ran 0
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/13-pragmas.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] # Subtest: KEEP-UNUSED-VARIABLES
+[Template::Mustache]     1..3
+[Template::Mustache]     ok 1 - Keeps unused variable (render-time pragma)
+[Template::Mustache]     ok 2 - Keeps unused variable (instance pragma)
+[Template::Mustache]     ok 3 - Keeps unused variable (instance pragma)
+[Template::Mustache] ok 1 - KEEP-UNUSED-VARIABLES
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/50-readme.rakutest
+[Template::Mustache] 1..4
+[Template::Mustache] ok 1 - Hello world
+[Template::Mustache] ok 2 - Local time
+[Template::Mustache] Cannot return
+[Template::Mustache] IO::Path.new("/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/t/views/roster.mustache",
+[Template::Mustache] :SPEC(IO::Spec::Unix), :CWD("/")) with .return when return value
+[Template::Mustache] IterationEnd is already specified in the signature of method sink-all
+[Template::Mustache]   in block  at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 350
+[Template::Mustache]   in sub specify-template at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 344
+[Template::Mustache]   in sub get-template at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 301
+[Template::Mustache]   in method render at /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/lib/Template/Mustache.rakumod (Template::Mustache) line 286
+[Template::Mustache]   in block <unit> at t/50-readme.rakutest line 28
+[Template::Mustache] # You planned 4 tests, but ran 2
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/91-specs.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] ok 1 - # SKIP To run Mustache spec tests, clone git@github.com:softmoth/mustache-spec.git into '../mustache-spec/specs t'
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/92-specs-file.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] ok 1 - # SKIP To run Mustache spec tests, clone git@github.com:softmoth/mustache-spec.git into '../mustache-spec/specs t'
+===> Testing [FAIL]: Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0>
+[Template::Mustache] Failed to get passing tests, but continuing with --force-test
+===> Installing: Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0>
+===> Install [OK] for Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0>

@@ -1,0 +1,30 @@
+===> Searching for: PublicSuffix
+===> Found: PublicSuffix:ver<0.1.20250910>:auth<zef:jjatria> [via Zef::Repository::Ecosystems<fez>]
+[PublicSuffix] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781743855.233495.1572.1731890880187/4a5db9b92dce273710904dc9d761c10c13d9a83e.tar.gz https://360.zef.pm/P/UB/PUBLICSUFFIX/4a5db9b92dce273710904dc9d761c10c13d9a83e.tar.gz
+===> Fetching [OK]: PublicSuffix:ver<0.1.20250910>:auth<zef:jjatria> to /blin/data/zef-data/tmp/1781743855.233495.1572.1731890880187/4a5db9b92dce273710904dc9d761c10c13d9a83e.tar.gz
+[PublicSuffix] Command: tar -t -f ./4a5db9b92dce273710904dc9d761c10c13d9a83e.tar.gz
+[PublicSuffix] Command: tar -xvf ./4a5db9b92dce273710904dc9d761c10c13d9a83e.tar.gz -C ../4a5db9b92dce273710904dc9d761c10c13d9a83e.tar.gz
+===> Extraction [OK]: PublicSuffix to /blin/data/zef-data/tmp/4a5db9b92dce273710904dc9d761c10c13d9a83e.tar.gz
+===> Testing: PublicSuffix:ver<0.1.20250910>:auth<zef:jjatria>
+[PublicSuffix] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/4a5db9b92dce273710904dc9d761c10c13d9a83e.tar.gz/PublicSuffix-0.1.20250910 t/external.t
+[PublicSuffix] ===SORRY!=== Error while compiling t/external.t
+[PublicSuffix] ===SORRY!===
+[PublicSuffix] Cannot use a Callable as the only argument to store in a Map.  If the
+[PublicSuffix] intent was to store the contents of a Hash, one should probably use the
+[PublicSuffix] %( ) hash constructor instead of { }.  Causes of { } misinterpretation:
+[PublicSuffix] - using ';' instead of ',' to separate values, as these imply statements
+[PublicSuffix] - using '$_' or any placeholder variable, as they imply a block scope
+[PublicSuffix] at t/external.t:7
+[PublicSuffix] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/4a5db9b92dce273710904dc9d761c10c13d9a83e.tar.gz/PublicSuffix-0.1.20250910 t/local.t
+[PublicSuffix] ===SORRY!=== Error while compiling t/local.t
+[PublicSuffix] ===SORRY!===
+[PublicSuffix] Cannot use a Callable as the only argument to store in a Map.  If the
+[PublicSuffix] intent was to store the contents of a Hash, one should probably use the
+[PublicSuffix] %( ) hash constructor instead of { }.  Causes of { } misinterpretation:
+[PublicSuffix] - using ';' instead of ',' to separate values, as these imply statements
+[PublicSuffix] - using '$_' or any placeholder variable, as they imply a block scope
+[PublicSuffix] at t/local.t:7
+===> Testing [FAIL]: PublicSuffix:ver<0.1.20250910>:auth<zef:jjatria>
+[PublicSuffix] Failed to get passing tests, but continuing with --force-test
+===> Installing: PublicSuffix:ver<0.1.20250910>:auth<zef:jjatria>
+===> Install [OK] for PublicSuffix:ver<0.1.20250910>:auth<zef:jjatria>

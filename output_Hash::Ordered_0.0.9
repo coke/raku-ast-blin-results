@@ -1,0 +1,18 @@
+===> Searching for: Hash::Ordered
+===> Found: Hash::Ordered:ver<0.0.9>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Hash::Ordered] Command: curl --silent -L -o /blin/data/zef-data/tmp/1781743713.231718.1936.8842654595064/8f99759ea8536165e6e34d888d903b082e3cd72f.tar.gz https://360.zef.pm/H/AS/HASH_ORDERED/8f99759ea8536165e6e34d888d903b082e3cd72f.tar.gz
+===> Fetching [OK]: Hash::Ordered:ver<0.0.9>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1781743713.231718.1936.8842654595064/8f99759ea8536165e6e34d888d903b082e3cd72f.tar.gz
+[Hash::Ordered] Command: tar -t -f ./8f99759ea8536165e6e34d888d903b082e3cd72f.tar.gz
+[Hash::Ordered] Command: tar -xvf ./8f99759ea8536165e6e34d888d903b082e3cd72f.tar.gz -C ../8f99759ea8536165e6e34d888d903b082e3cd72f.tar.gz
+===> Extraction [OK]: Hash::Ordered to /blin/data/zef-data/tmp/8f99759ea8536165e6e34d888d903b082e3cd72f.tar.gz
+===> Testing: Hash::Ordered:ver<0.0.9>:auth<zef:lizmat>
+[Hash::Ordered] Command: /tmp/whateverable/rakudo-moar/0a0e22d509a09f40433a06364f45e3f17c93be48/bin/perl6 -I /blin/data/zef-data/tmp/8f99759ea8536165e6e34d888d903b082e3cd72f.tar.gz/Hash-Ordered-0.0.9 t/01-basic.rakutest
+[Hash::Ordered] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Hash::Ordered] ===SORRY!=== Error while compiling:
+[Hash::Ordered] Redeclaration of symbol 'Hash::Ordered'.
+[Hash::Ordered] at line 
+[Hash::Ordered] at t/01-basic.rakutest:3
+===> Testing [FAIL]: Hash::Ordered:ver<0.0.9>:auth<zef:lizmat>
+[Hash::Ordered] Failed to get passing tests, but continuing with --force-test
+===> Installing: Hash::Ordered:ver<0.0.9>:auth<zef:lizmat>
+===> Install [OK] for Hash::Ordered:ver<0.0.9>:auth<zef:lizmat>
