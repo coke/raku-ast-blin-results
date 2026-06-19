@@ -293,7 +293,7 @@ CLI::Wordpress::Migrator – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c9
 CPAN::Uploader::Tiny – OK
 CRDT – OK
 CRoaring – OK
-CSS – Unknown
+CSS – AlwaysFail
 CSS::Font::Resources – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CSS::Grammar – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CSS::Minifier – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -304,7 +304,7 @@ CSS::Properties – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CSS::Selector::To::XPath – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CSS::Specification – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CSS::Stylesheet – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-CSS::TagSet – Unknown
+CSS::TagSet – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 CSS::Writer – OK
 CSV-AutoClass – OK
 CSV-Autoclass – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -890,7 +890,7 @@ Gumbo – AlwaysFail
 Gzz::Prompt – OK
 Gzz::Text::Utils – AlwaysFail
 HTML::Canvas – AlwaysFail
-HTML::Canvas::To::PDF – Unknown
+HTML::Canvas::To::PDF – AlwaysFail
 HTML::Component – OK
 HTML::Entity – AlwaysFail
 HTML::Entity::Fast – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -1084,7 +1084,7 @@ JSON::Class – AlwaysFail
 JSON::Fast – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 JSON::Fast::Hyper – OK
 JSON::GLib – AlwaysFail
-JSON::GLib::Node – Unknown
+JSON::GLib::Node – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 JSON::Hjson – OK
 JSON::Infer – AlwaysFail
 JSON::JWT – OK
@@ -1152,7 +1152,7 @@ LLM::Data::Pipeline – OK
 LLM::Functions – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 LLM::Graph – AlwaysFail
 LLM::Prompts – OK
-LLM::Resources – Unknown
+LLM::Resources – OK
 LLM::RetrievalAugmentedGeneration – CyclicDependency
 LLVM – OK
 LMDB – OK
@@ -1282,12 +1282,12 @@ MPD – OK
 MPD::Client – AlwaysFail
 MQ::Posix – OK
 MQTT::Client – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-MUGS – Unknown
+MUGS – AlwaysFail
 MUGS::Core – AlwaysFail
-MUGS::Games – Unknown
-MUGS::UI::CLI – Unknown
-MUGS::UI::TUI – Unknown
-MUGS::UI::WebSimple – Unknown
+MUGS::Games – AlwaysFail
+MUGS::UI::CLI – AlwaysFail
+MUGS::UI::TUI – AlwaysFail
+MUGS::UI::WebSimple – AlwaysFail
 Mac::Applications::List – AlwaysFail
 Mac::Battery::Alerter – AlwaysFail
 MacOS::NativeLib – OK
@@ -1398,7 +1398,7 @@ Method::Misspelt – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 Method::Modifiers – OK
 Method::Protected – ZefFailure
 Metropolis – OK
-Mi6::Helper – Unknown
+Mi6::Helper – AlwaysFail
 Migration::RTtoGithub – OK
 MinG – OK
 Mint – AlwaysFail
@@ -1588,7 +1588,7 @@ PDF::API6 – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 PDF::Class – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 PDF::Combiner – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 PDF::Content – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-PDF::Document – Unknown
+PDF::Document – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 PDF::Extract – AlwaysFail
 PDF::Font::Loader – AlwaysFail
 PDF::Font::Loader::CSS – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
@@ -1598,10 +1598,10 @@ PDF::ISO_32000 – OK
 PDF::ISO_32000_2 – OK
 PDF::Labelmaker – OK
 PDF::Lite – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-PDF::NameTags – Unknown
+PDF::NameTags – AlwaysFail
 PDF::Native – Flapper
 PDF::Tags – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
-PDF::Tags::Reader – Unknown
+PDF::Tags::Reader – AlwaysFail
 PDF::To::Cairo – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 PDF::Writer – Fail, Bisected: 0a0e22d509a09f40433a06364f45e3f17c93be48
 PKCS5 – AlwaysFail
@@ -1905,9 +1905,9 @@ Soundn::Tina – OK
 Spanish – AlwaysFail
 Sparky – OK
 Sparky-Job-Api – OK
-Sparky::Plugin::Hello – Unknown
-Sparky::Plugin::Notify::Email – Unknown
-Sparky::Plugin::Notify::Telegram – Unknown
+Sparky::Plugin::Hello – OK
+Sparky::Plugin::Notify::Email – OK
+Sparky::Plugin::Notify::Telegram – OK
 Sparrow6 – OK
 Sparrow6::Rakudo::Install – OK
 SparrowCI – OK
