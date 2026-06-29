@@ -1,0 +1,18 @@
+===> Searching for: auto-dynamic
+===> Found: auto-dynamic:ver<0.0.2>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[auto-dynamic] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782716662.188484.3712.2438867790497/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz https://360.zef.pm/A/UT/AUTODYNAMIC/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
+===> Fetching [OK]: auto-dynamic:ver<0.0.2>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1782716662.188484.3712.2438867790497/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
+[auto-dynamic] Command: tar -t -f ./e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
+[auto-dynamic] Command: tar -xvf ./e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz -C ../e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
+===> Extraction [OK]: auto-dynamic to /blin/data/zef-data/tmp/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
+===> Testing: auto-dynamic:ver<0.0.2>:auth<zef:lizmat>
+[auto-dynamic] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz/auto-dynamic-0.0.2 t/01-basic.rakutest
+[auto-dynamic] 1..12
+[auto-dynamic] ok 1 - can we reference normal dynvars
+[auto-dynamic] Dynamic variable $*foo not found
+[auto-dynamic]   in block <unit> at t/01-basic.rakutest line 9
+[auto-dynamic] # You planned 12 tests, but ran 1
+===> Testing [FAIL]: auto-dynamic:ver<0.0.2>:auth<zef:lizmat>
+[auto-dynamic] Failed to get passing tests, but continuing with --force-test
+===> Installing: auto-dynamic:ver<0.0.2>:auth<zef:lizmat>
+===> Install [OK] for auto-dynamic:ver<0.0.2>:auth<zef:lizmat>

@@ -1,0 +1,73 @@
+===> Searching for: Audio::Sndfile
+===> Found: Audio::Sndfile:ver<0.0.16>:auth<zef:jonathanstowe>:api<1.0> [via Zef::Repository::Ecosystems<fez>]
+[Audio::Sndfile] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782721263.229372.7010.639017715751/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz https://360.zef.pm/A/UD/AUDIO_SNDFILE/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz
+===> Fetching [OK]: Audio::Sndfile:ver<0.0.16>:auth<zef:jonathanstowe>:api<1.0> to /blin/data/zef-data/tmp/1782721263.229372.7010.639017715751/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz
+[Audio::Sndfile] Command: tar -t -f ./39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz
+[Audio::Sndfile] Command: tar -xvf ./39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz -C ../39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz
+===> Extraction [OK]: Audio::Sndfile to /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz
+===> Testing: Audio::Sndfile:ver<0.0.16>:auth<zef:jonathanstowe>:api<1.0>
+[Audio::Sndfile] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16 t/001-meta.t
+[Audio::Sndfile] 1..1
+[Audio::Sndfile] ok 1 - # SKIP no Test::META - skipping
+[Audio::Sndfile] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16 t/010-basic.t
+[Audio::Sndfile] not ok 1 - Can use Audio::Sndfile
+[Audio::Sndfile] # Failed test 'Can use Audio::Sndfile'
+[Audio::Sndfile] # at t/010-basic.t line 6
+[Audio::Sndfile] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile.rakumod (Audio::Sndfile)
+[Audio::Sndfile] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info)
+[Audio::Sndfile] # is repr(...) trait value must be known at compile time
+[Audio::Sndfile] # at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info):339
+[Audio::Sndfile] # ------>  Audio::Sndfile::Info is repr('CStruct')<HERE> {
+[Audio::Sndfile] # 
+[Audio::Sndfile] # at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile.rakumod (Audio::Sndfile):349
+[Audio::Sndfile] # 
+[Audio::Sndfile] not ok 2 - Can use Audio::Sndfile::Info
+[Audio::Sndfile] # Failed test 'Can use Audio::Sndfile::Info'
+[Audio::Sndfile] # at t/010-basic.t line 7
+[Audio::Sndfile] # ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info)
+[Audio::Sndfile] # is repr(...) trait value must be known at compile time
+[Audio::Sndfile] # at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info):339
+[Audio::Sndfile] # ------>  Audio::Sndfile::Info is repr('CStruct')<HERE> {
+[Audio::Sndfile] # 
+[Audio::Sndfile] 1..2
+[Audio::Sndfile] # You failed 2 tests of 2
+[Audio::Sndfile] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16 t/030-constructor.t
+[Audio::Sndfile] ===SORRY!=== Error while compiling t/030-constructor.t
+[Audio::Sndfile] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile.rakumod (Audio::Sndfile)
+[Audio::Sndfile] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info)
+[Audio::Sndfile] is repr(...) trait value must be known at compile time
+[Audio::Sndfile] at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info):339
+[Audio::Sndfile] ------>  Audio::Sndfile::Info is repr('CStruct')<HERE> {
+[Audio::Sndfile] at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile.rakumod (Audio::Sndfile):349
+[Audio::Sndfile] at t/030-constructor.t:9
+[Audio::Sndfile] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16 t/040-read.t
+[Audio::Sndfile] ===SORRY!=== Error while compiling t/040-read.t
+[Audio::Sndfile] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile.rakumod (Audio::Sndfile)
+[Audio::Sndfile] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info)
+[Audio::Sndfile] is repr(...) trait value must be known at compile time
+[Audio::Sndfile] at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info):339
+[Audio::Sndfile] ------>  Audio::Sndfile::Info is repr('CStruct')<HERE> {
+[Audio::Sndfile] at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile.rakumod (Audio::Sndfile):349
+[Audio::Sndfile] at t/040-read.t:9
+[Audio::Sndfile] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16 t/050-sanity.t
+[Audio::Sndfile] ===SORRY!=== Error while compiling t/050-sanity.t
+[Audio::Sndfile] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile.rakumod (Audio::Sndfile)
+[Audio::Sndfile] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info)
+[Audio::Sndfile] is repr(...) trait value must be known at compile time
+[Audio::Sndfile] at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info):339
+[Audio::Sndfile] ------>  Audio::Sndfile::Info is repr('CStruct')<HERE> {
+[Audio::Sndfile] at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile.rakumod (Audio::Sndfile):349
+[Audio::Sndfile] at t/050-sanity.t:13
+[Audio::Sndfile] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16 t/060-write.t
+[Audio::Sndfile] ===SORRY!=== Error while compiling t/060-write.t
+[Audio::Sndfile] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile.rakumod (Audio::Sndfile)
+[Audio::Sndfile] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info)
+[Audio::Sndfile] is repr(...) trait value must be known at compile time
+[Audio::Sndfile] at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile/Info.rakumod (Audio::Sndfile::Info):339
+[Audio::Sndfile] ------>  Audio::Sndfile::Info is repr('CStruct')<HERE> {
+[Audio::Sndfile] at /blin/data/zef-data/tmp/39dfc41cfb3692f34acac26723460d67a8b94180.tar.gz/Audio-Sndfile-0.0.16/lib/Audio/Sndfile.rakumod (Audio::Sndfile):349
+[Audio::Sndfile] at t/060-write.t:9
+===> Testing [FAIL]: Audio::Sndfile:ver<0.0.16>:auth<zef:jonathanstowe>:api<1.0>
+[Audio::Sndfile] Failed to get passing tests, but continuing with --force-test
+===> Installing: Audio::Sndfile:ver<0.0.16>:auth<zef:jonathanstowe>:api<1.0>
+===> Install [OK] for Audio::Sndfile:ver<0.0.16>:auth<zef:jonathanstowe>:api<1.0>

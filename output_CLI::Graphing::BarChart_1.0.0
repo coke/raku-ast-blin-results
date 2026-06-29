@@ -1,0 +1,19 @@
+===> Searching for: CLI::Graphing::BarChart
+===> Found: CLI::Graphing::BarChart:ver<1.0.0>:auth<zef:masukomi>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[CLI::Graphing::BarChart] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782721701.233231.1947.2080893181364/a91b3979d171d37d6b062bb3046c774c27c64818.tar.gz https://360.zef.pm/C/LI/CLI_GRAPHING_BARCHART/a91b3979d171d37d6b062bb3046c774c27c64818.tar.gz
+===> Fetching [OK]: CLI::Graphing::BarChart:ver<1.0.0>:auth<zef:masukomi>:api<1> to /blin/data/zef-data/tmp/1782721701.233231.1947.2080893181364/a91b3979d171d37d6b062bb3046c774c27c64818.tar.gz
+[CLI::Graphing::BarChart] Command: tar -t -f ./a91b3979d171d37d6b062bb3046c774c27c64818.tar.gz
+[CLI::Graphing::BarChart] Command: tar -xvf ./a91b3979d171d37d6b062bb3046c774c27c64818.tar.gz -C ../a91b3979d171d37d6b062bb3046c774c27c64818.tar.gz
+===> Extraction [OK]: CLI::Graphing::BarChart to /blin/data/zef-data/tmp/a91b3979d171d37d6b062bb3046c774c27c64818.tar.gz
+===> Testing: CLI::Graphing::BarChart:ver<1.0.0>:auth<zef:masukomi>:api<1>
+[CLI::Graphing::BarChart] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/a91b3979d171d37d6b062bb3046c774c27c64818.tar.gz/CLI-Graphing-BarChart t/01-basic.rakutest
+[CLI::Graphing::BarChart] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[CLI::Graphing::BarChart] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/a91b3979d171d37d6b062bb3046c774c27c64818.tar.gz/CLI-Graphing-BarChart/lib/CLI/Graphing/BarChart/Vertical.rakumod (CLI::Graphing::BarChart::Vertical)
+[CLI::Graphing::BarChart] ===SORRY!===
+[CLI::Graphing::BarChart] Object does not exist in serialization context
+[CLI::Graphing::BarChart] at /blin/data/zef-data/tmp/a91b3979d171d37d6b062bb3046c774c27c64818.tar.gz/CLI-Graphing-BarChart/lib/CLI/Graphing/BarChart/Vertical.rakumod (CLI::Graphing::BarChart::Vertical):2
+[CLI::Graphing::BarChart] at t/01-basic.rakutest:3
+===> Testing [FAIL]: CLI::Graphing::BarChart:ver<1.0.0>:auth<zef:masukomi>:api<1>
+[CLI::Graphing::BarChart] Failed to get passing tests, but continuing with --force-test
+===> Installing: CLI::Graphing::BarChart:ver<1.0.0>:auth<zef:masukomi>:api<1>
+===> Install [OK] for CLI::Graphing::BarChart:ver<1.0.0>:auth<zef:masukomi>:api<1>

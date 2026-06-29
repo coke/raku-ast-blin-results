@@ -1,0 +1,27 @@
+===> Searching for: UML::Translators
+===> Found: UML::Translators:ver<0.1.7>:auth<zef:antononcube>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[UML::Translators] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782715391.177610.2526.3148223438047/fafe176dde41bc79c7628b7725bd25c8116160b4.tar.gz https://360.zef.pm/U/ML/UML_TRANSLATORS/fafe176dde41bc79c7628b7725bd25c8116160b4.tar.gz
+===> Fetching [OK]: UML::Translators:ver<0.1.7>:auth<zef:antononcube>:api<1> to /blin/data/zef-data/tmp/1782715391.177610.2526.3148223438047/fafe176dde41bc79c7628b7725bd25c8116160b4.tar.gz
+[UML::Translators] Command: tar -t -f ./fafe176dde41bc79c7628b7725bd25c8116160b4.tar.gz
+[UML::Translators] Command: tar -xvf ./fafe176dde41bc79c7628b7725bd25c8116160b4.tar.gz -C ../fafe176dde41bc79c7628b7725bd25c8116160b4.tar.gz
+===> Extraction [OK]: UML::Translators to /blin/data/zef-data/tmp/fafe176dde41bc79c7628b7725bd25c8116160b4.tar.gz
+===> Testing: UML::Translators:ver<0.1.7>:auth<zef:antononcube>:api<1>
+[UML::Translators] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/fafe176dde41bc79c7628b7725bd25c8116160b4.tar.gz/dist t/01-over-classes.rakutest
+[UML::Translators] ===SORRY!=== Error while compiling t/01-over-classes.rakutest
+[UML::Translators] ===SORRY!===
+[UML::Translators] No such method 'IMPL-QAST-INDIRECT-LOOKUP-PART' for invocant of type
+[UML::Translators] 'RakuAST::Name::Part::Empty'
+[UML::Translators] at t/01-over-classes.rakutest:4
+[UML::Translators] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/fafe176dde41bc79c7628b7725bd25c8116160b4.tar.gz/dist t/02-over-grammars.rakutest
+[UML::Translators] ===SORRY!=== Error while compiling t/02-over-grammars.rakutest
+[UML::Translators] ===SORRY!===
+[UML::Translators] No such method 'IMPL-QAST-INDIRECT-LOOKUP-PART' for invocant of type
+[UML::Translators] 'RakuAST::Name::Part::Empty'
+[UML::Translators] at t/02-over-grammars.rakutest:4
+===> Testing [FAIL]: UML::Translators:ver<0.1.7>:auth<zef:antononcube>:api<1>
+[UML::Translators] Failed to get passing tests, but continuing with --force-test
+===> Installing: UML::Translators:ver<0.1.7>:auth<zef:antononcube>:api<1>
+===> Install [OK] for UML::Translators:ver<0.1.7>:auth<zef:antononcube>:api<1>
+
+1 bin/ script [to-uml-spec] installed to:
+/blin/installed/UML::Translators_0.1.7/bin

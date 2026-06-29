@@ -1,0 +1,23 @@
+===> Searching for: Slang::Mosdef
+===> Found: Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan> [via Zef::Repository::Ecosystems<fez>]
+[Slang::Mosdef] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782712441.151288.9194.915379047252/706254f395e9559d427fe7f77068577737db8cd1.tar.gz https://360.zef.pm/S/LA/SLANG_MOSDEF/706254f395e9559d427fe7f77068577737db8cd1.tar.gz
+===> Fetching [OK]: Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan> to /blin/data/zef-data/tmp/1782712441.151288.9194.915379047252/706254f395e9559d427fe7f77068577737db8cd1.tar.gz
+[Slang::Mosdef] Command: tar -t -f ./706254f395e9559d427fe7f77068577737db8cd1.tar.gz
+[Slang::Mosdef] Command: tar -xvf ./706254f395e9559d427fe7f77068577737db8cd1.tar.gz -C ../706254f395e9559d427fe7f77068577737db8cd1.tar.gz
+===> Extraction [OK]: Slang::Mosdef to /blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz
+===> Testing: Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan>
+[Slang::Mosdef] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist t/01-basic.rakutest
+[Slang::Mosdef] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist/t/01-basic.rakutest
+[Slang::Mosdef] Variable '$n' is not declared. Perhaps you forgot a 'sub' if this was
+[Slang::Mosdef] intended to be part of a signature?
+[Slang::Mosdef] at /blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist/t/01-basic.rakutest:12
+[Slang::Mosdef] ------> my $m = λ (<HERE>$n) { $n * 2 };
+[Slang::Mosdef] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist t/02-y-combinator.rakutest
+[Slang::Mosdef] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist/t/02-y-combinator.rakutest
+[Slang::Mosdef] Unexpected block in infix position (missing statement control word before the expression? Or did you forget a semi-colon?)
+[Slang::Mosdef] at /blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist/t/02-y-combinator.rakutest:9
+[Slang::Mosdef] ------> is λ ( &f )<HERE> {
+===> Testing [FAIL]: Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan>
+[Slang::Mosdef] Failed to get passing tests, but continuing with --force-test
+===> Installing: Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan>
+===> Install [OK] for Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan>

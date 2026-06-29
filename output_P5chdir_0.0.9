@@ -1,0 +1,46 @@
+===> Searching for: P5chdir
+===> Found: P5chdir:ver<0.0.9>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[P5chdir] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782708958.121166.4958.724274506178/88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz https://360.zef.pm/P/5C/P5CHDIR/88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz
+===> Fetching [OK]: P5chdir:ver<0.0.9>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1782708958.121166.4958.724274506178/88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz
+[P5chdir] Command: tar -t -f ./88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz
+[P5chdir] Command: tar -xvf ./88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz -C ../88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz
+===> Extraction [OK]: P5chdir to /blin/data/zef-data/tmp/88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz
+===> Testing: P5chdir:ver<0.0.9>:auth<zef:lizmat>
+[P5chdir] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz/P5chdir-0.0.9 t/01-basic.t
+[P5chdir] 1..8
+[P5chdir] ok 1 - did a bare chdir() to HOME work: bin
+[P5chdir] not ok 2 - did it actually go to the right directory
+[P5chdir] # Failed test 'did it actually go to the right directory'
+[P5chdir] # at t/01-basic.t line 15
+[P5chdir] # expected: 'bin'
+[P5chdir] #      got: '/blin/data/zef-data/tmp/88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz/P5chdir-0.0.9/bin'
+[P5chdir] not ok 3 - did a bare chdir() to LOGDIR work: lib
+[P5chdir] # Failed test 'did a bare chdir() to LOGDIR work: lib'
+[P5chdir] # at t/01-basic.t line 18
+[P5chdir] # expected: 'True'
+[P5chdir] #      got: 'False'
+[P5chdir] not ok 4 - did it actually go to the right directory
+[P5chdir] # Failed test 'did it actually go to the right directory'
+[P5chdir] # at t/01-basic.t line 19
+[P5chdir] # expected: 'lib'
+[P5chdir] #      got: '/blin/data/zef-data/tmp/88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz/P5chdir-0.0.9/bin'
+[P5chdir] ok 5 - did a bare chdir() to nothing fail
+[P5chdir] not ok 6 - are we still at the right directory
+[P5chdir] # Failed test 'are we still at the right directory'
+[P5chdir] # at t/01-basic.t line 23
+[P5chdir] # expected: 'lib'
+[P5chdir] #      got: '/blin/data/zef-data/tmp/88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz/P5chdir-0.0.9/bin'
+[P5chdir] ok 7 - did a specific chdir work
+[P5chdir] not ok 8 - did we wind up in the right directory
+[P5chdir] # Failed test 'did we wind up in the right directory'
+[P5chdir] # at t/01-basic.t line 26
+[P5chdir] # expected: '.'
+[P5chdir] #      got: '/blin/data/zef-data/tmp/88202357c74f2c14f9fb8604dc346976e21b20a8.tar.gz/P5chdir-0.0.9'
+[P5chdir] # You failed 5 tests of 8
+===> Testing [FAIL]: P5chdir:ver<0.0.9>:auth<zef:lizmat>
+[P5chdir] Failed to get passing tests, but continuing with --force-test
+===> Installing: P5chdir:ver<0.0.9>:auth<zef:lizmat>
+===> Install [OK] for P5chdir:ver<0.0.9>:auth<zef:lizmat>
+
+1 bin/ script [not-empty] installed to:
+/blin/installed/P5chdir_0.0.9/bin

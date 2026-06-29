@@ -1,0 +1,420 @@
+===> Searching for: YAMLish
+===> Found: YAMLish:ver<0.1.2>:auth<zef:leont> [via Zef::Repository::Ecosystems<fez>]
+[YAMLish] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782721744.233598.9601.828280331509/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz https://360.zef.pm/Y/AM/YAMLISH/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz
+===> Fetching [OK]: YAMLish:ver<0.1.2>:auth<zef:leont> to /blin/data/zef-data/tmp/1782721744.233598.9601.828280331509/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz
+[YAMLish] Command: tar -t -f ./d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz
+[YAMLish] Command: tar -xvf ./d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz -C ../d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz
+===> Extraction [OK]: YAMLish to /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz
+===> Testing: YAMLish:ver<0.1.2>:auth<zef:leont>
+[YAMLish] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2 t/anchor-alias.t
+[YAMLish] 1..2
+[YAMLish] not ok 1 - sequence anchor and alias
+[YAMLish] # Failed test 'sequence anchor and alias'
+[YAMLish] # at t/anchor-alias.t line 18
+[YAMLish] # expected: ${:entries($["one", "two", "three"]), :more($["one", "two", "three"])}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string 'entries: \&entries - one - two -\nthree more: *entries '"), backtrace => Backtrace.new)
+[YAMLish] not ok 2 - mapping anchor and alias
+[YAMLish] # Failed test 'mapping anchor and alias'
+[YAMLish] # at t/anchor-alias.t line 29
+[YAMLish] # expected: ${:entries(${:one("value"), :two("value")}), :more(${:one("value"), :two("value")})}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string 'entries: \&entries one: value\ntwo: value more: *entries '"), backtrace => Backtrace.new)
+[YAMLish] # You failed 2 tests of 2
+[YAMLish] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2 t/basic.t
+[YAMLish] not ok 1 - First test matches
+[YAMLish] # Failed test 'First test matches'
+[YAMLish] # at t/basic.t line 33
+[YAMLish] # expected: $[1, [1, 16], {:baaz("buuz"), :baz("quz"), :foo("bar")}, {:baz(1)}, [1], [1, "2"]]
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- # foo # bar - \&first 1 - -\n1 - 0x10 - foo: bar baz: quz ? baaz : buuz - \{ \"baz\": 1 } - [ *first ] -\n- 1 - !!str 2 # foo ... # bar '"), backtrace => Backtrace.new)
+[YAMLish] not ok 2 - Second test matches
+[YAMLish] # Failed test 'Second test matches'
+[YAMLish] # at t/basic.t line 71
+[YAMLish] # expected: ${:comment("foo bar"), :dump($["      16G         05C        ", "      G N C       C C G      ", "        G           C  +     ", "10C   01G         03C        ", "R N G G A G       C C C      ", "  R     G           C  +     ", "      01G   17C   00C        ", "      G A G G N R R N R      ", "        G     R     G        "]), :message("Board layout"), :severity("comment")}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- message: \"Board layout\"\nseverity: comment dump: - ' 16G 05C ' - ' G N C C C G ' - ' G C + ' -\n'10C 01G 03C ' - 'R N G G A G C C C ' - ' R G C + ' - ' 01G 17C 00C ' -\n' G A G G N R R N R ' - ' G R G ' comment: \"foo bar\" ... '"), backtrace => Backtrace.new)
+[YAMLish] not ok 3 - Third test matches
+[YAMLish] # Failed test 'Third test matches'
+[YAMLish] # at t/basic.t line 106
+[YAMLish] # expected: ${:Fatal("Unknown variable \"bar\""), :Stack($[{:code("x = MoreObject(\"345\n\")"), :file("TopClass.pl"), :line(23)}, {:code("foo = bar"), :file("MoreClass.pl"), :line(58)}]), :User("ed")}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- User: ed Fatal: \"Unknown\nvariable \\\"bar\\\"\" #comment Stack: - file: TopClass.pl #comment 2 line:\n23 code: \"x = MoreObject(\\\"345\\n\\\")\" - file: MoreClass.pl line: 58 code:\n\"foo = bar\" ... '"), backtrace => Backtrace.new)
+[YAMLish] No such method 'concretize' for string '--- User: ed Fatal: "Unknown
+[YAMLish] variable \"bar\"" #comment Stack: - file: TopClass.pl #comment 2 line:
+[YAMLish] 23 code: "x = MoreObject(\"345\n\")" - file: MoreClass.pl line: 58 code:
+[YAMLish] "foo = bar" ... '
+[YAMLish]   in whatevercode  at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/.precomp/06F349255281EC7FDC3C857463B63213C1D58973/B2/B2416746F4D0898771D5CA69A6FAF5F141F34B6A line 1
+[YAMLish]   in sub _is_deeply at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/core/sources/C00382AFE110086F7FC9A408AB1E0D2DA3604136 (Test) line 714
+[YAMLish]   in sub is-deeply at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/core/sources/C00382AFE110086F7FC9A408AB1E0D2DA3604136 (Test) line 620
+[YAMLish]   in sub is-deeply at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/core/sources/C00382AFE110086F7FC9A408AB1E0D2DA3604136 (Test) line 613
+[YAMLish]   in block <unit> at t/basic.t line 107
+[YAMLish] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2 t/p5-tests.t
+[YAMLish] not ok 1 - Bogus starter test
+[YAMLish] # Failed test 'Bogus starter test'
+[YAMLish] # at t/p5-tests.t line 7
+[YAMLish] # expected: $[1, 2, 3]
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '[1,2,3]'"), backtrace => Backtrace.new)
+[YAMLish] not ok 2 - Bogus starter test
+[YAMLish] # Failed test 'Bogus starter test'
+[YAMLish] # at t/p5-tests.t line 8
+[YAMLish] # expected: $[1, 2, 3]
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '[1,2,3,]'"), backtrace => Backtrace.new)
+[YAMLish] not ok 3 - Bogus starter test
+[YAMLish] # Failed test 'Bogus starter test'
+[YAMLish] # at t/p5-tests.t line 9
+[YAMLish] # expected: $[1, 2, 3]
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '[1,2,3] '"), backtrace => Backtrace.new)
+[YAMLish] not ok 4 - Bogus starter test
+[YAMLish] # Failed test 'Bogus starter test'
+[YAMLish] # at t/p5-tests.t line 10
+[YAMLish] # expected: $["a", "b", 33]
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '[a, b, 33] '"), backtrace => Backtrace.new)
+[YAMLish] not ok 5 - Bogus starter test
+[YAMLish] # Failed test 'Bogus starter test'
+[YAMLish] # at t/p5-tests.t line 11
+[YAMLish] # expected: ${:a(42)}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '\{a: 42} '"), backtrace => Backtrace.new)
+[YAMLish] not ok 6 - Bogus starter test
+[YAMLish] # Failed test 'Bogus starter test'
+[YAMLish] # at t/p5-tests.t line 12
+[YAMLish] # expected: ${:a(42)}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '\{a: 42,} '"), backtrace => Backtrace.new)
+[YAMLish] not ok 7 - Bogus starter test
+[YAMLish] # Failed test 'Bogus starter test'
+[YAMLish] # at t/p5-tests.t line 13
+[YAMLish] # expected: ${:a(42), :b(43)}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '\{a: 42, b: 43} '"), backtrace => Backtrace.new)
+[YAMLish] not ok 8 - Bogus starter test
+[YAMLish] # Failed test 'Bogus starter test'
+[YAMLish] # at t/p5-tests.t line 14
+[YAMLish] # expected: ${}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '\{} '"), backtrace => Backtrace.new)
+[YAMLish] not ok 9 - Bogus starter test
+[YAMLish] # Failed test 'Bogus starter test'
+[YAMLish] # at t/p5-tests.t line 15
+[YAMLish] # expected: "foo"
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string 'foo'"), backtrace => Backtrace.new)
+[YAMLish] # You failed 9 tests of 9
+[YAMLish] 1..9
+[YAMLish] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2 t/roundtrip.t
+[YAMLish] 1..22
+[YAMLish] not ok 1 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: "A string"
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"A string\" ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 2 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: 42
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- 42 ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 3 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: 42.005
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- 42.005 ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 4 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: Bool::True
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- true ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 5 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: Bool::False
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- false ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 6 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: "A string containing a single (\") double quote."
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"A string containing a\nsingle (\\\") double quote.\" ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 7 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: "A string containing both 'single' and \"double\" quotes."
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"A string containing both\n'single' and \\\"double\\\" quotes.\" ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 8 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: "A multiline\nstring.\n"
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"A multiline\\nstring.\\n\"\n...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 9 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: "  A multiline \n   string with varying\n  indentation.\n"
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \" A multiline \\n string\nwith varying\\n indentation.\\n\" ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 10 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: $[1, 2, 3]
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- - 1 - 2 - 3 ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 11 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: ${:a(1), :b(2), :c(Bool::True)}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"a\": 1 \"b\": 2 \"c\": true\n...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 12 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: $[1, 2, "three"]
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- - 1 - 2 - \"three\" ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 13 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: ${:a("one"), :b(2), :c(42.005)}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"a\": \"one\" \"b\": 2 \"c\":\n42.005 ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 14 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: $[]
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- [] ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 15 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: ${:a($[]), :b("something"), :c($[])}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"a\": [] \"b\": \"something\"\n\"c\": [] ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 16 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: ${:a($[1, 2, 3]), :b($["something", "else"]), :c($[42.005])}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"a\": - 1 - 2 - 3 \"b\": -\n\"something\" - \"else\" \"c\": - 42.005 ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 17 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: ${}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \{} ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 18 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: $[{}, [], {:array($[]), :hash(${})}, {:real($[3.14]), :something(42.005)}]
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- - \{} - [] - \"array\": []\n\"hash\": \{} - \"real\": - 3.14 \"something\": 42.005 ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 19 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: ${:extensions($[]), :version("1.0")}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"extensions\": [] \"version\":\n\"1.0\" ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 20 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: ${:alias("*foo"), :anchor("\&foo"), :date("2016-07-15"), :datetime("2016-07-17T15-18-23T+02"), :float("2e3"), :hex("0xFF"), :inf(".inf"), :int("1"), :nan(".nan"), :null("~"), :oct("0o007"), :rat("3.14")}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"alias\": \"*foo\" \"anchor\":\n\"\&foo\" \"date\": \"2016-07-15\" \"datetime\": \"2016-07-17T15-18-23T+02\"\n\"float\": \"2e3\" \"hex\": \"0xFF\" \"inf\": \".inf\" \"int\": \"1\" \"nan\": \".nan\"\n\"null\": \"~\" \"oct\": \"0o007\" \"rat\": \"3.14\" ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 21 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: ${:float("-2e3"), :hex("-0xFF"), :inf("-.inf"), :int("-1"), :nan("-.nan"), :oct("-0o007"), :rat("-3.14")}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"float\": \"-2e3\" \"hex\":\n\"-0xFF\" \"inf\": \"-.inf\" \"int\": \"-1\" \"nan\": \"-.nan\" \"oct\": \"-0o007\" \"rat\":\n\"-3.14\" ...'"), backtrace => Backtrace.new)
+[YAMLish] not ok 22 - 
+[YAMLish] # Failed test at t/roundtrip.t line 35
+[YAMLish] # expected: ${:board($[1, 2, 3, 10, 20, 40, 100, 200, 300]), :game("two-digits"), :puzzle(${:extensions($[]), :version("0.1")}), :title("Two Digits")}
+[YAMLish] #      got: Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- \"board\": - 1 - 2 - 3 - 10 -\n20 - 40 - 100 - 200 - 300 \"game\": \"two-digits\" \"puzzle\": \"extensions\":\n[] \"version\": \"0.1\" \"title\": \"Two Digits\" ...'"), backtrace => Backtrace.new)
+[YAMLish] # You failed 22 tests of 22
+[YAMLish] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2 t/test-harness.t
+[YAMLish] 1..41
+[YAMLish] not ok 1 - Hello World should parse
+[YAMLish] # Failed test 'Hello World should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- Hello, World ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 2 - Hello World 2 should parse
+[YAMLish] # Failed test 'Hello World 2 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- 'Hello, ''World' ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 3 - Hello World 3 should parse
+[YAMLish] # Failed test 'Hello World 3 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- "Hello, World" ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 4 - Hello World 4 should parse
+[YAMLish] # Failed test 'Hello World 4 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- "Hello, World" ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 5 - Hello World 5 should parse
+[YAMLish] # Failed test 'Hello World 5 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- > Hello, World ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 6 - Hello World Block should parse
+[YAMLish] # Failed test 'Hello World Block should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- | Hello, World ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] ok 7 - Hello World 6: No result
+[YAMLish] not ok 8 - Simple array should parse
+[YAMLish] # Failed test 'Simple array should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - 1 - 2 - 3 ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 9 - Mixed array should parse
+[YAMLish] # Failed test 'Mixed array should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - 1 - 'two' - "three\n" ...
+[YAMLish] '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 10 - Hash in array should parse
+[YAMLish] # Failed test 'Hash in array should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - 1 - two: 2 - 3 ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 11 - Hash in array 2 should parse
+[YAMLish] # Failed test 'Hash in array 2 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - 1 - two: 2 three: 3 - 4
+[YAMLish] ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 12 - Nested array should parse
+[YAMLish] # Failed test 'Nested array should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - one - - two - - three -
+[YAMLish] four - five ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 13 - Nested hash should parse
+[YAMLish] # Failed test 'Nested hash should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- one: five: 5 two: four: 4
+[YAMLish] three: 3 six: 6 ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 14 - Space after colon should parse
+[YAMLish] # Failed test 'Space after colon should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- spog: - 1 - 2 ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 15 - Original YAML::Tiny test should parse
+[YAMLish] # Failed test 'Original YAML::Tiny test should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- invoice: 34843 date :
+[YAMLish] 2001-01-23 bill-to: given : Chris family : Dumars address: lines: | 458
+[YAMLish] Walkman Dr. Suite #292 city : Royal Oak state : MI postal : 48046
+[YAMLish] product: - sku : BL394D quantity : 4 description : Basketball price :
+[YAMLish] 450.00 - sku : BL4438H quantity : 1 description : Super Hoop price :
+[YAMLish] 2392.00 tax : 251.42 total: 4443.52 comments: > Late afternoon is best.
+[YAMLish] Backup contact is Nancy Billsmer @ 338-4338 ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] ok 16 - empty: No result
+[YAMLish] ok 17 - only_comment: No result
+[YAMLish] ok 18 - only_header: No result
+[YAMLish] ok 19 - two_header: No result
+[YAMLish] not ok 20 - one_undef: Result matches
+[YAMLish] # Failed test 'one_undef: Result matches'
+[YAMLish] # at t/test-harness.t line 502
+[YAMLish] # expected: Any
+[YAMLish] #      got: &CORE::infix:<orelse>(Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- ~ ... '"), backtrace => Backtrace.new), *.self)
+[YAMLish] not ok 21 - one_undef2: Result matches
+[YAMLish] # Failed test 'one_undef2: Result matches'
+[YAMLish] # at t/test-harness.t line 502
+[YAMLish] # expected: Any
+[YAMLish] #      got: &CORE::infix:<orelse>(Failure.new(exception => X::AdHoc.new(payload => "Couldn't parse YAML: No such method 'concretize' for string '--- ~ ... '"), backtrace => Backtrace.new), *.self)
+[YAMLish] ok 22 - two_undef: No result
+[YAMLish] not ok 23 - one_scalar should parse
+[YAMLish] # Failed test 'one_scalar should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- foo ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 24 - one_scalar2 should parse
+[YAMLish] # Failed test 'one_scalar2 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- foo ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 25 - two_scalar should parse
+[YAMLish] # Failed test 'two_scalar should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- foo --- bar ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 26 - one_list1 should parse
+[YAMLish] # Failed test 'one_list1 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - foo ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 27 - one_list2 should parse
+[YAMLish] # Failed test 'one_list2 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - foo - bar ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 28 - one_listundef should parse
+[YAMLish] # Failed test 'one_listundef should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - ~ - bar ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 29 - one_hash1 should parse
+[YAMLish] # Failed test 'one_hash1 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- foo: bar ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 30 - one_hash2 should parse
+[YAMLish] # Failed test 'one_hash2 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- foo: bar this: ~ ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 31 - array_in_hash should parse
+[YAMLish] # Failed test 'array_in_hash should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- foo: - bar - ~ - baz ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 32 - hash_in_hash should parse
+[YAMLish] # Failed test 'hash_in_hash should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- foo: ~ bar: foo: bar ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 33 - hash_in_array should parse
+[YAMLish] # Failed test 'hash_in_array should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - foo: ~ this: that - foo -
+[YAMLish] ~ - foo: bar this: that ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 34 - single_quote1 should parse
+[YAMLish] # Failed test 'single_quote1 should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - 'foo' ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 35 - single_spaces should parse
+[YAMLish] # Failed test 'single_spaces should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - ' ' ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 36 - single_null should parse
+[YAMLish] # Failed test 'single_null should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - '' ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 37 - only_spaces should parse
+[YAMLish] # Failed test 'only_spaces should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- " " ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 38 - inline_nested_hash should parse
+[YAMLish] # Failed test 'inline_nested_hash should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- - ~ - foo: bar this: that -
+[YAMLish] baz ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 39 - Unprintables should parse
+[YAMLish] # Failed test 'Unprintables should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- -
+[YAMLish] "\z\x01\x02\x03\x04\x05\x06\x08\t\n\v\f\r\x0e\x0f" -
+[YAMLish] "\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\e\x1c\x1d\x1e\x1f" - "
+[YAMLish] !\"#$%&'()*+,-./" - 0123456789:;<=>? - '@ABCDEFGHIJKLMNO' -
+[YAMLish] 'PQRSTUVWXYZ[\]^_' - '`abcdefghijklmno' - 'pqrstuvwxyz{|}~ ' -
+[YAMLish] ¡¢£¤¥¦§¨©ª«¬­®¯ - °±²³´µ¶·¸¹º»¼½¾¿ - ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ - ÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß
+[YAMLish] - àáâãäåæçèéêëìíîï - ðñòóôõö÷øùúûüýþÿ ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] not ok 40 - Quoted hash keys should parse
+[YAMLish] # Failed test 'Quoted hash keys should parse'
+[YAMLish] # at t/test-harness.t line 496
+[YAMLish] (HANDLED) Couldn't parse YAML: No such method 'concretize' for string '--- "quoted": Magic! "\n\t":
+[YAMLish] newline, tab ... '
+[YAMLish]   in sub load-yaml at /blin/data/zef-data/tmp/d56618e2a3b86fd8da2d5214865a0e0a2d8c559f.tar.gz/YAMLish-0.1.2/lib/YAMLish.rakumod (YAMLish) line 948
+[YAMLish]   in block <unit> at t/test-harness.t line 489
+[YAMLish] ok 41 - Empty: No result
+[YAMLish] # You failed 34 tests of 41
+===> Testing [FAIL]: YAMLish:ver<0.1.2>:auth<zef:leont>
+[YAMLish] Failed to get passing tests, but continuing with --force-test
+===> Installing: YAMLish:ver<0.1.2>:auth<zef:leont>
+===> Install [OK] for YAMLish:ver<0.1.2>:auth<zef:leont>

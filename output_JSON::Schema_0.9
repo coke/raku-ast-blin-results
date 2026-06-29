@@ -1,0 +1,517 @@
+===> Searching for: JSON::Schema
+===> Found: JSON::Schema:ver<0.9>:auth<cpan:JNTHN> [via Zef::Repository::Ecosystems<rea>]
+[JSON::Schema] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782719830.216002.6424.623331863348/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/J/JSON%3A%3ASchema/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz
+===> Fetching [OK]: JSON::Schema:ver<0.9>:auth<cpan:JNTHN> to /blin/data/zef-data/tmp/1782719830.216002.6424.623331863348/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz
+[JSON::Schema] Command: tar -t -f ./JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz
+[JSON::Schema] Command: tar -xvf ./JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz -C ../JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz
+===> Extraction [OK]: JSON::Schema to /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz
+===> Testing: JSON::Schema:ver<0.9>
+[JSON::Schema] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema t/01-basic.t
+[JSON::Schema] # Subtest: Having type property be an integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 1 - Having type property be an integer is refused
+[JSON::Schema] # Subtest: Having type property be an invalid type is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 2 - Having type property be an invalid type is refused
+[JSON::Schema] # Subtest: False schema fails for simple examples
+[JSON::Schema]     ok 1 - 
+[JSON::Schema]     ok 2 - 
+[JSON::Schema]     ok 3 - 
+[JSON::Schema]     1..3
+[JSON::Schema] ok 3 - False schema fails for simple examples
+[JSON::Schema] # Subtest: True schema succeeds for simple examples
+[JSON::Schema]     ok 1 - 
+[JSON::Schema]     ok 2 - 
+[JSON::Schema]     ok 3 - 
+[JSON::Schema]     1..3
+[JSON::Schema] ok 4 - True schema succeeds for simple examples
+[JSON::Schema] ok 5 - Simple string validation accepts a string
+[JSON::Schema] ok 6 - Simple string validation rejects an integer
+[JSON::Schema] ok 7 - Simple string validation rejects a type object
+[JSON::Schema] # Subtest: When type is described as array, non-strings are rejected (Int)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 8 - When type is described as array, non-strings are rejected (Int)
+[JSON::Schema] # Subtest: When type is described as array, non-strings are rejected (Str type object)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 9 - When type is described as array, non-strings are rejected (Str type object)
+[JSON::Schema] # Subtest: When type is described as array, items must be unique
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     not ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema]     # Failed test 'right exception type (X::JSON::Schema::BadSchema)'
+[JSON::Schema]     # at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/core/precomp/06F349255281EC7FDC3C857463B63213C1D58973/C0/C00382AFE110086F7FC9A408AB1E0D2DA3604136 line 1
+[JSON::Schema]     # Expected: X::JSON::Schema::BadSchema
+[JSON::Schema]     # Got:      X::Seq::Consumed
+[JSON::Schema]     # Exception message: The iterator of this Seq is already in use/consumed by another Seq (you
+[JSON::Schema]     # might solve this by adding .cache on usages of the Seq, or by assigning
+[JSON::Schema]     # the Seq into an array)
+[JSON::Schema]     # You failed 1 test of 2
+[JSON::Schema] not ok 10 - When type is described as array, items must be unique
+[JSON::Schema] # Failed test 'When type is described as array, items must be unique'
+[JSON::Schema] # at t/01-basic.t line 41
+[JSON::Schema] # Subtest: When type is described as array, items must be withing allowed type range
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     not ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema]     # Failed test 'right exception type (X::JSON::Schema::BadSchema)'
+[JSON::Schema]     # at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/core/precomp/06F349255281EC7FDC3C857463B63213C1D58973/C0/C00382AFE110086F7FC9A408AB1E0D2DA3604136 line 1
+[JSON::Schema]     # Expected: X::JSON::Schema::BadSchema
+[JSON::Schema]     # Got:      X::Seq::Consumed
+[JSON::Schema]     # Exception message: The iterator of this Seq is already in use/consumed by another Seq (you
+[JSON::Schema]     # might solve this by adding .cache on usages of the Seq, or by assigning
+[JSON::Schema]     # the Seq into an array)
+[JSON::Schema]     # You failed 1 test of 2
+[JSON::Schema] # Failed test 'When type is described as array, items must be withing allowed type range'
+[JSON::Schema] # at t/01-basic.t line 44
+[JSON::Schema] not ok 11 - When type is described as array, items must be withing allowed type range
+[JSON::Schema] The iterator of this Seq is already in use/consumed by another Seq (you
+[JSON::Schema] might solve this by adding .cache on usages of the Seq, or by assigning
+[JSON::Schema] the Seq into an array)
+[JSON::Schema]   in block  at /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema/lib/JSON/Schema.pm6 (JSON::Schema) line 555
+[JSON::Schema]   in sub check-for at /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema/lib/JSON/Schema.pm6 (JSON::Schema) line 546
+[JSON::Schema]   in submethod BUILD at /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema/lib/JSON/Schema.pm6 (JSON::Schema) line 505
+[JSON::Schema]   in block <unit> at t/01-basic.t line 49
+[JSON::Schema] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema t/02-numeric.t
+[JSON::Schema] # Subtest: Having multipleOf property be a string is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 1 - Having multipleOf property be a string is refused
+[JSON::Schema] # Subtest: Having multipleOf property be a negative number is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 2 - Having multipleOf property be a negative number is refused
+[JSON::Schema] # Subtest: Having multipleOf property be 0 is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 3 - Having multipleOf property be 0 is refused
+[JSON::Schema] ok 4 - Numeric checks are ignored if explicit type is not numeric
+[JSON::Schema] ok 5 - Numeric checks are disabled when type is not set
+[JSON::Schema] ok 6 - 9 is multipleOf 3
+[JSON::Schema] ok 7 - 10 is not multipleOf 3
+[JSON::Schema] ok 8 - 9 is multipleOf 3
+[JSON::Schema] ok 9 - 10 is not multipleOf 3
+[JSON::Schema] # Subtest: Having minimum property be a string is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 10 - Having minimum property be a string is refused
+[JSON::Schema] ok 11 - minimum 3 accepts 3
+[JSON::Schema] ok 12 - minimum 3 accepts 4
+[JSON::Schema] ok 13 - minimum 3 rejects -3
+[JSON::Schema] ok 14 - minimum 3 rejects 1
+[JSON::Schema] # Subtest: Having minimumExclusive property be a string is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 15 - Having minimumExclusive property be a string is refused
+[JSON::Schema] ok 16 - minimumExclusive 3 accepts 4
+[JSON::Schema] ok 17 - minimumExclusive 3 rejects 3
+[JSON::Schema] ok 18 - minimumExclusive 3 rejects -3
+[JSON::Schema] ok 19 - minimumExclusive 3 rejects 1
+[JSON::Schema] # Subtest: Having maximum property be a string is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 20 - Having maximum property be a string is refused
+[JSON::Schema] ok 21 - maximum 3 accepts 3
+[JSON::Schema] ok 22 - maximum 3 accepts 2
+[JSON::Schema] ok 23 - maximum 3 accepts -3
+[JSON::Schema] ok 24 - maximum 3 rejects 5
+[JSON::Schema] # Subtest: Having maximumExclusive property be a string is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 25 - Having maximumExclusive property be a string is refused
+[JSON::Schema] ok 26 - maximumExclusive 3 accepts 2
+[JSON::Schema] ok 27 - maximumExclusive 3 rejects 3
+[JSON::Schema] ok 28 - maximumExclusive 3 accepts -3
+[JSON::Schema] ok 29 - maximumExclusive 3 rejects 5
+[JSON::Schema] 1..29
+[JSON::Schema] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema t/03-string.t
+[JSON::Schema] # Subtest: Having minLength property be an non-integer is refused (Rat)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 1 - Having minLength property be an non-integer is refused (Rat)
+[JSON::Schema] # Subtest: Having minLength property be negative number is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 2 - Having minLength property be negative number is refused
+[JSON::Schema] # Subtest: Having minLength property be an non-integer is refused (Str)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 3 - Having minLength property be an non-integer is refused (Str)
+[JSON::Schema] # Subtest: Having maxLength property be an non-integer is refused (Rat)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 4 - Having maxLength property be an non-integer is refused (Rat)
+[JSON::Schema] # Subtest: Having maxLength property be negative number is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 5 - Having maxLength property be negative number is refused
+[JSON::Schema] # Subtest: Having maxLength property be an non-integer is refused (Str)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 6 - Having maxLength property be an non-integer is refused (Str)
+[JSON::Schema] ok 7 - String type object rejected
+[JSON::Schema] ok 8 - String of minimum length is ok
+[JSON::Schema] ok 9 - String below minimum length rejected
+[JSON::Schema] ok 10 - String of maximum length is ok
+[JSON::Schema] ok 11 - String over maximum length rejected
+[JSON::Schema] ok 12 - String between minimum and maximum ok
+[JSON::Schema] # Subtest: Having pattern property be an non-string is refused (Int)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 13 - Having pattern property be an non-string is refused (Int)
+[JSON::Schema] # Subtest: Having pattern property be an non-string is refused (Hash)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 14 - Having pattern property be an non-string is refused (Hash)
+[JSON::Schema] ok 15 - String matching ^\d+$ validates (1)
+[JSON::Schema] ok 16 - String matching ^\d+$ validates (2)
+[JSON::Schema] ok 17 - String not matching ^\d+$ is invalid
+[JSON::Schema] ok 18 - String matching a|b validates (1)
+[JSON::Schema] ok 19 - String matching a|b validates (2)
+[JSON::Schema] ok 20 - String not matching a|b is invalid
+[JSON::Schema] ok 21 - String matching \bass\b validates
+[JSON::Schema] ok 22 - String not matching \bass\b is invalid
+[JSON::Schema] ok 23 - String matching ^(?=a|b)\w+$ validates (1)
+[JSON::Schema] ok 24 - String matching ^(?=a|b)\w+$ validates (2)
+[JSON::Schema] ok 25 - String not matching ^(?=a|b)\w+$ is invalid
+[JSON::Schema] ok 26 - String matching ^(?!0)\d+$ validates
+[JSON::Schema] ok 27 - String not matching ^(?!0)\d+$ is invalid
+[JSON::Schema] ok 28 - String matching ^\d*?9$ validates (1)
+[JSON::Schema] ok 29 - String matching ^\d*?9$ validates (2)
+[JSON::Schema] ok 30 - String not matching ^\d*?9$ is invalid
+[JSON::Schema] ok 31 - String matching ^a{2}b{3,}c{1,4}$ validates (1)
+[JSON::Schema] ok 32 - String matching ^a{2}b{3,}c{1,4}$ validates (2)
+[JSON::Schema] ok 33 - String not matching ^a{2}b{3,}c{1,4}$ is invalid
+[JSON::Schema] ok 34 - String matching ^.(\w)(?:\d+)$ validates
+[JSON::Schema] ok 35 - String not matching ^.(\w)(?:\d+)$ is invalid
+[JSON::Schema] ok 36 - String matching (\w)\1 validates
+[JSON::Schema] ok 37 - String not matching (\w)\1 is invalid
+[JSON::Schema] ok 38 - String matching \t\n validates
+[JSON::Schema] ok 39 - String not matching \t\n is invalid
+[JSON::Schema] ok 40 - String matching \\ validates
+[JSON::Schema] ok 41 - String not matching \\ is invalid
+[JSON::Schema] ok 42 - String matching \x61 validates
+[JSON::Schema] ok 43 - String not matching \x61 is invalid
+[JSON::Schema] ok 44 - String matching [abc]+ validates
+[JSON::Schema] ok 45 - String not matching [abc]+ is invalid
+[JSON::Schema] ok 46 - String matching [^open]+ validates
+[JSON::Schema] ok 47 - String not matching [^open]+ is invalid
+[JSON::Schema] ok 48 - String matching [A-Fa-f]+ validates
+[JSON::Schema] ok 49 - String not matching [A-fa-f]+ is invalid
+[JSON::Schema] ok 50 - String matching [-]{2} validates
+[JSON::Schema] ok 51 - String not matching [-]{2} is invalid
+[JSON::Schema] ok 52 - String matching ^[\d.]+$ validates
+[JSON::Schema] ok 53 - String not matching ^[\d.]+$ is invalid
+[JSON::Schema] 1..53
+[JSON::Schema] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema t/04-array.t
+[JSON::Schema] # Subtest: Having items property be an integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 1 - Having items property be an integer is refused
+[JSON::Schema] # Subtest: Having items property be a non-object array is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 2 - Having items property be a non-object array is refused
+[JSON::Schema] ok 3 - Having items property be hash is accepted
+[JSON::Schema] ok 4 - Having items property be array of hashes is accepted
+[JSON::Schema] ok 5 - items property is ignored if not an explicit array type
+[JSON::Schema] ok 6 - items property is ignored if not an explicit array type
+[JSON::Schema] ok 7 - array items type restriction for integer accepts list of integers
+[JSON::Schema] ok 8 - array items type restriction for integer rejects list with non-integer element
+[JSON::Schema] ok 9 - array items check with two rules accepts correct input
+[JSON::Schema] ok 10 - array items check with two rejects incorrect input by first check
+[JSON::Schema] ok 11 - array items check with two rejects incorrect input by second check
+[JSON::Schema] ok 12 - items property with array value accepts correct input
+[JSON::Schema] ok 13 - items property with array value rejects incorrect input
+[JSON::Schema] ok 14 - array values after items schemes array length are always accepted 1
+[JSON::Schema] ok 15 - array values after items schemes array length are always accepted 2
+[JSON::Schema] # Subtest: Having additionalItems property be a non-object is refused (Rat)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 16 - Having additionalItems property be a non-object is refused (Rat)
+[JSON::Schema] ok 17 - additionalItems property without items property is omitted
+[JSON::Schema] ok 18 - additionalItems property without items property being array os schemas is omitted
+[JSON::Schema] ok 19 - additionalItems accept correct input
+[JSON::Schema] ok 20 - additionalItems rejects incorrect input
+[JSON::Schema] # Subtest: Having minItems property be a non-integer is refused (Rat)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 21 - Having minItems property be a non-integer is refused (Rat)
+[JSON::Schema] # Subtest: Having maxItems property be a nagative integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 22 - Having maxItems property be a nagative integer is refused
+[JSON::Schema] # Subtest: Having minItems property be a negative integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 23 - Having minItems property be a negative integer is refused
+[JSON::Schema] # Subtest: Having maxItems property be a non-integer is refused (Str)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 24 - Having maxItems property be a non-integer is refused (Str)
+[JSON::Schema] # Subtest: Having uniqueItems property be a non-boolean is refused (Str)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 25 - Having uniqueItems property be a non-boolean is refused (Str)
+[JSON::Schema] ok 26 - Array below minimum length rejected
+[JSON::Schema] ok 27 - Array of minimum length rejected
+[JSON::Schema] ok 28 - Array of maximum length accepted
+[JSON::Schema] ok 29 - Array over maximum length rejected
+[JSON::Schema] ok 30 - String instead of array rejected
+[JSON::Schema] # Subtest: Having uniqueItems property be an integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 31 - Having uniqueItems property be an integer is refused
+[JSON::Schema] ok 32 - Array with duplicates accepted
+[JSON::Schema] ok 33 - Array of objects without duplicates accepted
+[JSON::Schema] ok 34 - Array of objects with duplicates rejected
+[JSON::Schema] ok 35 - Empty array does not contain needed element
+[JSON::Schema] ok 36 - contains check for positive integer rejects negative integer
+[JSON::Schema] ok 37 - contains check for positive integer rejects array of strings
+[JSON::Schema] ok 38 - contains check for positive integer accepts array of strings with `1` included
+[JSON::Schema] 1..38
+[JSON::Schema] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema t/05-objects.t
+[JSON::Schema] # Subtest: Having minProperties property be an non-integer is refused (Rat)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 1 - Having minProperties property be an non-integer is refused (Rat)
+[JSON::Schema] # Subtest: Having maxProperties property be an non-integer is refused (Str)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 2 - Having maxProperties property be an non-integer is refused (Str)
+[JSON::Schema] # Subtest: Having required property be an non-unique list is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 3 - Having required property be an non-unique list is refused
+[JSON::Schema] ok 4 - Object below minimum properties number rejected
+[JSON::Schema] ok 5 - Object of minimum properties number rejected
+[JSON::Schema] ok 6 - Object of maximum properties number accepted
+[JSON::Schema] ok 7 - Object over maximum properties number rejected
+[JSON::Schema] ok 8 - String instead of object rejected
+[JSON::Schema] # Subtest: did we throws-like X::JSON::Schema::Failed?
+[JSON::Schema]     1..3
+[JSON::Schema]     ok 1 - 
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::Failed)
+[JSON::Schema]     ok 3 - .message matches /\'a\' ', ' \'b\'/
+[JSON::Schema] ok 9 - did we throws-like X::JSON::Schema::Failed?
+[JSON::Schema] ok 10 - Object without required attribute rejected
+[JSON::Schema] ok 11 - Object with all required attributes accepted
+[JSON::Schema] ok 12 - Object that has additional attributes besides required accepted
+[JSON::Schema] # Subtest: Having properties property be an empty list is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 13 - Having properties property be an empty list is refused
+[JSON::Schema] # Subtest: Having properties property value be non-object is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 14 - Having properties property value be non-object is refused
+[JSON::Schema] ok 15 - Correct object accepted
+[JSON::Schema] ok 16 - Correct object with values not in properties accepted
+[JSON::Schema] ok 17 - Object with incorrect schema rejected
+[JSON::Schema] ok 18 - Object with incorrect schema rejected
+[JSON::Schema] # Subtest: patternProperties are matched
+[JSON::Schema]     ok 1 - Validation against patternProperties with primitive type value always succeeds
+[JSON::Schema]     ok 2 - Property not matched with patternProperties rule is accepted
+[JSON::Schema]     ok 3 - Property matched with patternProperties is accepted
+[JSON::Schema]     ok 4 - Property matched with patternProperties is rejected
+[JSON::Schema]     ok 5 - Properties matched with patternProperties are rejected 1
+[JSON::Schema]     ok 6 - Properties matched with patternProperties are rejected 2
+[JSON::Schema]     ok 7 - Two patterns are matched
+[JSON::Schema]     ok 8 - Incorrect data for one of many patterns in patternProperties is rejected
+[JSON::Schema]     1..8
+[JSON::Schema] ok 19 - patternProperties are matched
+[JSON::Schema] # Subtest: Having minProperties property be a non-object is refused (Rat)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 20 - Having minProperties property be a non-object is refused (Rat)
+[JSON::Schema] ok 21 - Additional properties are accepted
+[JSON::Schema] ok 22 - Additional properties are rejected
+[JSON::Schema] ok 23 - Additional properties do not interfere with named
+[JSON::Schema] ok 24 - Additional properties do not interfere with patterned
+[JSON::Schema] ok 25 - Additional properties do not interfere with named and patterned
+[JSON::Schema] ok 26 - Valid property is accepted
+[JSON::Schema] ok 27 - Additional property is rejected
+[JSON::Schema] # Subtest: Having dependencies property be a non-object is refused (Rat)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 28 - Having dependencies property be a non-object is refused (Rat)
+[JSON::Schema] # Subtest: Having dependencies property value be non-object is refused (Int)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 29 - Having dependencies property value be non-object is refused (Int)
+[JSON::Schema] # Subtest: Having dependencies property value in array form with non-string inside is refused (Int)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 30 - Having dependencies property value in array form with non-string inside is refused (Int)
+[JSON::Schema] ok 31 - dependencies property is not checked when value is not an object (Int)
+[JSON::Schema] ok 32 - Correct dependant value is accepted
+[JSON::Schema] ok 33 - Incorrect dependant value is rejected
+[JSON::Schema] ok 34 - dependencies property is not checked when absent
+[JSON::Schema] ok 35 - Required values by dependency array are accepted
+[JSON::Schema] ok 36 - Object with missing dependant properties is rejected
+[JSON::Schema] ok 37 - dependencies property is not checked when absent
+[JSON::Schema] # Subtest: Having propertyNames property be a non-object is refused (Int)
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 38 - Having propertyNames property be a non-object is refused (Int)
+[JSON::Schema] # Subtest: Having patternProperties property have non JSON Schema values is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 39 - Having patternProperties property have non JSON Schema values is refused
+[JSON::Schema] ok 40 - dependencies property is not checked when value is not an object (Int)
+[JSON::Schema] ok 41 - Object properties with valid names are accepted
+[JSON::Schema] ok 42 - Object property with too short name is rejected
+[JSON::Schema] ok 43 - Object property with name out of pattern is rejected
+[JSON::Schema] 1..43
+[JSON::Schema] Saw 1 occurrence of deprecated code.
+[JSON::Schema] ================================================================================
+[JSON::Schema] Method perl (from Mu) seen at:
+[JSON::Schema]   /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema/lib/JSON/Schema.pm6 (JSON::Schema), line 187
+[JSON::Schema] Please use raku instead.
+[JSON::Schema] --------------------------------------------------------------------------------
+[JSON::Schema] Please contact the author to have these occurrences of deprecated code
+[JSON::Schema] adapted, so that this message will disappear!
+[JSON::Schema] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema t/06-cond.t
+[JSON::Schema] # Subtest: Having if property be an integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 1 - Having if property be an integer is refused
+[JSON::Schema] # Subtest: Having then property be an integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 2 - Having then property be an integer is refused
+[JSON::Schema] # Subtest: Having else property be an integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 3 - Having else property be an integer is refused
+[JSON::Schema] ok 4 - then and else checks are not applied when `if` is missing
+[JSON::Schema] ok 5 - then check is passed
+[JSON::Schema] ok 6 - then check is failed
+[JSON::Schema] ok 7 - else check is passed
+[JSON::Schema] ok 8 - else check is failed
+[JSON::Schema] 1..8
+[JSON::Schema] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema t/07-boolean-logic.t
+[JSON::Schema] # Subtest: Having allOf property be an integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 1 - Having allOf property be an integer is refused
+[JSON::Schema] # Subtest: Having anyOf property be an integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 2 - Having anyOf property be an integer is refused
+[JSON::Schema] # Subtest: Having oneOf property be an integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 3 - Having oneOf property be an integer is refused
+[JSON::Schema] # Subtest: Having not property be an integer is refused
+[JSON::Schema]     1..2
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::BadSchema)
+[JSON::Schema] ok 4 - Having not property be an integer is refused
+[JSON::Schema] ok 5 - Object that satisfies all checks accepted
+[JSON::Schema] # Subtest: Throws when one of checks is failed in allOf
+[JSON::Schema]     1..3
+[JSON::Schema]     ok 1 - code dies
+[JSON::Schema]     ok 2 - right exception type (X::JSON::Schema::Failed)
+[JSON::Schema]     ok 3 - .message matches /'allOf/2'/
+[JSON::Schema] ok 6 - Throws when one of checks is failed in allOf
+[JSON::Schema] ok 7 - anyOf of object and string accepted object
+[JSON::Schema] ok 8 - anyOf of object and string accepted string
+[JSON::Schema] ok 9 - anyOf of object and string rejected integer
+[JSON::Schema] ok 10 - oneOf accepted single-matched integer
+[JSON::Schema] ok 11 - oneOf rejected string matched twice
+[JSON::Schema] ok 12 - oneOf rejected never matched Rat
+[JSON::Schema] ok 13 - not string rejected string
+[JSON::Schema] ok 14 - not string accepted integer
+[JSON::Schema] ok 15 - not string accepted object
+[JSON::Schema] 1..15
+[JSON::Schema] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/JSON%3A%3ASchema%3Aver%3C0.9%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/JSON-Schema t/08-format.t
+[JSON::Schema] ok 1 - Valid datetime is accepted
+[JSON::Schema] ok 2 - Invalid datetime rejected
+[JSON::Schema] ok 3 - Valid date is accepted
+[JSON::Schema] ok 4 - Invalid date rejected
+[JSON::Schema] ok 5 - Valid relative time accepted
+[JSON::Schema] ok 6 - Invalid relative time rejected
+[JSON::Schema] ok 7 - Invalid date-time by second
+[JSON::Schema] ok 8 - Invalid date-time by minute
+[JSON::Schema] ok 9 - Invalid date-time by hour
+[JSON::Schema] ok 10 - Invalid date-time by day
+[JSON::Schema] ok 11 - Invalid date-time by February month, 1
+[JSON::Schema] ok 12 - Invalid date-time by February month, 2
+[JSON::Schema] ok 13 - Invalid date-time by month
+[JSON::Schema] ok 14 - Invalid date-time with day 0
+[JSON::Schema] ok 15 - Invalid date-time by month 0
+[JSON::Schema] ok 16 - Invalid date-time with tab instead of space
+[JSON::Schema] ok 17 - Valid IPv4 accepted
+[JSON::Schema] ok 18 - Partial IPv4 rejected
+[JSON::Schema] ok 19 - Invalid IPv4 rejected
+[JSON::Schema] ok 20 - Valid IPv6 accepted
+[JSON::Schema] ok 21 - Invalid IPv6 rejected
+[JSON::Schema] ok 22 - Valid URI accepted
+[JSON::Schema] ok 23 - Invalid URI rejected
+[JSON::Schema] ok 24 - Valid URI Reference accepted
+[JSON::Schema] ok 25 - Invalid URI Reference rejected
+[JSON::Schema] ok 26 - Valid URI Template accepted
+[JSON::Schema] ok 27 - Invalid URI Template rejected
+[JSON::Schema] ok 28 - Valid JSON Pointer accepted
+[JSON::Schema] ok 29 - Invalid JSON Pointer rejected
+[JSON::Schema] ok 30 - Valid relative JSON Pointer accepted
+[JSON::Schema] ok 31 - Invalid relative JSON Pointer rejected
+[JSON::Schema] ok 32 - Valid regex accepted 1
+[JSON::Schema] ok 33 - Valid regex accepted 2
+[JSON::Schema] ok 34 - Invalid regex rejected
+[JSON::Schema] ok 35 - add-formats format accepted valid input
+[JSON::Schema] ok 36 - add-formats format rejected invalid input
+[JSON::Schema] 1..36
+===> Testing [FAIL]: JSON::Schema:ver<0.9>
+[JSON::Schema] Failed to get passing tests, but continuing with --force-test
+===> Installing: JSON::Schema:ver<0.9>
+===> Install [OK] for JSON::Schema:ver<0.9>

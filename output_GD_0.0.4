@@ -1,0 +1,124 @@
+===> Searching for: GD
+===> Found: GD:ver<0.0.4>:auth<zef:raku-community-modules>:api<1.0> [via Zef::Repository::Ecosystems<fez>]
+[GD] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782722313.239339.2237.2493691299323/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz https://360.zef.pm/G/GD/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz
+===> Fetching [OK]: GD:ver<0.0.4>:auth<zef:raku-community-modules>:api<1.0> to /blin/data/zef-data/tmp/1782722313.239339.2237.2493691299323/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz
+[GD] Command: tar -t -f ./07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz
+[GD] Command: tar -xvf ./07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz -C ../07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz
+===> Extraction [OK]: GD to /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz
+===> Testing: GD:ver<0.0.4>:auth<zef:raku-community-modules>:api<1.0>
+[GD] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4 t/010-load.rakutest
+[GD] ===SORRY!=== Error while compiling t/010-load.rakutest
+[GD] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4/lib/GD.rakumod (GD)
+[GD] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[GD] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[GD] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[GD] Can't determine actual Offset
+[GD] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[GD] Exception details:
+[GD]   Can't determine actual Offset
+[GD]     in code  at src/Raku/ast/code.rakumod line 23
+[GD]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 80
+[GD]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[GD]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 522
+[GD]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[GD]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[GD]     in any type-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any package-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any scope-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[GD] at /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4/lib/GD.rakumod (GD):3
+[GD] at t/010-load.rakutest:3
+[GD] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4 t/020-synopsis.rakutest
+[GD] ===SORRY!=== Error while compiling t/020-synopsis.rakutest
+[GD] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4/lib/GD.rakumod (GD)
+[GD] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[GD] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[GD] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[GD] Can't determine actual Offset
+[GD] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[GD] Exception details:
+[GD]   Can't determine actual Offset
+[GD]     in code  at src/Raku/ast/code.rakumod line 23
+[GD]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 80
+[GD]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[GD]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 522
+[GD]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[GD]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[GD]     in any type-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any package-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any scope-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[GD] at /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4/lib/GD.rakumod (GD):3
+[GD] at t/020-synopsis.rakutest:2
+[GD] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4 t/030-polygon.rakutest
+[GD] ===SORRY!=== Error while compiling t/030-polygon.rakutest
+[GD] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4/lib/GD.rakumod (GD)
+[GD] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[GD] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[GD] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[GD] Can't determine actual Offset
+[GD] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[GD] Exception details:
+[GD]   Can't determine actual Offset
+[GD]     in code  at src/Raku/ast/code.rakumod line 23
+[GD]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 80
+[GD]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[GD]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 522
+[GD]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[GD]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[GD]     in any type-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any package-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any scope-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[GD] at /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4/lib/GD.rakumod (GD):3
+[GD] at t/030-polygon.rakutest:2
+[GD] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4 t/040-gd-file.rakutest
+[GD] ===SORRY!=== Error while compiling t/040-gd-file.rakutest
+[GD] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4/lib/GD.rakumod (GD)
+[GD] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob)
+[GD] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[GD] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[GD] Can't determine actual Offset
+[GD] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[GD] Exception details:
+[GD]   Can't determine actual Offset
+[GD]     in code  at src/Raku/ast/code.rakumod line 23
+[GD]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 80
+[GD]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[GD]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 522
+[GD]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[GD]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[GD]     in any type-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any package-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any scope-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD]     in any term at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[GD] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/ECB7EB8FC3B2A111E8CEAD259FE0F1FEAEFC08B7 (NativeHelpers::Blob):4
+[GD] at /blin/data/zef-data/tmp/07f721cdf9fc273ce6a4aa73c7a41ecea0bdcc05.tar.gz/GD-0.0.4/lib/GD.rakumod (GD):3
+[GD] at t/040-gd-file.rakutest:3
+===> Testing [FAIL]: GD:ver<0.0.4>:auth<zef:raku-community-modules>:api<1.0>
+[GD] Failed to get passing tests, but continuing with --force-test
+===> Installing: GD:ver<0.0.4>:auth<zef:raku-community-modules>:api<1.0>
+===> Install [OK] for GD:ver<0.0.4>:auth<zef:raku-community-modules>:api<1.0>

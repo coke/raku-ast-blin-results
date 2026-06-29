@@ -1,0 +1,25 @@
+===> Searching for: Portuguese
+===> Found: Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Portuguese] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782710593.135072.4345.472938547642/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz https://360.zef.pm/P/OR/PORTUGUESE/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
+===> Fetching [OK]: Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1> to /blin/data/zef-data/tmp/1782710593.135072.4345.472938547642/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
+[Portuguese] Command: tar -t -f ./9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
+[Portuguese] Command: tar -xvf ./9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz -C ../9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
+===> Extraction [OK]: Portuguese to /blin/data/zef-data/tmp/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
+===> Testing: Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1>
+[Portuguese] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz/dist t/01-operators.t
+[Portuguese] ===SORRY!=== Error while compiling t/01-operators.t
+[Portuguese] ===SORRY!===
+[Portuguese] Lexical symbol '&infix:<até_>' is already bound to an outer symbol. The
+[Portuguese] implicit outer binding must be rewritten as 'OUTER::<&infix:<até_>>'
+[Portuguese] before you can unambiguously declare a new '&infix:<até_>' in this
+[Portuguese] scope.
+[Portuguese] at /blin/data/zef-data/tmp/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz/dist/lib/Portuguese.rakumod (Portuguese):415
+[Portuguese] Lexical symbol '&não' is already bound to an outer symbol. The implicit
+[Portuguese] outer binding must be rewritten as 'OUTER::<&não>' before you can
+[Portuguese] unambiguously declare a new '&não' in this scope.
+[Portuguese] at /blin/data/zef-data/tmp/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz/dist/lib/Portuguese.rakumod (Portuguese):412
+[Portuguese] at t/01-operators.t:5
+===> Testing [FAIL]: Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1>
+[Portuguese] Failed to get passing tests, but continuing with --force-test
+===> Installing: Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1>
+===> Install [OK] for Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1>

@@ -1,0 +1,19 @@
+===> Searching for: Array::Sparse
+===> Found: Array::Sparse:ver<0.0.13>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Array::Sparse] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782717867.197952.9125.358800095608/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz https://360.zef.pm/A/RR/ARRAY_SPARSE/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz
+===> Fetching [OK]: Array::Sparse:ver<0.0.13>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1782717867.197952.9125.358800095608/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz
+[Array::Sparse] Command: tar -t -f ./6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz
+[Array::Sparse] Command: tar -xvf ./6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz -C ../6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz
+===> Extraction [OK]: Array::Sparse to /blin/data/zef-data/tmp/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz
+===> Testing: Array::Sparse:ver<0.0.13>:auth<zef:lizmat>
+[Array::Sparse] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz/Array-Sparse-0.0.13 t/01-basic.rakutest
+[Array::Sparse] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Array::Sparse] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz/Array-Sparse-0.0.13/lib/Array/Sparse.rakumod (Array::Sparse)
+[Array::Sparse] ===SORRY!===
+[Array::Sparse] Object does not exist in serialization context
+[Array::Sparse] at /blin/data/zef-data/tmp/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz/Array-Sparse-0.0.13/lib/Array/Sparse.rakumod (Array::Sparse):1
+[Array::Sparse] at t/01-basic.rakutest:4
+===> Testing [FAIL]: Array::Sparse:ver<0.0.13>:auth<zef:lizmat>
+[Array::Sparse] Failed to get passing tests, but continuing with --force-test
+===> Installing: Array::Sparse:ver<0.0.13>:auth<zef:lizmat>
+===> Install [OK] for Array::Sparse:ver<0.0.13>:auth<zef:lizmat>

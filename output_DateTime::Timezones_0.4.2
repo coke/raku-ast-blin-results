@@ -1,0 +1,39 @@
+===> Searching for: DateTime::Timezones
+===> Found: DateTime::Timezones:ver<0.4.2>:auth<zef:guifa> [via Zef::Repository::Ecosystems<fez>]
+[DateTime::Timezones] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782727165.278903.4509.9558057759095/05b4011829967f76c965d582725e533b7ac195f7.tar.gz https://360.zef.pm/D/AT/DATETIME_TIMEZONES/05b4011829967f76c965d582725e533b7ac195f7.tar.gz
+===> Fetching [OK]: DateTime::Timezones:ver<0.4.2>:auth<zef:guifa> to /blin/data/zef-data/tmp/1782727165.278903.4509.9558057759095/05b4011829967f76c965d582725e533b7ac195f7.tar.gz
+[DateTime::Timezones] Command: tar -t -f ./05b4011829967f76c965d582725e533b7ac195f7.tar.gz
+[DateTime::Timezones] Command: tar -xvf ./05b4011829967f76c965d582725e533b7ac195f7.tar.gz -C ../05b4011829967f76c965d582725e533b7ac195f7.tar.gz
+===> Extraction [OK]: DateTime::Timezones to /blin/data/zef-data/tmp/05b4011829967f76c965d582725e533b7ac195f7.tar.gz
+===> Testing: DateTime::Timezones:ver<0.4.2>:auth<zef:guifa>
+[DateTime::Timezones] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/05b4011829967f76c965d582725e533b7ac195f7.tar.gz/dist t/00-sanity.rakutest
+[DateTime::Timezones] Potential difficulties:
+[DateTime::Timezones]     Missing declarand for trailing declarator doc
+[DateTime::Timezones]     at /blin/data/zef-data/tmp/05b4011829967f76c965d582725e533b7ac195f7.tar.gz/dist/lib/DateTime/Timezones.rakumod (DateTime::Timezones):25
+[DateTime::Timezones]     ------>  The data structure from the TZ database<HERE><EOL>
+[DateTime::Timezones]     Missing declarand for trailing declarator doc
+[DateTime::Timezones]     at /blin/data/zef-data/tmp/05b4011829967f76c965d582725e533b7ac195f7.tar.gz/dist/lib/DateTime/Timezones.rakumod (DateTime::Timezones):25
+[DateTime::Timezones]     ------> gmt-off; #= Our ultimate offset from GMT<HERE><EOL>
+[DateTime::Timezones] 1..0
+[DateTime::Timezones] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/05b4011829967f76c965d582725e533b7ac195f7.tar.gz/dist t/01-upgrade.rakutest
+[DateTime::Timezones] not ok 1 - Mutable upgrade for Olson ID
+[DateTime::Timezones] # Failed test 'Mutable upgrade for Olson ID'
+[DateTime::Timezones] # at t/01-upgrade.rakutest line 20
+[DateTime::Timezones] No such method 'olson-id' for invocant of type 'DateTime'
+[DateTime::Timezones]   in block <unit> at t/01-upgrade.rakutest line 18
+[DateTime::Timezones] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/05b4011829967f76c965d582725e533b7ac195f7.tar.gz/dist t/02-speed.rakutest
+[DateTime::Timezones] Time results for 100 new instances
+[DateTime::Timezones] No such method 'year' for invocant of type 'Int'. Did you mean any of
+[DateTime::Timezones] these: 'REPR', 'Real', 'VAR', 'head'?
+[DateTime::Timezones]   in method new at /blin/data/zef-data/tmp/05b4011829967f76c965d582725e533b7ac195f7.tar.gz/dist/lib/DateTime/Timezones.rakumod (DateTime::Timezones) line 69
+[DateTime::Timezones]   in block <unit> at t/02-speed.rakutest line 26
+[DateTime::Timezones] Original: 0.01074137(1973-03-03T09:46:40Z)
+[DateTime::Timezones] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/05b4011829967f76c965d582725e533b7ac195f7.tar.gz/dist t/03-math.rakutest
+[DateTime::Timezones] No such method 'year' for invocant of type 'Int'. Did you mean any of
+[DateTime::Timezones] these: 'REPR', 'Real', 'VAR', 'head'?
+[DateTime::Timezones]   in method new at /blin/data/zef-data/tmp/05b4011829967f76c965d582725e533b7ac195f7.tar.gz/dist/lib/DateTime/Timezones.rakumod (DateTime::Timezones) line 125
+[DateTime::Timezones]   in block <unit> at t/03-math.rakutest line 10
+===> Testing [FAIL]: DateTime::Timezones:ver<0.4.2>:auth<zef:guifa>
+[DateTime::Timezones] Failed to get passing tests, but continuing with --force-test
+===> Installing: DateTime::Timezones:ver<0.4.2>:auth<zef:guifa>
+===> Install [OK] for DateTime::Timezones:ver<0.4.2>:auth<zef:guifa>

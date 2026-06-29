@@ -1,0 +1,103 @@
+===> Searching for: Grammar::PrettyErrors
+===> Found: Grammar::PrettyErrors:ver<0.0.5>:auth<cpan:BDUGGAN> [via Zef::Repository::Ecosystems<rea>]
+[Grammar::PrettyErrors] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782725366.265267.1102.3629972702354/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/G/Grammar%3A%3APrettyErrors/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz
+===> Fetching [OK]: Grammar::PrettyErrors:ver<0.0.5>:auth<cpan:BDUGGAN> to /blin/data/zef-data/tmp/1782725366.265267.1102.3629972702354/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz
+[Grammar::PrettyErrors] Command: tar -t -f ./Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz
+[Grammar::PrettyErrors] Command: tar -xvf ./Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz -C ../Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz
+===> Extraction [OK]: Grammar::PrettyErrors to /blin/data/zef-data/tmp/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz
+===> Testing: Grammar::PrettyErrors:ver<0.0.5>
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz/Grammar-PrettyErrors-0.0.5 t/00-basic.rakutest
+[Grammar::PrettyErrors] 1..1
+[Grammar::PrettyErrors] not ok 1 - Grammar::PrettyErrors module can be use-d ok
+[Grammar::PrettyErrors] # Failed test 'Grammar::PrettyErrors module can be use-d ok'
+[Grammar::PrettyErrors] # at t/00-basic.rakutest line 6
+[Grammar::PrettyErrors] # Potential difficulties:
+[Grammar::PrettyErrors] #     Declaring role 'Grammar::PrettyErrors' inside an enclosing module of
+[Grammar::PrettyErrors] #     the same name silently replaces the module in the outer stash. This is
+[Grammar::PrettyErrors] #     legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the same
+[Grammar::PrettyErrors] #     pattern installs the role as a nested package instead. Rewrite as 'unit
+[Grammar::PrettyErrors] #     role Grammar::PrettyErrors;' in its own file (or otherwise avoid the
+[Grammar::PrettyErrors] #     module+same-named-role collision) to work the same way on either
+[Grammar::PrettyErrors] #     revision.
+[Grammar::PrettyErrors] #     at line 
+[Grammar::PrettyErrors] # ===SORRY!===
+[Grammar::PrettyErrors] # Object does not exist in serialization context
+[Grammar::PrettyErrors] # 
+[Grammar::PrettyErrors] # You failed 1 test of 1
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz/Grammar-PrettyErrors-0.0.5 t/01-has-ws.rakutest
+[Grammar::PrettyErrors] ===SORRY!=== Error while compiling t/01-has-ws.rakutest
+[Grammar::PrettyErrors] Potential difficulties:
+[Grammar::PrettyErrors]     Declaring role 'Grammar::PrettyErrors' inside an enclosing module of
+[Grammar::PrettyErrors]     the same name silently replaces the module in the outer stash. This is
+[Grammar::PrettyErrors]     legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the same
+[Grammar::PrettyErrors]     pattern installs the role as a nested package instead. Rewrite as 'unit
+[Grammar::PrettyErrors]     role Grammar::PrettyErrors;' in its own file (or otherwise avoid the
+[Grammar::PrettyErrors]     module+same-named-role collision) to work the same way on either
+[Grammar::PrettyErrors]     revision.
+[Grammar::PrettyErrors]     at line 
+[Grammar::PrettyErrors] ===SORRY!===
+[Grammar::PrettyErrors] Object does not exist in serialization context
+[Grammar::PrettyErrors] at t/01-has-ws.rakutest:3
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz/Grammar-PrettyErrors-0.0.5 t/02-no-ws.rakutest
+[Grammar::PrettyErrors] ===SORRY!=== Error while compiling t/02-no-ws.rakutest
+[Grammar::PrettyErrors] Potential difficulties:
+[Grammar::PrettyErrors]     Declaring role 'Grammar::PrettyErrors' inside an enclosing module of
+[Grammar::PrettyErrors]     the same name silently replaces the module in the outer stash. This is
+[Grammar::PrettyErrors]     legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the same
+[Grammar::PrettyErrors]     pattern installs the role as a nested package instead. Rewrite as 'unit
+[Grammar::PrettyErrors]     role Grammar::PrettyErrors;' in its own file (or otherwise avoid the
+[Grammar::PrettyErrors]     module+same-named-role collision) to work the same way on either
+[Grammar::PrettyErrors]     revision.
+[Grammar::PrettyErrors]     at line 
+[Grammar::PrettyErrors] ===SORRY!===
+[Grammar::PrettyErrors] Object does not exist in serialization context
+[Grammar::PrettyErrors] at t/02-no-ws.rakutest:3
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz/Grammar-PrettyErrors-0.0.5 t/03-example.rakutest
+[Grammar::PrettyErrors] ===SORRY!=== Error while compiling t/03-example.rakutest
+[Grammar::PrettyErrors] Potential difficulties:
+[Grammar::PrettyErrors]     Declaring role 'Grammar::PrettyErrors' inside an enclosing module of
+[Grammar::PrettyErrors]     the same name silently replaces the module in the outer stash. This is
+[Grammar::PrettyErrors]     legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the same
+[Grammar::PrettyErrors]     pattern installs the role as a nested package instead. Rewrite as 'unit
+[Grammar::PrettyErrors]     role Grammar::PrettyErrors;' in its own file (or otherwise avoid the
+[Grammar::PrettyErrors]     module+same-named-role collision) to work the same way on either
+[Grammar::PrettyErrors]     revision.
+[Grammar::PrettyErrors]     at line 
+[Grammar::PrettyErrors] ===SORRY!===
+[Grammar::PrettyErrors] Object does not exist in serialization context
+[Grammar::PrettyErrors] at t/03-example.rakutest:4
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz/Grammar-PrettyErrors-0.0.5 t/04-context.rakutest
+[Grammar::PrettyErrors] ===SORRY!=== Error while compiling t/04-context.rakutest
+[Grammar::PrettyErrors] Potential difficulties:
+[Grammar::PrettyErrors]     Declaring role 'Grammar::PrettyErrors' inside an enclosing module of
+[Grammar::PrettyErrors]     the same name silently replaces the module in the outer stash. This is
+[Grammar::PrettyErrors]     legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the same
+[Grammar::PrettyErrors]     pattern installs the role as a nested package instead. Rewrite as 'unit
+[Grammar::PrettyErrors]     role Grammar::PrettyErrors;' in its own file (or otherwise avoid the
+[Grammar::PrettyErrors]     module+same-named-role collision) to work the same way on either
+[Grammar::PrettyErrors]     revision.
+[Grammar::PrettyErrors]     at line 
+[Grammar::PrettyErrors] ===SORRY!===
+[Grammar::PrettyErrors] Object does not exist in serialization context
+[Grammar::PrettyErrors] at t/04-context.rakutest:4
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz/Grammar-PrettyErrors-0.0.5 t/05-custom-ws.rakutest
+[Grammar::PrettyErrors] ===SORRY!=== Error while compiling t/05-custom-ws.rakutest
+[Grammar::PrettyErrors] Potential difficulties:
+[Grammar::PrettyErrors]     Declaring role 'Grammar::PrettyErrors' inside an enclosing module of
+[Grammar::PrettyErrors]     the same name silently replaces the module in the outer stash. This is
+[Grammar::PrettyErrors]     legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the same
+[Grammar::PrettyErrors]     pattern installs the role as a nested package instead. Rewrite as 'unit
+[Grammar::PrettyErrors]     role Grammar::PrettyErrors;' in its own file (or otherwise avoid the
+[Grammar::PrettyErrors]     module+same-named-role collision) to work the same way on either
+[Grammar::PrettyErrors]     revision.
+[Grammar::PrettyErrors]     at line 
+[Grammar::PrettyErrors] ===SORRY!===
+[Grammar::PrettyErrors] Object does not exist in serialization context
+[Grammar::PrettyErrors] at t/05-custom-ws.rakutest:3
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/Grammar%3A%3APrettyErrors%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3ABDUGGAN%3E.tar.gz/Grammar-PrettyErrors-0.0.5 t/99-meta.rakutest
+[Grammar::PrettyErrors] 1..1
+[Grammar::PrettyErrors] ok 1 - # SKIP Skipping author test
+===> Testing [FAIL]: Grammar::PrettyErrors:ver<0.0.5>
+[Grammar::PrettyErrors] Failed to get passing tests, but continuing with --force-test
+===> Installing: Grammar::PrettyErrors:ver<0.0.5>
+===> Install [OK] for Grammar::PrettyErrors:ver<0.0.5>

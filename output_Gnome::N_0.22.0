@@ -1,0 +1,116 @@
+===> Searching for: Gnome::N
+===> Found: Gnome::N:ver<0.1.53>:auth<zef:martimm>:api<2> [via Zef::Repository::Ecosystems<fez>]
+[Gnome::N] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782702275.64110.6554.43152299224/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz https://360.zef.pm/G/NO/GNOME_N/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz
+===> Fetching [OK]: Gnome::N:ver<0.1.53>:auth<zef:martimm>:api<2> to /blin/data/zef-data/tmp/1782702275.64110.6554.43152299224/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz
+[Gnome::N] Command: tar -t -f ./6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz
+[Gnome::N] Command: tar -xvf ./6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz -C ../6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz
+===> Extraction [OK]: Gnome::N to /blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz
+===> Building: Gnome::N:ver<0.1.53>:auth<zef:martimm>:api<2>
+[Gnome::N] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -e require '/blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz/Build.rakumod'; ::('Build').new.build('/blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz') ?? exit(0) !! exit(1);
+[Gnome::N] c-type: GEnum, raku type: int32
+[Gnome::N] c-type: GFlag, raku type: uint32
+[Gnome::N] c-type: GQuark, raku type: uint32
+[Gnome::N] c-type: GType, raku type: uint64
+[Gnome::N] c-type: cairo_bool_t, raku type: int32
+[Gnome::N] c-type: char-ppptr, raku type: CArray[CArray[Str]]
+[Gnome::N] c-type: char-pptr, raku type: CArray[Str]
+[Gnome::N] c-type: gboolean, raku type: int32
+[Gnome::N] c-type: gchar, raku type: int8
+[Gnome::N] c-type: gchar-ppptr, raku type: CArray[CArray[Str]]
+[Gnome::N] c-type: gchar-pptr, raku type: CArray[Str]
+[Gnome::N] c-type: gchar-ptr, raku type: Str
+[Gnome::N] c-type: gdouble, raku type: num64
+[Gnome::N] c-type: gfloat, raku type: num32
+[Gnome::N] c-type: gint, raku type: int32
+[Gnome::N] c-type: gint-ptr, raku type: CArray[int32]
+[Gnome::N] c-type: gint16, raku type: int16
+[Gnome::N] c-type: gint32, raku type: int32
+[Gnome::N] c-type: gint64, raku type: int64
+[Gnome::N] c-type: gint8, raku type: int8
+[Gnome::N] c-type: glong, raku type: int64
+[Gnome::N] c-type: gpointer, raku type: Pointer
+[Gnome::N] c-type: gshort, raku type: int16
+[Gnome::N] c-type: gsize, raku type: uint64
+[Gnome::N] c-type: gssize, raku type: int64
+[Gnome::N] c-type: guchar, raku type: uint8
+[Gnome::N] c-type: guint, raku type: uint32
+[Gnome::N] c-type: guint16, raku type: uint16
+[Gnome::N] c-type: guint32, raku type: uint32
+[Gnome::N] c-type: guint64, raku type: uint64
+[Gnome::N] c-type: guint8, raku type: uint8
+[Gnome::N] c-type: gulong, raku type: uint64
+[Gnome::N] c-type: gunichar, raku type: uint32
+[Gnome::N] c-type: gushort, raku type: uint16
+[Gnome::N] c-type: int-ptr, raku type: CArray[int32]
+[Gnome::N] c-type: time_t, raku type: int64
+[Gnome::N] c-type: void-ptr, raku type: Pointer[void]
+===> Building [OK] for Gnome::N:ver<0.1.53>:auth<zef:martimm>:api<2>
+===> Testing: Gnome::N:ver<0.1.53>:auth<zef:martimm>:api<2>
+[Gnome::N] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz t/GlibToRakuTypes.rakutest
+[Gnome::N] ok 1 - Gnome::N::GlibToRakuTypes loads ok
+[Gnome::N] # Subtest: type tests
+[Gnome::N]     # GEnum:        (int32)
+[Gnome::N]     # GFlag:        (uint32)
+[Gnome::N]     # GQuark:       (uint32)
+[Gnome::N]     # GType:        (uint64)
+[Gnome::N]     # char-ppptr:   (CArray[CArray[Str]])
+[Gnome::N]     # char-pptr:    (CArray[Str])
+[Gnome::N]     # gboolean:     (int32)
+[Gnome::N]     # gchar:        (int8)
+[Gnome::N]     # gchar-ppptr:  (CArray[CArray[Str]])
+[Gnome::N]     # gchar-pptr:   (CArray[Str])
+[Gnome::N]     # gchar-ptr:    (Str)
+[Gnome::N]     # gdouble:      (num64)
+[Gnome::N]     # gfloat:       (num32)
+[Gnome::N]     # gint:         (int32)
+[Gnome::N]     # gint-ptr:     (CArray[int32])
+[Gnome::N]     # gint16:       (int16)
+[Gnome::N]     # gint32:       (int32)
+[Gnome::N]     # gint64:       (int64)
+[Gnome::N]     # gint8:        (int8)
+[Gnome::N]     # glong:        (int64)
+[Gnome::N]     # gpointer:     (NativeCall::Types::Pointer)
+[Gnome::N]     # gshort:       (int16)
+[Gnome::N]     # gsize:        (uint64)
+[Gnome::N]     # gssize:       (int64)
+[Gnome::N]     # guchar:       (uint8)
+[Gnome::N]     # guint:        (uint32)
+[Gnome::N]     # guint16:      (uint16)
+[Gnome::N]     # guint32:      (uint32)
+[Gnome::N]     # guint64:      (uint64)
+[Gnome::N]     # guint8:       (uint8)
+[Gnome::N]     # gulong:       (uint64)
+[Gnome::N]     # gushort:      (uint16)
+[Gnome::N]     # int-ptr:      (CArray[int32])
+[Gnome::N]     # time_t:       (int64)
+[Gnome::N]     # void-ptr:     (NativeCall::Types::Pointer[NativeCall::Types::void])
+[Gnome::N]     1..0
+[Gnome::N] ok 2 - type tests
+[Gnome::N] 1..2
+[Gnome::N] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz t/NativeLib.rakutest
+[Gnome::N] ===SORRY!=== Error while compiling t/NativeLib.rakutest
+[Gnome::N] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz/lib/Gnome/N/N-Object.rakumod (Gnome::N::N-Object)
+[Gnome::N] is repr(...) trait value must be known at compile time
+[Gnome::N] at /blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz/lib/Gnome/N/N-Object.rakumod (Gnome::N::N-Object):21
+[Gnome::N] ------> unit class N-Object is repr('CPointer')<HERE> is export;
+[Gnome::N] at t/NativeLib.rakutest:6
+[Gnome::N] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz t/n-gobject.rakutest
+[Gnome::N] ===SORRY!=== Error while compiling t/n-gobject.rakutest
+[Gnome::N] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz/lib/Gnome/N/N-Object.rakumod (Gnome::N::N-Object)
+[Gnome::N] is repr(...) trait value must be known at compile time
+[Gnome::N] at /blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz/lib/Gnome/N/N-Object.rakumod (Gnome::N::N-Object):21
+[Gnome::N] ------> unit class N-Object is repr('CPointer')<HERE> is export;
+[Gnome::N] at t/n-gobject.rakutest:5
+[Gnome::N] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/6fa3627f66bdb44486e921ae1790af218d6cfafe.tar.gz t/x.rakutest
+[Gnome::N] # Subtest: debugging
+[Gnome::N]     not ok 1 - 0 debugging off
+[Gnome::N]     # Failed test '0 debugging off'
+[Gnome::N]     # at t/x.rakutest line 9
+[Gnome::N]     # expected: 'False'
+[Gnome::N]     #      got: (Any)
+[Gnome::N] Could not find symbol '&debug' in 'Gnome::N'
+[Gnome::N]   in block <unit> at t/x.rakutest line 10
+===> Testing [FAIL]: Gnome::N:ver<0.1.53>:auth<zef:martimm>:api<2>
+[Gnome::N] Failed to get passing tests, but continuing with --force-test
+===> Installing: Gnome::N:ver<0.1.53>:auth<zef:martimm>:api<2>
+===> Install [OK] for Gnome::N:ver<0.1.53>:auth<zef:martimm>:api<2>

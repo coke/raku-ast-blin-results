@@ -1,0 +1,40 @@
+===> Searching for: X11::Xlib::Raw
+===> Found: X11::Xlib::Raw [via Zef::Repository::Ecosystems<rea>]
+[X11::Xlib::Raw] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782722625.242986.3093.247922617698/X11%3A%3AXlib%3A%3ARaw%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aslobo%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/X/X11%3A%3AXlib%3A%3ARaw/X11%3A%3AXlib%3A%3ARaw%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aslobo%3E.tar.gz
+===> Fetching [OK]: X11::Xlib::Raw to /blin/data/zef-data/tmp/1782722625.242986.3093.247922617698/X11%3A%3AXlib%3A%3ARaw%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aslobo%3E.tar.gz
+[X11::Xlib::Raw] Command: tar -t -f ./X11%3A%3AXlib%3A%3ARaw%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aslobo%3E.tar.gz
+[X11::Xlib::Raw] Command: tar -xvf ./X11%3A%3AXlib%3A%3ARaw%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aslobo%3E.tar.gz -C ../X11%3A%3AXlib%3A%3ARaw%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aslobo%3E.tar.gz
+===> Extraction [OK]: X11::Xlib::Raw to /blin/data/zef-data/tmp/X11%3A%3AXlib%3A%3ARaw%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aslobo%3E.tar.gz
+===> Testing: X11::Xlib::Raw
+[X11::Xlib::Raw] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/X11%3A%3AXlib%3A%3ARaw%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aslobo%3E.tar.gz/Perl6-X11-Xlib-Raw-master t/01-sanity.t
+[X11::Xlib::Raw] ===SORRY!=== Error while compiling t/01-sanity.t
+[X11::Xlib::Raw] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/X11%3A%3AXlib%3A%3ARaw%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aslobo%3E.tar.gz/Perl6-X11-Xlib-Raw-master/lib/X11/Xlib/Raw.pm6 (X11::Xlib::Raw)
+[X11::Xlib::Raw] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/6D2282D7279FD8D35CBE3C54A7AF56EF6E6234AC (NativeHelpers::CStruct)
+[X11::Xlib::Raw] ===SORRY!=== Error while compiling /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs)
+[X11::Xlib::Raw] An exception X::AdHoc+{X::Comp} occurred while evaluating a BEGIN:
+[X11::Xlib::Raw] Can't determine actual Offset
+[X11::Xlib::Raw] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/8601336F67C4CD2F43AE007F5A8E9FE6FD6A7501 (MoarVM::Guts::REPRs):13
+[X11::Xlib::Raw] Exception details:
+[X11::Xlib::Raw]   Can't determine actual Offset
+[X11::Xlib::Raw]     in code  at src/Raku/ast/code.rakumod line 23
+[X11::Xlib::Raw]     in any IMPL-BEGIN-TIME-EVALUATE at src/Raku/ast/begintime.rakumod line 80
+[X11::Xlib::Raw]     in any IMPL-COMPILE-TIME-VALUE at src/Raku/ast/variable-declaration.rakumod line 13
+[X11::Xlib::Raw]     in any PERFORM-BEGIN at src/Raku/ast/variable-declaration.rakumod line 522
+[X11::Xlib::Raw]     in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 24
+[X11::Xlib::Raw]     in any to-begin-time at src/Raku/ast/base.rakumod line 108
+[X11::Xlib::Raw]     in any type-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[X11::Xlib::Raw]     in any term:sym<type-declarator> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[X11::Xlib::Raw]     in any term at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[X11::Xlib::Raw]     in any package-declarator:sym<module> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[X11::Xlib::Raw]     in any package-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[X11::Xlib::Raw]     in any scope-declarator:sym<unit> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[X11::Xlib::Raw]     in any scope-declarator at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[X11::Xlib::Raw]     in any term:sym<scope-declarator> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[X11::Xlib::Raw]     in any term at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/lib/Raku/Grammar.moarvm line 1
+[X11::Xlib::Raw] at /blin/installed/NativeHelpers::Blob_0.1.12/sources/6D2282D7279FD8D35CBE3C54A7AF56EF6E6234AC (NativeHelpers::CStruct):4
+[X11::Xlib::Raw] at /blin/data/zef-data/tmp/X11%3A%3AXlib%3A%3ARaw%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Aslobo%3E.tar.gz/Perl6-X11-Xlib-Raw-master/lib/X11/Xlib/Raw.pm6 (X11::Xlib::Raw):4
+[X11::Xlib::Raw] at t/01-sanity.t:4
+===> Testing [FAIL]: X11::Xlib::Raw
+[X11::Xlib::Raw] Failed to get passing tests, but continuing with --force-test
+===> Installing: X11::Xlib::Raw
+===> Install [OK] for X11::Xlib::Raw

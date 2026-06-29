@@ -1,0 +1,59 @@
+===> Searching for: HomoGlypher
+===> Found: HomoGlypher:ver<1.8.7>:auth<zef:bbkr> [via Zef::Repository::Ecosystems<fez>]
+[HomoGlypher] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782703647.76830.7867.702541630586/87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz https://360.zef.pm/H/OM/HOMOGLYPHER/87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz
+===> Fetching [OK]: HomoGlypher:ver<1.8.7>:auth<zef:bbkr> to /blin/data/zef-data/tmp/1782703647.76830.7867.702541630586/87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz
+[HomoGlypher] Command: tar -t -f ./87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz
+[HomoGlypher] Command: tar -xvf ./87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz -C ../87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz
+===> Extraction [OK]: HomoGlypher to /blin/data/zef-data/tmp/87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz
+===> Testing: HomoGlypher:ver<1.8.7>:auth<zef:bbkr>
+[HomoGlypher] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz/dist t/00-mappings.rakutest
+[HomoGlypher] 1..13
+[HomoGlypher] ok 1 - empty by default
+[HomoGlypher] ok 2 - cyrillic added
+[HomoGlypher] ok 3 - new mapping initialized
+[HomoGlypher] ok 4 - duplicates added
+[HomoGlypher] ok 5 - duplicated mapping skipped
+[HomoGlypher] ok 6 - greek added
+[HomoGlypher] ok 7 - additional mapping merged
+[HomoGlypher] ok 8 - antimapping generated
+[HomoGlypher] ok 9 - predefined mappings present
+[HomoGlypher] ok 10 - basic mappings loaded
+[HomoGlypher] ok 11 - typeface mappings loaded
+[HomoGlypher] ok 12 - accented mappings loaded
+[HomoGlypher] ok 13 - flipped mappings loaded
+[HomoGlypher] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz/dist t/01-unwind.rakutest
+[HomoGlypher] 1..6
+[HomoGlypher] ok 1 - no mappings
+[HomoGlypher] ok 2 - empty string
+[HomoGlypher] ok 3 - no matches in mappings
+[HomoGlypher] ok 4 - single characters matches in mappings
+[HomoGlypher] ok 5 - multi characters matches in mappings
+[HomoGlypher] ok 6 - multi characters overlapping matches in mappings
+[HomoGlypher] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz/dist t/02-collapse.rakutest
+[HomoGlypher] 1..6
+[HomoGlypher] ok 1 - no antimappings
+[HomoGlypher] ok 2 - empty string
+[HomoGlypher] ok 3 - no matches in antimappings
+[HomoGlypher] ok 4 - single characters matches in anitmappings
+[HomoGlypher] ok 5 - single character opaque matches in antimappings
+[HomoGlypher] ok 6 - multi character overlapping matches in antimappings
+[HomoGlypher] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz/dist t/03-tokenize.rakutest
+[HomoGlypher] 1..5
+[HomoGlypher] ok 1 - token built
+[HomoGlypher] ok 2 - literal text is not matched
+[HomoGlypher] ok 3 - homoglyphed text is matched
+[HomoGlypher] ok 4 - token captures homoglyphed text
+[HomoGlypher] Too few positionals passed; expected 2 arguments but got 1
+[HomoGlypher]   in regex  at /blin/data/zef-data/tmp/87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz/dist/lib/HomoGlypher.rakumod (HomoGlypher) line 145
+[HomoGlypher]   in block <unit> at t/03-tokenize.rakutest line 32
+[HomoGlypher] # You planned 5 tests, but ran 4
+[HomoGlypher] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/87b0892cbfee041476f2b511ccb1802d33f3ca29.tar.gz/dist t/04-randomize.rakutest
+[HomoGlypher] 1..4
+[HomoGlypher] ok 1 - no mappings
+[HomoGlypher] ok 2 - characters can be randomized or left alone depending on level
+[HomoGlypher] ok 3 - every replacement may appear
+[HomoGlypher] ok 4 - overlapping mappings
+===> Testing [FAIL]: HomoGlypher:ver<1.8.7>:auth<zef:bbkr>
+[HomoGlypher] Failed to get passing tests, but continuing with --force-test
+===> Installing: HomoGlypher:ver<1.8.7>:auth<zef:bbkr>
+===> Install [OK] for HomoGlypher:ver<1.8.7>:auth<zef:bbkr>

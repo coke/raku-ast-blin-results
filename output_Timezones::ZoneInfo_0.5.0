@@ -1,0 +1,330 @@
+===> Searching for: Timezones::ZoneInfo
+===> Found: Timezones::ZoneInfo:ver<0.5.0>:auth<zef:guifa> [via Zef::Repository::Ecosystems<fez>]
+[Timezones::ZoneInfo] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782715128.175190.1380.4671092399744/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz https://360.zef.pm/T/IM/TIMEZONES_ZONEINFO/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz
+===> Fetching [OK]: Timezones::ZoneInfo:ver<0.5.0>:auth<zef:guifa> to /blin/data/zef-data/tmp/1782715128.175190.1380.4671092399744/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz
+[Timezones::ZoneInfo] Command: tar -t -f ./2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz
+[Timezones::ZoneInfo] Command: tar -xvf ./2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz -C ../2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz
+===> Extraction [OK]: Timezones::ZoneInfo to /blin/data/zef-data/tmp/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz
+===> Building: Timezones::ZoneInfo:ver<0.5.0>:auth<zef:guifa>
+[Timezones::ZoneInfo] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -e require '/blin/data/zef-data/tmp/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz/dist/Build.pm6'; ::('Build').new.build('/blin/data/zef-data/tmp/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz/dist') ?? exit(0) !! exit(1);
+===> Building [OK] for Timezones::ZoneInfo:ver<0.5.0>:auth<zef:guifa>
+===> Testing: Timezones::ZoneInfo:ver<0.5.0>:auth<zef:guifa>
+[Timezones::ZoneInfo] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz/dist t/00-sanity.t
+[Timezones::ZoneInfo] ok 1 - 
+[Timezones::ZoneInfo] 1..1
+[Timezones::ZoneInfo] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz/dist t/01-accuracy.t
+[Timezones::ZoneInfo] # Subtest: GMT 2020-01-02T03:04:05 / POSIX 1577934245
+[Timezones::ZoneInfo]     not ok 1 - → GMT
+[Timezones::ZoneInfo]     # Failed test '→ GMT'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 33
+[Timezones::ZoneInfo]     # expected: 'Same'
+[Timezones::ZoneInfo]     #      got: 'Less'
+[Timezones::ZoneInfo]     not ok 2 - ← GMT
+[Timezones::ZoneInfo]     # Failed test '← GMT'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 36
+[Timezones::ZoneInfo]     # expected: '1782715168'
+[Timezones::ZoneInfo]     #      got: '1577934245'
+[Timezones::ZoneInfo]     not ok 3 - → America/New_York
+[Timezones::ZoneInfo]     # Failed test '→ America/New_York'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 41
+[Timezones::ZoneInfo]     # expected: 'Same'
+[Timezones::ZoneInfo]     #      got: 'Less'
+[Timezones::ZoneInfo]     not ok 4 - ← America/New_York
+[Timezones::ZoneInfo]     # Failed test '← America/New_York'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 44
+[Timezones::ZoneInfo]     # expected: '1782715168'
+[Timezones::ZoneInfo]     #      got: '1577934245'
+[Timezones::ZoneInfo]     # You failed 4 tests of 4
+[Timezones::ZoneInfo] # Failed test 'GMT 2020-01-02T03:04:05 / POSIX 1577934245'
+[Timezones::ZoneInfo] # at t/01-accuracy.t line 29
+[Timezones::ZoneInfo]     1..4
+[Timezones::ZoneInfo] not ok 1 - GMT 2020-01-02T03:04:05 / POSIX 1577934245
+[Timezones::ZoneInfo] # Subtest: GMT 1984-10-23T09:42:57 / POSIX 467372577
+[Timezones::ZoneInfo]     not ok 1 - → GMT
+[Timezones::ZoneInfo]     # Failed test '→ GMT'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 54
+[Timezones::ZoneInfo]     # expected: 'Same'
+[Timezones::ZoneInfo]     #      got: 'Less'
+[Timezones::ZoneInfo]     not ok 2 - ← GMT
+[Timezones::ZoneInfo]     # Failed test '← GMT'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 57
+[Timezones::ZoneInfo]     # expected: '1782715168'
+[Timezones::ZoneInfo]     #      got: '467372577'
+[Timezones::ZoneInfo]     not ok 3 - → America/New_York
+[Timezones::ZoneInfo]     # Failed test '→ America/New_York'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 62
+[Timezones::ZoneInfo]     # expected: 'Same'
+[Timezones::ZoneInfo]     #      got: 'Less'
+[Timezones::ZoneInfo]     not ok 4 - ← America/New_York
+[Timezones::ZoneInfo]     # Failed test '← America/New_York'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 65
+[Timezones::ZoneInfo]     # expected: '1782715168'
+[Timezones::ZoneInfo]     #      got: '467372577'
+[Timezones::ZoneInfo]     1..4
+[Timezones::ZoneInfo]     # You failed 4 tests of 4
+[Timezones::ZoneInfo] not ok 2 - GMT 1984-10-23T09:42:57 / POSIX 467372577
+[Timezones::ZoneInfo] # Failed test 'GMT 1984-10-23T09:42:57 / POSIX 467372577'
+[Timezones::ZoneInfo] # at t/01-accuracy.t line 50
+[Timezones::ZoneInfo] # Subtest: GMT 1992-04-19T22:40:56 / POSIX 703723256
+[Timezones::ZoneInfo]     not ok 1 - → GMT
+[Timezones::ZoneInfo]     # Failed test '→ GMT'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 75
+[Timezones::ZoneInfo]     # expected: 'Same'
+[Timezones::ZoneInfo]     #      got: 'Less'
+[Timezones::ZoneInfo]     not ok 2 - ← GMT
+[Timezones::ZoneInfo]     # Failed test '← GMT'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 78
+[Timezones::ZoneInfo]     # expected: '1782715168'
+[Timezones::ZoneInfo]     #      got: '703723256'
+[Timezones::ZoneInfo]     not ok 3 - → America/New_York
+[Timezones::ZoneInfo]     # Failed test '→ America/New_York'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 83
+[Timezones::ZoneInfo]     # expected: 'Same'
+[Timezones::ZoneInfo]     #      got: 'Less'
+[Timezones::ZoneInfo]     not ok 4 - ← America/New_York
+[Timezones::ZoneInfo]     # Failed test '← America/New_York'
+[Timezones::ZoneInfo]     # at t/01-accuracy.t line 86
+[Timezones::ZoneInfo]     # expected: '1782715169'
+[Timezones::ZoneInfo]     #      got: '703723256'
+[Timezones::ZoneInfo]     1..4
+[Timezones::ZoneInfo] not ok 3 - GMT 1992-04-19T22:40:56 / POSIX 703723256
+[Timezones::ZoneInfo] 1..3
+[Timezones::ZoneInfo]     # You failed 4 tests of 4
+[Timezones::ZoneInfo] # Failed test 'GMT 1992-04-19T22:40:56 / POSIX 703723256'
+[Timezones::ZoneInfo] # at t/01-accuracy.t line 71
+[Timezones::ZoneInfo] # You failed 3 tests of 3
+[Timezones::ZoneInfo] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz/dist t/02-roundtrip.t
+[Timezones::ZoneInfo] ok 1 - Random test (992714376)
+[Timezones::ZoneInfo] ok 2 - Random test (1622298512)
+[Timezones::ZoneInfo] ok 3 - Random test (748298348)
+[Timezones::ZoneInfo] ok 4 - Random test (1096128837)
+[Timezones::ZoneInfo] ok 5 - Random test (43356018)
+[Timezones::ZoneInfo] ok 6 - Random test (1310878432)
+[Timezones::ZoneInfo] ok 7 - Random test (554498897)
+[Timezones::ZoneInfo] ok 8 - Random test (1650413070)
+[Timezones::ZoneInfo] ok 9 - Random test (803830795)
+[Timezones::ZoneInfo] ok 10 - Random test (747750422)
+[Timezones::ZoneInfo] ok 11 - Random test (583412767)
+[Timezones::ZoneInfo] ok 12 - Random test (1235329007)
+[Timezones::ZoneInfo] ok 13 - Random test (1285284848)
+[Timezones::ZoneInfo] ok 14 - Random test (223931324)
+[Timezones::ZoneInfo] ok 15 - Random test (1254674278)
+[Timezones::ZoneInfo] ok 16 - Random test (379123246)
+[Timezones::ZoneInfo] ok 17 - Random test (1284646904)
+[Timezones::ZoneInfo] ok 18 - Random test (467638495)
+[Timezones::ZoneInfo] ok 19 - Random test (951639642)
+[Timezones::ZoneInfo] ok 20 - Random test (1317682684)
+[Timezones::ZoneInfo] ok 21 - Random test (932988894)
+[Timezones::ZoneInfo] ok 22 - Random test (490561310)
+[Timezones::ZoneInfo] ok 23 - Random test (538670698)
+[Timezones::ZoneInfo] ok 24 - Random test (769633401)
+[Timezones::ZoneInfo] ok 25 - Random test (327809282)
+[Timezones::ZoneInfo] ok 26 - Random test (1640381692)
+[Timezones::ZoneInfo] ok 27 - Random test (59343723)
+[Timezones::ZoneInfo] ok 28 - Random test (1620725825)
+[Timezones::ZoneInfo] ok 29 - Random test (317657542)
+[Timezones::ZoneInfo] ok 30 - Random test (388869796)
+[Timezones::ZoneInfo] ok 31 - Random test (1245913776)
+[Timezones::ZoneInfo] ok 32 - Random test (1156422317)
+[Timezones::ZoneInfo] ok 33 - Random test (1154708247)
+[Timezones::ZoneInfo] ok 34 - Random test (1375838350)
+[Timezones::ZoneInfo] ok 35 - Random test (473912213)
+[Timezones::ZoneInfo] ok 36 - Random test (184794042)
+[Timezones::ZoneInfo] ok 37 - Random test (1406061723)
+[Timezones::ZoneInfo] ok 38 - Random test (1046157526)
+[Timezones::ZoneInfo] ok 39 - Random test (1498779499)
+[Timezones::ZoneInfo] ok 40 - Random test (1132439088)
+[Timezones::ZoneInfo] ok 41 - Random test (1619765092)
+[Timezones::ZoneInfo] ok 42 - Random test (367031535)
+[Timezones::ZoneInfo] ok 43 - Random test (1116732729)
+[Timezones::ZoneInfo] ok 44 - Random test (1215600899)
+[Timezones::ZoneInfo] ok 45 - Random test (798625680)
+[Timezones::ZoneInfo] ok 46 - Random test (978566734)
+[Timezones::ZoneInfo] ok 47 - Random test (415345884)
+[Timezones::ZoneInfo] ok 48 - Random test (298097373)
+[Timezones::ZoneInfo] ok 49 - Random test (1457449716)
+[Timezones::ZoneInfo] ok 50 - Random test (426516084)
+[Timezones::ZoneInfo] ok 51 - Random test (142887346)
+[Timezones::ZoneInfo] ok 52 - Random test (1155297613)
+[Timezones::ZoneInfo] ok 53 - Random test (1610463560)
+[Timezones::ZoneInfo] ok 54 - Random test (771063318)
+[Timezones::ZoneInfo] ok 55 - Random test (464255393)
+[Timezones::ZoneInfo] ok 56 - Random test (105411884)
+[Timezones::ZoneInfo] ok 57 - Random test (1291426129)
+[Timezones::ZoneInfo] ok 58 - Random test (1266219710)
+[Timezones::ZoneInfo] ok 59 - Random test (197779668)
+[Timezones::ZoneInfo] ok 60 - Random test (698453014)
+[Timezones::ZoneInfo] ok 61 - Random test (191795487)
+[Timezones::ZoneInfo] ok 62 - Random test (1308901890)
+[Timezones::ZoneInfo] ok 63 - Random test (43859912)
+[Timezones::ZoneInfo] ok 64 - Random test (921889966)
+[Timezones::ZoneInfo] ok 65 - Random test (1089484096)
+[Timezones::ZoneInfo] ok 66 - Random test (670110220)
+[Timezones::ZoneInfo] ok 67 - Random test (598222212)
+[Timezones::ZoneInfo] ok 68 - Random test (680579027)
+[Timezones::ZoneInfo] ok 69 - Random test (1389701756)
+[Timezones::ZoneInfo] ok 70 - Random test (314048966)
+[Timezones::ZoneInfo] ok 71 - Random test (1438431534)
+[Timezones::ZoneInfo] ok 72 - Random test (1341980177)
+[Timezones::ZoneInfo] ok 73 - Random test (602291777)
+[Timezones::ZoneInfo] ok 74 - Random test (1305173930)
+[Timezones::ZoneInfo] ok 75 - Random test (546338326)
+[Timezones::ZoneInfo] ok 76 - Random test (903201797)
+[Timezones::ZoneInfo] ok 77 - Random test (1063133864)
+[Timezones::ZoneInfo] ok 78 - Random test (1670702801)
+[Timezones::ZoneInfo] ok 79 - Random test (987667260)
+[Timezones::ZoneInfo] ok 80 - Random test (1608817334)
+[Timezones::ZoneInfo] ok 81 - Random test (1384745489)
+[Timezones::ZoneInfo] ok 82 - Random test (1059619656)
+[Timezones::ZoneInfo] ok 83 - Random test (789035976)
+[Timezones::ZoneInfo] ok 84 - Random test (989894524)
+[Timezones::ZoneInfo] ok 85 - Random test (895826617)
+[Timezones::ZoneInfo] ok 86 - Random test (1553829927)
+[Timezones::ZoneInfo] ok 87 - Random test (189460753)
+[Timezones::ZoneInfo] ok 88 - Random test (1130895939)
+[Timezones::ZoneInfo] ok 89 - Random test (769490913)
+[Timezones::ZoneInfo] ok 90 - Random test (1082259141)
+[Timezones::ZoneInfo] ok 91 - Random test (1476066857)
+[Timezones::ZoneInfo] ok 92 - Random test (1060073787)
+[Timezones::ZoneInfo] ok 93 - Random test (525486159)
+[Timezones::ZoneInfo] ok 94 - Random test (1319053423)
+[Timezones::ZoneInfo] ok 95 - Random test (196788583)
+[Timezones::ZoneInfo] ok 96 - Random test (266179371)
+[Timezones::ZoneInfo] ok 97 - Random test (1393132995)
+[Timezones::ZoneInfo] ok 98 - Random test (813089313)
+[Timezones::ZoneInfo] ok 99 - Random test (569655550)
+[Timezones::ZoneInfo] ok 100 - Random test (170455385)
+[Timezones::ZoneInfo] 1..100
+[Timezones::ZoneInfo] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz/dist t/03-warn.t
+[Timezones::ZoneInfo] ok 1 - 
+[Timezones::ZoneInfo] 1..1
+[Timezones::ZoneInfo] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz/dist t/04-sets.t
+[Timezones::ZoneInfo] ok 1 - 
+[Timezones::ZoneInfo] ok 2 - 
+[Timezones::ZoneInfo] ok 3 - 
+[Timezones::ZoneInfo] # Subtest: America/New_York (unaliased)
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     ok 2 - 
+[Timezones::ZoneInfo]     ok 3 - 
+[Timezones::ZoneInfo]     1..3
+[Timezones::ZoneInfo] ok 4 - America/New_York (unaliased)
+[Timezones::ZoneInfo] # Subtest: Europe/Madrid (unaliased)
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     ok 2 - 
+[Timezones::ZoneInfo]     ok 3 - 
+[Timezones::ZoneInfo]     1..3
+[Timezones::ZoneInfo] ok 5 - Europe/Madrid (unaliased)
+[Timezones::ZoneInfo] # Subtest: Etc/GMT+5 (unaliased)
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     ok 2 - 
+[Timezones::ZoneInfo]     ok 3 - 
+[Timezones::ZoneInfo]     1..3
+[Timezones::ZoneInfo] ok 6 - Etc/GMT+5 (unaliased)
+[Timezones::ZoneInfo] # Subtest: Europe/Kiev -> Europe/Kyiv
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     ok 2 - 
+[Timezones::ZoneInfo]     ok 3 - 
+[Timezones::ZoneInfo]     ok 4 - 
+[Timezones::ZoneInfo]     ok 5 - 
+[Timezones::ZoneInfo]     ok 6 - 
+[Timezones::ZoneInfo]     1..6
+[Timezones::ZoneInfo] ok 7 - Europe/Kiev -> Europe/Kyiv
+[Timezones::ZoneInfo] # Subtest: Asia/Chongqing -> Asia/Shanghai
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     ok 2 - 
+[Timezones::ZoneInfo]     ok 3 - 
+[Timezones::ZoneInfo]     ok 4 - 
+[Timezones::ZoneInfo]     ok 5 - 
+[Timezones::ZoneInfo]     ok 6 - 
+[Timezones::ZoneInfo]     1..6
+[Timezones::ZoneInfo] ok 8 - Asia/Chongqing -> Asia/Shanghai
+[Timezones::ZoneInfo] # Subtest: Africa/Asmera -> Africa/Nairobi
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     ok 2 - 
+[Timezones::ZoneInfo]     ok 3 - 
+[Timezones::ZoneInfo]     ok 4 - 
+[Timezones::ZoneInfo]     ok 5 - 
+[Timezones::ZoneInfo]     ok 6 - 
+[Timezones::ZoneInfo]     1..6
+[Timezones::ZoneInfo] ok 9 - Africa/Asmera -> Africa/Nairobi
+[Timezones::ZoneInfo] # Subtest: America/Buenos_Aires -> America/Argentina/Buenos_Aires
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     ok 2 - 
+[Timezones::ZoneInfo]     ok 3 - 
+[Timezones::ZoneInfo]     ok 4 - 
+[Timezones::ZoneInfo]     ok 5 - 
+[Timezones::ZoneInfo]     ok 6 - 
+[Timezones::ZoneInfo]     1..6
+[Timezones::ZoneInfo] ok 10 - America/Buenos_Aires -> America/Argentina/Buenos_Aires
+[Timezones::ZoneInfo] # Subtest: Pacific/Samoa -> Pacific/Pago_Pago
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     ok 2 - 
+[Timezones::ZoneInfo]     ok 3 - 
+[Timezones::ZoneInfo]     ok 4 - 
+[Timezones::ZoneInfo]     ok 5 - 
+[Timezones::ZoneInfo]     ok 6 - 
+[Timezones::ZoneInfo]     1..6
+[Timezones::ZoneInfo] ok 11 - Pacific/Samoa -> Pacific/Pago_Pago
+[Timezones::ZoneInfo] # Subtest: Iran -> Asia/Tehran
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     ok 2 - 
+[Timezones::ZoneInfo]     ok 3 - 
+[Timezones::ZoneInfo]     ok 4 - 
+[Timezones::ZoneInfo]     ok 5 - 
+[Timezones::ZoneInfo]     ok 6 - 
+[Timezones::ZoneInfo]     1..6
+[Timezones::ZoneInfo] ok 12 - Iran -> Asia/Tehran
+[Timezones::ZoneInfo] # Subtest: Nonsensical IDs
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     ok 2 - 
+[Timezones::ZoneInfo]     ok 3 - 
+[Timezones::ZoneInfo]     1..3
+[Timezones::ZoneInfo] ok 13 - Nonsensical IDs
+[Timezones::ZoneInfo] 1..13
+[Timezones::ZoneInfo] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz/dist t/06-previous-next.rakutest
+[Timezones::ZoneInfo] ok 1 - Contemporary era jump - New York
+[Timezones::ZoneInfo] ok 2 - Far future era jump - New York
+[Timezones::ZoneInfo] ok 3 - Far past era jump - New York
+[Timezones::ZoneInfo] ok 4 - Contemporary era jump - Berlin
+[Timezones::ZoneInfo] ok 5 - Far future era jump - Berlin
+[Timezones::ZoneInfo] ok 6 - Far past era jump - Berlin
+[Timezones::ZoneInfo] ok 7 - Contemporary era jump - GMT
+[Timezones::ZoneInfo] ok 8 - Far future era jump - GMT
+[Timezones::ZoneInfo] ok 9 - Far past era jump - GMT
+[Timezones::ZoneInfo] ok 10 - Contemporary era jump - New York
+[Timezones::ZoneInfo] ok 11 - Far future era jump - New York
+[Timezones::ZoneInfo] ok 12 - Far past era jump - New York
+[Timezones::ZoneInfo] ok 13 - Contemporary era jump - Berlin
+[Timezones::ZoneInfo] ok 14 - Extreme future era jump - Berlin
+[Timezones::ZoneInfo] ok 15 - Far past era jump - Berlin
+[Timezones::ZoneInfo] ok 16 - Contemporary era jump - GMT
+[Timezones::ZoneInfo] ok 17 - Far future era jump - GMT
+[Timezones::ZoneInfo] ok 18 - Far past era jump - GMT
+[Timezones::ZoneInfo] 1..18
+[Timezones::ZoneInfo] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/2a220163c3d302cd5c1c0fc15fb01e12928e2687.tar.gz/dist t/99-former-bugs.rakutest
+[Timezones::ZoneInfo] # Subtest: Correctly load version 3 files
+[Timezones::ZoneInfo]     ok 1 - 
+[Timezones::ZoneInfo]     1..1
+[Timezones::ZoneInfo] ok 1 - Correctly load version 3 files
+[Timezones::ZoneInfo] # Subtest: Correct offsets with transition times
+[Timezones::ZoneInfo]     ok 1 - Calculate New York 2022 spring forward
+[Timezones::ZoneInfo]     ok 2 - Calculate New York 2022 fall back
+[Timezones::ZoneInfo]     ok 3 - Calculate New York 2007 spring forward
+[Timezones::ZoneInfo]     ok 4 - Calculate New York 2007 fall back
+[Timezones::ZoneInfo]     ok 5 - Calculate New York 1993 spring forward
+[Timezones::ZoneInfo]     ok 6 - Calculate Nuuk 2022 spring forward
+[Timezones::ZoneInfo]     ok 7 - Calculate Nuuk 2022 fall back
+[Timezones::ZoneInfo]     1..7
+[Timezones::ZoneInfo] ok 2 - Correct offsets with transition times
+[Timezones::ZoneInfo] # Subtest: Correct offsets when offsets don't fit in int16
+[Timezones::ZoneInfo]     ok 1 - Sydney abbreviation is AEDT in January
+[Timezones::ZoneInfo]     ok 2 - Sydney gmt-offset is 39600 (UTC+11)
+[Timezones::ZoneInfo]     ok 3 - Auckland abbreviation is NZDT in January
+[Timezones::ZoneInfo]     ok 4 - Auckland gmt-offset is 46800 (UTC+13)
+[Timezones::ZoneInfo]     1..4
+[Timezones::ZoneInfo] ok 3 - Correct offsets when offsets don't fit in int16
+[Timezones::ZoneInfo] 1..3
+===> Testing [FAIL]: Timezones::ZoneInfo:ver<0.5.0>:auth<zef:guifa>
+[Timezones::ZoneInfo] Failed to get passing tests, but continuing with --force-test
+===> Installing: Timezones::ZoneInfo:ver<0.5.0>:auth<zef:guifa>
+===> Install [OK] for Timezones::ZoneInfo:ver<0.5.0>:auth<zef:guifa>

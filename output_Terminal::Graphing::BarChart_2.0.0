@@ -1,0 +1,30 @@
+===> Searching for: Terminal::Graphing::BarChart
+===> Found: Terminal::Graphing::BarChart:ver<2.0.0>:auth<zef:masukomi>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Terminal::Graphing::BarChart] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782721710.233335.6931.958415424364/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz https://360.zef.pm/T/ER/TERMINAL_GRAPHING_BARCHART/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz
+===> Fetching [OK]: Terminal::Graphing::BarChart:ver<2.0.0>:auth<zef:masukomi>:api<1> to /blin/data/zef-data/tmp/1782721710.233335.6931.958415424364/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz
+[Terminal::Graphing::BarChart] Command: tar -t -f ./4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz
+[Terminal::Graphing::BarChart] Command: tar -xvf ./4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz -C ../4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz
+===> Extraction [OK]: Terminal::Graphing::BarChart to /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz
+===> Testing: Terminal::Graphing::BarChart:ver<2.0.0>:auth<zef:masukomi>:api<1>
+[Terminal::Graphing::BarChart] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz/CLI-Graphing-BarChart t/01-vertical.rakutest
+[Terminal::Graphing::BarChart] ===SORRY!=== Error while compiling t/01-vertical.rakutest
+[Terminal::Graphing::BarChart] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz/CLI-Graphing-BarChart/lib/Terminal/Graphing/BarChart/Vertical.rakumod (Terminal::Graphing::BarChart::Vertical)
+[Terminal::Graphing::BarChart] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz/CLI-Graphing-BarChart/lib/Terminal/Graphing/BarChart/Core.rakumod (Terminal::Graphing::BarChart::Core)
+[Terminal::Graphing::BarChart] ===SORRY!===
+[Terminal::Graphing::BarChart] Object does not exist in serialization context
+[Terminal::Graphing::BarChart] at /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz/CLI-Graphing-BarChart/lib/Terminal/Graphing/BarChart/Core.rakumod (Terminal::Graphing::BarChart::Core):2
+[Terminal::Graphing::BarChart] at /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz/CLI-Graphing-BarChart/lib/Terminal/Graphing/BarChart/Vertical.rakumod (Terminal::Graphing::BarChart::Vertical):1
+[Terminal::Graphing::BarChart] at t/01-vertical.rakutest:3
+[Terminal::Graphing::BarChart] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz/CLI-Graphing-BarChart t/02-horizontal.rakutest
+[Terminal::Graphing::BarChart] ===SORRY!=== Error while compiling t/02-horizontal.rakutest
+[Terminal::Graphing::BarChart] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz/CLI-Graphing-BarChart/lib/Terminal/Graphing/BarChart/Horizontal.rakumod (Terminal::Graphing::BarChart::Horizontal)
+[Terminal::Graphing::BarChart] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz/CLI-Graphing-BarChart/lib/Terminal/Graphing/BarChart/Core.rakumod (Terminal::Graphing::BarChart::Core)
+[Terminal::Graphing::BarChart] ===SORRY!===
+[Terminal::Graphing::BarChart] Object does not exist in serialization context
+[Terminal::Graphing::BarChart] at /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz/CLI-Graphing-BarChart/lib/Terminal/Graphing/BarChart/Core.rakumod (Terminal::Graphing::BarChart::Core):2
+[Terminal::Graphing::BarChart] at /blin/data/zef-data/tmp/4f1c4547fe8bea7f7991e421d9d651d1812d78f6.tar.gz/CLI-Graphing-BarChart/lib/Terminal/Graphing/BarChart/Horizontal.rakumod (Terminal::Graphing::BarChart::Horizontal):1
+[Terminal::Graphing::BarChart] at t/02-horizontal.rakutest:3
+===> Testing [FAIL]: Terminal::Graphing::BarChart:ver<2.0.0>:auth<zef:masukomi>:api<1>
+[Terminal::Graphing::BarChart] Failed to get passing tests, but continuing with --force-test
+===> Installing: Terminal::Graphing::BarChart:ver<2.0.0>:auth<zef:masukomi>:api<1>
+===> Install [OK] for Terminal::Graphing::BarChart:ver<2.0.0>:auth<zef:masukomi>:api<1>

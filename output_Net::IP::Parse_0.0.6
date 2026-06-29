@@ -1,0 +1,182 @@
+===> Searching for: Net::IP::Parse
+===> Found: Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie> [via Zef::Repository::Ecosystems<fez>]
+[Net::IP::Parse] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782725014.262835.7079.790200742891/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz https://360.zef.pm/N/ET/NET_IP_PARSE/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
+===> Fetching [OK]: Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie> to /blin/data/zef-data/tmp/1782725014.262835.7079.790200742891/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
+[Net::IP::Parse] Command: tar -t -f ./347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
+[Net::IP::Parse] Command: tar -xvf ./347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz -C ../347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
+===> Extraction [OK]: Net::IP::Parse to /blin/data/zef-data/tmp/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
+===> Testing: Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie>
+[Net::IP::Parse] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz/dist t/basic.rakutest
+[Net::IP::Parse] ok 1 - is ipv4
+[Net::IP::Parse] ok 2 - constructors equivalent
+[Net::IP::Parse] ok 3 - valid
+[Net::IP::Parse] not ok 4 - valid
+[Net::IP::Parse] # Failed test 'valid'
+[Net::IP::Parse] # at t/basic.rakutest line 14
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((223, 234)). You have to pass an explicitly typed array, not one
+[Net::IP::Parse] # that just might happen to contain elements of the correct type.
+[Net::IP::Parse] ok 5 - undersized octets array
+[Net::IP::Parse] ok 6 - undersized octets array
+[Net::IP::Parse] ok 7 - overflow octet
+[Net::IP::Parse] ok 8 - overflow octet
+[Net::IP::Parse] ok 9 - underflow octet
+[Net::IP::Parse] ok 10 - underflow octet
+[Net::IP::Parse] ok 11 - oversized octets array
+[Net::IP::Parse] ok 12 - oversized octets array
+[Net::IP::Parse] ok 13 - underflow octet
+[Net::IP::Parse] ok 14 - underflow octet
+[Net::IP::Parse] ok 15 - overflow octet
+[Net::IP::Parse] ok 16 - overflow octet
+[Net::IP::Parse] ok 17 - undersized octets array
+[Net::IP::Parse] ok 18 - undersized octets array
+[Net::IP::Parse] ok 19 - oversized octets array
+[Net::IP::Parse] ok 20 - oversized octets array
+[Net::IP::Parse] ok 21 - str is valid
+[Net::IP::Parse] ok 22 - valid string output
+[Net::IP::Parse] not ok 23 - valid string output
+[Net::IP::Parse] ok 24 - addrs are equivalent
+[Net::IP::Parse] ok 25 - addrs are not equivalent
+[Net::IP::Parse] ok 26 - lhs gt rhs
+[Net::IP::Parse] ok 27 - lhs gt rhs
+[Net::IP::Parse] ok 28 - valid ipv4 comparisons
+[Net::IP::Parse] not ok 29 - valid ipv6 comparisons
+[Net::IP::Parse] # Failed test 'valid string output'
+[Net::IP::Parse] # at t/basic.rakutest line 91
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((223, 234)). You have to pass an explicitly typed array, not one
+[Net::IP::Parse] # that just might happen to contain elements of the correct type.
+[Net::IP::Parse] # Failed test 'valid ipv6 comparisons'
+[Net::IP::Parse] # at t/basic.rakutest line 106
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((223, 234)). You have to pass an explicitly typed array, not one
+[Net::IP::Parse] # that just might happen to contain elements of the correct type.
+[Net::IP::Parse] not ok 30 - valid
+[Net::IP::Parse] # Failed test 'valid'
+[Net::IP::Parse] # at t/basic.rakutest line 115
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] not ok 31 - valid
+[Net::IP::Parse] # Failed test 'valid'
+[Net::IP::Parse] # at t/basic.rakutest line 120
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] not ok 32 - valid
+[Net::IP::Parse] not ok 33 - valid
+[Net::IP::Parse] # Failed test 'valid'
+[Net::IP::Parse] # at t/basic.rakutest line 127
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((32, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] # Failed test 'valid'
+[Net::IP::Parse] # at t/basic.rakutest line 133
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] ok 34 - address overflow detected
+[Net::IP::Parse] ok 35 - address underflow detected
+[Net::IP::Parse] not ok 36 - valid
+[Net::IP::Parse] # Failed test 'valid'
+[Net::IP::Parse] # at t/basic.rakutest line 148
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((32, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] ok 37 - bad addr detected
+[Net::IP::Parse] ok 38 - bad addr detected
+[Net::IP::Parse] ok 39 - empty zone detected
+[Net::IP::Parse] ok 40 - empty address detected
+[Net::IP::Parse] ok 41 - empty address detected
+[Net::IP::Parse] not ok 42 - valid string output
+[Net::IP::Parse] # Failed test 'valid string output'
+[Net::IP::Parse] # at t/basic.rakutest line 173
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((32, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] not ok 43 - valid compress
+[Net::IP::Parse] # Failed test 'valid compress'
+[Net::IP::Parse] # at t/basic.rakutest line 180
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] not ok 44 - valid compress
+[Net::IP::Parse] # Failed test 'valid compress'
+[Net::IP::Parse] # at t/basic.rakutest line 186
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((32, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] not ok 45 - valid compress
+[Net::IP::Parse] # Failed test 'valid compress'
+[Net::IP::Parse] # at t/basic.rakutest line 192
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((32, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] not ok 46 - valid compress
+[Net::IP::Parse] # Failed test 'valid compress'
+[Net::IP::Parse] # at t/basic.rakutest line 198
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] not ok 47 - valid compress
+[Net::IP::Parse] # Failed test 'valid compress'
+[Net::IP::Parse] # at t/basic.rakutest line 204
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((0, 0)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] not ok 48 - valid compress
+[Net::IP::Parse] # Failed test 'valid compress'
+[Net::IP::Parse] # at t/basic.rakutest line 210
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] not ok 49 - valid compress
+[Net::IP::Parse] # Failed test 'valid compress'
+[Net::IP::Parse] # at t/basic.rakutest line 216
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((255, 255)). You have to pass an explicitly typed array, not one
+[Net::IP::Parse] # that just might happen to contain elements of the correct type.
+[Net::IP::Parse] ok 50 - addr equal
+[Net::IP::Parse] ok 51 - prefix equal
+[Net::IP::Parse] ok 52 - wildcard equal
+[Net::IP::Parse] ok 53 - network equal
+[Net::IP::Parse] ok 54 - broadcast equal
+[Net::IP::Parse] ok 55 - valid ipv4 cidr
+[Net::IP::Parse] not ok 56 - valid ipv6 cidr
+[Net::IP::Parse] # Failed test 'valid ipv6 cidr'
+[Net::IP::Parse] # at t/basic.rakutest line 239
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((32, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] ok 57 - ip in cidr
+[Net::IP::Parse] ok 58 - ip in cidr
+[Net::IP::Parse] ok 59 - ip in cidr
+[Net::IP::Parse] ok 60 - valid "in cidr"
+[Net::IP::Parse] not ok 61 - valid "in cidr"
+[Net::IP::Parse] # Failed test 'valid "in cidr"'
+[Net::IP::Parse] # at t/basic.rakutest line 263
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((32, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] ok 62 - ip not in cidr
+[Net::IP::Parse] ok 63 - valid not "in cidr"
+[Net::IP::Parse] not ok 64 - valid not "in cidr"
+[Net::IP::Parse] # Failed test 'valid not "in cidr"'
+[Net::IP::Parse] # at t/basic.rakutest line 279
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((32, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] ok 65 - detected version mismatch
+[Net::IP::Parse] ok 66 - detected version mismatch
+[Net::IP::Parse] not ok 67 - CIDR with /128
+[Net::IP::Parse] # Failed test 'CIDR with /128'
+[Net::IP::Parse] # at t/basic.rakutest line 297
+[Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
+[Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
+[Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] # You failed 20 tests of 67
+[Net::IP::Parse] 1..67
+===> Testing [FAIL]: Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie>
+[Net::IP::Parse] Failed to get passing tests, but continuing with --force-test
+===> Installing: Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie>
+===> Install [OK] for Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie>

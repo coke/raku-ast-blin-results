@@ -1,0 +1,488 @@
+===> Searching for: LogP6
+===> Found: LogP6:ver<1.6.4>:auth<cpan:ATROXAPER> [via Zef::Repository::Ecosystems<rea>]
+[LogP6] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782727311.279815.9726.437466298807/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/L/LogP6/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+===> Fetching [OK]: LogP6:ver<1.6.4>:auth<cpan:ATROXAPER> to /blin/data/zef-data/tmp/1782727311.279815.9726.437466298807/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+[LogP6] Command: tar -t -f ./LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+[LogP6] Command: tar -xvf ./LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz -C ../LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+===> Extraction [OK]: LogP6 to /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+===> Testing: LogP6:ver<1.6.4>:auth<github:atroxaper>
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-bad-config-file.t
+[LogP6] Potential difficulties:
+[LogP6]     Declaring class 'LogP6::ConfigFile' inside an enclosing module of the
+[LogP6]     same name silently replaces the module in the outer stash. This is
+[LogP6]     legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the same
+[LogP6]     pattern installs the class as a nested package instead. Rewrite as 'unit
+[LogP6]     class LogP6::ConfigFile;' in its own file (or otherwise avoid the
+[LogP6]     module+same-named-class collision) to work the same way on either
+[LogP6]     revision.
+[LogP6]     at line 
+[LogP6] 1..3
+[LogP6] not ok 1 - cannot init from wrong syntax file
+[LogP6] # Failed test 'cannot init from wrong syntax file'
+[LogP6] # at t/00-bad-config-file.t line 13
+[LogP6] # This exception is not resumable
+[LogP6] ok 2 - cannot init from corrupt file
+[LogP6] not ok 3 - cannot init from corrupt file
+[LogP6] # Failed test 'cannot init from corrupt file'
+[LogP6] # at t/00-bad-config-file.t line 19
+[LogP6] # This exception is not resumable
+[LogP6] # You failed 2 tests of 3
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-cliche.t
+[LogP6] 1..20
+[LogP6] ok 1 - only writer or filter can be serched
+[LogP6] ok 2 - has w1
+[LogP6] ok 3 - has w2
+[LogP6] ok 4 - has f1
+[LogP6] ok 5 - has f2
+[LogP6] ok 6 - do not has w3
+[LogP6] ok 7 - do not has f3
+[LogP6] ok 8 - has wrapper
+[LogP6] ok 9 - has transparent wrapper
+[LogP6] ok 10 - only writer or filter can be chnaged
+[LogP6] ok 11 - copy cliche is another cliche
+[LogP6] ok 12 - copy writers
+[LogP6] ok 13 - copy filters
+[LogP6] ok 14 - copy has the same name
+[LogP6] ok 15 - copy has the same matcher
+[LogP6] ok 16 - copy has the same level
+[LogP6] ok 17 - copy has the same pattern
+[LogP6] ok 18 - another copy cliche is another cliche
+[LogP6] ok 19 - another copy writers
+[LogP6] ok 20 - another copy filters
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-config-file-writers.t
+[LogP6] 1..25
+[LogP6] ok 1 - parsed 7 writers
+[LogP6] ok 2 - w1 name
+[LogP6] ok 3 - w1 pattern
+[LogP6] ok 4 - w1 handle
+[LogP6] ok 5 - w1 out-buffer false(0)
+[LogP6] ok 6 - w1 auto-exceptions
+[LogP6] ok 7 - w2 name
+[LogP6] ok 8 - w2 pattern
+[LogP6] ok 9 - w2 handle
+[LogP6] ok 10 - w2 out-buffer false(0)
+[LogP6] ok 11 - w3 handle
+[LogP6] ok 12 - w2 auto-exceptions
+[LogP6] ok 13 - w4 name
+[LogP6] ok 14 - w4 pattern
+[LogP6] ok 15 - w4 handle
+[LogP6] ok 16 - w4 auto-exceptions
+[LogP6] ok 17 - w5 name
+[LogP6] ok 18 - w5 pattern
+[LogP6] ok 19 - w5 handle
+[LogP6] ok 20 - w5 auto-exceptions
+[LogP6] ok 21 - w6 handle out-buffer 1000
+[LogP6] ok 22 - w7 name
+[LogP6] ok 23 - w7 handle
+[LogP6] Some exceptions were thrown in END blocks:
+[LogP6]   X::IO::Rmdir: Failed to remove the directory '/tmp/logp6': Failed to rmdir: directory not empty
+[LogP6]       in block  at t/00-config-file-writers.t line 19
+[LogP6]       in any <main> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/runtime/perl6.moarvm line 1
+[LogP6]       in any <entry> at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/runtime/perl6.moarvm line 1
+[LogP6] ok 24 - get file handle from cache
+[LogP6] ok 25 - get custom handle from cache
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-config-file.t
+[LogP6] 1..7
+[LogP6] # Subtest: empty file
+[LogP6]     1..1
+[LogP6]     not ok 1 - cannot init from empty file
+[LogP6]     # Failed test 'cannot init from empty file'
+[LogP6]     # at t/00-config-file.t line 17
+[LogP6]     # This exception is not resumable
+[LogP6]     # You failed 1 test of 1
+[LogP6] not ok 1 - empty file
+[LogP6] # Failed test 'empty file'
+[LogP6] # at t/00-config-file.t line 14
+[LogP6] # Subtest: miss file
+[LogP6]     1..2
+[LogP6]     not ok 1 - cannot init from miss file
+[LogP6]     # Failed test 'cannot init from miss file'
+[LogP6]     # at t/00-config-file.t line 25
+[LogP6]     # This exception is not resumable
+[LogP6]     not ok 2 - can init empty argument
+[LogP6]     # Failed test 'can init empty argument'
+[LogP6]     # at t/00-config-file.t line 27
+[LogP6]     # This exception is not resumable
+[LogP6]     # You failed 2 tests of 2
+[LogP6] not ok 2 - miss file
+[LogP6] # Failed test 'miss file'
+[LogP6] # at t/00-config-file.t line 22
+[LogP6] # Subtest: filters
+[LogP6]     1..21
+[LogP6]     ok 1 - parsed 4 writers
+[LogP6]     ok 2 - f1 name
+[LogP6]     ok 3 - f1 level
+[LogP6]     ok 4 - f1 first-level-check
+[LogP6]     ok 5 - f1 before
+[LogP6]     ok 6 - f1 after
+[LogP6]     ok 7 - f2 name
+[LogP6]     ok 8 - f2 level
+[LogP6]     ok 9 - f2 first-level-check
+[LogP6]     ok 10 - f2 before
+[LogP6]     ok 11 - f2 after
+[LogP6]     ok 12 - f3 name
+[LogP6]     ok 13 - f3 level
+[LogP6]     ok 14 - f3 first-level-check
+[LogP6]     ok 15 - f3 before
+[LogP6]     ok 16 - f3 after
+[LogP6]     ok 17 - f4 name
+[LogP6]     ok 18 - f4 level
+[LogP6]     ok 19 - f4 first-level-check
+[LogP6]     ok 20 - f4 before
+[LogP6]     ok 21 - f4 after
+[LogP6] ok 3 - filters
+[LogP6] # Subtest: cliches
+[LogP6]     1..23
+[LogP6]     ok 1 - parsed 2 cliches
+[LogP6]     ok 2 - c1 name
+[LogP6]     ok 3 - c1 matcher
+[LogP6]     ok 4 - c1 matcher works
+[LogP6]     ok 5 - c1 default-parren
+[LogP6]     ok 6 - c1 default-auto-exceptions
+[LogP6]     ok 7 - c1 default-handle
+[LogP6]     ok 8 - c1 default-x-pattern
+[LogP6]     ok 9 - c1 default-level
+[LogP6]     ok 10 - c1 default-first-level-check
+[LogP6]     ok 11 - c1 grooves
+[LogP6]     ok 12 - c1 wrapper
+[LogP6]     ok 13 - c2 name
+[LogP6]     ok 14 - c2 matcher
+[LogP6]     ok 15 - c2 matcher works
+[LogP6]     ok 16 - c2 default-parren
+[LogP6]     ok 17 - c2 default-auto-exceptions
+[LogP6]     ok 18 - c2 default-handle
+[LogP6]     ok 19 - c2 default-x-pattern
+[LogP6]     ok 20 - c2 default-level
+[LogP6]     ok 21 - c2 default-first-level-check
+[LogP6]     ok 22 - c2 grooves
+[LogP6]     ok 23 - c2 wrapper
+[LogP6] ok 4 - cliches
+[LogP6] # Subtest: defaults
+[LogP6]     1..8
+[LogP6]     ok 1 - default-pattern
+[LogP6]     ok 2 - default-auto-exceptions
+[LogP6]     ok 3 - default-handle
+[LogP6]     ok 4 - default-x-pattern
+[LogP6]     ok 5 - default-level
+[LogP6]     ok 6 - default-first-level-check
+[LogP6]     ok 7 - default-wrapper ok
+[LogP6]     ok 8 - default-wrapper does
+[LogP6] ok 5 - defaults
+[LogP6] # Subtest: integration defaults
+[LogP6]     1..6
+[LogP6]     # You planned 6 tests, but ran 0
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-context.t
+[LogP6] 1..54
+[LogP6] ok 1 - get-context
+[LogP6] ok 2 - tname
+[LogP6] ok 3 - tid
+[LogP6] ok 4 - default msg
+[LogP6] ok 5 - setted msg
+[LogP6] ok 6 - default level
+[LogP6] ok 7 - can set any level
+[LogP6] ok 8 - set properly level
+[LogP6] ok 9 - default x
+[LogP6] ok 10 - setted x
+[LogP6] ok 11 - resetted msg
+[LogP6] ok 12 - resetted level
+[LogP6] ok 13 - resetted x
+[LogP6] ok 14 - default trait
+[LogP6] ok 15 - setted trait
+[LogP6] ok 16 - ndc
+[LogP6] ok 17 - ndc-push p1
+[LogP6] ok 18 - ndc-push p2
+[LogP6] ok 19 - ndc-pop
+[LogP6] ok 20 - ndc-clean
+[LogP6] ok 21 - mdc
+[LogP6] ok 22 - mdc-put k1
+[LogP6] ok 23 - mdc-put k2
+[LogP6] ok 24 - mdc get k1
+[LogP6] ok 25 - mdc get p1
+[LogP6] ok 26 - mdc get k1 after remove
+[LogP6] ok 27 - mdc-clean
+[LogP6] ok 28 - default date
+[LogP6] ok 29 - setted date
+[LogP6] ok 30 - setted date is not default date
+[LogP6] ok 31 - new default date
+[LogP6] ok 32 - new default date is not default date
+[LogP6] ok 33 - new default date is not setted date
+[LogP6] ok 34 - default sync
+[LogP6] ok 35 - putted first sync
+[LogP6] ok 36 - putted second sync
+[LogP6] ok 37 - putted Any sync
+[LogP6] ok 38 - can set any x
+[LogP6] ok 39 - setted x
+[LogP6] ok 40 - clean all with date defined
+[LogP6] ok 41 - clean all with date not old
+[LogP6] ok 42 - clean all with msg
+[LogP6] ok 43 - clean all with x
+[LogP6] ok 44 - clean all with level
+[LogP6] ok 45 - copy msg
+[LogP6] ok 46 - copy date
+[LogP6] ok 47 - copy level
+[LogP6] ok 48 - copy x
+[LogP6] ok 49 - copy trait
+[LogP6] ok 50 - copy tid
+[LogP6] ok 51 - copy tname
+[LogP6] ok 52 - copy ndc
+[LogP6] ok 53 - copy mdc
+[LogP6] ok 54 - copy callframe
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-factories.t
+[LogP6] 1..5
+[LogP6] # Subtest: filter-level
+[LogP6]     1..8
+[LogP6]     # You planned 8 tests, but ran 0
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-filter.t
+[LogP6] 1..4
+[LogP6] # Subtest: create named filter configuration by factory
+[LogP6]     1..9
+[LogP6] LogP6 error: X::Role::Parametric::NoSuchCandidate: No appropriate parametric role variant available for 'LogP6::GroovesPartsManager':
+[LogP6]     Cannot resolve caller (LogP6::GroovesPartsManager[Lock,Str,LogP6::FilterConf::Std,LogP6::FilterConf], Lock:D, Str:D, LogP6::FilterConf::Std:U, LogP6::FilterConf:U); Routine does not have any candidates.  Is only the proto defined?
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub filter at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 313
+[LogP6]   in block <unit> at t/00-filter.t line 49
+[LogP6] LogP6 error: X::AdHoc: Attempt to unlock mutex by thread not holding it
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub filter at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 313
+[LogP6]   in block <unit> at t/00-filter.t line 49
+[LogP6] This exception is not resumable
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 117
+[LogP6]   in any  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/.precomp/06F349255281EC7FDC3C857463B63213C1D58973/55/554CB717387E5940927A106B759120B1376EFE7B line 1
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub filter at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 313
+[LogP6]   in block <unit> at t/00-filter.t line 49
+[LogP6]     # You planned 9 tests, but ran 0
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-grammar.t
+[LogP6] 1..46
+[LogP6] ok 1 - full pattern without preferences
+[LogP6] ok 2 - %x pattern
+[LogP6] ok 3 - %date pattern
+[LogP6] ok 4 - level length 2
+[LogP6] ok 5 - level length 3
+[LogP6] ok 6 - level length 6
+[LogP6] ok 7 - level length 1
+[LogP6] ok 8 - default level length 1
+[LogP6] ok 9 - default level length 3
+[LogP6] ok 10 - default level length
+[LogP6] ok 11 - level length 0 trace
+[LogP6] ok 12 - level length 0 warn
+[LogP6] ok 13 - level length 0 info
+[LogP6] ok 14 - frames
+[LogP6] ok 15 - [.]5.4
+[LogP6] ok 16 - [.]5
+[LogP6] ok 17 - [.]4.4
+[LogP6] ok 18 - [.]4
+[LogP6] ok 19 - [.]3.2
+[LogP6] ok 20 - [.]3
+[LogP6] ok 21 - [.]2.3
+[LogP6] ok 22 - [.]2
+[LogP6] ok 23 - [.]1.1
+[LogP6] ok 24 - [.]1
+[LogP6] ok 25 - [.]0.4
+[LogP6] ok 26 - [.]0
+[LogP6] ok 27 - [.]-0.2
+[LogP6] ok 28 - [.]-0
+[LogP6] ok 29 - [.]-1.4
+[LogP6] ok 30 - [.]-1
+[LogP6] ok 31 - [.]-2.0
+[LogP6] ok 32 - [.]-2
+[LogP6] ok 33 - [.]-3.1
+[LogP6] ok 34 - [.]-3
+[LogP6] ok 35 - [.]-4.0
+[LogP6] ok 36 - [.]-4
+[LogP6] ok 37 - [.]-5.2
+[LogP6] ok 38 - [.]-5
+[LogP6] ok 39 - %.2s
+[LogP6] ok 40 - %21s
+[LogP6] ok 41 - %-21s
+[LogP6] ok 42 - color empty with reset
+[LogP6] ok 43 - color WARN with reset
+[LogP6] ok 44 - color WARN error with reset
+[LogP6] ok 45 - color empty without reset
+[LogP6] ok 46 - color empty with creset
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-handle-async-single.t
+[LogP6] 1..2
+[LogP6] ok 1 - delegate writes
+[LogP6] ok 2 - delegate closed
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-handle-async.t
+[LogP6] 1..2
+[LogP6] ok 1 - delegate writes
+[LogP6] ok 2 - delegate closed
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-logger-wrapper-sync-abstract.t
+[LogP6] 1..8
+[LogP6] ok 1 - wrap trait
+[LogP6] ok 2 - synced 1
+[LogP6] ok 3 - synced 2
+[LogP6] ok 4 - synced 3
+[LogP6] ok 5 - synced 4
+[LogP6] ok 6 - good calls to aggr
+[LogP6] ok 7 - updated one time
+[LogP6] ok 8 - updated with right trait
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-logger-wrapper-sync-each.t
+[LogP6] 1..2
+[LogP6] LogP6 error: X::Role::Parametric::NoSuchCandidate: No appropriate parametric role variant available for 'LogP6::GroovesPartsManager':
+[LogP6]     Cannot resolve caller (LogP6::GroovesPartsManager[Lock,Str,LogP6::FilterConf::Std,LogP6::FilterConf], Lock:D, Str:D, LogP6::FilterConf::Std:U, LogP6::FilterConf:U); Routine does not have any candidates.  Is only the proto defined?
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-logger-wrapper-sync-each.t line 12
+[LogP6] LogP6 error: X::AdHoc: Attempt to unlock mutex by thread not holding it
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-logger-wrapper-sync-each.t line 12
+[LogP6] This exception is not resumable
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 117
+[LogP6]   in any  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/.precomp/06F349255281EC7FDC3C857463B63213C1D58973/55/554CB717387E5940927A106B759120B1376EFE7B line 1
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-logger-wrapper-sync-each.t line 12
+[LogP6] # You planned 2 tests, but ran 0
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-logger-wrapper-sync-time.t
+[LogP6] 1..3
+[LogP6] LogP6 error: X::Role::Parametric::NoSuchCandidate: No appropriate parametric role variant available for 'LogP6::GroovesPartsManager':
+[LogP6]     Cannot resolve caller (LogP6::GroovesPartsManager[Lock,Str,LogP6::FilterConf::Std,LogP6::FilterConf], Lock:D, Str:D, LogP6::FilterConf::Std:U, LogP6::FilterConf:U); Routine does not have any candidates.  Is only the proto defined?
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-logger-wrapper-sync-time.t line 12
+[LogP6] LogP6 error: X::AdHoc: Attempt to unlock mutex by thread not holding it
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-logger-wrapper-sync-time.t line 12
+[LogP6] This exception is not resumable
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 117
+[LogP6]   in any  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/.precomp/06F349255281EC7FDC3C857463B63213C1D58973/55/554CB717387E5940927A106B759120B1376EFE7B line 1
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-logger-wrapper-sync-time.t line 12
+[LogP6] # You planned 3 tests, but ran 0
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-logger.t
+[LogP6] 1..9
+[LogP6] LogP6 error: X::Role::Parametric::NoSuchCandidate: No appropriate parametric role variant available for 'LogP6::GroovesPartsManager':
+[LogP6]     Cannot resolve caller (LogP6::GroovesPartsManager[Lock,Str,LogP6::FilterConf::Std,LogP6::FilterConf], Lock:D, Str:D, LogP6::FilterConf::Std:U, LogP6::FilterConf:U); Routine does not have any candidates.  Is only the proto defined?
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-logger.t line 14
+[LogP6] LogP6 error: X::AdHoc: Attempt to unlock mutex by thread not holding it
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-logger.t line 14
+[LogP6] This exception is not resumable
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 117
+[LogP6]   in any  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/.precomp/06F349255281EC7FDC3C857463B63213C1D58973/55/554CB717387E5940927A106B759120B1376EFE7B line 1
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-logger.t line 14
+[LogP6] # You planned 9 tests, but ran 0
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-writer-async.t
+[LogP6] 1..2
+[LogP6] LogP6 error: X::Role::Parametric::NoSuchCandidate: No appropriate parametric role variant available for 'LogP6::GroovesPartsManager':
+[LogP6]     Cannot resolve caller (LogP6::GroovesPartsManager[Lock,Str,LogP6::FilterConf::Std,LogP6::FilterConf], Lock:D, Str:D, LogP6::FilterConf::Std:U, LogP6::FilterConf:U); Routine does not have any candidates.  Is only the proto defined?
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-writer-async.t line 12
+[LogP6] LogP6 error: X::AdHoc: Attempt to unlock mutex by thread not holding it
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-writer-async.t line 12
+[LogP6] This exception is not resumable
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 117
+[LogP6]   in any  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/.precomp/06F349255281EC7FDC3C857463B63213C1D58973/55/554CB717387E5940927A106B759120B1376EFE7B line 1
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-writer-async.t line 12
+[LogP6] # You planned 2 tests, but ran 0
+[LogP6] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4 t/00-writer.t
+[LogP6] 1..5
+[LogP6] # Subtest: create named writer configuration by factory
+[LogP6]     1..8
+[LogP6] LogP6 error: X::Role::Parametric::NoSuchCandidate: No appropriate parametric role variant available for 'LogP6::GroovesPartsManager':
+[LogP6]     Cannot resolve caller (LogP6::GroovesPartsManager[Lock,Str,LogP6::FilterConf::Std,LogP6::FilterConf], Lock:D, Str:D, LogP6::FilterConf::Std:U, LogP6::FilterConf:U); Routine does not have any candidates.  Is only the proto defined?
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-writer.t line 35
+[LogP6] LogP6 error: X::AdHoc: Attempt to unlock mutex by thread not holding it
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-writer.t line 35
+[LogP6] This exception is not resumable
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 117
+[LogP6]   in any  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/.precomp/06F349255281EC7FDC3C857463B63213C1D58973/55/554CB717387E5940927A106B759120B1376EFE7B line 1
+[LogP6]   in sub clean-all-settings at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 151
+[LogP6]   in sub wipe-log-config at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 123
+[LogP6]   in block  at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 81
+[LogP6]   in sub init-from-file at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 72
+[LogP6]   in sub try-initialize at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 67
+[LogP6]   in sub writer at /blin/data/zef-data/tmp/LogP6%3Aver%3C1.6.4%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-1.6.4/lib/LogP6.rakumod (LogP6) line 407
+[LogP6]   in block <unit> at t/00-writer.t line 35
+[LogP6]     # You planned 8 tests, but ran 0
+===> Testing [FAIL]: LogP6:ver<1.6.4>:auth<github:atroxaper>
+[LogP6] Failed to get passing tests, but continuing with --force-test
+===> Installing: LogP6:ver<1.6.4>:auth<github:atroxaper>
+===> Install [OK] for LogP6:ver<1.6.4>:auth<github:atroxaper>
