@@ -403,7 +403,7 @@ Config::Parser::toml – Unknown
 Config::Parser::yaml – Unknown
 Config::Simple – Unknown
 Config::TOML – Unknown
-Configuration – Unknown
+Configuration – Fail, Bisected: f5caad10270d09cba89b039e5c099b052a0a56b1
 Console::Blackjack – Unknown
 Constants::Net::If – OK
 Constants::Netinet::In – OK
@@ -425,7 +425,7 @@ Cro-HTTP-Middleware-GoatCounter – Unknown
 Cro::APIToken – Unknown
 Cro::APIToken::Store::Pg – Unknown
 Cro::CBOR – Unknown
-Cro::Core – Unknown
+Cro::Core – OK
 Cro::FCGI – Unknown
 Cro::H – Unknown
 Cro::HTTP – Unknown
@@ -464,18 +464,18 @@ Crypt::CAST5 – Unknown
 Crypt::Game – Unknown
 Crypt::LibGcrypt – Unknown
 Crypt::LibScrypt – Unknown
-Crypt::Libcrypt – Unknown
+Crypt::Libcrypt – OK
 Crypt::Passphrase – Unknown
-Crypt::RC4 – Unknown
-Crypt::RSA – Unknown
+Crypt::RC4 – OK
+Crypt::RSA – OK
 Crypt::Random – Unknown
 Crypt::SodiumPasswordHash – Unknown
 Crypt::SodiumScrypt – Unknown
 Crypt::TweetNacl – Unknown
 CucumisSextus – Unknown
 Curlie – Unknown
-Curry – Unknown
-CustomImporting – Unknown
+Curry – AlwaysFail
+CustomImporting – OK
 DAWG – Unknown
 DB – Unknown
 DB::Migration::Declare – Unknown
@@ -497,8 +497,8 @@ DBIish – Unknown
 DBIish::Pool – Unknown
 DBIish::Transaction – Unknown
 DBIx::NamedQueries – MissingDependency
-DEBUG – Unknown
-DFM::Parser – Unknown
+DEBUG – OK
+DFM::Parser – OK
 DNS::Zone – Unknown
 DOM::Tiny – Unknown
 DSL::Bulgarian – CyclicDependency
@@ -526,7 +526,7 @@ Dan – Unknown
 Dan::Pandas – Unknown
 Dan::Polars – Unknown
 Data::Cryptocurrencies – Unknown
-Data::DPath – Unknown
+Data::DPath – OK
 Data::DPath6 – Unknown
 Data::Dump – Unknown
 Data::Dump::Tree – Unknown

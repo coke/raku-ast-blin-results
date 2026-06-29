@@ -1,0 +1,23 @@
+===> Searching for: Configuration
+===> Found: Configuration:ver<0.0.11>:auth<zef:FCO> [via Zef::Repository::Ecosystems<fez>]
+[Configuration] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782699063.38056.3122.8794923308888/ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz https://360.zef.pm/C/ON/CONFIGURATION/ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz
+===> Fetching [OK]: Configuration:ver<0.0.11>:auth<zef:FCO> to /blin/data/zef-data/tmp/1782699063.38056.3122.8794923308888/ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz
+[Configuration] Command: tar -t -f ./ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz
+[Configuration] Command: tar -xvf ./ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz -C ../ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz
+===> Extraction [OK]: Configuration to /blin/data/zef-data/tmp/ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz
+===> Testing: Configuration:ver<0.0.11>:auth<zef:FCO>
+[Configuration] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz/Configuration-0.0.11 t/00-use.rakutest
+[Configuration] 1..1
+[Configuration] ok 1 - Configuration module can be use-d ok
+[Configuration] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz/Configuration-0.0.11 t/01-config.rakutest
+[Configuration] Lexical with name 'T' does not exist in this frame
+[Configuration]   in sub generate-builder-class at /blin/data/zef-data/tmp/ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz/Configuration-0.0.11/lib/Configuration/Utils.rakumod (Configuration::Utils) line 29
+[Configuration]   in block  at /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/share/perl6/core/sources/259D6FFD0330908994E2A0923174141E65CFD4B6 (experimental) line 12
+[Configuration]   in method generate-config at /blin/data/zef-data/tmp/ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz/Configuration-0.0.11/lib/Configuration.rakumod (Configuration) line 58
+[Configuration]   in method generate-exports at /blin/data/zef-data/tmp/ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz/Configuration-0.0.11/lib/Configuration.rakumod (Configuration) line 139
+[Configuration]   in sub generate-exports at /blin/data/zef-data/tmp/ff01eadbbd7f4ad37eb6ff7a7879bc8748589711.tar.gz/Configuration-0.0.11/lib/Configuration.rakumod (Configuration) line 180
+[Configuration]   in block <unit> at t/01-config.rakutest line 20
+===> Testing [FAIL]: Configuration:ver<0.0.11>:auth<zef:FCO>
+[Configuration] Failed to get passing tests, but continuing with --force-test
+===> Installing: Configuration:ver<0.0.11>:auth<zef:FCO>
+===> Install [OK] for Configuration:ver<0.0.11>:auth<zef:FCO>
