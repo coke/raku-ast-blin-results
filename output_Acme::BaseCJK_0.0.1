@@ -1,0 +1,19 @@
+===> Searching for: Acme::BaseCJK
+===> Found: Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi> [via Zef::Repository::Ecosystems<fez>]
+[Acme::BaseCJK] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782695484.6133.2721.3969879236865/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz https://360.zef.pm/A/CM/ACME_BASECJK/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz
+===> Fetching [OK]: Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi> to /blin/data/zef-data/tmp/1782695484.6133.2721.3969879236865/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz
+[Acme::BaseCJK] Command: tar -t -f ./7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz
+[Acme::BaseCJK] Command: tar -xvf ./7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz -C ../7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz
+===> Extraction [OK]: Acme::BaseCJK to /blin/data/zef-data/tmp/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz
+===> Testing: Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi>
+[Acme::BaseCJK] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/7f6acd150ddcb0ec85435fc6dc58c604296550d4.tar.gz/dist t/01-basic.rakutest
+[Acme::BaseCJK] 1..2
+[Acme::BaseCJK] Cannot resolve caller term:<CJK>(:to(嵅啑)); none of these signatures matches:
+[Acme::BaseCJK]     (Int(Cool:D) :$of! --> Str:D)
+[Acme::BaseCJK]     (Str :$to! where { ... } --> Int:D)
+[Acme::BaseCJK]   in block <unit> at t/01-basic.rakutest line 6
+[Acme::BaseCJK] # You planned 2 tests, but ran 0
+===> Testing [FAIL]: Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi>
+[Acme::BaseCJK] Failed to get passing tests, but continuing with --force-test
+===> Installing: Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi>
+===> Install [OK] for Acme::BaseCJK:ver<0.0.1>:auth<zef:Kaiepi>

@@ -1,0 +1,1051 @@
+===> Searching for: ASTQuery
+===> Found: ASTQuery:ver<0.0.7>:auth<zef:FCO> [via Zef::Repository::Ecosystems<fez>]
+[ASTQuery] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782695363.4998.7661.883019587947/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz https://360.zef.pm/A/ST/ASTQUERY/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz
+===> Fetching [OK]: ASTQuery:ver<0.0.7>:auth<zef:FCO> to /blin/data/zef-data/tmp/1782695363.4998.7661.883019587947/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz
+[ASTQuery] Command: tar -t -f ./dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz
+[ASTQuery] Command: tar -xvf ./dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz -C ../dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz
+===> Extraction [OK]: ASTQuery to /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz
+===> Testing: ASTQuery:ver<0.0.7>:auth<zef:FCO>
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/01-basic.rakutest
+[ASTQuery] ok 1 - replace me
+[ASTQuery] 1..1
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/02-ASTQuery.rakutest
+[ASTQuery] ok 1 - 
+[ASTQuery] ok 2 - 
+[ASTQuery] ok 3 - isa-ok: {meth => classes, value => [RakuAST::Node]}
+[ASTQuery] ok 4 - is-deeply: {meth => classes, value => [RakuAST::Node]}
+[ASTQuery] ok 5 - isa-ok: {meth => parent, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 6 - is-deeply: {meth => parent, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 7 - isa-ok: {meth => name, value => name}
+[ASTQuery] ok 8 - is-deeply: {meth => name, value => name}
+[ASTQuery] ok 9 - isa-ok: {meth => gparent, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 10 - is-deeply: {meth => gparent, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 11 - isa-ok: {meth => descendant, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 12 - is-deeply: {meth => descendant, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 13 - isa-ok: {meth => ascendant, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 14 - is-deeply: {meth => ascendant, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 15 - isa-ok: {meth => ids, value => [blablabla]}
+[ASTQuery] ok 16 - is-deeply: {meth => ids, value => [blablabla]}
+[ASTQuery] ok 17 - isa-ok: {meth => atts, value => {attribute => True}}
+[ASTQuery] ok 18 - is-deeply: {meth => atts, value => {attribute => True}}
+[ASTQuery] ok 19 - isa-ok: {meth => groups, value => [conditional]}
+[ASTQuery] ok 20 - is-deeply: {meth => groups, value => [conditional]}
+[ASTQuery] ok 21 - isa-ok: {meth => gchild, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 22 - is-deeply: {meth => gchild, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 23 - isa-ok: {meth => child, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 24 - is-deeply: {meth => child, value => ASTQuery::Matcher.new(RakuAST::Node)}
+[ASTQuery] ok 25 - 
+[ASTQuery] ok 26 - 
+[ASTQuery] ok 27 - 
+[ASTQuery] ok 28 - 
+[ASTQuery] ok 29 - 
+[ASTQuery] ok 30 - 
+[ASTQuery] ok 31 - operator group finds operator nodes
+[ASTQuery] ok 32 - apply-operator group finds apply nodes
+[ASTQuery] ok 33 - variable-usage matches Var nodes
+[ASTQuery] ok 34 - variable-declaration matches declaration nodes
+[ASTQuery] ok 35 - assignment group matches assignment-like nodes
+[ASTQuery] ok 36 - call \#say matches Call by name
+[ASTQuery] ok 37 - variable-usage \#x matches variable usages
+[ASTQuery] ok 38 - variable-declaration \#x matches var decls
+[ASTQuery] ok 39 - Sub \#foo matches sub by name
+[ASTQuery] ok 40 - Class \#MyClass matches class by name
+[ASTQuery] ok 41 - TokenDeclaration \#tok matches token
+[ASTQuery] ok 42 - ColonPair \#key matches :key
+[ASTQuery] ok 43 - FatArrow \#a matches a => 1
+[ASTQuery] 1..43
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/03-matcher.rakutest
+[ASTQuery] ok 1 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) (Name) False)
+[ASTQuery] ok 2 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) (Name) False)
+[ASTQuery] ok 3 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [(Name)] False)
+[ASTQuery] ok 4 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [(Name)] False)
+[ASTQuery] ok 5 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [(Name) (Name) (Name) (Name) (Name) (Name) (Name) (Name) (Name) (Name)] False)
+[ASTQuery] ok 6 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [(Name) (Name) (Name) (Name) (Name) (Name) (Name) (Name) (Name) (Name)] False)
+[ASTQuery] ok 7 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) RakuAST::Name False)
+[ASTQuery] ok 8 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) RakuAST::Name False)
+[ASTQuery] ok 9 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [RakuAST::Name] False)
+[ASTQuery] ok 10 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [RakuAST::Name] False)
+[ASTQuery] ok 11 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name] False)
+[ASTQuery] ok 12 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name RakuAST::Name] False)
+[ASTQuery] ok 13 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) (Call) 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 14 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) (Call) 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 15 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [(Call)] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 16 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [(Call)] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 17 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [(Call) (Call) (Call) (Call) (Call) (Call) (Call) (Call) (Call) (Call)] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 18 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [(Call) (Call) (Call) (Call) (Call) (Call) (Call) (Call) (Call) (Call)] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 19 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) int False)
+[ASTQuery] ok 20 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) int False)
+[ASTQuery] ok 21 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [int] False)
+[ASTQuery] ok 22 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [int] False)
+[ASTQuery] ok 23 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [int int int int int int int int int int] False)
+[ASTQuery] ok 24 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [int int int int int int int int int int] False)
+[ASTQuery] ok 25 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) call 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 26 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) call 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 27 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [call] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 28 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [call] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 29 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [call call call call call call call call call call] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 30 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [call call call call call call call call call call] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 31 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) none1 False)
+[ASTQuery] ok 32 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) none1 False)
+[ASTQuery] ok 33 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [none2] False)
+[ASTQuery] ok 34 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [none2] False)
+[ASTQuery] ok 35 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [none3 none3 none3 none3 none3 none3 none3 none3 none3 none3] False)
+[ASTQuery] ok 36 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [none3 none3 none3 none3 none3 none3 none3 none3 none3 none3] False)
+[ASTQuery] ok 37 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) say 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 38 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) say 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 39 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [say] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 40 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [say] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 41 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [say say say say say say say say say say] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 42 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) [say say say say say say say say say say] 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 43 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) not-an-att True False)
+[ASTQuery] ok 44 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) not-an-att True False)
+[ASTQuery] ok 45 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name True 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 46 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name True 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 47 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) not-an-att something False)
+[ASTQuery] ok 48 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) not-an-att something False)
+[ASTQuery] ok 49 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name something False)
+[ASTQuery] ok 50 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name something False)
+[ASTQuery] ok 51 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520163272) ... } False)
+[ASTQuery] ok 52 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520163272) ... } False)
+[ASTQuery] ok 53 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name say 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 54 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name say 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 55 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520162984) ... } 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 56 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520162984) ... } 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 57 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520162696) ... } False)
+[ASTQuery] ok 58 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520162696) ... } False)
+[ASTQuery] ok 59 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520162552) ... } 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 60 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) name -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520162552) ... } 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 61 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520236048) ... } False)
+[ASTQuery] ok 62 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520236048) ... } False)
+[ASTQuery] ok 63 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520236120) ... } 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 64 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520236120) ... } 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 65 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520251200) ... } 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 66 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520251200) ... } 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] Nil
+[ASTQuery] ok 67 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520251488) ... } 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 68 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) -> ;; Mu $_? = OUTER::<$_> {  \#`(Block|6026520251488) ... } 0 => [1m[33;1msay[m([32m42[m [33;1m+[m [32m13[m)[m)
+[ASTQuery] ok 69 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::IntLiteral) False)
+[ASTQuery] ok 70 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::IntLiteral) False)
+[ASTQuery] ok 71 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::ArgList) 0 => [1m[32m42[m [33;1m+[m [32m13[m[m)
+[ASTQuery] ok 72 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::ArgList) 0 => [1m[32m42[m [33;1m+[m [32m13[m[m)
+[ASTQuery] ok 73 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::Ternary) False)
+[ASTQuery] ok 74 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::Ternary) False)
+[ASTQuery] ok 75 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::ApplyInfix) 0 => [1m[32m42[m [33;1m+[m [32m13[m[m)
+[ASTQuery] ok 76 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::ApplyInfix) 0 => [1m[32m42[m [33;1m+[m [32m13[m[m)
+[ASTQuery] ok 77 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::IntLiteral) 0 => [1m[32m42[m[m
+[ASTQuery] # 1 => [1m[32m13[m[m)
+[ASTQuery] ok 78 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::IntLiteral) 0 => [1m[32m42[m[m
+[ASTQuery] # 1 => [1m[32m13[m[m)
+[ASTQuery] ok 79 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::Ternary) False)
+[ASTQuery] ok 80 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::Ternary) False)
+[ASTQuery] ok 81 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::ApplyInfix) 0 => [1m[32m42[m [33;1m+[m [32m13[m[m)
+[ASTQuery] ok 82 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::ApplyInfix) 0 => [1m[32m42[m [33;1m+[m [32m13[m[m)
+[ASTQuery] ok 83 - isa-ok: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::IntLiteral) False)
+[ASTQuery] ok 84 - is-deeply: (RakuAST::Call::Name.new(
+[ASTQuery] #   name => RakuAST::Name.from-identifier("say"),
+[ASTQuery] #   args => RakuAST::ArgList.new(
+[ASTQuery] #     RakuAST::ApplyInfix.new(
+[ASTQuery] #       left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #       infix => RakuAST::Infix.new("+"),
+[ASTQuery] #       right => RakuAST::IntLiteral.new(13)
+[ASTQuery] #     )
+[ASTQuery] #   )
+[ASTQuery] # ) ASTQuery::Matcher.new(RakuAST::IntLiteral) False)
+[ASTQuery] ok 85 - validate-parent returns a Match when parent matches
+[ASTQuery] ok 86 - validate-parent: matched parent node returned
+[ASTQuery] ok 87 - validate-parent returns False when parent mismatches
+[ASTQuery] ok 88 - validate-ascendant returns a Match when any ascendant matches
+[ASTQuery] ok 89 - validate-ascendant returns False when no ascendant matches
+[ASTQuery] ok 90 - validate-gparent succeeds across ignorable nodes
+[ASTQuery] ok 91 - validate-gparent fails when a non-ignorable node is between
+[ASTQuery] ok 92 - validate-atts nested: (RakuAST::ApplyInfix.new(
+[ASTQuery] #   left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #   infix => RakuAST::Infix.new("+"),
+[ASTQuery] #   right => RakuAST::IntLiteral.new(13)
+[ASTQuery] # ) infix + True)
+[ASTQuery] ok 93 - validate-atts nested: (RakuAST::ApplyInfix.new(
+[ASTQuery] #   left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #   infix => RakuAST::Infix.new("+"),
+[ASTQuery] #   right => RakuAST::IntLiteral.new(13)
+[ASTQuery] # ) left 42 True)
+[ASTQuery] ok 94 - validate-atts nested: (RakuAST::ApplyInfix.new(
+[ASTQuery] #   left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #   infix => RakuAST::Infix.new("+"),
+[ASTQuery] #   right => RakuAST::IntLiteral.new(13)
+[ASTQuery] # ) right 13 True)
+[ASTQuery] ok 95 - validate-atts nested: (RakuAST::ApplyInfix.new(
+[ASTQuery] #   left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #   infix => RakuAST::Infix.new("+"),
+[ASTQuery] #   right => RakuAST::IntLiteral.new(13)
+[ASTQuery] # ) infix * False)
+[ASTQuery] ok 96 - validate-atts nested: (RakuAST::ApplyInfix.new(
+[ASTQuery] #   left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #   infix => RakuAST::Infix.new("+"),
+[ASTQuery] #   right => RakuAST::IntLiteral.new(13)
+[ASTQuery] # ) left 99 False)
+[ASTQuery] ok 97 - validate-atts nested: (RakuAST::ApplyInfix.new(
+[ASTQuery] #   left  => RakuAST::IntLiteral.new(42),
+[ASTQuery] #   infix => RakuAST::Infix.new("+"),
+[ASTQuery] #   right => RakuAST::IntLiteral.new(13)
+[ASTQuery] # ) right 99 False)
+[ASTQuery] 1..97
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/04-coverage.rakutest
+[ASTQuery] ok 1 - merge-or returns a match when any truthy
+[ASTQuery] ok 2 - merge-or returns False when none truthy
+[ASTQuery] ok 3 - merge-and merges two matches
+[ASTQuery] ok 4 - merge-and returns False if any match is False
+[ASTQuery] ok 5 - gist works for non-RakuAST
+[ASTQuery] ok 6 - gist works for RakuAST node
+[ASTQuery] ok 7 - prepare-code handles DEPARSE failures
+[ASTQuery] ok 8 - query-descendants-only returns a match object
+[ASTQuery] ok 9 - descendants search finds integers
+[ASTQuery] ok 10 - query-children-only executes
+[ASTQuery] ok 11 - query-root-only executes
+[ASTQuery] ok 12 - get-id-field(Call) => name
+[ASTQuery] ok 13 - get-id-field(IntLiteral) => value
+[ASTQuery] ok 14 - validate-ids(Call, say) succeeds
+[ASTQuery] Cannot find method 'wrappee' on object of type Perl6::Metamodel::CurriedRoleHOW
+[ASTQuery]   in sub add-ast-group at /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7/lib/ASTQuery.rakumod (ASTQuery) line 26
+[ASTQuery]   in block <unit> at t/04-coverage.rakutest line 62
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/05-coverage.rakutest
+[ASTQuery] ok 1 - debug path: call say then int 42
+[ASTQuery] ok 2 - debug path: infix under conditional, capture ints
+[ASTQuery] ok 3 - matcher gist runs
+[ASTQuery] Cannot find method 'wrappee' on object of type Perl6::Metamodel::CurriedRoleHOW
+[ASTQuery]   in sub add-ast-group at /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7/lib/ASTQuery.rakumod (ASTQuery) line 26
+[ASTQuery]   in block <unit> at t/05-coverage.rakutest line 37
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/06-matcher-more.rakutest
+[ASTQuery] ok 1 - get-id-field returns Nil for unmapped class
+[ASTQuery] ok 2 - validate-ids succeeds with duplicates when one id matches
+[ASTQuery] # Subtest: set-ast-id fails when id method missing on class
+[ASTQuery]     1..2
+[ASTQuery]     ok 1 - code dies
+[ASTQuery]     ok 2 - right exception type (X::AdHoc)
+[ASTQuery] ok 3 - set-ast-id fails when id method missing on class
+[ASTQuery] 1..3
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/07-coverage-extra.rakutest
+[ASTQuery] No such method 'name' for invocant of type 'Mu'. Did you mean any of
+[ASTQuery] these: 'note', 'take'?
+[ASTQuery]   in sub prepare-caller at /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7/lib/ASTQuery/Matcher.rakumod (ASTQuery::Matcher) line 943
+[ASTQuery]   in sub print-validator-end at /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7/lib/ASTQuery/Matcher.rakumod (ASTQuery::Matcher) line 997
+[ASTQuery]   in method ACCEPTS at /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7/lib/ASTQuery/Matcher.rakumod (ASTQuery::Matcher) line 1
+[ASTQuery]   in sub match at /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7/lib/ASTQuery/Match.rakumod (ASTQuery::Match) line 83
+[ASTQuery]   in sub visitor at /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7/lib/ASTQuery/Match.rakumod (ASTQuery::Match) line 99
+[ASTQuery]   in method query at /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7/lib/ASTQuery/Match.rakumod (ASTQuery::Match) line 109
+[ASTQuery]   in sub ast-query at /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7/lib/ASTQuery.rakumod (ASTQuery) line 19
+[ASTQuery]   in sub ast-query at /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7/lib/ASTQuery.rakumod (ASTQuery) line 11
+[ASTQuery]   in block <unit> at t/07-coverage-extra.rakutest line 26
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/08-attr-rel.rakutest
+[ASTQuery] ok 1 - .call[args=> .int] matches when ArgList contains Int child
+[ASTQuery] ok 2 - .call[args=>> .int] also matches (same as child here)
+[ASTQuery] ok 3 - .call[args=>>> .int] matches via descendant as well
+[ASTQuery] ok 4 - .call[args=> .int] does not match when Int is not a direct child
+[ASTQuery] ok 5 - .call[args=>> .int] still does not match (no ignorable in-between)
+[ASTQuery] ok 6 - .call[args=> .apply-operator] matches ApplyInfix as direct child
+[ASTQuery] ok 7 - .call[args=>>> .int] matches Int via descendant from ArgList
+[ASTQuery] ok 8 - attribute relation fails when attribute does not exist
+[ASTQuery] 1..8
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/09-attr-ops.rakutest
+[ASTQuery] ok 1 - name~=ay matches say
+[ASTQuery] ok 2 - name~=zzz does not match
+[ASTQuery] ok 3 - name^=s matches say
+[ASTQuery] ok 4 - name$=ut matches put
+[ASTQuery] ok 5 - name^=z does not match
+[ASTQuery] ok 6 - name*=/n.t/ matches note
+[ASTQuery] ok 7 - name*=/xyz/ does not match
+[ASTQuery] ok 8 - infix~=+ matches plus
+[ASTQuery] ok 9 - infix~=zz does not match
+[ASTQuery] ok 10 - non-existent attr with op does not match
+[ASTQuery] ok 11 - literal value contains b
+[ASTQuery] ok 12 - literal value not contains Z
+[ASTQuery] ok 13 - non-string id fallback does not match
+[ASTQuery] 1..13
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/10-functions.rakutest
+[ASTQuery] ok 1 - &f-call finds f-calls
+[ASTQuery] ok 2 - &single-argument-call matches expected
+[ASTQuery] ok 3 - combining &is-call >>> .int finds int-calls
+[ASTQuery] ok 4 - &var-decl finds declarations
+[ASTQuery] 1..4
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/11-functions-composed.rakutest
+[ASTQuery] ok 1 - &is-call[args=>>>.int] finds calls with int args
+[ASTQuery] ok 2 - &has-int .apply-operator matches apply operators with ints
+[ASTQuery] ok 3 - &is-call \#say matches say call(s)
+[ASTQuery] ok 4 - &is-call[name~=bar] matches foobar call
+[ASTQuery] ok 5 - &has-int >>> .int finds nodes with int descendant
+[ASTQuery] 1..5
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/12-doc-examples.rakutest
+[ASTQuery] ok 1 - Quickstart: apply-operator[right=3] finds $a + 3
+[ASTQuery] ok 2 - Quickstart: &is-call[args=>>> .int] finds calls with int under args
+[ASTQuery] ok 3 - Ancestor <<< example: finds infix nodes under a conditional
+[ASTQuery] ok 4 - Ancestor <<< example: captures cond and int lists populated
+[ASTQuery] ok 5 - Parent < example: captures apply-operator nodes with right=2
+[ASTQuery] ok 6 - >>> example: finds call nodes with Var descendant
+[ASTQuery] ok 7 - >>> example: captures Var node as $var
+[ASTQuery] ok 8 - EVAL say->note example compiles and runs
+[ASTQuery] ok 9 - AST transform say->note: output captured in $*ERR if transformed, else in $*OUT
+[ASTQuery] ok 10 - EVAL *->+ example compiles and runs
+[ASTQuery] ok 11 - AST transform * -> +: output is 5 if transformed, 6 otherwise
+[ASTQuery] 1..11
+[ASTQuery] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/dfa25bec9258b5504f9d0073476f7fc334eefc86.tar.gz/ASTQuery-0.0.7 t/13-coverage-edge.rakutest
+[ASTQuery] ok 1 - unknown &function dies with helpful message
+[ASTQuery] ok 2 - unknown .group dies with helpful message
+[ASTQuery] ok 3 - validate-atts accepts Type object on nested leaf (name => Str)
+[ASTQuery] ok 4 - .call[nope] never matches for missing attribute
+[ASTQuery] ok 5 - non-RakuAST node + Regex ACCEPTS returns Match
+[ASTQuery] ok 6 - Match contains the original node
+[ASTQuery] ok 7 - duplicate &functions still match due to unique
+[ASTQuery] 1..7
+===> Testing [FAIL]: ASTQuery:ver<0.0.7>:auth<zef:FCO>
+[ASTQuery] Failed to get passing tests, but continuing with --force-test
+===> Installing: ASTQuery:ver<0.0.7>:auth<zef:FCO>
+===> Install [OK] for ASTQuery:ver<0.0.7>:auth<zef:FCO>
+
+1 bin/ script [ast-query.raku] installed to:
+/blin/installed/ASTQuery_0.0.7/bin
