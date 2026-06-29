@@ -1,0 +1,98 @@
+===> Searching for: CSS::Minifier
+===> Found: CSS::Minifier:ver<0.0.13>:auth<zef:sasha> [via Zef::Repository::Ecosystems<fez>]
+[CSS::Minifier] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782697878.27546.838.6060971857534/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz https://360.zef.pm/C/SS/CSS_MINIFIER/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz
+===> Fetching [OK]: CSS::Minifier:ver<0.0.13>:auth<zef:sasha> to /blin/data/zef-data/tmp/1782697878.27546.838.6060971857534/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz
+[CSS::Minifier] Command: tar -t -f ./bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz
+[CSS::Minifier] Command: tar -xvf ./bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz -C ../bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz
+===> Extraction [OK]: CSS::Minifier to /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz
+===> Testing: CSS::Minifier:ver<0.0.13>:auth<zef:sasha>
+[CSS::Minifier] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13 t/01-plugins.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling t/01-plugins.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier)
+[CSS::Minifier] ===SORRY!===
+[CSS::Minifier] Cannot use a Callable as the only argument to store in a Map.  If the
+[CSS::Minifier] intent was to store the contents of a Hash, one should probably use the
+[CSS::Minifier] %( ) hash constructor instead of { }.  Causes of { } misinterpretation:
+[CSS::Minifier] - using ';' instead of ',' to separate values, as these imply statements
+[CSS::Minifier] - using '$_' or any placeholder variable, as they imply a block scope
+[CSS::Minifier] at /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier):4
+[CSS::Minifier] at t/01-plugins.rakutest:2
+[CSS::Minifier] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13 t/02-edge-cases.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling t/02-edge-cases.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier)
+[CSS::Minifier] ===SORRY!===
+[CSS::Minifier] Cannot use a Callable as the only argument to store in a Map.  If the
+[CSS::Minifier] intent was to store the contents of a Hash, one should probably use the
+[CSS::Minifier] %( ) hash constructor instead of { }.  Causes of { } misinterpretation:
+[CSS::Minifier] - using ';' instead of ',' to separate values, as these imply statements
+[CSS::Minifier] - using '$_' or any placeholder variable, as they imply a block scope
+[CSS::Minifier] at /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier):4
+[CSS::Minifier] at t/02-edge-cases.rakutest:2
+[CSS::Minifier] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13 t/03-golden.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling t/03-golden.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier)
+[CSS::Minifier] ===SORRY!===
+[CSS::Minifier] Cannot use a Callable as the only argument to store in a Map.  If the
+[CSS::Minifier] intent was to store the contents of a Hash, one should probably use the
+[CSS::Minifier] %( ) hash constructor instead of { }.  Causes of { } misinterpretation:
+[CSS::Minifier] - using ';' instead of ',' to separate values, as these imply statements
+[CSS::Minifier] - using '$_' or any placeholder variable, as they imply a block scope
+[CSS::Minifier] at /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier):4
+[CSS::Minifier] at t/03-golden.rakutest:2
+[CSS::Minifier] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13 t/04-cache.rakutest
+[CSS::Minifier] ok 1 - 501 unique cache entries created
+[CSS::Minifier] ok 2 - 501 entries still accessible after eviction
+[CSS::Minifier] ok 3 - re-fetched entries match originals
+[CSS::Minifier] ok 4 - cache rebuilt correctly after explicit clear
+[CSS::Minifier] 1..4
+[CSS::Minifier] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13 t/05-at-rule-nesting.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling t/05-at-rule-nesting.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier)
+[CSS::Minifier] ===SORRY!===
+[CSS::Minifier] Cannot use a Callable as the only argument to store in a Map.  If the
+[CSS::Minifier] intent was to store the contents of a Hash, one should probably use the
+[CSS::Minifier] %( ) hash constructor instead of { }.  Causes of { } misinterpretation:
+[CSS::Minifier] - using ';' instead of ',' to separate values, as these imply statements
+[CSS::Minifier] - using '$_' or any placeholder variable, as they imply a block scope
+[CSS::Minifier] at /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier):4
+[CSS::Minifier] at t/05-at-rule-nesting.rakutest:2
+[CSS::Minifier] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13 t/05-unicode.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling t/05-unicode.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier)
+[CSS::Minifier] ===SORRY!===
+[CSS::Minifier] Cannot use a Callable as the only argument to store in a Map.  If the
+[CSS::Minifier] intent was to store the contents of a Hash, one should probably use the
+[CSS::Minifier] %( ) hash constructor instead of { }.  Causes of { } misinterpretation:
+[CSS::Minifier] - using ';' instead of ',' to separate values, as these imply statements
+[CSS::Minifier] - using '$_' or any placeholder variable, as they imply a block scope
+[CSS::Minifier] at /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier):4
+[CSS::Minifier] at t/05-unicode.rakutest:2
+[CSS::Minifier] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13 t/06-selectors.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling t/06-selectors.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier)
+[CSS::Minifier] ===SORRY!===
+[CSS::Minifier] Cannot use a Callable as the only argument to store in a Map.  If the
+[CSS::Minifier] intent was to store the contents of a Hash, one should probably use the
+[CSS::Minifier] %( ) hash constructor instead of { }.  Causes of { } misinterpretation:
+[CSS::Minifier] - using ';' instead of ',' to separate values, as these imply statements
+[CSS::Minifier] - using '$_' or any placeholder variable, as they imply a block scope
+[CSS::Minifier] at /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier):4
+[CSS::Minifier] at t/06-selectors.rakutest:2
+[CSS::Minifier] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13 t/06-supports.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling t/06-supports.rakutest
+[CSS::Minifier] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier)
+[CSS::Minifier] ===SORRY!===
+[CSS::Minifier] Cannot use a Callable as the only argument to store in a Map.  If the
+[CSS::Minifier] intent was to store the contents of a Hash, one should probably use the
+[CSS::Minifier] %( ) hash constructor instead of { }.  Causes of { } misinterpretation:
+[CSS::Minifier] - using ';' instead of ',' to separate values, as these imply statements
+[CSS::Minifier] - using '$_' or any placeholder variable, as they imply a block scope
+[CSS::Minifier] at /blin/data/zef-data/tmp/bcbe45bf399f5e41f83d4c8037c641e7c4ff2572.tar.gz/CSS-Minifier-0.0.13/lib/CSS/Minifier.rakumod (CSS::Minifier):4
+[CSS::Minifier] at t/06-supports.rakutest:2
+===> Testing [FAIL]: CSS::Minifier:ver<0.0.13>:auth<zef:sasha>
+[CSS::Minifier] Failed to get passing tests, but continuing with --force-test
+===> Installing: CSS::Minifier:ver<0.0.13>:auth<zef:sasha>
+===> Install [OK] for CSS::Minifier:ver<0.0.13>:auth<zef:sasha>
+
+1 bin/ script [cssminify] installed to:
+/blin/installed/CSS::Minifier_0.0.13/bin

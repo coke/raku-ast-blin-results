@@ -298,7 +298,7 @@ CRoaring – OK
 CSS – Unknown
 CSS::Font::Resources – Unknown
 CSS::Grammar – Unknown
-CSS::Minifier – Unknown
+CSS::Minifier – Fail, Bisected: f5caad10270d09cba89b039e5c099b052a0a56b1
 CSS::Module – Unknown
 CSS::Module::CSS3::Selectors – Unknown
 CSS::Nested – Unknown
@@ -336,14 +336,14 @@ Chess – OK
 Chinese – OK
 Chronic – OK
 Class::Loader::Dynamic – Unknown
-Class::Utils – Unknown
+Class::Utils – AlwaysFail
 ClassX::StrictConstructor – OK
-ClassicalChinese – Unknown
-Clean – Unknown
-Clifford – Unknown
-Clipboard – Unknown
+ClassicalChinese – OK
+Clean – OK
+Clifford – AlwaysFail
+Clipboard – OK
 Clu – Unknown
-Cmark – Unknown
+Cmark – AlwaysFail
 Code::Coverable – Unknown
 Code::Coverage – Unknown
 CodeUnit – Unknown
@@ -352,10 +352,10 @@ Collection – Unknown
 Collection-Plugin-Development – Unknown
 Collection-Plugins – Unknown
 Collection-Raku-Documentation – Unknown
-Color – Unknown
+Color – OK
 Color::DirColors – Unknown
 Color::Named – Unknown
-Color::Names – Unknown
+Color::Names – OK
 Color::Palette – Unknown
 Color::Scheme – Unknown
 Colorizable – Unknown
