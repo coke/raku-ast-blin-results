@@ -247,7 +247,7 @@ Bailador::Plugin::NamedQueries – Unknown
 Base58 – OK
 Base64 – Unknown
 Base64::Native – Unknown
-Base::Any – Unknown
+Base::Any – OK
 Bench – OK
 Benchmark – Unknown
 Benchmark::Plot – Unknown
@@ -257,7 +257,7 @@ BigRoot – OK
 Bin::Utils – Unknown
 Binary::Structured – OK
 BinaryHeap – Unknown
-Bio – Unknown
+Bio – AlwaysFail
 Bio::ViennaNGS – OK
 BioInfo – Unknown
 BioPerl6 – Unknown
@@ -268,7 +268,7 @@ Bitcoin::RPC::Client – Unknown
 Bits – OK
 Blin – Unknown
 BlkMeV – Unknown
-Brazilian::FederalDocuments – Unknown
+Brazilian::FederalDocuments – OK
 BreakDancer – Unknown
 Browser::Open – Unknown
 Build::Graph – Unknown

@@ -1,0 +1,17 @@
+===> Searching for: Array::Agnostic
+===> Found: Array::Agnostic:ver<0.0.18>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Array::Agnostic] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782696750.17047.6633.380288724323/c950acf677adfcef43c4660fad856408e05fa176.tar.gz https://360.zef.pm/A/RR/ARRAY_AGNOSTIC/c950acf677adfcef43c4660fad856408e05fa176.tar.gz
+===> Fetching [OK]: Array::Agnostic:ver<0.0.18>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1782696750.17047.6633.380288724323/c950acf677adfcef43c4660fad856408e05fa176.tar.gz
+[Array::Agnostic] Command: tar -t -f ./c950acf677adfcef43c4660fad856408e05fa176.tar.gz
+[Array::Agnostic] Command: tar -xvf ./c950acf677adfcef43c4660fad856408e05fa176.tar.gz -C ../c950acf677adfcef43c4660fad856408e05fa176.tar.gz
+===> Extraction [OK]: Array::Agnostic to /blin/data/zef-data/tmp/c950acf677adfcef43c4660fad856408e05fa176.tar.gz
+===> Testing: Array::Agnostic:ver<0.0.18>:auth<zef:lizmat>
+[Array::Agnostic] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/c950acf677adfcef43c4660fad856408e05fa176.tar.gz/Array-Agnostic-0.0.18 t/01-basic.rakutest
+[Array::Agnostic] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Array::Agnostic] ===SORRY!===
+[Array::Agnostic] Object does not exist in serialization context
+[Array::Agnostic] at t/01-basic.rakutest:5
+===> Testing [FAIL]: Array::Agnostic:ver<0.0.18>:auth<zef:lizmat>
+[Array::Agnostic] Failed to get passing tests, but continuing with --force-test
+===> Installing: Array::Agnostic:ver<0.0.18>:auth<zef:lizmat>
+===> Install [OK] for Array::Agnostic:ver<0.0.18>:auth<zef:lizmat>
