@@ -1,0 +1,85 @@
+===> Searching for: C::Parser
+===> Found: C::Parser:ver<0.3.3>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[C::Parser] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782697707.25718.4889.909730946929/35a31915512ace4c92633229f41319e6f48933e6.tar.gz https://360.zef.pm/C/_P/C_PARSER/35a31915512ace4c92633229f41319e6f48933e6.tar.gz
+===> Fetching [OK]: C::Parser:ver<0.3.3>:auth<zef:raku-community-modules> to /blin/data/zef-data/tmp/1782697707.25718.4889.909730946929/35a31915512ace4c92633229f41319e6f48933e6.tar.gz
+[C::Parser] Command: tar -t -f ./35a31915512ace4c92633229f41319e6f48933e6.tar.gz
+[C::Parser] Command: tar -xvf ./35a31915512ace4c92633229f41319e6f48933e6.tar.gz -C ../35a31915512ace4c92633229f41319e6f48933e6.tar.gz
+===> Extraction [OK]: C::Parser to /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz
+===> Testing: C::Parser:ver<0.3.3>:auth<zef:raku-community-modules>
+[C::Parser] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3 t/01_null_main.rakutest
+[C::Parser] 1..1
+[C::Parser] ok 1 - gives a Grammar
+[C::Parser] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3 t/02_null_main_ast.rakutest
+[C::Parser] 1..1
+[C::Parser] Type check failed for an element of @!children; expected Spec but got C::AST::Specs (C::AST::Specs.new(ch...)
+[C::Parser]   in method function-definition:sym<std> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Actions.rakumod (C::Parser::Actions) line 1091
+[C::Parser]   in regex function-definition:sym<std> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 980
+[C::Parser]   in regex function-definition at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 979
+[C::Parser]   in regex external-declaration:sym<function-definition> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 963
+[C::Parser]   in regex external-declaration at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 962
+[C::Parser]   in regex translation-unit at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 943
+[C::Parser]   in regex TOP at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 8
+[C::Parser]   in method parse at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser.rakumod (C::Parser) line 8
+[C::Parser]   in block <unit> at t/02_null_main_ast.rakutest line 15
+[C::Parser] # You planned 1 test, but ran 0
+[C::Parser] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3 t/03_hello.rakutest
+[C::Parser] 1..1
+[C::Parser] ok 1 - gives a Grammar
+[C::Parser] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3 t/04_hello_ast.rakutest
+[C::Parser] 1..1
+[C::Parser] Type check failed for an element of @!children; expected Spec but got C::AST::Specs (C::AST::Specs.new(ch...)
+[C::Parser]   in method function-definition:sym<std> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Actions.rakumod (C::Parser::Actions) line 1091
+[C::Parser]   in regex function-definition:sym<std> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 980
+[C::Parser]   in regex function-definition at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 979
+[C::Parser]   in regex external-declaration:sym<function-definition> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 963
+[C::Parser]   in regex external-declaration at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 962
+[C::Parser]   in regex translation-unit at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 943
+[C::Parser]   in regex TOP at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 8
+[C::Parser]   in method parse at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser.rakumod (C::Parser) line 8
+[C::Parser]   in block <unit> at t/04_hello_ast.rakutest line 16
+[C::Parser] # You planned 1 test, but ran 0
+[C::Parser] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3 t/05_modern.rakutest
+[C::Parser] 1..1
+[C::Parser] Type check failed for an element of @!children; expected Spec but got C::AST::Specs (C::AST::Specs.new(ch...)
+[C::Parser]   in method function-definition:sym<std> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Actions.rakumod (C::Parser::Actions) line 1091
+[C::Parser]   in regex function-definition:sym<std> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 980
+[C::Parser]   in regex function-definition at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 979
+[C::Parser]   in regex external-declaration:sym<function-definition> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 963
+[C::Parser]   in regex external-declaration at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 962
+[C::Parser]   in regex translation-unit at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 943
+[C::Parser]   in regex TOP at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 8
+[C::Parser]   in method parse at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser.rakumod (C::Parser) line 8
+[C::Parser]   in block <unit> at t/05_modern.rakutest line 18
+[C::Parser] # You planned 1 test, but ran 0
+[C::Parser] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3 t/06_ancient.rakutest
+[C::Parser] 1..1
+[C::Parser] Type check failed for an element of @!children; expected Spec but got C::AST::Specs (C::AST::Specs.new(ch...)
+[C::Parser]   in method function-definition:sym<std> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Actions.rakumod (C::Parser::Actions) line 1091
+[C::Parser]   in regex function-definition:sym<std> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 980
+[C::Parser]   in regex function-definition at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 979
+[C::Parser]   in regex external-declaration:sym<function-definition> at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 963
+[C::Parser]   in regex external-declaration at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 962
+[C::Parser]   in regex translation-unit at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 943
+[C::Parser]   in regex TOP at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser/Grammar.rakumod (C::Parser::Grammar) line 8
+[C::Parser]   in method parse at /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3/lib/C/Parser.rakumod (C::Parser) line 8
+[C::Parser]   in block <unit> at t/06_ancient.rakutest line 20
+[C::Parser] # You planned 1 test, but ran 0
+[C::Parser] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3 t/07_mbstate.rakutest
+[C::Parser] 1..1
+[C::Parser] ok 1 - gives a C::AST::TransUnit
+[C::Parser] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3 t/08_fgetc.rakutest
+[C::Parser] 1..1
+[C::Parser] ok 1 - gives a C::AST::TransUnit
+[C::Parser] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/35a31915512ace4c92633229f41319e6f48933e6.tar.gz/C-Parser-0.3.3 t/primary_lex.rakutest
+[C::Parser] 1..4
+[C::Parser] ok 1 - gives a Match
+[C::Parser] ok 2 - gives a Match
+[C::Parser] ok 3 - gives a Match
+[C::Parser] ok 4 - gives a Match
+===> Testing [FAIL]: C::Parser:ver<0.3.3>:auth<zef:raku-community-modules>
+[C::Parser] Failed to get passing tests, but continuing with --force-test
+===> Installing: C::Parser:ver<0.3.3>:auth<zef:raku-community-modules>
+===> Install [OK] for C::Parser:ver<0.3.3>:auth<zef:raku-community-modules>
+
+1 bin/ script [cdump] installed to:
+/blin/installed/C::Parser_0.3.3/bin
