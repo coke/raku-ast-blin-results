@@ -241,7 +241,7 @@ BSON::Simple – Unknown
 BTree – OK
 Backtrace::AsHTML – OK
 Backtrace::Files – OK
-Badger – Unknown
+Badger – Fail, Bisected: f5caad10270d09cba89b039e5c099b052a0a56b1
 Bailador – Unknown
 Bailador::Plugin::NamedQueries – Unknown
 Base58 – OK
@@ -249,7 +249,7 @@ Base64 – Unknown
 Base64::Native – Unknown
 Base::Any – OK
 Bench – OK
-Benchmark – Unknown
+Benchmark – Fail, Bisected: f5caad10270d09cba89b039e5c099b052a0a56b1
 Benchmark::Plot – Unknown
 Benchy – Unknown
 Bencode – OK
@@ -274,27 +274,27 @@ Browser::Open – Unknown
 Build::Graph – Unknown
 Build::Simple – Unknown
 BuildToolchainRepo – Unknown
-Bundle-Compress-Zlib – Unknown
-Bundle-IO-Compress-Bzip2 – Unknown
-Business::CreditCard – Unknown
+Bundle-Compress-Zlib – AlwaysFail
+Bundle-IO-Compress-Bzip2 – AlwaysFail
+Business::CreditCard – OK
 BusyIndicator – Unknown
 C::Parser – Unknown
 CBOR::Simple – Unknown
 CCChart – Unknown
-CCColor – Unknown
-CCLog – Unknown
+CCColor – AlwaysFail
+CCLog – AlwaysFail
 CI::Gen – Unknown
-CLDR::List – Unknown
+CLDR::List – OK
 CLI::AWS::EC2-Simple – Unknown
 CLI::Ecosystem – Unknown
 CLI::Graphing::BarChart – Unknown
-CLI::Help – Unknown
-CLI::Version – Unknown
+CLI::Help – OK
+CLI::Version – OK
 CLI::Wordpress – Unknown
 CLI::Wordpress::Migrator – Unknown
 CPAN::Uploader::Tiny – Unknown
 CRDT – Unknown
-CRoaring – Unknown
+CRoaring – OK
 CSS – Unknown
 CSS::Font::Resources – Unknown
 CSS::Grammar – Unknown
@@ -310,7 +310,7 @@ CSS::TagSet – Unknown
 CSS::Writer – Unknown
 CSV-AutoClass – Unknown
 CSV-Autoclass – Unknown
-CSV::Parser – Unknown
+CSV::Parser – OK
 CSV::Table – Unknown
 CUID – Unknown
 CWT-Repository-Hash – Unknown
