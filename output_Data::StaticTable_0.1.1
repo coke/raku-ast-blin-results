@@ -1,0 +1,210 @@
+===> Searching for: Data::StaticTable
+===> Found: Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Data::StaticTable] Command: curl --silent -L -o /blin/data/zef-data/tmp/1782699729.43922.3157.649246826374/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz https://360.zef.pm/D/AT/DATA_STATICTABLE/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz
+===> Fetching [OK]: Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules> to /blin/data/zef-data/tmp/1782699729.43922.3157.649246826374/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz
+[Data::StaticTable] Command: tar -t -f ./d0112737a7d408a3dc04e875026c98e15064540a.tar.gz
+[Data::StaticTable] Command: tar -xvf ./d0112737a7d408a3dc04e875026c98e15064540a.tar.gz -C ../d0112737a7d408a3dc04e875026c98e15064540a.tar.gz
+===> Extraction [OK]: Data::StaticTable to /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz
+===> Testing: Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules>
+[Data::StaticTable] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1 t/001-basic.rakutest
+[Data::StaticTable] Potential difficulties:
+[Data::StaticTable]     Optional named parameter 'columns' with subset type Data::StaticTable::Position needs a valid default value
+[Data::StaticTable]     otherwise it will throw exceptions when a value is absent at the callsite
+[Data::StaticTable]     at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable):42
+[Data::StaticTable]     Optional named parameter 'rows' with subset type Data::StaticTable::Position needs a valid default value
+[Data::StaticTable]     otherwise it will throw exceptions when a value is absent at the callsite
+[Data::StaticTable]     at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable):42
+[Data::StaticTable] 1..49
+[Data::StaticTable] # == Basic tests ==
+[Data::StaticTable] # Subtest: Can not create Data::StaticTables with repeated header names
+[Data::StaticTable]     1..2
+[Data::StaticTable]     ok 1 - code dies
+[Data::StaticTable]     ok 2 - right exception type (X::Data::StaticTable)
+[Data::StaticTable] ok 1 - Can not create Data::StaticTables with repeated header names
+[Data::StaticTable] # Subtest: Can not create Data::StaticTables with an empty header
+[Data::StaticTable]     1..2
+[Data::StaticTable]     ok 1 - code dies
+[Data::StaticTable]     ok 2 - right exception type (X::Data::StaticTable)
+[Data::StaticTable] ok 2 - Can not create Data::StaticTables with an empty header
+[Data::StaticTable] # Subtest: Can not create Data::StaticTables with empty data
+[Data::StaticTable]     1..2
+[Data::StaticTable]     ok 1 - code dies
+[Data::StaticTable]     ok 2 - right exception type (X::Data::StaticTable)
+[Data::StaticTable] ok 3 - Can not create Data::StaticTables with empty data
+[Data::StaticTable] # A	B	C	D	E	F	G	H	I	J
+[Data::StaticTable] # ⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯
+[Data::StaticTable] # [1]	[2]	[3]	[4]	[5]	[6]	[7]	[8]	[9]	[10]	
+[Data::StaticTable] ok 4 - Column names are automatically filled
+[Data::StaticTable] ok 5 - Column 1 is automatically labeled 'A'
+[Data::StaticTable] ok 6 - Column 5 is automatically labeled 'E'
+[Data::StaticTable] ok 7 - StaticTable has one row only
+[Data::StaticTable] ok 8 - StaticTable contains 10 elements
+[Data::StaticTable] # == Adding empty cells when data is not enough ==
+[Data::StaticTable] # A	B	C	D	E	F	G	H	I	J
+[Data::StaticTable] # ⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯
+[Data::StaticTable] # [1]	[2]	[3]	[4]	[5]	[6]	[7]	[8]	[9]	[10]	
+[Data::StaticTable] # [11]	[Any]	[Any]	[Any]	[Any]	[Any]	[Any]	[Any]	[Any]	[Any]	
+[Data::StaticTable] ok 9 - Data::StaticTable t2 has 10 columns
+[Data::StaticTable] ok 10 - Data::StaticTable t2 has 2 rows
+[Data::StaticTable] ok 11 - Filler cell in 'C',2 is Any element
+[Data::StaticTable] ok 12 - StaticTable contains 20 elements (11 + extra 9)
+[Data::StaticTable] # == Referencing individual cells ==
+[Data::StaticTable] # Col1	Col2	Col3
+[Data::StaticTable] # ⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯
+[Data::StaticTable] # [1]	[2]	[3]	
+[Data::StaticTable] # ["four"]	["five"]	["six"]	
+[Data::StaticTable] # [Any]	[Any]	["NINE"]	
+[Data::StaticTable] ok 13 - Reading a cell directly
+[Data::StaticTable] ok 14 - Asking for undefined cell assigned Any
+[Data::StaticTable] ok 15 - Asking for undefined cell assigned Nil
+[Data::StaticTable] ok 16 - Asking for defined cell
+[Data::StaticTable] ok 17 - Can not access with an inexistant column
+[Data::StaticTable] ok 18 - Can not access with an inexistant row
+[Data::StaticTable] # == Reading cells, rows and columns ==
+[Data::StaticTable] # A	B	C
+[Data::StaticTable] # ⋯	⋯	⋯
+[Data::StaticTable] # [1]	[2]	[3]	
+[Data::StaticTable] # [4]	[5]	[6]	
+[Data::StaticTable] # [7]	[8]	[9]	
+[Data::StaticTable] # [10]	[11]	[12]	
+[Data::StaticTable] # [13]	[14]	[15]	
+[Data::StaticTable] # [16]	[17]	[18]	
+[Data::StaticTable] # [19]	[20]	[21]	
+[Data::StaticTable] # [22]	[23]	[24]	
+[Data::StaticTable] # [25]	[26]	[27]	
+[Data::StaticTable] # [28]	[29]	[30]	
+[Data::StaticTable] # [31]	[32]	[33]	
+[Data::StaticTable] # [34]	[35]	[36]	
+[Data::StaticTable] # [37]	[38]	[39]	
+[Data::StaticTable] # [40]	[41]	[42]	
+[Data::StaticTable] # [43]	[44]	[45]	
+[Data::StaticTable] # [46]	[47]	[48]	
+[Data::StaticTable] # [49]	[50]	[51]	
+[Data::StaticTable] # [52]	[53]	[54]	
+[Data::StaticTable] # [55]	[56]	[57]	
+[Data::StaticTable] # [58]	[59]	[60]	
+[Data::StaticTable] # [61]	[62]	[63]	
+[Data::StaticTable] # [64]	[65]	[66]	
+[Data::StaticTable] ok 19 - StaticTable has the correct header
+[Data::StaticTable] ok 20 - StaticTable has 3 columns
+[Data::StaticTable] ok 21 - StaticTable second column has the header name 'B'
+[Data::StaticTable] ok 22 - StaticTable has no column with the header name 'Z'
+[Data::StaticTable] ok 23 - StaticTable has 22 rows
+[Data::StaticTable] ok 24 - Column has the correct data in the 'A' column
+[Data::StaticTable] ok 25 - Correct value found in t3 at 'C',1
+[Data::StaticTable] ok 26 - Correct value found at 'B',12
+[Data::StaticTable] ok 27 - Correct row number 2 found
+[Data::StaticTable] ok 28 - Header has 3 elements
+[Data::StaticTable] # == Indexes, Generating a new table from a number (index) of rows ==
+[Data::StaticTable] # UID	Type	Color	Price
+[Data::StaticTable] # ⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯⋯	⋯⋯⋯⋯⋯
+[Data::StaticTable] # [1402]	["Car"]	["white"]	[100]	
+[Data::StaticTable] # [1403]	["Car"]	["blue"]	[200]	
+[Data::StaticTable] # [1404]	["Boat"]	["white"]	[3000]	
+[Data::StaticTable] # Index based on Type:  {:Boat(Array[Data::StaticTable::Position].new(3)), :Car(Array[Data::StaticTable::Position].new(1, 2))}
+[Data::StaticTable] # Index based on Color: {:blue(Array[Data::StaticTable::Position].new(2)), :white(Array[Data::StaticTable::Position].new(1, 3))}
+[Data::StaticTable] ok 29 - Type 'Car' is in rows 1 and 2
+[Data::StaticTable] ok 30 - Color 'white' is in rows 1 and 3
+[Data::StaticTable] No data available
+[Data::StaticTable]   in method new at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 57
+[Data::StaticTable]   in method take at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 273
+[Data::StaticTable]   in block <unit> at t/001-basic.rakutest line 129
+[Data::StaticTable] # You planned 49 tests, but ran 30
+[Data::StaticTable] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1 t/002-rowset-constructor.rakutest
+[Data::StaticTable] 1..19
+[Data::StaticTable] # == Rowset constructor tests ==
+[Data::StaticTable] # == First row is a header ==
+[Data::StaticTable] Type check failed in assignment to $columns; expected Data::StaticTable::Position but got Int (0)
+[Data::StaticTable]   in block  at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 126
+[Data::StaticTable]   in method new at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 95
+[Data::StaticTable]   in block <unit> at t/002-rowset-constructor.rakutest line 18
+[Data::StaticTable] # You planned 19 tests, but ran 0
+[Data::StaticTable] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1 t/003-query.rakutest
+[Data::StaticTable] 1..26
+[Data::StaticTable] # == Testing indexes ==
+[Data::StaticTable] # Attr	Dim1	Dim2	Dim3	Dim4
+[Data::StaticTable] # ⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯
+[Data::StaticTable] # ["attribute-1"]	[1]	[21]	[3]	["D+"]	
+[Data::StaticTable] # ["attribute-2"]	[4]	[51]	[6]	["B+"]	
+[Data::StaticTable] # ["attribute-3"]	[7]	[80]	[9]	["A-"]	
+[Data::StaticTable] # ["attribute-4"]	[$("ALPHA", "BETA", 3.0)]	[5]	[6]	["A++"]	
+[Data::StaticTable] # ["attribute-10"]	[0]	[0]	[0]	["B+"]	
+[Data::StaticTable] # ["attribute-11"]	[-2..2]	[Any]	[Any]	["B+"]	
+[Data::StaticTable] # == Check indexes ==
+[Data::StaticTable] ok 1 - Index of Dim4 has 4 elements
+[Data::StaticTable] ok 2 - We can check if a column index has been generated
+[Data::StaticTable] ok 3 - We can check if a column index has not been generated
+[Data::StaticTable] ok 4 - We can see if the value 7 exists in a indexed column
+[Data::StaticTable] ok 5 - We can see if the value 9 does not exist in a indexed column
+[Data::StaticTable] ok 6 - We can check that the value 6 appears in 2 rows in column Dim3
+[Data::StaticTable] ok 7 - We can check that the value 6 appears in column Dim3, rows 2 and 4
+[Data::StaticTable] ok 8 - Grep test returns rows 2,4
+[Data::StaticTable] ok 9 - Grep test returns rows 2,3,4
+[Data::StaticTable] # == Searching without index ==
+[Data::StaticTable] ok 10 - Grep test returns rows 1,4
+[Data::StaticTable] ok 11 - Grep test returns rows 1,2,4
+[Data::StaticTable] ok 12 - Grep test returns row 2
+[Data::StaticTable] ok 13 - Grep test returns rows 3,5
+[Data::StaticTable] ok 14 - Grep test returns rows 4,5,6
+[Data::StaticTable] ok 15 - Grep with index and without are equivalent ( \#1)
+[Data::StaticTable] ok 16 - Grep with index and without are equivalent ( \#2)
+[Data::StaticTable] ok 17 - Grep with index and without are equivalent ( \#3)
+[Data::StaticTable] # == Check different grep modes ==
+[Data::StaticTable] # (4, 5, 6)
+[Data::StaticTable] ok 18 - 
+[Data::StaticTable] # [("attribute-4", $("ALPHA", "BETA", 3.0), 5, 6, "A++"), ("attribute-10", 0, 0, 0, "B+"), ("attribute-11", -2..2, Any, Any, "B+")]
+[Data::StaticTable] ok 19 - Expected 3 rows
+[Data::StaticTable] # [{:Attr("attribute-4"), :Dim1($("ALPHA", "BETA", 3.0)), :Dim2(5), :Dim3(6), :Dim4("A++")}, {:Attr("attribute-10"), :Dim1(0), :Dim2(0), :Dim3(0), :Dim4("B+")}, {:Attr("attribute-11"), :Dim1(-2..2), :Dim2(Any), :Dim3(Any), :Dim4("B+")}]
+[Data::StaticTable] ok 20 - Expected 3 rows
+[Data::StaticTable] # {"4" => $("attribute-4", $("ALPHA", "BETA", 3.0), 5, 6, "A++"), "5" => $("attribute-10", 0, 0, 0, "B+"), "6" => $("attribute-11", -2..2, Any, Any, "B+")}
+[Data::StaticTable] ok 21 - 
+[Data::StaticTable] # {"4" => ${:Attr("attribute-4"), :Dim1($("ALPHA", "BETA", 3.0)), :Dim2(5), :Dim3(6), :Dim4("A++")}, "5" => ${:Attr("attribute-10"), :Dim1(0), :Dim2(0), :Dim3(0), :Dim4("B+")}, "6" => ${:Attr("attribute-11"), :Dim1(-2..2), :Dim2(Any), :Dim3(Any), :Dim4("B+")}}
+[Data::StaticTable] ok 22 - 
+[Data::StaticTable] # == Create a new table from grep results of row numbers ==
+[Data::StaticTable] No data available
+[Data::StaticTable]   in method new at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 57
+[Data::StaticTable]   in method take at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 273
+[Data::StaticTable]   in block <unit> at t/003-query.rakutest line 81
+[Data::StaticTable] # You planned 26 tests, but ran 22
+[Data::StaticTable] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1 t/004-extra.rakutest
+[Data::StaticTable] 1..8
+[Data::StaticTable] # == Extra features tests ==
+[Data::StaticTable] # A	B	C
+[Data::StaticTable] # ⋯	⋯	⋯
+[Data::StaticTable] # [1]	[2]	[3]	
+[Data::StaticTable] # [4]	[5]	[6]	
+[Data::StaticTable] # [7]	[8]	[9]	
+[Data::StaticTable] # == Serialization and EVAL test ==
+[Data::StaticTable] # Data::StaticTable.new(Array[Str].new("A", "B", "C"), [1, 2, 3, 4, 5, 6, 7, 8, 9])
+[Data::StaticTable] # == Comparison test ==
+[Data::StaticTable] ok 1 - Comparison works (equal to EVALuated copy from 'raku' method)
+[Data::StaticTable] ok 2 - Comparison works (equal to clone)
+[Data::StaticTable] ok 3 - Comparison works (distinct)
+[Data::StaticTable] # == Filler tests ==
+[Data::StaticTable] # A	B	C
+[Data::StaticTable] # ⋯	⋯	⋯
+[Data::StaticTable] # [1]	[2]	[3]	
+[Data::StaticTable] # [4]	[5]	[6]	
+[Data::StaticTable] # [7]	["N/A"]	["N/A"]	
+[Data::StaticTable] ok 4 - Filler is correct
+[Data::StaticTable] ok 5 - Cloning with filler works
+[Data::StaticTable] # == 'take' using Int and Position types ==
+[Data::StaticTable] No data available
+[Data::StaticTable]   in method new at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 57
+[Data::StaticTable]   in method take at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 273
+[Data::StaticTable]   in block <unit> at t/004-extra.rakutest line 41
+[Data::StaticTable] # You planned 8 tests, but ran 5
+[Data::StaticTable] Command: /tmp/whateverable/rakudo-moar/f5caad10270d09cba89b039e5c099b052a0a56b1/bin/perl6 -I /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1 t/005-perf.rakutest
+[Data::StaticTable] 1..2
+[Data::StaticTable] # == Reading a sample file in a StaticTable ==
+[Data::StaticTable] # == Populate StaticTable took : 0.00817562 secs. ==
+[Data::StaticTable] # == Discarding rows with aggregation data ==
+[Data::StaticTable] No data available
+[Data::StaticTable]   in method new at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 57
+[Data::StaticTable]   in method take at /blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 273
+[Data::StaticTable]   in block <unit> at t/005-perf.rakutest line 29
+[Data::StaticTable] # You planned 2 tests, but ran 0
+===> Testing [FAIL]: Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules>
+[Data::StaticTable] Failed to get passing tests, but continuing with --force-test
+===> Installing: Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules>
+===> Install [OK] for Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules>
