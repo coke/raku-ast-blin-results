@@ -134,7 +134,7 @@ App::MoarVM::ConfprogCompiler – AlwaysFail
 App::MoarVM::Debug – OK
 App::MoarVM::HeapAnalyzer – OK
 App::MoarVM::HeapAnalyzer::Model – OK
-App::ModuleSnap – Unknown
+App::ModuleSnap – AlwaysFail
 App::Nopaste – Unknown
 App::OrgSleep – OK
 App::P6Dx – AlwaysFail
@@ -302,7 +302,7 @@ CSS::Minifier – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 CSS::Module – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 CSS::Module::CSS3::Selectors – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 CSS::Nested – OK
-CSS::Properties – Unknown
+CSS::Properties – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 CSS::Selector::To::XPath – OK
 CSS::Specification – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 CSS::Stylesheet – Unknown
@@ -428,7 +428,7 @@ Cro::CBOR – Unknown
 Cro::Core – OK
 Cro::FCGI – Unknown
 Cro::H – OK
-Cro::HTTP – Unknown
+Cro::HTTP – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Cro::HTTP::BodyParser::JSONClass – Unknown
 Cro::HTTP::BodySerializerJSONClass – Unknown
 Cro::HTTP::RouterUtils – Unknown
@@ -636,7 +636,7 @@ Docker::API – Unknown
 Docker::File – OK
 Documentable – Unknown
 Doublephone – OK
-Draku – Unknown
+Draku – OK
 Draw2D::Furniture – Unknown
 Druid – AlwaysFail
 Duck::CSV – AlwaysFail
@@ -768,7 +768,7 @@ French – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Frinfon – Unknown
 Function::Validation – OK
 Functional::LinkedList – OK
-Functional::Queue – Unknown
+Functional::Queue – OK
 Functional::Stack – OK
 FunctionalParsers – OK
 Future – Unknown
@@ -788,7 +788,7 @@ GTK::Simple – OK
 GTK::Simpler – OK
 GUI::Editors – Unknown
 Game::Adventure – AlwaysFail
-Game::Amazing – Unknown
+Game::Amazing – OK
 Game::Bayes – AlwaysFail
 Game::Covid19 – OK
 Game::Crypt – AlwaysFail
@@ -848,8 +848,8 @@ Gnome::GdkPixbuf – AlwaysFail
 Gnome::Gio – AlwaysFail
 Gnome::Glib – AlwaysFail
 Gnome::Graphene – AlwaysFail
-Gnome::Gsk4 – Unknown
-Gnome::Gtk3 – Unknown
+Gnome::Gsk4 – AlwaysFail
+Gnome::Gtk3 – AlwaysFail
 Gnome::Gtk3::Glade – Unknown
 Gnome::Gtk4 – Unknown
 Gnome::N – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
@@ -941,7 +941,7 @@ Haikunator – Unknown
 HandleSupplier – OK
 HarfBuzz – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 HarfBuzz::Font::FreeType – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-HarfBuzz::Shaper::Cairo – Unknown
+HarfBuzz::Shaper::Cairo – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 HarfBuzz::Subset – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Hash-with – OK
 Hash2Class – OK
@@ -1033,7 +1033,7 @@ IdClass – OK
 Ident::Client – OK
 Identity::Utils – OK
 Iec104Parser – OK
-Igo – Unknown
+Igo – AlwaysFail
 Ikoko – Unknown
 Image::Libexif – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Image::Markup::Utilities – OK
@@ -1120,7 +1120,7 @@ JsonC – AlwaysFail
 Jupyter::Chatbook – Unknown
 Jupyter::Converter – OK
 Jupyter::Kernel – ZefFailure
-KHPH – Unknown
+KHPH – OK
 Kains – AlwaysFail
 Karabiner::CompModGenerator – AlwaysFail
 Keyring – OK
@@ -1183,8 +1183,8 @@ LibUSB – AlwaysFail
 LibUUID – Unknown
 LibXML – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 LibXML::Class – Unknown
-LibXML::Writer – Unknown
-LibXSLT – Unknown
+LibXML::Writer – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
+LibXSLT – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 LibYAML – AlwaysFail
 LibZip – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Libarchive – Unknown
@@ -1264,7 +1264,7 @@ Logic::Ternary – OK
 Lumberjack – OK
 Lumberjack::Application – Unknown
 Lumberjack::Config::JSON – AlwaysFail
-Lumberjack::Dispatcher::EventSource – Unknown
+Lumberjack::Dispatcher::EventSource – AlwaysFail
 Lumberjack::Dispatcher::Syslog – OK
 Lumberjack::Message::JSON – AlwaysFail
 MCP – Unknown
@@ -1336,21 +1336,21 @@ Math::FractionalPart – OK
 Math::GameTheory – OK
 Math::Handy – OK
 Math::Interval – Unknown
-Math::Libgsl::BLAS – Unknown
+Math::Libgsl::BLAS – AlwaysFail
 Math::Libgsl::Combination – AlwaysFail
 Math::Libgsl::Complex – AlwaysFail
 Math::Libgsl::Constants – AlwaysFail
 Math::Libgsl::DigitalFiltering – Unknown
-Math::Libgsl::Eigensystem – Unknown
+Math::Libgsl::Eigensystem – AlwaysFail
 Math::Libgsl::Elementary – AlwaysFail
 Math::Libgsl::Function – AlwaysFail
 Math::Libgsl::Histogram – AlwaysFail
 Math::Libgsl::Interpolation – AlwaysFail
 Math::Libgsl::LinearAlgebra – Unknown
 Math::Libgsl::Matrix – AlwaysFail
-Math::Libgsl::MovingWindow – Unknown
+Math::Libgsl::MovingWindow – AlwaysFail
 Math::Libgsl::Multiset – AlwaysFail
-Math::Libgsl::Permutation – Unknown
+Math::Libgsl::Permutation – AlwaysFail
 Math::Libgsl::Polynomial – AlwaysFail
 Math::Libgsl::QuasiRandom – AlwaysFail
 Math::Libgsl::Random – AlwaysFail
@@ -1359,7 +1359,7 @@ Math::Libgsl::RunningStatistics – AlwaysFail
 Math::Libgsl::Series – AlwaysFail
 Math::Libgsl::Sort – Unknown
 Math::Libgsl::Statistics – AlwaysFail
-Math::Libgsl::Wavelet – Unknown
+Math::Libgsl::Wavelet – AlwaysFail
 Math::Matrix – OK
 Math::Model – OK
 Math::Nearest – CyclicDependency
@@ -1478,7 +1478,7 @@ Net::POP3 – AlwaysFail
 Net::Packet – AlwaysFail
 Net::Pcap – AlwaysFail
 Net::Postgres – OK
-Net::Postgres::Abstract – Unknown
+Net::Postgres::Abstract – AlwaysFail
 Net::RCON – OK
 Net::SMTP – OK
 Net::SMTP::Client::Async – Unknown
@@ -1597,7 +1597,7 @@ PDF – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 PDF::API6 – Unknown
 PDF::Class – Unknown
 PDF::Combiner – Unknown
-PDF::Content – Unknown
+PDF::Content – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 PDF::Document – Unknown
 PDF::Extract – AlwaysFail
 PDF::Font::Loader – Unknown
@@ -1664,7 +1664,7 @@ Phaser::ATEXIT – AlwaysFail
 Pheix – MissingDependency
 Physics::Constants – Unknown
 Physics::Error – OK
-Physics::Measure – Unknown
+Physics::Measure – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Physics::Navigation – Unknown
 Physics::Unit – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Physics::Vector – AlwaysFail
@@ -1755,7 +1755,7 @@ Questhub – OK
 Qwiratry – AlwaysFail
 Qwiratry--Location--HTTP – AlwaysFail
 RDF::Turtle – OK
-REPL – Unknown
+REPL – OK
 RKDS – OK
 RPG::Base – OK
 RPi-native – AlwaysFail
@@ -1834,7 +1834,7 @@ Ryml – OK
 SAT – Unknown
 SAT::Solver::MiniSAT – Unknown
 SBOM::CycloneDX – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-SBOM::Raku – Unknown
+SBOM::Raku – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 SCGI – OK
 SDL – AlwaysFail
 SDL2 – OK
@@ -2053,7 +2053,7 @@ Template::Prometheus – OK
 Template::Protone – OK
 Term::ANSIColor – OK
 Term::Choose – OK
-Term::Choose::Util – Unknown
+Term::Choose::Util – OK
 Term::ProgressBar – AlwaysFail
 Term::ReadKey – OK
 Term::Size – OK
@@ -2092,7 +2092,7 @@ Test::Builder – OK
 Test::Class – OK
 Test::Color – Unknown
 Test::ContainerizedService – OK
-Test::Coverage – Unknown
+Test::Coverage – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Test::Declare – OK
 Test::Deeply::Relaxed – Unknown
 Test::Describe – OK
@@ -2106,7 +2106,7 @@ Test::IO::Socket::Async – OK
 Test::Inline – OK
 Test::Junkie – AlwaysFail
 Test::Lab – Unknown
-Test::META – Unknown
+Test::META – AlwaysFail
 Test::Mock – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Test::NoTabs – OK
 Test::Notice – Unknown
@@ -2366,7 +2366,7 @@ XML::Actions – OK
 XML::Canonical – OK
 XML::Class – OK
 XML::Entity::HTML – OK
-XML::Fast – Unknown
+XML::Fast – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 XML::Parser::Tiny – OK
 XML::Query – OK
 XML::Rabbit – Unknown
