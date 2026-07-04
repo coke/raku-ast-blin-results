@@ -858,46 +858,46 @@ GnomeTools – Unknown
 Godot::Fun – OK
 Graffiks – OK
 Grammar-Common – Unknown
-Grammar::BNF – Unknown
+Grammar::BNF – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Grammar::Common – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Grammar::Debugger – Unknown
-Grammar::DiceRolls – Unknown
+Grammar::DiceRolls – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Grammar::Editor – Unknown
 Grammar::ErrorReporting – Unknown
 Grammar::Extractor – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Grammar::HTTP – Unknown
 Grammar::Highlighter – Unknown
 Grammar::Message – Unknown
-Grammar::Modelica – Unknown
+Grammar::Modelica – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Grammar::PrettyErrors – Unknown
 Grammar::Profiler::Simple – OK
-Grammar::TodoTxt – Unknown
+Grammar::TodoTxt – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Grammar::TokenProcessing – CyclicDependency
 Grammar::Tracer::Compact – Unknown
 Graph – Unknown
 Graph::RandomMaze – CyclicDependency
 GraphQL – Unknown
 GraphQL – Unknown
-Graphics::PLplot – Unknown
-Graphics::TinyTIFF – Unknown
+Graphics::PLplot – OK
+Graphics::TinyTIFF – AlwaysFail
 Graphviz::DOT::Chessboard – Unknown
-Graphviz::DOT::Grammar – Unknown
+Graphviz::DOT::Grammar – OK
 Gravatar::URL – Unknown
-Gray::Code::RBC – Unknown
+Gray::Code::RBC – OK
 Green – Unknown
-Grid – Unknown
-Grok – Unknown
-Growl::GNTP – Unknown
+Grid – OK
+Grok – AlwaysFail
+Growl::GNTP – OK
 GtkLayerShell – Unknown
 Gumbo – Unknown
-Gzz::Prompt – Unknown
+Gzz::Prompt – OK
 Gzz::Text::Utils – Unknown
 HTML::Canvas – Unknown
 HTML::Canvas::To::PDF – Unknown
 HTML::Component – Unknown
-HTML::Entity – Unknown
+HTML::Entity – AlwaysFail
 HTML::Entity::Fast – Unknown
-HTML::Escape – Unknown
+HTML::Escape – OK
 HTML::EscapeUtils – Unknown
 HTML::Functional – Unknown
 HTML::Lazy – Unknown
@@ -907,12 +907,12 @@ HTML::Parser::XML – Unknown
 HTML::Restrict – Unknown
 HTML::Strip – Unknown
 HTML::Tag – Unknown
-HTML::Template – Unknown
+HTML::Template – OK
 HTTP::API::MusicBrainz – Unknown
 HTTP::API::Pingdom – Unknown
 HTTP::Client – Unknown
 HTTP::Easy – Unknown
-HTTP::HPACK – Unknown
+HTTP::HPACK – OK
 HTTP::Headers – Unknown
 HTTP::MultiPartParser – Unknown
 HTTP::ParseParams – Unknown
