@@ -14,7 +14,7 @@ ANTLR4::Grammar – AlwaysFail
 API::Discord – AlwaysFail
 API::Perspective – OK
 API::USNavalObservatory – OK
-APISports::Football – Unknown
+APISports::Football – AlwaysFail
 ASCII::To::Uni – OK
 ASN::BER – OK
 ASN::Grammar – OK
@@ -56,7 +56,7 @@ Actionable – OK
 Actor – OK
 Adventure::Engine – AlwaysFail
 Adverb::Eject – OK
-Air – Unknown
+Air – AlwaysFail
 Air::Examples – Unknown
 Air::Play – Unknown
 Air::Plugin::Asciinema – Unknown
@@ -103,7 +103,7 @@ Amazon::DynamoDB – OK
 Anolis – OK
 Apache::LogFormat – OK
 App::APOTD – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-App::AizuOnlineJudge – Unknown
+App::AizuOnlineJudge – OK
 App::Assixt – Unknown
 App::Backup – AlwaysFail
 App::Browser – OK
@@ -320,7 +320,7 @@ Cache::LRU – OK
 Cache::Memcached – AlwaysFail
 Cairo – OK
 Calculator – OK
-Calendar – Unknown
+Calendar – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 CamelPub – OK
 Canoe – OK
 Carp – OK
@@ -449,7 +449,7 @@ Cro::ZeroMQ – AlwaysFail
 CroX::HTTP::Auth::Munge – AlwaysFail
 CroX::HTTP::FallbackPassthru – AlwaysFail
 CroX::HTTP::Transform::GraphQL – AlwaysFail
-Crolite – Unknown
+Crolite – OK
 Cromponent – OK
 Cromtit – OK
 Crust – AlwaysFail
@@ -779,7 +779,7 @@ GEOS – AlwaysFail
 GGE – AlwaysFail
 GIO – Unknown
 GLFW – OK
-GLib – Unknown
+GLib – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 GNU::Time – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 GOTO – Unknown
 GPGME – AlwaysFail
@@ -851,7 +851,7 @@ Gnome::Graphene – AlwaysFail
 Gnome::Gsk4 – AlwaysFail
 Gnome::Gtk3 – AlwaysFail
 Gnome::Gtk3::Glade – AlwaysFail
-Gnome::Gtk4 – Unknown
+Gnome::Gtk4 – ZefFailure
 Gnome::N – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Gnome::Pango – AlwaysFail
 GnomeTools – Unknown
@@ -1155,7 +1155,7 @@ LLM::Classifiers::Emotions – OK
 LLM::Containerization – CyclicDependency
 LLM::DWIM – Unknown
 LLM::Data::ContentTag – OK
-LLM::Data::Inference – Unknown
+LLM::Data::Inference – OK
 LLM::Data::Pipeline – OK
 LLM::Functions – OK
 LLM::Graph – Unknown
@@ -1693,7 +1693,7 @@ Pod::To::Latex – AlwaysFail
 Pod::To::Man – OK
 Pod::To::Markdown – Unknown
 Pod::To::PDF – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-Pod::To::PDF::Lite – Unknown
+Pod::To::PDF::Lite – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Pod::To::Pager – OK
 Pod::To::Raku – OK
 Pod::TreeWalker – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
