@@ -11,7 +11,7 @@ AI::Gator – OK
 AI::NLP – OK
 ANTLR4 – AlwaysFail
 ANTLR4::Grammar – AlwaysFail
-API::Discord – Unknown
+API::Discord – AlwaysFail
 API::Perspective – OK
 API::USNavalObservatory – OK
 APISports::Football – Unknown
@@ -141,7 +141,7 @@ App::P6Dx – AlwaysFail
 App::P6Ghq – OK
 App::Perl6LangServer – MissingDependency
 App::Platform – AlwaysFail
-App::Pray – Unknown
+App::Pray – OK
 App::Prove6 – OK
 App::RaCoCo – AlwaysFail
 App::Racoco::Report::ReporterCoveralls – AlwaysFail
@@ -277,7 +277,7 @@ BuildToolchainRepo – Unknown
 Bundle-Compress-Zlib – AlwaysFail
 Bundle-IO-Compress-Bzip2 – AlwaysFail
 Business::CreditCard – OK
-BusyIndicator – Unknown
+BusyIndicator – OK
 C::Parser – OK
 CBOR::Simple – OK
 CCChart – AlwaysFail
@@ -313,7 +313,7 @@ CSV-Autoclass – OK
 CSV::Parser – OK
 CSV::Table – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 CUID – OK
-CWT-Repository-Hash – Unknown
+CWT-Repository-Hash – OK
 Cache::Async – AlwaysFail
 Cache::Dir – OK
 Cache::LRU – OK
@@ -359,7 +359,7 @@ Color::Names – OK
 Color::Palette – OK
 Color::Scheme – OK
 Colorizable – OK
-ComfyUI::API – Unknown
+ComfyUI::API – OK
 Command::Despatch – OK
 CommandLine::Usage – OK
 Commands – OK
@@ -424,14 +424,14 @@ Crane – OK
 Cro-HTTP-Middleware-GoatCounter – OK
 Cro::APIToken – OK
 Cro::APIToken::Store::Pg – Unknown
-Cro::CBOR – Unknown
+Cro::CBOR – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Cro::Core – OK
 Cro::FCGI – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Cro::H – OK
 Cro::HTTP – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-Cro::HTTP::BodyParser::JSONClass – Unknown
+Cro::HTTP::BodyParser::JSONClass – AlwaysFail
 Cro::HTTP::BodySerializerJSONClass – AlwaysFail
-Cro::HTTP::RouterUtils – Unknown
+Cro::HTTP::RouterUtils – AlwaysFail
 Cro::HTTP::Session::MySQL – Unknown
 Cro::HTTP::Session::Pg – Unknown
 Cro::HTTP::Session::Red – Unknown
@@ -443,14 +443,14 @@ Cro::RPC::JSON – Unknown
 Cro::SSL – AlwaysFail
 Cro::TLS – OK
 Cro::WebApp – OK
-Cro::WebApp::Evaluate – Unknown
+Cro::WebApp::Evaluate – AlwaysFail
 Cro::WebSocket – OK
 Cro::ZeroMQ – AlwaysFail
 CroX::HTTP::Auth::Munge – Unknown
 CroX::HTTP::FallbackPassthru – AlwaysFail
-CroX::HTTP::Transform::GraphQL – Unknown
+CroX::HTTP::Transform::GraphQL – AlwaysFail
 Crolite – Unknown
-Cromponent – Unknown
+Cromponent – OK
 Cromtit – OK
 Crust – Unknown
 Crust::Handler::SCGI – OK
@@ -651,7 +651,7 @@ ENIGMA::Machine – OK
 ERK – OK
 Ecosystem – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Ecosystem::Archive – AlwaysFail
-Ecosystem::Archive::Update – Unknown
+Ecosystem::Archive::Update – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Ecosystem::Cache – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 EcosystemMakerFaker – OK
 Ed25519 – AlwaysFail
@@ -850,7 +850,7 @@ Gnome::Glib – AlwaysFail
 Gnome::Graphene – AlwaysFail
 Gnome::Gsk4 – AlwaysFail
 Gnome::Gtk3 – AlwaysFail
-Gnome::Gtk3::Glade – Unknown
+Gnome::Gtk3::Glade – AlwaysFail
 Gnome::Gtk4 – Unknown
 Gnome::N – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Gnome::Pango – AlwaysFail
@@ -1064,10 +1064,10 @@ InterceptAllMethods – OK
 Interval – OK
 Intl::CLDR – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Intl::CLDR – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-Intl::Fluent – Unknown
+Intl::Fluent – AlwaysFail
 Intl::Format::List – AlwaysFail
 Intl::Format::Number – AlwaysFail
-Intl::Format::Unit – Unknown
+Intl::Format::Unit – AlwaysFail
 Intl::LanguageTag – AlwaysFail
 Intl::LanguageTag – AlwaysFail
 Intl::LanguageTag – AlwaysFail
@@ -1151,7 +1151,7 @@ LIVR – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 LLM::Character – Unknown
 LLM::Chat – Unknown
 LLM::Chat – OK
-LLM::Classifiers::Emotions – Unknown
+LLM::Classifiers::Emotions – OK
 LLM::Containerization – CyclicDependency
 LLM::DWIM – Unknown
 LLM::Data::ContentTag – OK
@@ -1346,7 +1346,7 @@ Math::Libgsl::Elementary – AlwaysFail
 Math::Libgsl::Function – AlwaysFail
 Math::Libgsl::Histogram – AlwaysFail
 Math::Libgsl::Interpolation – AlwaysFail
-Math::Libgsl::LinearAlgebra – Unknown
+Math::Libgsl::LinearAlgebra – AlwaysFail
 Math::Libgsl::Matrix – AlwaysFail
 Math::Libgsl::MovingWindow – AlwaysFail
 Math::Libgsl::Multiset – AlwaysFail
@@ -1357,7 +1357,7 @@ Math::Libgsl::Random – AlwaysFail
 Math::Libgsl::RandomDistribution – Unknown
 Math::Libgsl::RunningStatistics – AlwaysFail
 Math::Libgsl::Series – AlwaysFail
-Math::Libgsl::Sort – Unknown
+Math::Libgsl::Sort – AlwaysFail
 Math::Libgsl::Statistics – AlwaysFail
 Math::Libgsl::Wavelet – AlwaysFail
 Math::Matrix – OK
@@ -1607,7 +1607,7 @@ PDF::Grammar – OK
 PDF::ISO_32000 – OK
 PDF::ISO_32000_2 – OK
 PDF::Labelmaker – OK
-PDF::Lite – Unknown
+PDF::Lite – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 PDF::NameTags – Unknown
 PDF::Native – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 PDF::Tags – Unknown
@@ -1665,7 +1665,7 @@ Pheix – MissingDependency
 Physics::Constants – Unknown
 Physics::Error – OK
 Physics::Measure – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-Physics::Navigation – Unknown
+Physics::Navigation – AlwaysFail
 Physics::Unit – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Physics::Vector – AlwaysFail
 Pleroma – Unknown
@@ -1692,7 +1692,7 @@ Pod::To::HTMLBody – AlwaysFail
 Pod::To::Latex – AlwaysFail
 Pod::To::Man – Unknown
 Pod::To::Markdown – Unknown
-Pod::To::PDF – Unknown
+Pod::To::PDF – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Pod::To::PDF::Lite – Unknown
 Pod::To::Pager – OK
 Pod::To::Raku – OK
@@ -1711,7 +1711,7 @@ Portuguese – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 PostCocoon::Url – OK
 PowerNap – OK
 Powerline::Prompt – OK
-Pray – Unknown
+Pray – OK
 Prettier::Table – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Pretty::Table – OK
 PrettyDump – OK
@@ -1791,7 +1791,7 @@ Rakudo::Options – OK
 Rakudo::Perl6::Format – AlwaysFail
 Rakudo::Perl6::Parsing – OK
 Rakudo::Perl6::Tracer – OK
-Rakudo::Slippy::Semilist – Unknown
+Rakudo::Slippy::Semilist – AlwaysFail
 Rakudo::Version – OK
 RakudoContainerfileBuilder – OK
 RakudoPrereq – OK
@@ -1843,7 +1843,7 @@ SDL2::Raw – OK
 SHAI – Unknown
 SOAP::Client – OK
 SOD – AlwaysFail
-SP6 – Unknown
+SP6 – AlwaysFail
 SQL::Abstract – OK
 SQL::Builder – OK
 SQL::Builder::ExecuteWithDBIish – AlwaysFail
@@ -1870,7 +1870,7 @@ Selkie – OK
 Selkie::UI – OK
 Semantic::Versioning – OK
 Semaphore::ReadersWriters – AlwaysFail
-Seq::Bounded – Unknown
+Seq::Bounded – AlwaysFail
 Seq::PreFetch – OK
 SeqSplitter – OK
 Sequence::Generator – OK
@@ -1881,19 +1881,19 @@ Serialize::Tiny – OK
 Services::PortMapping – Unknown
 Set::Equality – OK
 Shareable – OK
-Shell::Capture – Unknown
+Shell::Capture – AlwaysFail
 Shell::Command – OK
 Shell::DSL – OK
 Shell::Piping – Unknown
-Shelve6 – Unknown
+Shelve6 – AlwaysFail
 Shodan – OK
-SixPM – Unknown
+SixPM – AlwaysFail
 Slang::AltTernary – AlwaysFail
 Slang::Comments – OK
 Slang::Date – OK
 Slang::Emoji – OK
 Slang::Forgiven – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-Slang::Kazu – Unknown
+Slang::Kazu – AlwaysFail
 Slang::Lambda – OK
 Slang::Mosdef – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Slang::Nogil – OK
@@ -1908,7 +1908,7 @@ Slang::Tuxic – OK
 Slang:Date – AlwaysFail
 Slangify – OK
 Slangify::Tutorial – Unknown
-Slippy::Semilist – Unknown
+Slippy::Semilist – AlwaysFail
 Smack – Unknown
 Smooth::Numbers – OK
 SnowFlake – OK
@@ -1924,7 +1924,7 @@ Sparky::Plugin::Notify::Email – Unknown
 Sparky::Plugin::Notify::Telegram – Unknown
 Sparrow6 – Unknown
 Sparrow6::Rakudo::Install – Unknown
-SparrowCI – Unknown
+SparrowCI – OK
 SparrowCI - super fun and flexible CI system with many programming languages support – AlwaysFail
 SparrowCI-SandBox – OK
 Sparrowdo – Unknown
@@ -1975,7 +1975,7 @@ Stream::Buffered – OK
 StrictClass – OK
 StrictNamedArguments – OK
 String::CRC32 – OK
-String::CamelCase – Unknown
+String::CamelCase – AlwaysFail
 String::Color – OK
 String::Fields – OK
 String::Fold – OK
@@ -1999,7 +1999,7 @@ Supply::Timeout – OK
 SupplyTimeWindow – OK
 Sustenance – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Sway::Config – AlwaysFail
-Sway::PreviewKeys – Unknown
+Sway::PreviewKeys – AlwaysFail
 Swedish::TextDates_sv – OK
 Symbol – OK
 Syndication – OK
@@ -2031,14 +2031,14 @@ TOP – Unknown
 TXN – ZefFailure
 TXN::Parser – ZefFailure
 TXN::Remarshal – ZefFailure
-TagLibC – Unknown
+TagLibC – OK
 Task::Galaxy – MissingDependency
-Task::Popular – Unknown
+Task::Popular – OK
 Teddy Bear – Unknown
 Tee – OK
 Telegram – OK
 TelegramBot – OK
-Temp::Path – Unknown
+Temp::Path – OK
 Template6 – OK
 Template::Anti – Unknown
 Template::Classic – OK
@@ -2057,7 +2057,7 @@ Term::Choose::Util – OK
 Term::ProgressBar – AlwaysFail
 Term::ReadKey – OK
 Term::Size – OK
-Term::TablePrint – Unknown
+Term::TablePrint – OK
 Term::termios – OK
 Termbox – AlwaysFail
 Terminal-API – AlwaysFail
@@ -2084,32 +2084,32 @@ Terminal::Tests – OK
 Terminal::UI – OK
 Terminal::WCWidth – OK
 Terminal::Widgets – OK
-Terminal::Width – Unknown
+Terminal::Width – AlwaysFail
 Test::Assertion – OK
 Test::Async – Flapper
 Test::Base – AlwaysFail
 Test::Builder – OK
 Test::Class – OK
-Test::Color – Unknown
+Test::Color – AlwaysFail
 Test::ContainerizedService – OK
 Test::Coverage – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Test::Declare – OK
-Test::Deeply::Relaxed – Unknown
+Test::Deeply::Relaxed – AlwaysFail
 Test::Describe – OK
 Test::Diehard – OK
 Test::Differences – OK
-Test::Fuzz – Unknown
-Test::Grammar – Unknown
+Test::Fuzz – AlwaysFail
+Test::Grammar – AlwaysFail
 Test::HTTP::Server – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Test::Harness – OK
 Test::IO::Socket::Async – OK
 Test::Inline – OK
 Test::Junkie – AlwaysFail
-Test::Lab – Unknown
+Test::Lab – AlwaysFail
 Test::META – AlwaysFail
 Test::Mock – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Test::NoTabs – OK
-Test::Notice – Unknown
+Test::Notice – AlwaysFail
 Test::Output – OK
 Test::Performance – OK
 Test::Run – OK
@@ -2119,7 +2119,7 @@ Test::Script::Output – Unknown
 Test::Selector – OK
 Test::SourceFiles – OK
 Test::Stream – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-Test::Time – Unknown
+Test::Time – OK
 Test::Util::ServerPort – OK
 Test::When – OK
 TestML – OK
@@ -2128,8 +2128,8 @@ Testo – OK
 Texas::To::Uni – OK
 Text::Abbrev – OK
 Text::BorderedBlock – OK
-Text::CSV – Unknown
-Text::CSV – Unknown
+Text::CSV – AlwaysFail
+Text::CSV – AlwaysFail
 Text::CSV::LibCSV – AlwaysFail
 Text::Caesar – OK
 Text::Calendar – OK
@@ -2157,7 +2157,7 @@ Text::Markdown::Discount – AlwaysFail
 Text::Markov – OK
 Text::MathematicalCase – OK
 Text::MiscUtils – OK
-Text::Names – Unknown
+Text::Names – AlwaysFail
 Text::Plot – OK
 Text::ShellWords – OK
 Text::Sift4 – OK
@@ -2170,7 +2170,7 @@ Text::TFIdf – OK
 Text::Table::List – OK
 Text::Table::Simple – OK
 Text::Tabs – OK
-Text::Template – Unknown
+Text::Template – OK
 Text::UpsideDown – OK
 Text::Utils – OK
 Text::VimColour – AlwaysFail
@@ -2180,7 +2180,7 @@ Tie::Hash – OK
 Tie::StdArray – OK
 Tie::StdHash – OK
 Time-Duration – AlwaysFail
-Time::Crontab – Unknown
+Time::Crontab – AlwaysFail
 Time::Duration – InstallableButUntested
 Time::Duration::Parser – OK
 Time::Repeat – OK
@@ -2214,7 +2214,7 @@ TooLoo – Unknown
 Touch – MissingDependency
 Trait::Enum – AlwaysFail
 Trait::Env – OK
-Trait::IO – Unknown
+Trait::IO – OK
 Trait::Traced – AlwaysFail
 Transit::Network – OK
 Trap – OK
@@ -2229,13 +2229,13 @@ Type::EnumHOW – AlwaysFail
 Typed::Subroutines – AlwaysFail
 Typesafe::HTML – OK
 Typesafe::XHTML::Writer – OK
-UEncoding – Unknown
+UEncoding – AlwaysFail
 UI::HTMLWindow – OK
 UK::Sort – AlwaysFail
-ULID – Unknown
+ULID – AlwaysFail
 UML::Translators – OK
 UNICODE-VERSION – OK
-UNIX::Daemonize – Unknown
+UNIX::Daemonize – AlwaysFail
 UNIX::Privileges – OK
 URI – OK
 URI::Encode – OK
@@ -2288,11 +2288,11 @@ Version::Semver – OK
 Version::Semverish – OK
 Vikna – Unknown
 Vips::Native – OK
-Vroom::Reveal – Unknown
+Vroom::Reveal – AlwaysFail
 W3C::DOM – OK
 WAT – Unknown
 WAT--CLI – Unknown
-WWW – Unknown
+WWW – AlwaysFail
 WWW--CloudHosting--Hetzner – OK
 WWW::CloudHosting::Hetzner – AlwaysFail
 WWW::DuckDuckGo – OK
@@ -2330,15 +2330,15 @@ WebService::AWS::Auth::V4 – OK
 WebService::AWS::S3 – OK
 WebService::Discourse – OK
 WebService::FootballData – AlwaysFail
-WebService::GitHub – Unknown
+WebService::GitHub – AlwaysFail
 WebService::Google::PageRank – OK
 WebService::GoogleDyDNS – OK
-WebService::HashiCorp::Vault – Unknown
+WebService::HashiCorp::Vault – AlwaysFail
 WebService::HazIP – OK
 WebService::Lastfm – OK
 WebService::Nominatim – OK
 WebService::Overpass – OK
-WebService::SOP – Unknown
+WebService::SOP – AlwaysFail
 WebService::Slack::Webhook – OK
 WebService::Soundcloud – AlwaysFail
 WebService::TMDB – AlwaysFail
@@ -2346,7 +2346,7 @@ WebService::TelegramBot – AlwaysFail
 WebSocket – AlwaysFail
 Webservice::Lastfm – AlwaysFail
 Whateverable – Unknown
-WhereList – Unknown
+WhereList – OK
 Wikidata::API – Unknown
 Win32::DrivesAndTypes – AlwaysFail
 Win32::Registry – OK
@@ -2372,7 +2372,7 @@ XML::Query – OK
 XML::Rabbit – Unknown
 XML::Signature – AlwaysFail
 XML::Writer – OK
-XML::XPath – Unknown
+XML::XPath – AlwaysFail
 XXX – AlwaysFail
 Xmav::JSON – OK
 YAML – OK
@@ -2404,13 +2404,13 @@ caelum – OK
 cmark::Simple – Unknown
 colomon::App::TagTools – OK
 content-storage-cli – Unknown
-cro – Unknown
+cro – ZefFailure
 delete-old-until-size – OK
 deredere – OK
 dosh – Unknown
 eigenstates – OK
 envy – OK
-epoll – Unknown
+epoll – AlwaysFail
 fez – OK
 flow – OK
 fornax – OK
@@ -2424,7 +2424,7 @@ if – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 ignore – OK
 immutable – OK
 inode-dev-devtype – OK
-jmp – Unknown
+jmp – AlwaysFail
 kazmath – AlwaysFail
 lacerta – OK
 lemmatize – OK
@@ -2435,7 +2435,7 @@ nano – OK
 octans – Unknown
 orion – OK
 overload::constant – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-p6-RandomColor – Unknown
+p6-RandomColor – OK
 p6lert – Unknown
 pack6 – Unknown
 panda – OK
@@ -2445,7 +2445,7 @@ path-utils – OK
 paths – OK
 python::itertools – OK
 rak – OK
-raku-RandomColor – Unknown
+raku-RandomColor – OK
 raku-mailgun – OK
 raku-pod-extraction – Unknown
 raku-pod-from-cache – OK
