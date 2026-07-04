@@ -66,7 +66,7 @@ Air::Plugin::Rakudoc – Unknown
 Air::Plugin::Wordcloud – Unknown
 Algorithm::AhoCorasick – OK
 Algorithm::BinaryIndexedTree – OK
-Algorithm::BloomFilter – Unknown
+Algorithm::BloomFilter – AlwaysFail
 Algorithm::DawkinsWeasel – OK
 Algorithm::Diff – OK
 Algorithm::Elo – OK
@@ -95,11 +95,11 @@ Algorithm::Treap – OK
 Algorithm::Trie::libdatrie – OK
 Algorithm::Viterbi – AlwaysFail
 Algorithm::XGBoost – CyclicDependency
-Algorithm::ZhangShasha – Unknown
+Algorithm::ZhangShasha – AlwaysFail
 Algorithm::ZobristHashing – OK
 AlgorithmsIT – OK
 Alma – AlwaysFail
-Amazon::DynamoDB – Unknown
+Amazon::DynamoDB – OK
 Anolis – OK
 Apache::LogFormat – OK
 App::APOTD – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
@@ -115,7 +115,7 @@ App::Doc-N-Save – Unknown
 App::Ebread – MissingDependency
 App::Ecosystems – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 App::FIT2GPX – OK
-App::FindSource – Unknown
+App::FindSource – AlwaysFail
 App::Football – OK
 App::GPTrixie – OK
 App::GTD – Unknown
@@ -203,7 +203,7 @@ Astro::Almanac – OK
 Astro::Sunrise – OK
 Astro::Utils – OK
 Async::Command – OK
-Async::Workers – Unknown
+Async::Workers – AlwaysFail
 AttrX::InitArg – AlwaysFail
 AttrX::Lazy – OK
 AttrX::Mooish – AlwaysFail
@@ -404,7 +404,7 @@ Config::Parser::yaml – Unknown
 Config::Simple – OK
 Config::TOML – OK
 Configuration – OK
-Console::Blackjack – Unknown
+Console::Blackjack – OK
 Constants::Net::If – OK
 Constants::Netinet::In – OK
 Constants::Sys::Socket – OK
@@ -413,7 +413,7 @@ Context – AlwaysFail
 Control::Bail – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Cookie::Baker – OK
 Cookie::Jar – OK
-Cooklang – Unknown
+Cooklang – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 CoreHacker::Q – OK
 CoreHackers::NfaChainsaw – AlwaysFail
 CoreHackers::Q – OK
@@ -439,7 +439,7 @@ Cro::HTTP::Session::Redis – AlwaysFail
 Cro::HTTP::Session::SQLite – OK
 Cro::HTTP::Test – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Cro::OpenAPI::RoutesFromDefinition – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-Cro::RPC::JSON – Unknown
+Cro::RPC::JSON – ZefFailure
 Cro::SSL – AlwaysFail
 Cro::TLS – OK
 Cro::WebApp – OK
@@ -463,7 +463,7 @@ Crypt::Bcrypt – OK
 Crypt::CAST5 – OK
 Crypt::Game – AlwaysFail
 Crypt::LibGcrypt – AlwaysFail
-Crypt::LibScrypt – Unknown
+Crypt::LibScrypt – AlwaysFail
 Crypt::Libcrypt – OK
 Crypt::Passphrase – AlwaysFail
 Crypt::RC4 – OK
@@ -481,11 +481,11 @@ DB – OK
 DB::Migration::Declare – OK
 DB::Migration::Simple – AlwaysFail
 DB::Model::Easy – OK
-DB::MySQL – Unknown
+DB::MySQL – AlwaysFail
 DB::ORM::Quicky – OK
 DB::Pg – Unknown
 DB::Rscs – AlwaysFail
-DB::SQLite – Unknown
+DB::SQLite – AlwaysFail
 DB::Xoos – Unknown
 DB::Xoos::MySQL – Unknown
 DB::Xoos::Pg – Unknown
@@ -545,21 +545,21 @@ Data::Selector – OK
 Data::StaticTable – OK
 Data::Summarizers – Unknown
 Data::TextOrBinary – OK
-Data::Translators – Unknown
+Data::Translators – OK
 Data::Tree – OK
 Data::TypeSystem – OK
 Data::UkraineWar::MoD – AlwaysFail
 DataStar – OK
-Date::Calendar::Armenian – Unknown
-Date::Calendar::Bahai – Unknown
-Date::Calendar::CopticEthiopic – Unknown
-Date::Calendar::FrenchRevolutionary – Unknown
-Date::Calendar::Gregorian – Unknown
-Date::Calendar::Hebrew – Unknown
-Date::Calendar::Hijri – Unknown
-Date::Calendar::Julian – Unknown
-Date::Calendar::MayaAztec – Unknown
-Date::Calendar::Persian – Unknown
+Date::Calendar::Armenian – AlwaysFail
+Date::Calendar::Bahai – AlwaysFail
+Date::Calendar::CopticEthiopic – OK
+Date::Calendar::FrenchRevolutionary – AlwaysFail
+Date::Calendar::Gregorian – AlwaysFail
+Date::Calendar::Hebrew – AlwaysFail
+Date::Calendar::Hijri – AlwaysFail
+Date::Calendar::Julian – AlwaysFail
+Date::Calendar::MayaAztec – AlwaysFail
+Date::Calendar::Persian – AlwaysFail
 Date::Calendar::Strftime – AlwaysFail
 Date::Christian::Advent – OK
 Date::Discordian – OK
@@ -621,7 +621,7 @@ DirsOfInterest – OK
 Discogs::API – AlwaysFail
 DispatchMap – OK
 Display::Listings – Unknown
-Dist::Helper – Unknown
+Dist::Helper – OK
 Dist::META – AlwaysFail
 Distribution::Builder::Cmake – AlwaysFail
 Distribution::Builder::MakeFromJSON – OK
@@ -1148,8 +1148,8 @@ LCS::All – OK
 LCS::BV – OK
 LEB128 – OK
 LIVR – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-LLM::Character – Unknown
-LLM::Chat – Unknown
+LLM::Character – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
+LLM::Chat – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 LLM::Chat – OK
 LLM::Classifiers::Emotions – OK
 LLM::Containerization – CyclicDependency
@@ -1335,7 +1335,7 @@ Math::FourierTransform – OK
 Math::FractionalPart – OK
 Math::GameTheory – OK
 Math::Handy – OK
-Math::Interval – Unknown
+Math::Interval – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Math::Libgsl::BLAS – AlwaysFail
 Math::Libgsl::Combination – AlwaysFail
 Math::Libgsl::Complex – AlwaysFail
@@ -1424,7 +1424,7 @@ Module::Toolkit – OK
 Monad – OK
 Monad-Result – OK
 Moneys – OK
-MongoDB – Unknown
+MongoDB – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 MongoDB::Fast – AlwaysFail
 MongoDB::Queue – AlwaysFail
 Monitor::Monit – OK
@@ -1452,7 +1452,7 @@ NativeHelpers::Callback – AlwaysFail
 NativeHelpers::iovec – OK
 Needle::Compile – OK
 Net::AMQP – OK
-Net::BGP – Unknown
+Net::BGP – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Net::Curl – AlwaysFail
 Net::DNS – AlwaysFail
 Net::Ethereum – AlwaysFail
@@ -1481,7 +1481,7 @@ Net::Postgres – OK
 Net::Postgres::Abstract – AlwaysFail
 Net::RCON – OK
 Net::SMTP – OK
-Net::SMTP::Client::Async – Unknown
+Net::SMTP::Client::Async – AlwaysFail
 Net::SOCKS – OK
 Net::Snapcast – OK
 Net::Telnet – OK
@@ -2040,7 +2040,7 @@ Telegram – OK
 TelegramBot – OK
 Temp::Path – OK
 Template6 – OK
-Template::Anti – Unknown
+Template::Anti – AlwaysFail
 Template::Classic – OK
 Template::HAML – Unknown
 Template::Jinja2 – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
@@ -2221,7 +2221,7 @@ Trap – OK
 Tree::Binary – OK
 Trie – OK
 TrigPi – OK
-Trove – Unknown
+Trove – AlwaysFail
 Tuple – OK
 TweetNacl – AlwaysFail
 Twitter – AlwaysFail
@@ -2296,7 +2296,7 @@ WWW – AlwaysFail
 WWW--CloudHosting--Hetzner – OK
 WWW::CloudHosting::Hetzner – AlwaysFail
 WWW::DuckDuckGo – OK
-WWW::GCloud – Unknown
+WWW::GCloud – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 WWW::GCloud::API::Storage – Unknown
 WWW::GCloud::API::Vision – Unknown
 WWW::Gemini – OK
@@ -2308,7 +2308,7 @@ WWW::Ollama – OK
 WWW::OpenAI – OK
 WWW::P6lert – Unknown
 WWW::PaLM – OK
-WWW::Playwright – Unknown
+WWW::Playwright – AlwaysFail
 WWW::SilverGoldBull – OK
 WWW::WolframAlpha – OK
 WWW::YouTube – OK
@@ -2437,7 +2437,7 @@ orion – OK
 overload::constant – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 p6-RandomColor – OK
 p6lert – Unknown
-pack6 – Unknown
+pack6 – OK
 panda – OK
 panda-stub – OK
 path-coverage – OK
