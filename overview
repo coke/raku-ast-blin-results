@@ -13,7 +13,7 @@ ANTLR4 – Unknown
 ANTLR4::Grammar – Unknown
 API::Discord – Unknown
 API::Perspective – OK
-API::USNavalObservatory – Unknown
+API::USNavalObservatory – OK
 APISports::Football – Unknown
 ASCII::To::Uni – OK
 ASN::BER – OK
@@ -422,29 +422,29 @@ Coro::Simple – OK
 CortexJS – OK
 Crane – OK
 Cro-HTTP-Middleware-GoatCounter – OK
-Cro::APIToken – Unknown
+Cro::APIToken – OK
 Cro::APIToken::Store::Pg – Unknown
 Cro::CBOR – Unknown
 Cro::Core – OK
-Cro::FCGI – Unknown
+Cro::FCGI – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Cro::H – OK
 Cro::HTTP – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Cro::HTTP::BodyParser::JSONClass – Unknown
-Cro::HTTP::BodySerializerJSONClass – Unknown
+Cro::HTTP::BodySerializerJSONClass – AlwaysFail
 Cro::HTTP::RouterUtils – Unknown
 Cro::HTTP::Session::MySQL – Unknown
 Cro::HTTP::Session::Pg – Unknown
 Cro::HTTP::Session::Red – Unknown
 Cro::HTTP::Session::Redis – Unknown
 Cro::HTTP::Session::SQLite – OK
-Cro::HTTP::Test – Unknown
-Cro::OpenAPI::RoutesFromDefinition – Unknown
+Cro::HTTP::Test – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
+Cro::OpenAPI::RoutesFromDefinition – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Cro::RPC::JSON – Unknown
 Cro::SSL – AlwaysFail
 Cro::TLS – OK
-Cro::WebApp – Unknown
+Cro::WebApp – OK
 Cro::WebApp::Evaluate – Unknown
-Cro::WebSocket – Unknown
+Cro::WebSocket – OK
 Cro::ZeroMQ – AlwaysFail
 CroX::HTTP::Auth::Munge – Unknown
 CroX::HTTP::FallbackPassthru – Unknown
@@ -618,7 +618,7 @@ Digest::xxHash – AlwaysFail
 DirHandle – OK
 Directory – Unknown
 DirsOfInterest – OK
-Discogs::API – Unknown
+Discogs::API – AlwaysFail
 DispatchMap – OK
 Display::Listings – Unknown
 Dist::Helper – Unknown
@@ -650,7 +650,7 @@ EERPG – AlwaysFail
 ENIGMA::Machine – OK
 ERK – OK
 Ecosystem – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-Ecosystem::Archive – Unknown
+Ecosystem::Archive – AlwaysFail
 Ecosystem::Archive::Update – Unknown
 Ecosystem::Cache – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 EcosystemMakerFaker – OK
@@ -663,7 +663,7 @@ Elucid8::Run-locally – Unknown
 Email::Address – Unknown
 Email::MIME – OK
 Email::Notmuch – OK
-Email::SendGrid – Unknown
+Email::SendGrid – OK
 Email::Simple – OK
 Email::Valid – OK
 Encode – OK
@@ -677,13 +677,13 @@ Ethelia – MissingDependency
 EuclideanRhythm – OK
 Event::Emitter – OK
 Event::Emitter::Inter-Process – OK
-EventSource::Client – Unknown
+EventSource::Client – OK
 EventSource::Server – OK
 Excel – Unknown
 Excel::Text::Template – Unknown
 Exportable – OK
 EyeofTheBeholder – AlwaysFail
-EyeoftheBeholder3 – Unknown
+EyeoftheBeholder3 – AlwaysFail
 FDF – Unknown
 FEN::Grammar – OK
 FFmpegProgressBar – Unknown
@@ -692,7 +692,7 @@ FINALIZER – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 FStrings – OK
 Facter – AlwaysFail
 Failable – AlwaysFail
-FanFou – Unknown
+FanFou – AlwaysFail
 Farabi6 – AlwaysFail
 FastCGI – OK
 FastCGI::NativeCall – OK
@@ -974,7 +974,7 @@ Holidays::Miscellaneous – Unknown
 Holidays::US::Federal – OK
 HomoGlypher – OK
 HowToUseModuleResources – OK
-HuggingFace::API – Unknown
+HuggingFace::API – OK
 Humming-Bird – Unknown
 Hydrate – OK
 Hyperscript – OK
@@ -1034,7 +1034,7 @@ Ident::Client – OK
 Identity::Utils – OK
 Iec104Parser – OK
 Igo – AlwaysFail
-Ikoko – Unknown
+Ikoko – AlwaysFail
 Image::Libexif – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Image::Markup::Utilities – OK
 Image::PNG::Inflated – OK
@@ -1073,10 +1073,10 @@ Intl::LanguageTag – AlwaysFail
 Intl::LanguageTag – AlwaysFail
 Intl::LanguageTag::Simple – OK
 Intl::LanguageTaggish – OK
-Intl::Number::Plural – Unknown
+Intl::Number::Plural – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Intl::Regex::CharClass – AlwaysFail
 IntlFormatNumber – AlwaysFail
-IntlPromptYesNo – Unknown
+IntlPromptYesNo – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 IoC – Unknown
 Iter::Able – AlwaysFail
 JS::Minify – OK
@@ -1107,7 +1107,7 @@ JSON::Stream – Unknown
 JSON::Tiny – OK
 JSON::Unmarshal – OK
 JSON::WebToken – AlwaysFail
-JSON::Webhook – Unknown
+JSON::Webhook – OK
 JSON::simd – Unknown
 JSONHound – OK
 JSONL – OK
@@ -1126,7 +1126,7 @@ Karabiner::CompModGenerator – AlwaysFail
 Keyring – OK
 Kind – OK
 Kind::Subset::Parametric – AlwaysFail
-Kivuli – Unknown
+Kivuli – AlwaysFail
 Korean – OK
 Kubernetes – OK
 L10N – OK
@@ -1150,7 +1150,7 @@ LEB128 – OK
 LIVR – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 LLM::Character – Unknown
 LLM::Chat – Unknown
-LLM::Chat – Unknown
+LLM::Chat – OK
 LLM::Classifiers::Emotions – Unknown
 LLM::Containerization – CyclicDependency
 LLM::DWIM – Unknown
@@ -1417,7 +1417,7 @@ MoarVM::Profile – Unknown
 ModelDB – AlwaysFail
 Modf – OK
 Modular – AlwaysFail
-Module2Rpm – Unknown
+Module2Rpm – AlwaysFail
 Module::Does – OK
 Module::Pod – Unknown
 Module::Toolkit – OK
@@ -1530,7 +1530,7 @@ OpenAPI::Model – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 OpenAPI::Schema::Validate – OK
 OpenCV – AlwaysFail
 OpenMPT::Bindings – AlwaysFail
-OpenRouter::API – Unknown
+OpenRouter::API – OK
 OpenSSL – AlwaysFail
 Operator-grandpa – Unknown
 Operator::DynvarOr – Unknown
@@ -1820,7 +1820,7 @@ Reminders – Unknown
 Repl::Tools – OK
 Repository::Precomp::Cleanup – OK
 RepositoryEvent – OK
-Resend – Unknown
+Resend – OK
 Resource::Wrangler – OK
 Result – OK
 Retry – Unknown
@@ -1886,7 +1886,7 @@ Shell::Command – OK
 Shell::DSL – OK
 Shell::Piping – Unknown
 Shelve6 – Unknown
-Shodan – Unknown
+Shodan – OK
 SixPM – Unknown
 Slang::AltTernary – AlwaysFail
 Slang::Comments – OK
@@ -2036,7 +2036,7 @@ Task::Galaxy – MissingDependency
 Task::Popular – Unknown
 Teddy Bear – Unknown
 Tee – OK
-Telegram – Unknown
+Telegram – OK
 TelegramBot – OK
 Temp::Path – Unknown
 Template6 – OK
@@ -2260,7 +2260,7 @@ Universal::errno – AlwaysFail
 Unix::Groups – OK
 Unix::errno – OK
 UpRooted – AlwaysFail
-Updown – Unknown
+Updown – AlwaysFail
 User::Language – AlwaysFail
 User::Timezone – OK
 User::grent – AlwaysFail
@@ -2382,7 +2382,7 @@ YAMLStar – AlwaysFail
 YAMLish – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 YakShave – OK
 Yapsi – AlwaysFail
-Zap – Unknown
+Zap – OK
 Zeco – Unknown
 Zef::CPANReporter – AlwaysFail
 Zef::Configuration – OK
