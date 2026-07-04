@@ -12,7 +12,7 @@ AI::NLP – OK
 ANTLR4 – Unknown
 ANTLR4::Grammar – Unknown
 API::Discord – Unknown
-API::Perspective – Unknown
+API::Perspective – OK
 API::USNavalObservatory – Unknown
 APISports::Football – Unknown
 ASCII::To::Uni – OK
@@ -22,7 +22,7 @@ ASN::META – AlwaysFail
 ASTQuery – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 AVL-Tree – OK
 AWS::Pricing – OK
-AWS::SNS::Notification – Unknown
+AWS::SNS::Notification – AlwaysFail
 AWS::Session – Unknown
 Abbreviations – OK
 AccessorFacade – OK
@@ -321,7 +321,7 @@ Cache::Memcached – AlwaysFail
 Cairo – OK
 Calculator – OK
 Calendar – Unknown
-CamelPub – Unknown
+CamelPub – OK
 Canoe – OK
 Carp – OK
 Channel::Pauseable – OK
@@ -421,7 +421,7 @@ CoreHackers::Sourcery – Unknown
 Coro::Simple – OK
 CortexJS – OK
 Crane – OK
-Cro-HTTP-Middleware-GoatCounter – Unknown
+Cro-HTTP-Middleware-GoatCounter – OK
 Cro::APIToken – Unknown
 Cro::APIToken::Store::Pg – Unknown
 Cro::CBOR – Unknown
@@ -436,7 +436,7 @@ Cro::HTTP::Session::MySQL – Unknown
 Cro::HTTP::Session::Pg – Unknown
 Cro::HTTP::Session::Red – Unknown
 Cro::HTTP::Session::Redis – Unknown
-Cro::HTTP::Session::SQLite – Unknown
+Cro::HTTP::Session::SQLite – OK
 Cro::HTTP::Test – Unknown
 Cro::OpenAPI::RoutesFromDefinition – Unknown
 Cro::RPC::JSON – Unknown
@@ -1065,8 +1065,8 @@ Interval – OK
 Intl::CLDR – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Intl::CLDR – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Intl::Fluent – Unknown
-Intl::Format::List – Unknown
-Intl::Format::Number – Unknown
+Intl::Format::List – AlwaysFail
+Intl::Format::Number – AlwaysFail
 Intl::Format::Unit – Unknown
 Intl::LanguageTag – AlwaysFail
 Intl::LanguageTag – AlwaysFail
@@ -1074,8 +1074,8 @@ Intl::LanguageTag – AlwaysFail
 Intl::LanguageTag::Simple – OK
 Intl::LanguageTaggish – OK
 Intl::Number::Plural – Unknown
-Intl::Regex::CharClass – Unknown
-IntlFormatNumber – Unknown
+Intl::Regex::CharClass – AlwaysFail
+IntlFormatNumber – AlwaysFail
 IntlPromptYesNo – Unknown
 IoC – Unknown
 Iter::Able – AlwaysFail
