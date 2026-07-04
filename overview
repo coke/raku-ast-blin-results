@@ -9,8 +9,8 @@ AI::Agent – AlwaysFail
 AI::FANN – OK
 AI::Gator – OK
 AI::NLP – OK
-ANTLR4 – Unknown
-ANTLR4::Grammar – Unknown
+ANTLR4 – AlwaysFail
+ANTLR4::Grammar – AlwaysFail
 API::Discord – Unknown
 API::Perspective – OK
 API::USNavalObservatory – OK
@@ -23,7 +23,7 @@ ASTQuery – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 AVL-Tree – OK
 AWS::Pricing – OK
 AWS::SNS::Notification – AlwaysFail
-AWS::Session – Unknown
+AWS::Session – AlwaysFail
 Abbreviations – OK
 AccessorFacade – OK
 AccountableBagHash – OK
@@ -50,7 +50,7 @@ Acme::Sudoku – OK
 Acme::Test::Module – OK
 Acme::Test::Module::Zef – OK
 Acme::Text::UpsideDown – OK
-Acme::WTF – Unknown
+Acme::WTF – AlwaysFail
 Acme::ಠ_ಠ – OK
 Actionable – OK
 Actor – OK
@@ -70,7 +70,7 @@ Algorithm::BloomFilter – Unknown
 Algorithm::DawkinsWeasel – OK
 Algorithm::Diff – OK
 Algorithm::Elo – OK
-Algorithm::Evolutionary::Simple – Unknown
+Algorithm::Evolutionary::Simple – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Algorithm::Genetic – OK
 Algorithm::GooglePolylineEncoding – OK
 Algorithm::Heap::Binary – OK
@@ -88,7 +88,7 @@ Algorithm::NaiveBayes – OK
 Algorithm::SetUnion – OK
 Algorithm::SkewHeap – OK
 Algorithm::Soundex – OK
-Algorithm::SpiralMatrix – Unknown
+Algorithm::SpiralMatrix – AlwaysFail
 Algorithm::Tarjan – OK
 Algorithm::TernarySearchTree – OK
 Algorithm::Treap – OK
@@ -161,7 +161,7 @@ App::Tasks – Unknown
 App::Uni – OK
 App::Unicode::Mangle – OK
 App::Whiff – AlwaysFail
-App::Workflows::Github – Unknown
+App::Workflows::Github – OK
 App::Zef-Deps – OK
 App::ecogen – OK
 App::ecoreadme – OK
@@ -187,7 +187,7 @@ Archive::Libarchive::Raw – OK
 Archive::SimpleZip – Unknown
 Archive::Tar::PP – OK
 Aria – OK
-Arithmetic::PaperAndPencil – Unknown
+Arithmetic::PaperAndPencil – AlwaysFail
 Array::Agnostic – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Array::Circular – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Array::Rounded – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
@@ -196,7 +196,7 @@ Array::Sorted::Map – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Array::Sorted::Util – OK
 Array::Sparse – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Array::Unsorted::Map – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-ArrayHash – Unknown
+ArrayHash – AlwaysFail
 Ask – Unknown
 Asserter – AlwaysFail
 Astro::Almanac – OK
@@ -206,19 +206,19 @@ Async::Command – OK
 Async::Workers – Unknown
 AttrX::InitArg – AlwaysFail
 AttrX::Lazy – OK
-AttrX::Mooish – Unknown
+AttrX::Mooish – AlwaysFail
 AttrX::PrivateAccessor – OK
 Attribute::Lazy – OK
 Attribute::Predicate – OK
 Audio::Convert::Samplerate – OK
-Audio::Encode::LameMP3 – Unknown
+Audio::Encode::LameMP3 – AlwaysFail
 Audio::Fingerprint::Chromaprint – OK
 Audio::Hydrogen – OK
 Audio::Icecast – OK
 Audio::Libshout – OK
 Audio::Liquidsoap – OK
-Audio::MIDI::Note – Unknown
-Audio::OggVorbis – Unknown
+Audio::MIDI::Note – AlwaysFail
+Audio::OggVorbis – AlwaysFail
 Audio::Playlist::JSPF – AlwaysFail
 Audio::PortAudio – OK
 Audio::PortMIDI – OK
@@ -228,7 +228,7 @@ Audio::TagLib – OK
 Audio::Taglib::Simple – OK
 Auth::PAM::Simple – AlwaysFail
 Auth::SAML2 – AlwaysFail
-Auth::SASL – Unknown
+Auth::SASL – AlwaysFail
 Auth::SCRAM – AlwaysFail
 Auth::SCRAM::Async – OK
 Automata::Cellular – OK
@@ -354,7 +354,7 @@ Collection-Plugins – Unknown
 Collection-Raku-Documentation – Unknown
 Color – OK
 Color::DirColors – OK
-Color::Named – Unknown
+Color::Named – AlwaysFail
 Color::Names – OK
 Color::Palette – OK
 Color::Scheme – OK
@@ -363,7 +363,7 @@ ComfyUI::API – Unknown
 Command::Despatch – OK
 CommandLine::Usage – OK
 Commands – OK
-CommonMark – Unknown
+CommonMark – AlwaysFail
 CompUnit::DynamicLib – Unknown
 CompUnit::Repository::Github – AlwaysFail
 CompUnit::Repository::Lib – AlwaysFail
@@ -415,7 +415,7 @@ Cookie::Baker – OK
 Cookie::Jar – OK
 Cooklang – Unknown
 CoreHacker::Q – OK
-CoreHackers::NfaChainsaw – Unknown
+CoreHackers::NfaChainsaw – AlwaysFail
 CoreHackers::Q – OK
 CoreHackers::Sourcery – Unknown
 Coro::Simple – OK
@@ -701,7 +701,7 @@ FastCGI::NativeCall::PSGI – OK
 Fasta – OK
 FatRatStr – OK
 Fcntl – OK
-FeiShuBot – Unknown
+FeiShuBot – AlwaysFail
 File-Path-Copy – OK
 File-TreeBuilder – AlwaysFail
 File::Compare – OK
@@ -1038,7 +1038,7 @@ Ikoko – AlwaysFail
 Image::Libexif – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Image::Markup::Utilities – OK
 Image::PNG::Inflated – OK
-Image::PNG::Portable – Unknown
+Image::PNG::Portable – OK
 Image::QRCode – AlwaysFail
 Image::RGBA – OK
 Image::Resize – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
@@ -1696,7 +1696,7 @@ Pod::To::PDF – Unknown
 Pod::To::PDF::Lite – Unknown
 Pod::To::Pager – OK
 Pod::To::Raku – OK
-Pod::TreeWalker – Unknown
+Pod::TreeWalker – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Pod::Usage – OK
 Pod::Utilities – Unknown
 Pod::Utils – Unknown
@@ -1869,7 +1869,7 @@ Selenium::WebDriver – OK
 Selkie – OK
 Selkie::UI – OK
 Semantic::Versioning – OK
-Semaphore::ReadersWriters – Unknown
+Semaphore::ReadersWriters – AlwaysFail
 Seq::Bounded – Unknown
 Seq::PreFetch – OK
 SeqSplitter – OK
@@ -2006,7 +2006,7 @@ Syndication – OK
 Syntax::Highlighters – OK
 Sys::Chown – OK
 Sys::Domainname – OK
-Sys::HostAddr – Unknown
+Sys::HostAddr – AlwaysFail
 Sys::Hostname – OK
 Sys::IP – OK
 Sys::Lastlog – OK
@@ -2293,8 +2293,8 @@ W3C::DOM – OK
 WAT – Unknown
 WAT--CLI – Unknown
 WWW – Unknown
-WWW--CloudHosting--Hetzner – Unknown
-WWW::CloudHosting::Hetzner – Unknown
+WWW--CloudHosting--Hetzner – OK
+WWW::CloudHosting::Hetzner – AlwaysFail
 WWW::DuckDuckGo – OK
 WWW::GCloud – Unknown
 WWW::GCloud::API::Storage – Unknown
@@ -2474,5 +2474,5 @@ vars – OK
 wig – OK
 wiringPI – AlwaysFail
 wordfinder – OK
-xxirakup6-RandomColor – Unknown
+xxirakup6-RandomColor – AlwaysFail
 zef – OK
