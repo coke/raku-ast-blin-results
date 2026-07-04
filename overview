@@ -144,7 +144,7 @@ App::Platform – AlwaysFail
 App::Pray – Unknown
 App::Prove6 – OK
 App::RaCoCo – AlwaysFail
-App::Racoco::Report::ReporterCoveralls – Unknown
+App::Racoco::Report::ReporterCoveralls – AlwaysFail
 App::Rak – OK
 App::Rak::Complete – Unknown
 App::Rak::Markdown – AlwaysFail
@@ -237,7 +237,7 @@ Avro – OK
 BDD::Behave – Unknown
 BDD::Behave::Playwright – Unknown
 BSON – OK
-BSON::Simple – Unknown
+BSON::Simple – OK
 BTree – OK
 Backtrace::AsHTML – OK
 Backtrace::Files – OK
@@ -1062,8 +1062,8 @@ Inline::Scheme::Guile – AlwaysFail
 Int::polydiv – OK
 InterceptAllMethods – OK
 Interval – OK
-Intl::CLDR – Unknown
-Intl::CLDR – Unknown
+Intl::CLDR – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
+Intl::CLDR – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Intl::Fluent – Unknown
 Intl::Format::List – Unknown
 Intl::Format::Number – Unknown
@@ -2319,7 +2319,7 @@ Weather – OK
 Web – OK
 Web::App – OK
 Web::App::Ballet – OK
-Web::App::MVC – Unknown
+Web::App::MVC – OK
 Web::Cache – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Web::RF – Unknown
 Web::Scraper – ZefFailure
