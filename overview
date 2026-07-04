@@ -7,7 +7,7 @@ ACME::Fez – OK
 ADT – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 AI::Agent – AlwaysFail
 AI::FANN – OK
-AI::Gator – Unknown
+AI::Gator – OK
 AI::NLP – OK
 ANTLR4 – Unknown
 ANTLR4::Grammar – Unknown
@@ -136,7 +136,7 @@ App::MoarVM::HeapAnalyzer – OK
 App::MoarVM::HeapAnalyzer::Model – OK
 App::ModuleSnap – Unknown
 App::Nopaste – Unknown
-App::OrgSleep – Unknown
+App::OrgSleep – OK
 App::P6Dx – AlwaysFail
 App::P6Ghq – OK
 App::Perl6LangServer – MissingDependency
@@ -147,7 +147,7 @@ App::RaCoCo – AlwaysFail
 App::Racoco::Report::ReporterCoveralls – Unknown
 App::Rak – OK
 App::Rak::Complete – Unknown
-App::Rak::Markdown – Unknown
+App::Rak::Markdown – AlwaysFail
 App::Raku::Log – Unknown
 App::RakuCron – AlwaysFail
 App::Rakuman – OK
@@ -199,7 +199,7 @@ Array::Unsorted::Map – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c82
 ArrayHash – Unknown
 Ask – Unknown
 Asserter – AlwaysFail
-Astro::Almanac – Unknown
+Astro::Almanac – OK
 Astro::Sunrise – OK
 Astro::Utils – OK
 Async::Command – OK
@@ -563,7 +563,7 @@ Date::Calendar::Persian – Unknown
 Date::Calendar::Strftime – Unknown
 Date::Christian::Advent – OK
 Date::Discordian – OK
-Date::Easter – Unknown
+Date::Easter – OK
 Date::Event – OK
 Date::Names – OK
 Date::Utils – OK
@@ -583,7 +583,7 @@ DateTime::Posix – OK
 DateTime::React – OK
 DateTime::TimeZone – OK
 DateTime::Timezones – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-DateTime::US – Unknown
+DateTime::US – OK
 DateTime::Utils – OK
 DateTime::strftime – OK
 Datetime::Math – OK
@@ -639,7 +639,7 @@ Doublephone – OK
 Draku – Unknown
 Draw2D::Furniture – Unknown
 Druid – AlwaysFail
-Duck::CSV – Unknown
+Duck::CSV – AlwaysFail
 Duckie – AlwaysFail
 Duo – OK
 EBNF::Grammar – OK
@@ -769,7 +769,7 @@ Frinfon – Unknown
 Function::Validation – OK
 Functional::LinkedList – OK
 Functional::Queue – Unknown
-Functional::Stack – Unknown
+Functional::Stack – OK
 FunctionalParsers – OK
 Future – Unknown
 GD – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
@@ -971,7 +971,7 @@ Hilite – OK
 Hilite::Simple – OK
 Hinges – AlwaysFail
 Holidays::Miscellaneous – Unknown
-Holidays::US::Federal – Unknown
+Holidays::US::Federal – OK
 HomoGlypher – OK
 HowToUseModuleResources – OK
 HuggingFace::API – Unknown
@@ -1013,15 +1013,15 @@ IRC::Async – OK
 IRC::Channel::Log – OK
 IRC::Client – InstallableButUntested
 IRC::Client::Plugin::DiceRolls – Unknown
-IRC::Client::Plugin::Factoid – Unknown
+IRC::Client::Plugin::Factoid – AlwaysFail
 IRC::Client::Plugin::Github – Unknown
-IRC::Client::Plugin::Ignore – Unknown
-IRC::Client::Plugin::Logger – Unknown
+IRC::Client::Plugin::Ignore – OK
+IRC::Client::Plugin::Logger – OK
 IRC::Client::Plugin::NickServ – Unknown
 IRC::Client::Plugin::Rakkable – Unknown
 IRC::Client::Plugin::Reminders – OK
-IRC::Client::Plugin::UrlTitle – Unknown
-IRC::Client::Plugin::UserPoints – Unknown
+IRC::Client::Plugin::UrlTitle – AlwaysFail
+IRC::Client::Plugin::UserPoints – OK
 IRC::Log – OK
 IRC::Log::Colabti – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 IRC::Log::Perlgeek – OK
@@ -1347,7 +1347,7 @@ Math::Libgsl::Function – AlwaysFail
 Math::Libgsl::Histogram – AlwaysFail
 Math::Libgsl::Interpolation – AlwaysFail
 Math::Libgsl::LinearAlgebra – Unknown
-Math::Libgsl::Matrix – Unknown
+Math::Libgsl::Matrix – AlwaysFail
 Math::Libgsl::MovingWindow – Unknown
 Math::Libgsl::Multiset – AlwaysFail
 Math::Libgsl::Permutation – Unknown
@@ -1460,7 +1460,7 @@ Net::FTP – AlwaysFail
 Net::FTPlib – AlwaysFail
 Net::Ftp – AlwaysFail
 Net::Gemini – Unknown
-Net::Google::Sheets – Unknown
+Net::Google::Sheets – OK
 Net::HTTP – OK
 Net::IMAP – OK
 Net::IP – Unknown
@@ -1477,7 +1477,7 @@ Net::Osc – OK
 Net::POP3 – AlwaysFail
 Net::Packet – AlwaysFail
 Net::Pcap – AlwaysFail
-Net::Postgres – Unknown
+Net::Postgres – OK
 Net::Postgres::Abstract – Unknown
 Net::RCON – OK
 Net::SMTP – OK
@@ -1667,7 +1667,7 @@ Physics::Error – OK
 Physics::Measure – Unknown
 Physics::Navigation – Unknown
 Physics::Unit – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-Physics::Vector – Unknown
+Physics::Vector – AlwaysFail
 Pleroma – Unknown
 Plosurin – AlwaysFail
 Pluggable – Unknown
@@ -1803,7 +1803,7 @@ Range::SetOps – OK
 Ranker – OK
 Rat::Power – OK
 Rat::Precise – OK
-Raygui::Bindings – Unknown
+Raygui::Bindings – AlwaysFail
 Raylib::Bindings – AlwaysFail
 ReadWriteLock – OK
 Readline – OK
@@ -2062,7 +2062,7 @@ Term::termios – OK
 Termbox – AlwaysFail
 Terminal-API – AlwaysFail
 Terminal-MakeRaw – AlwaysFail
-Terminal-Widgets-Plugins-Anolis – Unknown
+Terminal-Widgets-Plugins-Anolis – OK
 Terminal::ANSI – OK
 Terminal::ANSIColor – OK
 Terminal::ANSIParser – OK
@@ -2463,7 +2463,7 @@ sourcery – OK
 span – OK
 sublist – OK
 subs – OK
-taurus – Unknown
+taurus – OK
 ufo – AlwaysFail
 under-version-control – OK
 uniname-words – OK
