@@ -1,0 +1,28 @@
+===> Searching for: Ecosystem::Cache
+===> Found: Ecosystem::Cache:ver<0.0.6>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Ecosystem::Cache] Command: curl --silent -L -o /blin/data/zef-data/tmp/1783177735.405827.8763.868057930686/614daf3969c1782f164655ef30236ec85d692723.tar.gz https://360.zef.pm/E/CO/ECOSYSTEM_CACHE/614daf3969c1782f164655ef30236ec85d692723.tar.gz
+===> Fetching [OK]: Ecosystem::Cache:ver<0.0.6>:auth<zef:lizmat> to /blin/data/zef-data/tmp/1783177735.405827.8763.868057930686/614daf3969c1782f164655ef30236ec85d692723.tar.gz
+[Ecosystem::Cache] Command: tar -t -f ./614daf3969c1782f164655ef30236ec85d692723.tar.gz
+[Ecosystem::Cache] Command: tar -xvf ./614daf3969c1782f164655ef30236ec85d692723.tar.gz -C ../614daf3969c1782f164655ef30236ec85d692723.tar.gz
+===> Extraction [OK]: Ecosystem::Cache to /blin/data/zef-data/tmp/614daf3969c1782f164655ef30236ec85d692723.tar.gz
+===> Testing: Ecosystem::Cache:ver<0.0.6>:auth<zef:lizmat>
+[Ecosystem::Cache] Command: /tmp/whateverable/rakudo-moar/da5abc5860b6b81e998604bf906113647800c821/bin/perl6 -I /blin/data/zef-data/tmp/614daf3969c1782f164655ef30236ec85d692723.tar.gz/Ecosystem-Cache-0.0.6 t/01-basic.rakutest
+[Ecosystem::Cache] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Ecosystem::Cache] ===SORRY!=== Error while compiling /blin/data/zef-data/tmp/614daf3969c1782f164655ef30236ec85d692723.tar.gz/Ecosystem-Cache-0.0.6/lib/Ecosystem/Cache.rakumod (Ecosystem::Cache)
+[Ecosystem::Cache] ===SORRY!=== Error while compiling /blin/installed/Ecosystem_0.0.33/sources/59C2FA6F09054C8DA62FF031439AFBAADD6076CA (Ecosystem)
+[Ecosystem::Cache] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[Ecosystem::Cache] Cannot compile bind to RakuAST::Term::TopicCall
+[Ecosystem::Cache] at /blin/installed/Ecosystem_0.0.33/sources/59C2FA6F09054C8DA62FF031439AFBAADD6076CA (Ecosystem):9
+[Ecosystem::Cache] Exception details:
+[Ecosystem::Cache]   ===SORRY!=== Error while compiling:
+[Ecosystem::Cache]   Cannot compile bind to RakuAST::Term::TopicCall
+[Ecosystem::Cache]   at line 
+[Ecosystem::Cache] at /blin/data/zef-data/tmp/614daf3969c1782f164655ef30236ec85d692723.tar.gz/Ecosystem-Cache-0.0.6/lib/Ecosystem/Cache.rakumod (Ecosystem::Cache):1
+[Ecosystem::Cache] at t/01-basic.rakutest:3
+===> Testing [FAIL]: Ecosystem::Cache:ver<0.0.6>:auth<zef:lizmat>
+[Ecosystem::Cache] Failed to get passing tests, but continuing with --force-test
+===> Installing: Ecosystem::Cache:ver<0.0.6>:auth<zef:lizmat>
+===> Install [OK] for Ecosystem::Cache:ver<0.0.6>:auth<zef:lizmat>
+
+1 bin/ script [update-ecosystem-cache] installed to:
+/blin/installed/Ecosystem::Cache_0.0.6/bin

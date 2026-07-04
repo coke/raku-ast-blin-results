@@ -523,7 +523,7 @@ DSL::FiniteStateMachines – CyclicDependency
 DSL::Shared – CyclicDependency
 DSL::Translators – CyclicDependency
 Dan – OK
-Dan::Pandas – Unknown
+Dan::Pandas – AlwaysFail
 Dan::Polars – AlwaysFail
 Data::Cryptocurrencies – Unknown
 Data::DPath – OK
@@ -652,7 +652,7 @@ ERK – OK
 Ecosystem – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Ecosystem::Archive – Unknown
 Ecosystem::Archive::Update – Unknown
-Ecosystem::Cache – Unknown
+Ecosystem::Cache – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 EcosystemMakerFaker – OK
 Ed25519 – AlwaysFail
 Edit::Files – OK
@@ -715,7 +715,7 @@ File::HomeDir – OK
 File::Ignore – OK
 File::LibMagic – AlwaysFail
 File::Metadata::Libextractor – AlwaysFail
-File::Name::Editor – Unknown
+File::Name::Editor – OK
 File::Path::Resolve – OK
 File::Presence – OK
 File::Spec::Case – OK
@@ -1049,7 +1049,7 @@ Ini::Storage – ZefFailure
 Injector – Unknown
 Inline – AlwaysFail
 Inline::BASIC – OK
-Inline::Brainfuck – Unknown
+Inline::Brainfuck – OK
 Inline::Go – AlwaysFail
 Inline::J – AlwaysFail
 Inline::Lua – AlwaysFail
@@ -1351,7 +1351,7 @@ Math::Libgsl::Matrix – Unknown
 Math::Libgsl::MovingWindow – Unknown
 Math::Libgsl::Multiset – AlwaysFail
 Math::Libgsl::Permutation – Unknown
-Math::Libgsl::Polynomial – Unknown
+Math::Libgsl::Polynomial – AlwaysFail
 Math::Libgsl::QuasiRandom – AlwaysFail
 Math::Libgsl::Random – AlwaysFail
 Math::Libgsl::RandomDistribution – Unknown
@@ -1763,7 +1763,7 @@ RPi::ButtonWatcher – OK
 RPi::Device::DHT11 – AlwaysFail
 RPi::Device::DS18B20 – OK
 RPi::Device::PiFace – OK
-RPi::Device::PiGlow – Unknown
+RPi::Device::PiGlow – OK
 RPi::Device::SMBus – OK
 RPi::Device::ST7036 – Unknown
 RPi::GpioDirect – AlwaysFail
@@ -2004,7 +2004,7 @@ Swedish::TextDates_sv – OK
 Symbol – OK
 Syndication – OK
 Syntax::Highlighters – OK
-Sys::Chown – Unknown
+Sys::Chown – OK
 Sys::Domainname – OK
 Sys::HostAddr – Unknown
 Sys::Hostname – OK
@@ -2052,10 +2052,10 @@ Template::Nest::XS – OK
 Template::Prometheus – OK
 Template::Protone – OK
 Term::ANSIColor – OK
-Term::Choose – Unknown
+Term::Choose – OK
 Term::Choose::Util – Unknown
 Term::ProgressBar – AlwaysFail
-Term::ReadKey – Unknown
+Term::ReadKey – OK
 Term::Size – OK
 Term::TablePrint – Unknown
 Term::termios – OK
@@ -2070,12 +2070,12 @@ Terminal::Boxer – OK
 Terminal::Caca – OK
 Terminal::Capabilities – OK
 Terminal::Gauge – Unknown
-Terminal::Getpass – Unknown
+Terminal::Getpass – OK
 Terminal::Graphing::BarChart – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Terminal::LineEditor – OK
 Terminal::Print – OK
 Terminal::QuickCharts – OK
-Terminal::ReadKey – Unknown
+Terminal::ReadKey – OK
 Terminal::Readsecret – AlwaysFail
 Terminal::Size – OK
 Terminal::Spinners – OK
