@@ -29,7 +29,7 @@ AccessorFacade – OK
 AccountableBagHash – OK
 Acme::Addslashes – AlwaysFail
 Acme::Advent::Highlighter – Unknown
-Acme::Anguish – Unknown
+Acme::Anguish – ZefFailure
 Acme::BaseCJK – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Acme::Cow – OK
 Acme::Cow6 – AlwaysFail
@@ -251,7 +251,7 @@ Base::Any – OK
 Bench – OK
 Benchmark – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Benchmark::Plot – OK
-Benchy – Unknown
+Benchy – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Bencode – OK
 BigRoot – OK
 Bin::Utils – OK
@@ -364,7 +364,7 @@ Command::Despatch – OK
 CommandLine::Usage – OK
 Commands – OK
 CommonMark – AlwaysFail
-CompUnit::DynamicLib – Unknown
+CompUnit::DynamicLib – AlwaysFail
 CompUnit::Repository::Github – AlwaysFail
 CompUnit::Repository::Lib – AlwaysFail
 CompUnit::Repository::Mask – OK
@@ -417,7 +417,7 @@ Cooklang – Unknown
 CoreHacker::Q – OK
 CoreHackers::NfaChainsaw – AlwaysFail
 CoreHackers::Q – OK
-CoreHackers::Sourcery – Unknown
+CoreHackers::Sourcery – OK
 Coro::Simple – OK
 CortexJS – OK
 Crane – OK
@@ -435,7 +435,7 @@ Cro::HTTP::RouterUtils – Unknown
 Cro::HTTP::Session::MySQL – Unknown
 Cro::HTTP::Session::Pg – Unknown
 Cro::HTTP::Session::Red – Unknown
-Cro::HTTP::Session::Redis – Unknown
+Cro::HTTP::Session::Redis – AlwaysFail
 Cro::HTTP::Session::SQLite – OK
 Cro::HTTP::Test – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
 Cro::OpenAPI::RoutesFromDefinition – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
@@ -447,7 +447,7 @@ Cro::WebApp::Evaluate – Unknown
 Cro::WebSocket – OK
 Cro::ZeroMQ – AlwaysFail
 CroX::HTTP::Auth::Munge – Unknown
-CroX::HTTP::FallbackPassthru – Unknown
+CroX::HTTP::FallbackPassthru – AlwaysFail
 CroX::HTTP::Transform::GraphQL – Unknown
 Crolite – Unknown
 Cromponent – Unknown
@@ -472,12 +472,12 @@ Crypt::Random – OK
 Crypt::SodiumPasswordHash – AlwaysFail
 Crypt::SodiumScrypt – AlwaysFail
 Crypt::TweetNacl – OK
-CucumisSextus – Unknown
+CucumisSextus – AlwaysFail
 Curlie – AlwaysFail
 Curry – AlwaysFail
 CustomImporting – OK
 DAWG – Fail, Bisected: da5abc5860b6b81e998604bf906113647800c821
-DB – Unknown
+DB – OK
 DB::Migration::Declare – OK
 DB::Migration::Simple – AlwaysFail
 DB::Model::Easy – OK
@@ -499,7 +499,7 @@ DBIish::Transaction – AlwaysFail
 DBIx::NamedQueries – MissingDependency
 DEBUG – OK
 DFM::Parser – OK
-DNS::Zone – Unknown
+DNS::Zone – AlwaysFail
 DOM::Tiny – Unknown
 DSL::Bulgarian – CyclicDependency
 DSL::English::ClassificationWorkflows – CyclicDependency
@@ -548,7 +548,7 @@ Data::TextOrBinary – OK
 Data::Translators – Unknown
 Data::Tree – OK
 Data::TypeSystem – OK
-Data::UkraineWar::MoD – Unknown
+Data::UkraineWar::MoD – AlwaysFail
 DataStar – OK
 Date::Calendar::Armenian – Unknown
 Date::Calendar::Bahai – Unknown
@@ -560,7 +560,7 @@ Date::Calendar::Hijri – Unknown
 Date::Calendar::Julian – Unknown
 Date::Calendar::MayaAztec – Unknown
 Date::Calendar::Persian – Unknown
-Date::Calendar::Strftime – Unknown
+Date::Calendar::Strftime – AlwaysFail
 Date::Christian::Advent – OK
 Date::Discordian – OK
 Date::Easter – OK
