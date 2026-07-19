@@ -1,0 +1,910 @@
+===> Searching for: Data::MessagePack
+===> Found: Data::MessagePack:ver<0.1.4>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Data::MessagePack] Command: curl --silent -L -o /blin/data/zef-data/tmp/1784494339.33072.8250.87843610038/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz https://360.zef.pm/D/AT/DATA_MESSAGEPACK/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz
+===> Fetching [OK]: Data::MessagePack:ver<0.1.4>:auth<zef:raku-community-modules> to /blin/data/zef-data/tmp/1784494339.33072.8250.87843610038/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz
+[Data::MessagePack] Command: tar -t -f ./4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz
+[Data::MessagePack] Command: tar -xvf ./4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz -C ../4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz
+===> Extraction [OK]: Data::MessagePack to /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz
+===> Testing: Data::MessagePack:ver<0.1.4>:auth<zef:raku-community-modules>
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/000-compile.rakutest
+[Data::MessagePack] 1..1
+[Data::MessagePack] ok 1 - Data::MessagePack module can be use-d ok
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/100-pack-undef.rakutest
+[Data::MessagePack] 1..7
+[Data::MessagePack] ok 1 - Undefined is packed correctly
+[Data::MessagePack] ok 2 - Undefined is packed correctly
+[Data::MessagePack] ok 3 - Undefined is packed correctly
+[Data::MessagePack] ok 4 - Undefined is packed correctly
+[Data::MessagePack] ok 5 - Undefined is packed correctly
+[Data::MessagePack] ok 6 - Undefined is packed correctly
+[Data::MessagePack] ok 7 - Undefined is packed correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/101-pack-bool.rakutest
+[Data::MessagePack] 1..2
+[Data::MessagePack] ok 1 - Boolean False is packed correctly
+[Data::MessagePack] ok 2 - Boolean True is packed correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/102-pack-int.rakutest
+[Data::MessagePack] 1..27
+[Data::MessagePack] ok 1 - Positive integer packed correctly
+[Data::MessagePack] ok 2 - Positive integer packed correctly
+[Data::MessagePack] ok 3 - Positive integer packed correctly
+[Data::MessagePack] ok 4 - Positive integer packed correctly
+[Data::MessagePack] ok 5 - Positive integer packed correctly
+[Data::MessagePack] ok 6 - Positive integer packed correctly
+[Data::MessagePack] ok 7 - Positive integer packed correctly
+[Data::MessagePack] ok 8 - Positive integer packed correctly
+[Data::MessagePack] ok 9 - Positive integer packed correctly
+[Data::MessagePack] ok 10 - Positive integer packed correctly
+[Data::MessagePack] ok 11 - Positive integer packed correctly
+[Data::MessagePack] ok 12 - Positive integer packed correctly
+[Data::MessagePack] # Subtest: did we throws-like X::Data::MessagePack::Packer?
+[Data::MessagePack]     1..2
+[Data::MessagePack]     ok 1 - code dies
+[Data::MessagePack]     ok 2 - right exception type (X::Data::MessagePack::Packer)
+[Data::MessagePack] ok 13 - did we throws-like X::Data::MessagePack::Packer?
+[Data::MessagePack] ok 14 - Negative integer packed correctly
+[Data::MessagePack] ok 15 - Negative integer packed correctly
+[Data::MessagePack] ok 16 - Negative integer packed correctly
+[Data::MessagePack] ok 17 - Negative integer packed correctly
+[Data::MessagePack] ok 18 - Negative integer packed correctly
+[Data::MessagePack] ok 19 - Negative integer packed correctly
+[Data::MessagePack] ok 20 - Negative integer packed correctly
+[Data::MessagePack] ok 21 - Negative integer packed correctly
+[Data::MessagePack] ok 22 - Negative integer packed correctly
+[Data::MessagePack] ok 23 - Negative integer packed correctly
+[Data::MessagePack] ok 24 - Negative integer packed correctly
+[Data::MessagePack] ok 25 - Negative integer packed correctly
+[Data::MessagePack] ok 26 - Negative integer packed correctly
+[Data::MessagePack] # Subtest: did we throws-like X::Data::MessagePack::Packer?
+[Data::MessagePack]     1..2
+[Data::MessagePack]     ok 1 - code dies
+[Data::MessagePack]     ok 2 - right exception type (X::Data::MessagePack::Packer)
+[Data::MessagePack] ok 27 - did we throws-like X::Data::MessagePack::Packer?
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/103-pack-float.rakutest
+[Data::MessagePack] 1..4
+[Data::MessagePack] ok 1 - Double packed correcly
+[Data::MessagePack] ok 2 - Negative double packed correcly
+[Data::MessagePack] ok 3 - Negative double packed correcly
+[Data::MessagePack] ok 4 - Double with int value packed as int
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/104-pack-string.rakutest
+[Data::MessagePack] 1..6
+[Data::MessagePack] ok 1 - String packed correctly
+[Data::MessagePack] ok 2 - String packed correctly
+[Data::MessagePack] ok 3 - String packed correctly
+[Data::MessagePack] ok 4 - String packed correctly
+[Data::MessagePack] ok 5 - Test of 2**32 string is too big, just assume it is working
+[Data::MessagePack] ok 6 - String with more bytes than graphemes packed correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/105-pack-bin.rakutest
+[Data::MessagePack] 1..3
+[Data::MessagePack] ok 1 - Bin packed correctly
+[Data::MessagePack] ok 2 - Bin packed correctly
+[Data::MessagePack] ok 3 - Bin packed correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/106-pack-array.rakutest
+[Data::MessagePack] 1..10
+[Data::MessagePack] ok 1 - Array packed correctly
+[Data::MessagePack] ok 2 - Array packed correctly
+[Data::MessagePack] ok 3 - Array packed correctly
+[Data::MessagePack] ok 4 - Array packed correctly
+[Data::MessagePack] ok 5 - Array packed correctly
+[Data::MessagePack] ok 6 - Array packed correctly
+[Data::MessagePack] ok 7 - Array packed correctly
+[Data::MessagePack] ok 8 - Array packed correctly
+[Data::MessagePack] ok 9 - Array packed correctly
+[Data::MessagePack] ok 10 - Array packed correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/107-pack-hash.rakutest
+[Data::MessagePack] 1..3
+[Data::MessagePack] ok 1 - hash packed correctly
+[Data::MessagePack] ok 2 - hash packed correctly
+[Data::MessagePack] ok 3 - hash packed correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/200-unpack-undef.rakutest
+[Data::MessagePack] 1..1
+[Data::MessagePack] ok 1 - Undefined is packed correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/201-unpack-bool.rakutest
+[Data::MessagePack] 1..4
+[Data::MessagePack] ok 1 - Boolean False is unpacked correctly
+[Data::MessagePack] ok 2 - Boolean False is unpacked correctly
+[Data::MessagePack] ok 3 - Boolean True is unpacked correctly
+[Data::MessagePack] ok 4 - Boolean False is unpacked correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/202-unpack-int.rakutest
+[Data::MessagePack] 1..40
+[Data::MessagePack] ok 1 - Positive integer unpacked correctly
+[Data::MessagePack] ok 2 - Type is correct
+[Data::MessagePack] ok 3 - Positive integer unpacked correctly
+[Data::MessagePack] ok 4 - Type is correct
+[Data::MessagePack] ok 5 - Positive integer unpacked correctly
+[Data::MessagePack] ok 6 - Type is correct
+[Data::MessagePack] ok 7 - Positive integer unpacked correclty
+[Data::MessagePack] ok 8 - Type is correct
+[Data::MessagePack] ok 9 - Positive integer unpacked correclty
+[Data::MessagePack] ok 10 - Type is correct
+[Data::MessagePack] ok 11 - Positive integer unpacked correclty
+[Data::MessagePack] ok 12 - Type is correct
+[Data::MessagePack] ok 13 - Positive integer unpacked correclty
+[Data::MessagePack] ok 14 - Type is correct
+[Data::MessagePack] ok 15 - Positive integer unpacked correclty
+[Data::MessagePack] ok 16 - Type is correct
+[Data::MessagePack] ok 17 - Positive integer unpacked correclty
+[Data::MessagePack] ok 18 - Type is correct
+[Data::MessagePack] ok 19 - Positive integer unpacked correclty
+[Data::MessagePack] ok 20 - Type is correct
+[Data::MessagePack] ok 21 - Negative integer unpacked correctly
+[Data::MessagePack] ok 22 - Type is correct
+[Data::MessagePack] ok 23 - Negative integer unpacked correctly
+[Data::MessagePack] ok 24 - Type is correct
+[Data::MessagePack] ok 25 - Negative integer unpacked correclty
+[Data::MessagePack] ok 26 - Type is correct
+[Data::MessagePack] ok 27 - Negative integer unpacked correclty
+[Data::MessagePack] ok 28 - Type is correct
+[Data::MessagePack] ok 29 - Negative integer unpacked correclty
+[Data::MessagePack] ok 30 - Type is correct
+[Data::MessagePack] ok 31 - Negative integer unpacked correclty
+[Data::MessagePack] ok 32 - Type is correct
+[Data::MessagePack] ok 33 - Negative integer unpacked correclty
+[Data::MessagePack] ok 34 - Type is correct
+[Data::MessagePack] ok 35 - Negative integer unpacked correclty
+[Data::MessagePack] ok 36 - Type is correct
+[Data::MessagePack] ok 37 - Negative integer unpacked correclty
+[Data::MessagePack] ok 38 - Type is correct
+[Data::MessagePack] ok 39 - Negative integer unpacked correclty
+[Data::MessagePack] ok 40 - Type is correct
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/203-unpack-float.rakutest
+[Data::MessagePack] 1..8
+[Data::MessagePack] ok 1 - Float decoded correctly
+[Data::MessagePack] ok 2 - Type is correct
+[Data::MessagePack] ok 3 - Float decoded correctly
+[Data::MessagePack] ok 4 - Type is correct
+[Data::MessagePack] ok 5 - Float decoded correctly
+[Data::MessagePack] ok 6 - Type is correct
+[Data::MessagePack] ok 7 - Float decoded correctly
+[Data::MessagePack] ok 8 - Type is correct
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/204-unpack-string.rakutest
+[Data::MessagePack] 1..8
+[Data::MessagePack] ok 1 - String unpacked correctly
+[Data::MessagePack] ok 2 - Type is correct
+[Data::MessagePack] ok 3 - String unpacked correctly
+[Data::MessagePack] ok 4 - Type is correct
+[Data::MessagePack] ok 5 - String unpacked correctly
+[Data::MessagePack] ok 6 - Type is correct
+[Data::MessagePack] ok 7 - String unpacked correctly
+[Data::MessagePack] ok 8 - Type is correct
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/205-unpack-bin.rakutest
+[Data::MessagePack] 1..3
+[Data::MessagePack] ok 1 - Binary unpacked correctly
+[Data::MessagePack] ok 2 - Binary unpacked correctly
+[Data::MessagePack] ok 3 - Binary unpacked correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/206-unpack-array.rakutest
+[Data::MessagePack] 1..3
+[Data::MessagePack] ok 1 - Array unpacked correctly
+[Data::MessagePack] ok 2 - Array unpacked correctly
+[Data::MessagePack] ok 3 - Array unpacked correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/207-unpack-hash.rakutest
+[Data::MessagePack] 1..3
+[Data::MessagePack] ok 1 - Hash unpacked correctly
+[Data::MessagePack] ok 2 - Hash unpacked correctly
+[Data::MessagePack] ok 3 - Hash unpacked correctly
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/300-stream-unpack-undef.rakutest
+[Data::MessagePack] 1..2
+[Data::MessagePack] ok 1 - Expected value received
+[Data::MessagePack] ok 2 - Expected value received
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/301-stream-unpack-bool.rakutest
+[Data::MessagePack] 1..2
+[Data::MessagePack] ok 1 - Expected value received
+[Data::MessagePack] ok 2 - Expected value received
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/302-stream-unpack-int.rakutest
+[Data::MessagePack] 1..23
+[Data::MessagePack] ok 1 - Expected value received
+[Data::MessagePack] ok 2 - Expected value received
+[Data::MessagePack] ok 3 - Expected value received
+[Data::MessagePack] ok 4 - Expected value received
+[Data::MessagePack] ok 5 - Expected value received
+[Data::MessagePack] ok 6 - Expected value received
+[Data::MessagePack] ok 7 - Expected value received
+[Data::MessagePack] ok 8 - Expected value received
+[Data::MessagePack] ok 9 - Expected value received
+[Data::MessagePack] ok 10 - Expected value received
+[Data::MessagePack] ok 11 - Expected value received
+[Data::MessagePack] ok 12 - Expected value received
+[Data::MessagePack] ok 13 - Expected value received
+[Data::MessagePack] ok 14 - Expected value received
+[Data::MessagePack] ok 15 - Expected value received
+[Data::MessagePack] ok 16 - Expected value received
+[Data::MessagePack] ok 17 - Expected value received
+[Data::MessagePack] ok 18 - Expected value received
+[Data::MessagePack] ok 19 - Expected value received
+[Data::MessagePack] ok 20 - Expected value received
+[Data::MessagePack] ok 21 - Expected value received
+[Data::MessagePack] ok 22 - Expected value received
+[Data::MessagePack] ok 23 - Expected value received
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/303-stream-unpack-float.rakutest
+[Data::MessagePack] 1..4
+[Data::MessagePack] ok 1 - Expected value received, float
+[Data::MessagePack] ok 2 - Expected value received, float
+[Data::MessagePack] ok 3 - Expected value received, double
+[Data::MessagePack] ok 4 - Expected value received, double
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/304-stream-unpack-string.rakutest
+[Data::MessagePack] 1..4
+[Data::MessagePack] ok 1 - Expected value received
+[Data::MessagePack] ok 2 - Expected value received
+[Data::MessagePack] ok 3 - Expected value received
+[Data::MessagePack] ok 4 - Expected value received
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/305-stream-unpack-bin.rakutest
+[Data::MessagePack] 1..3
+[Data::MessagePack] ok 1 - Expected value received
+[Data::MessagePack] ok 2 - Expected value received
+[Data::MessagePack] ok 3 - Expected value received
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/306-stream-unpack-array.rakutest
+[Data::MessagePack] 1..3
+[Data::MessagePack] ok 1 - Expected value received
+[Data::MessagePack] not ok 2 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 3 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 4 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 5 - Expected value received
+[Data::MessagePack] not ok 6 - Expected value received
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 7 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 8 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 9 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 10 - Expected value received
+[Data::MessagePack] not ok 11 - Expected value received
+[Data::MessagePack] not ok 12 - Expected value received
+[Data::MessagePack] not ok 13 - Expected value received
+[Data::MessagePack] not ok 14 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 15 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 16 - Expected value received
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 17 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 18 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 19 - Expected value received
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 20 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 21 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] not ok 22 - Expected value received
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/306-stream-unpack-array.rakutest line 23
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/306-stream-unpack-array.rakutest line 24
+[Data::MessagePack] # You planned 3 tests, but ran 22
+[Data::MessagePack] # You failed 21 tests of 22
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/307-stream-unpack-hash.rakutest
+[Data::MessagePack] 1..3
+[Data::MessagePack] not ok 1 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 2 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 3 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 4 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 5 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 6 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 7 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 8 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 9 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 10 - Expected value received
+[Data::MessagePack] not ok 11 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 12 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 13 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 14 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 15 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 16 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 17 - Expected value received
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 18 - Expected value received
+[Data::MessagePack] not ok 19 - Expected value received
+[Data::MessagePack] not ok 20 - Expected value received
+[Data::MessagePack] not ok 21 - Expected value received
+[Data::MessagePack] not ok 22 - Expected value received
+[Data::MessagePack] not ok 23 - Expected value received
+[Data::MessagePack] not ok 24 - Expected value received
+[Data::MessagePack] not ok 25 - Expected value received
+[Data::MessagePack] not ok 26 - Expected value received
+[Data::MessagePack] not ok 27 - Expected value received
+[Data::MessagePack] not ok 28 - Expected value received
+[Data::MessagePack] not ok 29 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 30 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 31 - Expected value received
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 32 - Expected value received
+[Data::MessagePack] not ok 33 - Expected value received
+[Data::MessagePack] not ok 34 - Expected value received
+[Data::MessagePack] not ok 35 - Expected value received
+[Data::MessagePack] not ok 36 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 37 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 38 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 39 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 40 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 41 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 42 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] not ok 43 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 44 - Expected value received
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/307-stream-unpack-hash.rakutest line 23
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 45 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 46 - Expected value received
+[Data::MessagePack] not ok 47 - Expected value received
+[Data::MessagePack] not ok 48 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 49 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 50 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] not ok 51 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/307-stream-unpack-hash.rakutest line 24
+[Data::MessagePack] # You planned 3 tests, but ran 51
+[Data::MessagePack] # You failed 51 tests of 51
+[Data::MessagePack] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/4a2235edf1ed97fb0b041a07762c93a7b16e876e.tar.gz/Data-MessagePack-0.1.4 t/308-stream-unpack-from-blob.rakutest
+[Data::MessagePack] 1..3
+[Data::MessagePack] not ok 1 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 2 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 3 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 4 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 5 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 6 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 7 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 8 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 9 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 10 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 11 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 12 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 13 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 14 - Expected value received
+[Data::MessagePack] not ok 15 - Expected value received
+[Data::MessagePack] not ok 16 - Expected value received
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 17 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 18 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 19 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 20 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 21 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 22 - Expected value received
+[Data::MessagePack] not ok 23 - Expected value received
+[Data::MessagePack] not ok 24 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 25 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 26 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 27 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 28 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 29 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] not ok 30 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 31 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 32 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 33 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 34 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 35 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 36 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 37 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 38 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 39 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 40 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 41 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 42 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 43 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 44 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[Data::MessagePack] Cannot shift from an empty Array
+[Data::MessagePack]   in block <unit> at t/308-stream-unpack-from-blob.rakutest line 25
+[Data::MessagePack] not ok 45 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 46 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 47 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 48 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 49 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 50 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] not ok 51 - Expected value received
+[Data::MessagePack] # Failed test 'Expected value received'
+[Data::MessagePack] # at t/308-stream-unpack-from-blob.rakutest line 26
+[Data::MessagePack] # You planned 3 tests, but ran 51
+[Data::MessagePack] # You failed 51 tests of 51
+===> Testing [FAIL]: Data::MessagePack:ver<0.1.4>:auth<zef:raku-community-modules>
+[Data::MessagePack] Failed to get passing tests, but continuing with --force-test
+===> Installing: Data::MessagePack:ver<0.1.4>:auth<zef:raku-community-modules>
+===> Install [OK] for Data::MessagePack:ver<0.1.4>:auth<zef:raku-community-modules>
