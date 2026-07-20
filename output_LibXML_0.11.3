@@ -1,0 +1,4906 @@
+===> Searching for: LibXML
+===> Found: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11> [via Zef::Repository::Ecosystems<fez>]
+[LibXML] Command: curl --silent -L -o /blin/data/zef-data/tmp/1784527510.352623.8294.408908428804/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz https://360.zef.pm/L/IB/LIBXML/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz
+===> Fetching [OK]: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11> to /blin/data/zef-data/tmp/1784527510.352623.8294.408908428804/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz
+[LibXML] Command: tar -t -f ./f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz
+[LibXML] Command: tar -xvf ./f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz -C ../f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz
+===> Extraction [OK]: LibXML to /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz
+===> Building: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -e require '/blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/Build.pm6'; ::('Build').new.build('/blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3') ?? exit(0) !! exit(1);
+[LibXML] make: Nothing to be done for 'all'.
+[LibXML] make: Nothing to be done for 'all'.
+===> Building [OK] for LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>
+===> Testing: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/000sanity.t
+[LibXML] ok 1 - can call xmlInitParser()
+[LibXML] ok 2 - /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/resources/libraries/libxml6.so library has been built
+[LibXML] ok 3 - binding lib sanity
+[LibXML] ok 4 - binding lib xml6_doc_set_encoding symbol
+[LibXML] ok 5 - binding lib xml6_gbl_os_thread_set_tag_expansion symbol
+[LibXML] ok 6 - libxml xmlBufferCreate binding
+[LibXML] ok 7 - libxml xmlNewDocNode binding
+[LibXML] ok 8 - clib malloc binding
+[LibXML] ok 9 - clib memcpy binding
+[LibXML] ok 10 - clib free binding
+[LibXML] 1..10
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00ast.t
+[LibXML] Potential difficulties:
+[LibXML]     Optional named parameter 'flags' with subset type UInt needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):253
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):347
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):985
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):1751
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw.rakumod (LibXML::Raw):1758
+[LibXML] Potential difficulties:
+[LibXML]     Optional named parameter 'prefix' with subset type LibXML::Types::NCName needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Namespace.rakumod (LibXML::Namespace):74
+[LibXML] Potential difficulties:
+[LibXML]     Optional named parameter 'xpath' with subset type LibXML::Node::XPathExpr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Node.rakumod (LibXML::Node):754
+[LibXML] Potential difficulties:
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML] Potential difficulties:
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Document.rakumod (LibXML::Document):152
+[LibXML] Potential difficulties:
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML] Potential difficulties:
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/PushParser.rakumod (LibXML::PushParser):16
+[LibXML] 1..13
+[LibXML] Potential difficulties:
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML] ok 1 - 
+[LibXML] ok 2 - 
+[LibXML] ok 3 - 
+[LibXML] ok 4 - 
+[LibXML] ok 5 - 
+[LibXML] ok 6 - 
+[LibXML] ok 7 -  \#fragment
+[LibXML] ok 8 -  \#xml
+[LibXML] ok 9 - 
+[LibXML] ok 10 - 
+[LibXML] ok 11 - 
+[LibXML] ok 12 - 
+[LibXML] ok 13 - 
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00config.t
+[LibXML] Potential difficulties:
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/TextReader.rakumod (LibXML::Raw::TextReader):79
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/TextReader.rakumod (LibXML::Raw::TextReader):82
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Raw/TextReader.rakumod (LibXML::Raw::TextReader):85
+[LibXML] Potential difficulties:
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML] Potential difficulties:
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML] Potential difficulties:
+[LibXML]     Optional named parameter 'RelaxNG' with subset type LibXML::Reader::RelaxNG needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Reader.rakumod (LibXML::Reader):150
+[LibXML]     Optional named parameter 'Schema' with subset type LibXML::Reader::Schema needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Reader.rakumod (LibXML::Reader):150
+[LibXML]     Optional named parameter 'RelaxNG' with subset type LibXML::Reader::RelaxNG needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Reader.rakumod (LibXML::Reader):161
+[LibXML]     Optional named parameter 'Schema' with subset type LibXML::Reader::Schema needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Reader.rakumod (LibXML::Reader):161
+[LibXML]     Optional named parameter 'RelaxNG' with subset type LibXML::Reader::RelaxNG needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Reader.rakumod (LibXML::Reader):172
+[LibXML]     Optional named parameter 'Schema' with subset type LibXML::Reader::Schema needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Reader.rakumod (LibXML::Reader):172
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Reader.rakumod (LibXML::Reader):173
+[LibXML]     Optional named parameter 'RelaxNG' with subset type LibXML::Reader::RelaxNG needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Reader.rakumod (LibXML::Reader):185
+[LibXML]     Optional named parameter 'Schema' with subset type LibXML::Reader::Schema needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Reader.rakumod (LibXML::Reader):185
+[LibXML]     Optional named parameter 'enc' with subset type LibXML::Raw::xmlEncodingStr needs a valid default value
+[LibXML]     otherwise it will throw exceptions when a value is absent at the callsite
+[LibXML]     at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/Reader.rakumod (LibXML::Reader):186
+[LibXML] 1..5
+[LibXML] # Subtest: scoping
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 1 - scoping
+[LibXML] # Subtest: global
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 2 - global
+[LibXML] # Subtest: construct
+[LibXML]     ok 1 - skip-xml-declaration
+[LibXML]     ok 2 - skip-dtd
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 3 - construct
+[LibXML] # Subtest: propagation
+[LibXML]     ok 1 - configured LibXML
+[LibXML]     ok 2 - configured LibXML::XPath::Context
+[LibXML]     ok 3 - configured LibXML::Reader
+[LibXML]     1..3
+[LibXML] ok 4 - propagation
+[LibXML] # Subtest: node
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - configured node xpath-context
+[LibXML]     ok 3 - Str without config :!skip
+[LibXML]     ok 4 - Str with config :skip
+[LibXML]     ok 5 - Str without config :skip
+[LibXML]     ok 6 - Str with config :!skip
+[LibXML]     1..6
+[LibXML] ok 5 - node
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00dict.t
+[LibXML] 1..12
+[LibXML] ok 1 - dict initial size
+[LibXML] ok 2 - dict updated size
+[LibXML] ok 3 - 
+[LibXML] ok 4 - 
+[LibXML] ok 5 - 
+[LibXML] ok 6 - 
+[LibXML] ok 7 - 
+[LibXML] ok 8 - 
+[LibXML] ok 9 - 
+[LibXML] ok 10 - 
+[LibXML] ok 11 - dict updated size
+[LibXML] ok 12 - dict updated size
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00dom-w3c.t
+[LibXML] 1..2
+[LibXML] # Subtest: create document
+[LibXML]     1..5
+[LibXML]     ok 1 - The object does role 'W3C::DOM::Document'
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - The object does role 'W3C::DOM::Element'
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML] ok 1 - create document
+[LibXML] # Subtest: create document type
+[LibXML]     1..1
+[LibXML]     ok 1 - 
+[LibXML] ok 2 - create document type
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00dom.t
+[LibXML] 1..70
+[LibXML] ok 1 - has DOM Core 2.0 feature
+[LibXML] ok 2 - hasn't DOM CSS 2.0 feature
+[LibXML] ok 3 - blanks kept
+[LibXML] ok 4 - doc self-root
+[LibXML] ok 5 - 
+[LibXML] ok 6 - 
+[LibXML] ok 7 - first non-blank
+[LibXML] ok 8 - first node()
+[LibXML] ok 9 - first elem-name
+[LibXML] ok 10 - 
+[LibXML] ok 11 - 
+[LibXML] ok 12 - 
+[LibXML] ok 13 - last node
+[LibXML] ok 14 - 
+[LibXML] ok 15 - 
+[LibXML] ok 16 - elements()
+[LibXML] ok 17 - 
+[LibXML] ok 18 - 
+[LibXML] ok 19 - 
+[LibXML] ok 20 - 
+[LibXML] ok 21 - 
+[LibXML] ok 22 - validate elem without Dtd
+[LibXML] ok 23 - is-valid elem without Dtd
+[LibXML] ok 24 - blanks discarded
+[LibXML] ok 25 - appendChild lives
+[LibXML] ok 26 - Parse/serialize fragment
+[LibXML] ok 27 - Fragment elements
+[LibXML] ok 28 - 
+[LibXML] ok 29 - Unique root key
+[LibXML] ok 30 - Unique root address
+[LibXML] ok 31 - Root Element
+[LibXML] ok 32 - Document
+[LibXML] ok 33 - 
+[LibXML] ok 34 - 
+[LibXML] ok 35 - 
+[LibXML] ok 36 - 
+[LibXML] ok 37 - 
+[LibXML] ok 38 - attr.Str
+[LibXML] ok 39 - elem properties linkage
+[LibXML] ok 40 - attribute parent linkage
+[LibXML] ok 41 - att2.Str
+[LibXML] ok 42 - 
+[LibXML] ok 43 - Elem with attribute added
+[LibXML] ok 44 - getAttributeNode after removal
+[LibXML] ok 45 - Elem with attribute removed
+[LibXML] ok 46 - Elem attribute set via attributes map
+[LibXML] ok 47 - Elem attribute set via attributes proxy
+[LibXML] ok 48 - Elem with attribute removed via attributes map
+[LibXML] ok 49 - QName Elem set via attributes proxy
+[LibXML] ok 50 - NS Elem set via attributes proxy
+[LibXML] ok 51 - 
+[LibXML] ok 52 - 
+[LibXML] ok 53 - 
+[LibXML] ok 54 - 
+[LibXML] ok 55 - 
+[LibXML] ok 56 - attribute keys
+[LibXML] ok 57 - element keys
+[LibXML] ok 58 - element keys
+[LibXML] ok 59 - 
+[LibXML] ok 60 - 
+[LibXML] ok 61 - 
+[LibXML] ok 62 - 
+[LibXML] ok 63 - 
+[LibXML] ok 64 - first generated NS prefix
+[LibXML] ok 65 - second generated NS prefix
+[LibXML] ok 66 - registered namespace
+[LibXML] ok 67 - delete via ns
+[LibXML] ok 68 - NS Elem after NS proxy deletion
+[LibXML] ok 69 - 
+[LibXML] ok 70 - 
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00dtd-decls.t
+[LibXML] 1..6
+[LibXML] # Subtest: dtd notations
+[LibXML]     1..10
+[LibXML]     ok 1 - DtD has notations
+[LibXML]     ok 2 - notation keys
+[LibXML]     ok 3 - notation fetch
+[LibXML]     ok 4 - notation name
+[LibXML]     ok 5 - notation system-Id
+[LibXML]     ok 6 - notation public-Id
+[LibXML]     ok 7 - notation Str
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - entity notation
+[LibXML] ok 1 - dtd notations
+[LibXML] # Subtest: dtd entities
+[LibXML]     1..19
+[LibXML]     ok 1 - DtD has entities
+[LibXML]     ok 2 - entity keys
+[LibXML]     ok 3 - entity fetch
+[LibXML]     ok 4 - entity name
+[LibXML]     ok 5 - entity value
+[LibXML]     ok 6 - entity reference
+[LibXML]     ok 7 - entity reference Str
+[LibXML]     ok 8 - entity reference dereference
+[LibXML]     ok 9 - is-valid
+[LibXML]     ok 10 - validate
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - entity system-Id
+[LibXML]     ok 14 - entity public-Id
+[LibXML]     ok 15 - notation name
+[LibXML]     ok 16 - entity Str
+[LibXML]     # Subtest: entities hash update is nyi
+[LibXML]         1..2
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::NYI)
+[LibXML]     ok 17 - entities hash update is nyi
+[LibXML]     ok 18 - entity ref with DtD intact
+[LibXML]     ok 19 - entity refer with DtD removed
+[LibXML] ok 2 - dtd entities
+[LibXML] # Subtest: dtd element declarations
+[LibXML]     1..16
+[LibXML]     ok 1 - DtD has elements
+[LibXML]     ok 2 - element decl keys
+[LibXML]     ok 3 - values type
+[LibXML]     ok 4 - pairs type
+[LibXML]     ok 5 - element decl fetch
+[LibXML]     ok 6 - element decl name
+[LibXML]     ok 7 - element decl type
+[LibXML]     ok 8 - element parent type
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - element decl string
+[LibXML]     ok 12 - attributes string
+[LibXML]     ok 13 - getNodeDeclaration
+[LibXML]     ok 14 - element decl name
+[LibXML]     ok 15 - element decl type
+[LibXML]     ok 16 - element parent type
+[LibXML] ok 3 - dtd element declarations
+[LibXML] # Subtest: dtd element declaration content
+[LibXML]     1..9
+[LibXML]     ok 1 - type
+[LibXML]     ok 2 - occurs
+[LibXML]     ok 3 - Str
+[LibXML]     ok 4 - firstChild type
+[LibXML]     ok 5 - firstChild Str
+[LibXML]     ok 6 - firstChild getElementDecl
+[LibXML]     ok 7 - content()
+[LibXML]     ok 8 - content() via getElementDecl()
+[LibXML]     ok 9 - to decl Str
+[LibXML] ok 4 - dtd element declaration content
+[LibXML] # Subtest: dtd attribute declarations
+[LibXML]     1..10
+[LibXML]     ok 1 - elem attribute keys
+[LibXML]     ok 2 - attlist keys
+[LibXML]     ok 3 - values type
+[LibXML]     ok 4 - attlist Str
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - getElementDecl
+[LibXML]     ok 7 - attrType
+[LibXML]     ok 8 - defaultMode
+[LibXML]     ok 9 - defaultValue
+[LibXML]     ok 10 - 
+[LibXML] ok 5 - dtd attribute declarations
+[LibXML] # Subtest: dtd namespaces
+[LibXML]     1..10
+[LibXML]     ok 1 - element decls
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - elem attribute keys
+[LibXML]     ok 4 - attlist keys
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML] ok 6 - dtd namespaces
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00dtd.t
+[LibXML] 1..11
+[LibXML] ok 1 - 
+[LibXML] ok 2 - 
+[LibXML] ok 3 - 
+[LibXML] ok 4 - 
+[LibXML] ok 5 - 
+[LibXML] ok 6 - text matches rx/'failed to load'.*'"test.dtd"'/
+[LibXML] # Subtest: doc with internal dtd
+[LibXML]     1..14
+[LibXML]     ok 1 - no external DtD
+[LibXML]     # Subtest: Internal Dtd hidden from associative interface
+[LibXML]         1..3
+[LibXML]         ok 1 - doc keys
+[LibXML]         ok 2 - doc root elems
+[LibXML]         ok 3 - doc root dereference
+[LibXML]     ok 2 - Internal Dtd hidden from associative interface
+[LibXML]     ok 3 - has internal DtD
+[LibXML]     ok 4 - validate
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - .name
+[LibXML]     ok 7 - sans systemId
+[LibXML]     ok 8 - sans publicId
+[LibXML]     ok 9 - is-XHTML
+[LibXML]     ok 10 - keys
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML] ok 7 - doc with internal dtd
+[LibXML] # Subtest: doc with external dtd loaded
+[LibXML]     1..8
+[LibXML]     ok 1 - external DtD
+[LibXML]     ok 2 - has internal DtD
+[LibXML]     ok 3 - doc.validate
+[LibXML]     ok 4 - dtd.validate
+[LibXML]     ok 5 - .name
+[LibXML]     ok 6 - systemId
+[LibXML]     ok 7 - sans publicId
+[LibXML]     ok 8 - is-XHTML
+[LibXML] ok 8 - doc with external dtd loaded
+[LibXML] # Subtest: doc with no dtd loaded
+[LibXML]     1..9
+[LibXML]     ok 1 - copy external subset
+[LibXML]     ok 2 - external DtD
+[LibXML]     ok 3 - has external DtD
+[LibXML]     ok 4 - doc.validate
+[LibXML]     ok 5 - dtd.validate
+[LibXML]     ok 6 - .name
+[LibXML]     ok 7 - systemId
+[LibXML]     ok 8 - sans publicId
+[LibXML]     ok 9 - is-XHTML
+[LibXML] ok 9 - doc with no dtd loaded
+[LibXML] # Subtest: doc with parameter entities
+[LibXML]     1..8
+[LibXML]     ok 1 - has internal subset
+[LibXML]     ok 2 - has external DtD
+[LibXML]     ok 3 - doc.validate
+[LibXML]     ok 4 - doc.validate(dtd)
+[LibXML]     ok 5 - dtd.validate
+[LibXML]     ok 6 - .name
+[LibXML]     ok 7 - systemId
+[LibXML]     ok 8 - sans publicId
+[LibXML] ok 10 - doc with parameter entities
+[LibXML] # Subtest: Dtd parse
+[LibXML]     ok 1 - 
+[LibXML]     # Subtest: did we throws-like X::LibXML::Parser?
+[LibXML]         1..2
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]     ok 2 - did we throws-like X::LibXML::Parser?
+[LibXML]     1..2
+[LibXML] ok 11 - Dtd parse
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00errors.t
+[LibXML] 1..4
+[LibXML] ok 1 - 
+[LibXML] # Subtest: did we throws-like X::LibXML::OpFail?
+[LibXML]     1..3
+[LibXML]     ok 1 - code dies
+[LibXML]     ok 2 - right exception type (X::LibXML::OpFail)
+[LibXML]     ok 3 - .message matches XML Pattern Compile operation failed
+[LibXML] ok 2 - did we throws-like X::LibXML::OpFail?
+[LibXML] ok 3 - 
+[LibXML] # Subtest: did we throws-like X::LibXML::OpFail?
+[LibXML]     1..3
+[LibXML]     ok 1 - code dies
+[LibXML]     ok 2 - right exception type (X::LibXML::OpFail)
+[LibXML]     ok 3 - .message matches XML RegExp Compile operation failed
+[LibXML] ok 4 - did we throws-like X::LibXML::OpFail?
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00hash-object.t
+[LibXML] 1..2
+[LibXML] # Subtest: node-hash
+[LibXML]     1..4
+[LibXML]     ok 1 - keys
+[LibXML]     ok 2 - values
+[LibXML]     ok 3 - deleted element
+[LibXML]     ok 4 - replaced element
+[LibXML] ok 1 - node-hash
+[LibXML] # Subtest: object-hash
+[LibXML]     1..20
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     ok 19 - 
+[LibXML]     ok 20 - 
+[LibXML] ok 2 - object-hash
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00hash-type.t
+[LibXML] 1..4
+[LibXML] # Subtest: Str HashMaps
+[LibXML]     1..17
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML] ok 1 - Str HashMaps
+[LibXML] # Subtest: Int HashMaps
+[LibXML]     1..3
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML] ok 2 - Int HashMaps
+[LibXML] # Subtest: LibXML::Item HashMaps
+[LibXML]     1..3
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML] ok 3 - LibXML::Item HashMaps
+[LibXML] # Subtest: LibXML::Node::Set HashMaps
+[LibXML]     1..4
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - The object is-a 'LibXML::Node::Set'
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML] ok 4 - LibXML::Node::Set HashMaps
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00input-callback.t
+[LibXML] Potential difficulties:
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML]     Duplicate 'is rw' trait
+[LibXML]     at line 
+[LibXML] 1..19
+[LibXML] ok 1 - match callback when found
+[LibXML] ok 2 - match callback when not found
+[LibXML] ok 3 - open returns a pointer
+[LibXML] ok 4 - Exactly one open handle
+[LibXML] ok 5 - $handle.fh
+[LibXML] ok 6 - read callback return value
+[LibXML] ok 7 - return read buffer
+[LibXML] ok 8 - close callback return value
+[LibXML] ok 9 - No longer have an open fh
+[LibXML] ok 10 - match callback called
+[LibXML] ok 11 - open callback called
+[LibXML] ok 12 - read callback called
+[LibXML] ok 13 - close callback called
+[LibXML] ok 14 - file parse
+[LibXML] ok 15 - match callback called
+[LibXML] ok 16 - open callback called
+[LibXML] ok 17 - read callback called
+[LibXML] ok 18 - close callback called
+[LibXML] ok 19 - DOM sanity
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00native.t
+[LibXML] 1..19
+[LibXML] ok 1 - anyNode.new fails
+[LibXML] ok 2 - size of LibXML::Raw::xmlElem
+[LibXML] not ok 3 - size of LibXML::Raw::xmlAttr # TODO has known size changes between libxml2 versions
+[LibXML] # Failed test 'size of LibXML::Raw::xmlAttr'
+[LibXML] # at t/00native.t line 20
+[LibXML] # expected: 104
+[LibXML] #  matcher: 'infix:«>=»'
+[LibXML] #      got: 96
+[LibXML] ok 4 - size of LibXML::Raw::xmlTextNode
+[LibXML] ok 5 - size of LibXML::Raw::xmlCDataNode
+[LibXML] ok 6 - size of LibXML::Raw::xmlEntityRefNode
+[LibXML] ok 7 - # SKIP class 6
+[LibXML] ok 8 - size of LibXML::Raw::xmlPINode
+[LibXML] ok 9 - size of LibXML::Raw::xmlCommentNode
+[LibXML] ok 10 - size of LibXML::Raw::xmlDoc
+[LibXML] ok 11 - # SKIP class 10
+[LibXML] ok 12 - size of LibXML::Raw::xmlDocFrag
+[LibXML] ok 13 - # SKIP class 12
+[LibXML] ok 14 - size of LibXML::Raw::htmlDoc
+[LibXML] ok 15 - size of LibXML::Raw::xmlDtd
+[LibXML] ok 16 - size of LibXML::Raw::xmlElementDecl
+[LibXML] ok 17 - size of LibXML::Raw::xmlAttrDecl
+[LibXML] ok 18 - size of LibXML::Raw::xmlEntity # TODO has known size changes between libxml2 versions
+[LibXML] ok 19 - size of LibXML::Raw::xmlNs
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00query-selectors.t
+[LibXML] ok 1 - query selection before configuration - dies
+[LibXML] ok 2 - 
+[LibXML] ok 3 - 
+[LibXML] 1..3
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00sax-coverage.t
+[LibXML] ok 1 - document integrity
+[LibXML] ok 2 - document integrity
+[LibXML] ok 3 - sax coverage
+[LibXML] ok 4 - external subset
+[LibXML] ok 5 - entity declaration
+[LibXML] 1..5
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00sax.t
+[LibXML] 1..16
+[LibXML] ok 1 - sax handler defined
+[LibXML] ok 2 - startElement initial
+[LibXML] ok 3 - startElement setter
+[LibXML] ok 4 - startElement updated
+[LibXML] ok 5 - startElement initialization
+[LibXML] ok 6 - start tags
+[LibXML] ok 7 - end tags
+[LibXML] ok 8 - atts
+[LibXML] # Subtest: SaxHandler
+[LibXML]     ok 1 - start tags
+[LibXML]     ok 2 - end tags
+[LibXML]     ok 3 - atts
+[LibXML]     1..3
+[LibXML] ok 9 - SaxHandler
+[LibXML] # Subtest: SaxHandlerAlias
+[LibXML]     ok 1 - start tags
+[LibXML]     ok 2 - end tags
+[LibXML]     ok 3 - atts
+[LibXML]     1..3
+[LibXML] ok 10 - SaxHandlerAlias
+[LibXML] # Subtest: SaxHandlerMulti
+[LibXML]     ok 1 - start tags
+[LibXML]     ok 2 - end tags
+[LibXML]     ok 3 - atts
+[LibXML]     1..3
+[LibXML] ok 11 - SaxHandlerMulti
+[LibXML] # Subtest: SaxHandlerNs
+[LibXML]     ok 1 - start tags
+[LibXML]     ok 2 - end tags
+[LibXML]     ok 3 - atts
+[LibXML]     1..3
+[LibXML] ok 12 - SaxHandlerNs
+[LibXML] # Subtest: SaxHandlerHTML
+[LibXML]     ok 1 - start tags
+[LibXML]     ok 2 - end tags
+[LibXML]     ok 3 - atts
+[LibXML]     1..3
+[LibXML] ok 13 - SaxHandlerHTML
+[LibXML] # Subtest: SaxHandlerHTMLNs
+[LibXML]     ok 1 - start tags
+[LibXML]     ok 2 - end tags
+[LibXML]     ok 3 - atts
+[LibXML]     1..3
+[LibXML] ok 14 - SaxHandlerHTMLNs
+[LibXML] ok 15 - XML Sax builder sanity
+[LibXML] ok 16 - Simple transform
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00subclass.t
+[LibXML] 1..2
+[LibXML] # Subtest: Basics
+[LibXML]     1..11
+[LibXML]     ok 1 - parsed elem type
+[LibXML]     ok 2 - parsed element $.raw type
+[LibXML]     ok 3 - parsed element $.raw is defined
+[LibXML]     ok 4 - parsed elem name
+[LibXML]     ok 5 - parsed elem value
+[LibXML]     ok 6 - element attribute type
+[LibXML]     ok 7 - element attribute $.raw type
+[LibXML]     ok 8 - created elem type
+[LibXML]     ok 9 - created elem name
+[LibXML]     ok 10 - created elem value
+[LibXML]     ok 11 - serialization sanity
+[LibXML] ok 1 - Basics
+[LibXML] # Subtest: By Element Type
+[LibXML]     1..4
+[LibXML]     ok 1 - document config class
+[LibXML]     ok 2 - root element
+[LibXML]     ok 3 - subelement type
+[LibXML]     ok 4 - attribute reader method
+[LibXML] ok 2 - By Element Type
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00threads.t
+[LibXML] 1..1
+[LibXML] # Subtest: configs
+[LibXML]     ok 1 - tag expansion gobal
+[LibXML]     ok 2 - keep blanks gobal
+[LibXML]     ok 3 - tag-expansion vs skip-xml-declaration
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 1 - configs
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00with-cache.t
+[LibXML] 1..4
+[LibXML] ok 1 - 
+[LibXML] # Subtest: without caching
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 2 - without caching
+[LibXML] # Subtest: with caching
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 3 - with caching
+[LibXML] # Subtest: equivalence
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 4 - equivalence
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/00xpath-object.t
+[LibXML] 1..25
+[LibXML] ok 1 - 
+[LibXML] ok 2 - 
+[LibXML] ok 3 - 
+[LibXML] ok 4 - 
+[LibXML] ok 5 - 
+[LibXML] ok 6 - 
+[LibXML] ok 7 - 
+[LibXML] ok 8 - 
+[LibXML] ok 9 - 
+[LibXML] ok 10 - 
+[LibXML] ok 11 - 
+[LibXML] ok 12 - 
+[LibXML] ok 13 - 
+[LibXML] ok 14 - 
+[LibXML] ok 15 - 
+[LibXML] ok 16 - 
+[LibXML] ok 17 - 
+[LibXML] ok 18 - 
+[LibXML] ok 19 - 
+[LibXML] ok 20 - 
+[LibXML] ok 21 - 
+[LibXML] ok 22 - 
+[LibXML] ok 23 - 
+[LibXML] ok 24 - The object is-a 'LibXML::Raw::anyNode'
+[LibXML] ok 25 - 
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/01basic.t
+[LibXML] 1..8
+[LibXML] ok 1 - LibXML.version is trueish
+[LibXML] # Running libxml2 version: 2.09.14 (module 0.11.3, Raku 2026.06.226.g.467694501)
+[LibXML] # libxml2 configuration: threads=yes reader=yes schemas=yes compression=yes iconv=yes
+[LibXML] ok 2 - LibXML version is suppported
+[LibXML] ok 3 - set keep-blanks default
+[LibXML] ok 4 - get keep-blanks default
+[LibXML] ok 5 - set keep-blanks default
+[LibXML] ok 6 - get keep-blanks default
+[LibXML] ok 7 - $doc.Str
+[LibXML] ok 8 - $doc.Str(:format)
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/02parse.t
+[LibXML] 1..20
+[LibXML] # Subtest: non validating parser
+[LibXML]     # Subtest: well formed strings
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         ok 10 - 
+[LibXML]         ok 11 - 
+[LibXML]         ok 12 - 
+[LibXML]         ok 13 - 
+[LibXML]         ok 14 - 
+[LibXML]         ok 15 - 
+[LibXML]         ok 16 - 
+[LibXML]         ok 17 - 
+[LibXML]         ok 18 - 
+[LibXML]         ok 19 - 
+[LibXML]         ok 20 - 
+[LibXML]         ok 21 - 
+[LibXML]         ok 22 - 
+[LibXML]         ok 23 - 
+[LibXML]         ok 24 - 
+[LibXML]         ok 25 - 
+[LibXML]         ok 26 - 
+[LibXML]         ok 27 - 
+[LibXML]         ok 28 - 
+[LibXML]         1..28
+[LibXML]     ok 1 - well formed strings
+[LibXML]     ok 2 - parse undef string
+[LibXML]     # Subtest: invalid strings
+[LibXML]         # Subtest: Error thrown passing ''
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 1 - Error thrown passing ''
+[LibXML]         # Subtest: Error thrown passing '<?xml version="1.0"?>\n'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 2 - Error thrown passing '<?xml version="1.0"?>\n'
+[LibXML]         # Subtest: Error thrown passing '<!--ouch-->'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - Error thrown passing '<!--ouch-->'
+[LibXML]         # Subtest: Error thrown passing '<!DOCTYPE ...o "bar">]>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 4 - Error thrown passing '<!DOCTYPE ...o "bar">]>'
+[LibXML]         # Subtest: Error thrown passing '<ouch>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 5 - Error thrown passing '<ouch>'
+[LibXML]         # Subtest: Error thrown passing '<ouch/>foo'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 6 - Error thrown passing '<ouch/>foo'
+[LibXML]         # Subtest: Error thrown passing 'foo<ouch/>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 7 - Error thrown passing 'foo<ouch/>'
+[LibXML]         # Subtest: Error thrown passing '<ouch foo=bar/>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 8 - Error thrown passing '<ouch foo=bar/>'
+[LibXML]         # Subtest: Error thrown passing '<ouch foo="bar/>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 9 - Error thrown passing '<ouch foo="bar/>'
+[LibXML]         # Subtest: Error thrown passing '<ouch>&</ouch>"='
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 10 - Error thrown passing '<ouch>&</ouch>"='
+[LibXML]         # Subtest: Error thrown passing '<ouch>&#0x20;</ouch>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 11 - Error thrown passing '<ouch>& \#0x20;</ouch>'
+[LibXML]         # Subtest: Error thrown passing '<ouch>&foo;</ouch>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 12 - Error thrown passing '<ouch>&foo;</ouch>'
+[LibXML]         # Subtest: Error thrown passing '<ouch>&gt</ouch>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 13 - Error thrown passing '<ouch>&gt</ouch>'
+[LibXML]         # Subtest: Error thrown passing '<?xml vers...;="ouch"/>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 14 - Error thrown passing '<?xml vers...;="ouch"/>'
+[LibXML]         # Subtest: Error thrown passing '<?xml vers...ar &foo;/>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 15 - Error thrown passing '<?xml vers...ar &foo;/>'
+[LibXML]         # Subtest: Error thrown passing '<ouch><!---></ouch>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 16 - Error thrown passing '<ouch><!---></ouch>'
+[LibXML]         # Subtest: Error thrown passing '<ouch><!-----></ouch>'
+[LibXML]             1..2
+[LibXML]             ok 1 - code dies
+[LibXML]             ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 17 - Error thrown passing '<ouch><!-----></ouch>'
+[LibXML]         1..17
+[LibXML]     ok 3 - invalid strings
+[LibXML]     1..3
+[LibXML] ok 1 - non validating parser
+[LibXML] # Subtest: keep-blanks
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     ok 19 - 
+[LibXML]     ok 20 - 
+[LibXML]     ok 21 - 
+[LibXML]     ok 22 - 
+[LibXML]     ok 23 - 
+[LibXML]     ok 24 - 
+[LibXML]     ok 25 - 
+[LibXML]     ok 26 - 
+[LibXML]     ok 27 - 
+[LibXML]     ok 28 - 
+[LibXML]     ok 29 - keep-blanks error:''
+[LibXML]     ok 30 - keep-blanks error:'<?xml version="1.0"?>\n'
+[LibXML]     ok 31 - keep-blanks error:'<!--ouch-->'
+[LibXML]     ok 32 - keep-blanks error:'<!DOCTYPE ...o "bar">]>'
+[LibXML]     ok 33 - keep-blanks error:'<ouch>'
+[LibXML]     ok 34 - keep-blanks error:'<ouch/>foo'
+[LibXML]     ok 35 - keep-blanks error:'foo<ouch/>'
+[LibXML]     ok 36 - keep-blanks error:'<ouch foo=bar/>'
+[LibXML]     ok 37 - keep-blanks error:'<ouch foo="bar/>'
+[LibXML]     ok 38 - keep-blanks error:'<ouch>&</ouch>"='
+[LibXML]     ok 39 - keep-blanks error:'<ouch>& \#0x20;</ouch>'
+[LibXML]     ok 40 - keep-blanks error:'<ouch>&foo;</ouch>'
+[LibXML]     ok 41 - keep-blanks error:'<ouch>&gt</ouch>'
+[LibXML]     ok 42 - keep-blanks error:'<?xml vers...;="ouch"/>'
+[LibXML]     ok 43 - keep-blanks error:'<?xml vers...ar &foo;/>'
+[LibXML]     ok 44 - keep-blanks error:'<ouch><!---></ouch>'
+[LibXML]     ok 45 - keep-blanks error:'<ouch><!-----></ouch>'
+[LibXML]     1..45
+[LibXML] ok 2 - keep-blanks
+[LibXML] # Subtest: expand-entities
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     ok 19 - 
+[LibXML]     ok 20 - 
+[LibXML]     ok 21 - 
+[LibXML]     ok 22 - 
+[LibXML]     ok 23 - 
+[LibXML]     ok 24 - 
+[LibXML]     ok 25 - 
+[LibXML]     ok 26 - 
+[LibXML]     ok 27 - 
+[LibXML]     ok 28 - 
+[LibXML]     ok 29 - 
+[LibXML]     ok 30 - expand-entities error:''
+[LibXML]     ok 31 - expand-entities error:'<?xml version="1.0"?>\n'
+[LibXML]     ok 32 - expand-entities error:'<!--ouch-->'
+[LibXML]     ok 33 - expand-entities error:'<!DOCTYPE ...o "bar">]>'
+[LibXML]     ok 34 - expand-entities error:'<ouch>'
+[LibXML]     ok 35 - expand-entities error:'<ouch/>foo'
+[LibXML]     ok 36 - expand-entities error:'foo<ouch/>'
+[LibXML]     ok 37 - expand-entities error:'<ouch foo=bar/>'
+[LibXML]     ok 38 - expand-entities error:'<ouch foo="bar/>'
+[LibXML]     ok 39 - expand-entities error:'<ouch>&</ouch>"='
+[LibXML]     ok 40 - expand-entities error:'<ouch>& \#0x20;</ouch>'
+[LibXML]     ok 41 - expand-entities error:'<ouch>&foo;</ouch>'
+[LibXML]     ok 42 - expand-entities error:'<ouch>&gt</ouch>'
+[LibXML]     ok 43 - expand-entities error:'<?xml vers...;="ouch"/>'
+[LibXML]     ok 44 - expand-entities error:'<?xml vers...ar &foo;/>'
+[LibXML]     ok 45 - expand-entities error:'<ouch><!---></ouch>'
+[LibXML]     ok 46 - expand-entities error:'<ouch><!-----></ouch>'
+[LibXML]     1..46
+[LibXML] ok 3 - expand-entities
+[LibXML] # Subtest: pedantic-parser
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     ok 19 - 
+[LibXML]     ok 20 - 
+[LibXML]     ok 21 - 
+[LibXML]     ok 22 - 
+[LibXML]     ok 23 - 
+[LibXML]     ok 24 - 
+[LibXML]     ok 25 - 
+[LibXML]     ok 26 - 
+[LibXML]     ok 27 - 
+[LibXML]     ok 28 - 
+[LibXML]     ok 29 - pedantic-parser error:''
+[LibXML]     ok 30 - pedantic-parser error:'<?xml version="1.0"?>\n'
+[LibXML]     ok 31 - pedantic-parser error:'<!--ouch-->'
+[LibXML]     ok 32 - pedantic-parser error:'<!DOCTYPE ...o "bar">]>'
+[LibXML]     ok 33 - pedantic-parser error:'<ouch>'
+[LibXML]     ok 34 - pedantic-parser error:'<ouch/>foo'
+[LibXML]     ok 35 - pedantic-parser error:'foo<ouch/>'
+[LibXML]     ok 36 - pedantic-parser error:'<ouch foo=bar/>'
+[LibXML]     ok 37 - pedantic-parser error:'<ouch foo="bar/>'
+[LibXML]     ok 38 - pedantic-parser error:'<ouch>&</ouch>"='
+[LibXML]     ok 39 - pedantic-parser error:'<ouch>& \#0x20;</ouch>'
+[LibXML]     ok 40 - pedantic-parser error:'<ouch>&foo;</ouch>'
+[LibXML]     ok 41 - pedantic-parser error:'<ouch>&gt</ouch>'
+[LibXML]     ok 42 - pedantic-parser error:'<?xml vers...;="ouch"/>'
+[LibXML]     ok 43 - pedantic-parser error:'<?xml vers...ar &foo;/>'
+[LibXML]     ok 44 - pedantic-parser error:'<ouch><!---></ouch>'
+[LibXML]     ok 45 - pedantic-parser error:'<ouch><!-----></ouch>'
+[LibXML]     1..45
+[LibXML] ok 4 - pedantic-parser
+[LibXML] # Subtest: parse :file
+[LibXML]     ok 1 - 
+[LibXML]     # Subtest: Error thrown with bad xml file
+[LibXML]         1..2
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]     ok 2 - Error thrown with bad xml file
+[LibXML]     ok 3 - xml string round trips as expected
+[LibXML]     ok 4 - test3.xml round trips as expected
+[LibXML]     1..4
+[LibXML] ok 5 - parse :file
+[LibXML] # Subtest: parse :io
+[LibXML]     ok 1 - The object is-a 'IO::Path'
+[LibXML]     ok 2 - The object is-a '"LibXML::Document"'
+[LibXML]     ok 3 - The object is-a 'IO::Handle'
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - The object is-a 'IO::Path'
+[LibXML]     # Subtest: error parsing bad file from file handle of samples/bad.xml
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - .message matches rx/:s Extra content at the end of the document/
+[LibXML]     ok 6 - error parsing bad file from file handle of samples/bad.xml
+[LibXML]     1..6
+[LibXML] ok 6 - parse :io
+[LibXML] # Subtest: expand-entities + parse: :file
+[LibXML]     ok 1 - 1 child node
+[LibXML]     ok 2 - 3 child nodes
+[LibXML]     ok 3 - 1 child node
+[LibXML]     1..3
+[LibXML] ok 7 - expand-entities + parse: :file
+[LibXML] # Subtest: x-include processing
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - return value from processXIncludes == 1
+[LibXML]     # Subtest: error parsing a bad include
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - .message matches rx/'Extra content at the end of the document'/
+[LibXML]     ok 3 - error parsing a bad include
+[LibXML]     # Subtest: error parsing samples/bad.xml in include
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - .message matches rx/'samples/bad.xml:3: parser error : Extra content at the end of the document'/
+[LibXML]     ok 4 - error parsing samples/bad.xml in include
+[LibXML]     ok 5 - no doc returned
+[LibXML]     # Subtest: Error parsing undef include
+[LibXML]         1..2
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::TypeCheck::Binding::Parameter)
+[LibXML]     ok 6 - Error parsing undef include
+[LibXML]     # Subtest: Error parsing bogus include
+[LibXML]         1..2
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::TypeCheck::Binding::Parameter)
+[LibXML]     ok 7 - Error parsing bogus include
+[LibXML]     1..7
+[LibXML] ok 8 - x-include processing
+[LibXML] # Subtest: push parser
+[LibXML]     # Subtest: well-formed documents
+[LibXML]         ok 1 - No error parsing single1
+[LibXML]         ok 2 - No error parsing single2
+[LibXML]         ok 3 - No error parsing single3
+[LibXML]         ok 4 - No error parsing single4
+[LibXML]         ok 5 - No error parsing single5
+[LibXML]         ok 6 - No error parsing single6
+[LibXML]         ok 7 - No error parsing single7
+[LibXML]         ok 8 - No error parsing single8
+[LibXML]         ok 9 - No error parsing single9
+[LibXML]         ok 10 - No error parsing multiple1
+[LibXML]         ok 11 - No error parsing multiple2
+[LibXML]         ok 12 - No error parsing multiple3
+[LibXML]         ok 13 - No error parsing multiple4
+[LibXML]         ok 14 - No error parsing multiple5
+[LibXML]         ok 15 - No error parsing multiple6
+[LibXML]         ok 16 - No error parsing multiple7
+[LibXML]         ok 17 - No error parsing multiple8
+[LibXML]         ok 18 - No error parsing multiple9
+[LibXML]         ok 19 - No error parsing multiple10
+[LibXML]         ok 20 - No error parsing comment1
+[LibXML]         ok 21 - No error parsing comment2
+[LibXML]         ok 22 - No error parsing comment3
+[LibXML]         ok 23 - No error parsing comment4
+[LibXML]         ok 24 - No error parsing comment5
+[LibXML]         ok 25 - No error parsing attr1
+[LibXML]         ok 26 - No error parsing attr2
+[LibXML]         ok 27 - No error parsing attr3
+[LibXML]         ok 28 - No error parsing ns1
+[LibXML]         ok 29 - No error parsing ns2
+[LibXML]         ok 30 - No error parsing ns3
+[LibXML]         ok 31 - No error parsing ns4
+[LibXML]         ok 32 - No error parsing ns5
+[LibXML]         ok 33 - No error parsing ns6
+[LibXML]         ok 34 - No error parsing dtd1
+[LibXML]         ok 35 - No error parsing dtd2
+[LibXML]         1..35
+[LibXML]     ok 1 - well-formed documents
+[LibXML]     # Subtest: well-formed multiple chunks
+[LibXML]         ok 1 - 
+[LibXML]         1..1
+[LibXML]     ok 2 - well-formed multiple chunks
+[LibXML]     # Subtest: parsing broken documents
+[LibXML]         ok 1 - Got an error parsing empty chunk after chunks for badcdata
+[LibXML]         ok 2 - Got an error parsing empty chunk after chunks for badending1
+[LibXML]         ok 3 - Got an error parsing empty chunk after chunks for badending2
+[LibXML]         ok 4 - Got an error parsing empty chunk after chunks for postdocend1
+[LibXML]         ok 5 - Got an error parsing empty chunk after chunks for postdocend2
+[LibXML]         ok 6 - Got an error parsing empty chunk after chunks for postdocend3
+[LibXML]         ok 7 - Got an error parsing empty chunk after chunks for predocend1
+[LibXML]         ok 8 - Got an error parsing empty chunk after chunks for predocend2
+[LibXML]         ok 9 - Got an error parsing empty chunk after chunks for predocend3
+[LibXML]         ok 10 - Got an error parsing empty chunk after chunks for predocend4
+[LibXML]         1..10
+[LibXML]     ok 3 - parsing broken documents
+[LibXML]     # Subtest: recovering push parser
+[LibXML]         ok 1 - RECOVERING PUSH PARSER
+[LibXML]         1..1
+[LibXML]     ok 4 - recovering push parser
+[LibXML]     1..4
+[LibXML] ok 9 - push parser
+[LibXML] # Subtest: SAX parser
+[LibXML]     # Subtest: XML handler
+[LibXML]         ok 1 - SAX PARSER
+[LibXML]         1..1
+[LibXML]     ok 1 - XML handler
+[LibXML]     # Subtest: SAX2 handler
+[LibXML]         # Subtest: general tests
+[LibXML]             ok 1 - 
+[LibXML]             ok 2 - 
+[LibXML]             ok 3 - 
+[LibXML]             ok 4 - 
+[LibXML]             ok 5 - 
+[LibXML]             ok 6 - 
+[LibXML]             ok 7 - 
+[LibXML]             ok 8 - 
+[LibXML]             ok 9 - 
+[LibXML]             ok 10 - 
+[LibXML]             ok 11 - 
+[LibXML]             ok 12 - 
+[LibXML]             ok 13 - 
+[LibXML]             ok 14 - 
+[LibXML]             ok 15 - 
+[LibXML]             ok 16 - 
+[LibXML]             ok 17 - 
+[LibXML]             1..17
+[LibXML]         ok 1 - general tests
+[LibXML]         # Subtest: CDATA sections
+[LibXML]             ok 1 - Child nodes - 1
+[LibXML]             ok 2 - 
+[LibXML]             ok 3 - 
+[LibXML]             ok 4 - 
+[LibXML]             1..4
+[LibXML]         ok 2 - CDATA sections
+[LibXML]         # Subtest: namespaces
+[LibXML]             ok 1 - The object is-a 'LibXML::Document'
+[LibXML]             ok 2 - Good NS 0
+[LibXML]             ok 3 - The object is-a 'LibXML::Document'
+[LibXML]             ok 4 - Good NS 1
+[LibXML]             ok 5 - The object is-a 'LibXML::Document'
+[LibXML]             ok 6 - Good NS 2
+[LibXML]             ok 7 - The object is-a 'LibXML::Document'
+[LibXML]             ok 8 - Good NS 3
+[LibXML]             ok 9 - The object is-a 'LibXML::Document'
+[LibXML]             ok 10 - Good NS 4
+[LibXML]             ok 11 - 1 namespace
+[LibXML]             ok 12 - Node type: 18
+[LibXML]             ok 13 - 
+[LibXML]             1..13
+[LibXML]         ok 3 - namespaces
+[LibXML]         # Subtest: attributes
+[LibXML]             ok 1 - document properties
+[LibXML]             ok 2 - 2 attributes
+[LibXML]             ok 3 - 2 properties
+[LibXML]             ok 4 - 
+[LibXML]             ok 5 - 
+[LibXML]             ok 6 - 
+[LibXML]             ok 7 - 
+[LibXML]             ok 8 - 
+[LibXML]             ok 9 - 
+[LibXML]             1..9
+[LibXML]         ok 4 - attributes
+[LibXML]         # Subtest: internal subsets
+[LibXML]             ok 1 - 
+[LibXML]             ok 2 - 
+[LibXML]             ok 3 - 
+[LibXML]             ok 4 - 
+[LibXML]             ok 5 - 
+[LibXML]             ok 6 - 
+[LibXML]             ok 7 - 
+[LibXML]             1..7
+[LibXML]         ok 5 - internal subsets
+[LibXML]         # Subtest: parse :file
+[LibXML]             ok 1 - 
+[LibXML]             1..1
+[LibXML]         ok 6 - parse :file
+[LibXML]         1..6
+[LibXML]     ok 2 - SAX2 handler
+[LibXML]     1..2
+[LibXML] ok 10 - SAX parser
+[LibXML] # Subtest: SAX push parser
+[LibXML]     ok 1 - The object is-a '"LibXML::Document"'
+[LibXML]     ok 2 - sax push parse attr1
+[LibXML]     ok 3 - sax push parse attr2
+[LibXML]     ok 4 - sax push parse attr3
+[LibXML]     ok 5 - sax push parse comment1
+[LibXML]     ok 6 - sax push parse comment2
+[LibXML]     ok 7 - sax push parse comment3
+[LibXML]     ok 8 - sax push parse comment4
+[LibXML]     ok 9 - sax push parse comment5
+[LibXML]     ok 10 - sax push parse dtd1
+[LibXML]     ok 11 - sax push parse dtd2
+[LibXML]     ok 12 - sax push parse multiple1
+[LibXML]     ok 13 - sax push parse multiple10
+[LibXML]     ok 14 - sax push parse multiple2
+[LibXML]     ok 15 - sax push parse multiple3
+[LibXML]     ok 16 - sax push parse multiple4
+[LibXML]     ok 17 - sax push parse multiple5
+[LibXML]     ok 18 - sax push parse multiple6
+[LibXML]     ok 19 - sax push parse multiple7
+[LibXML]     ok 20 - sax push parse multiple8
+[LibXML]     ok 21 - sax push parse multiple9
+[LibXML]     ok 22 - sax push parse ns1
+[LibXML]     ok 23 - sax push parse ns2
+[LibXML]     ok 24 - sax push parse ns3
+[LibXML]     ok 25 - sax push parse ns4
+[LibXML]     ok 26 - sax push parse ns5
+[LibXML]     ok 27 - sax push parse ns6
+[LibXML]     ok 28 - sax push parse single1
+[LibXML]     ok 29 - sax push parse single2
+[LibXML]     ok 30 - sax push parse single3
+[LibXML]     ok 31 - sax push parse single4
+[LibXML]     ok 32 - sax push parse single5
+[LibXML]     ok 33 - sax push parse single6
+[LibXML]     ok 34 - sax push parse single7
+[LibXML]     ok 35 - sax push parse single8
+[LibXML]     ok 36 - sax push parse single9
+[LibXML]     1..36
+[LibXML] ok 11 - SAX push parser
+[LibXML] # Subtest: parse well balanced chunks
+[LibXML]     # Subtest: DOM chunk parser
+[LibXML]         # Subtest: well-formed
+[LibXML]             1..10
+[LibXML]             ok 1 - <A/> is well formed
+[LibXML]             ok 2 - <A></A> is well formed
+[LibXML]             ok 3 - <A B="C"/> is well formed
+[LibXML]             ok 4 - <A>D</A> is well formed
+[LibXML]             ok 5 - <A><![CDATA[D]]></A> is well formed
+[LibXML]             ok 6 - <A><!--D--></A> is well formed
+[LibXML]             ok 7 - <A><K/></A> is well formed
+[LibXML]             ok 8 - <A xmlns="xml://E"/> is well formed
+[LibXML]             ok 9 - <F:A xmlns:F="xml://G" F:A="B">D</F:A> is well formed
+[LibXML]             ok 10 - <!--D--> is well formed
+[LibXML]         ok 1 - well-formed
+[LibXML]         # Subtest: well-balanced
+[LibXML]             1..16
+[LibXML]             ok 1 - <A/><A/> is well balanced
+[LibXML]             ok 2 - <A></A><A></A> is well balanced
+[LibXML]             ok 3 - <A B="C"/><A B="H"/> is well balanced
+[LibXML]             ok 4 - <A>D</A><A>I</A> is well balanced
+[LibXML]             ok 5 - <A><K/></A><A><L/></A> is well balanced
+[LibXML]             ok 6 - <A><![CDATA[D]]></A><A><![CDATA[I]]></A> is well balanced
+[LibXML]             ok 7 - <A><!--D--></A><A><!--I--></A> is well balanced
+[LibXML]             ok 8 - <F:A xmlns:F="xml://G" F:A="B">D</F:A><J:A xmlns:J="xml://G" J:A="M">D</J:A> is well balanced
+[LibXML]             ok 9 - D<A/> is well balanced
+[LibXML]             ok 10 - D<A/>D is well balanced
+[LibXML]             ok 11 - D<A/><!--D--> is well balanced
+[LibXML]             ok 12 - D<A/><![CDATA[D]]> is well balanced
+[LibXML]             ok 13 - <![CDATA[D]]><A/>D is well balanced
+[LibXML]             ok 14 - <!--D--><A/> is well balanced
+[LibXML]             ok 15 - <![CDATA[D]]> is well balanced
+[LibXML]             ok 16 - D is well balanced
+[LibXML]         ok 2 - well-balanced
+[LibXML]         # Subtest: broken strings
+[LibXML]             ok 1 - 
+[LibXML]             ok 2 - parse-balanced fails: <ouch>
+[LibXML]             ok 3 - parse-balanced fails: <ouch>bar
+[LibXML]             ok 4 - parse-balanced fails: bar</ouch>
+[LibXML]             ok 5 - parse-balanced fails: &
+[LibXML]             ok 6 - parse-balanced fails: <!--->
+[LibXML]             ok 7 - parse-balanced fails: <!----->
+[LibXML]             1..7
+[LibXML]         ok 3 - broken strings
+[LibXML]         1..3
+[LibXML]     ok 1 - DOM chunk parser
+[LibXML]     # Subtest: Perl segfault
+[LibXML]         ok 1 - The object is-a '"LibXML::Element"'
+[LibXML]         ok 2 - appendChild
+[LibXML]         1..2
+[LibXML]     ok 2 - Perl segfault
+[LibXML]     # Subtest: Perl segfault
+[LibXML]         ok 1 - The object is-a '"LibXML::Element"'
+[LibXML]         ok 2 - insertAfter
+[LibXML]         1..2
+[LibXML]     ok 3 - Perl segfault
+[LibXML]     # Subtest: Perl segfault
+[LibXML]         ok 1 - insertBefore
+[LibXML]         1..1
+[LibXML]     ok 4 - Perl segfault
+[LibXML]     # Subtest: SAX chunk parser
+[LibXML]         # Subtest: well-formed
+[LibXML]             1..10
+[LibXML]             ok 1 - <A/> is well formed
+[LibXML]             ok 2 - <A></A> is well formed
+[LibXML]             ok 3 - <A B="C"/> is well formed
+[LibXML]             ok 4 - <A>D</A> is well formed
+[LibXML]             ok 5 - <A><![CDATA[D]]></A> is well formed
+[LibXML]             ok 6 - <A><!--D--></A> is well formed
+[LibXML]             ok 7 - <A><K/></A> is well formed
+[LibXML]             ok 8 - <A xmlns="xml://E"/> is well formed
+[LibXML]             ok 9 - <F:A xmlns:F="xml://G" F:A="B">D</F:A> is well formed
+[LibXML]             ok 10 - <!--D--> is well formed
+[LibXML]         ok 1 - well-formed
+[LibXML]         # Subtest: well-balanced
+[LibXML]             1..16
+[LibXML]             ok 1 - <A/><A/> is well balanced
+[LibXML]             ok 2 - <A></A><A></A> is well balanced
+[LibXML]             ok 3 - <A B="C"/><A B="H"/> is well balanced
+[LibXML]             ok 4 - <A>D</A><A>I</A> is well balanced
+[LibXML]             ok 5 - <A><K/></A><A><L/></A> is well balanced
+[LibXML]             ok 6 - <A><![CDATA[D]]></A><A><![CDATA[I]]></A> is well balanced
+[LibXML]             ok 7 - <A><!--D--></A><A><!--I--></A> is well balanced
+[LibXML]             ok 8 - <F:A xmlns:F="xml://G" F:A="B">D</F:A><J:A xmlns:J="xml://G" J:A="M">D</J:A> is well balanced
+[LibXML]             ok 9 - D<A/> is well balanced
+[LibXML]             ok 10 - D<A/>D is well balanced
+[LibXML]             ok 11 - D<A/><!--D--> is well balanced
+[LibXML]             ok 12 - D<A/><![CDATA[D]]> is well balanced
+[LibXML]             ok 13 - <![CDATA[D]]><A/>D is well balanced
+[LibXML]             ok 14 - <!--D--><A/> is well balanced
+[LibXML]             ok 15 - <![CDATA[D]]> is well balanced
+[LibXML]             ok 16 - D is well balanced
+[LibXML]         ok 2 - well-balanced
+[LibXML]         1..2
+[LibXML]     ok 5 - SAX chunk parser
+[LibXML]     1..5
+[LibXML] ok 12 - parse well balanced chunks
+[LibXML] # Subtest: validating parser
+[LibXML]     ok 1 - Failed to parse SIMPLE bad string
+[LibXML]     1..1
+[LibXML] ok 13 - validating parser
+[LibXML] # Subtest: line numbers
+[LibXML]     # Subtest: line 03 found in error
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - .message matches rx/^^\:<[03]>\:/
+[LibXML]     ok 1 - line 03 found in error
+[LibXML]     # Subtest: line 3 found in error
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - .message matches rx/^^\:3\:/
+[LibXML]     ok 2 - line 3 found in error
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - line number is 2
+[LibXML]     ok 5 - line number is 3
+[LibXML]     ok 6 - line number is 0
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - line number is 0
+[LibXML]     ok 9 - line number is 0
+[LibXML]     1..9
+[LibXML] ok 14 - line numbers
+[LibXML] # Subtest: clean namespaces
+[LibXML]     ok 1 - string ns parse
+[LibXML]     ok 2 - string ns parse
+[LibXML]     ok 3 - file ns parse
+[LibXML]     ok 4 - file ns parse
+[LibXML]     ok 5 - io ns parse
+[LibXML]     ok 6 - io ns parse
+[LibXML]     ok 7 - chunk ns parse
+[LibXML]     ok 8 - chunk ns parse
+[LibXML]     1..8
+[LibXML] ok 15 - clean namespaces
+[LibXML] # Subtest: external subset loading
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 16 - external subset loading
+[LibXML] # Subtest: Perl ticket #7913
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 17 - Perl ticket  \#7913
+[LibXML] # Subtest: XML URI and baseURI
+[LibXML]     ok 1 - xml uris
+[LibXML]     ok 2 - xml uris
+[LibXML]     ok 3 - xml uris
+[LibXML]     ok 4 - xml uris
+[LibXML]     ok 5 - xml uris
+[LibXML]     ok 6 - xml uris
+[LibXML]     ok 7 - xml uris
+[LibXML]     ok 8 - xml uris
+[LibXML]     ok 9 - xml uris
+[LibXML]     ok 10 - xml uris
+[LibXML]     ok 11 - xml uris
+[LibXML]     ok 12 - xml uris
+[LibXML]     1..12
+[LibXML] ok 18 - XML URI and baseURI
+[LibXML] # Subtest: HTML URI and baseURI
+[LibXML]     ok 1 - html uris
+[LibXML]     ok 2 - html uris
+[LibXML]     ok 3 - html uris
+[LibXML]     ok 4 - html uris
+[LibXML]     ok 5 - html uris
+[LibXML]     ok 6 - html uris
+[LibXML]     1..6
+[LibXML] ok 19 - HTML URI and baseURI
+[LibXML] # Subtest: Perl fossil
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 20 - Perl fossil
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/03doc.t
+[LibXML] 1..9
+[LibXML] # Subtest: document attributes
+[LibXML]     ok 1 - document creation
+[LibXML]     ok 2 - doc.encoding
+[LibXML]     ok 3 - doc.version
+[LibXML]     ok 4 - doc.standalone
+[LibXML]     ok 5 - doc.URI
+[LibXML]     ok 6 - doc.compression
+[LibXML]     ok 7 - Encoding was set.
+[LibXML]     ok 8 - Version was set.
+[LibXML]     ok 9 - Standalone was set.
+[LibXML]     ok 10 - URI is set.
+[LibXML]     ok 11 - doc2 encoding was set.
+[LibXML]     ok 12 - doc2 version was set.
+[LibXML]     ok 13 - doc2 standalone
+[LibXML]     1..13
+[LibXML] ok 1 - document attributes
+[LibXML] # Subtest: creating elements
+[LibXML]     # Subtest: document fragments
+[LibXML]         ok 1 - $doc.createDocumentFragment
+[LibXML]         ok 2 - document fragment type
+[LibXML]         1..2
+[LibXML]     ok 1 - document fragments
+[LibXML]     ok 2 - Simple Element - node was initialised
+[LibXML]     ok 3 - Simple Element - node is an element node
+[LibXML]     ok 4 - Simple Element - node has the right name.
+[LibXML]     # Subtest: document with encoding
+[LibXML]         ok 1 - Encdoc Element creation - node was initialised
+[LibXML]         ok 2 - Encdoc Element creation - node is an element node
+[LibXML]         ok 3 - Encdoc Element creation - node has the right name.
+[LibXML]         ok 4 - Encdoc element creation based on node_def->{name} - node was initialised
+[LibXML]         ok 5 - Encdoc element creation based on node_def->{name} - node is an element node
+[LibXML]         ok 6 - Encdoc element creation based on node_def->{name} - node has the right name.
+[LibXML]         1..6
+[LibXML]     ok 5 - document with encoding
+[LibXML]     # Subtest: namespaced elements
+[LibXML]         ok 1 - Node namespace
+[LibXML]         ok 2 - $doc.createElement
+[LibXML]         ok 3 - $node.nodeType
+[LibXML]         ok 4 - $node.nodeName
+[LibXML]         ok 5 - $node.prefix
+[LibXML]         ok 6 - $node.localname
+[LibXML]         ok 7 - $node.namespaceURI
+[LibXML]         1..7
+[LibXML]     ok 6 - namespaced elements
+[LibXML]     # Subtest: bad element creation
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         1..5
+[LibXML]     ok 7 - bad element creation
+[LibXML]     # Subtest: text nodes
+[LibXML]         ok 1 - text Str
+[LibXML]         ok 2 - text node type
+[LibXML]         ok 3 - text node value
+[LibXML]         1..3
+[LibXML]     ok 8 - text nodes
+[LibXML]     # Subtest: comments
+[LibXML]         ok 1 - comment Str
+[LibXML]         ok 2 - comment node type
+[LibXML]         ok 3 - comment node value
+[LibXML]         ok 4 - Comment node string
+[LibXML]         1..4
+[LibXML]     ok 9 - comments
+[LibXML]     # Subtest: cdata
+[LibXML]         ok 1 - CDATA node type
+[LibXML]         ok 2 - CDATA node value
+[LibXML]         ok 3 - CDATA node string
+[LibXML]         1..3
+[LibXML]     ok 10 - cdata
+[LibXML]     # Subtest: attributes
+[LibXML]         ok 1 - attr Str
+[LibXML]         ok 2 - attr nodeType
+[LibXML]         ok 3 - attr name
+[LibXML]         ok 4 - attr value
+[LibXML]         ok 5 - att hasChildNodes
+[LibXML]         ok 6 - attr content Str
+[LibXML]         ok 7 - attribute content is a text node
+[LibXML]         1..7
+[LibXML]     ok 11 - attributes
+[LibXML]     # Subtest: bad attributes
+[LibXML]         ok 1 - badd att name: ;
+[LibXML]         ok 2 - badd att name: &
+[LibXML]         ok 3 - badd att name: <><
+[LibXML]         ok 4 - badd att name: /
+[LibXML]         ok 5 - badd att name: 1A
+[LibXML]         1..5
+[LibXML]     ok 12 - bad attributes
+[LibXML]     # Subtest: element attributes
+[LibXML]         ok 1 - Elem with attribute added
+[LibXML]         ok 2 - Elem replace attributes
+[LibXML]         1..2
+[LibXML]     ok 13 - element attributes
+[LibXML]     # Subtest: attributes with namespaces
+[LibXML]         ok 1 - $doc.createAttributeNS without root element - dies
+[LibXML]         ok 2 - $doc.createAttributeNS
+[LibXML]         ok 3 - $doc.createAttributeNS nodeName
+[LibXML]         ok 4 - attr ns name
+[LibXML]         ok 5 - attr ns value
+[LibXML]         ok 6 - attr ns value updated
+[LibXML]         ok 7 - Can use attribute created before document root
+[LibXML]         1..7
+[LibXML]     ok 14 - attributes with namespaces
+[LibXML]     # Subtest: good attribute creation
+[LibXML]         ok 1 - createAttributeNS with good name
+[LibXML]         ok 2 - createAttributeNS with good name
+[LibXML]         1..2
+[LibXML]     ok 15 - good attribute creation
+[LibXML]     # Subtest: bad attribute creation
+[LibXML]         ok 1 - createAttributeNS with bad name
+[LibXML]         ok 2 - createAttributeNS with bad name
+[LibXML]         ok 3 - createAttributeNS with bad name
+[LibXML]         ok 4 - createAttributeNS with bad name
+[LibXML]         ok 5 - createAttributeNS with bad name
+[LibXML]         1..5
+[LibXML]     ok 16 - bad attribute creation
+[LibXML]     # Subtest: create PI, two arguments
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - PI nodeType
+[LibXML]         ok 3 - PI nodeName
+[LibXML]         ok 4 - PI target
+[LibXML]         ok 5 - PI ast-key
+[LibXML]         ok 6 - PI xpath-key
+[LibXML]         ok 7 - PI string-value
+[LibXML]         ok 8 - PI content
+[LibXML]         ok 9 - PI data
+[LibXML]         1..9
+[LibXML]     ok 17 - create PI, two arguments
+[LibXML]     # Subtest: create PI, single argument
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - PI nodeType
+[LibXML]         ok 3 - PI nodeName
+[LibXML]         ok 4 - PI content (empty)
+[LibXML]         ok 5 - PI string-value (empty)
+[LibXML]         ok 6 - PI content updated
+[LibXML]         ok 7 - 
+[LibXML]         1..7
+[LibXML]     ok 18 - create PI, single argument
+[LibXML]     1..18
+[LibXML] ok 2 - creating elements
+[LibXML] # Subtest: document manipulation
+[LibXML]     ok 1 - set document element
+[LibXML]     ok 2 - document element preserved
+[LibXML]     ok 3 - Append second document root element - dies
+[LibXML]     ok 4 - Second document root element is isgnored
+[LibXML]     ok 5 - document element preserved
+[LibXML]     ok 6 - Can't insertBefore document root
+[LibXML]     ok 7 - Can't insertBefore document root
+[LibXML]     ok 8 - document element preserved
+[LibXML]     ok 9 - document removeChild of root element
+[LibXML]     ok 10 - addNewChild
+[LibXML]     ok 11 - addNewChild/removeChild
+[LibXML]     ok 12 - Replacement of document root element
+[LibXML]     ok 13 - Replaced root element
+[LibXML]     ok 14 - Replaced root element
+[LibXML]     ok 15 - $doc.createElementNS
+[LibXML]     # Subtest: processing instructions
+[LibXML]         ok 1 - Append processing instruction to document root
+[LibXML]         ok 2 - Appended processing instruction
+[LibXML]         not ok 3 - Append Pair as processing instruction # TODO check test valid?
+[LibXML]         # Failed test 'Append Pair as processing instruction'
+[LibXML]         # at t/03doc.t line 367
+[LibXML]         # expected: 'foo="foo"'
+[LibXML]         #      got: 'foo	foo'
+[LibXML]         1..3
+[LibXML]     ok 16 - processing instructions
+[LibXML]     1..16
+[LibXML] ok 3 - document manipulation
+[LibXML] # Subtest: document storing
+[LibXML]     ok 1 - string parse sanity
+[LibXML]     # Subtest: to file handle
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         1..5
+[LibXML]     ok 2 - to file handle
+[LibXML]     # Subtest: to named file
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         1..3
+[LibXML]     ok 3 - to named file
+[LibXML]     # Subtest: element like functions
+[LibXML]         ok 1 - 3 As
+[LibXML]         ok 2 - 5 elements of all names
+[LibXML]         ok 3 - 2 Bs of any namespace
+[LibXML]         ok 4 - 3 A's
+[LibXML]         ok 5 - 5 Sub-elements
+[LibXML]         ok 6 - C:A count
+[LibXML]         ok 7 - 3 elements of namespace xml://D and A
+[LibXML]         ok 8 - 3 Elements A of any namespace
+[LibXML]         ok 9 - 3 As
+[LibXML]         ok 10 - 3 Elements A of any namespace
+[LibXML]         ok 11 - 3 As
+[LibXML]         ok 12 - 3 C:As
+[LibXML]         ok 13 - 3 As
+[LibXML]         ok 14 - 4 Elements of A of any namespace
+[LibXML]         ok 15 - 4 Elements of any namespace
+[LibXML]         ok 16 - 2 elements of any name in D
+[LibXML]         ok 17 - 1 A
+[LibXML]         ok 18 - C:A
+[LibXML]         ok 19 - No C:B children
+[LibXML]         ok 20 - 2 Children in $A in total
+[LibXML]         ok 21 - 2 As of any namespace
+[LibXML]         ok 22 - 1 Child of D
+[LibXML]         ok 23 - 2 Children in total
+[LibXML]         ok 24 - 2 As
+[LibXML]         1..24
+[LibXML]     ok 4 - element like functions
+[LibXML]     1..4
+[LibXML] ok 4 - document storing
+[LibXML] # Subtest: Nil-ing nodes
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     1..5
+[LibXML] ok 5 - Nil-ing nodes
+[LibXML] # Subtest: Nil-ing encoding
+[LibXML]     ok 1 - Document encoding
+[LibXML]     ok 2 - Document encoding cleared
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 6 - Nil-ing encoding
+[LibXML] # Subtest: various encodings
+[LibXML]     ok 1 - UTF-16LE encoding
+[LibXML]     ok 2 - UTF-16LE encoding getAttribute
+[LibXML]     ok 3 - UTF-16LE node value
+[LibXML]     ok 4 - UTF-16LE .Str method
+[LibXML]     ok 5 - Blob UTF-16LE start bytes
+[LibXML]     ok 6 - UTF-16LE blob round-trip
+[LibXML]     ok 7 - UTF-16BE encoding
+[LibXML]     ok 8 - UTF-16BE encoding getAttribute
+[LibXML]     ok 9 - UTF-16BE node value
+[LibXML]     ok 10 - UTF-16BE .Str method
+[LibXML]     ok 11 - Blob UTF-16BE start bytes
+[LibXML]     ok 12 - UTF-16BE blob round-trip
+[LibXML]     ok 13 - UTF-16 encoding
+[LibXML]     ok 14 - UTF-16 encoding getAttribute
+[LibXML]     ok 15 - UTF-16 node value
+[LibXML]     ok 16 - UTF-16 .Str method
+[LibXML]     ok 17 - Blob UTF-16 start bytes
+[LibXML]     ok 18 - UTF-16 blob round-trip
+[LibXML]     ok 19 - ISO-8859-1 encoding
+[LibXML]     ok 20 - ISO-8859-1 encoding getAttribute
+[LibXML]     ok 21 - ISO-8859-1 node value
+[LibXML]     ok 22 - ISO-8859-1 .Str method
+[LibXML]     ok 23 - Blob ISO-8859-1 start bytes
+[LibXML]     ok 24 - ISO-8859-1 blob round-trip
+[LibXML]     1..24
+[LibXML] ok 7 - various encodings
+[LibXML] # Subtest: compress
+[LibXML]     1..3
+[LibXML]     ok 1 - load compressed document
+[LibXML]     ok 2 - set document compression
+[LibXML]     ok 3 - reload compressed document
+[LibXML] ok 8 - compress
+[LibXML] # Subtest: issue#37 - standalone mixup
+[LibXML]     1..3
+[LibXML]     ok 1 - standalone=XmlStandaloneYes; declaration contains standalone="yes"
+[LibXML]     ok 2 - standalone=XmlStandaloneNo; declaration contains standalone="no"
+[LibXML]     ok 3 - standalone=XmlStandaloneMu; declaration lacks standalone
+[LibXML] ok 9 - issue \#37 - standalone mixup
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/04node.t
+[LibXML] 1..11
+[LibXML] # Subtest: Standalone Without NameSpaces
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     # Subtest: node attributes
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         ok 10 - 
+[LibXML]         ok 11 - 
+[LibXML]         ok 12 - 
+[LibXML]         ok 13 - 
+[LibXML]         ok 14 - 
+[LibXML]         ok 15 - 
+[LibXML]         ok 16 - 
+[LibXML]         ok 17 - 
+[LibXML]         ok 18 - 
+[LibXML]         # Subtest: attribute node
+[LibXML]             ok 1 - hasAttributes
+[LibXML]             ok 2 - got attributes
+[LibXML]             ok 3 - 
+[LibXML]             ok 4 - 
+[LibXML]             ok 5 - 
+[LibXML]             ok 6 - 
+[LibXML]             ok 7 - 
+[LibXML]             ok 8 - hasChildNodes
+[LibXML]             ok 9 - 
+[LibXML]             ok 10 - 
+[LibXML]             ok 11 - 
+[LibXML]             ok 12 - 
+[LibXML]             ok 13 - hasChildNodes
+[LibXML]             ok 14 - 
+[LibXML]             ok 15 - 
+[LibXML]             ok 16 - 
+[LibXML]             1..16
+[LibXML]         ok 19 - attribute node
+[LibXML]         # Subtest: node cloning
+[LibXML]             ok 1 - 
+[LibXML]             ok 2 - 
+[LibXML]             ok 3 - 
+[LibXML]             ok 4 - 
+[LibXML]             ok 5 - 
+[LibXML]             ok 6 - 
+[LibXML]             ok 7 - 
+[LibXML]             ok 8 - 
+[LibXML]             ok 9 - hasChildNodes
+[LibXML]             ok 10 - 
+[LibXML]             ok 11 - 
+[LibXML]             ok 12 - childNodes
+[LibXML]             ok 13 - childNodes
+[LibXML]             ok 14 - first child node
+[LibXML]             ok 15 - 
+[LibXML]             ok 16 - 
+[LibXML]             ok 17 - 
+[LibXML]             ok 18 - 
+[LibXML]             ok 19 - 
+[LibXML]             1..19
+[LibXML]         ok 20 - node cloning
+[LibXML]         # Subtest: node value
+[LibXML]             ok 1 - 
+[LibXML]             ok 2 - 
+[LibXML]             1..2
+[LibXML]         ok 21 - node value
+[LibXML]         1..21
+[LibXML]     ok 7 - node attributes
+[LibXML]     # Subtest: node children
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         1..6
+[LibXML]     ok 8 - node children
+[LibXML]     # Subtest: (Child) Node Manipulation
+[LibXML]         # Subtest: valid operations
+[LibXML]             ok 1 - 
+[LibXML]             ok 2 - iterator
+[LibXML]             ok 3 - iterator
+[LibXML]             ok 4 - 
+[LibXML]             ok 5 - 
+[LibXML]             ok 6 - 
+[LibXML]             ok 7 - 
+[LibXML]             ok 8 - 
+[LibXML]             ok 9 - 
+[LibXML]             ok 10 - 
+[LibXML]             ok 11 - 
+[LibXML]             ok 12 - 
+[LibXML]             ok 13 - 
+[LibXML]             ok 14 - 
+[LibXML]             ok 15 - 
+[LibXML]             ok 16 - 
+[LibXML]             1..16
+[LibXML]         ok 1 - valid operations
+[LibXML]         1..1
+[LibXML]     ok 9 - (Child) Node Manipulation
+[LibXML]     # Subtest: insertAfter
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         1..3
+[LibXML]     ok 10 - insertAfter
+[LibXML]     # Subtest: createElement
+[LibXML]         ok 1 - 
+[LibXML]         1..1
+[LibXML]     ok 11 - createElement
+[LibXML]     # Subtest: document fragment
+[LibXML]         ok 1 - nodeType
+[LibXML]         ok 2 - frag
+[LibXML]         ok 3 - owner is fragment
+[LibXML]         ok 4 - ownerDocument
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         ok 10 - 
+[LibXML]         ok 11 - 
+[LibXML]         ok 12 - 
+[LibXML]         ok 13 - 
+[LibXML]         ok 14 - 
+[LibXML]         1..14
+[LibXML]     ok 12 - document fragment
+[LibXML]     # Subtest: DOM extensions
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - hasChildNodes
+[LibXML]         ok 3 - removed child nodes
+[LibXML]         ok 4 - removed child nodes
+[LibXML]         ok 5 - hasChildNodes after removal
+[LibXML]         1..5
+[LibXML]     ok 13 - DOM extensions
+[LibXML]     1..13
+[LibXML] ok 1 - Standalone Without NameSpaces
+[LibXML] # Subtest: Standalone With NameSpaces
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     1..7
+[LibXML] ok 2 - Standalone With NameSpaces
+[LibXML] # Subtest: Document Switching
+[LibXML]     # Subtest: simple document
+[LibXML]         1..0
+[LibXML]     ok 1 - simple document
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 3 - Document Switching
+[LibXML] # Subtest: libxml2 specials
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     1..7
+[LibXML] ok 4 - libxml2 specials
+[LibXML] # Subtest: implicit attribute manipulation
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - node attributes
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     1..11
+[LibXML] ok 5 - implicit attribute manipulation
+[LibXML] # Subtest: importing and adopting
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - have owner document
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - setOwnerDocument
+[LibXML]     ok 15 - setOwnerDocument
+[LibXML]     1..15
+[LibXML] ok 6 - importing and adopting
+[LibXML] # Subtest: appending empty fragment
+[LibXML]     ok 1 - append empty fragment
+[LibXML]     1..1
+[LibXML] ok 7 - appending empty fragment
+[LibXML] # Subtest: self append
+[LibXML]     ok 1 - self appendChild dies
+[LibXML]     1..1
+[LibXML] ok 8 - self append
+[LibXML] # Subtest: entity reference
+[LibXML]     ok 1 - createEntityReference
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 9 - entity reference
+[LibXML] # Subtest: child accessors
+[LibXML]     ok 1 - ast-key
+[LibXML]     ok 2 - xpath-key
+[LibXML]     ok 3 - nodeName
+[LibXML]     ok 4 - *.isBlank
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - first blank child
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - .isBlank() on  non-blank node
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     ok 19 - 
+[LibXML]     ok 20 - 
+[LibXML]     ok 21 - 
+[LibXML]     ok 22 - 
+[LibXML]     ok 23 - 
+[LibXML]     ok 24 - 
+[LibXML]     ok 25 - 
+[LibXML]     ok 26 - 
+[LibXML]     ok 27 - 
+[LibXML]     ok 28 - 
+[LibXML]     ok 29 - 
+[LibXML]     ok 30 - 
+[LibXML]     ok 31 - 
+[LibXML]     ok 32 - 
+[LibXML]     ok 33 - 
+[LibXML]     ok 34 - 
+[LibXML]     ok 35 - 
+[LibXML]     ok 36 - 
+[LibXML]     ok 37 - 
+[LibXML]     1..37
+[LibXML] ok 10 - child accessors
+[LibXML] # Subtest: Perl #94149
+[LibXML]     ok 1 - merge text nodes with addSibling
+[LibXML]     1..1
+[LibXML] ok 11 - Perl  \#94149
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/05text.t
+[LibXML] 1..13
+[LibXML] # Subtest: creation
+[LibXML]     ok 1 - creation 1
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - Attributes NO-OP on text nodes
+[LibXML]     ok 5 - 
+[LibXML]     1..5
+[LibXML] ok 1 - creation
+[LibXML] # Subtest: substring
+[LibXML]     ok 1 - substring 1
+[LibXML]     ok 2 - substring 2
+[LibXML]     ok 3 - substring - text node unchanged
+[LibXML]     1..3
+[LibXML] ok 2 - substring
+[LibXML] # Subtest: expansion
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - Empty insertion does not change value
+[LibXML]     1..4
+[LibXML] ok 3 - expansion
+[LibXML] # Subtest: removal
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 4 - removal
+[LibXML] # Subtest: replacement
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 5 - replacement
+[LibXML] # Subtest: LibXML features
+[LibXML]     ok 1 - replaceDataString() 1
+[LibXML]     ok 2 - replaceDataRegEx() 2
+[LibXML]     ok 3 - replaceDataRegEx 3
+[LibXML]     ok 4 - replaceDataRegEx g
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     1..10
+[LibXML] ok 6 - LibXML features
+[LibXML] # Subtest: utf8 tests
+[LibXML]     # Subtest: creation
+[LibXML]         ok 1 - UTF-8 creation 1
+[LibXML]         ok 2 - UTF-8 creation 2
+[LibXML]         ok 3 - UTF-8 creation 3
+[LibXML]         ok 4 - UTF-8 creation 4
+[LibXML]         1..4
+[LibXML]     ok 1 - creation
+[LibXML]     # Subtest: substring
+[LibXML]         ok 1 - UTF-8 substring 1
+[LibXML]         ok 2 - UTF-8 substring 2
+[LibXML]         1..2
+[LibXML]     ok 2 - substring
+[LibXML]     # Subtest: expansion
+[LibXML]         ok 1 - UTF-8 expansion 1
+[LibXML]         ok 2 - UTF-8 expansion 2
+[LibXML]         ok 3 - UTF-8 expansion 3
+[LibXML]         1..3
+[LibXML]     ok 3 - expansion
+[LibXML]     # Subtest: removal
+[LibXML]         ok 1 - UTF-8 Removal 1
+[LibXML]         ok 2 - UTF-8 Removal 2
+[LibXML]         ok 3 - UTF-8 Removal 3
+[LibXML]         1..3
+[LibXML]     ok 4 - removal
+[LibXML]     # Subtest: replacement
+[LibXML]         ok 1 - UTF-8 Replacement 1
+[LibXML]         ok 2 - UTF-8 Replacement 2
+[LibXML]         ok 3 - UTF-8 Replacement 3
+[LibXML]         1..3
+[LibXML]     ok 5 - replacement
+[LibXML]     # Subtest: LibXML features
+[LibXML]         ok 1 - UTF-8 replaceData() 1
+[LibXML]         ok 2 - UTF-8 replaceDataRegEx() 2
+[LibXML]         ok 3 - UTF-8 replaceDataRegEx 3
+[LibXML]         ok 4 - UTF-8 replaceDataRegEx g
+[LibXML]         ok 5 - UTF-8 deleteDataString 1
+[LibXML]         ok 6 - UTF-8 deleteDataString 2
+[LibXML]         1..6
+[LibXML]     ok 6 - LibXML features
+[LibXML]     1..6
+[LibXML] ok 7 - utf8 tests
+[LibXML] # Subtest: standalone
+[LibXML]     ok 1 -  TODO : Add test name
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 8 - standalone
+[LibXML] # Subtest: cdata
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     1..7
+[LibXML] ok 9 - cdata
+[LibXML] # Subtest: comments
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 10 - comments
+[LibXML] # Subtest: document node name
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 11 - document node name
+[LibXML] # Subtest: document fragment
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 12 - document fragment
+[LibXML] # Subtest: splitText
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 13 - splitText
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/06elements.t
+[LibXML] 1..10
+[LibXML] # Subtest: bound node
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - setNodeName throws an exception for 1A
+[LibXML]     ok 3 - setNodeName throws an exception for <><
+[LibXML]     ok 4 - setNodeName throws an exception for &
+[LibXML]     ok 5 - setNodeName throws an exception for -:
+[LibXML]     # Subtest: attributes
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         ok 10 - 
+[LibXML]         ok 11 - 
+[LibXML]         ok 12 - 
+[LibXML]         ok 13 - 
+[LibXML]         ok 14 - 
+[LibXML]         ok 15 - 
+[LibXML]         ok 16 - 
+[LibXML]         ok 17 - 
+[LibXML]         ok 18 - 
+[LibXML]         ok 19 - setAttribute throws an exception for '1A'
+[LibXML]         ok 20 - setAttribute throws an exception for '<><'
+[LibXML]         ok 21 - setAttribute throws an exception for '&'
+[LibXML]         ok 22 - setAttribute throws an exception for '-:'
+[LibXML]         1..22
+[LibXML]     ok 6 - attributes
+[LibXML]     # Subtest: namespace attributes
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         1..8
+[LibXML]     ok 7 - namespace attributes
+[LibXML]     # Subtest: empty NS
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - namespaceURI N/A is not defined
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - True
+[LibXML]         ok 10 - 
+[LibXML]         ok 11 - 
+[LibXML]         1..11
+[LibXML]     ok 8 - empty NS
+[LibXML]     # Subtest: node based functions
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - setAttributeNS throws an exception for '1A'
+[LibXML]         ok 6 - setAttributeNS throws an exception for '<><'
+[LibXML]         ok 7 - setAttributeNS throws an exception for '&'
+[LibXML]         ok 8 - setAttributeNS throws an exception for '-:'
+[LibXML]         1..8
+[LibXML]     ok 9 - node based functions
+[LibXML]     1..9
+[LibXML] ok 1 - bound node
+[LibXML] # Subtest: unbound node
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     1..12
+[LibXML] ok 2 - unbound node
+[LibXML] # Subtest: namespace switching
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 3 - namespace switching
+[LibXML] # Subtest: default Namespace and Attributes
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 4 - default Namespace and Attributes
+[LibXML] # Subtest: Normalization on an Element node
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 5 - Normalization on an Element node
+[LibXML] # Subtest: Normalization on a Document node
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 6 - Normalization on a Document node
+[LibXML] # Subtest: LibXML extensions
+[LibXML]     ok 1 - appendText, initial
+[LibXML]     ok 2 - appendText, again
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     1..10
+[LibXML] ok 7 - LibXML extensions
+[LibXML] # Subtest: LibXML::Attr nodes
+[LibXML]     ok 1 - 
+[LibXML]     # Subtest: getAttributeNode
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         1..4
+[LibXML]     ok 2 - getAttributeNode
+[LibXML]     # Subtest: getAttributeNodeNS
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         1..2
+[LibXML]     ok 3 - getAttributeNodeNS
+[LibXML]     # Subtest: fixed values are defined...
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - ns_fixed is ns_foo
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         1..6
+[LibXML]     ok 4 - fixed values are defined...
+[LibXML]     # Subtest: but no attribute nodes correspond to them
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         ok 10 - 
+[LibXML]         1..10
+[LibXML]     ok 5 - but no attribute nodes correspond to them
+[LibXML]     ok 6 - 
+[LibXML]     # Subtest: getAttributeNode
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         1..4
+[LibXML]     ok 7 - getAttributeNode
+[LibXML]     # Subtest: getAttributeNodeNS
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         1..2
+[LibXML]     ok 8 - getAttributeNodeNS
+[LibXML]     # Subtest: fixed values are defined...
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - ns_fixed is ns_foo
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         1..6
+[LibXML]     ok 9 - fixed values are defined...
+[LibXML]     # Subtest: but no attribute nodes correspond to them
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         ok 10 - 
+[LibXML]         1..10
+[LibXML]     ok 10 - but no attribute nodes correspond to them
+[LibXML]     ok 11 - Could parse document nons
+[LibXML]     # Subtest: nons getAttributeNode
+[LibXML]         ok 1 - attr owner element is root - nons
+[LibXML]         ok 2 - attr value is OK - nons
+[LibXML]         ok 3 - serializeContent - nons
+[LibXML]         ok 4 - toString - nons
+[LibXML]         1..4
+[LibXML]     ok 12 - nons getAttributeNode
+[LibXML]     # Subtest: nons fixed values are defined...
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         1..3
+[LibXML]     ok 13 - nons fixed values are defined...
+[LibXML]     # Subtest: and nons attribute nodes are created
+[LibXML]         ok 1 - 
+[LibXML]         1..1
+[LibXML]     ok 14 - and nons attribute nodes are created
+[LibXML]     # Subtest: getAttributeNode
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         1..4
+[LibXML]     ok 15 - getAttributeNode
+[LibXML]     # Subtest: getAttributeNodeNS
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         1..6
+[LibXML]     ok 16 - getAttributeNodeNS
+[LibXML]     ok 17 - Could parse document ns
+[LibXML]     # Subtest: ns getAttributeNode
+[LibXML]         ok 1 - attr owner element is root - ns
+[LibXML]         ok 2 - attr value is OK - ns
+[LibXML]         ok 3 - serializeContent - ns
+[LibXML]         ok 4 - toString - ns
+[LibXML]         1..4
+[LibXML]     ok 18 - ns getAttributeNode
+[LibXML]     # Subtest: ns fixed values are defined...
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         1..3
+[LibXML]     ok 19 - ns fixed values are defined...
+[LibXML]     # Subtest: and ns attribute nodes are created
+[LibXML]         ok 1 - 
+[LibXML]         1..1
+[LibXML]     ok 20 - and ns attribute nodes are created
+[LibXML]     # Subtest: getAttributeNode
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         1..4
+[LibXML]     ok 21 - getAttributeNode
+[LibXML]     # Subtest: getAttributeNodeNS
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         1..6
+[LibXML]     ok 22 - getAttributeNodeNS
+[LibXML]     1..22
+[LibXML] ok 8 - LibXML::Attr nodes
+[LibXML] # Subtest: Entity Reference construction
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     1..5
+[LibXML] ok 9 - Entity Reference construction
+[LibXML] # Subtest: issue #41 Traversion order
+[LibXML]     1..6
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - first element
+[LibXML]     ok 3 - second element
+[LibXML]     ok 4 - third element
+[LibXML]     ok 5 - fourth element
+[LibXML]     ok 6 - the fifth element
+[LibXML] ok 10 - issue  \#41 Traversion order
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/07dtd.t
+[LibXML] 1..9
+[LibXML] # Subtest: internalSubset
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - is-XHTML
+[LibXML]     1..5
+[LibXML] ok 1 - internalSubset
+[LibXML] # Subtest: externalSubset
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - setExternalSubset :validate
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - setExternalSubset
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     1..18
+[LibXML] ok 2 - externalSubset
+[LibXML] # Subtest: doc with internal subset
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - isn't XHTML
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - The object is-a '"LibXML::Dtd::Entity"'
+[LibXML]     ok 12 - The object is-a 'LibXML::Dtd'
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - got dtd entity
+[LibXML]     ok 17 - entity decl node type
+[LibXML]     ok 18 - entity decl name
+[LibXML]     ok 19 - entity decl type
+[LibXML]     ok 20 - entity reference checks out
+[LibXML]     ok 21 - get on unknown entity
+[LibXML]     ok 22 - got predefined entity
+[LibXML]     ok 23 - predefined entity node type
+[LibXML]     ok 24 - predefined entity entity-type
+[LibXML]     ok 25 - predefined entity reference nodeType
+[LibXML]     ok 26 - predefined entity reference entity-type
+[LibXML]     ok 27 - 
+[LibXML]     ok 28 - 
+[LibXML]     1..28
+[LibXML] ok 3 - doc with internal subset
+[LibXML] # Subtest: basic DtD validation
+[LibXML]     ok 1 - validate()
+[LibXML]     ok 2 - is-valid()
+[LibXML]     ok 3 - is-valid($root)
+[LibXML]     ok 4 - is-valid($dtd)
+[LibXML]     ok 5 - is-valid($elem)
+[LibXML]     ok 6 - !is-valid($elem)
+[LibXML]     ok 7 - is-XHTML
+[LibXML]     1..7
+[LibXML] ok 4 - basic DtD validation
+[LibXML] # Subtest: XHTML external subset
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - is-XHTML
+[LibXML]     1..3
+[LibXML] ok 5 - XHTML external subset
+[LibXML] # Subtest: bad Dtd parse
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - Parse fails for bad.dtd
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 6 - bad Dtd parse
+[LibXML] # Subtest: Dtd DOM
+[LibXML]     ok 1 - hasAttributes
+[LibXML]     ok 2 - attributes NO-OP on DTD nodes
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - ATTLIST without ELEMENT
+[LibXML]     ok 5 - keys
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - gist
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     ok 19 - 
+[LibXML]     ok 20 - 
+[LibXML]     1..20
+[LibXML] ok 7 - Dtd DOM
+[LibXML] # Subtest: remove Dtd Nodes
+[LibXML]     ok 1 - remove DTD via unbindNode
+[LibXML]     ok 2 - remove DTD via removeChild
+[LibXML]     ok 3 - remove DTD via removeChildNodes
+[LibXML]     1..3
+[LibXML] ok 8 - remove Dtd Nodes
+[LibXML] # Subtest: insert DTD nodes
+[LibXML]     ok 1 - insert DTD via insertBefore internalSubset
+[LibXML]     ok 2 - insert DTD via insertBefore documentElement
+[LibXML]     ok 3 - insert DTD via insertAfter internalSubset
+[LibXML]     ok 4 - insert DTD via insertAfter documentElement
+[LibXML]     ok 5 - insert DTD via replaceChild internalSubset
+[LibXML]     ok 6 - insert DTD via replaceChild documentElement
+[LibXML]     ok 7 - insert DTD via replaceNode internalSubset
+[LibXML]     ok 8 - insert DTD via replaceNode documentElement
+[LibXML]     ok 9 - insert DTD via appendChild
+[LibXML]     ok 10 - insert DTD via addSibling internalSubset
+[LibXML]     ok 11 - insert DTD via addSibling documentElement
+[LibXML]     1..11
+[LibXML] ok 9 - insert DTD nodes
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/08findnodes.t
+[LibXML] 1..14
+[LibXML] # Subtest: findnodes basic
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - case sensitivity
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - .ACCEPTS()
+[LibXML]     ok 6 - .ACCEPTS()
+[LibXML]     ok 7 - .ACCEPTS()
+[LibXML]     ok 8 - absolute path on relative node
+[LibXML]     ok 9 - self path on relative name
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - Attribute selection
+[LibXML]     ok 15 - Attribute selection
+[LibXML]     ok 16 - getData
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     ok 19 - 
+[LibXML]     ok 20 - 
+[LibXML]     ok 21 - 
+[LibXML]     ok 22 - 
+[LibXML]     ok 23 - 
+[LibXML]     ok 24 - 
+[LibXML]     ok 25 - 
+[LibXML]     ok 26 - 
+[LibXML]     ok 27 - 
+[LibXML]     ok 28 -  TODO : Add test name
+[LibXML]     1..28
+[LibXML] ok 1 - findnodes basic
+[LibXML] ok 2 - 
+[LibXML] ok 3 - 
+[LibXML] ok 4 - 
+[LibXML] ok 5 - 
+[LibXML] # Subtest: ns findnodes
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     1..9
+[LibXML] ok 6 - ns findnodes
+[LibXML] ok 7 - 
+[LibXML] ok 8 - empty result
+[LibXML] ok 9 - Find namespace nodes
+[LibXML] # Subtest: bad xpaths
+[LibXML]     ok 1 - findnodes('abc:::def'); - dies
+[LibXML]     ok 2 - find('abc:::def'); - dies
+[LibXML]     ok 3 - findvalue('abc:::def'); - dies
+[LibXML]     ok 4 - findnodes('foo///bar'); - dies
+[LibXML]     ok 5 - find('foo///bar'); - dies
+[LibXML]     ok 6 - findvalue('foo///bar'); - dies
+[LibXML]     ok 7 - findnodes('...'); - dies
+[LibXML]     ok 8 - find('...'); - dies
+[LibXML]     ok 9 - findvalue('...'); - dies
+[LibXML]     ok 10 - findnodes('/-'); - dies
+[LibXML]     ok 11 - find('/-'); - dies
+[LibXML]     ok 12 - findvalue('/-'); - dies
+[LibXML]     1..12
+[LibXML] ok 10 - bad xpaths
+[LibXML] # Subtest: dom interaction
+[LibXML]     ok 1 -  TODO : Add test name
+[LibXML]     ok 2 -  TODO : Add test name
+[LibXML]     ok 3 -  TODO : Add test name
+[LibXML]     ok 4 -  TODO : Add test name
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 -  TODO : Add test name
+[LibXML]     ok 8 -  TODO : Add test name
+[LibXML]     1..8
+[LibXML] ok 11 - dom interaction
+[LibXML] # Subtest: findnode/unbindNode
+[LibXML]     ok 1 -  TODO : Add test name
+[LibXML]     ok 2 -  TODO : Add test name
+[LibXML]     ok 3 -  TODO : Add test name
+[LibXML]     1..3
+[LibXML] ok 12 - findnode/unbindNode
+[LibXML] # Subtest: findnode/remove
+[LibXML]     ok 1 -  TODO : Add test name
+[LibXML]     ok 2 - findnode/remove
+[LibXML]     1..2
+[LibXML] ok 13 - findnode/remove
+[LibXML] # Subtest: doc.indexElements
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 14 - doc.indexElements
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/09xpath.t
+[LibXML] 1..10
+[LibXML] # Subtest: findnodes
+[LibXML]     ok 1 - Two bar nodes
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - Doc is the same as the owner document.
+[LibXML]     ok 5 - Two nodes for /foo/bar - try No. 1
+[LibXML]     ok 6 - Two nodes for /foo/bar - try No. 2
+[LibXML]     ok 7 - Two nodes for /foo/bar - try No. 3
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - Same owner as previous one
+[LibXML]     ok 11 - Same as document elem
+[LibXML]     ok 12 - Found child nodes
+[LibXML]     1..12
+[LibXML] ok 1 - findnodes
+[LibXML] # Subtest: find
+[LibXML]     ok 1 - # SKIP numeric on nodes
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     ok 19 - 
+[LibXML]     ok 20 - 
+[LibXML]     ok 21 - 
+[LibXML]     1..21
+[LibXML] ok 2 - find
+[LibXML] # Subtest: attribute
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - The object is-a '"LibXML::Attr"'
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 3 - attribute
+[LibXML] # Subtest: removeChild
+[LibXML]     ok 1 - remove from root
+[LibXML]     ok 2 - remove from parent
+[LibXML]     1..2
+[LibXML] ok 4 - removeChild
+[LibXML] # Subtest: find numeric
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - The object is-a '"LibXML::Node::Set"'
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     1..5
+[LibXML] ok 5 - find numeric
+[LibXML] # Subtest: Perl #39178
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 6 - Perl  \#39178
+[LibXML] # Subtest: Perl #36576
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - nodes content is fine.
+[LibXML]     1..2
+[LibXML] ok 7 - Perl  \#36576
+[LibXML] # Subtest: Perl #36576
+[LibXML]     ok 1 - Found one p
+[LibXML]     ok 2 - p content is fine.
+[LibXML]     1..2
+[LibXML] ok 8 - Perl  \#36576
+[LibXML] # Subtest: Perl #69096
+[LibXML]     ok 1 - xpath testing adjacent text nodes
+[LibXML]     1..1
+[LibXML] ok 9 - Perl  \#69096
+[LibXML] # Subtest: #42 root parent from xpath
+[LibXML]     1..2
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML] ok 10 -  \#42 root parent from xpath
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/10ns.t
+[LibXML] 1..12
+[LibXML] # Subtest: single namespace
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 1 - single namespace
+[LibXML] # Subtest: multiple namespaces
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - namespace URI accessor
+[LibXML]     ok 8 - namespace localname accessor
+[LibXML]     ok 9 - namespace name accessor
+[LibXML]     ok 10 - namespace prefix accessor
+[LibXML]     ok 11 - namespace declaredPrefix accessor
+[LibXML]     ok 12 - namespace type accessor
+[LibXML]     ok 13 - namespace Str accessor
+[LibXML]     ok 14 - namespace unique-key accessor
+[LibXML]     ok 15 - namespace URI accessor
+[LibXML]     ok 16 - namespace localname accessor
+[LibXML]     ok 17 - namespace name accessor
+[LibXML]     ok 18 - namespace prefix accessor
+[LibXML]     ok 19 - namespace declaredPrefix accessor
+[LibXML]     ok 20 - namespace type accessor
+[LibXML]     ok 21 - namespace Str accessor
+[LibXML]     ok 22 - namespace unique-key accessor
+[LibXML]     ok 23 - $elem.namespaces.pull-one
+[LibXML]     1..23
+[LibXML] ok 2 - multiple namespaces
+[LibXML] # Subtest: nested names
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 3 - nested names
+[LibXML] # Subtest: post creation namespace setting
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 4 - post creation namespace setting
+[LibXML] # Subtest: importing namespaces
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     1..5
+[LibXML] ok 5 - importing namespaces
+[LibXML] # Subtest: lossless setting of namespaces with setAttribute
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 6 - lossless setting of namespaces with setAttribute
+[LibXML] # Subtest: namespaced attributes
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     1..10
+[LibXML] ok 7 - namespaced attributes
+[LibXML] # Subtest: Namespace Declarations
+[LibXML]     # Subtest: get namespace
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         1..5
+[LibXML]     ok 1 - get namespace
+[LibXML]     # Subtest: changing namespace
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         1..4
+[LibXML]     ok 2 - changing namespace
+[LibXML]     # Subtest: changing default namespace
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         1..3
+[LibXML]     ok 3 - changing default namespace
+[LibXML]     # Subtest: non-existent namespaces
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         1..3
+[LibXML]     ok 4 - non-existent namespaces
+[LibXML]     # Subtest: changing namespace declaration URI and prefix
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - prefix occupied
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         ok 10 - 
+[LibXML]         ok 11 - 
+[LibXML]         1..11
+[LibXML]     ok 5 - changing namespace declaration URI and prefix
+[LibXML]     # Subtest: changing the default namespace declaration
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         1..3
+[LibXML]     ok 6 - changing the default namespace declaration
+[LibXML]     # Subtest: changing prefix of the default ns declaration
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         1..5
+[LibXML]     ok 7 - changing prefix of the default ns declaration
+[LibXML]     # Subtest: turning a ns declaration to a default ns declaration
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         1..6
+[LibXML]     ok 8 - turning a ns declaration to a default ns declaration
+[LibXML]     # Subtest: removing the default ns declaration
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         1..4
+[LibXML]     ok 9 - removing the default ns declaration
+[LibXML]     # Subtest: namespaced attributes
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         1..5
+[LibXML]     ok 10 - namespaced attributes
+[LibXML]     # Subtest: removing other xmlns declarations
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         1..6
+[LibXML]     ok 11 - removing other xmlns declarations
+[LibXML]     # Subtest: check namespaced attributes
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         ok 10 - 
+[LibXML]         ok 11 - 
+[LibXML]         ok 12 - 
+[LibXML]         ok 13 - 
+[LibXML]         ok 14 - 
+[LibXML]         ok 15 - 
+[LibXML]         ok 16 - 
+[LibXML]         ok 17 - 
+[LibXML]         ok 18 - 
+[LibXML]         ok 19 - 
+[LibXML]         ok 20 - 
+[LibXML]         ok 21 - 
+[LibXML]         ok 22 - 
+[LibXML]         1..22
+[LibXML]     ok 12 - check namespaced attributes
+[LibXML]     1..12
+[LibXML] ok 8 - Namespace Declarations
+[LibXML] # Subtest: clearNamespace
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 9 - clearNamespace
+[LibXML] # Subtest: namespace reconciliation
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     1..15
+[LibXML] ok 10 - namespace reconciliation
+[LibXML] # Subtest: xml namespace
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 11 - xml namespace
+[LibXML] # Subtest: empty namespace
+[LibXML]     ok 1 - removing ns from elemenet
+[LibXML]     ok 2 - ns prefix removed from element
+[LibXML]     ok 3 - ns removed from element
+[LibXML]     ok 4 - ns removed from element name
+[LibXML]     ok 5 - removing ns from attr
+[LibXML]     ok 6 - ns prefix removed from attr
+[LibXML]     ok 7 - ns removed from attr
+[LibXML]     ok 8 - ns removed from attr name
+[LibXML]     1..8
+[LibXML] ok 12 - empty namespace
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/12html.t
+[LibXML] 1..10
+[LibXML] # Subtest: parse :html and :file options
+[LibXML]     ok 1 - HTML, under the hood
+[LibXML]     ok 2 - is HTML
+[LibXML]     ok 3 - isn't XML
+[LibXML]     ok 4 - document properties
+[LibXML]     1..4
+[LibXML] ok 1 - parse :html and :file options
+[LibXML] ok 2 - 
+[LibXML] ok 3 - parse :html and :io options
+[LibXML] # Subtest: html recovery parse
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - case sensitivity on assoc get
+[LibXML]     1..4
+[LibXML] ok 4 - html recovery parse
+[LibXML] # Subtest: html with encodings
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     1..14
+[LibXML] ok 5 - html with encodings
+[LibXML] # Subtest: latin2 encoding
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - # SKIP iso-8859-2 nyi
+[LibXML]     ok 12 - # SKIP iso-8859-2 nyi
+[LibXML]     1..12
+[LibXML] ok 6 - latin2 encoding
+[LibXML] # Subtest: latin2 w/o meta charset
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 7 - latin2 w/o meta charset
+[LibXML] # Subtest: recover
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - XPath
+[LibXML]     1..2
+[LibXML] ok 8 - recover
+[LibXML] # Subtest: parse :def-dtd
+[LibXML]     ok 1 - do not add a default DOCTYPE
+[LibXML]     ok 2 - add a default DOCTYPE
+[LibXML]     1..2
+[LibXML] ok 9 - parse :def-dtd
+[LibXML] # Subtest: case sensitivity
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     1..8
+[LibXML] ok 10 - case sensitivity
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/13dtd.t
+[LibXML] 1..8
+[LibXML] ok 1 - Loaded
+[LibXML] ok 2 - DTD String read
+[LibXML] # Subtest: parse a DTD from a SYSTEM ID
+[LibXML]     ok 1 - DTD String same as new string.
+[LibXML]     1..1
+[LibXML] ok 3 - parse a DTD from a SYSTEM ID
+[LibXML] # Subtest: parse a DTD from a string
+[LibXML]     ok 1 - .parse: :$string
+[LibXML]     1..1
+[LibXML] ok 4 - parse a DTD from a string
+[LibXML] # Subtest: validate with the DTD
+[LibXML]     ok 1 - .parse_string 2
+[LibXML]     ok 2 - parse the article.xml file
+[LibXML]     ok 3 - valid XML file
+[LibXML]     ok 4 - ACCEPTS() on valid document
+[LibXML]     ok 5 - 
+[LibXML]     1..5
+[LibXML] ok 5 - validate with the DTD
+[LibXML] # Subtest: validate a bad document
+[LibXML]     ok 1 - .parse_string 3
+[LibXML]     ok 2 - invalid XML
+[LibXML]     ok 3 - ACCEPTS() on invalid document
+[LibXML]     ok 4 - .validate throws an exception
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - Threw an exception
+[LibXML]     ok 7 - Throw an exception 2
+[LibXML]     1..7
+[LibXML] ok 6 - validate a bad document
+[LibXML] # Subtest: childNodes sanity
+[LibXML]     ok 1 - Two child nodes
+[LibXML]     1..1
+[LibXML] ok 7 - childNodes sanity
+[LibXML] # Subtest: Perl ticket #2021
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - LibXML::Dtd.new working correctly
+[LibXML]     1..2
+[LibXML] ok 8 - Perl ticket  \#2021
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/14sax.t
+[LibXML] 1..8
+[LibXML] # Subtest: callback basic
+[LibXML]     ok 1 - startElement was successful 10 times.
+[LibXML]     ok 2 - startDocument called once.
+[LibXML]     ok 3 - endDocument called once.
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - parse: file(): startElement was successful 10 times.
+[LibXML]     ok 7 - startDocument called once.
+[LibXML]     ok 8 - endDocument called once.
+[LibXML]     ok 9 - parse: :string() : startElement was successful 1 times.
+[LibXML]     ok 10 - startDocument called once.
+[LibXML]     ok 11 - endDocument called once.
+[LibXML]     1..11
+[LibXML] ok 1 - callback basic
+[LibXML] # Subtest: Ns callbacks
+[LibXML]     ok 1 - Three successful SAXNSTester elements.
+[LibXML]     ok 2 - Three successful SAXNSTester start_prefix_mapping.
+[LibXML]     ok 3 - Three successful SAXNSTester end_prefix_mapping.
+[LibXML]     1..3
+[LibXML] ok 2 - Ns callbacks
+[LibXML] # Subtest: callback metrics
+[LibXML]     ok 1 - Check locator positions
+[LibXML]     1..1
+[LibXML] ok 3 - callback metrics
+[LibXML] # Subtest: namespaces, empty
+[LibXML]     ok 1 - LibXML::SAX
+[LibXML]     1..1
+[LibXML] ok 4 - namespaces, empty
+[LibXML] # Subtest: error handling
+[LibXML]     ok 1 - we got an error
+[LibXML]     ok 2 - error handler called
+[LibXML]     ok 3 - we got another error
+[LibXML]     ok 4 - error handler called
+[LibXML]     ok 5 - no errors
+[LibXML]     ok 6 - startElement called
+[LibXML]     ok 7 - startElement completed
+[LibXML]     ok 8 - no internal errors
+[LibXML]     not ok 9 - we got another error # TODO issue #80
+[LibXML]     # Failed test 'we got another error'
+[LibXML]     # at t/14sax.t line 266
+[LibXML]     ok 10 - startElement called
+[LibXML]     ok 11 - startElement not completed
+[LibXML]     ok 12 - error handler not called for internal errors
+[LibXML]     1..12
+[LibXML] ok 5 - error handling
+[LibXML] ok 6 - # SKIP todo: port remaining tests
+[LibXML] ok 7 - # SKIP todo: port remaining tests
+[LibXML] ok 8 - # SKIP todo: port remaining tests
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/15nodelist.t
+[LibXML] 1..16
+[LibXML] # Subtest: from childNodes()
+[LibXML]     ok 1 - item is 0-indexed
+[LibXML]     ok 2 - AT-KEY sanity
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     1..5
+[LibXML] ok 1 - from childNodes()
+[LibXML] # Subtest: from findnodes()
+[LibXML]     ok 1 - node count
+[LibXML]     ok 2 - size()
+[LibXML]     ok 3 - Str()
+[LibXML]     ok 4 - AT-KEY sanity
+[LibXML]     ok 5 - string-value()
+[LibXML]     ok 6 - to-literal()
+[LibXML]     ok 7 - to-literal(:$delimiter)
+[LibXML]     ok 8 - to-literal(:list)
+[LibXML]     ok 9 - findvalue()
+[LibXML]     ok 10 - find --> Bool
+[LibXML]     ok 11 - find --> Str
+[LibXML]     ok 12 - find --> Num
+[LibXML]     ok 13 - find --> LibXML::Node::Set
+[LibXML]     1..13
+[LibXML] ok 2 - from findnodes()
+[LibXML] ok 3 - # SKIP port remaining tests
+[LibXML] ok 4 - # SKIP port remaining tests
+[LibXML] ok 5 - # SKIP port remaining tests
+[LibXML] ok 6 - # SKIP port remaining tests
+[LibXML] ok 7 - # SKIP port remaining tests
+[LibXML] ok 8 - # SKIP port remaining tests
+[LibXML] ok 9 - # SKIP port remaining tests
+[LibXML] ok 10 - # SKIP port remaining tests
+[LibXML] ok 11 - # SKIP port remaining tests
+[LibXML] ok 12 - # SKIP port remaining tests
+[LibXML] ok 13 - # SKIP port remaining tests
+[LibXML] ok 14 - # SKIP port remaining tests
+[LibXML] ok 15 - # SKIP port remaining tests
+[LibXML] ok 16 - # SKIP port remaining tests
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/16docnodes.t
+[LibXML] 1..10
+[LibXML] ok 1 - 1 Child node - time 1
+[LibXML] ok 2 - 1 Child node - time 2
+[LibXML] ok 3 - 1 Child node - time 3
+[LibXML] ok 4 - first child is an Element - time No. 1
+[LibXML] ok 5 - first child is an Element - time No. 2
+[LibXML] ok 6 - first child is an Element - time No. 3
+[LibXML] ok 7 - last child is an element - time No. 1
+[LibXML] ok 8 - last child is an element - time No. 2
+[LibXML] ok 9 - last child is an element - time No. 3
+[LibXML] ok 10 - UTF-8 node serialize
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/17callbacks.t
+[LibXML] 1..4
+[LibXML] # Subtest: single callback
+[LibXML]     ok 1 - read1 for expand_include called twice.
+[LibXML]     ok 2 - close1 for expand_include called.
+[LibXML]     ok 3 - match1 for expand_include called twice.
+[LibXML]     ok 4 - expand_include open1 worked.
+[LibXML]     ok 5 - Found nodes.
+[LibXML]     1..5
+[LibXML] ok 1 - single callback
+[LibXML] # Subtest: per parser callbacks
+[LibXML]     ok 1 - read1 for $parser out of ($parser,$parser2)
+[LibXML]     ok 2 - close1 for $parser out of ($parser,$parser2)
+[LibXML]     ok 3 - match1 for $parser out of ($parser,$parser2)
+[LibXML]     ok 4 - expand_include for $parser out of ($parser,$parser2)
+[LibXML]     ok 5 - expand_include for $parser2 out of ($parser,$parser2)
+[LibXML]     ok 6 - first parser result
+[LibXML]     ok 7 - second parser result
+[LibXML]     1..7
+[LibXML] ok 2 - per parser callbacks
+[LibXML] ok 3 - 
+[LibXML] # Subtest: global callbacks
+[LibXML]     ok 1 - parse: :string returns a true value.
+[LibXML]     ok 2 - open1 for global counter.
+[LibXML]     ok 3 - match1 for global callback.
+[LibXML]     ok 4 - close1 for global callback.
+[LibXML]     ok 5 - read1 for global counter.
+[LibXML]     1..5
+[LibXML] ok 4 - global callbacks
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/18docfree.t
+[LibXML] 1..1
+[LibXML] ok 1 - doc new/free sanity
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/19encoding.t
+[LibXML] 1..3
+[LibXML] # Subtest: latin-1
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 1 - latin-1
+[LibXML] # Subtest: japanese encoding (EUC-JP)
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 2 - japanese encoding (EUC-JP)
+[LibXML] # Subtest: cyrillic encoding (KOI8-R)
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 3 - cyrillic encoding (KOI8-R)
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/20extras.t
+[LibXML] 1..4
+[LibXML] # Subtest: :skip-xml-declaration, :tag-expansion
+[LibXML]     ok 1 - :skip-xml-declaration
+[LibXML]     ok 2 - :tag-expansion
+[LibXML]     1..2
+[LibXML] ok 1 - :skip-xml-declaration, :tag-expansion
+[LibXML] # Subtest: :exand-entities
+[LibXML]     ok 1 - :!expand-entities
+[LibXML]     1..1
+[LibXML] ok 2 - :exand-entities
+[LibXML] # Subtest: cloneNode
+[LibXML]     ok 1 - .isSameNode() on cloned node
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - unbind of document element
+[LibXML]     1..6
+[LibXML] ok 3 - cloneNode
+[LibXML] ok 4 - # SKIP attribute child nodes is deprecated
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/21catalog.t
+[LibXML] 1..1
+[LibXML] ok 1 - Doc was parsed with catalog
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/23rawfunctions.t
+[LibXML] 1..1
+[LibXML] ok 1 - 
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/24c14n.t
+[LibXML] 1..12
+[LibXML] # Subtest: comments
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 1 - comments
+[LibXML] # Subtest: entities
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 2 - entities
+[LibXML] # Subtest: empty root
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 3 - empty root
+[LibXML] # Subtest: namespaces
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 4 - namespaces
+[LibXML] # Subtest: unused namespaces
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 5 - unused namespaces
+[LibXML] # Subtest: redundant namespaces
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 6 - redundant namespaces
+[LibXML] # Subtest: xml: prefix
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 7 - xml: prefix
+[LibXML] # Subtest: encoding
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 8 - encoding
+[LibXML] # Subtest: canonize with xpath expressions
+[LibXML]     ok 1 - xpath 1
+[LibXML]     1..1
+[LibXML] ok 9 - canonize with xpath expressions
+[LibXML] # Subtest: default ns
+[LibXML]     ok 1 - xpath 2
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 10 - default ns
+[LibXML] # Subtest: exclusive canonicalization
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 11 - exclusive canonicalization
+[LibXML] # Subtest: integration
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 12 - integration
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/25relaxng.t
+[LibXML] 1..5
+[LibXML] # Subtest: parse schema from a file
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - parse of bad file
+[LibXML]     1..2
+[LibXML] ok 1 - parse schema from a file
+[LibXML] # Subtest: parse schema from a string
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - bad rng schema dies
+[LibXML]     1..2
+[LibXML] ok 2 - parse schema from a string
+[LibXML] # Subtest: parse schema from a document
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - parse of invalid doc dies
+[LibXML]     1..2
+[LibXML] ok 3 - parse schema from a document
+[LibXML] # Subtest: validate a document
+[LibXML]     ok 1 - is-valid on valid doc
+[LibXML]     ok 2 - validate valid document
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - validate invalid document
+[LibXML]     ok 7 - is-valid on invalid doc
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     1..9
+[LibXML] ok 4 - validate a document
+[LibXML] # Subtest: re-validate a modified document
+[LibXML]     ok 1 - unmodified (invalid) document dies
+[LibXML]     ok 2 - modified (valid) document lives
+[LibXML]     ok 3 - modified (invalid) document dies
+[LibXML]     ok 4 - modified (fixed) document lives
+[LibXML]     ok 5 - modified (broken) document dies
+[LibXML]     1..5
+[LibXML] ok 5 - re-validate a modified document
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/26schema.t
+[LibXML] 1..5
+[LibXML] # Subtest: parse schema from a file
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - Bad LibXML::Schema throws an exception.
+[LibXML]     1..2
+[LibXML] ok 1 - parse schema from a file
+[LibXML] # Subtest: parse schema from a string
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - Bad string schema throws an exception.
+[LibXML]     1..2
+[LibXML] ok 2 - parse schema from a string
+[LibXML] # Subtest: validate a document
+[LibXML]     ok 1 - is-valid on valid doc
+[LibXML]     ok 2 - validate() returns 0 to indicate validity of valid file.
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - is-valid on invalid doc
+[LibXML]     ok 6 - Invalid file throws an excpetion.
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     1..8
+[LibXML] ok 3 - validate a document
+[LibXML] # Subtest: validate a node
+[LibXML]     ok 1 - validate() with element doesn't throw
+[LibXML]     ok 2 - validate() with element returns 0
+[LibXML]     1..2
+[LibXML] ok 4 - validate a node
+[LibXML] # Subtest: schema :network option
+[LibXML]     ok 1 - Schema from file location with external import throws an exception.
+[LibXML]     ok 2 - Schema from file location with external import and !network is not loaded.
+[LibXML]     ok 3 - Schema from buffer with external import throws an exception.
+[LibXML]     ok 4 - Schema from buffer with external import and !network is not loaded.
+[LibXML]     ok 5 - no attempted network access
+[LibXML]     ok 6 - location :network access
+[LibXML]     ok 7 - string :network access
+[LibXML]     ok 8 - attempted network access
+[LibXML]     1..8
+[LibXML] ok 5 - schema :network option
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/27input_callbacks_simple.t
+[LibXML] 1..11
+[LibXML] ok 1 - match_file matched once.
+[LibXML] ok 2 - open_file called once.
+[LibXML] ok 3 - read_file called twice.
+[LibXML] ok 4 - close_file called once.
+[LibXML] ok 5 - string-value
+[LibXML] ok 6 - match_hash matched once.
+[LibXML] ok 7 - open_hash called once.
+[LibXML] ok 8 - read_hash called six times.
+[LibXML] ok 9 - close_hash called once.
+[LibXML] ok 10 - doc defined
+[LibXML] ok 11 - string-value
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/28input_callbacks_multiple.t
+[LibXML] 1..56
+[LibXML] ok 1 - LibXML::InputCallback was initialized
+[LibXML] ok 2 - read_hash() count for multiple tests
+[LibXML] ok 3 - read_file() called twice.
+[LibXML] ok 4 - close_file() called once.
+[LibXML] ok 5 - open_file() for URLs.
+[LibXML] ok 6 - match_hash() for URLs.
+[LibXML] ok 7 - read_xml() for multiple callbacks
+[LibXML] ok 8 - match_xml() one.
+[LibXML] ok 9 - match_file() for multiple_tests
+[LibXML] ok 10 - open_hash() : called 1 times
+[LibXML] ok 11 - open_xml() : parse: :string() successful.
+[LibXML] ok 12 - close_xml() called once.
+[LibXML] ok 13 - close_hash() called once.
+[LibXML] ok 14 - read_hash() count for multiple tests
+[LibXML] ok 15 - read_file() called twice.
+[LibXML] ok 16 - close_file() called once.
+[LibXML] ok 17 - open_file() for URLs.
+[LibXML] ok 18 - match_hash() for URLs.
+[LibXML] ok 19 - read_xml() for multiple callbacks
+[LibXML] ok 20 - match_xml() one.
+[LibXML] ok 21 - match_file() for multiple_tests
+[LibXML] ok 22 - open_hash() : called 1 times
+[LibXML] ok 23 - open_xml() : parse: :string() successful.
+[LibXML] ok 24 - close_xml() called once.
+[LibXML] ok 25 - close_hash() called once.
+[LibXML] ok 26 - parse: :string() returns a doc.
+[LibXML] ok 27 - .string-value()
+[LibXML] ok 28 - second parse: :string() returns a doc.
+[LibXML] ok 29 - Second parse: :string()'s .string-value()
+[LibXML] ok 30 - read_hash() count for multiple register_callbacks
+[LibXML] ok 31 - open_file() for URLs.
+[LibXML] ok 32 - match_hash2() input callbacks
+[LibXML] ok 33 - match_file() input callbacks
+[LibXML] ok 34 - string-value returns fine
+[LibXML] ok 35 - open_hash() : called 2 times
+[LibXML] ok 36 - close_hash() called twice on two xincludes.
+[LibXML] ok 37 - read_file() called 4 times.
+[LibXML] ok 38 - close_file() called twice.
+[LibXML] ok 39 - open_file() for URLs.
+[LibXML] ok 40 - match_hash2() does not match after being unregistered.
+[LibXML] ok 41 - match_file() input callbacks
+[LibXML] ok 42 - string-value() after unregister callbacks
+[LibXML] ok 43 - 
+[LibXML] ok 44 - 
+[LibXML] ok 45 - read_hash() count for stuff.
+[LibXML] ok 46 - read_file() called twice.
+[LibXML] ok 47 - close_file() called once.
+[LibXML] ok 48 - open_file() for URLs.
+[LibXML] ok 49 - match_hash2() input callbacks
+[LibXML] ok 50 - read_xml() No. 2
+[LibXML] ok 51 - match_xml() No. 2.
+[LibXML] ok 52 - match_file() for inner callback.
+[LibXML] ok 53 - open_hash() : called 1 times
+[LibXML] ok 54 - close_xml() called once.
+[LibXML] ok 55 - close_hash() called once.
+[LibXML] ok 56 - string-value()
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/29id.t
+[LibXML] 1..3
+[LibXML] # Subtest: basic
+[LibXML]     ok 1 - parse
+[LibXML]     ok 2 - getElementById on root node
+[LibXML]     ok 3 - getElementsById on root node
+[LibXML]     ok 4 - isId return type
+[LibXML]     ok 5 - isId return value
+[LibXML]     ok 6 - getAttributeNode on non-Id
+[LibXML]     ok 7 - getElementByID on new attribute node
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - getElementByID on new child/attribute
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     1..11
+[LibXML] ok 1 - basic
+[LibXML] # Subtest: basic (validation)
+[LibXML]     ok 1 - parse
+[LibXML]     ok 2 - getElementById on root node
+[LibXML]     ok 3 - getElementsById on root node
+[LibXML]     ok 4 - isId return type
+[LibXML]     ok 5 - isId return value
+[LibXML]     ok 6 - getAttributeNode on non-Id
+[LibXML]     ok 7 - validate
+[LibXML]     ok 8 - getElementByID on new attribute node
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - validate
+[LibXML]     ok 11 - getElementByID on new child/attribute
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     1..13
+[LibXML] ok 2 - basic (validation)
+[LibXML] # Subtest: namespaces
+[LibXML]     ok 1 - parse
+[LibXML]     ok 2 - getElementById on root node
+[LibXML]     ok 3 - getElementByID on old id
+[LibXML]     ok 4 - getElementByID on new id
+[LibXML]     ok 5 - isId()
+[LibXML]     ok 6 - getAttributeNode on xml:id
+[LibXML]     ok 7 - getAttributeNode
+[LibXML]     ok 8 - id occluded by xml:id
+[LibXML]     ok 9 - getAttributeNodeNS
+[LibXML]     ok 10 - isId()
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - getAttributeNS
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - getAttributeNodeNS
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - id updated via setAttributeNS
+[LibXML]     ok 17 - xml
+[LibXML]     1..17
+[LibXML] ok 3 - namespaces
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/30keep_blanks.t
+[LibXML] 1..2
+[LibXML] ok 1 - keep-blanks keeps the blanks after a roundtrip.
+[LibXML] ok 2 - !keep-blanks removes the blanks after a roundtrip.
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/30xpathcontext.t
+[LibXML] 1..25
+[LibXML] # Subtest: findnodes() list
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     1..6
+[LibXML] ok 1 - findnodes() list
+[LibXML] # Subtest: findnodes() scalar
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 2 - findnodes() scalar
+[LibXML] # Subtest: first(), last()
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 3 - first(), last()
+[LibXML] # Subtest: findvalue()
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 4 - findvalue()
+[LibXML] # Subtest: new(:$raw)
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 5 - new(:$raw)
+[LibXML] # Subtest: find()
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 6 - find()
+[LibXML] # Subtest: registerNs
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - Find unregistered NS
+[LibXML]     ok 8 - Lookup unregistered NS
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - Context node is document element
+[LibXML]     ok 13 - First node is document element
+[LibXML]     1..13
+[LibXML] ok 7 - registerNs
+[LibXML] # Subtest: :%ns constructor
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - Find unregistered NS
+[LibXML]     ok 8 - Lookup unregistered NS
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - Context node is document element
+[LibXML]     ok 13 - First node is document element
+[LibXML]     1..13
+[LibXML] ok 8 - :%ns constructor
+[LibXML] ok 9 - First node is root node
+[LibXML] ok 10 - context is root node
+[LibXML] ok 11 - new empty context
+[LibXML] ok 12 - getContextNode when empty
+[LibXML] ok 13 - find of empty dies
+[LibXML] ok 14 - 
+[LibXML] ok 15 - 
+[LibXML] ok 16 - 
+[LibXML] ok 17 - 
+[LibXML] ok 18 - 
+[LibXML] ok 19 - 
+[LibXML] ok 20 - 
+[LibXML] ok 21 - 
+[LibXML] ok 22 - changing document is not supported
+[LibXML] # Subtest: setting context position and size
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     ok 19 - 
+[LibXML]     ok 20 - 
+[LibXML]     1..20
+[LibXML] ok 23 - setting context position and size
+[LibXML] # Subtest: Ns override
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[LibXML] XPathContext: invalid size
+[LibXML]   in method setContextSize at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/XPath/Context.rakumod (LibXML::XPath::Context) line 608
+[LibXML]   in block  at t/30xpathcontext.t line 180
+[LibXML]   in sub subtest at /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/share/perl6/core/sources/2798AE4D03A39461EB3ECEBE50664DC603A47E31 (Test) line 430
+[LibXML]   in sub subtest at /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/share/perl6/core/sources/2798AE4D03A39461EB3ECEBE50664DC603A47E31 (Test) line 418
+[LibXML]   in block <unit> at t/30xpathcontext.t line 177
+[LibXML] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[LibXML] XPathContext: invalid position
+[LibXML]   in method setContextPosition at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/XPath/Context.rakumod (LibXML::XPath::Context) line 586
+[LibXML]   in block  at t/30xpathcontext.t line 179
+[LibXML]   in sub subtest at /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/share/perl6/core/sources/2798AE4D03A39461EB3ECEBE50664DC603A47E31 (Test) line 430
+[LibXML]   in sub subtest at /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/share/perl6/core/sources/2798AE4D03A39461EB3ECEBE50664DC603A47E31 (Test) line 418
+[LibXML]   in block <unit> at t/30xpathcontext.t line 177
+[LibXML] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[LibXML] XPathContext: invalid position
+[LibXML]   in method setContextPosition at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/XPath/Context.rakumod (LibXML::XPath::Context) line 586
+[LibXML]   in block  at t/30xpathcontext.t line 178
+[LibXML]   in sub subtest at /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/share/perl6/core/sources/2798AE4D03A39461EB3ECEBE50664DC603A47E31 (Test) line 430
+[LibXML]   in sub subtest at /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/share/perl6/core/sources/2798AE4D03A39461EB3ECEBE50664DC603A47E31 (Test) line 418
+[LibXML]   in block <unit> at t/30xpathcontext.t line 177
+[LibXML] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[LibXML] No value
+[LibXML]   in method find at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/XPath/Context.rakumod (LibXML::XPath::Context) line 400
+[LibXML]   in method find at /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3/lib/LibXML/XPath/Context.rakumod (LibXML::XPath::Context) line 495
+[LibXML]   in block <unit> at t/30xpathcontext.t line 142
+[LibXML]     ok 11 - 
+[LibXML]     1..11
+[LibXML] ok 24 - Ns override
+[LibXML] # Subtest: document fragments
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 25 - document fragments
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/31xpc_functions.t
+[LibXML] 1..13
+[LibXML] # Subtest: registerFunctionNS
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     1..5
+[LibXML] ok 1 - registerFunctionNS
+[LibXML] # Subtest: too many arguments
+[LibXML]     1..3
+[LibXML]     ok 1 - code dies
+[LibXML]     ok 2 - right exception type (X::LibXML)
+[LibXML]     ok 3 - .message matches /"Too many positionals passed; expected 1 argument but got 2"/
+[LibXML] ok 2 - too many arguments
+[LibXML] ok 3 - registerFunction (no NS)
+[LibXML] ok 4 - unregisterFunction
+[LibXML] ok 5 - register by name
+[LibXML] ok 6 - unregisterFunction
+[LibXML] # Subtest: mixed argument types
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 7 - mixed argument types
+[LibXML] ok 8 - unregisterFunctionNS()
+[LibXML] # Subtest: context reentrance
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     1..8
+[LibXML] ok 9 - context reentrance
+[LibXML] # Subtest: node injection
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     1..5
+[LibXML] ok 10 - node injection
+[LibXML] # Subtest: identity function
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     1..4
+[LibXML] ok 11 - identity function
+[LibXML] # Subtest: callback errors
+[LibXML]     # Subtest: did we throws-like X::LibXML?
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML)
+[LibXML]         ok 3 - .message matches XPath error: goodbye!
+[LibXML]     ok 1 - did we throws-like X::LibXML?
+[LibXML]     ok 2 - recover exception
+[LibXML]     ok 3 - recovered exception result
+[LibXML]     ok 4 - post-recovery function call
+[LibXML]     1..4
+[LibXML] ok 12 - callback errors
+[LibXML] ok 13 - errors trapped
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/32xpc_variables.t
+[LibXML] 1..11
+[LibXML] # Subtest: nodelist
+[LibXML]     ok 1 - The object is-a '"LibXML::Node::Set"'
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     1..3
+[LibXML] ok 1 - nodelist
+[LibXML] ok 2 - single element node
+[LibXML] ok 3 - single text node
+[LibXML] ok 4 - single attribute node
+[LibXML] ok 5 - single attribute node
+[LibXML] ok 6 - single document node
+[LibXML] # Subtest: xpath context find
+[LibXML]     ok 1 - # SKIP varLookupData - do we need this?
+[LibXML]     ok 2 - # SKIP varLookupData - do we need this?
+[LibXML]     ok 3 - # SKIP varLookupData - do we need this?
+[LibXML]     ok 4 - # SKIP varLookupData - do we need this?
+[LibXML]     ok 5 - # SKIP varLookupData - do we need this?
+[LibXML]     ok 6 - find int
+[LibXML]     ok 7 - find string
+[LibXML]     # Subtest: findnodes
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         ok 10 - 
+[LibXML]         ok 11 - 
+[LibXML]         ok 12 - 
+[LibXML]         ok 13 - 
+[LibXML]         ok 14 - 
+[LibXML]         ok 15 - 
+[LibXML]         ok 16 - 
+[LibXML]         1..16
+[LibXML]     ok 8 - findnodes
+[LibXML]     1..8
+[LibXML] ok 7 - xpath context find
+[LibXML] ok 8 - unregisterVarLookupFunc()
+[LibXML] ok 9 - unregisterVarLookupFunc()
+[LibXML] ok 10 - # SKIP varLookupData - do we need this?
+[LibXML] ok 11 - # SKIP varLookupData - do we need this?
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/35huge_mode.t
+[LibXML] 1..4
+[LibXML] ok 1 - huge mode disabled by default
+[LibXML] # Subtest: exception thrown during parse
+[LibXML]     1..3
+[LibXML]     ok 1 - code dies
+[LibXML]     ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]     ok 3 - .message matches /entity/
+[LibXML] ok 2 - exception thrown during parse
+[LibXML] ok 3 - no exception thrown during parse
+[LibXML] ok 4 - entity was parsed and expanded correctly
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/40reader.t
+[LibXML] 1..11
+[LibXML] ok 1 - loaded LibXML::Reader
+[LibXML] # Subtest: basic
+[LibXML]     ok 1 - getParserProp
+[LibXML]     ok 2 - setParserProp
+[LibXML]     ok 3 - getParserProp
+[LibXML]     ok 4 - read
+[LibXML]     ok 5 - byteConsumed
+[LibXML]     ok 6 - attributeCount
+[LibXML]     ok 7 - baseURI
+[LibXML]     ok 8 - encoding
+[LibXML]     ok 9 - localName
+[LibXML]     ok 10 - name
+[LibXML]     ok 11 - prefix
+[LibXML]     ok 12 - value
+[LibXML]     ok 13 - xmlLang
+[LibXML]     ok 14 - xmlVersion
+[LibXML]     ok 15 - skipping to country
+[LibXML]     ok 16 - depth
+[LibXML]     ok 17 - getAttribute
+[LibXML]     ok 18 - getAttributeNo
+[LibXML]     ok 19 - getAttributeNs
+[LibXML]     ok 20 - lineNumber
+[LibXML]     ok 21 - columnNumber
+[LibXML]     ok 22 - hasAttributes
+[LibXML]     ok 23 - hasValue
+[LibXML]     ok 24 - isDefault
+[LibXML]     ok 25 - isEmptyElement
+[LibXML]     ok 26 - isNamespaceDecl
+[LibXML]     ok 27 - isValid
+[LibXML]     ok 28 - localName
+[LibXML]     ok 29 - lookupNamespace
+[LibXML]     ok 30 - moveToAttribute
+[LibXML]     ok 31 - moveToAttributeNo
+[LibXML]     ok 32 - moveToAttributeNs
+[LibXML]     ok 33 - moveToElement
+[LibXML]     ok 34 - moveToFirstAttribute
+[LibXML]     ok 35 - moveToNextAttribute
+[LibXML]     ok 36 - attributeValue
+[LibXML]     ok 37 - name
+[LibXML]     ok 38 - namespaceURI
+[LibXML]     ok 39 - nextSibling
+[LibXML]     ok 40 - nodeType
+[LibXML]     ok 41 - prefix
+[LibXML]     ok 42 - readInnerXml
+[LibXML]     ok 43 - readOuterXml
+[LibXML]     ok 44 - readState
+[LibXML]     ok 45 - standalone
+[LibXML]     ok 46 - value
+[LibXML]     ok 47 - xmlLang
+[LibXML]     ok 48 - close
+[LibXML]     1..48
+[LibXML] ok 2 - basic
+[LibXML] # Subtest: FD interface
+[LibXML]     ok 1 - name in fd
+[LibXML]     ok 2 - name in fd
+[LibXML]     ok 3 - name in fd
+[LibXML]     ok 4 - name in fd
+[LibXML]     1..4
+[LibXML] ok 3 - FD interface
+[LibXML] # Subtest: string interface
+[LibXML]     ok 1 - name in string
+[LibXML]     1..1
+[LibXML] ok 4 - string interface
+[LibXML] # Subtest: DOM
+[LibXML]     ok 1 - name in string
+[LibXML]     ok 2 - document
+[LibXML]     ok 3 - document is DOM
+[LibXML]     1..3
+[LibXML] ok 5 - DOM
+[LibXML] # Subtest: Expand
+[LibXML]     ok 1 - root node
+[LibXML]     ok 2 - nextElement
+[LibXML]     ok 3 - deep copy node
+[LibXML]     ok 4 - next named element
+[LibXML]     ok 5 - name
+[LibXML]     ok 6 - readOuterXml
+[LibXML]     ok 7 - read
+[LibXML]     ok 8 - name
+[LibXML]     ok 9 - shallow copy node
+[LibXML]     ok 10 - nextElement
+[LibXML]     ok 11 - text node
+[LibXML]     ok 12 - text content
+[LibXML]     ok 13 - end element type
+[LibXML]     ok 14 - name
+[LibXML]     ok 15 - namespace
+[LibXML]     ok 16 - namespaceURI
+[LibXML]     ok 17 - outer xml
+[LibXML]     ok 18 - preserve node
+[LibXML]     ok 19 - doc root element
+[LibXML]     ok 20 - preserved content
+[LibXML]     ok 21 - copy w/  child nodes
+[LibXML]     ok 22 - 
+[LibXML]     ok 23 - copy w/o child nodes
+[LibXML]     ok 24 - 
+[LibXML]     ok 25 - 
+[LibXML]     1..25
+[LibXML] ok 6 - Expand
+[LibXML] # Subtest: error
+[LibXML]     # Subtest: caught the error
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - .message matches /'mystring.xml:5:'/
+[LibXML]     ok 1 - caught the error
+[LibXML]     1..1
+[LibXML] ok 7 - error
+[LibXML] # Subtest: RelaxNG
+[LibXML]     ok 1 - validate using RelaxNG file
+[LibXML]     # Subtest: did we throws-like X::LibXML::Parser?
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - .message matches /'Relax-NG validity error'/
+[LibXML]     ok 2 - did we throws-like X::LibXML::Parser?
+[LibXML]     ok 3 - validate using LibXML::RelaxNG
+[LibXML]     # Subtest: did we throws-like X::LibXML::Parser?
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - .message matches /'Relax-NG validity error'/
+[LibXML]     ok 4 - did we throws-like X::LibXML::Parser?
+[LibXML]     1..4
+[LibXML] ok 8 - RelaxNG
+[LibXML] # Subtest: XMLSchema
+[LibXML]     ok 1 - validate using Schema file
+[LibXML]     # Subtest: did we throws-like X::LibXML::Parser?
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - .message matches /'Schemas validity error'/
+[LibXML]     ok 2 - did we throws-like X::LibXML::Parser?
+[LibXML]     ok 3 - validate using LibXML::Schema
+[LibXML]     # Subtest: did we throws-like X::LibXML::Parser?
+[LibXML]         1..3
+[LibXML]         ok 1 - code dies
+[LibXML]         ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]         ok 3 - .message matches /'Schemas validity error'/
+[LibXML]     ok 4 - did we throws-like X::LibXML::Parser?
+[LibXML]     1..4
+[LibXML] ok 9 - XMLSchema
+[LibXML] # Subtest: Patterns
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     1..8
+[LibXML] ok 10 - Patterns
+[LibXML] # Subtest: issue#60
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 11 - issue \#60
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/40reader_mem_error.t
+[LibXML] 1..3
+[LibXML] ok 1 - foo
+[LibXML] ok 2 - 
+[LibXML] ok 3 - Finished
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/41xinclude.t
+[LibXML] 1..13
+[LibXML] ok 1 - parse: :!expand-xinclude, :expand-entities
+[LibXML] ok 2 - document properties
+[LibXML] ok 3 - xinclude property
+[LibXML] ok 4 - parse: :expand-xinclude, :!expand-entities
+[LibXML] ok 5 - document properties
+[LibXML] ok 6 - xinclude property
+[LibXML] ok 7 - parse: :expand-xinclude, :expand-entities
+[LibXML] ok 8 - xinclude property
+[LibXML] ok 9 - process-xincludes: :!expand-xinclude, :!expand-entities
+[LibXML] ok 10 - xinclude property
+[LibXML] ok 11 - process-xincludes: :!expand-xinclude, :!expand-entities
+[LibXML] ok 12 - process-xincludes: :!expand-xinclude, :expand-entities
+[LibXML] ok 13 - process-xincludes: :!expand-xinclude, :expand-entities
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/42common.t
+[LibXML] 1..2
+[LibXML] ok 1 - Loading
+[LibXML] ok 2 - XML_ELEMENT_NODE is 1.
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/43options.t
+[LibXML] 1..5
+[LibXML] # Subtest: setting options
+[LibXML]     ok 1 - option recover default
+[LibXML]     ok 2 - option expand_entities default
+[LibXML]     ok 3 - option load_ext_dtd default
+[LibXML]     ok 4 - option complete_attributes default
+[LibXML]     ok 5 - option validation default
+[LibXML]     ok 6 - option suppress_errors default
+[LibXML]     ok 7 - option suppress_warnings default
+[LibXML]     ok 8 - option pedantic_parser default
+[LibXML]     ok 9 - option no_blanks default
+[LibXML]     ok 10 - option expand_xinclude default
+[LibXML]     ok 11 - option xinclude default
+[LibXML]     ok 12 - option network default
+[LibXML]     ok 13 - option clean_namespaces default
+[LibXML]     ok 14 - option no_cdata default
+[LibXML]     ok 15 - option no_xinclude_nodes default
+[LibXML]     ok 16 - option old10 default
+[LibXML]     ok 17 - option no_base_fix default
+[LibXML]     ok 18 - option huge default
+[LibXML]     ok 19 - option oldsax default
+[LibXML]     ok 20 - non-existant option
+[LibXML]     ok 21 - keep--blanks default
+[LibXML]     ok 22 - set no_blanks
+[LibXML]     ok 23 - Get keep-blanks
+[LibXML]     ok 24 - Set keep-blanks to True
+[LibXML]     ok 25 - Get no_blanks again
+[LibXML]     ok 26 - Set URI
+[LibXML]     ok 27 - Get URI
+[LibXML]     ok 28 - Get URI
+[LibXML]     # Subtest: recover, recover_silently
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         1..7
+[LibXML]     ok 29 - recover, recover_silently
+[LibXML]     # Subtest: expand_entities, load_ext_dtd
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         1..5
+[LibXML]     ok 30 - expand_entities, load_ext_dtd
+[LibXML]     1..30
+[LibXML] ok 1 - setting options
+[LibXML] # Subtest: network options
+[LibXML]     ok 1 - expand_entities is preserved after _clone()/etc.
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - Entity from network location throw error.
+[LibXML]     ok 5 - no attempted network access
+[LibXML]     ok 6 - attempted network access
+[LibXML]     ok 7 - attempted network access
+[LibXML]     1..7
+[LibXML] ok 2 - network options
+[LibXML] # Subtest: setting all options
+[LibXML]     ok 1 - recover
+[LibXML]     ok 2 - recover
+[LibXML]     ok 3 - expand_entities
+[LibXML]     ok 4 - expand_entities
+[LibXML]     ok 5 - load_ext_dtd
+[LibXML]     ok 6 - load_ext_dtd
+[LibXML]     ok 7 - complete_attributes
+[LibXML]     ok 8 - complete_attributes
+[LibXML]     ok 9 - validation
+[LibXML]     ok 10 - validation
+[LibXML]     ok 11 - suppress_errors
+[LibXML]     ok 12 - suppress_errors
+[LibXML]     ok 13 - suppress_warnings
+[LibXML]     ok 14 - suppress_warnings
+[LibXML]     ok 15 - pedantic_parser
+[LibXML]     ok 16 - pedantic_parser
+[LibXML]     ok 17 - no_blanks
+[LibXML]     ok 18 - no_blanks
+[LibXML]     ok 19 - expand_xinclude
+[LibXML]     ok 20 - expand_xinclude
+[LibXML]     ok 21 - xinclude
+[LibXML]     ok 22 - xinclude
+[LibXML]     ok 23 - network
+[LibXML]     ok 24 - network
+[LibXML]     ok 25 - clean_namespaces
+[LibXML]     ok 26 - clean_namespaces
+[LibXML]     ok 27 - no_cdata
+[LibXML]     ok 28 - no_cdata
+[LibXML]     ok 29 - no_xinclude_nodes
+[LibXML]     ok 30 - no_xinclude_nodes
+[LibXML]     ok 31 - old10
+[LibXML]     ok 32 - old10
+[LibXML]     ok 33 - no_base_fix
+[LibXML]     ok 34 - no_base_fix
+[LibXML]     ok 35 - huge
+[LibXML]     ok 36 - huge
+[LibXML]     ok 37 - oldsax
+[LibXML]     ok 38 - oldsax
+[LibXML]     # Subtest: setting recover
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 39 - setting recover
+[LibXML]     # Subtest: setting expand_entities
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 40 - setting expand_entities
+[LibXML]     # Subtest: setting load_ext_dtd
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 41 - setting load_ext_dtd
+[LibXML]     # Subtest: setting complete_attributes
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 42 - setting complete_attributes
+[LibXML]     # Subtest: setting validation
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 43 - setting validation
+[LibXML]     # Subtest: setting suppress_errors
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 44 - setting suppress_errors
+[LibXML]     # Subtest: setting suppress_warnings
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 45 - setting suppress_warnings
+[LibXML]     # Subtest: setting pedantic_parser
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 46 - setting pedantic_parser
+[LibXML]     # Subtest: setting no_blanks
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 47 - setting no_blanks
+[LibXML]     # Subtest: setting expand_xinclude
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 48 - setting expand_xinclude
+[LibXML]     # Subtest: setting xinclude
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 49 - setting xinclude
+[LibXML]     # Subtest: setting network
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 50 - setting network
+[LibXML]     # Subtest: setting clean_namespaces
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 51 - setting clean_namespaces
+[LibXML]     # Subtest: setting no_cdata
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 52 - setting no_cdata
+[LibXML]     # Subtest: setting no_xinclude_nodes
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 53 - setting no_xinclude_nodes
+[LibXML]     # Subtest: setting old10
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 54 - setting old10
+[LibXML]     # Subtest: setting no_base_fix
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 55 - setting no_base_fix
+[LibXML]     # Subtest: setting huge
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 56 - setting huge
+[LibXML]     # Subtest: setting oldsax
+[LibXML]         ok 1 - 
+[LibXML]         ok 2 - 
+[LibXML]         ok 3 - 
+[LibXML]         ok 4 - 
+[LibXML]         ok 5 - 
+[LibXML]         ok 6 - 
+[LibXML]         ok 7 - 
+[LibXML]         ok 8 - 
+[LibXML]         ok 9 - 
+[LibXML]         1..9
+[LibXML]     ok 57 - setting oldsax
+[LibXML]     1..57
+[LibXML] ok 3 - setting all options
+[LibXML] # Subtest: initialize options to False
+[LibXML]     ok 1 - recover
+[LibXML]     ok 2 - recover
+[LibXML]     ok 3 - expand_entities
+[LibXML]     ok 4 - expand_entities
+[LibXML]     ok 5 - load_ext_dtd
+[LibXML]     ok 6 - load_ext_dtd
+[LibXML]     ok 7 - complete_attributes
+[LibXML]     ok 8 - complete_attributes
+[LibXML]     ok 9 - validation
+[LibXML]     ok 10 - validation
+[LibXML]     ok 11 - suppress_errors
+[LibXML]     ok 12 - suppress_errors
+[LibXML]     ok 13 - suppress_warnings
+[LibXML]     ok 14 - suppress_warnings
+[LibXML]     ok 15 - pedantic_parser
+[LibXML]     ok 16 - pedantic_parser
+[LibXML]     ok 17 - no_blanks
+[LibXML]     ok 18 - no_blanks
+[LibXML]     ok 19 - expand_xinclude
+[LibXML]     ok 20 - expand_xinclude
+[LibXML]     ok 21 - xinclude
+[LibXML]     ok 22 - xinclude
+[LibXML]     ok 23 - network
+[LibXML]     ok 24 - network
+[LibXML]     ok 25 - clean_namespaces
+[LibXML]     ok 26 - clean_namespaces
+[LibXML]     ok 27 - no_cdata
+[LibXML]     ok 28 - no_cdata
+[LibXML]     ok 29 - no_xinclude_nodes
+[LibXML]     ok 30 - no_xinclude_nodes
+[LibXML]     ok 31 - old10
+[LibXML]     ok 32 - old10
+[LibXML]     ok 33 - no_base_fix
+[LibXML]     ok 34 - no_base_fix
+[LibXML]     ok 35 - huge
+[LibXML]     ok 36 - huge
+[LibXML]     ok 37 - oldsax
+[LibXML]     ok 38 - oldsax
+[LibXML]     1..38
+[LibXML] ok 4 - initialize options to False
+[LibXML] # Subtest: initialize options to True
+[LibXML]     ok 1 - recover
+[LibXML]     ok 2 - recover
+[LibXML]     ok 3 - expand_entities
+[LibXML]     ok 4 - expand_entities
+[LibXML]     ok 5 - load_ext_dtd
+[LibXML]     ok 6 - load_ext_dtd
+[LibXML]     ok 7 - complete_attributes
+[LibXML]     ok 8 - complete_attributes
+[LibXML]     ok 9 - validation
+[LibXML]     ok 10 - validation
+[LibXML]     ok 11 - suppress_errors
+[LibXML]     ok 12 - suppress_errors
+[LibXML]     ok 13 - suppress_warnings
+[LibXML]     ok 14 - suppress_warnings
+[LibXML]     ok 15 - pedantic_parser
+[LibXML]     ok 16 - pedantic_parser
+[LibXML]     ok 17 - no_blanks
+[LibXML]     ok 18 - no_blanks
+[LibXML]     ok 19 - expand_xinclude
+[LibXML]     ok 20 - expand_xinclude
+[LibXML]     ok 21 - xinclude
+[LibXML]     ok 22 - xinclude
+[LibXML]     ok 23 - network
+[LibXML]     ok 24 - network
+[LibXML]     ok 25 - clean_namespaces
+[LibXML]     ok 26 - clean_namespaces
+[LibXML]     ok 27 - no_cdata
+[LibXML]     ok 28 - no_cdata
+[LibXML]     ok 29 - no_xinclude_nodes
+[LibXML]     ok 30 - no_xinclude_nodes
+[LibXML]     ok 31 - old10
+[LibXML]     ok 32 - old10
+[LibXML]     ok 33 - no_base_fix
+[LibXML]     ok 34 - no_base_fix
+[LibXML]     ok 35 - huge
+[LibXML]     ok 36 - huge
+[LibXML]     ok 37 - oldsax
+[LibXML]     ok 38 - oldsax
+[LibXML]     1..38
+[LibXML] ok 5 - initialize options to True
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/44extent.t
+[LibXML] 1..7
+[LibXML] ok 1 - 
+[LibXML] ok 2 - 
+[LibXML] ok 3 - 
+[LibXML] ok 4 - 
+[LibXML] ok 5 - 
+[LibXML] ok 6 - 
+[LibXML] ok 7 - 
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/45regex.t
+[LibXML] 1..22
+[LibXML] ok 1 - Regex object was initted.
+[LibXML] ok 2 - Does not match 00
+[LibXML] ok 3 - Does not match 00-
+[LibXML] ok 4 - Matches 12345
+[LibXML] ok 5 - Does not match 123456
+[LibXML] ok 6 - Matches 12345-1234
+[LibXML] ok 7 - Does not match leading space
+[LibXML] ok 8 - Leading space No. 2
+[LibXML] ok 9 - Trailing space
+[LibXML] ok 10 - ACCEPTS match
+[LibXML] ok 11 - ACCEPTS match negated
+[LibXML] ok 12 - ACCEPTS non-match negated
+[LibXML] ok 13 - ACCEPTS non-match
+[LibXML] ok 14 - ACCEPTS obj/class match
+[LibXML] ok 15 - ACCEPTS obj/class non-match
+[LibXML] ok 16 - ACCEPTS class/obj non-match
+[LibXML] ok 17 - ACCEPTS class/class non-match
+[LibXML] ok 18 - ACCEPTS class/class match
+[LibXML] ok 19 - Regex is deterministic
+[LibXML] ok 20 - Non deterministic re was initted
+[LibXML] ok 21 - It is not deterministic
+[LibXML] ok 22 - An exception was thrown on bad regex
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/46err_column.t
+[LibXML] 1..2
+[LibXML] # Subtest: XML_ERR_DOCUMENT_END
+[LibXML]     1..12
+[LibXML]     ok 1 - code dies
+[LibXML]     ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]     ok 3 - .level matches XML_ERR_FATAL
+[LibXML]     ok 4 - .line matches 1
+[LibXML]     ok 5 - .column matches -> ;; $_? is raw = OUTER::<$_> {  \#`(Block|2579564246736) ... }
+[LibXML]     ok 6 - .code matches any(XML_ERR_DOCUMENT_END, XML_ERR_GT_REQUIRED)
+[LibXML]     ok 7 - .domain matches parser
+[LibXML]     ok 8 - .prev matches -> $prev {  \#`(Block|2579564247240) ... }
+[LibXML]     ok 9 - .message matches rx:s/
+[LibXML]     #       'test.xml:1: parser error : attributes construct error'/
+[LibXML]     ok 10 - .file matches test.xml
+[LibXML]     ok 11 - .domain-num matches XML_FROM_PARSER
+[LibXML]     ok 12 - .msg matches .contains('Extra content at the end of the document'|"Couldn't find end of Start Tag foo")
+[LibXML] ok 1 - XML_ERR_DOCUMENT_END
+[LibXML] # Subtest: XML_ERR_NOT_WELL_BALANCED
+[LibXML]     1..10
+[LibXML]     ok 1 - code dies
+[LibXML]     ok 2 - right exception type (X::LibXML::Parser)
+[LibXML]     ok 3 - .column matches -> ;; $_? is raw = OUTER::<$_> {  \#`(Block|2579564334848) ... }
+[LibXML]     ok 4 - .line matches 1
+[LibXML]     ok 5 - .message matches rx:s/':1: parser error : Opening and ending tag mismatch: foo line 1 and bar'/
+[LibXML]     ok 6 - .file matches (Str:U)
+[LibXML]     ok 7 - .domain matches parser
+[LibXML]     ok 8 - .code matches any(XML_ERR_NOT_WELL_BALANCED, XML_ERR_TAG_NAME_MISMATCH)
+[LibXML]     ok 9 - .domain-num matches XML_FROM_PARSER
+[LibXML]     ok 10 - .level matches XML_ERR_FATAL
+[LibXML] ok 2 - XML_ERR_NOT_WELL_BALANCED
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/47load_xml_callbacks.t
+[LibXML] 1..3
+[LibXML] ok 1 - load_xml() encountered the open InputCallback
+[LibXML] ok 2 - load_xml() encountered the read InputCallback
+[LibXML] ok 3 - load_xml() encountered the close InputCallback
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/48importing_nodes_IDs.t
+[LibXML] 1..4
+[LibXML] ok 1 - Orig doc has id1
+[LibXML] ok 2 - Content of orig doc elem id1
+[LibXML] ok 3 - Doc2 after importNode has id1
+[LibXML] ok 4 - Doc2 after importNode has id1
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/49global_extent.t
+[LibXML] 1..1
+[LibXML] ok 1 - 
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/60error_prev_chain.t
+[LibXML] ok 1 - The object is-a '"X::LibXML::TooManyErrors"'
+[LibXML] ok 2 - The object is-a '"X::LibXML::Parser"'
+[LibXML] ok 3 - 
+[LibXML] ok 4 - Reached the end of the chain.
+[LibXML] 1..4
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/61error.t
+[LibXML] 1..3
+[LibXML] ok 1 - Exception is of type parser error.
+[LibXML] ok 2 - Error is in the parser domain
+[LibXML] ok 3 - Error is on line 1.
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/90threads.t
+[LibXML] 1..26
+[LibXML] # Subtest: dtd
+[LibXML]     1..2
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML] ok 1 - dtd
+[LibXML] # Subtest: relaxng
+[LibXML]     1..3
+[LibXML]     ok 1 - relaxng schemas
+[LibXML]     ok 2 - relax-ng valid
+[LibXML]     ok 3 - relax-ng invalid
+[LibXML] ok 2 - relaxng
+[LibXML] # Subtest: parse invalid strings
+[LibXML]     ok 1 - parse errors
+[LibXML]     1..1
+[LibXML] ok 3 - parse invalid strings
+[LibXML] # Subtest: parse with config
+[LibXML]     ok 1 - parse with plain config
+[LibXML]     1..1
+[LibXML] ok 4 - parse with config
+[LibXML] # Subtest: parse with :with-cache config
+[LibXML]     ok 1 - parse with plain config
+[LibXML]     1..1
+[LibXML] ok 5 - parse with :with-cache config
+[LibXML] # Subtest: create element/attribute
+[LibXML]     ok 1 - document roots
+[LibXML]     ok 2 - document root reduction
+[LibXML]     1..2
+[LibXML] ok 6 - create element/attribute
+[LibXML] # Subtest: operating on different documents without lock
+[LibXML]     ok 1 - document roots
+[LibXML]     ok 2 - unique documents don't reduce
+[LibXML]     ok 3 - att values
+[LibXML]     ok 4 - att values reduction
+[LibXML]     1..4
+[LibXML] ok 7 - operating on different documents without lock
+[LibXML] # Subtest: operating on the same document with a lock
+[LibXML]     ok 1 - document roots
+[LibXML]     ok 2 - documents reduction
+[LibXML]     1..2
+[LibXML] ok 8 - operating on the same document with a lock
+[LibXML] # Subtest: access leaf nodes
+[LibXML]     ok 1 - document leaf nodes
+[LibXML]     not ok 2 - document leaf nodes reduction
+[LibXML]     # Failed test 'document leaf nodes reduction'
+[LibXML]     # at t/90threads.t line 163
+[LibXML]     # expected: '1'
+[LibXML]     #      got: '2'
+[LibXML]     ok 3 - sampled node
+[LibXML]     1..3
+[LibXML]     # You failed 1 test of 3
+[LibXML] not ok 9 - access leaf nodes
+[LibXML] # Failed test 'access leaf nodes'
+[LibXML] # at t/90threads.t line 156
+[LibXML] # Subtest: multiple documents
+[LibXML]     ok 1 - document leaf nodes
+[LibXML]     ok 2 - document leaf nodes reduced by unique keys
+[LibXML]     ok 3 - document leaf nodes reduced by content
+[LibXML]     1..3
+[LibXML] ok 10 - multiple documents
+[LibXML] # Subtest: input callbacks, global
+[LibXML]     ok 1 - input callbacks
+[LibXML]     1..1
+[LibXML] ok 11 - input callbacks, global
+[LibXML] # Subtest: input callbacks, local
+[LibXML]     ok 1 - input callbacks
+[LibXML]     1..1
+[LibXML] ok 12 - input callbacks, local
+[LibXML] # Subtest: parsing with errors
+[LibXML]     ok 1 - parse errors
+[LibXML]     1..1
+[LibXML] ok 13 - parsing with errors
+[LibXML] # Subtest: parsing of invalid documents
+[LibXML]     ok 1 - well-formed, but invalid documents
+[LibXML]     1..1
+[LibXML] ok 14 - parsing of invalid documents
+[LibXML] # Subtest: relaxNG schema validation
+[LibXML]     ok 1 - test RNG validation errors thread safe sanity
+[LibXML]     1..1
+[LibXML] ok 15 - relaxNG schema validation
+[LibXML] # Subtest: XML schema validation
+[LibXML]     ok 1 - test Schema validation errors thread safe sanity
+[LibXML]     1..1
+[LibXML] ok 16 - XML schema validation
+[LibXML] ok 17 - bigfile was slurped fine.
+[LibXML] # Subtest: dom access
+[LibXML]     ok 1 - Joined all threads.
+[LibXML]     1..1
+[LibXML] ok 18 - dom access
+[LibXML] # Subtest: check parsing
+[LibXML]     ok 1 - After LibXML::SAX - join.
+[LibXML]     ok 2 - LibXML thread.
+[LibXML]     ok 3 - threads.join after opening bigfile.
+[LibXML]     1..3
+[LibXML] ok 19 - check parsing
+[LibXML] # Subtest: create elements
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 20 - create elements
+[LibXML] # Subtest: docfrag
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 21 - docfrag
+[LibXML] # Subtest: docfrag2
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 22 - docfrag2
+[LibXML] # Subtest: docfrag3
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 23 - docfrag3
+[LibXML] # Subtest: docfrag4
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     1..2
+[LibXML] ok 24 - docfrag4
+[LibXML] # Subtest: xinclude
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 25 - xinclude
+[LibXML] # Subtest: xpath
+[LibXML]     ok 1 - 
+[LibXML]     1..1
+[LibXML] ok 26 - xpath
+[LibXML] # You failed 1 test of 26
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/91unique_key.t
+[LibXML] 1..35
+[LibXML] ok 1 - unique-key method available
+[LibXML] ok 2 - Key for  \#text matches key from same node
+[LibXML] ok 3 - Key for  \#text does not match key forfoobar
+[LibXML] ok 4 - Key for  \#text does not match key forbar
+[LibXML] ok 5 - Key for  \#text does not match key for \#comment
+[LibXML] ok 6 - Key for  \#text does not match key for \#cdata-section
+[LibXML] ok 7 - Key for foobar does not match key for \#text
+[LibXML] ok 8 - Key for foobar matches key from same node
+[LibXML] ok 9 - Key for foobar does not match key forbar
+[LibXML] ok 10 - Key for foobar does not match key for \#comment
+[LibXML] ok 11 - Key for foobar does not match key for \#cdata-section
+[LibXML] ok 12 - Key for bar does not match key for \#text
+[LibXML] ok 13 - Key for bar does not match key forfoobar
+[LibXML] ok 14 - Key for bar matches key from same node
+[LibXML] ok 15 - Key for bar does not match key for \#comment
+[LibXML] ok 16 - Key for bar does not match key for \#cdata-section
+[LibXML] ok 17 - Key for  \#comment does not match key for \#text
+[LibXML] ok 18 - Key for  \#comment does not match key forfoobar
+[LibXML] ok 19 - Key for  \#comment does not match key forbar
+[LibXML] ok 20 - Key for  \#comment matches key from same node
+[LibXML] ok 21 - Key for  \#comment does not match key for \#cdata-section
+[LibXML] ok 22 - Key for  \#cdata-section does not match key for \#text
+[LibXML] ok 23 - Key for  \#cdata-section does not match key forfoobar
+[LibXML] ok 24 - Key for  \#cdata-section does not match key forbar
+[LibXML] ok 25 - Key for  \#cdata-section does not match key for \#comment
+[LibXML] ok 26 - Key for  \#cdata-section matches key from same node
+[LibXML] ok 27 - 
+[LibXML] ok 28 - 
+[LibXML] ok 29 - 
+[LibXML] ok 30 - 
+[LibXML] ok 31 - default foo ns key matches itself
+[LibXML] ok 32 - keys for ns's with different prefixes don't match
+[LibXML] ok 33 - key for prefixed ns doesn't match key for default ns
+[LibXML] ok 34 - keys for ns's with different URI's don't match
+[LibXML] ok 35 - keys for ns's with different URI's and prefixes don't match
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/99doc-examples.t
+[LibXML] 1..18
+[LibXML] # Subtest: LibXML::Attr
+[LibXML]     1..5
+[LibXML]     ok 1 - .getValue
+[LibXML]     ok 2 - .getValue
+[LibXML]     ok 3 - .setValue
+[LibXML]     ok 4 - .value
+[LibXML]     ok 5 - 
+[LibXML] ok 1 - LibXML::Attr
+[LibXML] # Subtest: LibXML::Attr::Map
+[LibXML]     1..6
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - text matches rx:s/ 'style="fontweight: bold"' /
+[LibXML]     ok 6 - text does not match rx:s/ 'style="fontweight: bold"' /
+[LibXML] ok 2 - LibXML::Attr::Map
+[LibXML] # Subtest: LibXML::Comment
+[LibXML]     1..1
+[LibXML]     ok 1 - 
+[LibXML] ok 3 - LibXML::Comment
+[LibXML] # Subtest: LibXML::CDATA
+[LibXML]     1..1
+[LibXML]     ok 1 - 
+[LibXML] ok 4 - LibXML::CDATA
+[LibXML] # Subtest: LibXML::Document
+[LibXML]     1..8
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - text matches /'<?xml '/
+[LibXML]     ok 4 - text matches /'<?xml '/
+[LibXML]     ok 5 - text matches /'<!DOCTYPE doc'/
+[LibXML]     ok 6 - text matches /'<!DOCTYPE doc'/
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML] ok 5 - LibXML::Document
+[LibXML] # Subtest: LibXML::DocumentFragment
+[LibXML]     1..3
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML] ok 6 - LibXML::DocumentFragment
+[LibXML] # Subtest: LibXML::Dtd
+[LibXML]     1..2
+[LibXML]     ok 1 - parse :string
+[LibXML]     ok 2 - new public
+[LibXML] ok 7 - LibXML::Dtd
+[LibXML] # Subtest: LibXML::Element
+[LibXML]     1..9
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML] ok 8 - LibXML::Element
+[LibXML] # Subtest: LibXML::InputCallback
+[LibXML]     1..1
+[LibXML]     ok 1 - 
+[LibXML] ok 9 - LibXML::InputCallback
+[LibXML] # Subtest: LibXML::Namespace
+[LibXML]     1..12
+[LibXML]     ok 1 - declaredURI
+[LibXML]     ok 2 - declaredPrefix
+[LibXML]     ok 3 - nodeName
+[LibXML]     ok 4 - nodeName
+[LibXML]     ok 5 - localName
+[LibXML]     ok 6 - getValue
+[LibXML]     ok 7 - value
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - unique_key sanity
+[LibXML]     ok 11 - Unique key match
+[LibXML]     ok 12 - Unique key non-match
+[LibXML] ok 10 - LibXML::Namespace
+[LibXML] # Subtest: LibXML::Node
+[LibXML]     1..14
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - getBaseURI
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - ast round-trip
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML] ok 11 - LibXML::Node
+[LibXML] # Subtest: LibXML::Parser
+[LibXML]     1..103
+[LibXML]     ok 1 - (LibXML) html default value
+[LibXML]     ok 2 - (LibXML) set/get of html option
+[LibXML]     ok 3 - (LibXML) restore of html option
+[LibXML]     ok 4 - (LibXML) no-html default value
+[LibXML]     ok 5 - (LibXML) set/get of no-html option
+[LibXML]     ok 6 - (LibXML) restore of no-html option
+[LibXML]     ok 7 - (LibXML) line-numbers default value
+[LibXML]     ok 8 - (LibXML) set/get of line-numbers option
+[LibXML]     ok 9 - (LibXML) restore of line-numbers option
+[LibXML]     ok 10 - # SKIP does the reader really handle line-numbers option?
+[LibXML]     ok 11 - (LibXML) set/get of enc option
+[LibXML]     ok 12 - (LibXML) restore of enc option
+[LibXML]     ok 13 - reader 'enc' option (read-only)
+[LibXML]     ok 14 - (LibXML) recover default value
+[LibXML]     ok 15 - (LibXML) set/get of recover option
+[LibXML]     ok 16 - (LibXML) restore of recover option
+[LibXML]     ok 17 - (Reader) recover default value
+[LibXML]     ok 18 - (Reader) set/get of recover option
+[LibXML]     ok 19 - (Reader) restore of recover option
+[LibXML]     ok 20 - (LibXML) expand-entities default value
+[LibXML]     ok 21 - (LibXML) set/get of expand-entities option
+[LibXML]     ok 22 - (LibXML) restore of expand-entities option
+[LibXML]     ok 23 - (Reader) expand-entities default value
+[LibXML]     ok 24 - (Reader) set/get of expand-entities option
+[LibXML]     ok 25 - (Reader) restore of expand-entities option
+[LibXML]     ok 26 - (LibXML) complete-attributes default value
+[LibXML]     ok 27 - (LibXML) set/get of complete-attributes option
+[LibXML]     ok 28 - (LibXML) restore of complete-attributes option
+[LibXML]     ok 29 - (Reader) complete-attributes default value
+[LibXML]     ok 30 - (Reader) set/get of complete-attributes option
+[LibXML]     ok 31 - (Reader) restore of complete-attributes option
+[LibXML]     ok 32 - (LibXML) validation default value
+[LibXML]     ok 33 - (LibXML) set/get of validation option
+[LibXML]     ok 34 - (LibXML) restore of validation option
+[LibXML]     ok 35 - (Reader) validation default value
+[LibXML]     ok 36 - (Reader) set/get of validation option
+[LibXML]     ok 37 - (Reader) restore of validation option
+[LibXML]     ok 38 - (LibXML) suppress-errors default value
+[LibXML]     ok 39 - (LibXML) set/get of suppress-errors option
+[LibXML]     ok 40 - (LibXML) restore of suppress-errors option
+[LibXML]     ok 41 - (Reader) suppress-errors default value
+[LibXML]     ok 42 - (Reader) set/get of suppress-errors option
+[LibXML]     ok 43 - (Reader) restore of suppress-errors option
+[LibXML]     ok 44 - (LibXML) suppress-warnings default value
+[LibXML]     ok 45 - (LibXML) set/get of suppress-warnings option
+[LibXML]     ok 46 - (LibXML) restore of suppress-warnings option
+[LibXML]     ok 47 - (Reader) suppress-warnings default value
+[LibXML]     ok 48 - (Reader) set/get of suppress-warnings option
+[LibXML]     ok 49 - (Reader) restore of suppress-warnings option
+[LibXML]     ok 50 - (LibXML) pedantic-parser default value
+[LibXML]     ok 51 - (LibXML) set/get of pedantic-parser option
+[LibXML]     ok 52 - (LibXML) restore of pedantic-parser option
+[LibXML]     ok 53 - (Reader) pedantic-parser default value
+[LibXML]     ok 54 - (Reader) set/get of pedantic-parser option
+[LibXML]     ok 55 - (Reader) restore of pedantic-parser option
+[LibXML]     ok 56 - (LibXML) no-blanks default value
+[LibXML]     ok 57 - (LibXML) set/get of no-blanks option
+[LibXML]     ok 58 - (LibXML) restore of no-blanks option
+[LibXML]     ok 59 - (Reader) no-blanks default value
+[LibXML]     ok 60 - (Reader) set/get of no-blanks option
+[LibXML]     ok 61 - (Reader) restore of no-blanks option
+[LibXML]     ok 62 - (LibXML) blanks default value
+[LibXML]     ok 63 - (LibXML) set/get of blanks option
+[LibXML]     ok 64 - (LibXML) restore of blanks option
+[LibXML]     ok 65 - (Reader) blanks default value
+[LibXML]     ok 66 - (Reader) set/get of blanks option
+[LibXML]     ok 67 - (Reader) restore of blanks option
+[LibXML]     ok 68 - (LibXML) expand-xinclude default value
+[LibXML]     ok 69 - (LibXML) set/get of expand-xinclude option
+[LibXML]     ok 70 - (LibXML) restore of expand-xinclude option
+[LibXML]     ok 71 - (Reader) expand-xinclude default value
+[LibXML]     ok 72 - (Reader) set/get of expand-xinclude option
+[LibXML]     ok 73 - (Reader) restore of expand-xinclude option
+[LibXML]     ok 74 - (LibXML) xinclude-nodes default value
+[LibXML]     ok 75 - (LibXML) set/get of xinclude-nodes option
+[LibXML]     ok 76 - (LibXML) restore of xinclude-nodes option
+[LibXML]     ok 77 - (Reader) xinclude-nodes default value
+[LibXML]     ok 78 - (Reader) set/get of xinclude-nodes option
+[LibXML]     ok 79 - (Reader) restore of xinclude-nodes option
+[LibXML]     ok 80 - (LibXML) clean-namespaces default value
+[LibXML]     ok 81 - (LibXML) set/get of clean-namespaces option
+[LibXML]     ok 82 - (LibXML) restore of clean-namespaces option
+[LibXML]     ok 83 - (Reader) clean-namespaces default value
+[LibXML]     ok 84 - (Reader) set/get of clean-namespaces option
+[LibXML]     ok 85 - (Reader) restore of clean-namespaces option
+[LibXML]     ok 86 - (LibXML) cdata default value
+[LibXML]     ok 87 - (LibXML) set/get of cdata option
+[LibXML]     ok 88 - (LibXML) restore of cdata option
+[LibXML]     ok 89 - (Reader) cdata default value
+[LibXML]     ok 90 - (Reader) set/get of cdata option
+[LibXML]     ok 91 - (Reader) restore of cdata option
+[LibXML]     ok 92 - (LibXML) base-fix default value
+[LibXML]     ok 93 - (LibXML) set/get of base-fix option
+[LibXML]     ok 94 - (LibXML) restore of base-fix option
+[LibXML]     ok 95 - (Reader) base-fix default value
+[LibXML]     ok 96 - (Reader) set/get of base-fix option
+[LibXML]     ok 97 - (Reader) restore of base-fix option
+[LibXML]     ok 98 - (LibXML) huge default value
+[LibXML]     ok 99 - (LibXML) set/get of huge option
+[LibXML]     ok 100 - (LibXML) restore of huge option
+[LibXML]     ok 101 - (Reader) huge default value
+[LibXML]     ok 102 - (Reader) set/get of huge option
+[LibXML]     ok 103 - (Reader) restore of huge option
+[LibXML] ok 12 - LibXML::Parser
+[LibXML] # Subtest: LibXML::PI
+[LibXML]     1..2
+[LibXML]     ok 1 - setData (hash)
+[LibXML]     ok 2 - setData (hash)
+[LibXML] ok 13 - LibXML::PI
+[LibXML] # Subtest: LibXML::RegExp
+[LibXML]     1..2
+[LibXML]     ok 1 - matches
+[LibXML]     ok 2 - isDeterministic
+[LibXML] ok 14 - LibXML::RegExp
+[LibXML] # Subtest: LibXML::XPath::Expression
+[LibXML]     1..1
+[LibXML]     ok 1 - 
+[LibXML] ok 15 - LibXML::XPath::Expression
+[LibXML] # Subtest: LibXML::Text
+[LibXML]     1..22
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - 
+[LibXML]     ok 3 - 
+[LibXML]     ok 4 - 
+[LibXML]     ok 5 - 
+[LibXML]     ok 6 - 
+[LibXML]     ok 7 - 
+[LibXML]     ok 8 - 
+[LibXML]     ok 9 - 
+[LibXML]     ok 10 - 
+[LibXML]     ok 11 - 
+[LibXML]     ok 12 - 
+[LibXML]     ok 13 - 
+[LibXML]     ok 14 - 
+[LibXML]     ok 15 - 
+[LibXML]     ok 16 - 
+[LibXML]     ok 17 - 
+[LibXML]     ok 18 - 
+[LibXML]     ok 19 - 
+[LibXML]     ok 20 - 
+[LibXML]     ok 21 - 
+[LibXML]     ok 22 - 
+[LibXML] ok 16 - LibXML::Text
+[LibXML] # Subtest: LibXML::XPath::Context
+[LibXML]     1..6
+[LibXML]     ok 1 - 
+[LibXML]     ok 2 - text matches /^Bar/
+[LibXML]     ok 3 - text matches /^Bar/
+[LibXML]     ok 4 - var lookup name
+[LibXML]     ok 5 - var option argument
+[LibXML]     ok 6 - var lookup data
+[LibXML] ok 17 - LibXML::XPath::Context
+[LibXML] # Subtest: LibXML::Raw
+[LibXML]     1..1
+[LibXML]     ok 1 - 
+[LibXML] ok 18 - LibXML::Raw
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/issue#025.t
+[LibXML] 1..1
+[LibXML] ok 1 - 
+[LibXML] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/f71935ca97e5f8534e7be554c5956a92a2f77c89.tar.gz/LibXML-0.11.3 t/issue#095.t
+[LibXML] 1..1
+[LibXML] # Subtest: did we throws-like X::TypeCheck::Binding::Parameter?
+[LibXML]     1..2
+[LibXML]     ok 1 - code dies
+[LibXML]     ok 2 - right exception type (X::TypeCheck::Binding::Parameter)
+[LibXML] ok 1 - did we throws-like X::TypeCheck::Binding::Parameter?
+===> Testing [FAIL]: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>
+[LibXML] Failed to get passing tests, but continuing with --force-test
+===> Installing: LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>
+===> Install [OK] for LibXML:ver<0.11.3>:auth<zef:dwarring>:api<0.11>

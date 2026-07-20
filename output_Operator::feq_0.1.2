@@ -1,0 +1,28 @@
+===> Searching for: Operator::feq
+===> Found: Operator::feq:ver<0.1.2>:auth<zef:tony-o> [via Zef::Repository::Ecosystems<fez>]
+[Operator::feq] Command: curl --silent -L -o /blin/data/zef-data/tmp/1784520104.283988.8518.567894603966/9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz https://360.zef.pm/O/PE/OPERATOR_FEQ/9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz
+===> Fetching [OK]: Operator::feq:ver<0.1.2>:auth<zef:tony-o> to /blin/data/zef-data/tmp/1784520104.283988.8518.567894603966/9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz
+[Operator::feq] Command: tar -t -f ./9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz
+[Operator::feq] Command: tar -xvf ./9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz -C ../9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz
+===> Extraction [OK]: Operator::feq to /blin/data/zef-data/tmp/9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz
+===> Testing: Operator::feq:ver<0.1.2>:auth<zef:tony-o>
+[Operator::feq] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz t/basic.t
+[Operator::feq] Potential difficulties:
+[Operator::feq]     Declaring role 'Operator::feq' inside an enclosing module of the same
+[Operator::feq]     name silently replaces the module in the outer stash. This is legacy
+[Operator::feq]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[Operator::feq]     installs the role as a nested package instead. Rewrite as 'unit role
+[Operator::feq]     Operator::feq;' in its own file (or otherwise avoid the
+[Operator::feq]     module+same-named-role collision) to work the same way on either
+[Operator::feq]     revision.
+[Operator::feq]     at /blin/data/zef-data/tmp/9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz/lib/Operator/feq.pm6 (Operator::feq):3
+[Operator::feq] 1..7
+[Operator::feq] Dynamic variable $*FEQLIB not found
+[Operator::feq]   in block  at /blin/data/zef-data/tmp/9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz/lib/Operator/feq.pm6 (Operator::feq) line 14
+[Operator::feq]   in sub infix:<feq> at /blin/data/zef-data/tmp/9155a9d9995b11856fe77bae9c67a3c3cdd4a691.tar.gz/lib/Operator/feq.pm6 (Operator::feq) line 12
+[Operator::feq]   in block <unit> at t/basic.t line 11
+[Operator::feq] # You planned 7 tests, but ran 0
+===> Testing [FAIL]: Operator::feq:ver<0.1.2>:auth<zef:tony-o>
+[Operator::feq] Failed to get passing tests, but continuing with --force-test
+===> Installing: Operator::feq:ver<0.1.2>:auth<zef:tony-o>
+===> Install [OK] for Operator::feq:ver<0.1.2>:auth<zef:tony-o>

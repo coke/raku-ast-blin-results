@@ -1,0 +1,25 @@
+===> Searching for: Injector
+===> Found: Injector:ver<0.0.1>:auth<zef:FCO> [via Zef::Repository::Ecosystems<fez>]
+[Injector] Command: curl --silent -L -o /blin/data/zef-data/tmp/1784539049.456266.5769.916772112959/c5d8945aa0ebdfc89690d16f8841360faffe4299.tar.gz https://360.zef.pm/I/NJ/INJECTOR/c5d8945aa0ebdfc89690d16f8841360faffe4299.tar.gz
+===> Fetching [OK]: Injector:ver<0.0.1>:auth<zef:FCO> to /blin/data/zef-data/tmp/1784539049.456266.5769.916772112959/c5d8945aa0ebdfc89690d16f8841360faffe4299.tar.gz
+[Injector] Command: tar -t -f ./c5d8945aa0ebdfc89690d16f8841360faffe4299.tar.gz
+[Injector] Command: tar -xvf ./c5d8945aa0ebdfc89690d16f8841360faffe4299.tar.gz -C ../c5d8945aa0ebdfc89690d16f8841360faffe4299.tar.gz
+===> Extraction [OK]: Injector to /blin/data/zef-data/tmp/c5d8945aa0ebdfc89690d16f8841360faffe4299.tar.gz
+===> Testing: Injector:ver<0.0.1>:auth<zef:FCO>
+[Injector] Command: /tmp/whateverable/rakudo-moar/467694501b8d5a785767feeabbbdb64922d50f6d/bin/perl6 -I /blin/data/zef-data/tmp/c5d8945aa0ebdfc89690d16f8841360faffe4299.tar.gz/Injector-0.0.1 t/02-test.rakutest
+[Injector] not ok 1 - 
+[Injector] # Failed test at t/02-test.rakutest line 30
+[Injector] Cannot look up attributes in a C1 type object. Did you forget a '.new'?
+[Injector]   in block <unit> at t/02-test.rakutest line 31
+[Injector] Saw 1 occurrence of deprecated code.
+[Injector] ================================================================================
+[Injector] Method perl (from Mu) seen at:
+[Injector]   /blin/data/zef-data/tmp/c5d8945aa0ebdfc89690d16f8841360faffe4299.tar.gz/Injector-0.0.1/lib/Injector/Storage.rakumod (Injector::Storage), lines 10,14
+[Injector] Please use raku instead.
+[Injector] --------------------------------------------------------------------------------
+[Injector] Please contact the author to have these occurrences of deprecated code
+[Injector] adapted, so that this message will disappear!
+===> Testing [FAIL]: Injector:ver<0.0.1>:auth<zef:FCO>
+[Injector] Failed to get passing tests, but continuing with --force-test
+===> Installing: Injector:ver<0.0.1>:auth<zef:FCO>
+===> Install [OK] for Injector:ver<0.0.1>:auth<zef:FCO>
