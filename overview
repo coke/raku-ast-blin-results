@@ -56,7 +56,7 @@ Actionable – OK
 Actor – OK
 Adventure::Engine – AlwaysFail
 Adverb::Eject – OK
-Air – Unknown
+Air – AlwaysFail
 Air-Plugin-RakuDoc – Unknown
 Air::Examples – Unknown
 Air::Play – Unknown
@@ -105,7 +105,7 @@ Amazon::DynamoDB – OK
 Anolis – OK
 Apache::LogFormat – OK
 App::APOTD – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-App::AizuOnlineJudge – Unknown
+App::AizuOnlineJudge – OK
 App::Assixt – Unknown
 App::Backup – AlwaysFail
 App::Browser – OK
@@ -128,8 +128,8 @@ App::IRC::Log – OK
 App::InstallerMaker::WiX – OK
 App::JSONDiff – OK
 App::Lorea – AlwaysFail
-App::MPD::AutoQueue – Unknown
-App::MPD::Notify – Unknown
+App::MPD::AutoQueue – OK
+App::MPD::Notify – OK
 App::Mi6 – Unknown
 App::Miroku – OK
 App::MoarVM::ConfprogCompiler – AlwaysFail
@@ -154,7 +154,7 @@ App::Raku::Log – Unknown
 App::RakuCron – AlwaysFail
 App::Rakuman – OK
 App::SerializerPerf – OK
-App::ShowPath – Unknown
+App::ShowPath – AlwaysFail
 App::SixLib – OK
 App::Squashathons – OK
 App::Stouch – OK
@@ -237,14 +237,14 @@ Automata::Cellular – OK
 Avolution::Emoji – OK
 Avro – OK
 BDD::Behave – ZefFailure
-BDD::Behave::Playwright – Unknown
+BDD::Behave::Playwright – AlwaysFail
 BSON – OK
 BSON::Simple – OK
 BTree – OK
 Backtrace::AsHTML – OK
 Backtrace::Files – OK
 Badger – OK
-Bailador – Unknown
+Bailador – AlwaysFail
 Bailador::Plugin::NamedQueries – Unknown
 Base58 – OK
 Base64 – OK
@@ -322,7 +322,7 @@ Cache::LRU – OK
 Cache::Memcached – AlwaysFail
 Cairo – OK
 Calculator – OK
-Calendar – Unknown
+Calendar – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 CamelPub – OK
 Canoe – OK
 Carp – OK
@@ -344,12 +344,12 @@ ClassicalChinese – OK
 Clean – OK
 Clifford – AlwaysFail
 Clipboard – OK
-Clu – Unknown
+Clu – AlwaysFail
 Cmark – AlwaysFail
 Code::Coverable – AlwaysFail
 Code::Coverage – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 CodeUnit – OK
-Cofra – Unknown
+Cofra – AlwaysFail
 Collection – Unknown
 Collection-Plugin-Development – Unknown
 Collection-Plugins – Unknown
@@ -399,10 +399,10 @@ Config::INI – OK
 Config::Ini – OK
 Config::JSON – OK
 Config::Netrc – OK
-Config::Parser::NetRC – Unknown
-Config::Parser::json – Unknown
-Config::Parser::toml – Unknown
-Config::Parser::yaml – Unknown
+Config::Parser::NetRC – AlwaysFail
+Config::Parser::json – AlwaysFail
+Config::Parser::toml – AlwaysFail
+Config::Parser::yaml – AlwaysFail
 Config::Simple – OK
 Config::TOML – OK
 Configuration – OK
@@ -425,7 +425,7 @@ CortexJS – OK
 Crane – OK
 Cro-HTTP-Middleware-GoatCounter – OK
 Cro::APIToken – OK
-Cro::APIToken::Store::Pg – Unknown
+Cro::APIToken::Store::Pg – AlwaysFail
 Cro::CBOR – OK
 Cro::Core – OK
 Cro::FCGI – Flapper
@@ -434,8 +434,8 @@ Cro::HTTP – OK
 Cro::HTTP::BodyParser::JSONClass – AlwaysFail
 Cro::HTTP::BodySerializerJSONClass – AlwaysFail
 Cro::HTTP::RouterUtils – AlwaysFail
-Cro::HTTP::Session::MySQL – Unknown
-Cro::HTTP::Session::Pg – Unknown
+Cro::HTTP::Session::MySQL – AlwaysFail
+Cro::HTTP::Session::Pg – AlwaysFail
 Cro::HTTP::Session::Red – Unknown
 Cro::HTTP::Session::Redis – AlwaysFail
 Cro::HTTP::Session::SQLite – OK
@@ -456,9 +456,9 @@ Cromponent – OK
 Cromtit – OK
 Crust – AlwaysFail
 Crust::Handler::SCGI – OK
-Crust::Middleware::Session – Unknown
+Crust::Middleware::Session – AlwaysFail
 Crust::Middleware::Session::Store::DBIish – Unknown
-Crust::Middleware::Syslog – Unknown
+Crust::Middleware::Syslog – OK
 Crypt::AnyPasswordHash – OK
 Crypt::Argon2 – OK
 Crypt::Bcrypt – OK
@@ -488,7 +488,7 @@ DB::ORM::Quicky – OK
 DB::Pg – AlwaysFail
 DB::Rscs – AlwaysFail
 DB::SQLite – AlwaysFail
-DB::Xoos – Unknown
+DB::Xoos – AlwaysFail
 DB::Xoos::MySQL – Unknown
 DB::Xoos::Pg – Unknown
 DB::Xoos::SQLite – Unknown
@@ -629,7 +629,7 @@ Distribution::Builder::Cmake – AlwaysFail
 Distribution::Builder::MakeFromJSON – OK
 Distribution::Common – OK
 Distribution::Common::Remote – OK
-Distribution::Extension::Updater – Unknown
+Distribution::Extension::Updater – OK
 Distribution::Resources::Menu – OK
 Do123 – AlwaysFail
 Doc::Executable – OK
@@ -767,7 +767,7 @@ Fortran::Grammar – AlwaysFail
 Fortune – OK
 ForwardIterables – OK
 French – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-Frinfon – Unknown
+Frinfon – AlwaysFail
 Function::Validation – OK
 Functional::LinkedList – OK
 Functional::Queue – OK
@@ -781,7 +781,7 @@ GEOS – AlwaysFail
 GGE – AlwaysFail
 GIO – Unknown
 GLFW – OK
-GLib – Unknown
+GLib – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 GNU::Time – OK
 GOTO – Unknown
 GPGME – AlwaysFail
@@ -854,7 +854,7 @@ Gnome::Graphene – AlwaysFail
 Gnome::Gsk4 – AlwaysFail
 Gnome::Gtk3 – AlwaysFail
 Gnome::Gtk3::Glade – AlwaysFail
-Gnome::Gtk4 – Unknown
+Gnome::Gtk4 – ZefFailure
 Gnome::N – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 Gnome::Pango – AlwaysFail
 GnomeTools – Unknown
@@ -964,16 +964,16 @@ Hash::int – OK
 Hash::str – OK
 Hashids – AlwaysFail
 Heap – AlwaysFail
-Hematite – Unknown
+Hematite – AlwaysFail
 Hematite::Middleware::Session – Unknown
 HexDump::Tiny – OK
-Hey – Unknown
+Hey – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 Highlight::Terminal – OK
 Hiker – AlwaysFail
 Hilite – OK
 Hilite::Simple – OK
 Hinges – AlwaysFail
-Holidays::Miscellaneous – Unknown
+Holidays::Miscellaneous – OK
 Holidays::US::Federal – OK
 HomoGlypher – OK
 HowToUseModuleResources – OK
@@ -1015,12 +1015,12 @@ IRC::Art – AlwaysFail
 IRC::Async – OK
 IRC::Channel::Log – OK
 IRC::Client – InstallableButUntested
-IRC::Client::Plugin::DiceRolls – Unknown
+IRC::Client::Plugin::DiceRolls – OK
 IRC::Client::Plugin::Factoid – AlwaysFail
 IRC::Client::Plugin::Github – Unknown
 IRC::Client::Plugin::Ignore – OK
 IRC::Client::Plugin::Logger – OK
-IRC::Client::Plugin::NickServ – Unknown
+IRC::Client::Plugin::NickServ – OK
 IRC::Client::Plugin::Rakkable – Unknown
 IRC::Client::Plugin::Reminders – OK
 IRC::Client::Plugin::UrlTitle – AlwaysFail
@@ -1106,7 +1106,7 @@ JSON::Pretty::Sorted – AlwaysFail
 JSON::RPC – OK
 JSON::RepositoryEvent – OK
 JSON::Schema – OK
-JSON::Stream – Unknown
+JSON::Stream – AlwaysFail
 JSON::Tiny – OK
 JSON::Unmarshal – OK
 JSON::WebToken – AlwaysFail
@@ -1120,7 +1120,7 @@ JavaScript::D3 – OK
 JavaScript::Google::Charts – OK
 JavaScript::SpiderMonkey – AlwaysFail
 JsonC – AlwaysFail
-Jupyter::Chatbook – Unknown
+Jupyter::Chatbook – AlwaysFail
 Jupyter::Converter – OK
 Jupyter::Kernel – ZefFailure
 KHPH – OK
@@ -1156,12 +1156,12 @@ LLM::Chat – OK
 LLM::Chat – OK
 LLM::Classifiers::Emotions – OK
 LLM::Containerization – CyclicDependency
-LLM::DWIM – Unknown
+LLM::DWIM – OK
 LLM::Data::ContentTag – OK
-LLM::Data::Inference – Unknown
+LLM::Data::Inference – OK
 LLM::Data::Pipeline – OK
 LLM::Functions – OK
-LLM::Graph – Unknown
+LLM::Graph – AlwaysFail
 LLM::Prompts – OK
 LLM::Resources – Unknown
 LLM::RetrievalAugmentedGeneration – CyclicDependency
@@ -1265,7 +1265,7 @@ Logger – OK
 Logger::ZMQ – AlwaysFail
 Logic::Ternary – OK
 Lumberjack – OK
-Lumberjack::Application – Unknown
+Lumberjack::Application – AlwaysFail
 Lumberjack::Config::JSON – AlwaysFail
 Lumberjack::Dispatcher::EventSource – AlwaysFail
 Lumberjack::Dispatcher::Syslog – OK
@@ -1283,7 +1283,7 @@ MIME::QuotedPrint – OK
 MIME::Types – OK
 ML::AssociationRuleLearning – Unknown
 ML::Clustering – CyclicDependency
-ML::FindTextualAnswer – Unknown
+ML::FindTextualAnswer – OK
 ML::LatentSemanticAnalyzer – CyclicDependency
 ML::NLPTemplateEngine – Unknown
 ML::ROCFunctions – OK
@@ -1302,7 +1302,7 @@ MUGS::UI::WebSimple – Unknown
 MVC::Keayl – Unknown
 MVC::Keayl::Admin – Unknown
 Mac::Applications::List – AlwaysFail
-Mac::Battery::Alerter – Unknown
+Mac::Battery::Alerter – AlwaysFail
 MacOS::NativeLib – OK
 Magento – OK
 MagickWand – OK
@@ -1316,9 +1316,9 @@ Map::Match – OK
 Map::Ordered – OK
 Markdown::Grammar – OK
 Markit – OK
-Markup::Calendar – Unknown
+Markup::Calendar – OK
 Marpa – OK
-Marrow – Unknown
+Marrow – AlwaysFail
 Masquerade – AlwaysFail
 Math::Angle – OK
 Math::Arrow – OK
@@ -1358,7 +1358,7 @@ Math::Libgsl::Permutation – AlwaysFail
 Math::Libgsl::Polynomial – AlwaysFail
 Math::Libgsl::QuasiRandom – AlwaysFail
 Math::Libgsl::Random – AlwaysFail
-Math::Libgsl::RandomDistribution – Unknown
+Math::Libgsl::RandomDistribution – AlwaysFail
 Math::Libgsl::RunningStatistics – AlwaysFail
 Math::Libgsl::Series – AlwaysFail
 Math::Libgsl::Sort – AlwaysFail
@@ -1394,7 +1394,7 @@ Math::Vector3D – OK
 Math::Zeckendorf – OK
 Mathematica::Serializer – OK
 Matrix::Bot – OK
-Matrix::Bot::Plugin::AutoAcceptInvites – Unknown
+Matrix::Bot::Plugin::AutoAcceptInvites – OK
 Matrix::Client – AlwaysFail
 MeCab – CyclicDependency
 Memoize – OK
@@ -1417,7 +1417,7 @@ MinG – OK
 Mint – Unknown
 Mmap::Native – AlwaysFail
 MoarVM::Bytecode – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-MoarVM::Profile – Unknown
+MoarVM::Profile – AlwaysFail
 ModelDB – AlwaysFail
 Modf – OK
 Modular – AlwaysFail
@@ -1498,7 +1498,7 @@ Net::protoent – AlwaysFail
 Net::servent – AlwaysFail
 Netstring – OK
 Node::Ethereum::Keccak256::Native – OK
-Node::Ethereum::KeyStore::V3 – Unknown
+Node::Ethereum::KeyStore::V3 – AlwaysFail
 Node::Ethereum::RLP – OK
 Noise::Simplex – OK
 Noise::Simplex::Native – OK
@@ -1511,16 +1511,16 @@ Number::More – OK
 Numeric::Nearest – AlwaysFail
 Numeric::Pack – OK
 OAuth2::Client::Google – OK
-OEIS – Unknown
+OEIS – AlwaysFail
 OLE::Storage_Lite – OK
 ONNX::Native – OK
 ONNX::Runtime – AlwaysFail
 OO::Actors – OK
 OO::Monitors – OK
-OO::Plugin – Unknown
+OO::Plugin – AlwaysFail
 OO::Schema – AlwaysFail
 ORM::ActiveRecord – AlwaysFail
-ORM::Factory – Unknown
+ORM::Factory – AlwaysFail
 Object::Container – OK
 Object::Delayed – AlwaysFail
 Object::Permission – OK
@@ -1599,12 +1599,12 @@ PB-Lottery – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PBKDF2 – AlwaysFail
 PDF – OK
 PDF::API6 – Unknown
-PDF::Class – Unknown
+PDF::Class – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Combiner – Unknown
 PDF::Content – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Document – Unknown
 PDF::Extract – AlwaysFail
-PDF::Font::Loader – Unknown
+PDF::Font::Loader – AlwaysFail
 PDF::Font::Loader::CSS – Unknown
 PDF::Font::Loader::HarfBuzz – Unknown
 PDF::Grammar – OK
@@ -1617,7 +1617,7 @@ PDF::Native – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Tags – Unknown
 PDF::Tags::Reader – Unknown
 PDF::To::Cairo – Unknown
-PDF::Writer – Unknown
+PDF::Writer – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PKCS5 – AlwaysFail
 PKafka – OK
 POFile – OK
@@ -1697,7 +1697,7 @@ Pod::To::Latex – AlwaysFail
 Pod::To::Man – OK
 Pod::To::Markdown – Unknown
 Pod::To::PDF – OK
-Pod::To::PDF::Lite – Unknown
+Pod::To::PDF::Lite – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 Pod::To::Pager – OK
 Pod::To::Raku – OK
 Pod::TreeWalker – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
@@ -1911,7 +1911,7 @@ Slang::Subscripts – OK
 Slang::Tuxic – OK
 Slang:Date – AlwaysFail
 Slangify – OK
-Slangify::Tutorial – Unknown
+Slangify::Tutorial – OK
 Slippy::Semilist – AlwaysFail
 Smack – AlwaysFail
 Smooth::Numbers – OK
@@ -1922,31 +1922,31 @@ Sort::Naturally – OK
 Soundn::Tina – OK
 Spanish – AlwaysFail
 Sparky – Unknown
-Sparky-Job-Api – Unknown
+Sparky-Job-Api – OK
 Sparky::Plugin::Hello – Unknown
 Sparky::Plugin::Notify::Email – Unknown
 Sparky::Plugin::Notify::Telegram – Unknown
 Sparrow6 – OK
-Sparrow6::Rakudo::Install – Unknown
+Sparrow6::Rakudo::Install – OK
 SparrowCI – OK
 SparrowCI - super fun and flexible CI system with many programming languages support – AlwaysFail
 SparrowCI-SandBox – OK
-Sparrowdo – Unknown
-Sparrowdo::Archive – Unknown
-Sparrowdo::Azure::Web::Cert – Unknown
-Sparrowdo::Chef::Client – Unknown
+Sparrowdo – OK
+Sparrowdo::Archive – OK
+Sparrowdo::Azure::Web::Cert – OK
+Sparrowdo::Chef::Client – OK
 Sparrowdo::Chef::Manager – Unknown
 Sparrowdo::Cordova::OSx::Build – Unknown
 Sparrowdo::Cordova::OSx::Fortify – Unknown
 Sparrowdo::Cpanm::GitHub – Unknown
 Sparrowdo::Cpm – Unknown
-Sparrowdo::Goss – Unknown
+Sparrowdo::Goss – OK
 Sparrowdo::Nginx – Unknown
 Sparrowdo::Prometheus – Unknown
 Sparrowdo::Rakudo – Unknown
-Sparrowdo::RemoteFile – Unknown
+Sparrowdo::RemoteFile – OK
 Sparrowdo::Ruby::Bundler – Unknown
-Sparrowdo::Rvm – Unknown
+Sparrowdo::Rvm – AlwaysFail
 Sparrowdo::Sparrow::Update – Unknown
 Sparrowdo::VSTS::YAML::Angular::Build – Unknown
 Sparrowdo::VSTS::YAML::Artifact – Unknown
@@ -2038,7 +2038,7 @@ TXN::Remarshal – ZefFailure
 TagLibC – OK
 Task::Galaxy – MissingDependency
 Task::Popular – OK
-Teddy Bear – Unknown
+Teddy Bear – OK
 Tee – OK
 Telegram – OK
 TelegramBot – OK
@@ -2212,10 +2212,10 @@ Today – OK
 Toi – AlwaysFail
 Token::Foreign – OK
 Tokenizers – OK
-Tomtit – Unknown
+Tomtit – OK
 Tomtit::Profile::Python – OK
-Tomty – Unknown
-TooLoo – Unknown
+Tomty – OK
+TooLoo – AlwaysFail
 Touch – MissingDependency
 Trait::Enum – AlwaysFail
 Trait::Env – OK
@@ -2291,7 +2291,7 @@ Version::RubyGems – OK
 Version::Semantic – OK
 Version::Semver – OK
 Version::Semverish – OK
-Vikna – Unknown
+Vikna – AlwaysFail
 Vips::Native – OK
 Vroom::Reveal – AlwaysFail
 W3C::DOM – OK
@@ -2302,7 +2302,7 @@ WWW--CloudHosting--Hetzner – OK
 WWW::CloudHosting::Hetzner – AlwaysFail
 WWW::DuckDuckGo – OK
 WWW::GCloud – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-WWW::GCloud::API::Storage – Unknown
+WWW::GCloud::API::Storage – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 WWW::GCloud::API::Vision – Unknown
 WWW::Gemini – OK
 WWW::HorizonsEphemerisSystem – OK
@@ -2311,7 +2311,7 @@ WWW::MermaidInk – OK
 WWW::MistralAI – OK
 WWW::Ollama – OK
 WWW::OpenAI – OK
-WWW::P6lert – Unknown
+WWW::P6lert – AlwaysFail
 WWW::PaLM – OK
 WWW::Playwright – AlwaysFail
 WWW::SilverGoldBull – OK
@@ -2326,7 +2326,7 @@ Web::App – OK
 Web::App::Ballet – OK
 Web::App::MVC – OK
 Web::Cache – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-Web::RF – Unknown
+Web::RF – OK
 Web::Scraper – ZefFailure
 Web::Template – OK
 WebDriver – OK
@@ -2352,7 +2352,7 @@ WebSocket – AlwaysFail
 Webservice::Lastfm – AlwaysFail
 Whateverable – Unknown
 WhereList – OK
-Wikidata::API – Unknown
+Wikidata::API – AlwaysFail
 Win32::DrivesAndTypes – AlwaysFail
 Win32::Registry – OK
 Windows::Test – Unknown
@@ -2404,11 +2404,11 @@ are – OK
 as-cli-arguments – OK
 auto-dynamic – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 bamboo – AlwaysFail
-bird – Unknown
+bird – OK
 caelum – OK
 cmark::Simple – AlwaysFail
 colomon::App::TagTools – OK
-content-storage-cli – Unknown
+content-storage-cli – OK
 cro – ZefFailure
 delete-old-until-size – OK
 deredere – OK
@@ -2455,7 +2455,7 @@ raku-mailgun – OK
 raku-pod-extraction – Unknown
 raku-pod-from-cache – OK
 rakudoc – OK
-rakudoc2man – Unknown
+rakudoc2man – AlwaysFail
 rawstr4c – OK
 roundrobin-slip – OK
 sake – AlwaysFail
