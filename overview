@@ -112,7 +112,7 @@ App::Browser – OK
 App::ByWord – OK
 App::CPAN – AlwaysFail
 App::Cal – OK
-App::Crag – Unknown
+App::Crag – AlwaysFail
 App::Doc-N-Save – OK
 App::Ebread – MissingDependency
 App::Ecosystems – OK
@@ -176,7 +176,7 @@ App::pixel-pick – AlwaysFail
 App::pixel::pick – AlwaysFail
 App::pixelpick – AlwaysFail
 App::redpanda – OK
-App::samaki – Unknown
+App::samaki – AlwaysFail
 App::snippet – AlwaysFail
 App::termie – OK
 App::tmeta – OK
@@ -491,7 +491,7 @@ DB::SQLite – AlwaysFail
 DB::Xoos – AlwaysFail
 DB::Xoos::MySQL – OK
 DB::Xoos::Pg – OK
-DB::Xoos::SQLite – Unknown
+DB::Xoos::SQLite – AlwaysFail
 DBDish::ODBC – OK
 DBI::Async – OK
 DBIish – AlwaysFail
@@ -749,7 +749,7 @@ Font::FreeType – OK
 Font::QueryInfo – AlwaysFail
 FontConfig – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 FontConverter – AlwaysFail
-FontFactory::Type1 – Unknown
+FontFactory::Type1 – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 Foo – OK
 Foo:: Foo – UnhandledException
 Foo::
@@ -1285,7 +1285,7 @@ ML::AssociationRuleLearning – OK
 ML::Clustering – CyclicDependency
 ML::FindTextualAnswer – OK
 ML::LatentSemanticAnalyzer – CyclicDependency
-ML::NLPTemplateEngine – Unknown
+ML::NLPTemplateEngine – OK
 ML::ROCFunctions – OK
 ML::SparseMatrixRecommender – CyclicDependency
 ML::TriesWithFrequencies – OK
@@ -1600,13 +1600,13 @@ PBKDF2 – AlwaysFail
 PDF – OK
 PDF::API6 – Unknown
 PDF::Class – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-PDF::Combiner – Unknown
+PDF::Combiner – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Content – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Document – Unknown
 PDF::Extract – AlwaysFail
 PDF::Font::Loader – AlwaysFail
-PDF::Font::Loader::CSS – Unknown
-PDF::Font::Loader::HarfBuzz – Unknown
+PDF::Font::Loader::CSS – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
+PDF::Font::Loader::HarfBuzz – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Grammar – OK
 PDF::ISO_32000 – OK
 PDF::ISO_32000_2 – OK
@@ -1844,7 +1844,7 @@ SDL – AlwaysFail
 SDL2 – OK
 SDL2-ttf – AlwaysFail
 SDL2::Raw – OK
-SHAI – Unknown
+SHAI – AlwaysFail
 SOAP::Client – OK
 SOD – AlwaysFail
 SP6 – AlwaysFail
@@ -1921,7 +1921,7 @@ Sort-Fast – AlwaysFail
 Sort::Naturally – OK
 Soundn::Tina – OK
 Spanish – AlwaysFail
-Sparky – Unknown
+Sparky – OK
 Sparky-Job-Api – OK
 Sparky::Plugin::Hello – Unknown
 Sparky::Plugin::Notify::Email – Unknown
@@ -1935,20 +1935,20 @@ Sparrowdo – OK
 Sparrowdo::Archive – OK
 Sparrowdo::Azure::Web::Cert – OK
 Sparrowdo::Chef::Client – OK
-Sparrowdo::Chef::Manager – Unknown
-Sparrowdo::Cordova::OSx::Build – Unknown
-Sparrowdo::Cordova::OSx::Fortify – Unknown
+Sparrowdo::Chef::Manager – AlwaysFail
+Sparrowdo::Cordova::OSx::Build – AlwaysFail
+Sparrowdo::Cordova::OSx::Fortify – AlwaysFail
 Sparrowdo::Cpanm::GitHub – Unknown
-Sparrowdo::Cpm – Unknown
+Sparrowdo::Cpm – AlwaysFail
 Sparrowdo::Goss – OK
-Sparrowdo::Nginx – Unknown
+Sparrowdo::Nginx – AlwaysFail
 Sparrowdo::Prometheus – Unknown
-Sparrowdo::Rakudo – Unknown
+Sparrowdo::Rakudo – AlwaysFail
 Sparrowdo::RemoteFile – OK
-Sparrowdo::Ruby::Bundler – Unknown
+Sparrowdo::Ruby::Bundler – AlwaysFail
 Sparrowdo::Rvm – AlwaysFail
-Sparrowdo::Sparrow::Update – Unknown
-Sparrowdo::VSTS::YAML::Angular::Build – Unknown
+Sparrowdo::Sparrow::Update – AlwaysFail
+Sparrowdo::VSTS::YAML::Angular::Build – AlwaysFail
 Sparrowdo::VSTS::YAML::Artifact – Unknown
 Sparrowdo::VSTS::YAML::Build – Unknown
 Sparrowdo::VSTS::YAML::Build::Assembly::Patch – Unknown
@@ -2295,8 +2295,8 @@ Vikna – AlwaysFail
 Vips::Native – OK
 Vroom::Reveal – AlwaysFail
 W3C::DOM – OK
-WAT – Unknown
-WAT--CLI – Unknown
+WAT – OK
+WAT--CLI – OK
 WWW – AlwaysFail
 WWW--CloudHosting--Hetzner – OK
 WWW::CloudHosting::Hetzner – AlwaysFail
@@ -2412,7 +2412,7 @@ content-storage-cli – OK
 cro – ZefFailure
 delete-old-until-size – OK
 deredere – OK
-dosh – Unknown
+dosh – AlwaysFail
 eigenstates – OK
 envy – OK
 epoll – AlwaysFail
