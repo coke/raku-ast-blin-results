@@ -14,7 +14,7 @@ ANTLR4::Grammar – AlwaysFail
 API::Discord – AlwaysFail
 API::Perspective – OK
 API::USNavalObservatory – OK
-APISports::Football – Unknown
+APISports::Football – AlwaysFail
 ASCII::To::Uni – OK
 ASN::BER – OK
 ASN::Grammar – OK
@@ -124,7 +124,7 @@ App::GTD – Unknown
 App::Game::Concentration – OK
 App::Gitstatus – OK
 App::Heater – OK
-App::IRC::Log – Unknown
+App::IRC::Log – OK
 App::InstallerMaker::WiX – OK
 App::JSONDiff – OK
 App::Lorea – AlwaysFail
@@ -266,7 +266,7 @@ BioPerl6 – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 BitEnum – AlwaysFail
 Bitcoin – AlwaysFail
 Bitcoin::Core::Secp256k1 – AlwaysFail
-Bitcoin::RPC::Client – Unknown
+Bitcoin::RPC::Client – OK
 Bits – OK
 Blin – Unknown
 BlkMeV – OK
@@ -451,7 +451,7 @@ Cro::ZeroMQ – AlwaysFail
 CroX::HTTP::Auth::Munge – AlwaysFail
 CroX::HTTP::FallbackPassthru – AlwaysFail
 CroX::HTTP::Transform::GraphQL – AlwaysFail
-Crolite – Unknown
+Crolite – OK
 Cromponent – OK
 Cromtit – OK
 Crust – AlwaysFail
@@ -532,7 +532,7 @@ Data::DPath – OK
 Data::DPath6 – OK
 Data::Dump – OK
 Data::Dump::Tree – AlwaysFail
-Data::ExampleDatasets – Unknown
+Data::ExampleDatasets – AlwaysFail
 Data::Generators – OK
 Data::Geographics – AlwaysFail
 Data::ICal – OK
@@ -631,7 +631,7 @@ Distribution::Common – OK
 Distribution::Common::Remote – OK
 Distribution::Extension::Updater – Unknown
 Distribution::Resources::Menu – OK
-Do123 – Unknown
+Do123 – AlwaysFail
 Doc::Executable – OK
 Doc::TypeGraph – AlwaysFail
 Docker::API – Unknown
@@ -727,7 +727,7 @@ File::TreeBuilder – OK
 File::Tudo – OK
 File::Utils – Unknown
 File::Which – OK
-File::XML::DMARC::Google – Unknown
+File::XML::DMARC::Google – OK
 File::Zip – AlwaysFail
 File::file – OK
 FileSystem::Capacity – OK
@@ -978,7 +978,7 @@ Holidays::US::Federal – OK
 HomoGlypher – OK
 HowToUseModuleResources – OK
 HuggingFace::API – OK
-Humming-Bird – Unknown
+Humming-Bird – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 Hydrate – OK
 Hyperscript – OK
 I18N::LangTags – OK
@@ -1169,7 +1169,7 @@ LLVM – OK
 LMDB – OK
 LN – Unknown
 LR1 – OK
-LREP – Unknown
+LREP – AlwaysFail
 LWP::Simple – OK
 LZW::Revolunet – OK
 LaTeX::Grammar – OK
@@ -1639,8 +1639,8 @@ Parse::Paths – AlwaysFail
 Parse::STDF – AlwaysFail
 Parse::Selenese – OK
 Parser::FreeXL::Native – AlwaysFail
-Pastebin::Gist – Unknown
-Pastebin::Pasteee – Unknown
+Pastebin::Gist – OK
+Pastebin::Pasteee – AlwaysFail
 Pastebin::Shadowcat – AlwaysFail
 Path::Canonical – OK
 Path::Finder – OK
@@ -1672,7 +1672,7 @@ Physics::Measure – OK
 Physics::Navigation – AlwaysFail
 Physics::Unit – OK
 Physics::Vector – AlwaysFail
-Pleroma – Unknown
+Pleroma – AlwaysFail
 Plosurin – AlwaysFail
 Pluggable – OK
 Pod::Contents – OK
@@ -2282,7 +2282,7 @@ ValueMap – OK
 ValuePair – OK
 ValueType – OK
 ValueTypeCache – OK
-Verge::RPC::Client – Unknown
+Verge::RPC::Client – OK
 Version::Conan – OK
 Version::Nginx – OK
 Version::Raku – OK
@@ -2374,7 +2374,7 @@ XML::Entity::HTML – OK
 XML::Fast – OK
 XML::Parser::Tiny – OK
 XML::Query – OK
-XML::Rabbit – Unknown
+XML::Rabbit – AlwaysFail
 XML::Signature – AlwaysFail
 XML::Writer – OK
 XML::XPath – AlwaysFail
@@ -2437,7 +2437,7 @@ mandelbrot – OK
 mod-div-specs – OK
 mv2d – OK
 nano – OK
-octans – Unknown
+octans – OK
 orion – OK
 overload::constant – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 p6-RandomColor – OK
