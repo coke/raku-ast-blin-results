@@ -120,7 +120,7 @@ App::FIT2GPX – OK
 App::FindSource – AlwaysFail
 App::Football – OK
 App::GPTrixie – OK
-App::GTD – Unknown
+App::GTD – AlwaysFail
 App::Game::Concentration – OK
 App::Gitstatus – OK
 App::Heater – OK
@@ -180,7 +180,7 @@ App::samaki – AlwaysFail
 App::snippet – AlwaysFail
 App::termie – OK
 App::tmeta – OK
-App::upgrade-raku.raku – Unknown
+App::upgrade-raku.raku – OK
 App:Racl – AlwaysFail
 App:Ralc – AlwaysFail
 Archive::Ar – OK
@@ -245,7 +245,7 @@ Backtrace::AsHTML – OK
 Backtrace::Files – OK
 Badger – OK
 Bailador – AlwaysFail
-Bailador::Plugin::NamedQueries – Unknown
+Bailador::Plugin::NamedQueries – AlwaysFail
 Base58 – OK
 Base64 – OK
 Base64::Native – OK
@@ -457,7 +457,7 @@ Cromtit – OK
 Crust – AlwaysFail
 Crust::Handler::SCGI – OK
 Crust::Middleware::Session – AlwaysFail
-Crust::Middleware::Session::Store::DBIish – Unknown
+Crust::Middleware::Session::Store::DBIish – AlwaysFail
 Crust::Middleware::Syslog – OK
 Crypt::AnyPasswordHash – OK
 Crypt::Argon2 – OK
@@ -686,7 +686,7 @@ Excel::Text::Template – OK
 Exportable – OK
 EyeofTheBeholder – AlwaysFail
 EyeoftheBeholder3 – AlwaysFail
-FDF – Unknown
+FDF – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 FEN::Grammar – OK
 FFmpegProgressBar – AlwaysFail
 FHIR – AlwaysFail
@@ -779,7 +779,7 @@ GD::Raw – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 GDBM – OK
 GEOS – AlwaysFail
 GGE – AlwaysFail
-GIO – Unknown
+GIO – ZefFailure
 GLFW – OK
 GLib – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 GNU::Time – OK
@@ -788,7 +788,7 @@ GPGME – AlwaysFail
 GTK::Scintilla – AlwaysFail
 GTK::Simple – OK
 GTK::Simpler – OK
-GUI::Editors – Unknown
+GUI::Editors – AlwaysFail
 Game::Adventure – AlwaysFail
 Game::Amazing – OK
 Game::Bayes – AlwaysFail
@@ -880,7 +880,7 @@ Grammar::Tracer::Compact – OK
 Graph – OK
 Graph::RandomMaze – CyclicDependency
 GraphQL – OK
-GraphQL – Unknown
+GraphQL – OK
 Graphics::PLplot – OK
 Graphics::TinyTIFF – AlwaysFail
 Graphviz::DOT::Chessboard – OK
@@ -965,7 +965,7 @@ Hash::str – OK
 Hashids – AlwaysFail
 Heap – AlwaysFail
 Hematite – AlwaysFail
-Hematite::Middleware::Session – Unknown
+Hematite::Middleware::Session – AlwaysFail
 HexDump::Tiny – OK
 Hey – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 Highlight::Terminal – OK
@@ -1017,7 +1017,7 @@ IRC::Channel::Log – OK
 IRC::Client – InstallableButUntested
 IRC::Client::Plugin::DiceRolls – OK
 IRC::Client::Plugin::Factoid – AlwaysFail
-IRC::Client::Plugin::Github – Unknown
+IRC::Client::Plugin::Github – OK
 IRC::Client::Plugin::Ignore – OK
 IRC::Client::Plugin::Logger – OK
 IRC::Client::Plugin::NickServ – OK
@@ -1083,7 +1083,7 @@ IntlPromptYesNo – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 IoC – OK
 Iter::Able – AlwaysFail
 JS::Minify – OK
-JSON-CSV – Unknown
+JSON-CSV – OK
 JSON-Simd – AlwaysFail
 JSON5::Tiny – AlwaysFail
 JSON::Class – AlwaysFail
@@ -1656,7 +1656,7 @@ Perl6-Math-Quaternion – AlwaysFail
 Perl6::Documentable – AlwaysFail
 Perl6::Ecosystem – AlwaysFail
 Perl6::Literate – AlwaysFail
-Perl6::Maven – Unknown
+Perl6::Maven – AlwaysFail
 Perl6::Parser – AlwaysFail
 Perl6::Tidy – AlwaysFail
 Perl6::Tracer – MissingDependency
@@ -1938,28 +1938,28 @@ Sparrowdo::Chef::Client – OK
 Sparrowdo::Chef::Manager – AlwaysFail
 Sparrowdo::Cordova::OSx::Build – AlwaysFail
 Sparrowdo::Cordova::OSx::Fortify – AlwaysFail
-Sparrowdo::Cpanm::GitHub – Unknown
+Sparrowdo::Cpanm::GitHub – AlwaysFail
 Sparrowdo::Cpm – AlwaysFail
 Sparrowdo::Goss – OK
 Sparrowdo::Nginx – AlwaysFail
-Sparrowdo::Prometheus – Unknown
+Sparrowdo::Prometheus – AlwaysFail
 Sparrowdo::Rakudo – AlwaysFail
 Sparrowdo::RemoteFile – OK
 Sparrowdo::Ruby::Bundler – AlwaysFail
 Sparrowdo::Rvm – AlwaysFail
 Sparrowdo::Sparrow::Update – AlwaysFail
 Sparrowdo::VSTS::YAML::Angular::Build – AlwaysFail
-Sparrowdo::VSTS::YAML::Artifact – Unknown
-Sparrowdo::VSTS::YAML::Build – Unknown
-Sparrowdo::VSTS::YAML::Build::Assembly::Patch – Unknown
-Sparrowdo::VSTS::YAML::Cordova – Unknown
-Sparrowdo::VSTS::YAML::DotNet – Unknown
-Sparrowdo::VSTS::YAML::MsBuild – Unknown
-Sparrowdo::VSTS::YAML::Nuget – Unknown
-Sparrowdo::VSTS::YAML::Nuget::Build – Unknown
-Sparrowdo::VSTS::YAML::Solution – Unknown
-Sparrowdo::VSTS::YAML::Update::Azure::SSL – Unknown
-Sparrowform – Unknown
+Sparrowdo::VSTS::YAML::Artifact – AlwaysFail
+Sparrowdo::VSTS::YAML::Build – AlwaysFail
+Sparrowdo::VSTS::YAML::Build::Assembly::Patch – AlwaysFail
+Sparrowdo::VSTS::YAML::Cordova – AlwaysFail
+Sparrowdo::VSTS::YAML::DotNet – AlwaysFail
+Sparrowdo::VSTS::YAML::MsBuild – AlwaysFail
+Sparrowdo::VSTS::YAML::Nuget – AlwaysFail
+Sparrowdo::VSTS::YAML::Nuget::Build – AlwaysFail
+Sparrowdo::VSTS::YAML::Solution – AlwaysFail
+Sparrowdo::VSTS::YAML::Update::Azure::SSL – AlwaysFail
+Sparrowform – OK
 Spit – AlwaysFail
 Spreadsheet::Libxlsxio – AlwaysFail
 Spreadsheet::ODS – OK
@@ -2303,7 +2303,7 @@ WWW::CloudHosting::Hetzner – AlwaysFail
 WWW::DuckDuckGo – OK
 WWW::GCloud – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 WWW::GCloud::API::Storage – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-WWW::GCloud::API::Vision – Unknown
+WWW::GCloud::API::Vision – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 WWW::Gemini – OK
 WWW::HorizonsEphemerisSystem – OK
 WWW::LLaMA – OK
