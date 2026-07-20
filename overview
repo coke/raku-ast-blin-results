@@ -58,13 +58,13 @@ Adventure::Engine – AlwaysFail
 Adverb::Eject – OK
 Air – AlwaysFail
 Air-Plugin-RakuDoc – OK
-Air::Examples – Unknown
+Air::Examples – OK
 Air::Play – OK
 Air::Plugin::Asciinema – AlwaysFail
 Air::Plugin::Donate – OK
 Air::Plugin::Hilite – OK
 Air::Plugin::MailForm – AlwaysFail
-Air::Plugin::Rakudoc – Unknown
+Air::Plugin::Rakudoc – AlwaysFail
 Air::Plugin::Wordcloud – AlwaysFail
 Algorithm::AhoCorasick – OK
 Algorithm::BinaryIndexedTree – OK
@@ -106,7 +106,7 @@ Anolis – OK
 Apache::LogFormat – OK
 App::APOTD – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 App::AizuOnlineJudge – OK
-App::Assixt – Unknown
+App::Assixt – AlwaysFail
 App::Backup – AlwaysFail
 App::Browser – OK
 App::ByWord – OK
@@ -130,7 +130,7 @@ App::JSONDiff – OK
 App::Lorea – AlwaysFail
 App::MPD::AutoQueue – OK
 App::MPD::Notify – OK
-App::Mi6 – Unknown
+App::Mi6 – OK
 App::Miroku – OK
 App::MoarVM::ConfprogCompiler – AlwaysFail
 App::MoarVM::Debug – OK
@@ -268,7 +268,7 @@ Bitcoin – AlwaysFail
 Bitcoin::Core::Secp256k1 – AlwaysFail
 Bitcoin::RPC::Client – OK
 Bits – OK
-Blin – Unknown
+Blin – OK
 BlkMeV – OK
 Brazilian::FederalDocuments – OK
 BreakDancer – AlwaysFail
@@ -297,7 +297,7 @@ CLI::Wordpress::Migrator – OK
 CPAN::Uploader::Tiny – OK
 CRDT – OK
 CRoaring – OK
-CSS – Unknown
+CSS – AlwaysFail
 CSS::Font::Resources – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 CSS::Grammar – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 CSS::Minifier – OK
@@ -308,7 +308,7 @@ CSS::Properties – Flapper
 CSS::Selector::To::XPath – OK
 CSS::Specification – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 CSS::Stylesheet – Flapper
-CSS::TagSet – Unknown
+CSS::TagSet – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 CSS::Writer – OK
 CSV-AutoClass – OK
 CSV-Autoclass – OK
@@ -351,9 +351,9 @@ Code::Coverage – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 CodeUnit – OK
 Cofra – AlwaysFail
 Collection – AlwaysFail
-Collection-Plugin-Development – Unknown
-Collection-Plugins – Unknown
-Collection-Raku-Documentation – Unknown
+Collection-Plugin-Development – AlwaysFail
+Collection-Plugins – AlwaysFail
+Collection-Raku-Documentation – AlwaysFail
 Color – OK
 Color::DirColors – OK
 Color::Named – AlwaysFail
@@ -436,7 +436,7 @@ Cro::HTTP::BodySerializerJSONClass – AlwaysFail
 Cro::HTTP::RouterUtils – AlwaysFail
 Cro::HTTP::Session::MySQL – AlwaysFail
 Cro::HTTP::Session::Pg – AlwaysFail
-Cro::HTTP::Session::Red – Unknown
+Cro::HTTP::Session::Red – AlwaysFail
 Cro::HTTP::Session::Redis – AlwaysFail
 Cro::HTTP::Session::SQLite – OK
 Cro::HTTP::Test – OK
@@ -590,7 +590,7 @@ DateTime::Utils – OK
 DateTime::strftime – OK
 Datetime::Math – OK
 Dawa – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-Ddt – Unknown
+Ddt – AlwaysFail
 Debug::Transput – OK
 Debugger::UI::CommandLine – OK
 Debugging::Tool – OK
@@ -783,7 +783,7 @@ GIO – ZefFailure
 GLFW – OK
 GLib – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 GNU::Time – OK
-GOTO – Unknown
+GOTO – OK
 GPGME – AlwaysFail
 GTK::Scintilla – AlwaysFail
 GTK::Simple – OK
@@ -896,7 +896,7 @@ Gumbo – AlwaysFail
 Gzz::Prompt – OK
 Gzz::Text::Utils – AlwaysFail
 HTML::Canvas – AlwaysFail
-HTML::Canvas::To::PDF – Unknown
+HTML::Canvas::To::PDF – AlwaysFail
 HTML::Component – OK
 HTML::Entity – AlwaysFail
 HTML::Entity::Fast – OK
@@ -1091,7 +1091,7 @@ JSON::Collector – OK
 JSON::Fast – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 JSON::Fast::Hyper – OK
 JSON::GLib – AlwaysFail
-JSON::GLib::Node – Unknown
+JSON::GLib::Node – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 JSON::Hjson – OK
 JSON::Infer – AlwaysFail
 JSON::JWT – OK
@@ -1163,7 +1163,7 @@ LLM::Data::Pipeline – OK
 LLM::Functions – OK
 LLM::Graph – AlwaysFail
 LLM::Prompts – OK
-LLM::Resources – Unknown
+LLM::Resources – OK
 LLM::RetrievalAugmentedGeneration – CyclicDependency
 LLVM – OK
 LMDB – OK
@@ -1293,14 +1293,14 @@ MPD – OK
 MPD::Client – AlwaysFail
 MQ::Posix – OK
 MQTT::Client – OK
-MUGS – Unknown
-MUGS::Core – Unknown
-MUGS::Games – Unknown
-MUGS::UI::CLI – Unknown
-MUGS::UI::TUI – Unknown
-MUGS::UI::WebSimple – Unknown
-MVC::Keayl – Unknown
-MVC::Keayl::Admin – Unknown
+MUGS – AlwaysFail
+MUGS::Core – AlwaysFail
+MUGS::Games – AlwaysFail
+MUGS::UI::CLI – AlwaysFail
+MUGS::UI::TUI – AlwaysFail
+MUGS::UI::WebSimple – AlwaysFail
+MVC::Keayl – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
+MVC::Keayl::Admin – AlwaysFail
 Mac::Applications::List – AlwaysFail
 Mac::Battery::Alerter – AlwaysFail
 MacOS::NativeLib – OK
@@ -1411,10 +1411,10 @@ Method::Misspelt – OK
 Method::Modifiers – OK
 Method::Protected – OK
 Metropolis – OK
-Mi6::Helper – Unknown
+Mi6::Helper – AlwaysFail
 Migration::RTtoGithub – OK
 MinG – OK
-Mint – Unknown
+Mint – AlwaysFail
 Mmap::Native – AlwaysFail
 MoarVM::Bytecode – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 MoarVM::Profile – AlwaysFail
@@ -1598,11 +1598,11 @@ P6W – OK
 PB-Lottery – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PBKDF2 – AlwaysFail
 PDF – OK
-PDF::API6 – Unknown
+PDF::API6 – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Class – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Combiner – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Content – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-PDF::Document – Unknown
+PDF::Document – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Extract – AlwaysFail
 PDF::Font::Loader – AlwaysFail
 PDF::Font::Loader::CSS – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
@@ -1612,11 +1612,11 @@ PDF::ISO_32000 – OK
 PDF::ISO_32000_2 – OK
 PDF::Labelmaker – OK
 PDF::Lite – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-PDF::NameTags – Unknown
+PDF::NameTags – AlwaysFail
 PDF::Native – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
-PDF::Tags – Unknown
-PDF::Tags::Reader – Unknown
-PDF::To::Cairo – Unknown
+PDF::Tags – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
+PDF::Tags::Reader – AlwaysFail
+PDF::To::Cairo – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PDF::Writer – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 PKCS5 – AlwaysFail
 PKafka – OK
@@ -1684,7 +1684,7 @@ Pod::Load – AlwaysFail
 Pod::Parser – OK
 Pod::Perl5 – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 Pod::PerlTricks – Flapper
-Pod::Render – Unknown
+Pod::Render – OK
 Pod::Strip – AlwaysFail
 Pod::Tangle – OK
 Pod::Test::Code – OK
@@ -1704,7 +1704,7 @@ Pod::TreeWalker – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
 Pod::Usage – OK
 Pod::Utilities – AlwaysFail
 Pod::Utils – AlwaysFail
-Pod::Weave – Unknown
+Pod::Weave – OK
 Podviewer – OK
 Pofig – OK
 Point – OK
@@ -1814,8 +1814,8 @@ Readline – OK
 Reaper::Control – OK
 Recipe::Parser – OK
 Red – AlwaysFail
-RedFactory – Unknown
-RedX::HashedPassword – Unknown
+RedFactory – AlwaysFail
+RedX::HashedPassword – AlwaysFail
 Redis – OK
 Redis::Async – OK
 Regex::FuzzyToken – Fail, Bisected: 467694501b8d5a785767feeabbbdb64922d50f6d
@@ -1923,9 +1923,9 @@ Soundn::Tina – OK
 Spanish – AlwaysFail
 Sparky – OK
 Sparky-Job-Api – OK
-Sparky::Plugin::Hello – Unknown
-Sparky::Plugin::Notify::Email – Unknown
-Sparky::Plugin::Notify::Telegram – Unknown
+Sparky::Plugin::Hello – OK
+Sparky::Plugin::Notify::Email – OK
+Sparky::Plugin::Notify::Telegram – OK
 Sparrow6 – OK
 Sparrow6::Rakudo::Install – OK
 SparrowCI – OK
@@ -2355,7 +2355,7 @@ WhereList – OK
 Wikidata::API – AlwaysFail
 Win32::DrivesAndTypes – AlwaysFail
 Win32::Registry – OK
-Windows::Test – Unknown
+Windows::Test – OK
 Wkhtmltox – AlwaysFail
 WriteOnceHash – OK
 X11::Xdo – AlwaysFail
