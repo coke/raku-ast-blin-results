@@ -1,0 +1,280 @@
+===> Searching for: Data::StaticTable
+===> Found: Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Data::StaticTable] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786145038.1730851.7367.106617646696/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz https://360.zef.pm/D/AT/DATA_STATICTABLE/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz
+===> Fetching [OK]: Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1786145038.1730851.7367.106617646696/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz
+[Data::StaticTable] Command: tar -t -f ./d0112737a7d408a3dc04e875026c98e15064540a.tar.gz
+[Data::StaticTable] Command: tar -xvf ./d0112737a7d408a3dc04e875026c98e15064540a.tar.gz -C ../d0112737a7d408a3dc04e875026c98e15064540a.tar.gz
+===> Extraction [OK]: Data::StaticTable to /home/coke/sandbox/blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz
+===> Testing: Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules>
+[Data::StaticTable] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1 t/001-basic.rakutest
+[Data::StaticTable] 1..49
+[Data::StaticTable] # == Basic tests ==
+[Data::StaticTable] # Subtest: Can not create Data::StaticTables with repeated header names
+[Data::StaticTable]     1..2
+[Data::StaticTable]     ok 1 - code dies
+[Data::StaticTable]     ok 2 - right exception type (X::Data::StaticTable)
+[Data::StaticTable] ok 1 - Can not create Data::StaticTables with repeated header names
+[Data::StaticTable] # Subtest: Can not create Data::StaticTables with an empty header
+[Data::StaticTable]     1..2
+[Data::StaticTable]     ok 1 - code dies
+[Data::StaticTable]     ok 2 - right exception type (X::Data::StaticTable)
+[Data::StaticTable] ok 2 - Can not create Data::StaticTables with an empty header
+[Data::StaticTable] # Subtest: Can not create Data::StaticTables with empty data
+[Data::StaticTable]     1..2
+[Data::StaticTable]     ok 1 - code dies
+[Data::StaticTable]     ok 2 - right exception type (X::Data::StaticTable)
+[Data::StaticTable] ok 3 - Can not create Data::StaticTables with empty data
+[Data::StaticTable] # A	B	C	D	E	F	G	H	I	J
+[Data::StaticTable] # ⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯
+[Data::StaticTable] # [1]	[2]	[3]	[4]	[5]	[6]	[7]	[8]	[9]	[10]	
+[Data::StaticTable] ok 4 - Column names are automatically filled
+[Data::StaticTable] ok 5 - Column 1 is automatically labeled 'A'
+[Data::StaticTable] ok 6 - Column 5 is automatically labeled 'E'
+[Data::StaticTable] ok 7 - StaticTable has one row only
+[Data::StaticTable] ok 8 - StaticTable contains 10 elements
+[Data::StaticTable] # == Adding empty cells when data is not enough ==
+[Data::StaticTable] # A	B	C	D	E	F	G	H	I	J
+[Data::StaticTable] # ⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯	⋯
+[Data::StaticTable] # [1]	[2]	[3]	[4]	[5]	[6]	[7]	[8]	[9]	[10]	
+[Data::StaticTable] # [11]	[Any]	[Any]	[Any]	[Any]	[Any]	[Any]	[Any]	[Any]	[Any]	
+[Data::StaticTable] ok 9 - Data::StaticTable t2 has 10 columns
+[Data::StaticTable] ok 10 - Data::StaticTable t2 has 2 rows
+[Data::StaticTable] ok 11 - Filler cell in 'C',2 is Any element
+[Data::StaticTable] ok 12 - StaticTable contains 20 elements (11 + extra 9)
+[Data::StaticTable] # == Referencing individual cells ==
+[Data::StaticTable] # Col1	Col2	Col3
+[Data::StaticTable] # ⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯
+[Data::StaticTable] # [1]	[2]	[3]	
+[Data::StaticTable] # ["four"]	["five"]	["six"]	
+[Data::StaticTable] # [Any]	[Any]	["NINE"]	
+[Data::StaticTable] ok 13 - Reading a cell directly
+[Data::StaticTable] ok 14 - Asking for undefined cell assigned Any
+[Data::StaticTable] ok 15 - Asking for undefined cell assigned Nil
+[Data::StaticTable] ok 16 - Asking for defined cell
+[Data::StaticTable] ok 17 - Can not access with an inexistant column
+[Data::StaticTable] ok 18 - Can not access with an inexistant row
+[Data::StaticTable] # == Reading cells, rows and columns ==
+[Data::StaticTable] # A	B	C
+[Data::StaticTable] # ⋯	⋯	⋯
+[Data::StaticTable] # [1]	[2]	[3]	
+[Data::StaticTable] # [4]	[5]	[6]	
+[Data::StaticTable] # [7]	[8]	[9]	
+[Data::StaticTable] # [10]	[11]	[12]	
+[Data::StaticTable] # [13]	[14]	[15]	
+[Data::StaticTable] # [16]	[17]	[18]	
+[Data::StaticTable] # [19]	[20]	[21]	
+[Data::StaticTable] # [22]	[23]	[24]	
+[Data::StaticTable] # [25]	[26]	[27]	
+[Data::StaticTable] # [28]	[29]	[30]	
+[Data::StaticTable] # [31]	[32]	[33]	
+[Data::StaticTable] # [34]	[35]	[36]	
+[Data::StaticTable] # [37]	[38]	[39]	
+[Data::StaticTable] # [40]	[41]	[42]	
+[Data::StaticTable] # [43]	[44]	[45]	
+[Data::StaticTable] # [46]	[47]	[48]	
+[Data::StaticTable] # [49]	[50]	[51]	
+[Data::StaticTable] # [52]	[53]	[54]	
+[Data::StaticTable] # [55]	[56]	[57]	
+[Data::StaticTable] # [58]	[59]	[60]	
+[Data::StaticTable] # [61]	[62]	[63]	
+[Data::StaticTable] # [64]	[65]	[66]	
+[Data::StaticTable] ok 19 - StaticTable has the correct header
+[Data::StaticTable] ok 20 - StaticTable has 3 columns
+[Data::StaticTable] ok 21 - StaticTable second column has the header name 'B'
+[Data::StaticTable] ok 22 - StaticTable has no column with the header name 'Z'
+[Data::StaticTable] ok 23 - StaticTable has 22 rows
+[Data::StaticTable] ok 24 - Column has the correct data in the 'A' column
+[Data::StaticTable] ok 25 - Correct value found in t3 at 'C',1
+[Data::StaticTable] ok 26 - Correct value found at 'B',12
+[Data::StaticTable] ok 27 - Correct row number 2 found
+[Data::StaticTable] ok 28 - Header has 3 elements
+[Data::StaticTable] ok 29 - Type 'Car' is in rows 1 and 2
+[Data::StaticTable] ok 30 - Color 'white' is in rows 1 and 3
+[Data::StaticTable] ok 31 - Resulting table has 2 rows
+[Data::StaticTable] ok 32 - Resulting table has a Boat in the 2nd row
+[Data::StaticTable] # Subtest: Can not create Data::StaticTables from an empty rownumber list
+[Data::StaticTable]     1..2
+[Data::StaticTable]     ok 1 - code dies
+[Data::StaticTable]     ok 2 - right exception type (X::Data::StaticTable)
+[Data::StaticTable] ok 33 - Can not create Data::StaticTables from an empty rownumber list
+[Data::StaticTable] # Subtest: Can not create Data::StaticTables from an invalid rownumber list
+[Data::StaticTable]     1..2
+[Data::StaticTable]     ok 1 - code dies
+[Data::StaticTable]     ok 2 - right exception type (X::Data::StaticTable)
+[Data::StaticTable] ok 34 - Can not create Data::StaticTables from an invalid rownumber list
+[Data::StaticTable] ok 35 - StaticTable has 5 columns
+[Data::StaticTable] # == Indexes, Generating a new table from a number (index) of rows ==
+[Data::StaticTable] # UID	Type	Color	Price
+[Data::StaticTable] # ⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯⋯	⋯⋯⋯⋯⋯
+[Data::StaticTable] # [1402]	["Car"]	["white"]	[100]	
+[Data::StaticTable] # [1403]	["Car"]	["blue"]	[200]	
+[Data::StaticTable] # [1404]	["Boat"]	["white"]	[3000]	
+[Data::StaticTable] # Index based on Type:  {:Boat(Array[Data::StaticTable::Position].new(3)), :Car(Array[Data::StaticTable::Position].new(1, 2))}
+[Data::StaticTable] # Index based on Color: {:blue(Array[Data::StaticTable::Position].new(2)), :white(Array[Data::StaticTable::Position].new(1, 3))}
+[Data::StaticTable] # == Resulting StaticTable with only Color='white' ==
+[Data::StaticTable] # UID	Type	Color	Price
+[Data::StaticTable] # ⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯⋯	⋯⋯⋯⋯⋯
+[Data::StaticTable] # [1402]	["Car"]	["white"]	[100]	
+[Data::StaticTable] # [1404]	["Boat"]	["white"]	[3000]	
+[Data::StaticTable] # == Complex cells and shaped arrays ==
+[Data::StaticTable] # Attr	Dim1	Dim2	Dim3	Dim4
+[Data::StaticTable] # ⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯
+[Data::StaticTable] # ["attribute-1"]	[1]	[2]	[3]	["D+"]	
+[Data::StaticTable] # ["attribute-2"]	[4]	[5]	[6]	["B+"]	
+[Data::StaticTable] # ["attribute-3"]	[7]	[8]	[9]	["A-"]	
+[Data::StaticTable] # ["attribute-4"]	[$("ALPHA", "BETA", 3.0)]	[5]	[6]	["A++"]	
+[Data::StaticTable] # ["attribute-10"]	[0]	[0]	[0]	["Z"]	
+[Data::StaticTable] # ["attribute-11"]	[-2..2]	[Any]	[Any]	["X"]	
+[Data::StaticTable] ok 36 - StaticTable has 5 elements in header
+[Data::StaticTable] ok 37 - StaticTable has 6 rows
+[Data::StaticTable] ok 38 - Reading rows by number returns the right hash for the row - row number 1
+[Data::StaticTable] ok 39 - Reading rows by number returns the right hash for the row - row number 4, complex
+[Data::StaticTable] ok 40 - Can read complex data inside a cell  - row number 4
+[Data::StaticTable] ok 41 - Can read complex data inside a cell - row number 6
+[Data::StaticTable] ok 42 - Can read complex data inside a cell - row number 6
+[Data::StaticTable] ok 43 - Equivalent ways to read the same cell
+[Data::StaticTable] # == Resulting StaticTable with only Dim2=5 ==
+[Data::StaticTable] # Array[Data::StaticTable::Position].new(2, 4)
+[Data::StaticTable] # Array[Data::StaticTable::Position].new(2, 4)
+[Data::StaticTable] # Attr	Dim1	Dim2	Dim3	Dim4
+[Data::StaticTable] # ⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯
+[Data::StaticTable] # ["attribute-2"]	[4]	[5]	[6]	["B+"]	
+[Data::StaticTable] # ["attribute-4"]	[$("ALPHA", "BETA", 3.0)]	[5]	[6]	["A++"]	
+[Data::StaticTable] ok 44 - Resulting table has 2 rows too
+[Data::StaticTable] ok 45 - Can read complex data inside a cell  - row number 2 of resulting table
+[Data::StaticTable] # == Shaped array ==
+[Data::StaticTable] ok 46 - 
+[Data::StaticTable] ok 47 - 
+[Data::StaticTable] ok 48 - 
+[Data::StaticTable] ok 49 - 
+[Data::StaticTable] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1 t/002-rowset-constructor.rakutest
+[Data::StaticTable] 1..19
+[Data::StaticTable] # == Rowset constructor tests ==
+[Data::StaticTable] # == First row is a header ==
+[Data::StaticTable] # ONE	TWO	THREE	FOUR
+[Data::StaticTable] # ⋯⋯⋯	⋯⋯⋯	⋯⋯⋯⋯⋯	⋯⋯⋯⋯
+[Data::StaticTable] # [1]	[2]	[3]	[Any]	
+[Data::StaticTable] # [1]	[2]	[3]	[4]	
+[Data::StaticTable] # [1]	[2]	[3]	[4]	
+[Data::StaticTable] # [1]	[$(2, 1)]	[Any]	[Any]	
+[Data::StaticTable] ok 1 - Contains 4 rows
+[Data::StaticTable] ok 2 - Contains 4 colums
+[Data::StaticTable] ok 3 - 3rd row, column THREE has a 3
+[Data::StaticTable] ok 4 - 1st row does not have FOUR defined
+[Data::StaticTable] ok 5 - Extra 5th element in row 3 was discarded
+[Data::StaticTable] # == First row is NOT a header ==
+[Data::StaticTable] # A	B	C	D	E
+[Data::StaticTable] # ⋯	⋯	⋯	⋯	⋯
+[Data::StaticTable] # ["ONE"]	["TWO"]	["THREE"]	["FOUR"]	[Any]	
+[Data::StaticTable] # [1]	[2]	[3]	[Any]	[Any]	
+[Data::StaticTable] # [1]	[2]	[3]	[4]	[Any]	
+[Data::StaticTable] # [1]	[2]	[3]	[4]	[5]	
+[Data::StaticTable] # [1]	[$(2, 1)]	[Any]	[Any]	[Any]	
+[Data::StaticTable] ok 6 - Contains 5 rows
+[Data::StaticTable] ok 7 - Contains 5 colums
+[Data::StaticTable] ok 8 - 3rd row, column E has a 5
+[Data::StaticTable] ok 9 - 1st row does not have E defined
+[Data::StaticTable] # Subtest: Can not create Data::StaticTable with contradictory flags
+[Data::StaticTable]     1..2
+[Data::StaticTable]     ok 1 - code dies
+[Data::StaticTable]     ok 2 - right exception type (X::Data::StaticTable)
+[Data::StaticTable] ok 10 - Can not create Data::StaticTable with contradictory flags
+[Data::StaticTable] # == Hash to StaticTable ==
+[Data::StaticTable] # brand	color	model	nOfDoors	year	airbags	autopilot	ashtrays	battery-kWh
+[Data::StaticTable] # ⋯⋯⋯⋯⋯	⋯⋯⋯⋯⋯	⋯⋯⋯⋯⋯	⋯⋯⋯⋯⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯⋯⋯⋯	⋯⋯⋯⋯⋯⋯⋯⋯⋯	⋯⋯⋯⋯⋯⋯⋯⋯	⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
+[Data::StaticTable] # ["Zubata"]	["gray"]	["Bronco XS"]	[5]	[1970]	[Any]	[Any]	[4]	[Any]	
+[Data::StaticTable] # ["Atto"]	["yellow"]	["Star Hybrid"]	[4]	[2007]	[2]	[Any]	[Any]	[Any]	
+[Data::StaticTable] # ["Renu"]	["yellow"]	["City Ranger"]	[4]	[2018]	[8]	["OpenAI based"]	[Any]	[Any]	
+[Data::StaticTable] # ["Astoni"]	["blue"]	["534-Z SPX"]	[2]	[2018]	[4]	["Unknown"]	[Any]	[75]	
+[Data::StaticTable] ok 11 - Contains 4 rows
+[Data::StaticTable] ok 12 - Contains 9 colums
+[Data::StaticTable] ok 13 - 3rd car has 8 airbags
+[Data::StaticTable] ok 14 - 1st car does not have airbags defined
+[Data::StaticTable] ok 15 - 4th car has a 75kWh battery
+[Data::StaticTable] # Subtest: Trying to create a StaticTable from hashes without providing any hash, fails
+[Data::StaticTable]     1..2
+[Data::StaticTable]     ok 1 - code dies
+[Data::StaticTable]     ok 2 - right exception type (X::Data::StaticTable)
+[Data::StaticTable] ok 16 - Trying to create a StaticTable from hashes without providing any hash, fails
+[Data::StaticTable] # == Recovering discarded data ==
+[Data::StaticTable] # == Rejected data by row ==
+[Data::StaticTable] # {"3" => $[5]}
+[Data::StaticTable] ok 17 - For row 3 (considering a header), the value 5 was discarded
+[Data::StaticTable] # == Rejected: rows that are not hashes ==
+[Data::StaticTable] # [(10, 20),]
+[Data::StaticTable] ok 18 - One row was rejected
+[Data::StaticTable] ok 19 - Discarded data as expected
+[Data::StaticTable] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1 t/003-query.rakutest
+[Data::StaticTable] 1..26
+[Data::StaticTable] # == Testing indexes ==
+[Data::StaticTable] # Attr	Dim1	Dim2	Dim3	Dim4
+[Data::StaticTable] # ⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯	⋯⋯⋯⋯
+[Data::StaticTable] # ["attribute-1"]	[1]	[21]	[3]	["D+"]	
+[Data::StaticTable] # ["attribute-2"]	[4]	[51]	[6]	["B+"]	
+[Data::StaticTable] # ["attribute-3"]	[7]	[80]	[9]	["A-"]	
+[Data::StaticTable] # ["attribute-4"]	[$("ALPHA", "BETA", 3.0)]	[5]	[6]	["A++"]	
+[Data::StaticTable] # ["attribute-10"]	[0]	[0]	[0]	["B+"]	
+[Data::StaticTable] # ["attribute-11"]	[-2..2]	[Any]	[Any]	["B+"]	
+[Data::StaticTable] # == Check indexes ==
+[Data::StaticTable] Cannot call 'push' on an immutable 'List'
+[Data::StaticTable]   in method add-index at /home/coke/sandbox/blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 359
+[Data::StaticTable]   in method new at /home/coke/sandbox/blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1/lib/Data/StaticTable.rakumod (Data::StaticTable) line 303
+[Data::StaticTable]   in block <unit> at t/003-query.rakutest line 24
+[Data::StaticTable] # You planned 26 tests, but ran 0
+[Data::StaticTable] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1 t/004-extra.rakutest
+[Data::StaticTable] 1..8
+[Data::StaticTable] # == Extra features tests ==
+[Data::StaticTable] # A	B	C
+[Data::StaticTable] # ⋯	⋯	⋯
+[Data::StaticTable] # [1]	[2]	[3]	
+[Data::StaticTable] # [4]	[5]	[6]	
+[Data::StaticTable] # [7]	[8]	[9]	
+[Data::StaticTable] # == Serialization and EVAL test ==
+[Data::StaticTable] # Data::StaticTable.new(Array[Str].new("A", "B", "C"), [1, 2, 3, 4, 5, 6, 7, 8, 9])
+[Data::StaticTable] # == Comparison test ==
+[Data::StaticTable] ok 1 - Comparison works (equal to EVALuated copy from 'raku' method)
+[Data::StaticTable] ok 2 - Comparison works (equal to clone)
+[Data::StaticTable] ok 3 - Comparison works (distinct)
+[Data::StaticTable] # == Filler tests ==
+[Data::StaticTable] # A	B	C
+[Data::StaticTable] # ⋯	⋯	⋯
+[Data::StaticTable] # [1]	[2]	[3]	
+[Data::StaticTable] # [4]	[5]	[6]	
+[Data::StaticTable] # [7]	["N/A"]	["N/A"]	
+[Data::StaticTable] ok 4 - Filler is correct
+[Data::StaticTable] ok 5 - Cloning with filler works
+[Data::StaticTable] # == 'take' using Int and Position types ==
+[Data::StaticTable] ok 6 - 'take' works correcly using Ints or Position types  \#1
+[Data::StaticTable] ok 7 - 'take' works correcly using Ints or Position types  \#2
+[Data::StaticTable] ok 8 - 'take' works correcly using Ints or Position types (list of 1 element)
+[Data::StaticTable] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d0112737a7d408a3dc04e875026c98e15064540a.tar.gz/Data-StaticTable-0.1.1 t/005-perf.rakutest
+[Data::StaticTable] 1..2
+[Data::StaticTable] # == Reading a sample file in a StaticTable ==
+[Data::StaticTable] # == Populate StaticTable took : 0.011418086 secs. ==
+[Data::StaticTable] # == Discarding rows with aggregation data ==
+[Data::StaticTable] # == Creation of sub-StaticTable took : 0.045844555 secs. ==
+[Data::StaticTable] # ==    Time per row : 0.00286528 secs. ==
+[Data::StaticTable] ok 1 - Got the right number of rows
+[Data::StaticTable] # == Reading a big sample file in a StaticTable ==
+[Data::StaticTable] # == File now in memory. Creating array ==
+[Data::StaticTable] # == Data array created : 659412 total elements ==
+[Data::StaticTable] # == Populate StaticTable took : 1.627115 secs. ==
+[Data::StaticTable] # == Total rows : 36634 ==
+[Data::StaticTable] # == Sub-tables stress tests starting : 366 rowsets, 100 rows per set ... ==
+[Data::StaticTable] # == Average : 0.00069284 secs. per row ==
+[Data::StaticTable] # == Index speed ==
+[Data::StaticTable] # == Index creation 'county' took : 1.250338792 secs. ==
+[Data::StaticTable] # == Search with index (scored 0.0018) took : 0.017813255 secs. ==
+[Data::StaticTable] # == Search without index took : 1.098321485 secs. ==
+[Data::StaticTable] # == Index creation 'policyID' took : 1.621265277 secs. ==
+[Data::StaticTable] # == Search with index (scored 1) took : 0.951999746 secs. ==
+[Data::StaticTable] # == Search without index took : 1.413364997 secs. ==
+[Data::StaticTable] ok 2 - Grep with index and without are equivalent
+[Data::StaticTable] # == Cloning ==
+[Data::StaticTable] # == Cloning a big StaticTable took : 1.957300916 secs. ==
+[Data::StaticTable] # == Comparison on a big StaticTable (might take a while...) ==
+[Data::StaticTable] # == Comparing 2 big equal StaticTables took : 80.330745329 secs. ==
+===> Testing [FAIL]: Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules>
+[Data::StaticTable] Failed to get passing tests, but continuing with --force-test
+===> Installing: Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules>
+===> Install [OK] for Data::StaticTable:ver<0.1.1>:auth<zef:raku-community-modules>
