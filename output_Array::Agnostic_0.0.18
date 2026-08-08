@@ -1,7 +1,7 @@
 ===> Searching for: Array::Agnostic
 ===> Found: Array::Agnostic:ver<0.0.18>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[Array::Agnostic] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786144358.1712677.6536.580779154823/c950acf677adfcef43c4660fad856408e05fa176.tar.gz https://360.zef.pm/A/RR/ARRAY_AGNOSTIC/c950acf677adfcef43c4660fad856408e05fa176.tar.gz
-===> Fetching [OK]: Array::Agnostic:ver<0.0.18>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786144358.1712677.6536.580779154823/c950acf677adfcef43c4660fad856408e05fa176.tar.gz
+[Array::Agnostic] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786155609.2023705.2717.7616758419267/c950acf677adfcef43c4660fad856408e05fa176.tar.gz https://360.zef.pm/A/RR/ARRAY_AGNOSTIC/c950acf677adfcef43c4660fad856408e05fa176.tar.gz
+===> Fetching [OK]: Array::Agnostic:ver<0.0.18>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786155609.2023705.2717.7616758419267/c950acf677adfcef43c4660fad856408e05fa176.tar.gz
 [Array::Agnostic] Command: tar -t -f ./c950acf677adfcef43c4660fad856408e05fa176.tar.gz
 [Array::Agnostic] Command: tar -xvf ./c950acf677adfcef43c4660fad856408e05fa176.tar.gz -C ../c950acf677adfcef43c4660fad856408e05fa176.tar.gz
 ===> Extraction [OK]: Array::Agnostic to /home/coke/sandbox/blin/data/zef-data/tmp/c950acf677adfcef43c4660fad856408e05fa176.tar.gz

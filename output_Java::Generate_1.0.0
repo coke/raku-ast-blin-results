@@ -1,7 +1,7 @@
 ===> Searching for: Java::Generate
 ===> Found: Java::Generate:ver<1.0.0>:auth<zef:Altai-man> [via Zef::Repository::Ecosystems<fez>]
-[Java::Generate] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786146357.1766721.4356.271389123329/6f5ed549a536fa547c894f64fb3bfb5cce18b2ae.tar.gz https://360.zef.pm/J/AV/JAVA_GENERATE/6f5ed549a536fa547c894f64fb3bfb5cce18b2ae.tar.gz
-===> Fetching [OK]: Java::Generate:ver<1.0.0>:auth<zef:Altai-man> to /home/coke/sandbox/blin/data/zef-data/tmp/1786146357.1766721.4356.271389123329/6f5ed549a536fa547c894f64fb3bfb5cce18b2ae.tar.gz
+[Java::Generate] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786156391.2045632.1603.0265862496751/6f5ed549a536fa547c894f64fb3bfb5cce18b2ae.tar.gz https://360.zef.pm/J/AV/JAVA_GENERATE/6f5ed549a536fa547c894f64fb3bfb5cce18b2ae.tar.gz
+===> Fetching [OK]: Java::Generate:ver<1.0.0>:auth<zef:Altai-man> to /home/coke/sandbox/blin/data/zef-data/tmp/1786156391.2045632.1603.0265862496751/6f5ed549a536fa547c894f64fb3bfb5cce18b2ae.tar.gz
 [Java::Generate] Command: tar -t -f ./6f5ed549a536fa547c894f64fb3bfb5cce18b2ae.tar.gz
 [Java::Generate] Command: tar -xvf ./6f5ed549a536fa547c894f64fb3bfb5cce18b2ae.tar.gz -C ../6f5ed549a536fa547c894f64fb3bfb5cce18b2ae.tar.gz
 ===> Extraction [OK]: Java::Generate to /home/coke/sandbox/blin/data/zef-data/tmp/6f5ed549a536fa547c894f64fb3bfb5cce18b2ae.tar.gz

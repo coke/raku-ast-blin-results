@@ -1,7 +1,7 @@
 ===> Searching for: LCS::BV
 ===> Found: LCS::BV:ver<0.4.0> [via Zef::Repository::Ecosystems<rea>]
-[LCS::BV] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786150690.1889551.5947.236521229898/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/L/LCS%3A%3ABV/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
-===> Fetching [OK]: LCS::BV:ver<0.4.0> to /home/coke/sandbox/blin/data/zef-data/tmp/1786150690.1889551.5947.236521229898/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
+[LCS::BV] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786158336.2103419.1263.0218289286233/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/L/LCS%3A%3ABV/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
+===> Fetching [OK]: LCS::BV:ver<0.4.0> to /home/coke/sandbox/blin/data/zef-data/tmp/1786158336.2103419.1263.0218289286233/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
 [LCS::BV] Command: tar -t -f ./LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
 [LCS::BV] Command: tar -xvf ./LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz -C ../LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
 ===> Extraction [OK]: LCS::BV to /home/coke/sandbox/blin/data/zef-data/tmp/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz

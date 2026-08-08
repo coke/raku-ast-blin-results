@@ -1,7 +1,7 @@
 ===> Searching for: Pod::Perl5
 ===> Found: Pod::Perl5:ver<0.18> [via Zef::Repository::Ecosystems<rea>]
-[Pod::Perl5] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786147881.1809382.8699.586456696157/Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/P/Pod%3A%3APerl5/Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz
-===> Fetching [OK]: Pod::Perl5:ver<0.18> to /home/coke/sandbox/blin/data/zef-data/tmp/1786147881.1809382.8699.586456696157/Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz
+[Pod::Perl5] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786157130.2067407.6794.04199578418/Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/P/Pod%3A%3APerl5/Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz
+===> Fetching [OK]: Pod::Perl5:ver<0.18> to /home/coke/sandbox/blin/data/zef-data/tmp/1786157130.2067407.6794.04199578418/Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz
 [Pod::Perl5] Command: tar -t -f ./Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz
 [Pod::Perl5] Command: tar -xvf ./Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz -C ../Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz
 ===> Extraction [OK]: Pod::Perl5 to /home/coke/sandbox/blin/data/zef-data/tmp/Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz
@@ -396,8 +396,6 @@
 [Pod::Perl5] Use of uninitialized value element of type Any in string context.
 [Pod::Perl5] Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
 [Pod::Perl5]   in method stringify-match at /home/coke/sandbox/blin/data/zef-data/tmp/Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz/Pod-Perl5-master/lib/Pod/Perl5/ToHTML.pm6 (Pod::Perl5::ToHTML) line 18
-[Pod::Perl5] ok 2 - convert string to html
-[Pod::Perl5] not ok 3 - Generated html matches expected
 [Pod::Perl5] # Failed test 'Generated html matches expected'
 [Pod::Perl5] # at t/ToHTML/Readme.t line 14
 [Pod::Perl5] # expected: '<html>
@@ -461,9 +459,11 @@
 [Pod::Perl5] # </html>
 [Pod::Perl5] # '
 [Pod::Perl5] #      got: (Nil)
+[Pod::Perl5] # You failed 1 test of 5
+[Pod::Perl5] ok 2 - convert string to html
+[Pod::Perl5] not ok 3 - Generated html matches expected
 [Pod::Perl5] ok 4 - head matches expected
 [Pod::Perl5] ok 5 - body is populated
-[Pod::Perl5] # You failed 1 test of 5
 [Pod::Perl5] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Pod%3A%3APerl5%3Aver%3C0.18%3E%3Aauth%3Cgithub%3Adnmfarrell%3E.tar.gz/Pod-Perl5-master t/ToHTML/Text.t
 [Pod::Perl5] 1..3
 [Pod::Perl5] ok 1 - constructor

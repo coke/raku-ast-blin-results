@@ -1,7 +1,7 @@
 ===> Searching for: IRC::Log::Colabti
 ===> Found: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[IRC::Log::Colabti] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786154416.1994179.6035.897219610936/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz https://360.zef.pm/I/RC/IRC_LOG_COLABTI/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
-===> Fetching [OK]: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786154416.1994179.6035.897219610936/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
+[IRC::Log::Colabti] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786160166.2156479.3706.758784209706/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz https://360.zef.pm/I/RC/IRC_LOG_COLABTI/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
+===> Fetching [OK]: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786160166.2156479.3706.758784209706/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
 [IRC::Log::Colabti] Command: tar -t -f ./ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
 [IRC::Log::Colabti] Command: tar -xvf ./ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz -C ../ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
 ===> Extraction [OK]: IRC::Log::Colabti to /home/coke/sandbox/blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz

@@ -1,7 +1,7 @@
 ===> Searching for: FindBin::libs
 ===> Found: FindBin::libs:ver<0.3.0>:auth<cpan:LEMBARK> [via Zef::Repository::Ecosystems<rea>]
-[FindBin::libs] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786153339.1963942.3793.587965687678/FindBin%3A%3Alibs%3Aver%3C0.3.0%3E%3Aauth%3Ccpan%3ALEMBARK%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/F/FindBin%3A%3Alibs/FindBin%3A%3Alibs%3Aver%3C0.3.0%3E%3Aauth%3Ccpan%3ALEMBARK%3E.tar.gz
-===> Fetching [OK]: FindBin::libs:ver<0.3.0>:auth<cpan:LEMBARK> to /home/coke/sandbox/blin/data/zef-data/tmp/1786153339.1963942.3793.587965687678/FindBin%3A%3Alibs%3Aver%3C0.3.0%3E%3Aauth%3Ccpan%3ALEMBARK%3E.tar.gz
+[FindBin::libs] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786159776.2144395.671.5611491258866/FindBin%3A%3Alibs%3Aver%3C0.3.0%3E%3Aauth%3Ccpan%3ALEMBARK%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/F/FindBin%3A%3Alibs/FindBin%3A%3Alibs%3Aver%3C0.3.0%3E%3Aauth%3Ccpan%3ALEMBARK%3E.tar.gz
+===> Fetching [OK]: FindBin::libs:ver<0.3.0>:auth<cpan:LEMBARK> to /home/coke/sandbox/blin/data/zef-data/tmp/1786159776.2144395.671.5611491258866/FindBin%3A%3Alibs%3Aver%3C0.3.0%3E%3Aauth%3Ccpan%3ALEMBARK%3E.tar.gz
 [FindBin::libs] Command: tar -t -f ./FindBin%3A%3Alibs%3Aver%3C0.3.0%3E%3Aauth%3Ccpan%3ALEMBARK%3E.tar.gz
 [FindBin::libs] Command: tar -xvf ./FindBin%3A%3Alibs%3Aver%3C0.3.0%3E%3Aauth%3Ccpan%3ALEMBARK%3E.tar.gz -C ../FindBin%3A%3Alibs%3Aver%3C0.3.0%3E%3Aauth%3Ccpan%3ALEMBARK%3E.tar.gz
 ===> Extraction [OK]: FindBin::libs to /home/coke/sandbox/blin/data/zef-data/tmp/FindBin%3A%3Alibs%3Aver%3C0.3.0%3E%3Aauth%3Ccpan%3ALEMBARK%3E.tar.gz

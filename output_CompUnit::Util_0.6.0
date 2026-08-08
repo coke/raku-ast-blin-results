@@ -1,7 +1,7 @@
 ===> Searching for: CompUnit::Util
 ===> Found: CompUnit::Util:ver<0.6.0> [via Zef::Repository::Ecosystems<rea>]
-[CompUnit::Util] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786144805.1724115.6654.044444812469/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/CompUnit%3A%3AUtil/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
-===> Fetching [OK]: CompUnit::Util:ver<0.6.0> to /home/coke/sandbox/blin/data/zef-data/tmp/1786144805.1724115.6654.044444812469/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
+[CompUnit::Util] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786155777.2027824.6481.33223154941/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/CompUnit%3A%3AUtil/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
+===> Fetching [OK]: CompUnit::Util:ver<0.6.0> to /home/coke/sandbox/blin/data/zef-data/tmp/1786155777.2027824.6481.33223154941/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
 [CompUnit::Util] Command: tar -t -f ./CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
 [CompUnit::Util] Command: tar -xvf ./CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz -C ../CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz
 ===> Extraction [OK]: CompUnit::Util to /home/coke/sandbox/blin/data/zef-data/tmp/CompUnit%3A%3AUtil%3Aver%3C0.6.0%3E%3Aauth%3Cgithub%3ALLFourn%3E.tar.gz

@@ -1,7 +1,12 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> ity>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
 ===> Searching for: MoarVM::Bytecode
 ===> Found: MoarVM::Bytecode:ver<0.0.27>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[MoarVM::Bytecode] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786153264.1962726.667.0469819938063/4f9d9acc9b58383ae67b868f9587810696f60f51.tar.gz https://360.zef.pm/M/OA/MOARVM_BYTECODE/4f9d9acc9b58383ae67b868f9587810696f60f51.tar.gz
-===> Fetching [OK]: MoarVM::Bytecode:ver<0.0.27>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786153264.1962726.667.0469819938063/4f9d9acc9b58383ae67b868f9587810696f60f51.tar.gz
+[MoarVM::Bytecode] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786159846.2147439.6298.259338710101/4f9d9acc9b58383ae67b868f9587810696f60f51.tar.gz https://360.zef.pm/M/OA/MOARVM_BYTECODE/4f9d9acc9b58383ae67b868f9587810696f60f51.tar.gz
+===> Fetching [OK]: MoarVM::Bytecode:ver<0.0.27>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786159846.2147439.6298.259338710101/4f9d9acc9b58383ae67b868f9587810696f60f51.tar.gz
 [MoarVM::Bytecode] Command: tar -t -f ./4f9d9acc9b58383ae67b868f9587810696f60f51.tar.gz
 [MoarVM::Bytecode] Command: tar -xvf ./4f9d9acc9b58383ae67b868f9587810696f60f51.tar.gz -C ../4f9d9acc9b58383ae67b868f9587810696f60f51.tar.gz
 ===> Extraction [OK]: MoarVM::Bytecode to /home/coke/sandbox/blin/data/zef-data/tmp/4f9d9acc9b58383ae67b868f9587810696f60f51.tar.gz
@@ -20,5 +25,85 @@
 ===> Installing: MoarVM::Bytecode:ver<0.0.27>:auth<zef:lizmat>
 ===> Install [OK] for MoarVM::Bytecode:ver<0.0.27>:auth<zef:lizmat>
 
-5 bin/ scripts [opinfo sheap csites bceval bcinfo] installed to:
+5 bin/ scripts [bceval sheap bcinfo opinfo csites] installed to:
 /home/coke/sandbox/blin/installed/MoarVM::Bytecode_0.0.27/bin
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> Zef>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> ion>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> ery>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> ion>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> cal>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> ory>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> tem>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> tch>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> act>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> ild>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> est>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> all>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> ort>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> ent>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> fig>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> URI>,:version-matcher<*>,:auth-matcher<><HERE>,:api-matcher<*>)

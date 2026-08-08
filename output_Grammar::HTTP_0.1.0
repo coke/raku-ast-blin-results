@@ -1,7 +1,7 @@
 ===> Searching for: Grammar::HTTP
 ===> Found: Grammar::HTTP:ver<0.1.0>:auth<github:ugexe> [via Zef::Repository::Ecosystems<rea>]
-[Grammar::HTTP] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786151523.1913989.3883.14356936711/Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/G/Grammar%3A%3AHTTP/Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
-===> Fetching [OK]: Grammar::HTTP:ver<0.1.0>:auth<github:ugexe> to /home/coke/sandbox/blin/data/zef-data/tmp/1786151523.1913989.3883.14356936711/Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+[Grammar::HTTP] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786158729.2116048.7101.752238553303/Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/G/Grammar%3A%3AHTTP/Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+===> Fetching [OK]: Grammar::HTTP:ver<0.1.0>:auth<github:ugexe> to /home/coke/sandbox/blin/data/zef-data/tmp/1786158729.2116048.7101.752238553303/Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
 [Grammar::HTTP] Command: tar -t -f ./Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
 [Grammar::HTTP] Command: tar -xvf ./Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz -C ../Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
 ===> Extraction [OK]: Grammar::HTTP to /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
@@ -21,10 +21,10 @@
 [Grammar::HTTP]     # 
 [Grammar::HTTP]     # You failed 1 test of 1
 [Grammar::HTTP] not ok 1 - URI RFC Grammars
-[Grammar::HTTP] # Subtest: ABNF Grammars
-[Grammar::HTTP]     1..3
 [Grammar::HTTP] # Failed test 'URI RFC Grammars'
 [Grammar::HTTP] # at t/00-sanity.rakutest line 4
+[Grammar::HTTP] # Subtest: ABNF Grammars
+[Grammar::HTTP]     1..3
 [Grammar::HTTP]     not ok 1 - 4234: Augmented BNF for Syntax Specifications: ABNF
 [Grammar::HTTP]     # Failed test '4234: Augmented BNF for Syntax Specifications: ABNF'
 [Grammar::HTTP]     # at t/00-sanity.rakutest line 14
@@ -47,9 +47,9 @@
 [Grammar::HTTP]     # at /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz/Raku-Grammar--HTTP-main/lib/Grammar/IETF/ABNF/RFC7405.rakumod (Grammar::IETF::ABNF::RFC7405):1
 [Grammar::HTTP]     # 
 [Grammar::HTTP]     # You failed 3 tests of 3
-[Grammar::HTTP] not ok 2 - ABNF Grammars
 [Grammar::HTTP] # Failed test 'ABNF Grammars'
 [Grammar::HTTP] # at t/00-sanity.rakutest line 11
+[Grammar::HTTP] not ok 2 - ABNF Grammars
 [Grammar::HTTP] # Subtest: DNS Grammars
 [Grammar::HTTP]     1..1
 [Grammar::HTTP]     not ok 1 - 1035: Domain Names - Implementatin and Specification
@@ -92,9 +92,9 @@
 [Grammar::HTTP]     # at /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3AHTTP%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz/Raku-Grammar--HTTP-main/lib/Grammar/IETF/IOL/RFC5646.rakumod (Grammar::IETF::IOL::RFC5646):3
 [Grammar::HTTP]     # 
 [Grammar::HTTP]     # You failed 3 tests of 3
+[Grammar::HTTP] not ok 4 - Identification of Language (IOL) Grammars
 [Grammar::HTTP] # Failed test 'Identification of Language (IOL) Grammars'
 [Grammar::HTTP] # at t/00-sanity.rakutest line 29
-[Grammar::HTTP] not ok 4 - Identification of Language (IOL) Grammars
 [Grammar::HTTP] # Subtest: HTTP RFC Grammars
 [Grammar::HTTP]     not ok 1 - 5322: Internet Message Format
 [Grammar::HTTP]     # Failed test '5322: Internet Message Format'
@@ -167,9 +167,9 @@
 [Grammar::HTTP]     # 
 [Grammar::HTTP]     1..9
 [Grammar::HTTP]     # You failed 9 tests of 9
+[Grammar::HTTP] not ok 5 - HTTP RFC Grammars
 [Grammar::HTTP] # Failed test 'HTTP RFC Grammars'
 [Grammar::HTTP] # at t/00-sanity.rakutest line 42
-[Grammar::HTTP] not ok 5 - HTTP RFC Grammars
 [Grammar::HTTP] not ok 6 - Grammar::HTTP module can be use-d ok
 [Grammar::HTTP] # Failed test 'Grammar::HTTP module can be use-d ok'
 [Grammar::HTTP] # at t/00-sanity.rakutest line 71
