@@ -1,0 +1,40 @@
+===> Searching for: Tie::Array
+===> Found: Tie::Array:ver<0.0.9>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Tie::Array] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786151562.1916012.4627.033210635024/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz https://360.zef.pm/T/IE/TIE_ARRAY/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
+===> Fetching [OK]: Tie::Array:ver<0.0.9>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786151562.1916012.4627.033210635024/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
+[Tie::Array] Command: tar -t -f ./d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
+[Tie::Array] Command: tar -xvf ./d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz -C ../d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
+===> Extraction [OK]: Tie::Array to /home/coke/sandbox/blin/data/zef-data/tmp/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
+===> Testing: Tie::Array:ver<0.0.9>:auth<zef:lizmat>
+[Tie::Array] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz/Tie-Array-0.0.9 t/01-basic.rakutest
+[Tie::Array] 1..17
+[Tie::Array] ok 1 - is the object a Foo?
+[Tie::Array] ok 2 - did we get Any
+[Tie::Array] ok 3 - did we get 666
+[Tie::Array] ok 4 - did we get 667
+[Tie::Array] not ok 5 - did push return ok
+[Tie::Array] # Failed test 'did push return ok'
+[Tie::Array] # at t/01-basic.rakutest line 36
+[Tie::Array] # expected: '2'
+[Tie::Array] #      got: '667 42'
+[Tie::Array] ok 6 - did we get 42
+[Tie::Array] ok 7 - did shift return ok
+[Tie::Array] ok 8 - did we get 42
+[Tie::Array] ok 9 - did pop return ok
+[Tie::Array] ok 10 - does the array return False now
+[Tie::Array] ok 11 - do we have the right number of elems
+[Tie::Array] not ok 12 - did unshift return ok
+[Tie::Array] # Failed test 'did unshift return ok'
+[Tie::Array] # at t/01-basic.rakutest line 46
+[Tie::Array] # expected: '1'
+[Tie::Array] #      got: '92'
+[Tie::Array] ok 13 - did we get 92
+[Tie::Array] ok 14 - does the array return True now
+[Tie::Array] ok 15 - do we have the right number of elems
+[Tie::Array] ok 16 - did initialization with list go ok
+[Tie::Array] ok 17 - did @a get initialized ok
+[Tie::Array] # You failed 2 tests of 17
+===> Testing [FAIL]: Tie::Array:ver<0.0.9>:auth<zef:lizmat>
+[Tie::Array] Failed to get passing tests, but continuing with --force-test
+===> Installing: Tie::Array:ver<0.0.9>:auth<zef:lizmat>
+===> Install [OK] for Tie::Array:ver<0.0.9>:auth<zef:lizmat>
