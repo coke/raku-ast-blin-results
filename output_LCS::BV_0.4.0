@@ -1,0 +1,21 @@
+===> Searching for: LCS::BV
+===> Found: LCS::BV:ver<0.4.0> [via Zef::Repository::Ecosystems<rea>]
+[LCS::BV] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786150690.1889551.5947.236521229898/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/L/LCS%3A%3ABV/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
+===> Fetching [OK]: LCS::BV:ver<0.4.0> to /home/coke/sandbox/blin/data/zef-data/tmp/1786150690.1889551.5947.236521229898/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
+[LCS::BV] Command: tar -t -f ./LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
+[LCS::BV] Command: tar -xvf ./LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz -C ../LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
+===> Extraction [OK]: LCS::BV to /home/coke/sandbox/blin/data/zef-data/tmp/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz
+===> Testing: LCS::BV:ver<0.4.0>
+[LCS::BV] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LCS%3A%3ABV%3Aver%3C0.4.0%3E%3Aauth%3Cgithub%3Awollmers%3E.tar.gz/P6-LCS-BV-master t/01-basic.t
+[LCS::BV] ok 1 - '', ''
+[LCS::BV] ok 2 - 'a', ''
+[LCS::BV] ok 3 - '', 'a'
+[LCS::BV] Index out of range. Is: 1, should be in 0..0
+[LCS::BV]   in sub all_lcs at /home/coke/sandbox/blin/installed/LCS::All_0.2.0/sources/0330044CA29C4D6311984FC8775DC5DDC514F99C (LCS::All) line 42
+[LCS::BV]   in sub allLCS at /home/coke/sandbox/blin/installed/LCS::All_0.2.0/sources/0330044CA29C4D6311984FC8775DC5DDC514F99C (LCS::All) line 30
+[LCS::BV]   in block  at t/01-basic.t line 103
+[LCS::BV]   in block <unit> at t/01-basic.t line 71
+===> Testing [FAIL]: LCS::BV:ver<0.4.0>
+[LCS::BV] Failed to get passing tests, but continuing with --force-test
+===> Installing: LCS::BV:ver<0.4.0>
+===> Install [OK] for LCS::BV:ver<0.4.0>

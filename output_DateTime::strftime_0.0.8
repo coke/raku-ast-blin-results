@@ -1,0 +1,92 @@
+===> Searching for: DateTime::strftime
+===> Found: DateTime::strftime:ver<0.0.8>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[DateTime::strftime] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786150748.1892064.7086.547364509958/911b4e5db07faa2d7b5b3e3702f9bdcb01ce1528.tar.gz https://360.zef.pm/D/AT/DATETIME_STRFTIME/911b4e5db07faa2d7b5b3e3702f9bdcb01ce1528.tar.gz
+===> Fetching [OK]: DateTime::strftime:ver<0.0.8>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786150748.1892064.7086.547364509958/911b4e5db07faa2d7b5b3e3702f9bdcb01ce1528.tar.gz
+[DateTime::strftime] Command: tar -t -f ./911b4e5db07faa2d7b5b3e3702f9bdcb01ce1528.tar.gz
+[DateTime::strftime] Command: tar -xvf ./911b4e5db07faa2d7b5b3e3702f9bdcb01ce1528.tar.gz -C ../911b4e5db07faa2d7b5b3e3702f9bdcb01ce1528.tar.gz
+===> Extraction [OK]: DateTime::strftime to /home/coke/sandbox/blin/data/zef-data/tmp/911b4e5db07faa2d7b5b3e3702f9bdcb01ce1528.tar.gz
+===> Testing: DateTime::strftime:ver<0.0.8>:auth<zef:lizmat>
+[DateTime::strftime] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/911b4e5db07faa2d7b5b3e3702f9bdcb01ce1528.tar.gz/DateTime-strftime-0.0.8 t/01-basic.rakutest
+[DateTime::strftime] 1..36
+[DateTime::strftime] ok 1 - is %c correct in EN
+[DateTime::strftime] ok 2 - is %c correct in NL
+[DateTime::strftime] ok 3 - is %+ correct in EN
+[DateTime::strftime] ok 4 - is %+ correct in NL
+[DateTime::strftime] ok 5 - is %x correct in EN
+[DateTime::strftime] ok 6 - is %x correct in NL
+[DateTime::strftime] ok 7 - is %X correct in EN
+[DateTime::strftime] ok 8 - is %X correct in NL
+[DateTime::strftime] ok 9 - are weekdays ok in EN
+[DateTime::strftime] ok 10 - are weekdays ok in NL
+[DateTime::strftime] ok 11 - are months ok in EN
+[DateTime::strftime] ok 12 - are months ok in NL
+[DateTime::strftime] ok 13 - are DD-MM-YYYY ok in EN
+[DateTime::strftime] ok 14 - are DD-MM-YYYY ok in NL
+[DateTime::strftime] ok 15 - is century ok
+[DateTime::strftime] ok 16 - are days of the month ok
+[DateTime::strftime] ok 17 - is Yechh ok
+[DateTime::strftime] ok 18 - is ISO 8601 date ok
+[DateTime::strftime] ok 19 - is abbreviated week based year ok
+[DateTime::strftime] ok 20 - is week based year ok
+[DateTime::strftime] ok 21 - is hour ok
+[DateTime::strftime] ok 22 - is day of year ok
+[DateTime::strftime] ok 23 - are months ok
+[DateTime::strftime] ok 24 - is minute ok
+[DateTime::strftime] ok 25 - are special escapes ok
+[DateTime::strftime] ok 26 - is am/pm ok
+[DateTime::strftime] ok 27 - is am/pm HH:MM:SS ok
+[DateTime::strftime] ok 28 - is HH:MM:SS ok
+[DateTime::strftime] ok 29 - is HH:MM ok
+[DateTime::strftime] ok 30 - is epoch ok
+[DateTime::strftime] ok 31 - is seconds ok
+[DateTime::strftime] ok 32 - is day of week ok
+[DateTime::strftime] ok 33 - are week numbers ok
+[DateTime::strftime] ok 34 - are years ok
+[DateTime::strftime] ok 35 - are timezones ok
+[DateTime::strftime] ok 36 - is RFC2822 ok
+[DateTime::strftime] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/911b4e5db07faa2d7b5b3e3702f9bdcb01ce1528.tar.gz/DateTime-strftime-0.0.8 t/02-refine.rakutest
+[DateTime::strftime] ===SORRY!=== Error while compiling t/02-refine.rakutest
+[DateTime::strftime] Redeclaration of symbol 'DateTime'.
+[DateTime::strftime] at t/02-refine.rakutest:2
+[DateTime::strftime] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/911b4e5db07faa2d7b5b3e3702f9bdcb01ce1528.tar.gz/DateTime-strftime-0.0.8 t/03-text.rakutest
+[DateTime::strftime] 1..36
+[DateTime::strftime] ok 1 - is :datetime: correct in EN
+[DateTime::strftime] ok 2 - is :datetime: correct in NL
+[DateTime::strftime] ok 3 - is :unixdate: correct in EN
+[DateTime::strftime] ok 4 - is :unixdate: correct in NL
+[DateTime::strftime] ok 5 - is %x correct in EN
+[DateTime::strftime] ok 6 - is %x correct in NL
+[DateTime::strftime] ok 7 - is %X correct in EN
+[DateTime::strftime] ok 8 - is %X correct in NL
+[DateTime::strftime] ok 9 - are weekdays ok in EN
+[DateTime::strftime] ok 10 - are weekdays ok in NL
+[DateTime::strftime] ok 11 - are months ok in EN
+[DateTime::strftime] ok 12 - are months ok in NL
+[DateTime::strftime] ok 13 - are DD-MM-YYYY ok in EN
+[DateTime::strftime] ok 14 - are DD-MM-YYYY ok in NL
+[DateTime::strftime] ok 15 - is century ok
+[DateTime::strftime] ok 16 - are days of the month ok
+[DateTime::strftime] ok 17 - is :usadate: ok
+[DateTime::strftime] ok 18 - is ISO 8601 date ok
+[DateTime::strftime] ok 19 - is abbreviated week based year ok
+[DateTime::strftime] ok 20 - is week based year ok
+[DateTime::strftime] ok 21 - is hour ok
+[DateTime::strftime] ok 22 - is day of year ok
+[DateTime::strftime] ok 23 - is months ok
+[DateTime::strftime] ok 24 - is minute ok
+[DateTime::strftime] ok 25 - are special escapes ok
+[DateTime::strftime] ok 26 - is am/pm ok
+[DateTime::strftime] ok 27 - is am/pm HH:MM:SS ok
+[DateTime::strftime] ok 28 - is HH:MM:SS ok
+[DateTime::strftime] ok 29 - is HH:MM ok
+[DateTime::strftime] ok 30 - is epoch ok
+[DateTime::strftime] ok 31 - is seconds ok
+[DateTime::strftime] ok 32 - is day of week ok
+[DateTime::strftime] ok 33 - are week numbers ok
+[DateTime::strftime] ok 34 - are years ok
+[DateTime::strftime] ok 35 - are timezones ok
+[DateTime::strftime] ok 36 - is RFC2822 ok
+===> Testing [FAIL]: DateTime::strftime:ver<0.0.8>:auth<zef:lizmat>
+[DateTime::strftime] Failed to get passing tests, but continuing with --force-test
+===> Installing: DateTime::strftime:ver<0.0.8>:auth<zef:lizmat>
+===> Install [OK] for DateTime::strftime:ver<0.0.8>:auth<zef:lizmat>

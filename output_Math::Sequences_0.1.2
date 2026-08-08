@@ -1,0 +1,322 @@
+===> Searching for: Math::Sequences
+===> Found: Math::Sequences:ver<0.1.2>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Math::Sequences] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786150710.1891158.8535.809751058385/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz https://360.zef.pm/M/AT/MATH_SEQUENCES/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz
+===> Fetching [OK]: Math::Sequences:ver<0.1.2>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1786150710.1891158.8535.809751058385/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz
+[Math::Sequences] Command: tar -t -f ./5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz
+[Math::Sequences] Command: tar -xvf ./5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz -C ../5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz
+===> Extraction [OK]: Math::Sequences to /home/coke/sandbox/blin/data/zef-data/tmp/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz
+===> Testing: Math::Sequences:ver<0.1.2>:auth<zef:raku-community-modules>
+[Math::Sequences] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz/dist t/Integers.rakutest
+[Math::Sequences] 1..11
+[Math::Sequences] ok 1 - Infinite integers
+[Math::Sequences] ok 2 - Integers are Ints
+[Math::Sequences] ok 3 - Integers are named ℤ
+[Math::Sequences] ok 4 - Fibonacci is OK up to 5
+[Math::Sequences] ok 5 - Lucas is OK up to 8
+[Math::Sequences] ok 6 - Horadam-1 OK up to 6
+[Math::Sequences] ok 7 - Hofstadter's G up to 10
+[Math::Sequences] ok 8 - Hofstadter's H up to 11
+[Math::Sequences] ok 9 - third prime (5)
+[Math::Sequences] ok 10 - Search for names of prime sequences
+[Math::Sequences] ok 11 - Search for sequences 'prime'
+[Math::Sequences] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz/dist t/META.rakutest
+[Math::Sequences] 1..1
+[Math::Sequences] ok 1 - # SKIP Skipping author test
+[Math::Sequences] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz/dist t/Naturals.rakutest
+[Math::Sequences] 1..3
+[Math::Sequences] # Subtest: 𝕀
+[Math::Sequences]     1..10
+[Math::Sequences]     ok 1 - Infinite naturals
+[Math::Sequences]     ok 2 - Naturals are Ints
+[Math::Sequences]     ok 3 - Naturals are named ℕ
+[Math::Sequences]     ok 4 - Indexing ℕ
+[Math::Sequences]     ok 5 - ℕ[0] should be 0
+[Math::Sequences]     ok 6 - ℕ[1] should be 1
+[Math::Sequences]     ok 7 - ℕ[2] should be 2
+[Math::Sequences]     ok 8 - ℕ[3] should be 3
+[Math::Sequences]     ok 9 - 𝕀.min zero
+[Math::Sequences]     ok 10 - 𝕀.min infinite
+[Math::Sequences] ok 1 - 𝕀
+[Math::Sequences] # Subtest: ℕ
+[Math::Sequences]     1..5
+[Math::Sequences]     ok 1 - Whole numbers[0]
+[Math::Sequences]     ok 2 - Whole numbers[1]
+[Math::Sequences]     ok 3 - Whole numbers[2]
+[Math::Sequences]     ok 4 - Wholes.min 1
+[Math::Sequences]     ok 5 - Wholes.max infinite
+[Math::Sequences] ok 2 - ℕ
+[Math::Sequences] ok 3 - Arbitrary starting point
+[Math::Sequences] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz/dist t/OEIS.rakutest
+[Math::Sequences] 1..177
+[Math::Sequences] ok 1 - Not yet implemented: A000001
+[Math::Sequences] ok 2 - A000002
+[Math::Sequences] ok 3 - A000004
+[Math::Sequences] ok 4 - A000005
+[Math::Sequences] ok 5 - A000007
+[Math::Sequences] ok 6 - A000009
+[Math::Sequences] ok 7 - A000010
+[Math::Sequences] ok 8 - A000012
+[Math::Sequences] ok 9 - Not yet implemented: A000014
+[Math::Sequences] ok 10 - Not yet implemented: A000019
+[Math::Sequences] ok 11 - A000027
+[Math::Sequences] ok 12 - A000029
+[Math::Sequences] ok 13 - A000031
+[Math::Sequences] ok 14 - A000032
+[Math::Sequences] ok 15 - A000035
+[Math::Sequences] ok 16 - A000040
+[Math::Sequences] ok 17 - Not yet implemented: A000041
+[Math::Sequences] ok 18 - A000043
+[Math::Sequences] ok 19 - A000045
+[Math::Sequences] ok 20 - A000048
+[Math::Sequences] ok 21 - Not yet implemented: A000055
+[Math::Sequences] ok 22 - A000058
+[Math::Sequences] ok 23 - A000069
+[Math::Sequences] ok 24 - A000079
+[Math::Sequences] ok 25 - Not yet implemented: A000081
+[Math::Sequences] ok 26 - A000085
+[Math::Sequences] ok 27 - Not yet implemented: A000088
+[Math::Sequences] ok 28 - Not yet implemented: A000105
+[Math::Sequences] ok 29 - A000108
+[Math::Sequences] ok 30 - A000109
+[Math::Sequences] ok 31 - A000110
+[Math::Sequences] ok 32 - A000111
+[Math::Sequences] ok 33 - A000112
+[Math::Sequences] ok 34 - A000120
+[Math::Sequences] ok 35 - A000123
+[Math::Sequences] ok 36 - A000124
+[Math::Sequences] ok 37 - A000129
+[Math::Sequences] ok 38 - Not yet implemented: A000140
+[Math::Sequences] ok 39 - A000142
+[Math::Sequences] ok 40 - A000161
+[Math::Sequences] ok 41 - A000166
+[Math::Sequences] ok 42 - A000169
+[Math::Sequences] ok 43 - A000182
+[Math::Sequences] ok 44 - A000203
+[Math::Sequences] ok 45 - A000204
+[Math::Sequences] ok 46 - A000217
+[Math::Sequences] ok 47 - A000219
+[Math::Sequences] ok 48 - A000225
+[Math::Sequences] ok 49 - A000244
+[Math::Sequences] ok 50 - A000262
+[Math::Sequences] ok 51 - A000272
+[Math::Sequences] ok 52 - Not yet implemented: A000273
+[Math::Sequences] ok 53 - A000290
+[Math::Sequences] ok 54 - A000292
+[Math::Sequences] ok 55 - A000302
+[Math::Sequences] ok 56 - A000311
+[Math::Sequences] ok 57 - A000312
+[Math::Sequences] ok 58 - A000326
+[Math::Sequences] ok 59 - A000330
+[Math::Sequences] ok 60 - A000364
+[Math::Sequences] ok 61 - A000396
+[Math::Sequences] ok 62 - Not yet implemented: A000521
+[Math::Sequences] ok 63 - A000578
+[Math::Sequences] ok 64 - A000583
+[Math::Sequences] ok 65 - A000593
+[Math::Sequences] ok 66 - A000594
+[Math::Sequences] ok 67 - Not yet implemented: A000602
+[Math::Sequences] ok 68 - A000609
+[Math::Sequences] ok 69 - Not yet implemented: A000670
+[Math::Sequences] ok 70 - A000688
+[Math::Sequences] ok 71 - A000720
+[Math::Sequences] Timeout in A000793
+[Math::Sequences]   in block  at t/OEIS.rakutest line 897
+[Math::Sequences] ok 72 - A000793
+[Math::Sequences] ok 73 - A000796
+[Math::Sequences] ok 74 - Not yet implemented: A000798
+[Math::Sequences] ok 75 - Not yet implemented: A000959
+[Math::Sequences] ok 76 - A000961
+[Math::Sequences] ok 77 - A000984
+[Math::Sequences] ok 78 - A001003
+[Math::Sequences] ok 79 - A001006
+[Math::Sequences] ok 80 - Not yet implemented: A001034
+[Math::Sequences] ok 81 - A001037
+[Math::Sequences] ok 82 - A001045
+[Math::Sequences] ok 83 - Not yet implemented: A001055
+[Math::Sequences] ok 84 - A001065
+[Math::Sequences] ok 85 - A001057
+[Math::Sequences] ok 86 - A001097
+[Math::Sequences] ok 87 - A001113
+[Math::Sequences] ok 88 - A001147
+[Math::Sequences] ok 89 - A001157
+[Math::Sequences] ok 90 - A001190
+[Math::Sequences] ok 91 - A001221
+[Math::Sequences] ok 92 - A001222
+[Math::Sequences] ok 93 - A001227
+[Math::Sequences] ok 94 - A001285
+[Math::Sequences] ok 95 - A001333
+[Math::Sequences] ok 96 - Not yet implemented: A001349
+[Math::Sequences] ok 97 - A001358
+[Math::Sequences] ok 98 - A001405
+[Math::Sequences] ok 99 - A001462
+[Math::Sequences] ok 100 - A001477
+[Math::Sequences] ok 101 - A001478
+[Math::Sequences] ok 102 - A001481
+[Math::Sequences] ok 103 - A001489
+[Math::Sequences] ok 104 - A001511
+[Math::Sequences] ok 105 - Not yet implemented: A001615
+[Math::Sequences] ok 106 - A001699
+[Math::Sequences] ok 107 - A001700
+[Math::Sequences] ok 108 - A001519
+[Math::Sequences] ok 109 - A001764
+[Math::Sequences] ok 110 - A001906
+[Math::Sequences] ok 111 - A001969
+[Math::Sequences] ok 112 - Not yet implemented: A002033
+[Math::Sequences] ok 113 - A002083
+[Math::Sequences] ok 114 - A002106
+[Math::Sequences] ok 115 - A002110
+[Math::Sequences] ok 116 - A002113
+[Math::Sequences] ok 117 - A002275
+[Math::Sequences] ok 118 - Not yet implemented: A002322
+[Math::Sequences] ok 119 - A002378
+[Math::Sequences] ok 120 - A002426
+[Math::Sequences] ok 121 - A002487
+[Math::Sequences] ok 122 - A002530
+[Math::Sequences] ok 123 - A002531
+[Math::Sequences] ok 124 - A000793
+[Math::Sequences] ok 125 - A002572
+[Math::Sequences] ok 126 - A002620
+[Math::Sequences] ok 127 - A002654
+[Math::Sequences] ok 128 - A002658
+[Math::Sequences] ok 129 - A002808
+[Math::Sequences] ok 130 - A003094
+[Math::Sequences] ok 131 - A003136
+[Math::Sequences] ok 132 - # SKIP A003418: Known broken
+[Math::Sequences] ok 133 - Not yet implemented: A003484
+[Math::Sequences] ok 134 - A004011
+[Math::Sequences] ok 135 - Not yet implemented: A004018
+[Math::Sequences] ok 136 - A004526
+[Math::Sequences] ok 137 - Not yet implemented: A005036
+[Math::Sequences] ok 138 - A005100
+[Math::Sequences] ok 139 - A005101
+[Math::Sequences] ok 140 - A005117
+[Math::Sequences] ok 141 - A005130
+[Math::Sequences] ok 142 - A005230
+[Math::Sequences] ok 143 - A005408
+[Math::Sequences] ok 144 - A005470
+[Math::Sequences] ok 145 - Not yet implemented: A005588
+[Math::Sequences] ok 146 - A005811
+[Math::Sequences] ok 147 - A005843
+[Math::Sequences] ok 148 - A006318
+[Math::Sequences] ok 149 - A006530
+[Math::Sequences] ok 150 - A006882
+[Math::Sequences] ok 151 - A006894
+[Math::Sequences] ok 152 - A006966
+[Math::Sequences] ok 153 - A007318
+[Math::Sequences] ok 154 - A008275
+[Math::Sequences] ok 155 - A008277
+[Math::Sequences] ok 156 - A008279
+[Math::Sequences] ok 157 - A008292
+[Math::Sequences] ok 158 - A008683
+[Math::Sequences] ok 159 - A010060
+[Math::Sequences] ok 160 - A018252
+[Math::Sequences] ok 161 - A020639
+[Math::Sequences] ok 162 - A020652
+[Math::Sequences] ok 163 - Not yet implemented: A020653
+[Math::Sequences] ok 164 - A025487
+[Math::Sequences] ok 165 - A027641
+[Math::Sequences] ok 166 - A027642
+[Math::Sequences] ok 167 - Not yet implemented: A035099
+[Math::Sequences] ok 168 - A038566
+[Math::Sequences] ok 169 - A038567
+[Math::Sequences] ok 170 - A038568
+[Math::Sequences] ok 171 - A038569
+[Math::Sequences] ok 172 - A049310
+[Math::Sequences] ok 173 - A055512
+[Math::Sequences] ok 174 - A070939
+[Math::Sequences] ok 175 - A074206
+[Math::Sequences] ok 176 - Not yet implemented: A104725
+[Math::Sequences] ok 177 - A226898
+[Math::Sequences] ok 178 - A246655
+[Math::Sequences] # You planned 177 tests, but ran 178
+[Math::Sequences] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz/dist t/Reals.rakutest
+[Math::Sequences] 1..5
+[Math::Sequences] ok 1 - Infinite reals
+[Math::Sequences] ok 2 - Reals get Real
+[Math::Sequences] ok 3 - Reals are named ℝ
+[Math::Sequences] ok 4 - Real Reals are named ℝ
+[Math::Sequences] ok 5 - First real .from range
+[Math::Sequences] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz/dist t/number-words.rakutest
+[Math::Sequences] 1..5
+[Math::Sequences] ok 1 - negative one
+[Math::Sequences] ok 2 - one thousand, two hundred fifty-two
+[Math::Sequences] ok 3 - zero
+[Math::Sequences] ok 4 - eighty-six million
+[Math::Sequences] ok 5 - ten
+[Math::Sequences] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz/dist t/numberphile.rakutest
+[Math::Sequences] 1..32
+[Math::Sequences] ok 1 - topologically-ordered-numbers
+[Math::Sequences] ok 2 - base 16 topologically-ordered-numbers
+[Math::Sequences] ok 3 - A002210[1-10]: Khintchine's constant
+[Math::Sequences] ok 4 - A002904[1-10]: Roman
+[Math::Sequences] ok 5 - A006567[1-10]: emirps
+[Math::Sequences] ok 6 - A006933[1-10]: eban
+[Math::Sequences] ok 7 - A010727[1-10]: All 7s
+[Math::Sequences] ok 8 - A023811[1-10]: Largest metadrome
+[Math::Sequences] ok 9 - A058883[1-5]: Wild numebrs
+[Math::Sequences] ok 10 - A087019[1-10]: Lunar squares
+[Math::Sequences] ok 11 - A087409[1-10]: 6-shift
+[Math::Sequences] ok 12 - A125523[1-10]: Democratic primes
+[Math::Sequences] ok 13 - A125524[1-10]: Republican primes
+[Math::Sequences] ok 14 - A131645[1-5]: Beastly primes
+[Math::Sequences] ok 15 - A181391[1-10]: Van Eck's sequence
+[Math::Sequences] ok 16 - A232448[1-3]: Belphegor primes
+[Math::Sequences] ok 17 - A249572[1-10]: typographical topology
+[Math::Sequences] ok 18 - A316667[1-10]: Squares visited by knight moves
+[Math::Sequences] ok 19 - alt-A001462[1-10]: Golomb's sequence
+[Math::Sequences] ok 20 - Wieferich prime [0]
+[Math::Sequences] ok 21 - Wieferich prime [1]
+[Math::Sequences] ok 22 - lunar_add two three-digit numbers
+[Math::Sequences] ok 23 - lunar_add four digits
+[Math::Sequences] ok 24 - lunar_mul two digits
+[Math::Sequences] ok 25 - lunar_mul two three-digit numbers
+[Math::Sequences] ok 26 - Board of size 1
+[Math::Sequences] ok 27 - Board of size 3
+[Math::Sequences] ok 28 - Only odd numbers
+[Math::Sequences] ok 29 - Flipped board
+[Math::Sequences] ok 30 - Rotated board
+[Math::Sequences] ok 31 - Rotate board back to start
+[Math::Sequences] ok 32 - Center of 5-board is 3-board
+[Math::Sequences] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz/dist t/sequences.rakutest
+[Math::Sequences] 1..1
+[Math::Sequences] ok 1 - 
+[Math::Sequences] Command: /tmp/whateverable/rakudo-moar/c15a634e9dadb145a614d1a564243889014ff938/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5ea7ddd2304f712c64aabbf8d73f905538c60fe7.tar.gz/dist t/support.rakutest
+[Math::Sequences] 1..34
+[Math::Sequences] ok 1 - choose
+[Math::Sequences] ok 2 - choose
+[Math::Sequences] ok 3 - factors(10)
+[Math::Sequences] ok 4 - factors(4)
+[Math::Sequences] ok 5 - factors(10)
+[Math::Sequences] ok 6 - factors(12)
+[Math::Sequences] ok 7 - factors(13)
+[Math::Sequences] ok 8 - prime-factors(1)
+[Math::Sequences] ok 9 - prime-factors(2)
+[Math::Sequences] ok 10 - prime-factors(4)
+[Math::Sequences] ok 11 - prime-factors(10)
+[Math::Sequences] ok 12 - prime-factors(12)
+[Math::Sequences] ok 13 - prime-factors(13)
+[Math::Sequences] ok 14 - prime-signature(1)
+[Math::Sequences] ok 15 - prime-signature(2)
+[Math::Sequences] ok 16 - prime-signature(3)
+[Math::Sequences] ok 17 - prime-signature(4)
+[Math::Sequences] ok 18 - prime-signature(5)
+[Math::Sequences] ok 19 - prime-signature(6)
+[Math::Sequences] ok 20 - prime-signature(12)
+[Math::Sequences] ok 21 - prime-signature(16)
+[Math::Sequences] ok 22 - prime-signature(18)
+[Math::Sequences] ok 23 - prime-signature(30)
+[Math::Sequences] ok 24 - prime-signature(40)
+[Math::Sequences] ok 25 - prime-signature(100)
+[Math::Sequences] ok 26 - divisors(2)
+[Math::Sequences] ok 27 - divisors(4)
+[Math::Sequences] ok 28 - divisors(10)
+[Math::Sequences] ok 29 - divisors(13)
+[Math::Sequences] ok 30 - sigma(1)
+[Math::Sequences] ok 31 - sigma(2)
+[Math::Sequences] ok 32 - sigma(3)
+[Math::Sequences] ok 33 - sigma(4)
+[Math::Sequences] ok 34 - strict-partitions(10) # TODO failing for some reason, something bitrotted
+===> Testing [FAIL]: Math::Sequences:ver<0.1.2>:auth<zef:raku-community-modules>
+[Math::Sequences] Failed to get passing tests, but continuing with --force-test
+===> Installing: Math::Sequences:ver<0.1.2>:auth<zef:raku-community-modules>
+===> Install [OK] for Math::Sequences:ver<0.1.2>:auth<zef:raku-community-modules>
