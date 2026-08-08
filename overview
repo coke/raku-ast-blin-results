@@ -1644,7 +1644,7 @@ Parameterizable – OK
 Parse::Paths – AlwaysFail
 Parse::STDF – Unknown
 Parse::Selenese – OK
-Parser::FreeXL::Native – Unknown
+Parser::FreeXL::Native – AlwaysFail
 Pastebin::Gist – Unknown
 Pastebin::Pasteee – Unknown
 Pastebin::Shadowcat – Unknown
@@ -1686,9 +1686,9 @@ Pod::Contents – OK
 Pod::Coverage – Unknown
 Pod::EOD – OK
 Pod::From::Cache – Unknown
-Pod::Literate – Unknown
+Pod::Literate – OK
 Pod::Load – Unknown
-Pod::Parser – Unknown
+Pod::Parser – OK
 Pod::Perl5 – Unknown
 Pod::PerlTricks – Unknown
 Pod::Render – Unknown
@@ -1708,7 +1708,7 @@ Pod::To::PDF::Lite – Unknown
 Pod::To::Pager – Unknown
 Pod::To::Raku – Unknown
 Pod::TreeWalker – Unknown
-Pod::Usage – Unknown
+Pod::Usage – OK
 Pod::Utilities – Unknown
 Pod::Utils – Unknown
 Pod::Weave – Unknown
