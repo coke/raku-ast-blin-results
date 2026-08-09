@@ -1,0 +1,20 @@
+===> Searching for: Grammar::Editor
+===> Found: Grammar::Editor:ver<0.0.2>:auth<zef:FCO> [via Zef::Repository::Ecosystems<fez>]
+[Grammar::Editor] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786298618.441805.8519.914787672382/74e5835dcf748674c4290a8612fbc00dc124e8fb.tar.gz https://360.zef.pm/G/RA/GRAMMAR_EDITOR/74e5835dcf748674c4290a8612fbc00dc124e8fb.tar.gz
+===> Fetching [OK]: Grammar::Editor:ver<0.0.2>:auth<zef:FCO> to /home/coke/sandbox/blin/data/zef-data/tmp/1786298618.441805.8519.914787672382/74e5835dcf748674c4290a8612fbc00dc124e8fb.tar.gz
+[Grammar::Editor] Command: tar -t -f ./74e5835dcf748674c4290a8612fbc00dc124e8fb.tar.gz
+[Grammar::Editor] Command: tar -xvf ./74e5835dcf748674c4290a8612fbc00dc124e8fb.tar.gz -C ../74e5835dcf748674c4290a8612fbc00dc124e8fb.tar.gz
+===> Extraction [OK]: Grammar::Editor to /home/coke/sandbox/blin/data/zef-data/tmp/74e5835dcf748674c4290a8612fbc00dc124e8fb.tar.gz
+===> Testing: Grammar::Editor:ver<0.0.2>:auth<zef:FCO>
+[Grammar::Editor] Command: /tmp/whateverable/rakudo-moar/f531cbe5fcec84f607809b491976db01e0226018/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/74e5835dcf748674c4290a8612fbc00dc124e8fb.tar.gz/Grammar-Editor-0.0.2 t/01-basic.rakutest
+[Grammar::Editor] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Grammar::Editor] ===SORRY!===
+[Grammar::Editor] Object does not exist in serialization context
+[Grammar::Editor] at t/01-basic.rakutest:2
+===> Testing [FAIL]: Grammar::Editor:ver<0.0.2>:auth<zef:FCO>
+[Grammar::Editor] Failed to get passing tests, but continuing with --force-test
+===> Installing: Grammar::Editor:ver<0.0.2>:auth<zef:FCO>
+===> Install [OK] for Grammar::Editor:ver<0.0.2>:auth<zef:FCO>
+
+1 bin/ script [grammar-editor.raku] installed to:
+/home/coke/sandbox/blin/installed/Grammar::Editor_zef:FCO_0.0.2_0/bin
