@@ -1,0 +1,40 @@
+===> Searching for: Tie::StdArray
+===> Found: Tie::StdArray:ver<0.0.8>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Tie::StdArray] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786294060.318111.7308.167354057959/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz https://360.zef.pm/T/IE/TIE_STDARRAY/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
+===> Fetching [OK]: Tie::StdArray:ver<0.0.8>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786294060.318111.7308.167354057959/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
+[Tie::StdArray] Command: tar -t -f ./3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
+[Tie::StdArray] Command: tar -xvf ./3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz -C ../3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
+===> Extraction [OK]: Tie::StdArray to /home/coke/sandbox/blin/data/zef-data/tmp/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
+===> Testing: Tie::StdArray:ver<0.0.8>:auth<zef:lizmat>
+[Tie::StdArray] Command: /tmp/whateverable/rakudo-moar/f531cbe5fcec84f607809b491976db01e0226018/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz/Tie-StdArray-0.0.8 t/01-basic.rakutest
+[Tie::StdArray] 1..17
+[Tie::StdArray] ok 1 - is the object a Tie::StdArray?
+[Tie::StdArray] ok 2 - did we get Any
+[Tie::StdArray] ok 3 - did we get 666
+[Tie::StdArray] ok 4 - did we get 667
+[Tie::StdArray] not ok 5 - did push return ok
+[Tie::StdArray] # Failed test 'did push return ok'
+[Tie::StdArray] # at t/01-basic.rakutest line 17
+[Tie::StdArray] # expected: '2'
+[Tie::StdArray] #      got: '667 42'
+[Tie::StdArray] ok 6 - did we get 42
+[Tie::StdArray] ok 7 - did shift return ok
+[Tie::StdArray] ok 8 - did we get 42
+[Tie::StdArray] ok 9 - did pop return ok
+[Tie::StdArray] ok 10 - does the array return False now
+[Tie::StdArray] ok 11 - do we have the right number of elems
+[Tie::StdArray] not ok 12 - did unshift return ok
+[Tie::StdArray] # Failed test 'did unshift return ok'
+[Tie::StdArray] # at t/01-basic.rakutest line 27
+[Tie::StdArray] # expected: '1'
+[Tie::StdArray] #      got: '92'
+[Tie::StdArray] ok 13 - did we get 92
+[Tie::StdArray] ok 14 - does the array return True now
+[Tie::StdArray] ok 15 - do we have the right number of elems
+[Tie::StdArray] ok 16 - did initialization with list go ok
+[Tie::StdArray] ok 17 - did @a get initialized ok
+[Tie::StdArray] # You failed 2 tests of 17
+===> Testing [FAIL]: Tie::StdArray:ver<0.0.8>:auth<zef:lizmat>
+[Tie::StdArray] Failed to get passing tests, but continuing with --force-test
+===> Installing: Tie::StdArray:ver<0.0.8>:auth<zef:lizmat>
+===> Install [OK] for Tie::StdArray:ver<0.0.8>:auth<zef:lizmat>

@@ -1,0 +1,17 @@
+===> Searching for: Grammar::Message
+===> Found: Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo> [via Zef::Repository::Ecosystems<fez>]
+[Grammar::Message] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786294355.326111.6956.268403595912/3b2445209534386d06581614e90dfe114c336252.tar.gz https://360.zef.pm/G/RA/GRAMMAR_MESSAGE/3b2445209534386d06581614e90dfe114c336252.tar.gz
+===> Fetching [OK]: Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo> to /home/coke/sandbox/blin/data/zef-data/tmp/1786294355.326111.6956.268403595912/3b2445209534386d06581614e90dfe114c336252.tar.gz
+[Grammar::Message] Command: tar -t -f ./3b2445209534386d06581614e90dfe114c336252.tar.gz
+[Grammar::Message] Command: tar -xvf ./3b2445209534386d06581614e90dfe114c336252.tar.gz -C ../3b2445209534386d06581614e90dfe114c336252.tar.gz
+===> Extraction [OK]: Grammar::Message to /home/coke/sandbox/blin/data/zef-data/tmp/3b2445209534386d06581614e90dfe114c336252.tar.gz
+===> Testing: Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo>
+[Grammar::Message] Command: /tmp/whateverable/rakudo-moar/f531cbe5fcec84f607809b491976db01e0226018/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/3b2445209534386d06581614e90dfe114c336252.tar.gz/raku-grammar-message t/00-basic.t
+[Grammar::Message] ===SORRY!=== Error while compiling t/00-basic.t
+[Grammar::Message] ===SORRY!===
+[Grammar::Message] Object does not exist in serialization context
+[Grammar::Message] at t/00-basic.t:3
+===> Testing [FAIL]: Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo>
+[Grammar::Message] Failed to get passing tests, but continuing with --force-test
+===> Installing: Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo>
+===> Install [OK] for Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo>

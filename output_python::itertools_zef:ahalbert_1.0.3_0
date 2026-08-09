@@ -1,0 +1,45 @@
+===> Searching for: python::itertools
+===> Found: python::itertools:ver<1.0.3>:auth<zef:ahalbert> [via Zef::Repository::Ecosystems<fez>]
+[python::itertools] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786292357.269825.6088.943053452087/34c35a7a59f3e1abd7aa9ff7719879d8fdca37a4.tar.gz https://360.zef.pm/P/YT/PYTHON_ITERTOOLS/34c35a7a59f3e1abd7aa9ff7719879d8fdca37a4.tar.gz
+===> Fetching [OK]: python::itertools:ver<1.0.3>:auth<zef:ahalbert> to /home/coke/sandbox/blin/data/zef-data/tmp/1786292357.269825.6088.943053452087/34c35a7a59f3e1abd7aa9ff7719879d8fdca37a4.tar.gz
+[python::itertools] Command: tar -t -f ./34c35a7a59f3e1abd7aa9ff7719879d8fdca37a4.tar.gz
+[python::itertools] Command: tar -xvf ./34c35a7a59f3e1abd7aa9ff7719879d8fdca37a4.tar.gz -C ../34c35a7a59f3e1abd7aa9ff7719879d8fdca37a4.tar.gz
+===> Extraction [OK]: python::itertools to /home/coke/sandbox/blin/data/zef-data/tmp/34c35a7a59f3e1abd7aa9ff7719879d8fdca37a4.tar.gz
+===> Testing: python::itertools:ver<1.0.3>:auth<zef:ahalbert>
+[python::itertools] Command: /tmp/whateverable/rakudo-moar/f531cbe5fcec84f607809b491976db01e0226018/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/34c35a7a59f3e1abd7aa9ff7719879d8fdca37a4.tar.gz/dist t/itertools.t
+[python::itertools] 1..37
+[python::itertools] ok 1 - 
+[python::itertools] ok 2 - 
+[python::itertools] ok 3 - 
+[python::itertools] ok 4 - 
+[python::itertools] ok 5 - 
+[python::itertools] ok 6 - 
+[python::itertools] ok 7 - 
+[python::itertools] ok 8 - 
+[python::itertools] ok 9 - 
+[python::itertools] ok 10 - 
+[python::itertools] ok 11 - 
+[python::itertools] ok 12 - 
+[python::itertools] ok 13 - 
+[python::itertools] ok 14 - 
+[python::itertools] ok 15 - 
+[python::itertools] ok 16 - 
+[python::itertools] ok 17 - 
+[python::itertools] ok 18 - 
+[python::itertools] ok 19 - 
+[python::itertools] ok 20 - 
+[python::itertools] ok 21 - 
+[python::itertools] ok 22 - 
+[python::itertools] ok 23 - 
+[python::itertools] ok 24 - 
+[python::itertools] ok 25 - 
+[python::itertools] ok 26 - 
+[python::itertools] ok 27 - 
+[python::itertools] Type check failed in binding to parameter '@it'; expected Positional but got Seq (([0, 1], [0, 1], [0,...)
+[python::itertools]   in sub product at /home/coke/sandbox/blin/data/zef-data/tmp/34c35a7a59f3e1abd7aa9ff7719879d8fdca37a4.tar.gz/dist/lib/python/itertools.rakumod (python::itertools) line 334
+[python::itertools]   in block <unit> at t/itertools.t line 49
+[python::itertools] # You planned 37 tests, but ran 27
+===> Testing [FAIL]: python::itertools:ver<1.0.3>:auth<zef:ahalbert>
+[python::itertools] Failed to get passing tests, but continuing with --force-test
+===> Installing: python::itertools:ver<1.0.3>:auth<zef:ahalbert>
+===> Install [OK] for python::itertools:ver<1.0.3>:auth<zef:ahalbert>
