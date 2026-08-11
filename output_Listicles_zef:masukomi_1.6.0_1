@@ -1,0 +1,17 @@
+===> Searching for: Listicles
+===> Found: Listicles:ver<1.6.0>:auth<zef:masukomi>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Listicles] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786419268.608325.5408.2901439501375/a5962af4ea1e3f8767fb7f498bd59b2db25c2421.tar.gz https://360.zef.pm/L/IS/LISTICLES/a5962af4ea1e3f8767fb7f498bd59b2db25c2421.tar.gz
+===> Fetching [OK]: Listicles:ver<1.6.0>:auth<zef:masukomi>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1786419268.608325.5408.2901439501375/a5962af4ea1e3f8767fb7f498bd59b2db25c2421.tar.gz
+[Listicles] Command: tar -t -f ./a5962af4ea1e3f8767fb7f498bd59b2db25c2421.tar.gz
+[Listicles] Command: tar -xvf ./a5962af4ea1e3f8767fb7f498bd59b2db25c2421.tar.gz -C ../a5962af4ea1e3f8767fb7f498bd59b2db25c2421.tar.gz
+===> Extraction [OK]: Listicles to /home/coke/sandbox/blin/data/zef-data/tmp/a5962af4ea1e3f8767fb7f498bd59b2db25c2421.tar.gz
+===> Testing: Listicles:ver<1.6.0>:auth<zef:masukomi>:api<1>
+[Listicles] Command: /tmp/whateverable/rakudo-moar/ca335b6376e6c8b934a69e449da20672a62ea298/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a5962af4ea1e3f8767fb7f498bd59b2db25c2421.tar.gz/Listicles t/01-basic.rakutest
+[Listicles] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Listicles] ===SORRY!===
+[Listicles] Object does not exist in serialization context
+[Listicles] at t/01-basic.rakutest:3
+===> Testing [FAIL]: Listicles:ver<1.6.0>:auth<zef:masukomi>:api<1>
+[Listicles] Failed to get passing tests, but continuing with --force-test
+===> Installing: Listicles:ver<1.6.0>:auth<zef:masukomi>:api<1>
+===> Install [OK] for Listicles:ver<1.6.0>:auth<zef:masukomi>:api<1>

@@ -1,0 +1,46 @@
+===> Searching for: Compress::Zstd
+===> Found: Compress::Zstd:ver<0.0.3>:auth<cpan:TIMOTIMO> [via Zef::Repository::Ecosystems<rea>]
+[Compress::Zstd] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786417416.558877.6094.263334727937/Compress%3A%3AZstd%3Aver%3C0.0.3%3E%3Aauth%3Ccpan%3ATIMOTIMO%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/Compress%3A%3AZstd/Compress%3A%3AZstd%3Aver%3C0.0.3%3E%3Aauth%3Ccpan%3ATIMOTIMO%3E.tar.gz
+===> Fetching [OK]: Compress::Zstd:ver<0.0.3>:auth<cpan:TIMOTIMO> to /home/coke/sandbox/blin/data/zef-data/tmp/1786417416.558877.6094.263334727937/Compress%3A%3AZstd%3Aver%3C0.0.3%3E%3Aauth%3Ccpan%3ATIMOTIMO%3E.tar.gz
+[Compress::Zstd] Command: tar -t -f ./Compress%3A%3AZstd%3Aver%3C0.0.3%3E%3Aauth%3Ccpan%3ATIMOTIMO%3E.tar.gz
+[Compress::Zstd] Command: tar -xvf ./Compress%3A%3AZstd%3Aver%3C0.0.3%3E%3Aauth%3Ccpan%3ATIMOTIMO%3E.tar.gz -C ../Compress%3A%3AZstd%3Aver%3C0.0.3%3E%3Aauth%3Ccpan%3ATIMOTIMO%3E.tar.gz
+===> Extraction [OK]: Compress::Zstd to /home/coke/sandbox/blin/data/zef-data/tmp/Compress%3A%3AZstd%3Aver%3C0.0.3%3E%3Aauth%3Ccpan%3ATIMOTIMO%3E.tar.gz
+===> Testing: Compress::Zstd:ver<0.0.3>:auth<cpan:TIMOTIMO>
+[Compress::Zstd] Command: /tmp/whateverable/rakudo-moar/ca335b6376e6c8b934a69e449da20672a62ea298/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Compress%3A%3AZstd%3Aver%3C0.0.3%3E%3Aauth%3Ccpan%3ATIMOTIMO%3E.tar.gz/Compress-Zstd-0.0.3 t/01-basic.t
+[Compress::Zstd] # 131073
+[Compress::Zstd] # 131592
+[Compress::Zstd] # return value of feed-input for compressor: 131071
+[Compress::Zstd] ok 1 - feed buffer's position has moved: 131073 131073
+[Compress::Zstd] ok 2 - result buffer's position has moved: 76947 131592
+[Compress::Zstd] # return value of feed-input on decompressor: 2
+[Compress::Zstd] ok 3 - feed buffer's position has moved: 131593 131593
+[Compress::Zstd] ok 4 - result buffer's position has moved: 131072 131074
+[Compress::Zstd] # original string (first 100 chars)
+[Compress::Zstd] Malformed termination of UTF-8 string
+[Compress::Zstd]   in block <unit> at t/01-basic.t line 42
+[Compress::Zstd] Command: /tmp/whateverable/rakudo-moar/ca335b6376e6c8b934a69e449da20672a62ea298/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Compress%3A%3AZstd%3Aver%3C0.0.3%3E%3Aauth%3Ccpan%3ATIMOTIMO%3E.tar.gz/Compress-Zstd-0.0.3 t/02-compressor.t
+[Compress::Zstd] # 0
+[Compress::Zstd] # 28 b5 2f fd 00 58 ed 02 00 12 07 15 16 a0 b5 39 84 48 c8 7e cb 6d 7f 91 f2 37 ed db bf 5d 12 0c 55 c4 2b 02 b1 de 9a eb 85 20 9d f5 1c 64 35 66 a5 2a 3a 2a e5 74 18 07 54 e1 65 7d fc 8a c2 50 ec 82 b0 46 68 ea c4 35 68 00 e1 b1 4d 0d 52 2c d1 48 79 76 bd d5 89 94 fd 3a 38 f9 b2 3f c7 17 01 00 e7 97 85 28
+[Compress::Zstd] # after end-stream, result is 102 bytes big
+[Compress::Zstd] # hello there. how are you today? i am feeling quite fine indeed.
+[Compress::Zstd] # i hope this compression stuff will work. how about you?
+[Compress::Zstd] # 
+[Compress::Zstd] ok 1 - decompressed is eqv to input
+[Compress::Zstd] ok 2 - leftovers after zstd stream is kept around
+[Compress::Zstd] compress result of   $big-input-randoms is 1048609 bytes big
+[Compress::Zstd] decompress result of $big-input-randoms is 1048576 bytes big
+[Compress::Zstd] ok 3 - $big-input-randoms
+[Compress::Zstd] compress result of   $really-big-input-randoms is 8388809 bytes big
+[Compress::Zstd] decompress result of $really-big-input-randoms is 8388608 bytes big
+[Compress::Zstd] ok 4 - $really-big-input-randoms
+[Compress::Zstd] compress result of   $big-input-sameys is 33439 bytes big
+[Compress::Zstd] decompress result of $big-input-sameys is 1048576 bytes big
+[Compress::Zstd] ok 5 - $big-input-sameys
+[Compress::Zstd] compress result of   $really-big-input-sameys is 253662 bytes big
+[Compress::Zstd] decompress result of $really-big-input-sameys is 8388608 bytes big
+[Compress::Zstd] ok 6 - $really-big-input-sameys
+[Compress::Zstd] 1..6
+===> Testing [FAIL]: Compress::Zstd:ver<0.0.3>:auth<cpan:TIMOTIMO>
+[Compress::Zstd] Failed to get passing tests, but continuing with --force-test
+===> Installing: Compress::Zstd:ver<0.0.3>:auth<cpan:TIMOTIMO>
+===> Install [OK] for Compress::Zstd:ver<0.0.3>:auth<cpan:TIMOTIMO>
