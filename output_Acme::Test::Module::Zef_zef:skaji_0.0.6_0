@@ -1,6 +1,0 @@
-===> Searching for: Acme::Test::Module::Zef
-Aborting due to fetch failure: Acme::Test::Module::Zef:ver<0.0.6>:auth<zef:skaji> (use --force-fetch to override)
-===> Found: Acme::Test::Module::Zef:ver<0.0.6>:auth<zef:skaji> [via Zef::Repository::Ecosystems<fez>]
-[Acme::Test::Module::Zef] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786285295.99613.7848.852586355183/32abab094124542f4b5e42a4ef1d7a493fd80e3b.tar.gz https://360.zef.pm/A/CM/ACME_TEST_MODULE_ZEF/32abab094124542f4b5e42a4ef1d7a493fd80e3b.tar.gz
-[Acme::Test::Module::Zef] Command: wget -P /home/coke/sandbox/blin/data/zef-data/tmp/1786285295.99613.7848.852586355183 --quiet https://360.zef.pm/A/CM/ACME_TEST_MODULE_ZEF/32abab094124542f4b5e42a4ef1d7a493fd80e3b.tar.gz -O /home/coke/sandbox/blin/data/zef-data/tmp/1786285295.99613.7848.852586355183/32abab094124542f4b5e42a4ef1d7a493fd80e3b.tar.gz
-===> Fetching [FAIL]: Acme::Test::Module::Zef:ver<0.0.6>:auth<zef:skaji> from https://360.zef.pm/A/CM/ACME_TEST_MODULE_ZEF/32abab094124542f4b5e42a4ef1d7a493fd80e3b.tar.gz

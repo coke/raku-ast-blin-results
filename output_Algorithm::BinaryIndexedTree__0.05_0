@@ -1,6 +1,0 @@
-===> Searching for: Algorithm::BinaryIndexedTree
-Aborting due to fetch failure: Algorithm::BinaryIndexedTree:ver<0.0.8>:auth<zef:titsuki> (use --force-fetch to override)
-===> Found: Algorithm::BinaryIndexedTree:ver<0.0.8>:auth<zef:titsuki> [via Zef::Repository::Ecosystems<fez>]
-[Algorithm::BinaryIndexedTree] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786285319.100728.6761.398802124451/be6d741c1f00a8cb99a129e7447243aa9ee45123.tar.gz https://360.zef.pm/A/LG/ALGORITHM_BINARYINDEXEDTREE/be6d741c1f00a8cb99a129e7447243aa9ee45123.tar.gz
-[Algorithm::BinaryIndexedTree] Command: wget -P /home/coke/sandbox/blin/data/zef-data/tmp/1786285319.100728.6761.398802124451 --quiet https://360.zef.pm/A/LG/ALGORITHM_BINARYINDEXEDTREE/be6d741c1f00a8cb99a129e7447243aa9ee45123.tar.gz -O /home/coke/sandbox/blin/data/zef-data/tmp/1786285319.100728.6761.398802124451/be6d741c1f00a8cb99a129e7447243aa9ee45123.tar.gz
-===> Fetching [FAIL]: Algorithm::BinaryIndexedTree:ver<0.0.8>:auth<zef:titsuki> from https://360.zef.pm/A/LG/ALGORITHM_BINARYINDEXEDTREE/be6d741c1f00a8cb99a129e7447243aa9ee45123.tar.gz

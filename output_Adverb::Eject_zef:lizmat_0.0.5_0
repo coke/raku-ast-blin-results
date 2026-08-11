@@ -1,6 +1,0 @@
-===> Searching for: Adverb::Eject
-Aborting due to fetch failure: Adverb::Eject:ver<0.0.5>:auth<zef:lizmat> (use --force-fetch to override)
-===> Found: Adverb::Eject:ver<0.0.5>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[Adverb::Eject] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786285317.100559.6763.31383019181/e509ba33fcd78a476fd19b8a453f7c5b7da4be4f.tar.gz https://360.zef.pm/A/DV/ADVERB_EJECT/e509ba33fcd78a476fd19b8a453f7c5b7da4be4f.tar.gz
-[Adverb::Eject] Command: wget -P /home/coke/sandbox/blin/data/zef-data/tmp/1786285317.100559.6763.31383019181 --quiet https://360.zef.pm/A/DV/ADVERB_EJECT/e509ba33fcd78a476fd19b8a453f7c5b7da4be4f.tar.gz -O /home/coke/sandbox/blin/data/zef-data/tmp/1786285317.100559.6763.31383019181/e509ba33fcd78a476fd19b8a453f7c5b7da4be4f.tar.gz
-===> Fetching [FAIL]: Adverb::Eject:ver<0.0.5>:auth<zef:lizmat> from https://360.zef.pm/A/DV/ADVERB_EJECT/e509ba33fcd78a476fd19b8a453f7c5b7da4be4f.tar.gz
