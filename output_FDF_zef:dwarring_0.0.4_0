@@ -1,0 +1,134 @@
+Running as unit: run-p2223789-i2241229.service; invocation ID: 6f5b5f75ede04de7998830aec9e324ac
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: FDF
+===> Found: FDF:ver<0.0.4>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[FDF] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786567432.2223793.4555.493996837604/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz https://360.zef.pm/F/DF/FDF/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz
+===> Fetching [OK]: FDF:ver<0.0.4>:auth<zef:dwarring> to /home/coke/sandbox/blin/data/zef-data/tmp/1786567432.2223793.4555.493996837604/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz
+[FDF] Command: tar -t -f ./4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz
+[FDF] Command: tar -xvf ./4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz -C ../4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz
+===> Extraction [OK]: FDF to /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz
+===> Testing: FDF:ver<0.0.4>:auth<zef:dwarring>
+[FDF] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz/FDF-0.0.4 t/annots.t
+[FDF] Potential difficulties:
+[FDF]     Missing declarand for trailing declarator doc
+[FDF]     at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/A63A922DA7B51EF8E89F10179F597EE9044AD242 (PDF::IO::Util):21
+[FDF]     ------> dian) ordered byte packing and unpacking<HERE><EOL>
+[FDF] Potential difficulties:
+[FDF]     Missing declarand for trailing declarator doc
+[FDF]     at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/FD0218107EA3C99E30361667024E6FF9666DA10C (PDF::COS::Type::XRef):74
+[FDF]     ------> . calculates and sets $.Size and $.Index<HERE><EOL>
+[FDF]     Missing declarand for trailing declarator doc
+[FDF]     at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/FD0218107EA3C99E30361667024E6FF9666DA10C (PDF::COS::Type::XRef):108
+[FDF]     ------> uild index entries from raw decoded data<HERE><EOL>
+[FDF] Potential difficulties:
+[FDF]     Missing declarand for leading declarator doc
+[FDF]     at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/D551184A16A6031B10EA96323DBE2F56ACA5AE4C (PDF::COS::Type::Info):1
+[FDF] Potential difficulties:
+[FDF]     Duplicate 'is rw' trait
+[FDF]     at line 
+[FDF]     Duplicate 'is rw' trait
+[FDF]     at line 
+[FDF] Potential difficulties:
+[FDF]     Missing declarand for trailing declarator doc
+[FDF]     at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/C6583504D51212B9607A665CD74EC56B7315362F (PDF::Class::OptionalContent):2
+[FDF]     ------> #= Consumed by PDF::OCG and PDF::OCMD<HERE><EOL>
+[FDF] Potential difficulties:
+[FDF]     Missing declarand for leading declarator doc
+[FDF]     at /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz/FDF-0.0.4/lib/FDF/IconFit.rakumod (FDF::IconFit):1
+[FDF] ok 1 - open annots FDF - lives
+[FDF] ok 2 - number of annots
+[FDF] ok 3 - annot role
+[FDF] ok 4 - annot role role
+[FDF] ok 5 - annot.Page
+[FDF] ok 6 - annot.page-number
+[FDF] ok 7 - annot.Page
+[FDF] ok 8 - annot.page-number
+[FDF] 1..8
+[FDF] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz/FDF-0.0.4 t/create.t
+[FDF] ok 1 - create minimal
+[FDF] ok 2 - 
+[FDF] ok 3 - ID generated
+[FDF] ok 4 - created with two identical ID fields
+[FDF] ok 5 - first ID retained after updated
+[FDF] ok 6 - second ID changed after update
+[FDF] 1..6
+[FDF] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz/FDF-0.0.4 t/field-imports.t
+[FDF] 1..8
+[FDF] ok 1 - The object does role 'FDF::Field'
+[FDF] ok 2 - The object does role 'PDF::Field::Text'
+[FDF] ok 3 - PDF::Field.check()
+[FDF] ok 4 - FDF::Field.check()
+[FDF] ok 5 - 
+[FDF] ok 6 - export of T
+[FDF] ok 7 - export of V
+[FDF] ok 8 - export of Ff
+[FDF] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz/FDF-0.0.4 t/fields-exports.t
+[FDF] 1..11
+[FDF] ok 1 - The object does role 'FDF::Field'
+[FDF] ok 2 - The object does role 'PDF::Field::Text'
+[FDF] ok 3 - PDF::Field.check()
+[FDF] ok 4 - FDF::Field.check()
+[FDF] ok 5 - 
+[FDF] ok 6 - import of T
+[FDF] ok 7 - import of V
+[FDF] ok 8 - 
+[FDF] ok 9 - 
+[FDF] ok 10 - import of F
+[FDF] ok 11 - import of Ff
+[FDF] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz/FDF-0.0.4 t/fields.t
+[FDF] ok 1 - open annots FDF - lives
+[FDF] ok 2 - FDF.F
+[FDF] ok 3 - number of fields
+[FDF] ok 4 - field role
+[FDF] ok 5 - @fields[0].T
+[FDF] ok 6 - @fields[0].V
+[FDF] ok 7 - number of fields
+[FDF] ok 8 - field role
+[FDF] ok 9 - %fields<CheckBox>.T
+[FDF] ok 10 - %fields<CheckBox>.V
+[FDF] 1..10
+[FDF] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz/FDF-0.0.4 t/merge.t
+[FDF] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog)
+[FDF] ===SORRY!===
+[FDF] Cannot do compile time parameterization with these args
+[FDF] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog):33
+[FDF]   in sub resolve-package-slow-path at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 74
+[FDF]   in method required at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 78
+[FDF]   in method find-delegate at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/FA1236164DAFABD52DC78773AACAB3F32E27F9C8 (PDF::COS::Loader) line 35
+[FDF]   in method load-delegate at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/FCAB97D3031F636168D38D45C96654B615D8B202 (PDF::Class::Loader) line 41
+[FDF]   in method load-dict at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 98
+[FDF]   in method COERCE at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 99
+[FDF]   in method coerce at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 143
+[FDF]   in submethod TWEAK at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/F06BD9DA3908B613D70D1F6AB537D764DA62AF6D (PDF::IO::IndObj) line 17
+[FDF]   in method ind-obj at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/1500CF649BE57375501CD23FB66003EF75229193 (PDF::IO::Reader) line 413
+[FDF]   in method deref at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie) line 255
+[FDF]   in method AT-KEY at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 75
+[FDF]   in sub FETCH at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 30
+[FDF]   in method fields at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/084159E4577C1852A7D9D83495ACDA12BF1CC407 (PDF::Class) line 98
+[FDF]   in method import at /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz/FDF-0.0.4/lib/FDF.rakumod (FDF) line 152
+[FDF]   in method create at /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz/FDF-0.0.4/lib/FDF.rakumod (FDF) line 143
+[FDF]   in block <unit> at t/merge.t line 12
+[FDF] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4c0d33a9d26a9ee335c099369c9dec10efd5a706.tar.gz/FDF-0.0.4 t/open.t
+[FDF] ok 1 - loaded version
+[FDF] ok 2 - loaded type
+[FDF] ok 3 - root FDF object
+[FDF] ok 4 - $fdf<Root><FDF>
+[FDF] ok 5 - $fdf.Root.FDF
+[FDF] ok 6 - root does catalog
+[FDF] ok 7 - $fdf.FDF.F
+[FDF] ok 8 - $fdf<Root><FDF><Fields>
+[FDF] ok 9 - field item does field
+[FDF] ok 10 - $fdf.Root.FDF.Fields[0].T
+[FDF] 1..10
+===> Testing [FAIL]: FDF:ver<0.0.4>:auth<zef:dwarring>
+[FDF] Failed to get passing tests, but continuing with --force-test
+===> Installing: FDF:ver<0.0.4>:auth<zef:dwarring>
+===> Install [OK] for FDF:ver<0.0.4>:auth<zef:dwarring>
+
+1 bin/ script [fdf-fields.raku] installed to:
+/home/coke/sandbox/blin/installed/FDF_zef:dwarring_0.0.4_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 5min 21.803s
+             CPU time consumed: 7min 59.560s
+                   Memory peak: 3.5G (swap: 332.3M)

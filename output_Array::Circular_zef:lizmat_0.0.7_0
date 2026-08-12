@@ -1,0 +1,29 @@
+Running as unit: run-p1907910-i1833772.service; invocation ID: 7f9782c4b76441a89d1682b8637df134
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Array::Circular
+===> Found: Array::Circular:ver<0.0.7>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Array::Circular] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786557294.1907912.5249.329721535526/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz https://360.zef.pm/A/RR/ARRAY_CIRCULAR/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
+===> Fetching [OK]: Array::Circular:ver<0.0.7>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786557294.1907912.5249.329721535526/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
+[Array::Circular] Command: tar -t -f ./6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
+[Array::Circular] Command: tar -xvf ./6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz -C ../6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
+===> Extraction [OK]: Array::Circular to /home/coke/sandbox/blin/data/zef-data/tmp/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
+===> Testing: Array::Circular:ver<0.0.7>:auth<zef:lizmat>
+[Array::Circular] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz/Array-Circular-0.0.7 t/01-basic.rakutest
+[Array::Circular] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Array::Circular] ===SORRY!===
+[Array::Circular] Object does not exist in serialization context
+[Array::Circular] at t/01-basic.rakutest:3
+[Array::Circular] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz/Array-Circular-0.0.7 t/02-variable.rakutest
+[Array::Circular] ===SORRY!=== Error while compiling t/02-variable.rakutest
+[Array::Circular] ===SORRY!===
+[Array::Circular] Object does not exist in serialization context
+[Array::Circular] at t/02-variable.rakutest:3
+===> Testing [FAIL]: Array::Circular:ver<0.0.7>:auth<zef:lizmat>
+[Array::Circular] Failed to get passing tests, but continuing with --force-test
+===> Installing: Array::Circular:ver<0.0.7>:auth<zef:lizmat>
+===> Install [OK] for Array::Circular:ver<0.0.7>:auth<zef:lizmat>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 23.075s
+             CPU time consumed: 21.959s
+                   Memory peak: 1G (swap: 17M)

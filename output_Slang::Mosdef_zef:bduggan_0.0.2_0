@@ -1,0 +1,30 @@
+Running as unit: run-p1957439-i1980403.service; invocation ID: 5a85e7cf546742d094619634d67fe73b
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Slang::Mosdef
+===> Found: Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan> [via Zef::Repository::Ecosystems<fez>]
+[Slang::Mosdef] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786558932.1957444.7315.348759664111/706254f395e9559d427fe7f77068577737db8cd1.tar.gz https://360.zef.pm/S/LA/SLANG_MOSDEF/706254f395e9559d427fe7f77068577737db8cd1.tar.gz
+===> Fetching [OK]: Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan> to /home/coke/sandbox/blin/data/zef-data/tmp/1786558932.1957444.7315.348759664111/706254f395e9559d427fe7f77068577737db8cd1.tar.gz
+[Slang::Mosdef] Command: tar -t -f ./706254f395e9559d427fe7f77068577737db8cd1.tar.gz
+[Slang::Mosdef] Command: tar -xvf ./706254f395e9559d427fe7f77068577737db8cd1.tar.gz -C ../706254f395e9559d427fe7f77068577737db8cd1.tar.gz
+===> Extraction [OK]: Slang::Mosdef to /home/coke/sandbox/blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz
+===> Testing: Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan>
+[Slang::Mosdef] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist t/01-basic.rakutest
+[Slang::Mosdef] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist/t/01-basic.rakutest
+[Slang::Mosdef] Variable '$n' is not declared. Perhaps you forgot a 'sub' if this was
+[Slang::Mosdef] intended to be part of a signature?
+[Slang::Mosdef] at /home/coke/sandbox/blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist/t/01-basic.rakutest:12
+[Slang::Mosdef] ------> my $m = λ (<HERE>$n) { $n * 2 };
+[Slang::Mosdef] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist t/02-y-combinator.rakutest
+[Slang::Mosdef] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist/t/02-y-combinator.rakutest
+[Slang::Mosdef] Unexpected block in infix position (missing statement control word before the expression? Or did you forget a semi-colon?)
+[Slang::Mosdef] at /home/coke/sandbox/blin/data/zef-data/tmp/706254f395e9559d427fe7f77068577737db8cd1.tar.gz/dist/t/02-y-combinator.rakutest:9
+[Slang::Mosdef] ------> is λ ( &f )<HERE> {
+===> Testing [FAIL]: Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan>
+[Slang::Mosdef] Failed to get passing tests, but continuing with --force-test
+===> Installing: Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan>
+===> Install [OK] for Slang::Mosdef:ver<0.0.2>:auth<zef:bduggan>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 25.015s
+             CPU time consumed: 24.761s
+                   Memory peak: 935.3M (swap: 0B)

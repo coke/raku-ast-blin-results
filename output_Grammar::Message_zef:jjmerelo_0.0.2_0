@@ -1,0 +1,24 @@
+Running as unit: run-p1999746-i2001797.service; invocation ID: 88363cb4ff69410180b1f2decf40f02d
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Grammar::Message
+===> Found: Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo> [via Zef::Repository::Ecosystems<fez>]
+[Grammar::Message] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786560331.1999750.1991.8278194289608/3b2445209534386d06581614e90dfe114c336252.tar.gz https://360.zef.pm/G/RA/GRAMMAR_MESSAGE/3b2445209534386d06581614e90dfe114c336252.tar.gz
+===> Fetching [OK]: Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo> to /home/coke/sandbox/blin/data/zef-data/tmp/1786560331.1999750.1991.8278194289608/3b2445209534386d06581614e90dfe114c336252.tar.gz
+[Grammar::Message] Command: tar -t -f ./3b2445209534386d06581614e90dfe114c336252.tar.gz
+[Grammar::Message] Command: tar -xvf ./3b2445209534386d06581614e90dfe114c336252.tar.gz -C ../3b2445209534386d06581614e90dfe114c336252.tar.gz
+===> Extraction [OK]: Grammar::Message to /home/coke/sandbox/blin/data/zef-data/tmp/3b2445209534386d06581614e90dfe114c336252.tar.gz
+===> Testing: Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo>
+[Grammar::Message] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/3b2445209534386d06581614e90dfe114c336252.tar.gz/raku-grammar-message t/00-basic.t
+[Grammar::Message] ===SORRY!=== Error while compiling t/00-basic.t
+[Grammar::Message] ===SORRY!===
+[Grammar::Message] Object does not exist in serialization context
+[Grammar::Message] at t/00-basic.t:3
+===> Testing [FAIL]: Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo>
+[Grammar::Message] Failed to get passing tests, but continuing with --force-test
+===> Installing: Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo>
+===> Install [OK] for Grammar::Message:ver<0.0.2>:auth<zef:jjmerelo>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 28.033s
+             CPU time consumed: 27.355s
+                   Memory peak: 1.1G (swap: 0B)

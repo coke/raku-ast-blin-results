@@ -1,0 +1,172 @@
+Running as unit: run-p2223800-i2223085.service; invocation ID: 719a038115134e00ad639a19ad3ef3f4
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: PDF::Tags
+===> Found: PDF::Tags:ver<0.2.8>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[PDF::Tags] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786567435.2223811.2197.3448948615915/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz https://360.zef.pm/P/DF/PDF_TAGS/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz
+===> Fetching [OK]: PDF::Tags:ver<0.2.8>:auth<zef:dwarring> to /home/coke/sandbox/blin/data/zef-data/tmp/1786567435.2223811.2197.3448948615915/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz
+[PDF::Tags] Command: tar -t -f ./23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz
+[PDF::Tags] Command: tar -xvf ./23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz -C ../23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz
+===> Extraction [OK]: PDF::Tags to /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz
+===> Testing: PDF::Tags:ver<0.2.8>:auth<zef:dwarring>
+[PDF::Tags] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8 t/actual-text.t
+[PDF::Tags] Potential difficulties:
+[PDF::Tags]     Missing declarand for trailing declarator doc
+[PDF::Tags]     at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/A63A922DA7B51EF8E89F10179F597EE9044AD242 (PDF::IO::Util):21
+[PDF::Tags]     ------> dian) ordered byte packing and unpacking<HERE><EOL>
+[PDF::Tags] Potential difficulties:
+[PDF::Tags]     Missing declarand for trailing declarator doc
+[PDF::Tags]     at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/FD0218107EA3C99E30361667024E6FF9666DA10C (PDF::COS::Type::XRef):74
+[PDF::Tags]     ------> . calculates and sets $.Size and $.Index<HERE><EOL>
+[PDF::Tags]     Missing declarand for trailing declarator doc
+[PDF::Tags]     at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/FD0218107EA3C99E30361667024E6FF9666DA10C (PDF::COS::Type::XRef):108
+[PDF::Tags]     ------> uild index entries from raw decoded data<HERE><EOL>
+[PDF::Tags] Potential difficulties:
+[PDF::Tags]     Missing declarand for leading declarator doc
+[PDF::Tags]     at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/D551184A16A6031B10EA96323DBE2F56ACA5AE4C (PDF::COS::Type::Info):1
+[PDF::Tags] Potential difficulties:
+[PDF::Tags]     Duplicate 'is rw' trait
+[PDF::Tags]     at line 
+[PDF::Tags]     Duplicate 'is rw' trait
+[PDF::Tags]     at line 
+[PDF::Tags] Potential difficulties:
+[PDF::Tags]     Missing declarand for trailing declarator doc
+[PDF::Tags]     at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/C6583504D51212B9607A665CD74EC56B7315362F (PDF::Class::OptionalContent):2
+[PDF::Tags]     ------> #= Consumed by PDF::OCG and PDF::OCMD<HERE><EOL>
+[PDF::Tags] ===SORRY!=== Error while compiling t/actual-text.t
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot)
+[PDF::Tags] ===SORRY!===
+[PDF::Tags] This element has not been resolved. Type: RakuAST::Call::VarMethod
+[PDF::Tags] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot):18
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node):8
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent):4
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags):4
+[PDF::Tags] at t/actual-text.t:8
+[PDF::Tags] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8 t/attributes.t
+[PDF::Tags] ===SORRY!=== Error while compiling t/attributes.t
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot)
+[PDF::Tags] ===SORRY!===
+[PDF::Tags] This element has not been resolved. Type: RakuAST::Call::VarMethod
+[PDF::Tags] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot):18
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node):8
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent):4
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags):4
+[PDF::Tags] at t/attributes.t:6
+[PDF::Tags] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8 t/class-maps.t
+[PDF::Tags] ===SORRY!=== Error while compiling t/class-maps.t
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot)
+[PDF::Tags] ===SORRY!===
+[PDF::Tags] This element has not been resolved. Type: RakuAST::Call::VarMethod
+[PDF::Tags] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot):18
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node):8
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent):4
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags):4
+[PDF::Tags] at t/class-maps.t:7
+[PDF::Tags] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8 t/copy-tree.t
+[PDF::Tags] ===SORRY!=== Error while compiling t/copy-tree.t
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot)
+[PDF::Tags] ===SORRY!===
+[PDF::Tags] This element has not been resolved. Type: RakuAST::Call::VarMethod
+[PDF::Tags] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot):18
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node):8
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent):4
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags):4
+[PDF::Tags] at t/copy-tree.t:8
+[PDF::Tags] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8 t/fragments.t
+[PDF::Tags] ===SORRY!=== Error while compiling t/fragments.t
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot)
+[PDF::Tags] ===SORRY!===
+[PDF::Tags] This element has not been resolved. Type: RakuAST::Call::VarMethod
+[PDF::Tags] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot):18
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node):8
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent):4
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags):4
+[PDF::Tags] at t/fragments.t:11
+[PDF::Tags] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8 t/role-maps.t
+[PDF::Tags] ===SORRY!=== Error while compiling t/role-maps.t
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot)
+[PDF::Tags] ===SORRY!===
+[PDF::Tags] This element has not been resolved. Type: RakuAST::Call::VarMethod
+[PDF::Tags] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot):18
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node):8
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent):4
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags):4
+[PDF::Tags] at t/role-maps.t:7
+[PDF::Tags] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8 t/span-pages.t
+[PDF::Tags] ===SORRY!=== Error while compiling t/span-pages.t
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot)
+[PDF::Tags] ===SORRY!===
+[PDF::Tags] This element has not been resolved. Type: RakuAST::Call::VarMethod
+[PDF::Tags] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot):18
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node):8
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent):4
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags):4
+[PDF::Tags] at t/span-pages.t:6
+[PDF::Tags] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8 t/style.t
+[PDF::Tags] ===SORRY!=== Error while compiling t/style.t
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot)
+[PDF::Tags] ===SORRY!===
+[PDF::Tags] This element has not been resolved. Type: RakuAST::Call::VarMethod
+[PDF::Tags] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot):18
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node):8
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent):4
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags):4
+[PDF::Tags] at t/style.t:4
+[PDF::Tags] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8 t/threaded.t
+[PDF::Tags] ===SORRY!=== Error while compiling t/threaded.t
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot)
+[PDF::Tags] ===SORRY!===
+[PDF::Tags] This element has not been resolved. Type: RakuAST::Call::VarMethod
+[PDF::Tags] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot):18
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node):8
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent):4
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags):4
+[PDF::Tags] at t/threaded.t:11
+[PDF::Tags] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8 t/write-tags.t
+[PDF::Tags] ===SORRY!=== Error while compiling t/write-tags.t
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node)
+[PDF::Tags] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot)
+[PDF::Tags] ===SORRY!===
+[PDF::Tags] This element has not been resolved. Type: RakuAST::Call::VarMethod
+[PDF::Tags] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/3367E4F92BC7EA047A09925F5F62AC09F8914876 (PDF::StructTreeRoot):18
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node.rakumod (PDF::Tags::Node):8
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags/Node/Parent.rakumod (PDF::Tags::Node::Parent):4
+[PDF::Tags] at /home/coke/sandbox/blin/data/zef-data/tmp/23682d2beb1f4260159cb32d1ab8cab6d095059b.tar.gz/PDF-Tags-0.2.8/lib/PDF/Tags.rakumod (PDF::Tags):4
+[PDF::Tags] at t/write-tags.t:6
+===> Testing [FAIL]: PDF::Tags:ver<0.2.8>:auth<zef:dwarring>
+[PDF::Tags] Failed to get passing tests, but continuing with --force-test
+===> Installing: PDF::Tags:ver<0.2.8>:auth<zef:dwarring>
+===> Install [OK] for PDF::Tags:ver<0.2.8>:auth<zef:dwarring>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 5min 21.560s
+             CPU time consumed: 8min 6.927s
+                   Memory peak: 3.3G (swap: 350.1M)

@@ -1,0 +1,29 @@
+Running as unit: run-p1945728-i1995483.service; invocation ID: 5b2c734690824093a363e70f761bb304
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: P5__DATA__
+===> Found: P5__DATA__:ver<0.0.1>:auth<cpan:ELIZABETH> [via Zef::Repository::Ecosystems<rea>]
+[P5__DATA__] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786558561.1945730.6173.451536331452/P5__DATA__%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3AELIZABETH%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/P/P5__DATA__/P5__DATA__%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3AELIZABETH%3E.tar.gz
+===> Fetching [OK]: P5__DATA__:ver<0.0.1>:auth<cpan:ELIZABETH> to /home/coke/sandbox/blin/data/zef-data/tmp/1786558561.1945730.6173.451536331452/P5__DATA__%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3AELIZABETH%3E.tar.gz
+[P5__DATA__] Command: tar -t -f ./P5__DATA__%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3AELIZABETH%3E.tar.gz
+[P5__DATA__] Command: tar -xvf ./P5__DATA__%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3AELIZABETH%3E.tar.gz -C ../P5__DATA__%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3AELIZABETH%3E.tar.gz
+===> Extraction [OK]: P5__DATA__ to /home/coke/sandbox/blin/data/zef-data/tmp/P5__DATA__%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3AELIZABETH%3E.tar.gz
+===> Testing: P5__DATA__:ver<0.0.1>:auth<cpan:ELIZABETH>
+[P5__DATA__] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/P5__DATA__%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3AELIZABETH%3E.tar.gz/P5__DATA__-0.0.1 t/01-basic.t
+[P5__DATA__] 1..2
+[P5__DATA__] ok 1 - is DATA imported?
+[P5__DATA__] ok 2 - is DATA externally NOT accessible?
+[P5__DATA__] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/P5__DATA__%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3AELIZABETH%3E.tar.gz/P5__DATA__-0.0.1 t/DATA.t
+[P5__DATA__] ===SORRY!===
+[P5__DATA__] Method Raku::Grammar+{Data}.pod_newline not found
+[P5__DATA__] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/P5__DATA__%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3AELIZABETH%3E.tar.gz/P5__DATA__-0.0.1 t/END.t
+[P5__DATA__] ===SORRY!===
+[P5__DATA__] Method Raku::Grammar+{Data}.pod_newline not found
+===> Testing [FAIL]: P5__DATA__:ver<0.0.1>:auth<cpan:ELIZABETH>
+[P5__DATA__] Failed to get passing tests, but continuing with --force-test
+===> Installing: P5__DATA__:ver<0.0.1>:auth<cpan:ELIZABETH>
+===> Install [OK] for P5__DATA__:ver<0.0.1>:auth<cpan:ELIZABETH>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 51.626s
+             CPU time consumed: 50.404s
+                   Memory peak: 1.2G (swap: 0B)

@@ -1,0 +1,411 @@
+Running as unit: run-p2140692-i2030622.service; invocation ID: ff0b621d01d748d08bb739936ef25f26
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Subsets::IO
+===> Found: Subsets::IO:ver<1.1>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Subsets::IO] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786564802.2140695.5340.156910248905/ae945f5654d6c94498db01d446f9d4b7ac43cbf5.tar.gz https://360.zef.pm/S/UB/SUBSETS_IO/ae945f5654d6c94498db01d446f9d4b7ac43cbf5.tar.gz
+===> Fetching [OK]: Subsets::IO:ver<1.1>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1786564802.2140695.5340.156910248905/ae945f5654d6c94498db01d446f9d4b7ac43cbf5.tar.gz
+[Subsets::IO] Command: tar -t -f ./ae945f5654d6c94498db01d446f9d4b7ac43cbf5.tar.gz
+[Subsets::IO] Command: tar -xvf ./ae945f5654d6c94498db01d446f9d4b7ac43cbf5.tar.gz -C ../ae945f5654d6c94498db01d446f9d4b7ac43cbf5.tar.gz
+===> Extraction [OK]: Subsets::IO to /home/coke/sandbox/blin/data/zef-data/tmp/ae945f5654d6c94498db01d446f9d4b7ac43cbf5.tar.gz
+===> Testing: Subsets::IO:ver<1.1>:auth<zef:raku-community-modules>
+[Subsets::IO] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ae945f5654d6c94498db01d446f9d4b7ac43cbf5.tar.gz/Subsets-IO-1.1 t/00-basics.rakutest
+[Subsets::IO] ===SORRY!=== Error while compiling t/00-basics.rakutest
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::e:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::E:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::f:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::F:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::d:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::D:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::fr:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::frw:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::frx:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::fwx:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::frwx:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::dr:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::drw:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::drx:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::dwx:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] Cannot resolve caller trait_mod:<will>(GLOBAL::IO::Path::drwx:U, Block:D, :complain); none of these signatures matches:
+[Subsets::IO]     (Attribute:D $attr, |c)
+[Subsets::IO]     (Attribute $attr, Mu :$build!)
+[Subsets::IO]     (Variable:D $v, $block, |c)
+[Subsets::IO]     (Variable:D $v, $block, :begin($)!)
+[Subsets::IO]     (Variable:D $v, $block, :check($)!)
+[Subsets::IO]     (Variable:D $v, $block, :final($)!)
+[Subsets::IO]     (Variable:D $v, $block, :init($)!)
+[Subsets::IO]     (Variable:D $v, $block, :end($)!)
+[Subsets::IO]     (Variable:D $v, $block, :enter($)!)
+[Subsets::IO]     (Variable:D $v, $block, :leave($)!)
+[Subsets::IO]     (Variable:D $v, $block, :keep($)!)
+[Subsets::IO]     (Variable:D $v, $block, :undo($)!)
+[Subsets::IO]     (Variable:D $v, $block, :first($)!)
+[Subsets::IO]     (Variable:D $v, $block, :next($)!)
+[Subsets::IO]     (Variable:D $v, $block, :last($)!)
+[Subsets::IO]     (Variable:D $v, $block, :pre($)!)
+[Subsets::IO]     (Variable:D $v, $block, :post($)!)
+[Subsets::IO]     (Variable:D $v, $block, :compose($)!)
+[Subsets::IO] at t/00-basics.rakutest:3
+===> Testing [FAIL]: Subsets::IO:ver<1.1>:auth<zef:raku-community-modules>
+[Subsets::IO] Failed to get passing tests, but continuing with --force-test
+===> Installing: Subsets::IO:ver<1.1>:auth<zef:raku-community-modules>
+===> Install [OK] for Subsets::IO:ver<1.1>:auth<zef:raku-community-modules>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 34.328s
+             CPU time consumed: 33.828s
+                   Memory peak: 982.7M (swap: 25.6M)

@@ -1,0 +1,24 @@
+Running as unit: run-p1976053-i1981240.service; invocation ID: 18854d2b01024c8ea718b60f34b4b5a1
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Array::Sorted::Map
+===> Found: Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Array::Sorted::Map] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786559529.1976056.8829.622682886791/440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz https://360.zef.pm/A/RR/ARRAY_SORTED_MAP/440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz
+===> Fetching [OK]: Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786559529.1976056.8829.622682886791/440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz
+[Array::Sorted::Map] Command: tar -t -f ./440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz
+[Array::Sorted::Map] Command: tar -xvf ./440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz -C ../440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz
+===> Extraction [OK]: Array::Sorted::Map to /home/coke/sandbox/blin/data/zef-data/tmp/440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz
+===> Testing: Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat>
+[Array::Sorted::Map] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz/Array-Sorted-Map-0.0.4 t/01-basic.rakutest
+[Array::Sorted::Map] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Array::Sorted::Map] ===SORRY!===
+[Array::Sorted::Map] Object does not exist in serialization context
+[Array::Sorted::Map] at t/01-basic.rakutest:3
+===> Testing [FAIL]: Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat>
+[Array::Sorted::Map] Failed to get passing tests, but continuing with --force-test
+===> Installing: Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat>
+===> Install [OK] for Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 27.414s
+             CPU time consumed: 27.321s
+                   Memory peak: 1G (swap: 0B)

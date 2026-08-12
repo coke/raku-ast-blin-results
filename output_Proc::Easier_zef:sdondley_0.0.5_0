@@ -1,0 +1,46 @@
+Running as unit: run-p2001463-i1943944.service; invocation ID: 55bffdb289e94ad7b6cf9b906f65a8cb
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Proc::Easier
+===> Found: Proc::Easier:ver<0.0.5>:auth<zef:sdondley> [via Zef::Repository::Ecosystems<fez>]
+[Proc::Easier] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786560392.2001472.1704.8376585911485/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz https://360.zef.pm/P/RO/PROC_EASIER/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+===> Fetching [OK]: Proc::Easier:ver<0.0.5>:auth<zef:sdondley> to /home/coke/sandbox/blin/data/zef-data/tmp/1786560392.2001472.1704.8376585911485/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+[Proc::Easier] Command: tar -t -f ./a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+[Proc::Easier] Command: tar -xvf ./a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz -C ../a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+===> Extraction [OK]: Proc::Easier to /home/coke/sandbox/blin/data/zef-data/tmp/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+===> Testing: Proc::Easier:ver<0.0.5>:auth<zef:sdondley>
+[Proc::Easier] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz/Proc-Easier-0.0.5 t/01-basic.rakutest
+[Proc::Easier] 1..16
+[Proc::Easier] ok 1 - creates object using standard constructor notation
+[Proc::Easier] ok 2 - creates object using simplified interface
+[Proc::Easier] ok 3 - cmd attribute set
+[Proc::Easier] ok 4 - sets/get output
+[Proc::Easier] ok 5 - lazy works
+[Proc::Easier] ok 6 - has exit method
+[Proc::Easier] ok 7 - has exit method
+[Proc::Easier] not ok 8 - get calling line number
+[Proc::Easier] # Failed test 'get calling line number'
+[Proc::Easier] # at t/01-basic.rakutest line 21
+[Proc::Easier] # expected: '18'
+[Proc::Easier] #      got: '17'
+[Proc::Easier] not ok 9 - get calling file name
+[Proc::Easier] # Failed test 'get calling file name'
+[Proc::Easier] # at t/01-basic.rakutest line 22
+[Proc::Easier] # expected a match with: /01\-basic\.rakutest/
+[Proc::Easier] #                   got: "/home/coke/sandbox/blin/data/zef-data/tmp/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz/Proc-Easier-0.0.5/lib/Proc/Easier.rakumod (Proc::Easier)"
+[Proc::Easier] ok 10 - does gist
+[Proc::Easier] ok 11 - get calling line number
+[Proc::Easier] ok 12 - dies with bad command with :die
+[Proc::Easier] ok 13 - deos not die with bad command, without :die
+[Proc::Easier] ok 14 - autodie on works
+[Proc::Easier] ok 15 - autodie off works
+[Proc::Easier] ok 16 - issues a real command
+[Proc::Easier] # You failed 2 tests of 16
+===> Testing [FAIL]: Proc::Easier:ver<0.0.5>:auth<zef:sdondley>
+[Proc::Easier] Failed to get passing tests, but continuing with --force-test
+===> Installing: Proc::Easier:ver<0.0.5>:auth<zef:sdondley>
+===> Install [OK] for Proc::Easier:ver<0.0.5>:auth<zef:sdondley>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 28.203s
+             CPU time consumed: 27.642s
+                   Memory peak: 949.7M (swap: 0B)

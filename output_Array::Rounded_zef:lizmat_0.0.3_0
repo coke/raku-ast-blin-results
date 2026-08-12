@@ -1,0 +1,24 @@
+Running as unit: run-p1907913-i1859322.service; invocation ID: 72430d7e43bd4abe8a30375311236360
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Array::Rounded
+===> Found: Array::Rounded:ver<0.0.3>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Array::Rounded] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786557294.1907915.7710.097327286936/6d78d2c5a14133d9e9fa544466431a92faf4ba3c.tar.gz https://360.zef.pm/A/RR/ARRAY_ROUNDED/6d78d2c5a14133d9e9fa544466431a92faf4ba3c.tar.gz
+===> Fetching [OK]: Array::Rounded:ver<0.0.3>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786557294.1907915.7710.097327286936/6d78d2c5a14133d9e9fa544466431a92faf4ba3c.tar.gz
+[Array::Rounded] Command: tar -t -f ./6d78d2c5a14133d9e9fa544466431a92faf4ba3c.tar.gz
+[Array::Rounded] Command: tar -xvf ./6d78d2c5a14133d9e9fa544466431a92faf4ba3c.tar.gz -C ../6d78d2c5a14133d9e9fa544466431a92faf4ba3c.tar.gz
+===> Extraction [OK]: Array::Rounded to /home/coke/sandbox/blin/data/zef-data/tmp/6d78d2c5a14133d9e9fa544466431a92faf4ba3c.tar.gz
+===> Testing: Array::Rounded:ver<0.0.3>:auth<zef:lizmat>
+[Array::Rounded] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6d78d2c5a14133d9e9fa544466431a92faf4ba3c.tar.gz/Array-Rounded-0.0.3 t/01-basic.rakutest
+[Array::Rounded] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Array::Rounded] ===SORRY!===
+[Array::Rounded] Object does not exist in serialization context
+[Array::Rounded] at t/01-basic.rakutest:2
+===> Testing [FAIL]: Array::Rounded:ver<0.0.3>:auth<zef:lizmat>
+[Array::Rounded] Failed to get passing tests, but continuing with --force-test
+===> Installing: Array::Rounded:ver<0.0.3>:auth<zef:lizmat>
+===> Install [OK] for Array::Rounded:ver<0.0.3>:auth<zef:lizmat>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 20.803s
+             CPU time consumed: 19.225s
+                   Memory peak: 941.9M (swap: 31.6M)

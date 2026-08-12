@@ -1,0 +1,132 @@
+Running as unit: run-p2063689-i2114425.service; invocation ID: 63f16cd4d9aa4f6c8985db89224d4196
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: App::APOTD
+===> Found: App::APOTD:ver<1.0.9>:auth<zef:deoac> [via Zef::Repository::Ecosystems<fez>]
+[App::APOTD] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786562479.2063690.3463.7571410982514/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz https://360.zef.pm/A/PP/APP_APOTD/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz
+===> Fetching [OK]: App::APOTD:ver<1.0.9>:auth<zef:deoac> to /home/coke/sandbox/blin/data/zef-data/tmp/1786562479.2063690.3463.7571410982514/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz
+[App::APOTD] Command: tar -t -f ./5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz
+[App::APOTD] Command: tar -xvf ./5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz -C ../5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz
+===> Extraction [OK]: App::APOTD to /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz
+===> Testing: App::APOTD:ver<1.0.9>:auth<zef:deoac>
+[App::APOTD] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz/App-APOTD-1.0.9 t/00-meta6.rakutest
+[App::APOTD] 1..1
+[App::APOTD] ok 1 - # SKIP Skipping author test
+[App::APOTD] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz/App-APOTD-1.0.9 t/01-basic.rakutest
+[App::APOTD] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[App::APOTD] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz/App-APOTD-1.0.9/lib/App/APOTD.rakumod (App::APOTD)
+[App::APOTD] Calling mail-die(Str, Str, Str, Str) will never work with declared signature (Str $msg)
+[App::APOTD] at /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz/App-APOTD-1.0.9/lib/App/APOTD.rakumod (App::APOTD):124
+[App::APOTD] at t/01-basic.rakutest:2
+[App::APOTD] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz/App-APOTD-1.0.9 t/01-load.rakutest
+[App::APOTD] 1..1
+[App::APOTD] not ok 1 - Module loaded OK
+[App::APOTD] # Failed test 'Module loaded OK'
+[App::APOTD] # at t/01-load.rakutest line 6
+[App::APOTD] # ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz/App-APOTD-1.0.9/lib/App/APOTD.rakumod (App::APOTD)
+[App::APOTD] # Calling mail-die(Str, Str, Str, Str) will never work with declared signature (Str $msg)
+[App::APOTD] # at /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz/App-APOTD-1.0.9/lib/App/APOTD.rakumod (App::APOTD):124
+[App::APOTD] # 
+[App::APOTD] # You failed 1 test of 1
+[App::APOTD] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz/App-APOTD-1.0.9 t/02-exports.rakutest
+[App::APOTD] ===SORRY!=== Error while compiling t/02-exports.rakutest
+[App::APOTD] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz/App-APOTD-1.0.9/lib/App/APOTD.rakumod (App::APOTD)
+[App::APOTD] Calling mail-die(Str, Str, Str, Str) will never work with declared signature (Str $msg)
+[App::APOTD] at /home/coke/sandbox/blin/data/zef-data/tmp/5de39b28297e55a5ed5ea600ae403e1e451aefe4.tar.gz/App-APOTD-1.0.9/lib/App/APOTD.rakumod (App::APOTD):124
+[App::APOTD] at t/02-exports.rakutest:3
+===> Testing [FAIL]: App::APOTD:ver<1.0.9>:auth<zef:deoac>
+[App::APOTD] Failed to get passing tests, but continuing with --force-test
+===> Installing: App::APOTD:ver<1.0.9>:auth<zef:deoac>
+===> Install [OK] for App::APOTD:ver<1.0.9>:auth<zef:deoac>
+
+1 bin/ script [apotd] installed to:
+/home/coke/sandbox/blin/installed/App::APOTD_zef:deoac_1.0.9_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 46.102s
+             CPU time consumed: 47.250s
+                   Memory peak: 1.1G (swap: 0B)

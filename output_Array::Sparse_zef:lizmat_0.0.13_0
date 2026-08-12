@@ -1,0 +1,26 @@
+Running as unit: run-p1981372-i1912024.service; invocation ID: c04105a7ea1e4c1f91ed95d17871991f
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Array::Sparse
+===> Found: Array::Sparse:ver<0.0.13>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Array::Sparse] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786559719.1981384.4862.58087272631/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz https://360.zef.pm/A/RR/ARRAY_SPARSE/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz
+===> Fetching [OK]: Array::Sparse:ver<0.0.13>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786559719.1981384.4862.58087272631/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz
+[Array::Sparse] Command: tar -t -f ./6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz
+[Array::Sparse] Command: tar -xvf ./6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz -C ../6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz
+===> Extraction [OK]: Array::Sparse to /home/coke/sandbox/blin/data/zef-data/tmp/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz
+===> Testing: Array::Sparse:ver<0.0.13>:auth<zef:lizmat>
+[Array::Sparse] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz/Array-Sparse-0.0.13 t/01-basic.rakutest
+[Array::Sparse] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Array::Sparse] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz/Array-Sparse-0.0.13/lib/Array/Sparse.rakumod (Array::Sparse)
+[Array::Sparse] ===SORRY!===
+[Array::Sparse] Object does not exist in serialization context
+[Array::Sparse] at /home/coke/sandbox/blin/data/zef-data/tmp/6851b8c18f9dfec544542421ba8ee15ec7602798.tar.gz/Array-Sparse-0.0.13/lib/Array/Sparse.rakumod (Array::Sparse):1
+[Array::Sparse] at t/01-basic.rakutest:4
+===> Testing [FAIL]: Array::Sparse:ver<0.0.13>:auth<zef:lizmat>
+[Array::Sparse] Failed to get passing tests, but continuing with --force-test
+===> Installing: Array::Sparse:ver<0.0.13>:auth<zef:lizmat>
+===> Install [OK] for Array::Sparse:ver<0.0.13>:auth<zef:lizmat>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 28.465s
+             CPU time consumed: 27.774s
+                   Memory peak: 1.3G (swap: 0B)
