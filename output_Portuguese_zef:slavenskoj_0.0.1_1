@@ -1,14 +1,14 @@
-Running as unit: run-p1950445-i2011181.service; invocation ID: fce98861cccb49c2b0c2433afcd45974
+Running as unit: run-p2380650-i2397813.service; invocation ID: 83d31b4af12e482686757a62ead2e43c
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Portuguese
 ===> Found: Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1> [via Zef::Repository::Ecosystems<fez>]
-[Portuguese] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786558686.1950446.7825.347047366486/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz https://360.zef.pm/P/OR/PORTUGUESE/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
-===> Fetching [OK]: Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1786558686.1950446.7825.347047366486/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
+[Portuguese] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786653565.2380662.5232.327283162309/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz https://360.zef.pm/P/OR/PORTUGUESE/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
+===> Fetching [OK]: Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1786653565.2380662.5232.327283162309/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
 [Portuguese] Command: tar -t -f ./9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
 [Portuguese] Command: tar -xvf ./9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz -C ../9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
 ===> Extraction [OK]: Portuguese to /home/coke/sandbox/blin/data/zef-data/tmp/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz
 ===> Testing: Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1>
-[Portuguese] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz/dist t/01-operators.t
+[Portuguese] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9d2c01348f256b1b53ece0e6251d147addd50cf9.tar.gz/dist t/01-operators.t
 [Portuguese] ===SORRY!=== Error while compiling t/01-operators.t
 [Portuguese] ===SORRY!===
 [Portuguese] Lexical symbol '&infix:<até_>' is already bound to an outer symbol. The
@@ -27,6 +27,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for Portuguese:ver<0.0.1>:auth<zef:slavenskoj>:api<1>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 51.073s
-             CPU time consumed: 49.083s
-                   Memory peak: 1.3G (swap: 0B)
+               Service runtime: 2min 30.427s
+             CPU time consumed: 2min 35.875s
+                   Memory peak: 1.3G (swap: 120.8M)

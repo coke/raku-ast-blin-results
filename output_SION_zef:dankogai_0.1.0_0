@@ -1,19 +1,19 @@
-Running as unit: run-p1955241-i1976235.service; invocation ID: 7556062dc03647d9974d62c508c24ca3
+Running as unit: run-p2392468-i2425807.service; invocation ID: 7f060bf7b1fa46d1ba7e97efc959447d
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: SION
 ===> Found: SION:ver<0.1.0>:auth<zef:dankogai> [via Zef::Repository::Ecosystems<fez>]
-[SION] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786558852.1955244.5901.801101088089/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz https://360.zef.pm/S/IO/SION/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz
-===> Fetching [OK]: SION:ver<0.1.0>:auth<zef:dankogai> to /home/coke/sandbox/blin/data/zef-data/tmp/1786558852.1955244.5901.801101088089/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz
+[SION] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786653982.2392469.2677.157451293829/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz https://360.zef.pm/S/IO/SION/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz
+===> Fetching [OK]: SION:ver<0.1.0>:auth<zef:dankogai> to /home/coke/sandbox/blin/data/zef-data/tmp/1786653982.2392469.2677.157451293829/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz
 [SION] Command: tar -t -f ./8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz
 [SION] Command: tar -xvf ./8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz -C ../8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz
 ===> Extraction [OK]: SION to /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz
 ===> Testing: SION:ver<0.1.0>:auth<zef:dankogai>
-[SION] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist t/00-load.rakutest
+[SION] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist t/00-load.rakutest
 [SION] 1..3
 [SION] ok 1 - SION loads
 [SION] ok 2 - to-sion is exported
 [SION] ok 3 - from-sion is exported
-[SION] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist t/01-decode.rakutest
+[SION] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist t/01-decode.rakutest
 [SION] ok 1 - nil => undefined
 [SION] ok 2 - true is a Bool
 [SION] ok 3 - true is true
@@ -52,7 +52,7 @@ Press ^] three times within 1s to disconnect TTY.
 [SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 318
 [SION]   in sub from-sion at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 447
 [SION]   in block <unit> at t/01-decode.rakutest line 59
-[SION] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist t/02-encode.rakutest
+[SION] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist t/02-encode.rakutest
 [SION] ok 1 - Any => nil
 [SION] ok 2 - Nil => nil
 [SION] ok 3 - True
@@ -110,39 +110,39 @@ Press ^] three times within 1s to disconnect TTY.
 [SION] ok 55 - self-referential array dies
 [SION] ok 56 - max-depth exceeded
 [SION] 1..56
-[SION] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist t/03-roundtrip.rakutest
+[SION] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist t/03-roundtrip.rakutest
 [SION] SION text exceeds maximum nesting level (max-depth set too low?), at character offset 51 (before "[
 [SION]     "array" : [
 [SION]         nil,
 [SION]  ...")
 [SION]   in method die-at at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 279
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 302
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
-[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
+[SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 301
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
 [SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
@@ -755,7 +755,7 @@ Press ^] three times within 1s to disconnect TTY.
 [SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
 [SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
-[SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 391
+[SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 383
 [SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
 [SION]   in method decode-collection at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 391
 [SION]   in method decode-value at /home/coke/sandbox/blin/data/zef-data/tmp/8e9664667e6c0d8ee226e8bd448e7fb2052937c7.tar.gz/dist/lib/SION.rakumod (SION) line 306
@@ -1152,6 +1152,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for SION:ver<0.1.0>:auth<zef:dankogai>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 26.166s
-             CPU time consumed: 26.170s
-                   Memory peak: 901.5M (swap: 0B)
+               Service runtime: 2min 18.019s
+             CPU time consumed: 2min 22.313s
+                   Memory peak: 1.3G (swap: 92.1M)

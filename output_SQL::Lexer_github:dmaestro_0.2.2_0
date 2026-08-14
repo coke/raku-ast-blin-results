@@ -1,14 +1,14 @@
-Running as unit: run-p1955561-i2019554.service; invocation ID: f65f7450f8be4a02b6e907e2982b2162
+Running as unit: run-p2392874-i2425826.service; invocation ID: b2cec78ac1784247a9a25d3e04ec0fc7
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: SQL::Lexer
 ===> Found: SQL::Lexer:ver<0.2.2>:auth<github:dmaestro> [via Zef::Repository::Ecosystems<rea>]
-[SQL::Lexer] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786558890.1955562.7777.735704140617/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/S/SQL%3A%3ALexer/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz
-===> Fetching [OK]: SQL::Lexer:ver<0.2.2>:auth<github:dmaestro> to /home/coke/sandbox/blin/data/zef-data/tmp/1786558890.1955562.7777.735704140617/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz
+[SQL::Lexer] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786654016.2392875.8532.258737667446/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/S/SQL%3A%3ALexer/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz
+===> Fetching [OK]: SQL::Lexer:ver<0.2.2>:auth<github:dmaestro> to /home/coke/sandbox/blin/data/zef-data/tmp/1786654016.2392875.8532.258737667446/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz
 [SQL::Lexer] Command: tar -t -f ./SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz
 [SQL::Lexer] Command: tar -xvf ./SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz -C ../SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz
 ===> Extraction [OK]: SQL::Lexer to /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz
 ===> Testing: SQL::Lexer:ver<0.2.2>:auth<github:dmaestro>
-[SQL::Lexer] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master t/comments.t
+[SQL::Lexer] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master t/comments.t
 [SQL::Lexer] ok 1 - Good comment
 [SQL::Lexer] # -- a standard single-line comment
 [SQL::Lexer] # 
@@ -39,7 +39,7 @@ Press ^] three times within 1s to disconnect TTY.
 [SQL::Lexer] #   
 [SQL::Lexer] # ---
 [SQL::Lexer] 1..7
-[SQL::Lexer] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master t/compound_statement.t
+[SQL::Lexer] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master t/compound_statement.t
 [SQL::Lexer] ===SORRY!=== Error while compiling t/compound_statement.t
 [SQL::Lexer] ===SORRY!===
 [SQL::Lexer] Could not find a compile-time-value for lexical Lexer:ver
@@ -50,7 +50,7 @@ Press ^] three times within 1s to disconnect TTY.
 [SQL::Lexer] at /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master/lib/SQL/Basic.pm6 (SQL::Basic):5
 [SQL::Lexer] ------> grammar Basic:ver<0.2.2> is Lexer:ver<HERE><0.2.1..*> {
 [SQL::Lexer] at t/compound_statement.t:4
-[SQL::Lexer] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master t/datetime.t
+[SQL::Lexer] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master t/datetime.t
 [SQL::Lexer] ok 1 - Good datetime(date-string): '0000-00-00'
 [SQL::Lexer] ok 2 - Good datetime(date-string): "2017-12-25"
 [SQL::Lexer] ok 3 - Good datetime(date-string): '2017-12-00'
@@ -66,7 +66,7 @@ Press ^] three times within 1s to disconnect TTY.
 [SQL::Lexer] ok 13 - Bad literal: |DATE 2017-12-25|
 [SQL::Lexer] ok 14 - Bad literal: |TIME "2017-12-25"|
 [SQL::Lexer] 1..14
-[SQL::Lexer] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master t/literals.t
+[SQL::Lexer] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master t/literals.t
 [SQL::Lexer] ok 1 - Good literal: |124|
 [SQL::Lexer] ok 2 - Correct type: unsigned-numeric-literal
 [SQL::Lexer] ok 3 - Good literal: |12.4|
@@ -110,7 +110,7 @@ Press ^] three times within 1s to disconnect TTY.
 [SQL::Lexer] ok 41 - Bad literal: |'abc"|
 [SQL::Lexer] ok 42 - Bad literal: |"def'|
 [SQL::Lexer] 1..42
-[SQL::Lexer] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master t/load_both.t
+[SQL::Lexer] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/SQL%3A%3ALexer%3Aver%3C0.2.2%3E%3Aauth%3Cgithub%3Admaestro%3E.tar.gz/SQL-Lexer-master t/load_both.t
 [SQL::Lexer] ok 1 - SQL::Lexer module can be use-d ok
 [SQL::Lexer] not ok 2 - SQL::Basic module can be use-d ok
 [SQL::Lexer] # Failed test 'SQL::Basic module can be use-d ok'
@@ -141,6 +141,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for SQL::Lexer:ver<0.2.2>:auth<github:dmaestro>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 57.823s
-             CPU time consumed: 57.716s
-                   Memory peak: 1.5G (swap: 0B)
+               Service runtime: 2min 38.315s
+             CPU time consumed: 2min 44.697s
+                   Memory peak: 1.6G (swap: 2.7M)

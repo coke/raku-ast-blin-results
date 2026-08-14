@@ -1,14 +1,14 @@
-Running as unit: run-p2059730-i2074517.service; invocation ID: bef263f66de340b58773ed19d0c41b0f
+Running as unit: run-p2609240-i2631531.service; invocation ID: c48ce483dc2f4c76a40c19a76758efb5
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: JobQueue
 ===> Found: JobQueue:ver<0.1.0>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
-[JobQueue] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786562353.2059731.8829.7291861814/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz https://360.zef.pm/J/OB/JOBQUEUE/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz
-===> Fetching [OK]: JobQueue:ver<0.1.0>:auth<zef:apogee> to /home/coke/sandbox/blin/data/zef-data/tmp/1786562353.2059731.8829.7291861814/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz
+[JobQueue] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786661438.2609243.9694.431667697676/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz https://360.zef.pm/J/OB/JOBQUEUE/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz
+===> Fetching [OK]: JobQueue:ver<0.1.0>:auth<zef:apogee> to /home/coke/sandbox/blin/data/zef-data/tmp/1786661438.2609243.9694.431667697676/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz
 [JobQueue] Command: tar -t -f ./88450d78d3f78db0f28711722b245160f0d98d25.tar.gz
 [JobQueue] Command: tar -xvf ./88450d78d3f78db0f28711722b245160f0d98d25.tar.gz -C ../88450d78d3f78db0f28711722b245160f0d98d25.tar.gz
 ===> Extraction [OK]: JobQueue to /home/coke/sandbox/blin/data/zef-data/tmp/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz
 ===> Testing: JobQueue:ver<0.1.0>:auth<zef:apogee>
-[JobQueue] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz/JobQueue-0.1.0 t/01-queue.rakutest
+[JobQueue] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz/JobQueue-0.1.0 t/01-queue.rakutest
 [JobQueue] 1..23
 [JobQueue] # Subtest: serial mode: only one job runs at a time
 [JobQueue]     1..4
@@ -177,7 +177,7 @@ Press ^] three times within 1s to disconnect TTY.
 [JobQueue]     ok 4 - undefined promise is a no-op
 [JobQueue]     ok 5 - exactly one of 16 concurrent keepers won
 [JobQueue] ok 23 - keep-once settles bare promises without racing throws
-[JobQueue] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz/JobQueue-0.1.0 t/02-coordinator.rakutest
+[JobQueue] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz/JobQueue-0.1.0 t/02-coordinator.rakutest
 [JobQueue] 1..12
 [JobQueue] # Subtest: independent job dispatches immediately
 [JobQueue]     1..2
@@ -261,7 +261,7 @@ Press ^] three times within 1s to disconnect TTY.
 [JobQueue]     ok 5 - find-job falls through to the queues
 [JobQueue]     ok 6 - cancel falls through to the queues
 [JobQueue] ok 12 - registry surface: duplicate names die, unknown names die, find-job falls through
-[JobQueue] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz/JobQueue-0.1.0 t/03-failed-registry.rakutest
+[JobQueue] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz/JobQueue-0.1.0 t/03-failed-registry.rakutest
 [JobQueue] 1..7
 [JobQueue] # Subtest: remember: inserts once, ignores duplicates, refuses nothing
 [JobQueue]     1..6
@@ -319,7 +319,7 @@ Press ^] three times within 1s to disconnect TTY.
 [JobQueue]     ok 3 - the failure reason survives
 [JobQueue]     ok 4 - the second retry click finds nothing to claim
 [JobQueue] ok 7 - a failed job round-trips its captured inputs to the retry
-[JobQueue] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz/JobQueue-0.1.0 t/04-injection.rakutest
+[JobQueue] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88450d78d3f78db0f28711722b245160f0d98d25.tar.gz/JobQueue-0.1.0 t/04-injection.rakutest
 [JobQueue] 1..8
 [JobQueue] # Subtest: the defaults are the null objects, and they are silent
 [JobQueue]     1..6
@@ -385,17 +385,7 @@ Press ^] three times within 1s to disconnect TTY.
 [JobQueue]         ok 1 - code dies
 [JobQueue]         ok 2 - right exception type (Exception)
 [JobQueue]         not ok 3 - .message matches /'must be implemented'/
-[JobQueue]         # Failed test '.message matches /'must be implemented'/'
-[JobQueue]         # at SETTING::src/core.c/Rakudo/Iterator.rakumod line 5968
-[JobQueue]         # Expected: /'must be implemented'/
-[JobQueue]         # Got:      Stub code executed
-[JobQueue]         # You failed 1 test of 3
 [JobQueue]     not ok 4 - the bare role stub refuses to pretend it works
-[JobQueue]     # Failed test 'the bare role stub refuses to pretend it works'
-[JobQueue]     # at t/04-injection.rakutest line 303
-[JobQueue]     # You failed 1 test of 4
-[JobQueue] # Failed test 'EventSink composes, and its stub refuses to be called'
-[JobQueue] # at t/04-injection.rakutest line 280
 [JobQueue] not ok 7 - EventSink composes, and its stub refuses to be called
 [JobQueue] # Subtest: the coordinator takes the same log injection
 [JobQueue]     1..4
@@ -404,6 +394,16 @@ Press ^] three times within 1s to disconnect TTY.
 [JobQueue]     ok 3 - at error level
 [JobQueue]     ok 4 - the held supersede was logged at info
 [JobQueue] ok 8 - the coordinator takes the same log injection
+[JobQueue]         # Failed test '.message matches /'must be implemented'/'
+[JobQueue]         # at SETTING::src/core.c/Rakudo/Iterator.rakumod line 5968
+[JobQueue]         # Expected: /'must be implemented'/
+[JobQueue]         # Got:      Stub code executed
+[JobQueue]         # You failed 1 test of 3
+[JobQueue]     # Failed test 'the bare role stub refuses to pretend it works'
+[JobQueue]     # at t/04-injection.rakutest line 303
+[JobQueue]     # You failed 1 test of 4
+[JobQueue] # Failed test 'EventSink composes, and its stub refuses to be called'
+[JobQueue] # at t/04-injection.rakutest line 280
 [JobQueue] # You failed 1 test of 8
 ===> Testing [FAIL]: JobQueue:ver<0.1.0>:auth<zef:apogee>
 [JobQueue] Failed to get passing tests, but continuing with --force-test
@@ -411,6 +411,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for JobQueue:ver<0.1.0>:auth<zef:apogee>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 52.302s
-             CPU time consumed: 52.663s
-                   Memory peak: 1G (swap: 0B)
+               Service runtime: 3min 11.107s
+             CPU time consumed: 3min 12.794s
+                   Memory peak: 1.8G (swap: 211.8M)

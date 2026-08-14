@@ -1,14 +1,14 @@
-Running as unit: run-p1919317-i1849924.service
+Running as unit: run-p2318400-i2372738.service; invocation ID: a4c6e64afacd47fc95642124397a98be
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: French
 ===> Found: French:ver<0.0.2>:auth<zef:slavenskoj>:api<1> [via Zef::Repository::Ecosystems<fez>]
-[French] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786557698.1919318.5682.364554396066/e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz https://360.zef.pm/F/RE/FRENCH/e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz
-===> Fetching [OK]: French:ver<0.0.2>:auth<zef:slavenskoj>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1786557698.1919318.5682.364554396066/e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz
+[French] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786651310.2318401.4261.547441812598/e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz https://360.zef.pm/F/RE/FRENCH/e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz
+===> Fetching [OK]: French:ver<0.0.2>:auth<zef:slavenskoj>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1786651310.2318401.4261.547441812598/e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz
 [French] Command: tar -t -f ./e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz
 [French] Command: tar -xvf ./e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz -C ../e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz
 ===> Extraction [OK]: French to /home/coke/sandbox/blin/data/zef-data/tmp/e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz
 ===> Testing: French:ver<0.0.2>:auth<zef:slavenskoj>:api<1>
-[French] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz/dist t/01-operators.t
+[French] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e163bb9798311ee698c973a65fed63cbda8ca550.tar.gz/dist t/01-operators.t
 [French] ===SORRY!=== Error while compiling t/01-operators.t
 [French] ===SORRY!===
 [French] Lexical symbol '&infix:<divisé_égal>' is already bound to an outer
@@ -83,6 +83,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for French:ver<0.0.2>:auth<zef:slavenskoj>:api<1>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 1min 15.253s
-             CPU time consumed: 1min 13.215s
-                   Memory peak: 1.3G (swap: 0B)
+               Service runtime: 2min 57.168s
+             CPU time consumed: 2min 57.794s
+                   Memory peak: 1.4G (swap: 888K)

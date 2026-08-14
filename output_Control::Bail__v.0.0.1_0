@@ -1,14 +1,14 @@
-Running as unit: run-p1913423-i1958907.service
+Running as unit: run-p2302833-i2368135.service; invocation ID: 27a868d219d642e88bf4542cde81a042
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Control::Bail
 ===> Found: Control::Bail:ver<v.0.0.1> [via Zef::Repository::Ecosystems<rea>]
-[Control::Bail] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786557507.1913426.1762.7622037828182/Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/Control%3A%3ABail/Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz
-===> Fetching [OK]: Control::Bail:ver<v.0.0.1> to /home/coke/sandbox/blin/data/zef-data/tmp/1786557507.1913426.1762.7622037828182/Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz
+[Control::Bail] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786650730.2302840.5185.634910156662/Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/Control%3A%3ABail/Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz
+===> Fetching [OK]: Control::Bail:ver<v.0.0.1> to /home/coke/sandbox/blin/data/zef-data/tmp/1786650730.2302840.5185.634910156662/Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz
 [Control::Bail] Command: tar -t -f ./Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz
 [Control::Bail] Command: tar -xvf ./Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz -C ../Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz
 ===> Extraction [OK]: Control::Bail to /home/coke/sandbox/blin/data/zef-data/tmp/Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz
 ===> Testing: Control::Bail:ver<v.0.0.1>
-[Control::Bail] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz/perl6-Control-Bail-master t/bail.t
+[Control::Bail] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Control%3A%3ABail%3Aver%3Cv0.0.1%3E%3Aauth%3Cgithub%3Askids%3E.tar.gz/perl6-Control-Bail-master t/bail.t
 [Control::Bail] ===SORRY!=== Error while compiling t/bail.t
 [Control::Bail] This type (Failure) does not support associative operations
 [Control::Bail] at t/bail.t:9
@@ -18,6 +18,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for Control::Bail:ver<v.0.0.1>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 42.375s
-             CPU time consumed: 40.253s
-                   Memory peak: 1.2G (swap: 0B)
+               Service runtime: 2min 30.542s
+             CPU time consumed: 2min 30.124s
+                   Memory peak: 1.4G (swap: 29.8M)

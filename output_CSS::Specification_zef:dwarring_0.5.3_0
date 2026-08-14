@@ -1,99 +1,14 @@
-Running as unit: run-p2025309-i2061260.service
+Running as unit: run-p2531286-i2502354.service; invocation ID: dcaa743256494e26b30b59850ba1f77b
 Press ^] three times within 1s to disconnect TTY.
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_0:1
-    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_1:1
-    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_2:1
-    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_3:1
-    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_4:1
-    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_5:1
-    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_6:1
-    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_7:1
-    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_8:1
-    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_9:1
-    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_10:1
-    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_11:1
-    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_12:1
-    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_13:1
-    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_14:1
-    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_15:1
-    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_16:1
-    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
 ===> Searching for: CSS::Specification
 ===> Found: CSS::Specification:ver<0.5.3>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
-[CSS::Specification] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786561259.2025310.4481.695168218972/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz https://360.zef.pm/C/SS/CSS_SPECIFICATION/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
-===> Fetching [OK]: CSS::Specification:ver<0.5.3>:auth<zef:dwarring> to /home/coke/sandbox/blin/data/zef-data/tmp/1786561259.2025310.4481.695168218972/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
+[CSS::Specification] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786658997.2531298.7112.366678000372/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz https://360.zef.pm/C/SS/CSS_SPECIFICATION/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
+===> Fetching [OK]: CSS::Specification:ver<0.5.3>:auth<zef:dwarring> to /home/coke/sandbox/blin/data/zef-data/tmp/1786658997.2531298.7112.366678000372/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
 [CSS::Specification] Command: tar -t -f ./2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
 [CSS::Specification] Command: tar -xvf ./2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz -C ../2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
 ===> Extraction [OK]: CSS::Specification to /home/coke/sandbox/blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz
 ===> Testing: CSS::Specification:ver<0.5.3>:auth<zef:dwarring>
-[CSS::Specification] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3 t/00basic.t
+[CSS::Specification] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3 t/00basic.t
 [CSS::Specification] not ok 1 - CSS::Grammar version
 [CSS::Specification] # Failed test 'CSS::Grammar version'
 [CSS::Specification] # at t/00basic.t line 10
@@ -101,17 +16,17 @@ Potential difficulties:
 [CSS::Specification] #     /home/coke/sandbox/blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3
 [CSS::Specification] #     /home/coke/sandbox/blin/installed/CSS::Specification_zef:dwarring_0.5.3_0
 [CSS::Specification] #     /home/coke/sandbox/blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3/data/zef/lib
-[CSS::Specification] #     /home/coke/sandbox/blin/installed/Color::Names_zef:thundergnat_2.0.0_2
+[CSS::Specification] #     /home/coke/sandbox/blin/installed/Method::Also_zef:lizmat_0.0.10_0
 [CSS::Specification] #     /home/coke/sandbox/blin/installed/CSS::Grammar_zef:dwarring_0.4.3_0
 [CSS::Specification] #     /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0
-[CSS::Specification] #     /home/coke/sandbox/blin/installed/Method::Also_zef:lizmat_0.0.10_0
+[CSS::Specification] #     /home/coke/sandbox/blin/installed/Color::Names_zef:thundergnat_2.0.0_2
 [CSS::Specification] #     /home/coke/.raku
-[CSS::Specification] #     /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/share/perl6/site
-[CSS::Specification] #     /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/share/perl6/vendor
-[CSS::Specification] #     /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/share/perl6/core
-[CSS::Specification] #     CompUnit::Repository::AbsolutePath<5288680975440>
-[CSS::Specification] #     CompUnit::Repository::NQP<5288569988528>
-[CSS::Specification] #     CompUnit::Repository::Perl5<5288569988568>
+[CSS::Specification] #     /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/share/perl6/site
+[CSS::Specification] #     /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/share/perl6/vendor
+[CSS::Specification] #     /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/share/perl6/core
+[CSS::Specification] #     CompUnit::Repository::AbsolutePath<4778546701888>
+[CSS::Specification] #     CompUnit::Repository::NQP<4778547174648>
+[CSS::Specification] #     CompUnit::Repository::Perl5<4778547174688>
 [CSS::Specification] # 
 [CSS::Specification] # Please note that a 'META6.json' file was found in '.', of which the 'provides' section was used to determine if a dependency is available or not.  Perhaps you need to add 'CSS::Grammar:ver<0.3.0..*>' in the <provides> section of that file?  Or need to specify a directory that does *not* have a 'META6.json' file?
 [CSS::Specification] # Subtest: values: thin
@@ -277,7 +192,7 @@ Potential difficulties:
 [CSS::Specification] ok 28 - prop-spec: 'width' *	<length> | <percentage> | auto	auto	all elements but non-replaced inline elements, table rows, and row groups	no
 [CSS::Specification] 1..28
 [CSS::Specification] # You failed 1 test of 28
-[CSS::Specification] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3 t/defs.t
+[CSS::Specification] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2ba9adfb6c98a5a5fe4eb4b03ad4e5de081f48b4.tar.gz/CSS-Specification-0.5.3 t/defs.t
 [CSS::Specification] ok 1 - not number: 0%
 [CSS::Specification] ok 2 - percentage: 0%
 [CSS::Specification] ok 3 - length: 0%
@@ -334,6 +249,6 @@ Potential difficulties:
 ===> Install [OK] for CSS::Specification:ver<0.5.3>:auth<zef:dwarring>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 31.442s
-             CPU time consumed: 32.538s
-                   Memory peak: 968.9M (swap: 0B)
+               Service runtime: 3min 7.555s
+             CPU time consumed: 3min 15.814s
+                   Memory peak: 1.7G (swap: 207.3M)

@@ -1,14 +1,14 @@
-Running as unit: run-p2002365-i2021685.service; invocation ID: e00763df03a04f92b51e709fc3c5a906
+Running as unit: run-p2482451-i2552249.service
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Tie::Array
 ===> Found: Tie::Array:ver<0.0.9>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[Tie::Array] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786560420.2002366.4789.297545076958/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz https://360.zef.pm/T/IE/TIE_ARRAY/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
-===> Fetching [OK]: Tie::Array:ver<0.0.9>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786560420.2002366.4789.297545076958/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
+[Tie::Array] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786657184.2482452.6393.588420382914/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz https://360.zef.pm/T/IE/TIE_ARRAY/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
+===> Fetching [OK]: Tie::Array:ver<0.0.9>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786657184.2482452.6393.588420382914/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
 [Tie::Array] Command: tar -t -f ./d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
 [Tie::Array] Command: tar -xvf ./d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz -C ../d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
 ===> Extraction [OK]: Tie::Array to /home/coke/sandbox/blin/data/zef-data/tmp/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz
 ===> Testing: Tie::Array:ver<0.0.9>:auth<zef:lizmat>
-[Tie::Array] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz/Tie-Array-0.0.9 t/01-basic.rakutest
+[Tie::Array] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d0ae992e5e4537dd6dbefd15478347b9b8102345.tar.gz/Tie-Array-0.0.9 t/01-basic.rakutest
 [Tie::Array] 1..17
 [Tie::Array] ok 1 - is the object a Foo?
 [Tie::Array] ok 2 - did we get Any
@@ -42,6 +42,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for Tie::Array:ver<0.0.9>:auth<zef:lizmat>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 26.628s
-             CPU time consumed: 25.160s
-                   Memory peak: 826.9M (swap: 33.6M)
+               Service runtime: 2min 4.166s
+             CPU time consumed: 2min 14.882s
+                   Memory peak: 1.1G (swap: 1.2M)

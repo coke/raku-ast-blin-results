@@ -1,17 +1,17 @@
-Running as unit: run-p1950252-i1983891.service; invocation ID: 5939a2c016614dd9a271afc76aefad3b
+Running as unit: run-p2380505-i2401686.service; invocation ID: 6d07f9c3a3454623ba2c78702e62d1cc
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Polyglot::Regexen
 ===> Found: Polyglot::Regexen:ver<0.1.0>:auth<zef:guifa> [via Zef::Repository::Ecosystems<fez>]
-[Polyglot::Regexen] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786558679.1950253.9745.201618612336/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz https://360.zef.pm/P/OL/POLYGLOT_REGEXEN/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz
-===> Fetching [OK]: Polyglot::Regexen:ver<0.1.0>:auth<zef:guifa> to /home/coke/sandbox/blin/data/zef-data/tmp/1786558679.1950253.9745.201618612336/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz
+[Polyglot::Regexen] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786653558.2380511.2559.582346758693/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz https://360.zef.pm/P/OL/POLYGLOT_REGEXEN/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz
+===> Fetching [OK]: Polyglot::Regexen:ver<0.1.0>:auth<zef:guifa> to /home/coke/sandbox/blin/data/zef-data/tmp/1786653558.2380511.2559.582346758693/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz
 [Polyglot::Regexen] Command: tar -t -f ./17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz
 [Polyglot::Regexen] Command: tar -xvf ./17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz -C ../17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz
 ===> Extraction [OK]: Polyglot::Regexen to /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz
 ===> Testing: Polyglot::Regexen:ver<0.1.0>:auth<zef:guifa>
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/00-sanity.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/00-sanity.rakutest
 [Polyglot::Regexen] ok 1 - 
 [Polyglot::Regexen] 1..1
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/01-literals.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/01-literals.rakutest
 [Polyglot::Regexen] ok 1 - Single literal, alpha
 [Polyglot::Regexen] ok 2 - Double literal
 [Polyglot::Regexen] ok 3 - Single literal, digit
@@ -22,7 +22,7 @@ Press ^] three times within 1s to disconnect TTY.
 [Polyglot::Regexen] ok 8 - Hex escape sequence, Raku escaped
 [Polyglot::Regexen] ok 9 - Unicode escape sequence, Raku escaped
 [Polyglot::Regexen] 1..9
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/02-character-classes.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/02-character-classes.rakutest
 [Polyglot::Regexen] ok 1 - Hyphen as sole character
 [Polyglot::Regexen] ok 2 - Hyphen as first character
 [Polyglot::Regexen] ok 3 - Hyphen as final character
@@ -30,17 +30,17 @@ Press ^] three times within 1s to disconnect TTY.
 [Polyglot::Regexen] ok 5 - Range before literal
 [Polyglot::Regexen] ok 6 - Sequential range
 [Polyglot::Regexen] 1..6
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/03-alternation.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/03-alternation.rakutest
 [Polyglot::Regexen] ok 1 - Simple alternation, two terms
 [Polyglot::Regexen] ok 2 - Simple alternation, three terms
 [Polyglot::Regexen] 1..2
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/04-assertions.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/04-assertions.rakutest
 [Polyglot::Regexen] ok 1 - Simple lookahead
 [Polyglot::Regexen] ok 2 - Simple negative lookahead
 [Polyglot::Regexen] ok 3 - Simple lookbehind
 [Polyglot::Regexen] ok 4 - Simple negative lookbehind
 [Polyglot::Regexen] 1..4
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/05-quantifiers.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/05-quantifiers.rakutest
 [Polyglot::Regexen] ok 1 - One or none
 [Polyglot::Regexen] ok 2 - One or more
 [Polyglot::Regexen] ok 3 - None or more
@@ -54,7 +54,7 @@ Press ^] three times within 1s to disconnect TTY.
 [Polyglot::Regexen] ok 11 - Frugal some number or more
 [Polyglot::Regexen] ok 12 - Frugal some number to another number
 [Polyglot::Regexen] 1..12
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/06-captures.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/06-captures.rakutest
 [Polyglot::Regexen] ok 1 - Simple positional
 [Polyglot::Regexen] ok 2 - Embedded positional
 [Polyglot::Regexen] ok 3 - Sequential positional
@@ -62,7 +62,7 @@ Press ^] three times within 1s to disconnect TTY.
 [Polyglot::Regexen] ok 5 - Simple named
 [Polyglot::Regexen] ok 6 - Simple named with simple positional
 [Polyglot::Regexen] 1..6
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/07-unicode.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/07-unicode.rakutest
 [Polyglot::Regexen] ok 1 - 
 [Polyglot::Regexen] ok 2 - 
 [Polyglot::Regexen] ok 3 - 
@@ -76,13 +76,13 @@ Press ^] three times within 1s to disconnect TTY.
 [Polyglot::Regexen] ok 11 - 
 [Polyglot::Regexen] ok 12 - 
 [Polyglot::Regexen] 1..12
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/08-modifiers.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/08-modifiers.rakutest
 [Polyglot::Regexen] ok 1 - 
 [Polyglot::Regexen] ok 2 - 
 [Polyglot::Regexen] ok 3 - 
 [Polyglot::Regexen] ok 4 - 
 [Polyglot::Regexen] 1..4
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/09-role.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/09-role.rakutest
 [Polyglot::Regexen] # Subtest: Pretty print
 [Polyglot::Regexen]     ok 1 - 
 [Polyglot::Regexen]     ok 2 - 
@@ -135,7 +135,7 @@ Press ^] three times within 1s to disconnect TTY.
 [Polyglot::Regexen]     1..6
 [Polyglot::Regexen] ok 6 - Named match backreferences
 [Polyglot::Regexen] 1..6
-[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/10-usage.rakutest
+[Polyglot::Regexen] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/17071274ecb11bce167fcb8d42ae1a45eba739f5.tar.gz/dist t/ecma/10-usage.rakutest
 [Polyglot::Regexen] ===SORRY!===
 [Polyglot::Regexen] Dynamic variable $*W not found
 ===> Testing [FAIL]: Polyglot::Regexen:ver<0.1.0>:auth<zef:guifa>
@@ -144,6 +144,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for Polyglot::Regexen:ver<0.1.0>:auth<zef:guifa>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 47.704s
-             CPU time consumed: 48.247s
-                   Memory peak: 929.5M (swap: 0B)
+               Service runtime: 2min 49.123s
+             CPU time consumed: 3min 955ms
+                   Memory peak: 1.9G (swap: 119.2M)

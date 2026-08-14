@@ -1,14 +1,14 @@
-Running as unit: run-p1998934-i1997597.service; invocation ID: 82f6cbebe75846e08fa0212a786b6acd
+Running as unit: run-p2488708-i2461463.service; invocation ID: 6258dbcda3794400ba1193ca6506e8ab
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Net::IP::Parse
 ===> Found: Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie> [via Zef::Repository::Ecosystems<fez>]
-[Net::IP::Parse] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786560298.1998943.9586.698931289742/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz https://360.zef.pm/N/ET/NET_IP_PARSE/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
-===> Fetching [OK]: Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie> to /home/coke/sandbox/blin/data/zef-data/tmp/1786560298.1998943.9586.698931289742/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
+[Net::IP::Parse] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786657431.2488713.5602.676697001691/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz https://360.zef.pm/N/ET/NET_IP_PARSE/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
+===> Fetching [OK]: Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie> to /home/coke/sandbox/blin/data/zef-data/tmp/1786657431.2488713.5602.676697001691/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
 [Net::IP::Parse] Command: tar -t -f ./347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
 [Net::IP::Parse] Command: tar -xvf ./347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz -C ../347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
 ===> Extraction [OK]: Net::IP::Parse to /home/coke/sandbox/blin/data/zef-data/tmp/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz
 ===> Testing: Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie>
-[Net::IP::Parse] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz/dist t/basic.rakutest
+[Net::IP::Parse] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/347839a5aab2ab13b536b68fe6e225999e75a68a.tar.gz/dist t/basic.rakutest
 [Net::IP::Parse] ok 1 - is ipv4
 [Net::IP::Parse] ok 2 - constructors equivalent
 [Net::IP::Parse] ok 3 - valid
@@ -54,37 +54,37 @@ Press ^] three times within 1s to disconnect TTY.
 [Net::IP::Parse] # List ((223, 234)). You have to pass an explicitly typed array, not one
 [Net::IP::Parse] # that just might happen to contain elements of the correct type.
 [Net::IP::Parse] not ok 30 - valid
+[Net::IP::Parse] not ok 31 - valid
+[Net::IP::Parse] not ok 32 - valid
+[Net::IP::Parse] not ok 33 - valid
 [Net::IP::Parse] # Failed test 'valid'
 [Net::IP::Parse] # at t/basic.rakutest line 115
 [Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
 [Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
 [Net::IP::Parse] # just might happen to contain elements of the correct type.
-[Net::IP::Parse] not ok 31 - valid
 [Net::IP::Parse] # Failed test 'valid'
 [Net::IP::Parse] # at t/basic.rakutest line 120
 [Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
 [Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
 [Net::IP::Parse] # just might happen to contain elements of the correct type.
-[Net::IP::Parse] not ok 32 - valid
 [Net::IP::Parse] # Failed test 'valid'
 [Net::IP::Parse] # at t/basic.rakutest line 127
 [Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
 [Net::IP::Parse] # List ((32, 1)). You have to pass an explicitly typed array, not one that
 [Net::IP::Parse] # just might happen to contain elements of the correct type.
-[Net::IP::Parse] not ok 33 - valid
 [Net::IP::Parse] # Failed test 'valid'
 [Net::IP::Parse] # at t/basic.rakutest line 133
 [Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
 [Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
 [Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] ok 34 - address overflow detected
+[Net::IP::Parse] ok 35 - address underflow detected
+[Net::IP::Parse] not ok 36 - valid
 [Net::IP::Parse] # Failed test 'valid'
 [Net::IP::Parse] # at t/basic.rakutest line 148
 [Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
 [Net::IP::Parse] # List ((32, 1)). You have to pass an explicitly typed array, not one that
 [Net::IP::Parse] # just might happen to contain elements of the correct type.
-[Net::IP::Parse] ok 34 - address overflow detected
-[Net::IP::Parse] ok 35 - address underflow detected
-[Net::IP::Parse] not ok 36 - valid
 [Net::IP::Parse] ok 37 - bad addr detected
 [Net::IP::Parse] ok 38 - bad addr detected
 [Net::IP::Parse] ok 39 - empty zone detected
@@ -171,12 +171,12 @@ Press ^] three times within 1s to disconnect TTY.
 [Net::IP::Parse] ok 65 - detected version mismatch
 [Net::IP::Parse] ok 66 - detected version mismatch
 [Net::IP::Parse] not ok 67 - CIDR with /128
-[Net::IP::Parse] 1..67
 [Net::IP::Parse] # Failed test 'CIDR with /128'
 [Net::IP::Parse] # at t/basic.rakutest line 297
 [Net::IP::Parse] # Type check failed for return value; expected Positional[Subsets::Common::EXPORT::DEFAULT::UInt8]:D but got
 [Net::IP::Parse] # List ((0, 1)). You have to pass an explicitly typed array, not one that
 [Net::IP::Parse] # just might happen to contain elements of the correct type.
+[Net::IP::Parse] 1..67
 [Net::IP::Parse] # You failed 20 tests of 67
 ===> Testing [FAIL]: Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie>
 [Net::IP::Parse] Failed to get passing tests, but continuing with --force-test
@@ -184,6 +184,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for Net::IP::Parse:ver<0.0.6>:auth<zef:bradclawsie>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 27.699s
-             CPU time consumed: 27.595s
-                   Memory peak: 967.5M (swap: 0B)
+               Service runtime: 2min 22.511s
+             CPU time consumed: 2min 31.675s
+                   Memory peak: 1.3G (swap: 85.1M)

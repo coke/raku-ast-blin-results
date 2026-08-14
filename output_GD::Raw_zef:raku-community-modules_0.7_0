@@ -1,19 +1,19 @@
-Running as unit: run-p1987668-i2032123.service; invocation ID: e86bd35e96804a06ba4b652883803738
+Running as unit: run-p2473282-i2468732.service; invocation ID: 33d16c6c13274d5e9e5134444a72df5a
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: GD::Raw
 ===> Found: GD::Raw:ver<0.7>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
-[GD::Raw] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786559924.1987671.9786.302125057076/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz https://360.zef.pm/G/D_/GD_RAW/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz
-===> Fetching [OK]: GD::Raw:ver<0.7>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1786559924.1987671.9786.302125057076/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz
+[GD::Raw] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786656854.2473283.6870.379003028035/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz https://360.zef.pm/G/D_/GD_RAW/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz
+===> Fetching [OK]: GD::Raw:ver<0.7>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1786656854.2473283.6870.379003028035/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz
 [GD::Raw] Command: tar -t -f ./dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz
 [GD::Raw] Command: tar -xvf ./dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz -C ../dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz
 ===> Extraction [OK]: GD::Raw to /home/coke/sandbox/blin/data/zef-data/tmp/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz
 ===> Testing: GD::Raw:ver<0.7>:auth<zef:raku-community-modules>
-[GD::Raw] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz/GD-Raw-0.7 t/00-load.rakutest
+[GD::Raw] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz/GD-Raw-0.7 t/00-load.rakutest
 [GD::Raw] ===SORRY!=== Error while compiling t/00-load.rakutest
 [GD::Raw] ===SORRY!===
 [GD::Raw] RakuDoc markup code L missing endtag '>'.
 [GD::Raw] at t/00-load.rakutest:2
-[GD::Raw] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz/GD-Raw-0.7 t/01-create-and-load.rakutest
+[GD::Raw] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/dfa4a15cdb9e721f7b3737f97b4178fe51bf2198.tar.gz/GD-Raw-0.7 t/01-create-and-load.rakutest
 [GD::Raw] ===SORRY!=== Error while compiling t/01-create-and-load.rakutest
 [GD::Raw] ===SORRY!===
 [GD::Raw] RakuDoc markup code L missing endtag '>'.
@@ -24,6 +24,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for GD::Raw:ver<0.7>:auth<zef:raku-community-modules>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 43.266s
-             CPU time consumed: 44.516s
-                   Memory peak: 1.2G (swap: 0B)
+               Service runtime: 2min 27.136s
+             CPU time consumed: 2min 29.655s
+                   Memory peak: 1.3G (swap: 67.1M)

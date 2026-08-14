@@ -1,14 +1,14 @@
-Running as unit: run-p1973550-i1988897.service; invocation ID: 8322fb1aa04a47a0b85309206a48729a
+Running as unit: run-p2435312-i2414039.service; invocation ID: 48076f699cca4e23ae002b48c2fec91f
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: auto-dynamic
 ===> Found: auto-dynamic:ver<0.0.2>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[auto-dynamic] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786559450.1973561.3379.9023886208633/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz https://360.zef.pm/A/UT/AUTODYNAMIC/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
-===> Fetching [OK]: auto-dynamic:ver<0.0.2>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786559450.1973561.3379.9023886208633/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
+[auto-dynamic] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786655430.2435313.517.9585869343995/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz https://360.zef.pm/A/UT/AUTODYNAMIC/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
+===> Fetching [OK]: auto-dynamic:ver<0.0.2>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786655430.2435313.517.9585869343995/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
 [auto-dynamic] Command: tar -t -f ./e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
 [auto-dynamic] Command: tar -xvf ./e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz -C ../e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
 ===> Extraction [OK]: auto-dynamic to /home/coke/sandbox/blin/data/zef-data/tmp/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz
 ===> Testing: auto-dynamic:ver<0.0.2>:auth<zef:lizmat>
-[auto-dynamic] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz/auto-dynamic-0.0.2 t/01-basic.rakutest
+[auto-dynamic] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e26221979ddc0b273456139479a6f3c178d27cc6.tar.gz/auto-dynamic-0.0.2 t/01-basic.rakutest
 [auto-dynamic] 1..12
 [auto-dynamic] ok 1 - can we reference normal dynvars
 [auto-dynamic] Dynamic variable $*foo not found
@@ -20,6 +20,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for auto-dynamic:ver<0.0.2>:auth<zef:lizmat>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 20.673s
-             CPU time consumed: 19.531s
-                   Memory peak: 871.4M (swap: 0B)
+               Service runtime: 2min 19.614s
+             CPU time consumed: 2min 17.490s
+                   Memory peak: 1.3G (swap: 119.3M)

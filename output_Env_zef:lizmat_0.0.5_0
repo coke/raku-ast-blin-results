@@ -1,14 +1,14 @@
-Running as unit: run-p1917020-i1862059.service
+Running as unit: run-p2312153-i2327575.service; invocation ID: d920e5db2600400da302742849cd47cf
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Env
 ===> Found: Env:ver<0.0.5>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[Env] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786557614.1917021.203.10430626283903/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz https://360.zef.pm/E/NV/ENV/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz
-===> Fetching [OK]: Env:ver<0.0.5>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786557614.1917021.203.10430626283903/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz
+[Env] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786651054.2312154.5809.327172775859/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz https://360.zef.pm/E/NV/ENV/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz
+===> Fetching [OK]: Env:ver<0.0.5>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786651054.2312154.5809.327172775859/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz
 [Env] Command: tar -t -f ./e23a059d317109494a663c82ea253ad91637e4b7.tar.gz
 [Env] Command: tar -xvf ./e23a059d317109494a663c82ea253ad91637e4b7.tar.gz -C ../e23a059d317109494a663c82ea253ad91637e4b7.tar.gz
 ===> Extraction [OK]: Env to /home/coke/sandbox/blin/data/zef-data/tmp/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz
 ===> Testing: Env:ver<0.0.5>:auth<zef:lizmat>
-[Env] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz/Env-0.0.5 t/all.t
+[Env] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz/Env-0.0.5 t/all.t
 [Env] ===SORRY!=== Error while compiling t/all.t
 [Env] Dynamic variable $*W not found
 [Env] at t/all.t:4
@@ -19,8 +19,8 @@ Press ^] three times within 1s to disconnect TTY.
 [Env]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 2575
 [Env]   in any  at src/Raku/ast/begintime.rakumod line 43
 [Env]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 40
-[Env]   in any statement-control at /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/share/perl6/lib/Raku/Grammar.moarvm line 1
-[Env] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz/Env-0.0.5 t/specific.t
+[Env]   in any statement-control at /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Env] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e23a059d317109494a663c82ea253ad91637e4b7.tar.gz/Env-0.0.5 t/specific.t
 [Env] ===SORRY!=== Error while compiling t/specific.t
 [Env] Dynamic variable $*W not found
 [Env] at t/specific.t:4
@@ -31,13 +31,13 @@ Press ^] three times within 1s to disconnect TTY.
 [Env]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 2575
 [Env]   in any  at src/Raku/ast/begintime.rakumod line 43
 [Env]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 40
-[Env]   in any statement-control at /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/share/perl6/lib/Raku/Grammar.moarvm line 1
+[Env]   in any statement-control at /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/share/perl6/lib/Raku/Grammar.moarvm line 1
 ===> Testing [FAIL]: Env:ver<0.0.5>:auth<zef:lizmat>
 [Env] Failed to get passing tests, but continuing with --force-test
 ===> Installing: Env:ver<0.0.5>:auth<zef:lizmat>
 ===> Install [OK] for Env:ver<0.0.5>:auth<zef:lizmat>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 20.638s
-             CPU time consumed: 19.334s
-                   Memory peak: 828M (swap: 0B)
+               Service runtime: 2min 4.724s
+             CPU time consumed: 2min 8.803s
+                   Memory peak: 1.2G (swap: 0B)

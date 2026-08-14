@@ -1,14 +1,14 @@
-Running as unit: run-p2002583-i2021695.service; invocation ID: 2a2b142e4c914c3b90897b3da1af1a28
+Running as unit: run-p2482423-i2469116.service; invocation ID: 742114caec1b4690b7e7552e5d894a76
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Tie::StdArray
 ===> Found: Tie::StdArray:ver<0.0.8>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[Tie::StdArray] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786560429.2002586.913.01376838399/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz https://360.zef.pm/T/IE/TIE_STDARRAY/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
-===> Fetching [OK]: Tie::StdArray:ver<0.0.8>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786560429.2002586.913.01376838399/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
+[Tie::StdArray] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786657186.2482424.797.7065025630093/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz https://360.zef.pm/T/IE/TIE_STDARRAY/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
+===> Fetching [OK]: Tie::StdArray:ver<0.0.8>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786657186.2482424.797.7065025630093/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
 [Tie::StdArray] Command: tar -t -f ./3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
 [Tie::StdArray] Command: tar -xvf ./3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz -C ../3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
 ===> Extraction [OK]: Tie::StdArray to /home/coke/sandbox/blin/data/zef-data/tmp/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz
 ===> Testing: Tie::StdArray:ver<0.0.8>:auth<zef:lizmat>
-[Tie::StdArray] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz/Tie-StdArray-0.0.8 t/01-basic.rakutest
+[Tie::StdArray] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/3c1281b62a0a14d14ed2c3ead63ea309a46dfc30.tar.gz/Tie-StdArray-0.0.8 t/01-basic.rakutest
 [Tie::StdArray] 1..17
 [Tie::StdArray] ok 1 - is the object a Tie::StdArray?
 [Tie::StdArray] ok 2 - did we get Any
@@ -42,6 +42,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for Tie::StdArray:ver<0.0.8>:auth<zef:lizmat>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 27.610s
-             CPU time consumed: 26.003s
-                   Memory peak: 847.6M (swap: 35.5M)
+               Service runtime: 2min 6.985s
+             CPU time consumed: 2min 17.549s
+                   Memory peak: 1.2G (swap: 3.5M)

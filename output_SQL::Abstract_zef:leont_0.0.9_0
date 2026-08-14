@@ -1,0 +1,35 @@
+Running as unit: run-p2392775-i2406251.service; invocation ID: 7b83f04fad9044d284163f4adf437f12
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: SQL::Abstract
+===> Found: SQL::Abstract:ver<0.0.9>:auth<zef:leont> [via Zef::Repository::Ecosystems<fez>]
+[SQL::Abstract] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786653985.2392782.9643.751525049302/4642cdd6780e59b40621e2770655901d9b345ffb.tar.gz https://360.zef.pm/S/QL/SQL_ABSTRACT/4642cdd6780e59b40621e2770655901d9b345ffb.tar.gz
+===> Fetching [OK]: SQL::Abstract:ver<0.0.9>:auth<zef:leont> to /home/coke/sandbox/blin/data/zef-data/tmp/1786653985.2392782.9643.751525049302/4642cdd6780e59b40621e2770655901d9b345ffb.tar.gz
+[SQL::Abstract] Command: tar -t -f ./4642cdd6780e59b40621e2770655901d9b345ffb.tar.gz
+[SQL::Abstract] Command: tar -xvf ./4642cdd6780e59b40621e2770655901d9b345ffb.tar.gz -C ../4642cdd6780e59b40621e2770655901d9b345ffb.tar.gz
+===> Extraction [OK]: SQL::Abstract to /home/coke/sandbox/blin/data/zef-data/tmp/4642cdd6780e59b40621e2770655901d9b345ffb.tar.gz
+===> Testing: SQL::Abstract:ver<0.0.9>:auth<zef:leont>
+[SQL::Abstract] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4642cdd6780e59b40621e2770655901d9b345ffb.tar.gz/SQL-Abstract-0.0.9 t/01-basic.rakutest
+[SQL::Abstract] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[SQL::Abstract] ===SORRY!===
+[SQL::Abstract] Calling split-source(SQL::Abstract::Source:D) will never work with any of these multi signatures:
+[SQL::Abstract]     (SQL::Abstract::Table $source) 
+[SQL::Abstract]     (SQL::Abstract::Join::On $source) 
+[SQL::Abstract]     (SQL::Abstract::Join::Using $source) 
+[SQL::Abstract]     (SQL::Abstract::Join::Cross $source)
+[SQL::Abstract] at /home/coke/sandbox/blin/data/zef-data/tmp/4642cdd6780e59b40621e2770655901d9b345ffb.tar.gz/SQL-Abstract-0.0.9/lib/SQL/Abstract.rakumod (SQL::Abstract):2585
+[SQL::Abstract] Calling split-source(SQL::Abstract::Source:D) will never work with any of these multi signatures:
+[SQL::Abstract]     (SQL::Abstract::Table $source) 
+[SQL::Abstract]     (SQL::Abstract::Join::On $source) 
+[SQL::Abstract]     (SQL::Abstract::Join::Using $source) 
+[SQL::Abstract]     (SQL::Abstract::Join::Cross $source)
+[SQL::Abstract] at /home/coke/sandbox/blin/data/zef-data/tmp/4642cdd6780e59b40621e2770655901d9b345ffb.tar.gz/SQL-Abstract-0.0.9/lib/SQL/Abstract.rakumod (SQL::Abstract):2636
+[SQL::Abstract] at t/01-basic.rakutest:4
+===> Testing [FAIL]: SQL::Abstract:ver<0.0.9>:auth<zef:leont>
+[SQL::Abstract] Failed to get passing tests, but continuing with --force-test
+===> Installing: SQL::Abstract:ver<0.0.9>:auth<zef:leont>
+===> Install [OK] for SQL::Abstract:ver<0.0.9>:auth<zef:leont>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 2min 21.889s
+             CPU time consumed: 2min 30.236s
+                   Memory peak: 1.6G (swap: 2.1M)

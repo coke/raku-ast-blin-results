@@ -1,14 +1,14 @@
-Running as unit: run-p2001463-i1943944.service; invocation ID: 55bffdb289e94ad7b6cf9b906f65a8cb
+Running as unit: run-p2493367-i2504801.service; invocation ID: f4f967edd2df4bc2a7cf28ca1a408045
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Proc::Easier
 ===> Found: Proc::Easier:ver<0.0.5>:auth<zef:sdondley> [via Zef::Repository::Ecosystems<fez>]
-[Proc::Easier] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786560392.2001472.1704.8376585911485/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz https://360.zef.pm/P/RO/PROC_EASIER/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
-===> Fetching [OK]: Proc::Easier:ver<0.0.5>:auth<zef:sdondley> to /home/coke/sandbox/blin/data/zef-data/tmp/1786560392.2001472.1704.8376585911485/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+[Proc::Easier] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786657598.2493370.150.44758418460202/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz https://360.zef.pm/P/RO/PROC_EASIER/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
+===> Fetching [OK]: Proc::Easier:ver<0.0.5>:auth<zef:sdondley> to /home/coke/sandbox/blin/data/zef-data/tmp/1786657598.2493370.150.44758418460202/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
 [Proc::Easier] Command: tar -t -f ./a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
 [Proc::Easier] Command: tar -xvf ./a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz -C ../a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
 ===> Extraction [OK]: Proc::Easier to /home/coke/sandbox/blin/data/zef-data/tmp/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz
 ===> Testing: Proc::Easier:ver<0.0.5>:auth<zef:sdondley>
-[Proc::Easier] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz/Proc-Easier-0.0.5 t/01-basic.rakutest
+[Proc::Easier] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a45bffc2c88576f4fbb26e12ed9adcd86dbdf942.tar.gz/Proc-Easier-0.0.5 t/01-basic.rakutest
 [Proc::Easier] 1..16
 [Proc::Easier] ok 1 - creates object using standard constructor notation
 [Proc::Easier] ok 2 - creates object using simplified interface
@@ -41,6 +41,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for Proc::Easier:ver<0.0.5>:auth<zef:sdondley>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 28.203s
-             CPU time consumed: 27.642s
-                   Memory peak: 949.7M (swap: 0B)
+               Service runtime: 2min 4.096s
+             CPU time consumed: 2min 9.785s
+                   Memory peak: 1.3G (swap: 36.2M)

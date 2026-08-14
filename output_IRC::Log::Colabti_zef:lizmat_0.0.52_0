@@ -1,14 +1,14 @@
-Running as unit: run-p2035055-i2061721.service; invocation ID: 3dcf3e261f2b481ba4dcc60cb20d8802
+Running as unit: run-p2556484-i2574663.service; invocation ID: f6c95793864949eaa9d9f5b0eff7d428
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: IRC::Log::Colabti
 ===> Found: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[IRC::Log::Colabti] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786561613.2035056.1394.1819494205442/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz https://360.zef.pm/I/RC/IRC_LOG_COLABTI/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
-===> Fetching [OK]: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786561613.2035056.1394.1819494205442/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
+[IRC::Log::Colabti] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786659874.2556488.9258.861552321216/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz https://360.zef.pm/I/RC/IRC_LOG_COLABTI/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
+===> Fetching [OK]: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786659874.2556488.9258.861552321216/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
 [IRC::Log::Colabti] Command: tar -t -f ./ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
 [IRC::Log::Colabti] Command: tar -xvf ./ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz -C ../ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
 ===> Extraction [OK]: IRC::Log::Colabti to /home/coke/sandbox/blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz
 ===> Testing: IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat>
-[IRC::Log::Colabti] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52 t/01-basic.rakutest
+[IRC::Log::Colabti] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52 t/01-basic.rakutest
 [IRC::Log::Colabti] Type check failed in binding; expected Positional[Str] but got Array (["tyil"]). You have to pass an
 [IRC::Log::Colabti] explicitly typed array, not one that just might happen to contain
 [IRC::Log::Colabti] elements of the correct type.
@@ -19,7 +19,7 @@ Press ^] three times within 1s to disconnect TTY.
 [IRC::Log::Colabti]   in method new at /home/coke/sandbox/blin/installed/IRC::Log_zef:lizmat_0.0.26_0/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 248
 [IRC::Log::Colabti]   in method new at /home/coke/sandbox/blin/installed/IRC::Log_zef:lizmat_0.0.26_0/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 228
 [IRC::Log::Colabti]   in block <unit> at t/01-basic.rakutest line 12
-[IRC::Log::Colabti] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52 t/02-search.rakutest
+[IRC::Log::Colabti] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ee55432bbd59c1d7835c4454e12edf68e85ad1a8.tar.gz/IRC-Log-Colabti-0.0.52 t/02-search.rakutest
 [IRC::Log::Colabti] Type check failed in binding; expected Positional[Str] but got Array (["tyil"]). You have to pass an
 [IRC::Log::Colabti] explicitly typed array, not one that just might happen to contain
 [IRC::Log::Colabti] elements of the correct type.
@@ -36,6 +36,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for IRC::Log::Colabti:ver<0.0.52>:auth<zef:lizmat>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 34.733s
-             CPU time consumed: 34.191s
-                   Memory peak: 931.4M (swap: 0B)
+               Service runtime: 2min 26.503s
+             CPU time consumed: 2min 34.692s
+                   Memory peak: 1.5G (swap: 87.3M)

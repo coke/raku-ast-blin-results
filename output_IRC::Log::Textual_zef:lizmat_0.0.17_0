@@ -1,99 +1,14 @@
-Running as unit: run-p2034824-i2023115.service; invocation ID: 95706e6ea8f84d8fbc3ca476bf5f99ed
+Running as unit: run-p2556528-i2547366.service; invocation ID: 81b8e8d73bdc462fa5d0a0432046b544
 Press ^] three times within 1s to disconnect TTY.
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_0:1
-    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_1:1
-    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_2:1
-    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_3:1
-    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_4:1
-    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_5:1
-    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_6:1
-    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_7:1
-    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_8:1
-    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_9:1
-    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_10:1
-    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_11:1
-    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_12:1
-    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_13:1
-    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_14:1
-    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_15:1
-    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
-Potential difficulties:
-    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
-      or :auth-matcher() to represent the empty list more accurately
-    at /home/coke/sandbox/blin/EVAL_16:1
-    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
 ===> Searching for: IRC::Log::Textual
 ===> Found: IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[IRC::Log::Textual] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786561606.2034829.7560.187574583388/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz https://360.zef.pm/I/RC/IRC_LOG_TEXTUAL/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
-===> Fetching [OK]: IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786561606.2034829.7560.187574583388/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
+[IRC::Log::Textual] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786659869.2556531.407.45608708849244/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz https://360.zef.pm/I/RC/IRC_LOG_TEXTUAL/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
+===> Fetching [OK]: IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786659869.2556531.407.45608708849244/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
 [IRC::Log::Textual] Command: tar -t -f ./a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
 [IRC::Log::Textual] Command: tar -xvf ./a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz -C ../a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
 ===> Extraction [OK]: IRC::Log::Textual to /home/coke/sandbox/blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz
 ===> Testing: IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat>
-[IRC::Log::Textual] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17 t/01-basic.rakutest
+[IRC::Log::Textual] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17 t/01-basic.rakutest
 [IRC::Log::Textual] Type check failed in binding; expected Positional[Str] but got Array (["tyil"]). You have to pass an
 [IRC::Log::Textual] explicitly typed array, not one that just might happen to contain
 [IRC::Log::Textual] elements of the correct type.
@@ -104,7 +19,7 @@ Potential difficulties:
 [IRC::Log::Textual]   in method new at /home/coke/sandbox/blin/installed/IRC::Log_zef:lizmat_0.0.26_0/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 248
 [IRC::Log::Textual]   in method new at /home/coke/sandbox/blin/installed/IRC::Log_zef:lizmat_0.0.26_0/sources/DD6D4ECDA82005556B5D433F6083DD7ABFDFCDB9 (IRC::Log) line 228
 [IRC::Log::Textual]   in block <unit> at t/01-basic.rakutest line 9
-[IRC::Log::Textual] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17 t/02-search.rakutest
+[IRC::Log::Textual] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a2bf744c8c046b6ee11f7cffabdadda4dea9a127.tar.gz/IRC-Log-Textual-0.0.17 t/02-search.rakutest
 [IRC::Log::Textual] Type check failed in binding; expected Positional[Str] but got Array (["tyil"]). You have to pass an
 [IRC::Log::Textual] explicitly typed array, not one that just might happen to contain
 [IRC::Log::Textual] elements of the correct type.
@@ -121,6 +36,6 @@ Potential difficulties:
 ===> Install [OK] for IRC::Log::Textual:ver<0.0.17>:auth<zef:lizmat>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 38.149s
-             CPU time consumed: 37.457s
-                   Memory peak: 918.5M (swap: 0B)
+               Service runtime: 2min 19.022s
+             CPU time consumed: 2min 30.161s
+                   Memory peak: 1.6G (swap: 181M)

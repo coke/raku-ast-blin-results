@@ -1,27 +1,30 @@
-Running as unit: run-p1957485-i1980407.service
+Running as unit: run-p2397019-i2406458.service; invocation ID: 8747ad34bdb1402eaca17d596ad7bfd8
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Slang::Predicate
 ===> Found: Slang::Predicate:ver<0.0.1>:auth<cpan:SAMGWISE> [via Zef::Repository::Ecosystems<rea>]
-[Slang::Predicate] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786558956.1957488.3564.275562991822/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/S/Slang%3A%3APredicate/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz
-===> Fetching [OK]: Slang::Predicate:ver<0.0.1>:auth<cpan:SAMGWISE> to /home/coke/sandbox/blin/data/zef-data/tmp/1786558956.1957488.3564.275562991822/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz
+[Slang::Predicate] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786654176.2397027.2737.6407748224065/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/S/Slang%3A%3APredicate/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz
+===> Fetching [OK]: Slang::Predicate:ver<0.0.1>:auth<cpan:SAMGWISE> to /home/coke/sandbox/blin/data/zef-data/tmp/1786654176.2397027.2737.6407748224065/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz
 [Slang::Predicate] Command: tar -t -f ./Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz
 [Slang::Predicate] Command: tar -xvf ./Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz -C ../Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz
 ===> Extraction [OK]: Slang::Predicate to /home/coke/sandbox/blin/data/zef-data/tmp/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz
 ===> Testing: Slang::Predicate:ver<0.0.1>
-[Slang::Predicate] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz/Slang-Predicate-0.0.1 t/01-basic.t
+[Slang::Predicate] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz/Slang-Predicate-0.0.1 t/01-basic.t
 [Slang::Predicate] ok 1 - Slang::Predicate module can be use-d ok
 [Slang::Predicate] ok 2 - T is True
 [Slang::Predicate] ok 3 - F is False
 [Slang::Predicate] ok 4 - T and F are usable like values (Positional).
 [Slang::Predicate] ok 5 - T is usable to test againts like a value.
+[Slang::Predicate] # ------------------------------------------------------------------------------
 [Slang::Predicate] ok 6 - True ∨ True ⇔ True
 [Slang::Predicate] ok 7 - False ∨ True ⇔ True
 [Slang::Predicate] ok 8 - True ∨ False ⇔ True
 [Slang::Predicate] ok 9 - False ∨ False ⇔ False
+[Slang::Predicate] # ------------------------------------------------------------------------------
 [Slang::Predicate] ok 10 - True ∧ True ⇔ True
 [Slang::Predicate] ok 11 - False ∧ True ⇔ False
 [Slang::Predicate] ok 12 - True ∧ False ⇔ False
 [Slang::Predicate] ok 13 - False ∧ False ⇔ False
+[Slang::Predicate] # ------------------------------------------------------------------------------
 [Slang::Predicate] ok 14 - True ⊻ True ⇔ False
 [Slang::Predicate] ok 15 - True ⊕ True ⇔ False
 [Slang::Predicate] ok 16 - False ⊻ True ⇔ True
@@ -30,21 +33,18 @@ Press ^] three times within 1s to disconnect TTY.
 [Slang::Predicate] ok 19 - True ⊕ False ⇔ True
 [Slang::Predicate] ok 20 - False ⊻ False ⇔ False
 [Slang::Predicate] ok 21 - False ⊕ False ⇔ False
+[Slang::Predicate] # ------------------------------------------------------------------------------
 [Slang::Predicate] ok 22 - ¬True ⇔ False
 [Slang::Predicate] ok 23 - ¬False ⇔ True
+[Slang::Predicate] # ------------------------------------------------------------------------------
 [Slang::Predicate] ok 24 - ⊤True ⇔ True
 [Slang::Predicate] ok 25 - ⊤False ⇔ True
+[Slang::Predicate] # ------------------------------------------------------------------------------
 [Slang::Predicate] ok 26 - ⊥True ⇔ False
 [Slang::Predicate] ok 27 - ⊥False ⇔ False
+[Slang::Predicate] # ------------------------------------------------------------------------------
 [Slang::Predicate] ok 28 - True → True ⇔ True
 [Slang::Predicate] not ok 29 - True ⇒ True ⇔ True
-[Slang::Predicate] # ------------------------------------------------------------------------------
-[Slang::Predicate] # ------------------------------------------------------------------------------
-[Slang::Predicate] # ------------------------------------------------------------------------------
-[Slang::Predicate] # ------------------------------------------------------------------------------
-[Slang::Predicate] # ------------------------------------------------------------------------------
-[Slang::Predicate] # ------------------------------------------------------------------------------
-[Slang::Predicate] # ------------------------------------------------------------------------------
 [Slang::Predicate] # Failed test 'True ⇒ True ⇔ True'
 [Slang::Predicate] # at t/01-basic.t line 87
 [Slang::Predicate] # expected: 'True'
@@ -86,7 +86,7 @@ Press ^] three times within 1s to disconnect TTY.
 [Slang::Predicate] ok 51 - False ≡ False ⇔ True
 [Slang::Predicate] 1..51
 [Slang::Predicate] # You failed 4 tests of 51
-[Slang::Predicate] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz/Slang-Predicate-0.0.1 t/10-expressions.t
+[Slang::Predicate] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Slang%3A%3APredicate%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ASAMGWISE%3E.tar.gz/Slang-Predicate-0.0.1 t/10-expressions.t
 [Slang::Predicate] ok 1 - Conditional statment ⇔ conditional operator.
 [Slang::Predicate] ok 2 - Modus Ponens ⇔ Alternate spelling.
 [Slang::Predicate] ok 3 - Conditional statment ⇔ conditional operator.
@@ -102,6 +102,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for Slang::Predicate:ver<0.0.1>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 49.460s
-             CPU time consumed: 49.270s
-                   Memory peak: 1.3G (swap: 0B)
+               Service runtime: 2min 48.184s
+             CPU time consumed: 2min 50.819s
+                   Memory peak: 1.7G (swap: 0B)

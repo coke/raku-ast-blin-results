@@ -1,29 +1,51 @@
-Running as unit: run-p1907910-i1833772.service; invocation ID: 7f9782c4b76441a89d1682b8637df134
+Running as unit: run-p2289875-i2266156.service; invocation ID: 913669730136405eaa246386cb1d3110
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Array::Circular
 ===> Found: Array::Circular:ver<0.0.7>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
-[Array::Circular] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786557294.1907912.5249.329721535526/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz https://360.zef.pm/A/RR/ARRAY_CIRCULAR/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
-===> Fetching [OK]: Array::Circular:ver<0.0.7>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786557294.1907912.5249.329721535526/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
+[Array::Circular] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786650200.2289882.2944.2447221557354/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz https://360.zef.pm/A/RR/ARRAY_CIRCULAR/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
+===> Fetching [OK]: Array::Circular:ver<0.0.7>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1786650200.2289882.2944.2447221557354/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
 [Array::Circular] Command: tar -t -f ./6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
 [Array::Circular] Command: tar -xvf ./6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz -C ../6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
 ===> Extraction [OK]: Array::Circular to /home/coke/sandbox/blin/data/zef-data/tmp/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz
 ===> Testing: Array::Circular:ver<0.0.7>:auth<zef:lizmat>
-[Array::Circular] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz/Array-Circular-0.0.7 t/01-basic.rakutest
-[Array::Circular] ===SORRY!=== Error while compiling t/01-basic.rakutest
-[Array::Circular] ===SORRY!===
-[Array::Circular] Object does not exist in serialization context
-[Array::Circular] at t/01-basic.rakutest:3
-[Array::Circular] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz/Array-Circular-0.0.7 t/02-variable.rakutest
-[Array::Circular] ===SORRY!=== Error while compiling t/02-variable.rakutest
-[Array::Circular] ===SORRY!===
-[Array::Circular] Object does not exist in serialization context
-[Array::Circular] at t/02-variable.rakutest:3
+[Array::Circular] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz/Array-Circular-0.0.7 t/01-basic.rakutest
+[Array::Circular] 1..12
+[Array::Circular] ok 1 - 4 time append
+[Array::Circular] ok 2 - 1x pop
+[Array::Circular] ok 3 - after 1x pop
+[Array::Circular] ok 4 - 1 time append
+[Array::Circular] ok 5 - 1 time prepend
+[Array::Circular] ok 6 - 4 time push
+[Array::Circular] ok 7 - 1x pop
+[Array::Circular] ok 8 - after 1x pop
+[Array::Circular] ok 9 - 1 time push
+[Array::Circular] ok 10 - 1 time unshift
+[Array::Circular] not ok 11 - check for compile time constant
+[Array::Circular] # Failed test 'check for compile time constant'
+[Array::Circular] # at t/01-basic.rakutest line 26
+[Array::Circular] ok 12 - check for invalid value
+[Array::Circular] # You failed 1 test of 12
+[Array::Circular] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6eb95eda35639fddff21aa35d99b8bf26eb3fc49.tar.gz/Array-Circular-0.0.7 t/02-variable.rakutest
+[Array::Circular] 1..13
+[Array::Circular] ok 1 - 4 time append
+[Array::Circular] ok 2 - 1x pop
+[Array::Circular] ok 3 - after 1x pop
+[Array::Circular] ok 4 - 1 time append
+[Array::Circular] ok 5 - 1 time prepend
+[Array::Circular] ok 6 - 4 time push
+[Array::Circular] ok 7 - 1x pop
+[Array::Circular] ok 8 - after 1x pop
+[Array::Circular] ok 9 - 1 time push
+[Array::Circular] ok 10 - 1 time unshift
+[Array::Circular] ok 11 - 1 time push after resize
+[Array::Circular] ok 12 - 2nd 1 time push after resize
+[Array::Circular] ok 13 - 3rd 1 time push after resize
 ===> Testing [FAIL]: Array::Circular:ver<0.0.7>:auth<zef:lizmat>
 [Array::Circular] Failed to get passing tests, but continuing with --force-test
 ===> Installing: Array::Circular:ver<0.0.7>:auth<zef:lizmat>
 ===> Install [OK] for Array::Circular:ver<0.0.7>:auth<zef:lizmat>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 23.075s
-             CPU time consumed: 21.959s
-                   Memory peak: 1G (swap: 17M)
+               Service runtime: 2min 10.620s
+             CPU time consumed: 2min 9.312s
+                   Memory peak: 1.2G (swap: 166.8M)

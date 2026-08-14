@@ -1,14 +1,14 @@
-Running as unit: run-p1964252-i1947297.service
+Running as unit: run-p2414466-i2407181.service; invocation ID: eec93ce1727c4a8eac8da915dfd09b99
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: Test::Stream
 ===> Found: Test::Stream:ver<0.1>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
-[Test::Stream] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786559155.1964255.7148.02634441387/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz https://360.zef.pm/T/ES/TEST_STREAM/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz
-===> Fetching [OK]: Test::Stream:ver<0.1>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1786559155.1964255.7148.02634441387/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz
+[Test::Stream] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786654725.2414467.9324.38191095871/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz https://360.zef.pm/T/ES/TEST_STREAM/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz
+===> Fetching [OK]: Test::Stream:ver<0.1>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1786654725.2414467.9324.38191095871/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz
 [Test::Stream] Command: tar -t -f ./d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz
 [Test::Stream] Command: tar -xvf ./d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz -C ../d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz
 ===> Extraction [OK]: Test::Stream to /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz
 ===> Testing: Test::Stream:ver<0.1>:auth<zef:raku-community-modules>
-[Test::Stream] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/000-suite.rakutest
+[Test::Stream] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/000-suite.rakutest
 [Test::Stream] ok 1 - tests-planned is set from Plan event
 [Test::Stream] # got the expected exception when a SkipAll comes after running tests
 [Test::Stream] ok 2 - tests-run is incremented from Test event
@@ -59,7 +59,7 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream] 1..37
 [Test::Stream] # got the expected exception when a Todo::End does not match Todo::Start
 [Test::Stream] # got the expected exception with Todo::End before Todo::Start
-[Test::Stream] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/100-hub.rakutest
+[Test::Stream] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/100-hub.rakutest
 [Test::Stream] # multiple listeners and events
 [Test::Stream] # errors from bad event sequences
 [Test::Stream]     # cannot start a suite without a context
@@ -114,16 +114,16 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 9 - event[0]
 [Test::Stream]     ok 10 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Suite::End event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a tests-planned method
-[Test::Stream]         ok 5 - event has the expected tests-planned attribute
-[Test::Stream]         ok 6 - event has a name method
-[Test::Stream]         ok 7 - event has the expected name attribute
+[Test::Stream]         ok 2 - event has a tests-planned method
+[Test::Stream]         ok 3 - event has the expected tests-planned attribute
+[Test::Stream]         ok 4 - event has a name method
+[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 6 - event has a tests-run method
+[Test::Stream]         ok 7 - event has the expected tests-run attribute
 [Test::Stream]         ok 8 - event has a tests-failed method
 [Test::Stream]         ok 9 - event has the expected tests-failed attribute
-[Test::Stream]         ok 10 - event has a tests-run method
-[Test::Stream]         ok 11 - event has the expected tests-run attribute
+[Test::Stream]         ok 10 - event has a passed method
+[Test::Stream]         ok 11 - event has the expected passed attribute
 [Test::Stream]         1..11
 [Test::Stream]     ok 11 - event[0]
 [Test::Stream]         1..2
@@ -132,16 +132,16 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 12 - got exception trying to end a suite that does not match the last suite started (depth of 1)
 [Test::Stream]     ok 13 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Suite::End event
-[Test::Stream]         ok 2 - event has a tests-planned method
-[Test::Stream]         ok 3 - event has the expected tests-planned attribute
-[Test::Stream]         ok 4 - event has a name method
-[Test::Stream]         ok 5 - event has the expected name attribute
-[Test::Stream]         ok 6 - event has a tests-failed method
-[Test::Stream]         ok 7 - event has the expected tests-failed attribute
-[Test::Stream]         ok 8 - event has a tests-run method
-[Test::Stream]         ok 9 - event has the expected tests-run attribute
-[Test::Stream]         ok 10 - event has a passed method
-[Test::Stream]         ok 11 - event has the expected passed attribute
+[Test::Stream]         ok 2 - event has a tests-run method
+[Test::Stream]         ok 3 - event has the expected tests-run attribute
+[Test::Stream]         ok 4 - event has a tests-planned method
+[Test::Stream]         ok 5 - event has the expected tests-planned attribute
+[Test::Stream]         ok 6 - event has a passed method
+[Test::Stream]         ok 7 - event has the expected passed attribute
+[Test::Stream]         ok 8 - event has a tests-failed method
+[Test::Stream]         ok 9 - event has the expected tests-failed attribute
+[Test::Stream]         ok 10 - event has a name method
+[Test::Stream]         ok 11 - event has the expected name attribute
 [Test::Stream]         1..11
 [Test::Stream]     ok 14 - event[0]
 [Test::Stream]     1..14
@@ -201,7 +201,7 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream] # finalize when all tests pass
 [Test::Stream] # starting a suite without any listeners
 [Test::Stream] # instance returns the same object
-[Test::Stream] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/200-event-source.rakutest
+[Test::Stream] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/200-event-source.rakutest
 [Test::Stream] # source marker stack
 [Test::Stream]     # sub sets source marker and then calls another sub to make the source
 [Test::Stream]     # sub returns source directly
@@ -224,7 +224,7 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream] ok 1 - source marker stack
 [Test::Stream] 1..1
 [Test::Stream]     # sub does not set source marker and then calls sub that does
-[Test::Stream] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/300-predicates.rakutest
+[Test::Stream] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/300-predicates.rakutest
 [Test::Stream] # plan(42)
 [Test::Stream]     # event[0]
 [Test::Stream]     ok 1 - got the expected number of events
@@ -243,34 +243,6 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - event has a name method
-[Test::Stream]         ok 6 - event has the expected name attribute
-[Test::Stream]         ok 7 - event has a passed method
-[Test::Stream]         ok 8 - event has the expected passed attribute
-[Test::Stream]         1..8
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 2 - ok(True) without name
-[Test::Stream]     ok 1 - ok returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - event has a name method
-[Test::Stream]         ok 8 - event has the expected name attribute
-[Test::Stream]         1..8
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 3 - ok(False) without name
-[Test::Stream]     ok 1 - ok returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a passed method
 [Test::Stream]         ok 3 - event has the expected passed attribute
 [Test::Stream]         ok 4 - event has a name method
@@ -281,17 +253,45 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
+[Test::Stream] ok 2 - ok(True) without name
+[Test::Stream]     ok 1 - ok returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a passed method
+[Test::Stream]         ok 6 - event has the expected passed attribute
+[Test::Stream]         ok 7 - event has a name method
+[Test::Stream]         ok 8 - event has the expected name attribute
+[Test::Stream]         1..8
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 3 - ok(False) without name
+[Test::Stream]     ok 1 - ok returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a name method
+[Test::Stream]         ok 6 - event has the expected name attribute
+[Test::Stream]         ok 7 - event has a passed method
+[Test::Stream]         ok 8 - event has the expected passed attribute
+[Test::Stream]         1..8
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
 [Test::Stream] ok 4 - ok(True) with name
 [Test::Stream]     ok 1 - ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 2 - event has a passed method
+[Test::Stream]         ok 3 - event has the expected passed attribute
 [Test::Stream]         ok 4 - event has a diagnostic method
 [Test::Stream]         ok 5 - diagnostic attribute
 [Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - event has a passed method
-[Test::Stream]         ok 8 - event has the expected passed attribute
+[Test::Stream]         ok 7 - event has a name method
+[Test::Stream]         ok 8 - event has the expected name attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -315,11 +315,11 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a name method
 [Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a passed method
-[Test::Stream]         ok 5 - event has the expected passed attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - event has a passed method
+[Test::Stream]         ok 8 - event has the expected passed attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -329,30 +329,16 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a passed method
 [Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - event has a name method
-[Test::Stream]         ok 8 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a name method
+[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 6 - event has a diagnostic method
+[Test::Stream]         ok 7 - diagnostic attribute
+[Test::Stream]         ok 8 - diagnostic is defined or not as expected
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
 [Test::Stream] ok 8 - pass()
 [Test::Stream]     ok 1 - flunk returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - event has a name method
-[Test::Stream]         ok 6 - event has the expected name attribute
-[Test::Stream]         ok 7 - event has a passed method
-[Test::Stream]         ok 8 - event has the expected passed attribute
-[Test::Stream]         1..8
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 9 - flunk()
-[Test::Stream]     ok 1 - is returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a passed method
@@ -365,111 +351,7 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
-[Test::Stream] ok 10 - is( undef, undef ) without name
-[Test::Stream]     ok 1 - is returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - diagnostic.severity
-[Test::Stream]         ok 6 - diagnostic.message
-[Test::Stream]         ok 7 - diagnostic.more<operator>
-[Test::Stream]         ok 8 - diagnostic.more
-[Test::Stream]         ok 9 - event has a name method
-[Test::Stream]         ok 10 - event has the expected name attribute
-[Test::Stream]         ok 11 - event has a passed method
-[Test::Stream]         ok 12 - event has the expected passed attribute
-[Test::Stream]         1..12
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 11 - is( undef !=== undef ) without name
-[Test::Stream]     ok 1 - is returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a passed method
-[Test::Stream]         ok 5 - event has the expected passed attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
-[Test::Stream]         ok 9 - diagnostic.severity
-[Test::Stream]         ok 10 - diagnostic.message
-[Test::Stream]         ok 11 - diagnostic.more<operator>
-[Test::Stream]         ok 12 - diagnostic.more
-[Test::Stream]         1..12
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 12 - is( undef !=== defined ) without name
-[Test::Stream]     ok 1 - is returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - diagnostic.severity
-[Test::Stream]         ok 6 - diagnostic.message
-[Test::Stream]         ok 7 - diagnostic.more<operator>
-[Test::Stream]         ok 8 - diagnostic.more
-[Test::Stream]         ok 9 - event has a name method
-[Test::Stream]         ok 10 - event has the expected name attribute
-[Test::Stream]         ok 11 - event has a passed method
-[Test::Stream]         ok 12 - event has the expected passed attribute
-[Test::Stream]         1..12
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 13 - is( defined !=== undef ) without name
-[Test::Stream]     ok 1 - is returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - diagnostic.severity
-[Test::Stream]         ok 6 - diagnostic.message
-[Test::Stream]         ok 7 - diagnostic.more<operator>
-[Test::Stream]         ok 8 - diagnostic.more
-[Test::Stream]         ok 9 - event has a passed method
-[Test::Stream]         ok 10 - event has the expected passed attribute
-[Test::Stream]         ok 11 - event has a name method
-[Test::Stream]         ok 12 - event has the expected name attribute
-[Test::Stream]         1..12
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 14 - is( defined(Int) != defined(Int) ) without name
-[Test::Stream]     ok 1 - is returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - diagnostic.severity
-[Test::Stream]         ok 6 - diagnostic.message
-[Test::Stream]         ok 7 - diagnostic.more<operator>
-[Test::Stream]         ok 8 - diagnostic.more
-[Test::Stream]         ok 9 - event has a passed method
-[Test::Stream]         ok 10 - event has the expected passed attribute
-[Test::Stream]         ok 11 - event has a name method
-[Test::Stream]         ok 12 - event has the expected name attribute
-[Test::Stream]         1..12
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 15 - is( defined(Str) != defined(Int) ) without name
-[Test::Stream]     ok 1 - is returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a passed method
-[Test::Stream]         ok 5 - event has the expected passed attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
-[Test::Stream]         1..8
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 16 - is( defined(Int) == defined(Int) ) without name
+[Test::Stream] ok 9 - flunk()
 [Test::Stream]     ok 1 - is returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
@@ -483,22 +365,8 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
-[Test::Stream] ok 17 - is( defined(Str) == defined(Str) ) without name
+[Test::Stream] ok 10 - is( undef, undef ) without name
 [Test::Stream]     ok 1 - is returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a passed method
-[Test::Stream]         ok 5 - event has the expected passed attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
-[Test::Stream]         1..8
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 18 - is( defined(Str) == defined(Str) ) with name
-[Test::Stream]     ok 1 - isnt returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a name method
@@ -515,22 +383,8 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..12
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
-[Test::Stream] ok 19 - isnt( undef, undef ) without name
-[Test::Stream]     ok 1 - isnt returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - event has a name method
-[Test::Stream]         ok 8 - event has the expected name attribute
-[Test::Stream]         1..8
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 20 - isnt( undef !=== undef ) without name
-[Test::Stream]     ok 1 - isnt returns Bool
+[Test::Stream] ok 11 - is( undef !=== undef ) without name
+[Test::Stream]     ok 1 - is returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a name method
@@ -538,13 +392,71 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 4 - event has a diagnostic method
 [Test::Stream]         ok 5 - diagnostic attribute
 [Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - event has a passed method
-[Test::Stream]         ok 8 - event has the expected passed attribute
-[Test::Stream]         1..8
+[Test::Stream]         ok 7 - diagnostic.severity
+[Test::Stream]         ok 8 - diagnostic.message
+[Test::Stream]         ok 9 - diagnostic.more<operator>
+[Test::Stream]         ok 10 - diagnostic.more
+[Test::Stream]         ok 11 - event has a passed method
+[Test::Stream]         ok 12 - event has the expected passed attribute
+[Test::Stream]         1..12
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
-[Test::Stream] ok 21 - isnt( undef !=== defined ) without name
-[Test::Stream]     ok 1 - isnt returns Bool
+[Test::Stream] ok 12 - is( undef !=== defined ) without name
+[Test::Stream]     ok 1 - is returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - diagnostic.severity
+[Test::Stream]         ok 6 - diagnostic.message
+[Test::Stream]         ok 7 - diagnostic.more<operator>
+[Test::Stream]         ok 8 - diagnostic.more
+[Test::Stream]         ok 9 - event has a passed method
+[Test::Stream]         ok 10 - event has the expected passed attribute
+[Test::Stream]         ok 11 - event has a name method
+[Test::Stream]         ok 12 - event has the expected name attribute
+[Test::Stream]         1..12
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 13 - is( defined !=== undef ) without name
+[Test::Stream]     ok 1 - is returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a passed method
+[Test::Stream]         ok 3 - event has the expected passed attribute
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - diagnostic.severity
+[Test::Stream]         ok 8 - diagnostic.message
+[Test::Stream]         ok 9 - diagnostic.more<operator>
+[Test::Stream]         ok 10 - diagnostic.more
+[Test::Stream]         ok 11 - event has a name method
+[Test::Stream]         ok 12 - event has the expected name attribute
+[Test::Stream]         1..12
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 14 - is( defined(Int) != defined(Int) ) without name
+[Test::Stream]     ok 1 - is returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a passed method
+[Test::Stream]         ok 3 - event has the expected passed attribute
+[Test::Stream]         ok 4 - event has a name method
+[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 6 - event has a diagnostic method
+[Test::Stream]         ok 7 - diagnostic attribute
+[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         ok 9 - diagnostic.severity
+[Test::Stream]         ok 10 - diagnostic.message
+[Test::Stream]         ok 11 - diagnostic.more<operator>
+[Test::Stream]         ok 12 - diagnostic.more
+[Test::Stream]         1..12
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 15 - is( defined(Str) != defined(Int) ) without name
+[Test::Stream]     ok 1 - is returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a diagnostic method
@@ -554,6 +466,94 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 6 - event has the expected name attribute
 [Test::Stream]         ok 7 - event has a passed method
 [Test::Stream]         ok 8 - event has the expected passed attribute
+[Test::Stream]         1..8
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 16 - is( defined(Int) == defined(Int) ) without name
+[Test::Stream]     ok 1 - is returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a name method
+[Test::Stream]         ok 6 - event has the expected name attribute
+[Test::Stream]         ok 7 - event has a passed method
+[Test::Stream]         ok 8 - event has the expected passed attribute
+[Test::Stream]         1..8
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 17 - is( defined(Str) == defined(Str) ) without name
+[Test::Stream]     ok 1 - is returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a name method
+[Test::Stream]         ok 6 - event has the expected name attribute
+[Test::Stream]         ok 7 - event has a passed method
+[Test::Stream]         ok 8 - event has the expected passed attribute
+[Test::Stream]         1..8
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 18 - is( defined(Str) == defined(Str) ) with name
+[Test::Stream]     ok 1 - isnt returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - diagnostic.severity
+[Test::Stream]         ok 6 - diagnostic.message
+[Test::Stream]         ok 7 - diagnostic.more<operator>
+[Test::Stream]         ok 8 - diagnostic.more
+[Test::Stream]         ok 9 - event has a name method
+[Test::Stream]         ok 10 - event has the expected name attribute
+[Test::Stream]         ok 11 - event has a passed method
+[Test::Stream]         ok 12 - event has the expected passed attribute
+[Test::Stream]         1..12
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 19 - isnt( undef, undef ) without name
+[Test::Stream]     ok 1 - isnt returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a name method
+[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a passed method
+[Test::Stream]         ok 5 - event has the expected passed attribute
+[Test::Stream]         ok 6 - event has a diagnostic method
+[Test::Stream]         ok 7 - diagnostic attribute
+[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         1..8
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 20 - isnt( undef !=== undef ) without name
+[Test::Stream]     ok 1 - isnt returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a name method
+[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a passed method
+[Test::Stream]         ok 5 - event has the expected passed attribute
+[Test::Stream]         ok 6 - event has a diagnostic method
+[Test::Stream]         ok 7 - diagnostic attribute
+[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         1..8
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 21 - isnt( undef !=== defined ) without name
+[Test::Stream]     ok 1 - isnt returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a passed method
+[Test::Stream]         ok 3 - event has the expected passed attribute
+[Test::Stream]         ok 4 - event has a name method
+[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 6 - event has a diagnostic method
+[Test::Stream]         ok 7 - diagnostic attribute
+[Test::Stream]         ok 8 - diagnostic is defined or not as expected
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -575,13 +575,13 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - isnt returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a passed method
-[Test::Stream]         ok 5 - event has the expected passed attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a passed method
+[Test::Stream]         ok 6 - event has the expected passed attribute
+[Test::Stream]         ok 7 - event has a name method
+[Test::Stream]         ok 8 - event has the expected name attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -596,10 +596,10 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 6 - diagnostic.message
 [Test::Stream]         ok 7 - diagnostic.more<operator>
 [Test::Stream]         ok 8 - diagnostic.more
-[Test::Stream]         ok 9 - event has a name method
-[Test::Stream]         ok 10 - event has the expected name attribute
-[Test::Stream]         ok 11 - event has a passed method
-[Test::Stream]         ok 12 - event has the expected passed attribute
+[Test::Stream]         ok 9 - event has a passed method
+[Test::Stream]         ok 10 - event has the expected passed attribute
+[Test::Stream]         ok 11 - event has a name method
+[Test::Stream]         ok 12 - event has the expected name attribute
 [Test::Stream]         1..12
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -607,15 +607,15 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - isnt returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - diagnostic.severity
-[Test::Stream]         ok 6 - diagnostic.message
-[Test::Stream]         ok 7 - diagnostic.more<operator>
-[Test::Stream]         ok 8 - diagnostic.more
-[Test::Stream]         ok 9 - event has a name method
-[Test::Stream]         ok 10 - event has the expected name attribute
+[Test::Stream]         ok 2 - event has a name method
+[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - diagnostic.severity
+[Test::Stream]         ok 8 - diagnostic.message
+[Test::Stream]         ok 9 - diagnostic.more<operator>
+[Test::Stream]         ok 10 - diagnostic.more
 [Test::Stream]         ok 11 - event has a passed method
 [Test::Stream]         ok 12 - event has the expected passed attribute
 [Test::Stream]         1..12
@@ -627,15 +627,15 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a passed method
 [Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - diagnostic.severity
-[Test::Stream]         ok 8 - diagnostic.message
-[Test::Stream]         ok 9 - diagnostic.more<operator>
-[Test::Stream]         ok 10 - diagnostic.more
-[Test::Stream]         ok 11 - event has a name method
-[Test::Stream]         ok 12 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a name method
+[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 6 - event has a diagnostic method
+[Test::Stream]         ok 7 - diagnostic attribute
+[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         ok 9 - diagnostic.severity
+[Test::Stream]         ok 10 - diagnostic.message
+[Test::Stream]         ok 11 - diagnostic.more<operator>
+[Test::Stream]         ok 12 - diagnostic.more
 [Test::Stream]         1..12
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -643,13 +643,13 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - cmp-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - event has a name method
-[Test::Stream]         ok 8 - event has the expected name attribute
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a name method
+[Test::Stream]         ok 6 - event has the expected name attribute
+[Test::Stream]         ok 7 - event has a passed method
+[Test::Stream]         ok 8 - event has the expected passed attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -664,10 +664,10 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 6 - diagnostic.message
 [Test::Stream]         ok 7 - diagnostic.more<operator>
 [Test::Stream]         ok 8 - diagnostic.more
-[Test::Stream]         ok 9 - event has a name method
-[Test::Stream]         ok 10 - event has the expected name attribute
-[Test::Stream]         ok 11 - event has a passed method
-[Test::Stream]         ok 12 - event has the expected passed attribute
+[Test::Stream]         ok 9 - event has a passed method
+[Test::Stream]         ok 10 - event has the expected passed attribute
+[Test::Stream]         ok 11 - event has a name method
+[Test::Stream]         ok 12 - event has the expected name attribute
 [Test::Stream]         1..12
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -675,16 +675,16 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - cmp-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a name method
-[Test::Stream]         ok 5 - event has the expected name attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
-[Test::Stream]         ok 9 - diagnostic.severity
-[Test::Stream]         ok 10 - diagnostic.message
-[Test::Stream]         ok 11 - diagnostic.more
+[Test::Stream]         ok 2 - event has a name method
+[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - diagnostic.severity
+[Test::Stream]         ok 8 - diagnostic.message
+[Test::Stream]         ok 9 - diagnostic.more
+[Test::Stream]         ok 10 - event has a passed method
+[Test::Stream]         ok 11 - event has the expected passed attribute
 [Test::Stream]         1..11
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -720,10 +720,10 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - isa-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a name method
-[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 2 - event has a name method
+[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a passed method
+[Test::Stream]         ok 5 - event has the expected passed attribute
 [Test::Stream]         1..5
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -731,16 +731,16 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - isa-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - diagnostic.severity
-[Test::Stream]         ok 8 - diagnostic.message
-[Test::Stream]         ok 9 - diagnostic.more
-[Test::Stream]         ok 10 - event has a passed method
-[Test::Stream]         ok 11 - event has the expected passed attribute
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - diagnostic.severity
+[Test::Stream]         ok 6 - diagnostic.message
+[Test::Stream]         ok 7 - diagnostic.more
+[Test::Stream]         ok 8 - event has a passed method
+[Test::Stream]         ok 9 - event has the expected passed attribute
+[Test::Stream]         ok 10 - event has a name method
+[Test::Stream]         ok 11 - event has the expected name attribute
 [Test::Stream]         1..11
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -759,16 +759,16 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - does-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a name method
-[Test::Stream]         ok 5 - event has the expected name attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
-[Test::Stream]         ok 9 - diagnostic.severity
-[Test::Stream]         ok 10 - diagnostic.message
-[Test::Stream]         ok 11 - diagnostic.more
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - diagnostic.severity
+[Test::Stream]         ok 6 - diagnostic.message
+[Test::Stream]         ok 7 - diagnostic.more
+[Test::Stream]         ok 8 - event has a name method
+[Test::Stream]         ok 9 - event has the expected name attribute
+[Test::Stream]         ok 10 - event has a passed method
+[Test::Stream]         ok 11 - event has the expected passed attribute
 [Test::Stream]         1..11
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -787,16 +787,16 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - does-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a passed method
-[Test::Stream]         ok 5 - event has the expected passed attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
-[Test::Stream]         ok 9 - diagnostic.severity
-[Test::Stream]         ok 10 - diagnostic.message
-[Test::Stream]         ok 11 - diagnostic.more
+[Test::Stream]         ok 2 - event has a passed method
+[Test::Stream]         ok 3 - event has the expected passed attribute
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - diagnostic.severity
+[Test::Stream]         ok 8 - diagnostic.message
+[Test::Stream]         ok 9 - diagnostic.more
+[Test::Stream]         ok 10 - event has a name method
+[Test::Stream]         ok 11 - event has the expected name attribute
 [Test::Stream]         1..11
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -804,10 +804,10 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - does-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a name method
-[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 2 - event has a name method
+[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a passed method
+[Test::Stream]         ok 5 - event has the expected passed attribute
 [Test::Stream]         1..5
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -826,10 +826,10 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - does-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a name method
-[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 2 - event has a name method
+[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a passed method
+[Test::Stream]         ok 5 - event has the expected passed attribute
 [Test::Stream]         1..5
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -837,10 +837,10 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - can-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a name method
-[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 2 - event has a name method
+[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a passed method
+[Test::Stream]         ok 5 - event has the expected passed attribute
 [Test::Stream]         1..5
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -881,80 +881,16 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - can-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a passed method
-[Test::Stream]         ok 5 - event has the expected passed attribute
+[Test::Stream]         ok 2 - event has a passed method
+[Test::Stream]         ok 3 - event has the expected passed attribute
+[Test::Stream]         ok 4 - event has a name method
+[Test::Stream]         ok 5 - event has the expected name attribute
 [Test::Stream]         1..5
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
 [Test::Stream] ok 46 - can-ok( $class, $method )
 [Test::Stream] ok 47 - # SKIP cannot call Baggy.^can()
 [Test::Stream]     ok 1 - like returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - event has a name method
-[Test::Stream]         ok 8 - event has the expected name attribute
-[Test::Stream]         1..8
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 48 - like( $str, $regex ) without name
-[Test::Stream]     ok 1 - like returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - diagnostic.severity
-[Test::Stream]         ok 6 - diagnostic.message
-[Test::Stream]         ok 7 - diagnostic.more<operator>
-[Test::Stream]         ok 8 - diagnostic.more
-[Test::Stream]         ok 9 - event has a passed method
-[Test::Stream]         ok 10 - event has the expected passed attribute
-[Test::Stream]         ok 11 - event has a name method
-[Test::Stream]         ok 12 - event has the expected name attribute
-[Test::Stream]         1..12
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 49 - like( $str, !$regex ) without name
-[Test::Stream]     ok 1 - unlike returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - event has a passed method
-[Test::Stream]         ok 6 - event has the expected passed attribute
-[Test::Stream]         ok 7 - event has a name method
-[Test::Stream]         ok 8 - event has the expected name attribute
-[Test::Stream]         1..8
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 50 - unlike( $str, $regex ) without name
-[Test::Stream]     ok 1 - unlike returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - diagnostic.severity
-[Test::Stream]         ok 8 - diagnostic.message
-[Test::Stream]         ok 9 - diagnostic.more<operator>
-[Test::Stream]         ok 10 - diagnostic.more
-[Test::Stream]         ok 11 - event has a passed method
-[Test::Stream]         ok 12 - event has the expected passed attribute
-[Test::Stream]         1..12
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 51 - unlike( $str, !$regex ) without name
-[Test::Stream]     ok 1 - is-deeply returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a diagnostic method
@@ -967,8 +903,8 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
-[Test::Stream] ok 52 - is-deeply( $str, $regex ) without name
-[Test::Stream]     ok 1 - is-deeply returns Bool
+[Test::Stream] ok 48 - like( $str, $regex ) without name
+[Test::Stream]     ok 1 - like returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a diagnostic method
@@ -985,17 +921,81 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..12
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
+[Test::Stream] ok 49 - like( $str, !$regex ) without name
+[Test::Stream]     ok 1 - unlike returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a passed method
+[Test::Stream]         ok 3 - event has the expected passed attribute
+[Test::Stream]         ok 4 - event has a name method
+[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 6 - event has a diagnostic method
+[Test::Stream]         ok 7 - diagnostic attribute
+[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         1..8
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 50 - unlike( $str, $regex ) without name
+[Test::Stream]     ok 1 - unlike returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a passed method
+[Test::Stream]         ok 3 - event has the expected passed attribute
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - diagnostic.severity
+[Test::Stream]         ok 8 - diagnostic.message
+[Test::Stream]         ok 9 - diagnostic.more<operator>
+[Test::Stream]         ok 10 - diagnostic.more
+[Test::Stream]         ok 11 - event has a name method
+[Test::Stream]         ok 12 - event has the expected name attribute
+[Test::Stream]         1..12
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 51 - unlike( $str, !$regex ) without name
+[Test::Stream]     ok 1 - is-deeply returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a name method
+[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - event has a passed method
+[Test::Stream]         ok 8 - event has the expected passed attribute
+[Test::Stream]         1..8
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 52 - is-deeply( $str, $regex ) without name
+[Test::Stream]     ok 1 - is-deeply returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a passed method
+[Test::Stream]         ok 3 - event has the expected passed attribute
+[Test::Stream]         ok 4 - event has a name method
+[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 6 - event has a diagnostic method
+[Test::Stream]         ok 7 - diagnostic attribute
+[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         ok 9 - diagnostic.severity
+[Test::Stream]         ok 10 - diagnostic.message
+[Test::Stream]         ok 11 - diagnostic.more<operator>
+[Test::Stream]         ok 12 - diagnostic.more
+[Test::Stream]         1..12
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
 [Test::Stream] ok 53 - is-deeply( $str, $regex ) without name
 [Test::Stream]     ok 1 - lives-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - event has a name method
-[Test::Stream]         ok 6 - event has the expected name attribute
-[Test::Stream]         ok 7 - event has a passed method
-[Test::Stream]         ok 8 - event has the expected passed attribute
+[Test::Stream]         ok 2 - event has a passed method
+[Test::Stream]         ok 3 - event has the expected passed attribute
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - event has a name method
+[Test::Stream]         ok 8 - event has the expected name attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -1020,20 +1020,6 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]     ok 1 - dies-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a name method
-[Test::Stream]         ok 5 - event has the expected name attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
-[Test::Stream]         1..8
-[Test::Stream]     ok 3 - event[0]
-[Test::Stream]     1..3
-[Test::Stream] ok 56 - dies-ok( dies )
-[Test::Stream]     ok 1 - dies-ok returns Bool
-[Test::Stream]     ok 2 - got the expected number of events
-[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a name method
 [Test::Stream]         ok 3 - event has the expected name attribute
 [Test::Stream]         ok 4 - event has a passed method
@@ -1041,13 +1027,10 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 6 - event has a diagnostic method
 [Test::Stream]         ok 7 - diagnostic attribute
 [Test::Stream]         ok 8 - diagnostic is defined or not as expected
-[Test::Stream]         ok 9 - diagnostic.severity
-[Test::Stream]         ok 10 - diagnostic.message
-[Test::Stream]         ok 11 - diagnostic.more
-[Test::Stream]         1..11
+[Test::Stream]         1..8
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
-[Test::Stream] ok 57 - dies-ok( dies )
+[Test::Stream] ok 56 - dies-ok( dies )
 [Test::Stream]     ok 1 - dies-ok returns Bool
 [Test::Stream]     ok 2 - got the expected number of events
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
@@ -1061,6 +1044,23 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 9 - event has the expected name attribute
 [Test::Stream]         ok 10 - event has a passed method
 [Test::Stream]         ok 11 - event has the expected passed attribute
+[Test::Stream]         1..11
+[Test::Stream]     ok 3 - event[0]
+[Test::Stream]     1..3
+[Test::Stream] ok 57 - dies-ok( dies )
+[Test::Stream]     ok 1 - dies-ok returns Bool
+[Test::Stream]     ok 2 - got the expected number of events
+[Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - diagnostic.severity
+[Test::Stream]         ok 6 - diagnostic.message
+[Test::Stream]         ok 7 - diagnostic.more
+[Test::Stream]         ok 8 - event has a passed method
+[Test::Stream]         ok 9 - event has the expected passed attribute
+[Test::Stream]         ok 10 - event has a name method
+[Test::Stream]         ok 11 - event has the expected name attribute
 [Test::Stream]         1..11
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]     1..3
@@ -1083,11 +1083,11 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..8
 [Test::Stream]     ok 4 - event[1]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a passed method
-[Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a passed method
+[Test::Stream]         ok 6 - event has the expected passed attribute
 [Test::Stream]         ok 7 - event has a name method
 [Test::Stream]         ok 8 - event has the expected name attribute
 [Test::Stream]         1..8
@@ -1119,11 +1119,11 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a name method
 [Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a passed method
-[Test::Stream]         ok 5 - event has the expected passed attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - event has a passed method
+[Test::Stream]         ok 8 - event has the expected passed attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 5 - event[2]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Suite::End event
@@ -1143,11 +1143,11 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a name method
 [Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - event has a passed method
-[Test::Stream]         ok 8 - event has the expected passed attribute
+[Test::Stream]         ok 4 - event has a passed method
+[Test::Stream]         ok 5 - event has the expected passed attribute
+[Test::Stream]         ok 6 - event has a diagnostic method
+[Test::Stream]         ok 7 - diagnostic attribute
+[Test::Stream]         ok 8 - diagnostic is defined or not as expected
 [Test::Stream]         1..8
 [Test::Stream]     ok 4 - event[1]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Suite::End event
@@ -1165,11 +1165,11 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..3
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a name method
+[Test::Stream]         ok 6 - event has the expected name attribute
 [Test::Stream]         ok 7 - event has a passed method
 [Test::Stream]         ok 8 - event has the expected passed attribute
 [Test::Stream]         1..8
@@ -1196,13 +1196,13 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..3
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a passed method
-[Test::Stream]         ok 5 - event has the expected passed attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a name method
+[Test::Stream]         ok 6 - event has the expected name attribute
+[Test::Stream]         ok 7 - event has a passed method
+[Test::Stream]         ok 8 - event has the expected passed attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 4 - event[1]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
@@ -1227,13 +1227,13 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..3
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a diagnostic method
-[Test::Stream]         ok 3 - diagnostic attribute
-[Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - event has a passed method
-[Test::Stream]         ok 6 - event has the expected passed attribute
-[Test::Stream]         ok 7 - event has a name method
-[Test::Stream]         ok 8 - event has the expected name attribute
+[Test::Stream]         ok 2 - event has a name method
+[Test::Stream]         ok 3 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - event has a passed method
+[Test::Stream]         ok 8 - event has the expected passed attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 4 - event[1]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
@@ -1286,13 +1286,13 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..3
 [Test::Stream]     ok 3 - event[0]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a passed method
-[Test::Stream]         ok 5 - event has the expected passed attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a name method
+[Test::Stream]         ok 6 - event has the expected name attribute
+[Test::Stream]         ok 7 - event has a passed method
+[Test::Stream]         ok 8 - event has the expected passed attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 4 - event[1]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Suite::End event
@@ -1313,10 +1313,10 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 2 - event has a diagnostic method
 [Test::Stream]         ok 3 - diagnostic attribute
 [Test::Stream]         ok 4 - diagnostic is defined or not as expected
-[Test::Stream]         ok 5 - event has a name method
-[Test::Stream]         ok 6 - event has the expected name attribute
-[Test::Stream]         ok 7 - event has a passed method
-[Test::Stream]         ok 8 - event has the expected passed attribute
+[Test::Stream]         ok 5 - event has a passed method
+[Test::Stream]         ok 6 - event has the expected passed attribute
+[Test::Stream]         ok 7 - event has a name method
+[Test::Stream]         ok 8 - event has the expected name attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 4 - event[1]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Suite::End event
@@ -1356,11 +1356,11 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a passed method
 [Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a name method
-[Test::Stream]         ok 5 - event has the expected name attribute
-[Test::Stream]         ok 6 - event has a diagnostic method
-[Test::Stream]         ok 7 - diagnostic attribute
-[Test::Stream]         ok 8 - diagnostic is defined or not as expected
+[Test::Stream]         ok 4 - event has a diagnostic method
+[Test::Stream]         ok 5 - diagnostic attribute
+[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 7 - event has a name method
+[Test::Stream]         ok 8 - event has the expected name attribute
 [Test::Stream]         1..8
 [Test::Stream]     ok 7 - event[4]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Suite::End event
@@ -1399,11 +1399,11 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
 [Test::Stream]         ok 2 - event has a passed method
 [Test::Stream]         ok 3 - event has the expected passed attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
-[Test::Stream]         ok 7 - event has a name method
-[Test::Stream]         ok 8 - event has the expected name attribute
+[Test::Stream]         ok 4 - event has a name method
+[Test::Stream]         ok 5 - event has the expected name attribute
+[Test::Stream]         ok 6 - event has a diagnostic method
+[Test::Stream]         ok 7 - diagnostic attribute
+[Test::Stream]         ok 8 - diagnostic is defined or not as expected
 [Test::Stream]         1..8
 [Test::Stream]     ok 5 - event[2]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Suite::End event
@@ -1451,11 +1451,11 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream]         1..3
 [Test::Stream]     ok 8 - event[5]
 [Test::Stream]         ok 1 - got a Test::Stream::Event::Test event
-[Test::Stream]         ok 2 - event has a name method
-[Test::Stream]         ok 3 - event has the expected name attribute
-[Test::Stream]         ok 4 - event has a diagnostic method
-[Test::Stream]         ok 5 - diagnostic attribute
-[Test::Stream]         ok 6 - diagnostic is defined or not as expected
+[Test::Stream]         ok 2 - event has a diagnostic method
+[Test::Stream]         ok 3 - diagnostic attribute
+[Test::Stream]         ok 4 - diagnostic is defined or not as expected
+[Test::Stream]         ok 5 - event has a name method
+[Test::Stream]         ok 6 - event has the expected name attribute
 [Test::Stream]         ok 7 - event has a passed method
 [Test::Stream]         ok 8 - event has the expected passed attribute
 [Test::Stream]         1..8
@@ -1683,31 +1683,31 @@ Press ^] three times within 1s to disconnect TTY.
 [Test::Stream] Saw 1 occurrence of deprecated code.
 [Test::Stream] ================================================================================
 [Test::Stream] Method perl (from Mu) seen at:
-[Test::Stream]   /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1/lib/Test/Predicator.rakumod (Test::Predicator), lines 104,105,161
 [Test::Stream]   t/300-predicates.rakutest, line 893
 [Test::Stream]   /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1/t/lib/My/Test.rakumod (My::Test), line 683
+[Test::Stream]   /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1/lib/Test/Predicator.rakumod (Test::Predicator), lines 104,105,161
 [Test::Stream] Please use raku instead.
 [Test::Stream] --------------------------------------------------------------------------------
 [Test::Stream] Please contact the author to have these occurrences of deprecated code
 [Test::Stream] adapted, so that this message will disappear!
-[Test::Stream] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/350-predicate-exit.rakutest
-[Test::Stream] ok 1 - got expected stdout from test-failures.raku
-[Test::Stream] ok 2 - got expected stderr from test-failures.raku
-[Test::Stream] ok 3 - exit code is 1
-[Test::Stream] ok 4 - got expected stdout from plan-no-done-testing.raku
-[Test::Stream] ok 5 - no stderr from plan-no-done-testing.raku
+[Test::Stream] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/350-predicate-exit.rakutest
+[Test::Stream] ok 1 - got expected stdout from bail.raku
+[Test::Stream] ok 2 - no stderr from bail.raku
+[Test::Stream] ok 3 - exit code is 255
+[Test::Stream] ok 4 - got expected stdout from no-plan-exit-ok.raku
+[Test::Stream] ok 5 - no stderr from no-plan-exit-ok.raku
 [Test::Stream] ok 6 - exit code is 0
-[Test::Stream] ok 7 - got expected stdout from plan-exit-ok.raku
-[Test::Stream] ok 8 - no stderr from plan-exit-ok.raku
-[Test::Stream] ok 9 - exit code is 0
-[Test::Stream] ok 10 - got expected stdout from no-plan-exit-ok.raku
-[Test::Stream] ok 11 - no stderr from no-plan-exit-ok.raku
+[Test::Stream] ok 7 - got expected stdout from test-failures.raku
+[Test::Stream] ok 8 - got expected stderr from test-failures.raku
+[Test::Stream] ok 9 - exit code is 1
+[Test::Stream] ok 10 - got expected stdout from plan-no-done-testing.raku
+[Test::Stream] ok 11 - no stderr from plan-no-done-testing.raku
 [Test::Stream] ok 12 - exit code is 0
-[Test::Stream] ok 13 - got expected stdout from bail.raku
-[Test::Stream] ok 14 - no stderr from bail.raku
-[Test::Stream] ok 15 - exit code is 255
+[Test::Stream] ok 13 - got expected stdout from plan-exit-ok.raku
+[Test::Stream] ok 14 - no stderr from plan-exit-ok.raku
+[Test::Stream] ok 15 - exit code is 0
 [Test::Stream] 1..15
-[Test::Stream] Command: /tmp/whateverable/rakudo-moar/c6b06c7aab095ed79fe6ff584b256ca2c20d9c35/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/400-tap-formatter.rakutest
+[Test::Stream] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d67d924f41d1859aad1d35e87459aa716e0aa159.tar.gz/Test-Stream-0.1 t/400-tap-formatter.rakutest
 [Test::Stream] # No subtests, all tests passing
 [Test::Stream] # Failures, todo, and skip
 [Test::Stream]     ok 1 - sending start-suite to formatter
@@ -1998,6 +1998,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for Test::Stream:ver<0.1>:auth<zef:raku-community-modules>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 1min 17.254s
-             CPU time consumed: 1min 19.269s
-                   Memory peak: 1.1G (swap: 0B)
+               Service runtime: 3min 37.621s
+             CPU time consumed: 4min 16.706s
+                   Memory peak: 2.5G (swap: 0B)
