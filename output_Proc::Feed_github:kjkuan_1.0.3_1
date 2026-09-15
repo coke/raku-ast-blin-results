@@ -1,0 +1,37 @@
+Running as unit: run-p1497889-i9804759.service; invocation ID: 3f1029587cee4b5baa1993484a381f04
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Proc::Feed
+===> Found: Proc::Feed:ver<1.0.3>:auth<github:kjkuan>:api<1> [via Zef::Repository::Ecosystems<rea>]
+[Proc::Feed] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789439201.1497891.4223.83862362247/Proc%3A%3AFeed%3Aver%3C1.0.3%3E%3Aauth%3Cgithub%3Akjkuan%3E%3Aapi%3C1%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/P/Proc%3A%3AFeed/Proc%3A%3AFeed%3Aver%3C1.0.3%3E%3Aauth%3Cgithub%3Akjkuan%3E%3Aapi%3C1%3E.tar.gz
+===> Fetching [OK]: Proc::Feed:ver<1.0.3>:auth<github:kjkuan>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789439201.1497891.4223.83862362247/Proc%3A%3AFeed%3Aver%3C1.0.3%3E%3Aauth%3Cgithub%3Akjkuan%3E%3Aapi%3C1%3E.tar.gz
+[Proc::Feed] Command: tar -t -f ./Proc%3A%3AFeed%3Aver%3C1.0.3%3E%3Aauth%3Cgithub%3Akjkuan%3E%3Aapi%3C1%3E.tar.gz
+[Proc::Feed] Command: tar -xvf ./Proc%3A%3AFeed%3Aver%3C1.0.3%3E%3Aauth%3Cgithub%3Akjkuan%3E%3Aapi%3C1%3E.tar.gz -C ../Proc%3A%3AFeed%3Aver%3C1.0.3%3E%3Aauth%3Cgithub%3Akjkuan%3E%3Aapi%3C1%3E.tar.gz
+===> Extraction [OK]: Proc::Feed to /home/coke/sandbox/blin/data/zef-data/tmp/Proc%3A%3AFeed%3Aver%3C1.0.3%3E%3Aauth%3Cgithub%3Akjkuan%3E%3Aapi%3C1%3E.tar.gz
+===> Testing: Proc::Feed:ver<1.0.3>:auth<github:kjkuan>:api<1>
+[Proc::Feed] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Proc%3A%3AFeed%3Aver%3C1.0.3%3E%3Aauth%3Cgithub%3Akjkuan%3E%3Aapi%3C1%3E.tar.gz/Proc-Feed-master t/01-basic.t
+[Proc::Feed] Potential difficulties:
+[Proc::Feed]     Missing declarand for trailing declarator doc
+[Proc::Feed]     at /home/coke/sandbox/blin/data/zef-data/tmp/Proc%3A%3AFeed%3Aver%3C1.0.3%3E%3Aauth%3Cgithub%3Akjkuan%3E%3Aapi%3C1%3E.tar.gz/Proc-Feed-master/lib/Proc/Feed.pm6 (Proc::Feed):284
+[Proc::Feed]     ------> needed to ensure $proc-end will be kept.<HERE><EOL>
+[Proc::Feed] ===SORRY!===
+[Proc::Feed] Only routine calls or variables that can '.append' may appear on either side
+[Proc::Feed] of feed operators.
+[Proc::Feed] at t/01-basic.t:44
+[Proc::Feed] ------> is ('hello' ==> capture('sha1sum') <HERE>==> { .split(' ')[0] }()), $chksum, 'Fee
+[Proc::Feed] Only routine calls or variables that can '.append' may appear on either side
+[Proc::Feed] of feed operators.
+[Proc::Feed] at t/01-basic.t:101
+[Proc::Feed] ------> pipe('md5sum', :bin<IN>) ==> split(' ') <HERE>==> *.[0]()
+[Proc::Feed] Only routine calls or variables that can '.append' may appear on either side
+[Proc::Feed] of feed operators.
+[Proc::Feed] at t/01-basic.t:125
+[Proc::Feed] ------>         <HERE>==> join('')
+===> Testing [FAIL]: Proc::Feed:ver<1.0.3>:auth<github:kjkuan>:api<1>
+[Proc::Feed] Failed to get passing tests, but continuing with --force-test
+===> Installing: Proc::Feed:ver<1.0.3>:auth<github:kjkuan>:api<1>
+===> Install [OK] for Proc::Feed:ver<1.0.3>:auth<github:kjkuan>:api<1>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 41.798s
+             CPU time consumed: 38.345s
+                   Memory peak: 1.2G (swap: 0B)

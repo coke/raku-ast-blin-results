@@ -1,0 +1,117 @@
+Running as unit: run-p1823857-i10200242.service; invocation ID: 8c2ad85a262b4fbb80cdc3d9cbf2e077
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Ecosystem
+===> Found: Ecosystem:ver<0.0.33>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Ecosystem] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789446239.1823861.1199.285570299856/4887aa93e96021eb135087f78ca460adad11a9ac.tar.gz https://360.zef.pm/E/CO/ECOSYSTEM/4887aa93e96021eb135087f78ca460adad11a9ac.tar.gz
+===> Fetching [OK]: Ecosystem:ver<0.0.33>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1789446239.1823861.1199.285570299856/4887aa93e96021eb135087f78ca460adad11a9ac.tar.gz
+[Ecosystem] Command: tar -t -f ./4887aa93e96021eb135087f78ca460adad11a9ac.tar.gz
+[Ecosystem] Command: tar -xvf ./4887aa93e96021eb135087f78ca460adad11a9ac.tar.gz -C ../4887aa93e96021eb135087f78ca460adad11a9ac.tar.gz
+===> Extraction [OK]: Ecosystem to /home/coke/sandbox/blin/data/zef-data/tmp/4887aa93e96021eb135087f78ca460adad11a9ac.tar.gz
+===> Testing: Ecosystem:ver<0.0.33>:auth<zef:lizmat>
+[Ecosystem] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4887aa93e96021eb135087f78ca460adad11a9ac.tar.gz/Ecosystem-0.0.33 t/01-basic.rakutest
+[Ecosystem] 1..16
+[Ecosystem] A worker in a parallel iteration (hyper or race) initiated here:
+[Ecosystem]   in method update-meta-from-json at /home/coke/sandbox/blin/data/zef-data/tmp/4887aa93e96021eb135087f78ca460adad11a9ac.tar.gz/Ecosystem-0.0.33/lib/Ecosystem.rakumod (Ecosystem) line 239
+[Ecosystem]   in submethod TWEAK at /home/coke/sandbox/blin/data/zef-data/tmp/4887aa93e96021eb135087f78ca460adad11a9ac.tar.gz/Ecosystem-0.0.33/lib/Ecosystem.rakumod (Ecosystem) line 73
+[Ecosystem]   in block <unit> at t/01-basic.rakutest line 6
+[Ecosystem] Died at:
+[Ecosystem]     Expected a modifiable native int argument for '$pos'
+[Ecosystem]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Ecosystem]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Ecosystem]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Ecosystem]       in block  at /home/coke/sandbox/blin/installed/JSON::Fast::Hyper_zef:lizmat_0.0.11_0/sources/ED006D5D01D933CBB0B60802D9CDADC164C2A8D9 (JSON::Fast::Hyper) line 19
+[Ecosystem] # You planned 16 tests, but ran 0
+===> Testing [FAIL]: Ecosystem:ver<0.0.33>:auth<zef:lizmat>
+[Ecosystem] Failed to get passing tests, but continuing with --force-test
+===> Installing: Ecosystem:ver<0.0.33>:auth<zef:lizmat>
+===> Install [OK] for Ecosystem:ver<0.0.33>:auth<zef:lizmat>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 24.075s
+             CPU time consumed: 31.167s
+                   Memory peak: 1.4G (swap: 0B)

@@ -1,0 +1,368 @@
+Running as unit: run-p2124216-i10531276.service; invocation ID: 8cd067ee78c0434eb5324e0e8c2b8102
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Cro::WebSocket
+===> Found: Cro::WebSocket:ver<0.8.10>:auth<zef:cro>:api<0> [via Zef::Repository::Ecosystems<fez>]
+[Cro::WebSocket] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789461531.2124217.6007.760346284972/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz https://360.zef.pm/C/RO/CRO_WEBSOCKET/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz
+===> Fetching [OK]: Cro::WebSocket:ver<0.8.10>:auth<zef:cro>:api<0> to /home/coke/sandbox/blin/data/zef-data/tmp/1789461531.2124217.6007.760346284972/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz
+[Cro::WebSocket] Command: tar -t -f ./ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz
+[Cro::WebSocket] Command: tar -xvf ./ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz -C ../ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz
+===> Extraction [OK]: Cro::WebSocket to /home/coke/sandbox/blin/data/zef-data/tmp/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz
+===> Testing: Cro::WebSocket:ver<0.8.10>:auth<zef:cro>:api<0>
+[Cro::WebSocket] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz/dist t/http-router-websocket.rakutest
+[Cro::WebSocket] # Subtest: Connection is not upgraded, 400 Bad Request
+[Cro::WebSocket]     1..2
+[Cro::WebSocket]     ok 1 - code dies
+[Cro::WebSocket]     ok 2 - right exception type (X::Cro::HTTP::Error::Client)
+[Cro::WebSocket] ok 1 - Connection is not upgraded, 400 Bad Request
+[Cro::WebSocket] ok 2 - All expected responses were received
+[Cro::WebSocket] ok 3 - Got first message response
+[Cro::WebSocket] ok 4 - Got second message response
+[Cro::WebSocket] ok 5 - Got third message response
+[Cro::WebSocket] A WebSocket handler crashed: An operation first awaited:
+[Cro::WebSocket]   in block  at t/http-router-websocket.rakutest line 27
+[Cro::WebSocket] Died with the exception:
+[Cro::WebSocket]     Expected a modifiable native int argument for '$pos'
+[Cro::WebSocket]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::WebSocket]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::WebSocket]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::WebSocket]       in block  at /home/coke/sandbox/blin/data/zef-data/tmp/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz/dist/lib/Cro/WebSocket/BodyParsers.rakumod (Cro::WebSocket::BodyParsers) line 33
+[Cro::WebSocket] not ok 6 - Get back valid JSON from websocket endpoint with JSON parser/serializer endpoint
+[Cro::WebSocket] # Failed test 'Get back valid JSON from websocket endpoint with JSON parser/serializer endpoint'
+[Cro::WebSocket] # at t/http-router-websocket.rakutest line 90
+[Cro::WebSocket] # No such method 'body-text' for invocant of type 'Any'
+[Cro::WebSocket] not ok 7 - Expected data returned (1)
+[Cro::WebSocket] # Failed test 'Expected data returned (1)'
+[Cro::WebSocket] # at t/http-router-websocket.rakutest line 92
+[Cro::WebSocket] # expected: '100'
+[Cro::WebSocket] #      got: (Any)
+[Cro::WebSocket] not ok 8 - Expected data returned (2)
+[Cro::WebSocket] # Failed test 'Expected data returned (2)'
+[Cro::WebSocket] # at t/http-router-websocket.rakutest line 93
+[Cro::WebSocket] # expected: 'xxx'
+[Cro::WebSocket] #      got: (Any)
+[Cro::WebSocket] not ok 9 - Expected data returned (3)
+[Cro::WebSocket] # Failed test 'Expected data returned (3)'
+[Cro::WebSocket] # at t/http-router-websocket.rakutest line 94
+[Cro::WebSocket] # expected: '42'
+[Cro::WebSocket] #      got: (Any)
+[Cro::WebSocket] A WebSocket handler crashed: An operation first awaited:
+[Cro::WebSocket]   in block  at t/http-router-websocket.rakutest line 38
+[Cro::WebSocket] Died with the exception:
+[Cro::WebSocket]     Expected a modifiable native int argument for '$pos'
+[Cro::WebSocket]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::WebSocket]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::WebSocket]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::WebSocket]       in block  at /home/coke/sandbox/blin/data/zef-data/tmp/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz/dist/lib/Cro/WebSocket/BodyParsers.rakumod (Cro::WebSocket::BodyParsers) line 33
+[Cro::WebSocket] not ok 10 - Get back valid JSON from websocket endpoint that uses :json
+[Cro::WebSocket] # Failed test 'Get back valid JSON from websocket endpoint that uses :json'
+[Cro::WebSocket] # at t/http-router-websocket.rakutest line 106
+[Cro::WebSocket] # No such method 'body-text' for invocant of type 'Any'
+[Cro::WebSocket] not ok 11 - Expected data returned (1)
+[Cro::WebSocket] # Failed test 'Expected data returned (1)'
+[Cro::WebSocket] # at t/http-router-websocket.rakutest line 108
+[Cro::WebSocket] # expected: '103'
+[Cro::WebSocket] #      got: (Any)
+[Cro::WebSocket] not ok 12 - Expected data returned (2)
+[Cro::WebSocket] # Failed test 'Expected data returned (2)'
+[Cro::WebSocket] # at t/http-router-websocket.rakutest line 109
+[Cro::WebSocket] # expected: 'xxxy'
+[Cro::WebSocket] #      got: (Any)
+[Cro::WebSocket] not ok 13 - Expected data returned (3)
+[Cro::WebSocket] # Failed test 'Expected data returned (3)'
+[Cro::WebSocket] # at t/http-router-websocket.rakutest line 110
+[Cro::WebSocket] # expected: '4242'
+[Cro::WebSocket] #      got: (Any)
+[Cro::WebSocket] 1..13
+[Cro::WebSocket] # You failed 8 tests of 13
+[Cro::WebSocket] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz/dist t/websocket-frame-parser.rakutest
+[Cro::WebSocket] ok 1 - WebSocket frame parser is a transform
+[Cro::WebSocket] ok 2 - WebSocket frame parser consumes TCP messages
+[Cro::WebSocket] ok 3 - WebSocket frame parser produces Frames
+[Cro::WebSocket] ok 4 - Hello
+[Cro::WebSocket] ok 5 - check 1
+[Cro::WebSocket] ok 6 - check 2
+[Cro::WebSocket] ok 7 - check 3
+[Cro::WebSocket] ok 8 - Masked Hello
+[Cro::WebSocket] ok 9 - check 1
+[Cro::WebSocket] ok 10 - check 2
+[Cro::WebSocket] ok 11 - check 3
+[Cro::WebSocket] ok 12 - Hel
+[Cro::WebSocket] ok 13 - check 1
+[Cro::WebSocket] ok 14 - check 2
+[Cro::WebSocket] ok 15 - check 3
+[Cro::WebSocket] ok 16 - lo
+[Cro::WebSocket] ok 17 - check 1
+[Cro::WebSocket] ok 18 - check 2
+[Cro::WebSocket] ok 19 - check 3
+[Cro::WebSocket] ok 20 - Unmasked ping request
+[Cro::WebSocket] ok 21 - check 1
+[Cro::WebSocket] ok 22 - check 2
+[Cro::WebSocket] ok 23 - check 3
+[Cro::WebSocket] ok 24 - Empty unmasked ping response
+[Cro::WebSocket] ok 25 - check 1
+[Cro::WebSocket] ok 26 - check 2
+[Cro::WebSocket] ok 27 - check 3
+[Cro::WebSocket] ok 28 - Masked ping response
+[Cro::WebSocket] ok 29 - check 1
+[Cro::WebSocket] ok 30 - check 2
+[Cro::WebSocket] ok 31 - check 3
+[Cro::WebSocket] ok 32 - Masked ping response
+[Cro::WebSocket] ok 33 - check 1
+[Cro::WebSocket] ok 34 - check 2
+[Cro::WebSocket] ok 35 - check 3
+[Cro::WebSocket] ok 36 - 256 bytes binary message in a single unmasked frame
+[Cro::WebSocket] ok 37 - check 1
+[Cro::WebSocket] ok 38 - check 2
+[Cro::WebSocket] ok 39 - check 3
+[Cro::WebSocket] ok 40 - 256 bytes binary message in a single unmasked frame
+[Cro::WebSocket] ok 41 - check 1
+[Cro::WebSocket] ok 42 - check 2
+[Cro::WebSocket] ok 43 - check 3
+[Cro::WebSocket] ok 44 - 32 KiB binary message in a single unmasked frame
+[Cro::WebSocket] ok 45 - check 1
+[Cro::WebSocket] ok 46 - check 2
+[Cro::WebSocket] ok 47 - check 3
+[Cro::WebSocket] ok 48 - 32 KiB binary message in a single unmasked frame
+[Cro::WebSocket] ok 49 - check 1
+[Cro::WebSocket] ok 50 - check 2
+[Cro::WebSocket] ok 51 - check 3
+[Cro::WebSocket] ok 52 - 64 KiB binary message in a single unmasked frame
+[Cro::WebSocket] ok 53 - check 1
+[Cro::WebSocket] ok 54 - check 2
+[Cro::WebSocket] ok 55 - 64 KiB binary message in a single unmasked frame
+[Cro::WebSocket] ok 56 - check 1
+[Cro::WebSocket] ok 57 - check 2
+[Cro::WebSocket] 1..57
+[Cro::WebSocket] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz/dist t/websocket-frame-serializer.rakutest
+[Cro::WebSocket] ok 1 - WebSocket frame serializer is a transform
+[Cro::WebSocket] ok 2 - WebSocket frame serializer consumes TCP messages
+[Cro::WebSocket] ok 3 - WebSocket frame serializer produces Frames
+[Cro::WebSocket] # Subtest: Hello text frame
+[Cro::WebSocket]     ok 1 - fin flag
+[Cro::WebSocket]     ok 2 - opcode
+[Cro::WebSocket]     ok 3 - payload type
+[Cro::WebSocket]     ok 4 - payload contents
+[Cro::WebSocket]     1..4
+[Cro::WebSocket] ok 4 - Hello text frame
+[Cro::WebSocket] # Subtest: Masked Hello
+[Cro::WebSocket]     ok 1 - fin flag
+[Cro::WebSocket]     ok 2 - opcode
+[Cro::WebSocket]     ok 3 - payload type
+[Cro::WebSocket]     ok 4 - payload contents
+[Cro::WebSocket]     1..4
+[Cro::WebSocket] ok 5 - Masked Hello
+[Cro::WebSocket] # Subtest: Hel
+[Cro::WebSocket]     ok 1 - fin flag
+[Cro::WebSocket]     ok 2 - opcode
+[Cro::WebSocket]     ok 3 - payload type
+[Cro::WebSocket]     ok 4 - payload contents
+[Cro::WebSocket]     1..4
+[Cro::WebSocket] ok 6 - Hel
+[Cro::WebSocket] # Subtest: lo
+[Cro::WebSocket]     ok 1 - fin flag
+[Cro::WebSocket]     ok 2 - opcode
+[Cro::WebSocket]     ok 3 - payload type
+[Cro::WebSocket]     ok 4 - payload contents
+[Cro::WebSocket]     1..4
+[Cro::WebSocket] ok 7 - lo
+[Cro::WebSocket] # Subtest: Unmasked ping request
+[Cro::WebSocket]     ok 1 - fin flag
+[Cro::WebSocket]     ok 2 - opcode
+[Cro::WebSocket]     ok 3 - payload type
+[Cro::WebSocket]     ok 4 - payload contents
+[Cro::WebSocket]     1..4
+[Cro::WebSocket] ok 8 - Unmasked ping request
+[Cro::WebSocket] # Subtest: Masked ping response
+[Cro::WebSocket]     ok 1 - fin flag
+[Cro::WebSocket]     ok 2 - opcode
+[Cro::WebSocket]     ok 3 - payload type
+[Cro::WebSocket]     ok 4 - payload contents
+[Cro::WebSocket]     1..4
+[Cro::WebSocket] ok 9 - Masked ping response
+[Cro::WebSocket] # Subtest: 256 bytes binary message in a single unmasked frame
+[Cro::WebSocket]     ok 1 - fin flag
+[Cro::WebSocket]     ok 2 - opcode
+[Cro::WebSocket]     ok 3 - payload type
+[Cro::WebSocket]     ok 4 - payload contents
+[Cro::WebSocket]     1..4
+[Cro::WebSocket] ok 10 - 256 bytes binary message in a single unmasked frame
+[Cro::WebSocket] # Subtest: 32 KiB binary message in a single unmasked frame
+[Cro::WebSocket]     ok 1 - fin flag
+[Cro::WebSocket]     ok 2 - opcode
+[Cro::WebSocket]     ok 3 - payload type
+[Cro::WebSocket]     ok 4 - payload contents
+[Cro::WebSocket]     1..4
+[Cro::WebSocket] ok 11 - 32 KiB binary message in a single unmasked frame
+[Cro::WebSocket] # Subtest: 64 KiB binary message in a single unmasked frame
+[Cro::WebSocket]     ok 1 - fin flag
+[Cro::WebSocket]     ok 2 - opcode
+[Cro::WebSocket]     ok 3 - payload type
+[Cro::WebSocket]     ok 4 - payload contents
+[Cro::WebSocket]     1..4
+[Cro::WebSocket] ok 12 - 64 KiB binary message in a single unmasked frame
+[Cro::WebSocket] 1..12
+[Cro::WebSocket] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz/dist t/websocket-handler.rakutest
+[Cro::WebSocket] ok 1 - 
+[Cro::WebSocket] ok 2 - 
+[Cro::WebSocket] ok 3 - 
+[Cro::WebSocket] ok 4 - Close code is 1000
+[Cro::WebSocket] 1..4
+[Cro::WebSocket] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz/dist t/websocket-message-parser.rakutest
+[Cro::WebSocket] ok 1 - Hello
+[Cro::WebSocket] ok 2 - check 1
+[Cro::WebSocket] ok 3 - check 2
+[Cro::WebSocket] ok 4 - check 3
+[Cro::WebSocket] ok 5 - Splitted Hello
+[Cro::WebSocket] ok 6 - check 1
+[Cro::WebSocket] ok 7 - check 2
+[Cro::WebSocket] ok 8 - check 3
+[Cro::WebSocket] ok 9 - Unmasked ping request
+[Cro::WebSocket] ok 10 - check 1
+[Cro::WebSocket] ok 11 - check 2
+[Cro::WebSocket] ok 12 - check 3
+[Cro::WebSocket] ok 13 - Splitted big data package
+[Cro::WebSocket] ok 14 - check 1
+[Cro::WebSocket] ok 15 - check 2
+[Cro::WebSocket] ok 16 - check 3
+[Cro::WebSocket] 1..16
+[Cro::WebSocket] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz/dist t/websocket-message-serializer.rakutest
+[Cro::WebSocket] ok 1 - check 1
+[Cro::WebSocket] ok 2 - check 2
+[Cro::WebSocket] ok 3 - check 3
+[Cro::WebSocket] ok 4 - Hello
+[Cro::WebSocket] ok 5 - check 1
+[Cro::WebSocket] ok 6 - check 2
+[Cro::WebSocket] ok 7 - check 3
+[Cro::WebSocket] ok 8 - check 1
+[Cro::WebSocket] ok 9 - check 2
+[Cro::WebSocket] ok 10 - check 3
+[Cro::WebSocket] ok 11 - check 1
+[Cro::WebSocket] ok 12 - check 2
+[Cro::WebSocket] ok 13 - check 3
+[Cro::WebSocket] ok 14 - Splitted hello
+[Cro::WebSocket] ok 15 - check 1
+[Cro::WebSocket] ok 16 - Control message
+[Cro::WebSocket] ok 17 - check 1
+[Cro::WebSocket] ok 18 - check 2
+[Cro::WebSocket] ok 19 - check 3
+[Cro::WebSocket] ok 20 - check 1
+[Cro::WebSocket] ok 21 - check 2
+[Cro::WebSocket] ok 22 - check 3
+[Cro::WebSocket] ok 23 - check 1
+[Cro::WebSocket] ok 24 - check 2
+[Cro::WebSocket] ok 25 - check 3
+[Cro::WebSocket] ok 26 - check 1
+[Cro::WebSocket] ok 27 - check 2
+[Cro::WebSocket] ok 28 - check 3
+[Cro::WebSocket] ok 29 - Control message in-between
+[Cro::WebSocket] 1..29
+[Cro::WebSocket] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ed1f2481248f53caafc607573edd72b2f1402e58.tar.gz/dist t/websocket-message.rakutest
+[Cro::WebSocket] ok 1 - Is text
+[Cro::WebSocket] ok 2 - Is data
+[Cro::WebSocket] ok 3 - Body is passed
+[Cro::WebSocket] ok 4 - Is binary
+[Cro::WebSocket] ok 5 - Is data
+[Cro::WebSocket] # Subtest: Binary message cannot have body-text called on it
+[Cro::WebSocket]     1..2
+[Cro::WebSocket]     ok 1 - code dies
+[Cro::WebSocket]     ok 2 - right exception type (X::Cro::BodyNotText)
+[Cro::WebSocket] ok 6 - Binary message cannot have body-text called on it
+[Cro::WebSocket] ok 7 - Body can be get as blob
+[Cro::WebSocket] ok 8 - Checked 0
+[Cro::WebSocket] ok 9 - Checked 1
+[Cro::WebSocket] ok 10 - Checked 2
+[Cro::WebSocket] 1..10
+===> Testing [FAIL]: Cro::WebSocket:ver<0.8.10>:auth<zef:cro>:api<0>
+[Cro::WebSocket] Failed to get passing tests, but continuing with --force-test
+===> Installing: Cro::WebSocket:ver<0.8.10>:auth<zef:cro>:api<0>
+===> Install [OK] for Cro::WebSocket:ver<0.8.10>:auth<zef:cro>:api<0>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 24.602s
+             CPU time consumed: 2min 3.081s
+                   Memory peak: 2.6G (swap: 0B)

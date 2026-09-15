@@ -1,0 +1,113 @@
+Running as unit: run-p1634889-i9952190.service; invocation ID: 30c03020dcc34c4ab5eb8eabe7b124a9
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Markdown::Grammar
+===> Found: Markdown::Grammar:ver<0.6.4>:auth<zef:antononcube>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Markdown::Grammar] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442020.1634894.1031.3227362525545/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz https://360.zef.pm/M/AR/MARKDOWN_GRAMMAR/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz
+===> Fetching [OK]: Markdown::Grammar:ver<0.6.4>:auth<zef:antononcube>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442020.1634894.1031.3227362525545/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz
+[Markdown::Grammar] Command: tar -t -f ./060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz
+[Markdown::Grammar] Command: tar -xvf ./060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz -C ../060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz
+===> Extraction [OK]: Markdown::Grammar to /home/coke/sandbox/blin/data/zef-data/tmp/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz
+===> Testing: Markdown::Grammar:ver<0.6.4>:auth<zef:antononcube>:api<1>
+[Markdown::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz/dist t/01-Parsing.rakutest
+[Markdown::Grammar] 1..17
+[Markdown::Grammar] ok 1 - 
+[Markdown::Grammar] ok 2 - 
+[Markdown::Grammar] ok 3 - 
+[Markdown::Grammar] ok 4 - 
+[Markdown::Grammar] ok 5 - 
+[Markdown::Grammar] ok 6 - 
+[Markdown::Grammar] ok 7 - 
+[Markdown::Grammar] ok 8 - 
+[Markdown::Grammar] ok 9 - 
+[Markdown::Grammar] ok 10 - 
+[Markdown::Grammar] ok 11 - 
+[Markdown::Grammar] ok 12 - 
+[Markdown::Grammar] ok 13 - 
+[Markdown::Grammar] ok 14 - 
+[Markdown::Grammar] ok 15 - 
+[Markdown::Grammar] ok 16 - 
+[Markdown::Grammar] ok 17 - 
+[Markdown::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz/dist t/02-Mathematica.rakutest
+[Markdown::Grammar] 1..20
+[Markdown::Grammar] ok 1 - Subsection
+[Markdown::Grammar] ok 2 - Perl6 cell
+[Markdown::Grammar] ok 3 - WL cell and link
+[Markdown::Grammar] ok 4 - Formula and links
+[Markdown::Grammar] ok 5 - Code cells
+[Markdown::Grammar] ok 6 - List of items
+[Markdown::Grammar] ok 7 - List of numbered items
+[Markdown::Grammar] ok 8 - Image links
+[Markdown::Grammar] ok 9 - Complex link
+[Markdown::Grammar] ok 10 - Code block with indentation
+[Markdown::Grammar] ok 11 - Links with references
+[Markdown::Grammar] ok 12 - Quote block
+[Markdown::Grammar] ok 13 - Emphasize block
+[Markdown::Grammar] ok 14 - Math blocks
+[Markdown::Grammar] ok 15 - Math inlined expression
+[Markdown::Grammar] ok 16 - Math inlined expression, alt spec
+[Markdown::Grammar] ok 17 - Code block with indentation and empty line in between
+[Markdown::Grammar] ok 18 - Multiple formula specs
+[Markdown::Grammar] ok 19 - Section line immendiately after text line
+[Markdown::Grammar] ok 20 - Empty URL labels in a table
+[Markdown::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz/dist t/03-from-markdown-usage.rakutest
+[Markdown::Grammar] 1..10
+[Markdown::Grammar] ok 1 - 
+[Markdown::Grammar] ok 2 - Simple one line Mathematica
+[Markdown::Grammar] ok 3 - Simple one line Pod6
+[Markdown::Grammar] ok 4 - Over file path object
+[Markdown::Grammar] ok 5 - Over file path string
+[Markdown::Grammar] ok 6 - README CLI example
+[Markdown::Grammar] ok 7 - Code cells with default language Raku
+[Markdown::Grammar] ok 8 - Code cells with default language Raku and special Raku code cell
+[Markdown::Grammar] ok 9 - Code cells with Whatever default language and Whatever Raku code cell
+[Markdown::Grammar] ok 10 - Code cells with Whatever default language and Whatever Raku code cell
+[Markdown::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz/dist t/04-Pod6.rakutest
+[Markdown::Grammar] 1..4
+[Markdown::Grammar] ok 1 - Simple
+[Markdown::Grammar] ok 2 - Raku code block
+[Markdown::Grammar] ok 3 - Raku code block with no lang spec
+[Markdown::Grammar] ok 4 - Raku code block with no lang spec using "~~~~~" fence
+[Markdown::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz/dist t/05-Raku-section-tree.rakutest
+[Markdown::Grammar] ok 1 - 
+[Markdown::Grammar] ok 2 - The object is-a 'Bool::True'
+[Markdown::Grammar] ok 3 - Expected Hash for simple Markdown text
+[Markdown::Grammar] ok 4 - Expected Hash for simple Markdown text with modifier 'text'
+[Markdown::Grammar] ok 5 - Expected Hash for simple Markdown text with modifier 'code'
+[Markdown::Grammar] ok 6 - Expected Hash for simple Markdown text with modifier 'lang-code'
+[Markdown::Grammar] ok 7 - Expected Hash for simple Markdown text with modifier 'code-block'
+[Markdown::Grammar] ok 8 - Expected Hash for simple Markdown text with modifier 'code-block'
+[Markdown::Grammar] ok 9 - Expected Hash for indented code block with modifier 'code'
+[Markdown::Grammar] 1..9
+[Markdown::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz/dist t/06-Jupyter.rakutest
+[Markdown::Grammar] 1..4
+[Markdown::Grammar] Expected a modifiable native int argument for '$pos'
+[Markdown::Grammar]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Markdown::Grammar]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Markdown::Grammar]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Markdown::Grammar]   in block <unit> at t/06-Jupyter.rakutest line 37
+[Markdown::Grammar] # You planned 4 tests, but ran 0
+[Markdown::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz/dist t/07-Jupyter-Obsidian.rakutest
+[Markdown::Grammar] Expected a modifiable native int argument for '$pos'
+[Markdown::Grammar]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Markdown::Grammar]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Markdown::Grammar]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Markdown::Grammar]   in block <unit> at t/07-Jupyter-Obsidian.rakutest line 39
+[Markdown::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/060f9bf1a0834840af38dbb2189e16f291d4b8bc.tar.gz/dist t/08-HTML.rakutest
+[Markdown::Grammar] 1..5
+[Markdown::Grammar] ok 1 - Simple
+[Markdown::Grammar] ok 2 - Raku code block
+[Markdown::Grammar] ok 3 - Raku code block with no lang spec
+[Markdown::Grammar] ok 4 - Raku code block with no lang spec using "~~~~~" fence
+[Markdown::Grammar] ok 5 - Raku emphasis paragraph
+===> Testing [FAIL]: Markdown::Grammar:ver<0.6.4>:auth<zef:antononcube>:api<1>
+[Markdown::Grammar] Failed to get passing tests, but continuing with --force-test
+===> Installing: Markdown::Grammar:ver<0.6.4>:auth<zef:antononcube>:api<1>
+===> Install [OK] for Markdown::Grammar:ver<0.6.4>:auth<zef:antononcube>:api<1>
+
+1 bin/ script [from-markdown] installed to:
+/home/coke/sandbox/blin/installed/Markdown::Grammar_zef:antononcube_0.6.4_1/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 32.648s
+             CPU time consumed: 46.165s
+                   Memory peak: 1.3G (swap: 0B)

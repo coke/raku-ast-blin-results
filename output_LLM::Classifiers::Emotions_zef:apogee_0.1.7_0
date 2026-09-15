@@ -1,0 +1,134 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: LLM::Classifiers::Emotions
+Running as unit: run-p2253176-i10626083.service; invocation ID: b8598467ba924ab1896e2e09fbcdfc40
+Press ^] three times within 1s to disconnect TTY.
+===> Found: LLM::Classifiers::Emotions:ver<0.1.7>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[LLM::Classifiers::Emotions] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789464609.2253183.904.9760563972109/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz https://360.zef.pm/L/LM/LLM_CLASSIFIERS_EMOTIONS/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz
+===> Fetching [OK]: LLM::Classifiers::Emotions:ver<0.1.7>:auth<zef:apogee> to /home/coke/sandbox/blin/data/zef-data/tmp/1789464609.2253183.904.9760563972109/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz
+[LLM::Classifiers::Emotions] Command: tar -t -f ./035d796a83e3b2965ba9647c428e4834612cb817.tar.gz
+[LLM::Classifiers::Emotions] Command: tar -xvf ./035d796a83e3b2965ba9647c428e4834612cb817.tar.gz -C ../035d796a83e3b2965ba9647c428e4834612cb817.tar.gz
+===> Extraction [OK]: LLM::Classifiers::Emotions to /home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz
+===> Building: LLM::Classifiers::Emotions:ver<0.1.7>:auth<zef:apogee>
+[LLM::Classifiers::Emotions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -e require '/home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7/Build.rakumod'; ::('Build').new.build('/home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7') ?? exit(0) !! exit(1);
+[LLM::Classifiers::Emotions] ✅ LLM::Classifiers::Emotions model already staged at /home/coke/.local/share/LLM-Classifiers-Emotions/binaries-cohee-goemotions-d22488bc-r1.
+===> Building [OK] for LLM::Classifiers::Emotions:ver<0.1.7>:auth<zef:apogee>
+===> Testing: LLM::Classifiers::Emotions:ver<0.1.7>:auth<zef:apogee>
+[LLM::Classifiers::Emotions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7 t/01-smoke.rakutest
+[LLM::Classifiers::Emotions] 1..6
+[LLM::Classifiers::Emotions] # Subtest: Classifier.new loads the staged model
+[LLM::Classifiers::Emotions]     1..2
+[LLM::Classifiers::Emotions] Odd number of elements found where hash initializer expected:
+[LLM::Classifiers::Emotions] Only saw: Nil
+[LLM::Classifiers::Emotions]   in method load-id2label at /home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7/lib/LLM/Classifiers/Emotions.rakumod (LLM::Classifiers::Emotions) line 126
+[LLM::Classifiers::Emotions]   in method new at /home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7/lib/LLM/Classifiers/Emotions.rakumod (LLM::Classifiers::Emotions) line 112
+[LLM::Classifiers::Emotions]   in block <unit> at t/01-smoke.rakutest line 9
+[LLM::Classifiers::Emotions]     # You planned 2 tests, but ran 0
+[LLM::Classifiers::Emotions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7 t/02-known-inputs.rakutest
+[LLM::Classifiers::Emotions] 1..4
+[LLM::Classifiers::Emotions] Odd number of elements found where hash initializer expected:
+[LLM::Classifiers::Emotions] Only saw: Nil
+[LLM::Classifiers::Emotions]   in method load-id2label at /home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7/lib/LLM/Classifiers/Emotions.rakumod (LLM::Classifiers::Emotions) line 126
+[LLM::Classifiers::Emotions]   in method new at /home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7/lib/LLM/Classifiers/Emotions.rakumod (LLM::Classifiers::Emotions) line 112
+[LLM::Classifiers::Emotions]   in block <unit> at t/02-known-inputs.rakutest line 27
+[LLM::Classifiers::Emotions] # You planned 4 tests, but ran 0
+[LLM::Classifiers::Emotions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7 t/03-edge-cases.rakutest
+[LLM::Classifiers::Emotions] 1..6
+[LLM::Classifiers::Emotions] Odd number of elements found where hash initializer expected:
+[LLM::Classifiers::Emotions] Only saw: Nil
+[LLM::Classifiers::Emotions]   in method load-id2label at /home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7/lib/LLM/Classifiers/Emotions.rakumod (LLM::Classifiers::Emotions) line 126
+[LLM::Classifiers::Emotions]   in method new at /home/coke/sandbox/blin/data/zef-data/tmp/035d796a83e3b2965ba9647c428e4834612cb817.tar.gz/LLM-Classifiers-Emotions-0.1.7/lib/LLM/Classifiers/Emotions.rakumod (LLM::Classifiers::Emotions) line 112
+[LLM::Classifiers::Emotions]   in block <unit> at t/03-edge-cases.rakutest line 7
+[LLM::Classifiers::Emotions] # You planned 6 tests, but ran 0
+===> Testing [FAIL]: LLM::Classifiers::Emotions:ver<0.1.7>:auth<zef:apogee>
+[LLM::Classifiers::Emotions] Failed to get passing tests, but continuing with --force-test
+===> Installing: LLM::Classifiers::Emotions:ver<0.1.7>:auth<zef:apogee>
+===> Install [OK] for LLM::Classifiers::Emotions:ver<0.1.7>:auth<zef:apogee>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 15.609s
+             CPU time consumed: 21.506s
+                   Memory peak: 1.3G (swap: 0B)

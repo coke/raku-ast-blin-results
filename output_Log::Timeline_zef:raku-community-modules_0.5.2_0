@@ -1,0 +1,223 @@
+Running as unit: run-p1768053-i10164810.service; invocation ID: cc47566d324c4d3c821b353826ef44a3
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Log::Timeline
+===> Found: Log::Timeline:ver<0.5.2>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Log::Timeline] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445061.1768056.57.393272436602196/91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz https://360.zef.pm/L/OG/LOG_TIMELINE/91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz
+===> Fetching [OK]: Log::Timeline:ver<0.5.2>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445061.1768056.57.393272436602196/91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz
+[Log::Timeline] Command: tar -t -f ./91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz
+[Log::Timeline] Command: tar -xvf ./91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz -C ../91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz
+===> Extraction [OK]: Log::Timeline to /home/coke/sandbox/blin/data/zef-data/tmp/91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz
+===> Testing: Log::Timeline:ver<0.5.2>:auth<zef:raku-community-modules>
+[Log::Timeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz/Log-Timeline-0.5.2 t/has-output.rakutest
+[Log::Timeline] ok 1 - No output configured for Log::Timeline
+[Log::Timeline] 1..1
+[Log::Timeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz/Log-Timeline-0.5.2 t/logging.rakutest
+[Log::Timeline] ok 1 - Logging an event is a no-op if no output
+[Log::Timeline] ok 2 - Can log an event with no data
+[Log::Timeline] ok 3 - Can log an event with data
+[Log::Timeline] ok 4 - Got expected output
+[Log::Timeline] ok 5 - First event logged correctly
+[Log::Timeline] ok 6 - Second event logged correctly with its data
+[Log::Timeline] ok 7 - Logging a task is a no-op if no output (using .task)
+[Log::Timeline] ok 8 - Logging a task is a no-op if no output (using .start / .end)
+[Log::Timeline] ok 9 - Can log a task with no data and the task code is run
+[Log::Timeline] ok 10 - Have two logged events
+[Log::Timeline] ok 11 - Correct start entry logged by log
+[Log::Timeline] ok 12 - Correct end entry logged by log
+[Log::Timeline] ok 13 - Can log an individual start event
+[Log::Timeline] ok 14 - Correct start entry logged by start
+[Log::Timeline] ok 15 - Can log an individual end event
+[Log::Timeline] ok 16 - Correct end entry logged by end
+[Log::Timeline] ok 17 - Logged a mix of tasks and events
+[Log::Timeline] ok 18 - Start of first task logged correctly
+[Log::Timeline] ok 19 - Start of second task logged correctly with parent
+[Log::Timeline] ok 20 - Event logged correctly with inner task parent
+[Log::Timeline] ok 21 - Correct end entry for inner task
+[Log::Timeline] ok 22 - Event logged correctly with outer task parent
+[Log::Timeline] ok 23 - Correct end entry for outer task
+[Log::Timeline] ok 24 - Logged a mix of tasks and events with explicit parent handling
+[Log::Timeline] ok 25 - Start of first task logged correctly again
+[Log::Timeline] ok 26 - Start of second task logged without parent and with data, as requested
+[Log::Timeline] ok 27 - Event logged correctly with no data and no parent, as requested
+[Log::Timeline] ok 28 - Correct end entry for inner task that was logged without parent
+[Log::Timeline] ok 29 - Event logged correctly also with no parent, but this time with data
+[Log::Timeline] ok 30 - Correct end entry for outer task again
+[Log::Timeline] 1..30
+[Log::Timeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz/Log-Timeline-0.5.2 t/output-cbor-sequence.rakutest
+[Log::Timeline] ok 1 - We have output configured for Log::Timeline
+[Log::Timeline] ok 2 - Can log tasks with the file output logger
+[Log::Timeline] ok 3 - Close method works
+[Log::Timeline] ok 4 - Entry deserialized to a Hash (1)
+[Log::Timeline] ok 5 - Correct module (1)
+[Log::Timeline] ok 6 - Correct category (1)
+[Log::Timeline] ok 7 - Correct name (1)
+[Log::Timeline] ok 8 - Correct kind (1)
+[Log::Timeline] ok 9 - Correct ID (1)
+[Log::Timeline] ok 10 - Correct parent (1)
+[Log::Timeline] ok 11 - Correct data (1)
+[Log::Timeline] ok 12 - Has a timestamp (1)
+[Log::Timeline] ok 13 - Timestamp is an instant (1)
+[Log::Timeline] ok 14 - Entry deserialized to a Hash (2)
+[Log::Timeline] ok 15 - Correct module (2)
+[Log::Timeline] ok 16 - Correct category (2)
+[Log::Timeline] ok 17 - Correct name (2)
+[Log::Timeline] ok 18 - Correct kind (2)
+[Log::Timeline] ok 19 - Correct ID (2)
+[Log::Timeline] ok 20 - Correct parent (2)
+[Log::Timeline] ok 21 - Correct data (2)
+[Log::Timeline] ok 22 - Has a timestamp (2)
+[Log::Timeline] ok 23 - Timestamp is an instant (2)
+[Log::Timeline] ok 24 - Entry deserialized to a Hash (3)
+[Log::Timeline] ok 25 - Correct module (3)
+[Log::Timeline] ok 26 - Correct category (3)
+[Log::Timeline] ok 27 - Correct name (3)
+[Log::Timeline] ok 28 - Correct kind (3)
+[Log::Timeline] ok 29 - Correct parent (3)
+[Log::Timeline] ok 30 - Correct data (3)
+[Log::Timeline] ok 31 - Has a timestamp (3)
+[Log::Timeline] ok 32 - Timestamp is an instant (3)
+[Log::Timeline] ok 33 - Entry deserialized to a Hash (4)
+[Log::Timeline] ok 34 - Correct module (4)
+[Log::Timeline] ok 35 - Correct category (4)
+[Log::Timeline] ok 36 - Correct name (4)
+[Log::Timeline] ok 37 - Correct kind (4)
+[Log::Timeline] ok 38 - Correct ID (4)
+[Log::Timeline] ok 39 - Has a timestamp (4)
+[Log::Timeline] ok 40 - Timestamp is an instant (4)
+[Log::Timeline] ok 41 - Entry deserialized to a Hash (5)
+[Log::Timeline] ok 42 - Correct module (5)
+[Log::Timeline] ok 43 - Correct category (5)
+[Log::Timeline] ok 44 - Correct name (5)
+[Log::Timeline] ok 45 - Correct kind (5)
+[Log::Timeline] ok 46 - Correct parent (5)
+[Log::Timeline] ok 47 - Correct data (5)
+[Log::Timeline] ok 48 - Has a timestamp (5)
+[Log::Timeline] ok 49 - Timestamp is an instant (5)
+[Log::Timeline] ok 50 - Entry deserialized to a Hash (6)
+[Log::Timeline] ok 51 - Correct module (6)
+[Log::Timeline] ok 52 - Correct category (6)
+[Log::Timeline] ok 53 - Correct name (6)
+[Log::Timeline] ok 54 - Correct kind (6)
+[Log::Timeline] ok 55 - Correct ID (6)
+[Log::Timeline] ok 56 - Has a timestamp (6)
+[Log::Timeline] ok 57 - Timestamp is an instant (6)
+[Log::Timeline] ok 58 - Log file has expected number of CBOR elements
+[Log::Timeline] 1..58
+[Log::Timeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz/Log-Timeline-0.5.2 t/output-json-lines.rakutest
+[Log::Timeline] ok 1 - We have output configured for Log::Timeline
+[Log::Timeline] ok 2 - Can log tasks with the file output logger
+[Log::Timeline] ok 3 - Close method works
+[Log::Timeline] ok 4 - Log file has expected number of lines
+[Log::Timeline] Expected a modifiable native int argument for '$pos'
+[Log::Timeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Log::Timeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Log::Timeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Log::Timeline]   in block <unit> at t/output-json-lines.rakutest line 32
+[Log::Timeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/91b1b2fe9edb2226fb12b99ced6202f4ed389976.tar.gz/Log-Timeline-0.5.2 t/output-socket.rakutest
+[Log::Timeline] ok 1 - We have output configured for Log::Timeline
+[Log::Timeline] ok 2 - Can start a task before the client opens a socket connection
+[Log::Timeline] ok 3 - Can log an event before the client opens a socket connection
+[Log::Timeline] ok 4 - Can connect to the socket server
+[Log::Timeline] ok 5 - Server did not send anything before the client did
+[Log::Timeline] ok 6 - Could send initial handshake message
+[Log::Timeline] # Timeout while waiting for first events
+[Log::Timeline] ok 7 - Received handshake message
+[Log::Timeline] Expected a modifiable native int argument for '$pos'
+[Log::Timeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Log::Timeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Log::Timeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Log::Timeline]   in block <unit> at t/output-socket.rakutest line 70
+===> Testing [FAIL]: Log::Timeline:ver<0.5.2>:auth<zef:raku-community-modules>
+[Log::Timeline] Failed to get passing tests, but continuing with --force-test
+===> Installing: Log::Timeline:ver<0.5.2>:auth<zef:raku-community-modules>
+===> Install [OK] for Log::Timeline:ver<0.5.2>:auth<zef:raku-community-modules>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 28.729s
+             CPU time consumed: 24.514s
+                   Memory peak: 1.3G (swap: 0B)

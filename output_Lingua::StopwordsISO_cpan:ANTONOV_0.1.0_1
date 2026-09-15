@@ -1,0 +1,48 @@
+Running as unit: run-p1609820-i10013090.service; invocation ID: 22edc35ed8514c8ea9df64a808c744c9
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Lingua::StopwordsISO
+===> Found: Lingua::StopwordsISO:ver<0.1.0>:auth<cpan:ANTONOV>:api<1> [via Zef::Repository::Ecosystems<rea>]
+[Lingua::StopwordsISO] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441512.1609825.8281.676493964234/Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/L/Lingua%3A%3AStopwordsISO/Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz
+===> Fetching [OK]: Lingua::StopwordsISO:ver<0.1.0>:auth<cpan:ANTONOV>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789441512.1609825.8281.676493964234/Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz
+[Lingua::StopwordsISO] Command: tar -t -f ./Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz
+[Lingua::StopwordsISO] Command: tar -xvf ./Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz -C ../Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz
+===> Extraction [OK]: Lingua::StopwordsISO to /home/coke/sandbox/blin/data/zef-data/tmp/Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz
+===> Testing: Lingua::StopwordsISO:ver<0.1.0>:auth<github:antononcube>:api<1>
+[Lingua::StopwordsISO] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz/Lingua-StopwordsISO-0.1.0 t/01-basic-workflow.rakutest
+[Lingua::StopwordsISO] ===SORRY!=== Error while compiling t/01-basic-workflow.rakutest
+[Lingua::StopwordsISO] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz/Lingua-StopwordsISO-0.1.0/lib/Lingua/StopwordsISO.rakumod (Lingua::StopwordsISO)
+[Lingua::StopwordsISO] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[Lingua::StopwordsISO] Expected a modifiable native int argument for '$pos'
+[Lingua::StopwordsISO] at /home/coke/sandbox/blin/data/zef-data/tmp/Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz/Lingua-StopwordsISO-0.1.0/lib/Lingua/StopwordsISO.rakumod (Lingua::StopwordsISO):72
+[Lingua::StopwordsISO] ------> %stopwords-iso = <HERE>BEGIN {
+[Lingua::StopwordsISO] Exception details:
+[Lingua::StopwordsISO]   ===SORRY!=== Error while compiling:
+[Lingua::StopwordsISO]   Expected a modifiable native int argument for '$pos'
+[Lingua::StopwordsISO]   at line 
+[Lingua::StopwordsISO] at t/01-basic-workflow.rakutest:7
+[Lingua::StopwordsISO] ------> <BOL><HERE>use Lingua::StopwordsISO;
+[Lingua::StopwordsISO] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz/Lingua-StopwordsISO-0.1.0 t/02-delete-stopwords.rakutest
+[Lingua::StopwordsISO] ===SORRY!=== Error while compiling t/02-delete-stopwords.rakutest
+[Lingua::StopwordsISO] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz/Lingua-StopwordsISO-0.1.0/lib/Lingua/StopwordsISO.rakumod (Lingua::StopwordsISO)
+[Lingua::StopwordsISO] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[Lingua::StopwordsISO] Expected a modifiable native int argument for '$pos'
+[Lingua::StopwordsISO] at /home/coke/sandbox/blin/data/zef-data/tmp/Lingua%3A%3AStopwordsISO%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3AANTONOV%3E%3Aapi%3C1%3E.tar.gz/Lingua-StopwordsISO-0.1.0/lib/Lingua/StopwordsISO.rakumod (Lingua::StopwordsISO):72
+[Lingua::StopwordsISO] ------> %stopwords-iso = <HERE>BEGIN {
+[Lingua::StopwordsISO] Exception details:
+[Lingua::StopwordsISO]   ===SORRY!=== Error while compiling:
+[Lingua::StopwordsISO]   Expected a modifiable native int argument for '$pos'
+[Lingua::StopwordsISO]   at line 
+[Lingua::StopwordsISO] at t/02-delete-stopwords.rakutest:7
+[Lingua::StopwordsISO] ------> <BOL><HERE>use Lingua::StopwordsISO;
+===> Testing [FAIL]: Lingua::StopwordsISO:ver<0.1.0>:auth<github:antononcube>:api<1>
+[Lingua::StopwordsISO] Failed to get passing tests, but continuing with --force-test
+===> Installing: Lingua::StopwordsISO:ver<0.1.0>:auth<github:antononcube>:api<1>
+===> Install [OK] for Lingua::StopwordsISO:ver<0.1.0>:auth<github:antononcube>:api<1>
+
+2 bin/ scripts [delete-stopwords stopwords-iso] installed to:
+/home/coke/sandbox/blin/installed/Lingua::StopwordsISO_cpan:ANTONOV_0.1.0_1/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 20.003s
+             CPU time consumed: 22.224s
+                   Memory peak: 1.5G (swap: 0B)

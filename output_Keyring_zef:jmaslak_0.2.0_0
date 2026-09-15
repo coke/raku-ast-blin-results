@@ -1,0 +1,35 @@
+Running as unit: run-p1492716-i9917102.service; invocation ID: 51a6899984bc4c78b00dbdbff5e2185a
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Keyring
+===> Found: Keyring:ver<0.2.0>:auth<zef:jmaslak> [via Zef::Repository::Ecosystems<fez>]
+[Keyring] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789439084.1492718.4127.835641192197/e36232bcb60823663915223230470a4aadf6b4ba.tar.gz https://360.zef.pm/K/EY/KEYRING/e36232bcb60823663915223230470a4aadf6b4ba.tar.gz
+===> Fetching [OK]: Keyring:ver<0.2.0>:auth<zef:jmaslak> to /home/coke/sandbox/blin/data/zef-data/tmp/1789439084.1492718.4127.835641192197/e36232bcb60823663915223230470a4aadf6b4ba.tar.gz
+[Keyring] Command: tar -t -f ./e36232bcb60823663915223230470a4aadf6b4ba.tar.gz
+[Keyring] Command: tar -xvf ./e36232bcb60823663915223230470a4aadf6b4ba.tar.gz -C ../e36232bcb60823663915223230470a4aadf6b4ba.tar.gz
+===> Extraction [OK]: Keyring to /home/coke/sandbox/blin/data/zef-data/tmp/e36232bcb60823663915223230470a4aadf6b4ba.tar.gz
+===> Testing: Keyring:ver<0.2.0>:auth<zef:jmaslak>
+[Keyring] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e36232bcb60823663915223230470a4aadf6b4ba.tar.gz/Keyring-0.2.0 t/01-procedural.t
+[Keyring] ===SORRY!=== Error while compiling t/01-procedural.t
+[Keyring] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/e36232bcb60823663915223230470a4aadf6b4ba.tar.gz/Keyring-0.2.0/lib/Keyring.rakumod (Keyring)
+[Keyring] Can never assign default value "Positional" to attribute '@!backend-priority', it expects: "Keyring::Backend:U"
+[Keyring] at /home/coke/sandbox/blin/data/zef-data/tmp/e36232bcb60823663915223230470a4aadf6b4ba.tar.gz/Keyring-0.2.0/lib/Keyring.rakumod (Keyring):21
+[Keyring] ------> has Keyring::Backend:U <HERE>@.backend-priority = @default-backends;
+[Keyring] at t/01-procedural.t:10
+[Keyring] ------> <BOL><HERE>use Keyring;
+[Keyring] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e36232bcb60823663915223230470a4aadf6b4ba.tar.gz/Keyring-0.2.0 t/02-subscript.t
+[Keyring] ===SORRY!=== Error while compiling t/02-subscript.t
+[Keyring] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/e36232bcb60823663915223230470a4aadf6b4ba.tar.gz/Keyring-0.2.0/lib/Keyring.rakumod (Keyring)
+[Keyring] Can never assign default value "Positional" to attribute '@!backend-priority', it expects: "Keyring::Backend:U"
+[Keyring] at /home/coke/sandbox/blin/data/zef-data/tmp/e36232bcb60823663915223230470a4aadf6b4ba.tar.gz/Keyring-0.2.0/lib/Keyring.rakumod (Keyring):21
+[Keyring] ------> has Keyring::Backend:U <HERE>@.backend-priority = @default-backends;
+[Keyring] at t/02-subscript.t:10
+[Keyring] ------> <BOL><HERE>use Keyring;
+===> Testing [FAIL]: Keyring:ver<0.2.0>:auth<zef:jmaslak>
+[Keyring] Failed to get passing tests, but continuing with --force-test
+===> Installing: Keyring:ver<0.2.0>:auth<zef:jmaslak>
+===> Install [OK] for Keyring:ver<0.2.0>:auth<zef:jmaslak>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 28.288s
+             CPU time consumed: 26.851s
+                   Memory peak: 1G (swap: 0B)

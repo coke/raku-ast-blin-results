@@ -1,0 +1,58 @@
+Running as unit: run-p1490802-i9804671.service; invocation ID: cd51bb1833fd47a9bbe28f3370ec9e62
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Grammar::BNF
+===> Found: Grammar::BNF:ver<1.2>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Grammar::BNF] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789439038.1490807.8781.878900613447/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz https://360.zef.pm/G/RA/GRAMMAR_BNF/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz
+===> Fetching [OK]: Grammar::BNF:ver<1.2>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1789439038.1490807.8781.878900613447/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz
+[Grammar::BNF] Command: tar -t -f ./ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz
+[Grammar::BNF] Command: tar -xvf ./ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz -C ../ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz
+===> Extraction [OK]: Grammar::BNF to /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz
+===> Testing: Grammar::BNF:ver<1.2>:auth<zef:raku-community-modules>
+[Grammar::BNF] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2 t/01-parse.rakutest
+[Grammar::BNF] ===SORRY!=== Error while compiling t/01-parse.rakutest
+[Grammar::BNF] ===SORRY!===
+[Grammar::BNF] Object does not exist in serialization context
+[Grammar::BNF] at t/01-parse.rakutest:2
+[Grammar::BNF] ------> <BOL><HERE>use Grammar::BNF;
+[Grammar::BNF] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2 t/02-generate.rakutest
+[Grammar::BNF] ===SORRY!=== Error while compiling t/02-generate.rakutest
+[Grammar::BNF] ===SORRY!===
+[Grammar::BNF] Object does not exist in serialization context
+[Grammar::BNF] at t/02-generate.rakutest:2
+[Grammar::BNF] ------> <BOL><HERE>use Grammar::BNF;
+[Grammar::BNF] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2 t/03-slang.rakutest
+[Grammar::BNF] ===SORRY!=== Error while compiling t/03-slang.rakutest
+[Grammar::BNF] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2/lib/Slang/BNF.rakumod (Slang::BNF)
+[Grammar::BNF] ===SORRY!===
+[Grammar::BNF] Object does not exist in serialization context
+[Grammar::BNF] at /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2/lib/Slang/BNF.rakumod (Slang::BNF):3
+[Grammar::BNF] ------> <BOL><HERE>use Grammar::BNF;
+[Grammar::BNF] at t/03-slang.rakutest:2
+[Grammar::BNF] ------> <BOL><HERE>use Slang::BNF;
+[Grammar::BNF] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2 t/04-abnf.rakutest
+[Grammar::BNF] ===SORRY!=== Error while compiling t/04-abnf.rakutest
+[Grammar::BNF] ===SORRY!===
+[Grammar::BNF] Object does not exist in serialization context
+[Grammar::BNF] at t/04-abnf.rakutest:5
+[Grammar::BNF] ------> <BOL><HERE>use Grammar::ABNF;
+[Grammar::BNF] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2 t/05-precomp.rakutest
+[Grammar::BNF] 1..2
+[Grammar::BNF] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2/t/lib/PrecompBNF.rakumod (PrecompBNF)
+[Grammar::BNF] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2/lib/Slang/BNF.rakumod (Slang::BNF)
+[Grammar::BNF] ===SORRY!===
+[Grammar::BNF] Object does not exist in serialization context
+[Grammar::BNF] at /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2/lib/Slang/BNF.rakumod (Slang::BNF):3
+[Grammar::BNF] ------> <BOL><HERE>use Grammar::BNF;
+[Grammar::BNF] at /home/coke/sandbox/blin/data/zef-data/tmp/ab45c83b6df3f02f154406eaf64e2054c667dc8d.tar.gz/Grammar-BNF-1.2/t/lib/PrecompBNF.rakumod (PrecompBNF):1
+[Grammar::BNF] ------> <BOL><HERE>use Slang::BNF;
+[Grammar::BNF]   in block <unit> at t/05-precomp.rakutest line 11
+[Grammar::BNF] # You planned 2 tests, but ran 0
+===> Testing [FAIL]: Grammar::BNF:ver<1.2>:auth<zef:raku-community-modules>
+[Grammar::BNF] Failed to get passing tests, but continuing with --force-test
+===> Installing: Grammar::BNF:ver<1.2>:auth<zef:raku-community-modules>
+===> Install [OK] for Grammar::BNF:ver<1.2>:auth<zef:raku-community-modules>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 33.189s
+             CPU time consumed: 30.186s
+                   Memory peak: 1G (swap: 0B)

@@ -1,0 +1,48 @@
+===> Searching for: System::Query
+Running as unit: run-p1637128-i10000271.service; invocation ID: ffa923ba3e1d4272bd0fdf7b7ca1c004
+Press ^] three times within 1s to disconnect TTY.
+===> Found: System::Query:ver<0.1.6>:auth<zef:tony-o> [via Zef::Repository::Ecosystems<fez>]
+[System::Query] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442066.1637131.3986.7975481944527/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz https://360.zef.pm/S/YS/SYSTEM_QUERY/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz
+===> Fetching [OK]: System::Query:ver<0.1.6>:auth<zef:tony-o> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442066.1637131.3986.7975481944527/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz
+[System::Query] Command: tar -t -f ./d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz
+[System::Query] Command: tar -xvf ./d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz -C ../d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz
+===> Extraction [OK]: System::Query to /home/coke/sandbox/blin/data/zef-data/tmp/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz
+===> Testing: System::Query:ver<0.1.6>:auth<zef:tony-o>
+[System::Query] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz t/array.t
+[System::Query] 1..4
+[System::Query] Expected a modifiable native int argument for '$pos'
+[System::Query]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[System::Query]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[System::Query]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[System::Query]   in block <unit> at t/array.t line 10
+[System::Query] # You planned 4 tests, but ran 0
+[System::Query] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz t/basic.t
+[System::Query] 1..2
+[System::Query] ok 1 - 
+[System::Query] Expected a modifiable native int argument for '$pos'
+[System::Query]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[System::Query]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[System::Query]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[System::Query]   in block <unit> at t/basic.t line 9
+[System::Query] # You planned 2 tests, but ran 1
+[System::Query] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz t/die.t
+[System::Query] 1..1
+[System::Query] ok 1 - cannot make a decision
+[System::Query] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz t/env.t
+[System::Query] 1..1
+[System::Query] ok 1 - 
+[System::Query] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d254fdd0efd10a06bde98ee99b6ab1349532760a.tar.gz t/one.t
+[System::Query] Expected a modifiable native int argument for '$pos'
+[System::Query]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[System::Query]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[System::Query]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[System::Query]   in block <unit> at t/one.t line 9
+===> Testing [FAIL]: System::Query:ver<0.1.6>:auth<zef:tony-o>
+[System::Query] Failed to get passing tests, but continuing with --force-test
+===> Installing: System::Query:ver<0.1.6>:auth<zef:tony-o>
+===> Install [OK] for System::Query:ver<0.1.6>:auth<zef:tony-o>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 11.386s
+             CPU time consumed: 14.278s
+                   Memory peak: 929.8M (swap: 0B)

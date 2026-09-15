@@ -1,0 +1,113 @@
+Running as unit: run-p1881307-i10144832.service
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Pastebin::Gist
+===> Found: Pastebin::Gist:ver<1.007>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Pastebin::Gist] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789447585.1881312.4383.507450658436/30df4f02333ebd14502a5eae4303082c44da4249.tar.gz https://360.zef.pm/P/AS/PASTEBIN_GIST/30df4f02333ebd14502a5eae4303082c44da4249.tar.gz
+===> Fetching [OK]: Pastebin::Gist:ver<1.007>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1789447585.1881312.4383.507450658436/30df4f02333ebd14502a5eae4303082c44da4249.tar.gz
+[Pastebin::Gist] Command: tar -t -f ./30df4f02333ebd14502a5eae4303082c44da4249.tar.gz
+[Pastebin::Gist] Command: tar -xvf ./30df4f02333ebd14502a5eae4303082c44da4249.tar.gz -C ../30df4f02333ebd14502a5eae4303082c44da4249.tar.gz
+===> Extraction [OK]: Pastebin::Gist to /home/coke/sandbox/blin/data/zef-data/tmp/30df4f02333ebd14502a5eae4303082c44da4249.tar.gz
+===> Testing: Pastebin::Gist:ver<1.007>:auth<zef:raku-community-modules>
+[Pastebin::Gist] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/30df4f02333ebd14502a5eae4303082c44da4249.tar.gz/Pastebin-Gist-1.007 t/01-paste.rakutest
+[Pastebin::Gist] 1..7
+[Pastebin::Gist] Expected a modifiable native int argument for '$pos'
+[Pastebin::Gist]   in method paste at /home/coke/sandbox/blin/data/zef-data/tmp/30df4f02333ebd14502a5eae4303082c44da4249.tar.gz/Pastebin-Gist-1.007/lib/Pastebin/Gist.rakumod (Pastebin::Gist) line 1
+[Pastebin::Gist]   in block <unit> at t/01-paste.rakutest line 18
+[Pastebin::Gist] # You planned 7 tests, but ran 0
+===> Testing [FAIL]: Pastebin::Gist:ver<1.007>:auth<zef:raku-community-modules>
+[Pastebin::Gist] Failed to get passing tests, but continuing with --force-test
+===> Installing: Pastebin::Gist:ver<1.007>:auth<zef:raku-community-modules>
+===> Install [OK] for Pastebin::Gist:ver<1.007>:auth<zef:raku-community-modules>
+
+1 bin/ script [test-pastebin-gist] installed to:
+/home/coke/sandbox/blin/installed/Pastebin::Gist_github:raku-community-modules_1.004002_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 7.472s
+             CPU time consumed: 1min 34.158s
+                   Memory peak: 2.3G (swap: 0B)

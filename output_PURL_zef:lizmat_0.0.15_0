@@ -1,0 +1,434 @@
+Running as unit: run-p1772527-i10161222.service; invocation ID: 19b862c2a761491c8ed1a64f4c4b1c5d
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: PURL
+===> Found: PURL:ver<0.0.15>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[PURL] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445166.1772528.8671.331328049277/08a3dd50e23f03a6ff9b58ec5d60e43ed5468b40.tar.gz https://360.zef.pm/P/UR/PURL/08a3dd50e23f03a6ff9b58ec5d60e43ed5468b40.tar.gz
+===> Fetching [OK]: PURL:ver<0.0.15>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445166.1772528.8671.331328049277/08a3dd50e23f03a6ff9b58ec5d60e43ed5468b40.tar.gz
+[PURL] Command: tar -t -f ./08a3dd50e23f03a6ff9b58ec5d60e43ed5468b40.tar.gz
+[PURL] Command: tar -xvf ./08a3dd50e23f03a6ff9b58ec5d60e43ed5468b40.tar.gz -C ../08a3dd50e23f03a6ff9b58ec5d60e43ed5468b40.tar.gz
+===> Extraction [OK]: PURL to /home/coke/sandbox/blin/data/zef-data/tmp/08a3dd50e23f03a6ff9b58ec5d60e43ed5468b40.tar.gz
+===> Testing: PURL:ver<0.0.15>:auth<zef:lizmat>
+[PURL] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/08a3dd50e23f03a6ff9b58ec5d60e43ed5468b40.tar.gz/PURL-0.0.15 t/01-basic.rakutest
+[PURL] 1..33
+[PURL] ok 1 - The object is-a 'PURL'
+[PURL] ok 2 - is the type correct
+[PURL] ok 3 - is the namespace correct
+[PURL] ok 4 - is the name correct
+[PURL] ok 5 - is the version correct
+[PURL] ok 6 - are there no qualifiers
+[PURL] ok 7 - is the subpath not present
+[PURL] ok 8 - Does it gist as the stringification
+[PURL] ok 9 - got at least one type
+[PURL] # Subtest: checking all descriptions and examples
+[PURL]     1..66
+[PURL]     ok 1 - PURL::alpm has description
+[PURL]     ok 2 - PURL::alpm has examples
+[PURL]     ok 3 - PURL::apk has description
+[PURL]     ok 4 - PURL::apk has examples
+[PURL]     ok 5 - PURL::bitbucket has description
+[PURL]     ok 6 - PURL::bitbucket has examples
+[PURL]     ok 7 - PURL::bitnami has description
+[PURL]     ok 8 - PURL::bitnami has examples
+[PURL]     ok 9 - PURL::cargo has description
+[PURL]     ok 10 - PURL::cargo has examples
+[PURL]     ok 11 - PURL::cocoapods has description
+[PURL]     ok 12 - PURL::cocoapods has examples
+[PURL]     ok 13 - PURL::composer has description
+[PURL]     ok 14 - PURL::composer has examples
+[PURL]     ok 15 - PURL::conan has description
+[PURL]     ok 16 - PURL::conan has examples
+[PURL]     ok 17 - PURL::conda has description
+[PURL]     ok 18 - PURL::conda has examples
+[PURL]     ok 19 - PURL::cpan has description
+[PURL]     ok 20 - PURL::cpan has examples
+[PURL]     ok 21 - PURL::cran has description
+[PURL]     ok 22 - PURL::cran has examples
+[PURL]     ok 23 - PURL::deb has description
+[PURL]     ok 24 - PURL::deb has examples
+[PURL]     ok 25 - PURL::docker has description
+[PURL]     ok 26 - PURL::docker has examples
+[PURL]     ok 27 - PURL::gem has description
+[PURL]     ok 28 - PURL::gem has examples
+[PURL]     ok 29 - PURL::generic has description
+[PURL]     ok 30 - PURL::generic has examples
+[PURL]     ok 31 - PURL::github has description
+[PURL]     ok 32 - PURL::github has examples
+[PURL]     ok 33 - PURL::golang has description
+[PURL]     ok 34 - PURL::golang has examples
+[PURL]     ok 35 - PURL::hackage has description
+[PURL]     ok 36 - PURL::hackage has examples
+[PURL]     ok 37 - PURL::hex has description
+[PURL]     ok 38 - PURL::hex has examples
+[PURL]     ok 39 - PURL::huggingface has description
+[PURL]     ok 40 - PURL::huggingface has examples
+[PURL]     ok 41 - PURL::luarocks has description
+[PURL]     ok 42 - PURL::luarocks has examples
+[PURL]     ok 43 - PURL::maven has description
+[PURL]     ok 44 - PURL::maven has examples
+[PURL]     ok 45 - PURL::mlflow has description
+[PURL]     ok 46 - PURL::mlflow has examples
+[PURL]     ok 47 - PURL::npm has description
+[PURL]     ok 48 - PURL::npm has examples
+[PURL]     ok 49 - PURL::nuget has description
+[PURL]     ok 50 - PURL::nuget has examples
+[PURL]     ok 51 - PURL::oci has description
+[PURL]     ok 52 - PURL::oci has examples
+[PURL]     ok 53 - PURL::pub has description
+[PURL]     ok 54 - PURL::pub has examples
+[PURL]     ok 55 - PURL::pypi has description
+[PURL]     ok 56 - PURL::pypi has examples
+[PURL]     ok 57 - PURL::qpkg has description
+[PURL]     ok 58 - PURL::qpkg has examples
+[PURL]     ok 59 - PURL::raku has description
+[PURL]     ok 60 - PURL::raku has examples
+[PURL]     ok 61 - PURL::rpm has description
+[PURL]     ok 62 - PURL::rpm has examples
+[PURL]     ok 63 - PURL::swid has description
+[PURL]     ok 64 - PURL::swid has examples
+[PURL]     ok 65 - PURL::swift has description
+[PURL]     ok 66 - PURL::swift has examples
+[PURL] ok 10 - checking all descriptions and examples
+[PURL] # Subtest: checking Raku identity 'SBOM::CycloneDX:ver<0.0.7>:auth<zef:lizmat>'
+[PURL]     1..4
+[PURL]     ok 1 - The object is-a 'PURL'
+[PURL]     ok 2 - is auth correct
+[PURL]     ok 3 - is name correct
+[PURL]     ok 4 - is version correct
+[PURL] ok 11 - checking Raku identity 'SBOM::CycloneDX:ver<0.0.7>:auth<zef:lizmat>'
+[PURL] # Subtest: checking Raku identity 'JSON::Fast:ver<0.19>:auth<cpan:TIMOTIMO>'
+[PURL]     1..4
+[PURL]     ok 1 - The object is-a 'PURL'
+[PURL]     ok 2 - is auth correct
+[PURL]     ok 3 - is name correct
+[PURL]     ok 4 - is version correct
+[PURL] ok 12 - checking Raku identity 'JSON::Fast:ver<0.19>:auth<cpan:TIMOTIMO>'
+[PURL] # Subtest: checking Raku identity 'Cro::RPC::JSON:ver<0.1.6>:auth<zef:vrurg>:api<2>'
+[PURL]     1..4
+[PURL]     ok 1 - The object is-a 'PURL'
+[PURL]     ok 2 - is auth correct
+[PURL]     ok 3 - is name correct
+[PURL]     ok 4 - is version correct
+[PURL] ok 13 - checking Raku identity 'Cro::RPC::JSON:ver<0.1.6>:auth<zef:vrurg>:api<2>'
+[PURL] ok 14 - is the stringification correct for 'PURL'
+[PURL] ok 15 - is the type correct for 'PURL'
+[PURL] ok 16 - is the name correct for 'PURL'
+[PURL] ok 17 - is the namespace absent for 'PURL'
+[PURL] ok 18 - is the version absent for 'PURL'
+[PURL] ok 19 - is the stringification correct for 'PURL:ver<*>'
+[PURL] ok 20 - is the type correct for 'PURL:ver<*>'
+[PURL] ok 21 - is the name correct for 'PURL:ver<*>'
+[PURL] ok 22 - is the namespace absent for 'PURL:ver<*>'
+[PURL] ok 23 - is the version absent for 'PURL:ver<*>'
+[PURL] ok 24 - is stringification without version but with api correct
+[PURL] ok 25 - does a requirement version with a plus render correctly
+[PURL] ok 26 - does an additional subpath get rendered
+[PURL] ok 27 - does an additional qualifier get rendered
+[PURL] ok 28 - does an additional qualifier get rendered with a + version
+[PURL] ok 29 - throws when an unpinned identity is given, and it must be pinned
+[PURL] ok 30 - throws when a version and a VERS are specified
+[PURL] ok 31 - did the software version get canonicalized correctly
+[PURL] ok 32 - is the VERS correct
+[PURL] ok 33 - does an illegal vers value invalidate a PURL
+[PURL] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/08a3dd50e23f03a6ff9b58ec5d60e43ed5468b40.tar.gz/PURL-0.0.15 t/02-test-suite.rakutest
+[PURL] 1..34
+[PURL] ok 1 - did we get any test files
+[PURL] Expected a modifiable native int argument for '$pos'
+[PURL]   in sub parse-obj-immutable at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 914
+[PURL]   in sub parse-thing-immutable at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1013
+[PURL]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[PURL]   in block <unit> at t/02-test-suite.rakutest line 15
+[PURL] # You planned 34 tests, but ran 1
+[PURL] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/08a3dd50e23f03a6ff9b58ec5d60e43ed5468b40.tar.gz/PURL-0.0.15 t/03-examples.rakutest
+[PURL] 1..33
+[PURL] # Subtest: Checking examples of alpm
+[PURL]     ok 1 - is this purl ok: pkg:alpm/arch/pacman@6.0.1-1?arch=x86_64
+[PURL]     ok 2 - is this purl ok: pkg:alpm/arch/python-pip@21.0-1?arch=any
+[PURL]     ok 3 - is this purl ok: pkg:alpm/arch/containers-common@1:0.47.4-4?arch=x86_64
+[PURL]     1..3
+[PURL] ok 1 - Checking examples of alpm
+[PURL] # Subtest: Checking examples of apk
+[PURL]     ok 1 - is this purl ok: pkg:apk/alpine/curl@7.83.0-r0?arch=x86
+[PURL]     ok 2 - is this purl ok: pkg:apk/alpine/apk@2.12.9-r3?arch=x86
+[PURL]     1..2
+[PURL] ok 2 - Checking examples of apk
+[PURL] # Subtest: Checking examples of bitbucket
+[PURL]     ok 1 - is this purl ok: pkg:bitbucket/birkenfeld/pygments-main@244fd47e07d1014f0aed9c
+[PURL]     1..1
+[PURL] ok 3 - Checking examples of bitbucket
+[PURL] # Subtest: Checking examples of bitnami
+[PURL]     ok 1 - is this purl ok: pkg:bitnami/wordpress?distro=debian-12
+[PURL]     ok 2 - is this purl ok: pkg:bitnami/wordpress@6.2.0?distro=debian-12
+[PURL]     ok 3 - is this purl ok: pkg:bitnami/wordpress@6.2.0?arch=arm64&distro=debian-12
+[PURL]     ok 4 - is this purl ok: pkg:bitnami/wordpress@6.2.0?arch=arm64&distro=photon-4
+[PURL]     1..4
+[PURL] ok 4 - Checking examples of bitnami
+[PURL] # Subtest: Checking examples of cargo
+[PURL]     ok 1 - is this purl ok: pkg:cargo/rand@0.7.2
+[PURL]     ok 2 - is this purl ok: pkg:cargo/clap@2.33.0
+[PURL]     ok 3 - is this purl ok: pkg:cargo/structopt@0.3.11
+[PURL]     1..3
+[PURL] ok 5 - Checking examples of cargo
+[PURL] # Subtest: Checking examples of cocoapods
+[PURL]     ok 1 - is this purl ok: pkg:cocoapods/AFNetworking@4.0.1
+[PURL]     ok 2 - is this purl ok: pkg:cocoapods/MapsIndoors@3.24.0
+[PURL]     ok 3 - is this purl ok: pkg:cocoapods/ShareKit@2.0 \#Twitter
+[PURL]     ok 4 - is this purl ok: pkg:cocoapods/GoogleUtilities@7.5.2 \#NSData+zlib
+[PURL]     1..4
+[PURL] ok 6 - Checking examples of cocoapods
+[PURL] # Subtest: Checking examples of composer
+[PURL]     ok 1 - is this purl ok: pkg:composer/laravel/laravel@5.5.0
+[PURL]     1..1
+[PURL] ok 7 - Checking examples of composer
+[PURL] # Subtest: Checking examples of conan
+[PURL]     ok 1 - is this purl ok: pkg:conan/openssl@3.0.3
+[PURL]     ok 2 - is this purl ok: pkg:conan/openssl.org/openssl@3.0.3?user=bincrafters&channel=stable
+[PURL]     ok 3 - is this purl ok: pkg:conan/openssl.org/openssl@3.0.3?arch=x86_64&build_type=Debug&compiler=Visual%20Studio&compiler.runtime=MDd&compiler.version=16&os=Windows&shared=True&rrev=93a82349c31917d2d674d22065c7a9ef9f380c8e&prev=b429db8a0e324114c25ec387bfd8281f330d7c5c
+[PURL]     1..3
+[PURL] ok 8 - Checking examples of conan
+[PURL] # Subtest: Checking examples of conda
+[PURL]     ok 1 - is this purl ok: pkg:conda/absl-py@0.4.1?build=py36h06a4308_0&channel=main&subdir=linux-64&type=tar.bz2
+[PURL]     1..1
+[PURL] ok 9 - Checking examples of conda
+[PURL] # Subtest: Checking examples of cpan
+[PURL]     ok 1 - is this purl ok: pkg:cpan/Perl::Version@1.013
+[PURL]     ok 2 - is this purl ok: pkg:cpan/DROLSKY/DateTime@1.55
+[PURL]     ok 3 - is this purl ok: pkg:cpan/DateTime@1.55
+[PURL]     ok 4 - is this purl ok: pkg:cpan/GDT/URI-PackageURL
+[PURL]     ok 5 - is this purl ok: pkg:cpan/LWP::UserAgent
+[PURL]     ok 6 - is this purl ok: pkg:cpan/OALDERS/libwww-perl@6.76
+[PURL]     ok 7 - is this purl ok: pkg:cpan/URI
+[PURL]     1..7
+[PURL] ok 10 - Checking examples of cpan
+[PURL] # Subtest: Checking examples of cran
+[PURL]     ok 1 - is this purl ok: pkg:cran/A3@1.0.0
+[PURL]     ok 2 - is this purl ok: pkg:cran/rJava@1.0-4
+[PURL]     ok 3 - is this purl ok: pkg:cran/caret@6.0-88
+[PURL]     1..3
+[PURL] ok 11 - Checking examples of cran
+[PURL] # Subtest: Checking examples of deb
+[PURL]     ok 1 - is this purl ok: pkg:deb/debian/curl@7.50.3-1?arch=i386&distro=jessie
+[PURL]     ok 2 - is this purl ok: pkg:deb/debian/dpkg@1.19.0.4?arch=amd64&distro=stretch
+[PURL]     ok 3 - is this purl ok: pkg:deb/ubuntu/dpkg@1.19.0.4?arch=amd64
+[PURL]     ok 4 - is this purl ok: pkg:deb/debian/attr@1:2.4.47-2?arch=source
+[PURL]     ok 5 - is this purl ok: pkg:deb/debian/attr@1:2.4.47-2%2Bb1?arch=amd64
+[PURL]     1..5
+[PURL] ok 12 - Checking examples of deb
+[PURL] # Subtest: Checking examples of docker
+[PURL]     ok 1 - is this purl ok: pkg:docker/cassandra@latest
+[PURL]     ok 2 - is this purl ok: pkg:docker/smartentry/debian@dc437cc87d10
+[PURL]     ok 3 - is this purl ok: pkg:docker/customer/dockerimage@sha256%3A244fd47e07d10?repository_url=gcr.io
+[PURL]     1..3
+[PURL] ok 13 - Checking examples of docker
+[PURL] # Subtest: Checking examples of gem
+[PURL]     ok 1 - is this purl ok: pkg:gem/ruby-advisory-db-check@0.12.4
+[PURL]     ok 2 - is this purl ok: pkg:gem/jruby-launcher@1.1.2?platform=java
+[PURL]     1..2
+[PURL] ok 14 - Checking examples of gem
+[PURL] # Subtest: Checking examples of generic
+[PURL]     ok 1 - is this purl ok: pkg:generic/openssl@1.1.10g
+[PURL]     ok 2 - is this purl ok: pkg:generic/openssl@1.1.10g?download_url=https://openssl.org/source/openssl-1.1.0g.tar.gz&checksum=sha256:de4d501267da
+[PURL]     ok 3 - is this purl ok: pkg:generic/bitwarderl?vcs_url=git%2Bhttps://git.fsfe.org/dxtr/bitwarderl%40cc55108da32
+[PURL]     1..3
+[PURL] ok 15 - Checking examples of generic
+[PURL] # Subtest: Checking examples of github
+[PURL]     ok 1 - is this purl ok: pkg:github/package-url/purl-spec@244fd47e07d1004
+[PURL]     ok 2 - is this purl ok: pkg:github/package-url/purl-spec@244fd47e07d1004 \#everybody/loves/dogs
+[PURL]     1..2
+[PURL] ok 16 - Checking examples of github
+[PURL] # Subtest: Checking examples of golang
+[PURL]     ok 1 - is this purl ok: pkg:golang/github.com/gorilla/context@234fd47e07d1004f0aed9c
+[PURL]     ok 2 - is this purl ok: pkg:golang/google.golang.org/genproto \#googleapis/api/annotations
+[PURL]     ok 3 - is this purl ok: pkg:golang/github.com/gorilla/context@234fd47e07d1004f0aed9c \#api
+[PURL]     1..3
+[PURL] ok 17 - Checking examples of golang
+[PURL] # Subtest: Checking examples of hackage
+[PURL]     ok 1 - is this purl ok: pkg:hackage/a50@0.5
+[PURL]     ok 2 - is this purl ok: pkg:hackage/AC-HalfInteger@1.2.1
+[PURL]     ok 3 - is this purl ok: pkg:hackage/3d-graphics-examples@0.0.0.2
+[PURL]     1..3
+[PURL] ok 18 - Checking examples of hackage
+[PURL] # Subtest: Checking examples of hex
+[PURL]     ok 1 - is this purl ok: pkg:hex/jason@1.1.2
+[PURL]     ok 2 - is this purl ok: pkg:hex/acme/foo@2.3.
+[PURL]     ok 3 - is this purl ok: pkg:hex/phoenix_html@2.13.3 \#priv/static/phoenix_html.js
+[PURL]     ok 4 - is this purl ok: pkg:hex/bar@1.2.3?repository_url=https://myrepo.example.com
+[PURL]     1..4
+[PURL] ok 19 - Checking examples of hex
+[PURL] # Subtest: Checking examples of huggingface
+[PURL]     ok 1 - is this purl ok: pkg:huggingface/distilbert-base-uncased@043235d6088ecd3dd5fb5ca3592b6913fd516027
+[PURL]     ok 2 - is this purl ok: pkg:huggingface/microsoft/deberta-v3-base@559062ad13d311b87b2c455e67dcd5f1c8f65111?repository_url=https://hub-ci.huggingface.co
+[PURL]     1..2
+[PURL] ok 20 - Checking examples of huggingface
+[PURL] # Subtest: Checking examples of luarocks
+[PURL]     ok 1 - is this purl ok: pkg:luarocks/luasocket@3.1.0-1
+[PURL]     ok 2 - is this purl ok: pkg:luarocks/hisham/luafilesystem@1.8.0-1
+[PURL]     ok 3 - is this purl ok: pkg:luarocks/username/packagename@0.1.0-1?repository_url=https://example.com/private_rocks_server/
+[PURL]     1..3
+[PURL] ok 21 - Checking examples of luarocks
+[PURL] # Subtest: Checking examples of maven
+[PURL]     ok 1 - is this purl ok: pkg:maven/org.apache.xmlgraphics/batik-anim@1.9.1
+[PURL]     ok 2 - is this purl ok: pkg:maven/org.apache.xmlgraphics/batik-anim@1.9.1?type=pom
+[PURL]     ok 3 - is this purl ok: pkg:maven/org.apache.xmlgraphics/batik-anim@1.9.1?classifier=sources
+[PURL]     ok 4 - is this purl ok: pkg:maven/org.apache.xmlgraphics/batik-anim@1.9.1?type=zip&classifier=dist
+[PURL]     ok 5 - is this purl ok: pkg:maven/net.sf.jacob-projec/jacob@1.14.3?classifier=x86&type=dll
+[PURL]     ok 6 - is this purl ok: pkg:maven/net.sf.jacob-projec/jacob@1.14.3?classifier=x64&type=dll
+[PURL]     ok 7 - is this purl ok: pkg:maven/groovy/groovy@1.0?repository_url=https://maven.google.com
+[PURL]     1..7
+[PURL] ok 22 - Checking examples of maven
+[PURL] # Subtest: Checking examples of mlflow
+[PURL]     ok 1 - is this purl ok: pkg:mlflow/creditfraud@3?repository_url=https://westus2.api.azureml.ms/mlflow/v1.0/subscriptions/a50f2011-fab8-4164-af23-c62881ef8c95/resourceGroups/TestResourceGroup/providers/Microsoft.MachineLearningServices/workspaces/TestWorkspace
+[PURL]     ok 2 - is this purl ok: pkg:mlflow/trafficsigns@10?model_uuid=36233173b22f4c89b451f1228d700d49&run_id=410a3121-2709-4f88-98dd-dba0ef056b0a&repository_url=https://adb-5245952564735461.0.azuredatabricks.net/api/2.0/mlflow
+[PURL]     1..2
+[PURL] ok 23 - Checking examples of mlflow
+[PURL] # Subtest: Checking examples of npm
+[PURL]     ok 1 - is this purl ok: pkg:npm/foobar@12.3.1
+[PURL]     ok 2 - is this purl ok: pkg:npm/%40angular/animation@12.3.1
+[PURL]     ok 3 - is this purl ok: pkg:npm/mypackage@12.4.5?vcs_url=git://host.com/path/to/repo.git%404345abcd34343
+[PURL]     1..3
+[PURL] ok 24 - Checking examples of npm
+[PURL] # Subtest: Checking examples of nuget
+[PURL]     ok 1 - is this purl ok: pkg:nuget/EnterpriseLibrary.Common@6.0.1304
+[PURL]     1..1
+[PURL] ok 25 - Checking examples of nuget
+[PURL] # Subtest: Checking examples of oci
+[PURL]     ok 1 - is this purl ok: pkg:oci/debian@sha256%3A244fd47e07d10?repository_url=docker.io/library/debian&arch=amd64&tag=latest
+[PURL]     ok 2 - is this purl ok: pkg:oci/debian@sha256%3A244fd47e07d10?repository_url=ghcr.io/debian&tag=bullseye
+[PURL]     ok 3 - is this purl ok: pkg:oci/static@sha256%3A244fd47e07d10?repository_url=gcr.io/distroless/static&tag=latest
+[PURL]     ok 4 - is this purl ok: pkg:oci/hello-wasm@sha256%3A244fd47e07d10?tag=v1
+[PURL]     1..4
+[PURL] ok 26 - Checking examples of oci
+[PURL] # Subtest: Checking examples of pub
+[PURL]     ok 1 - is this purl ok: pkg:pub/characters@1.2.0
+[PURL]     ok 2 - is this purl ok: pkg:pub/flutter@0.0.0
+[PURL]     1..2
+[PURL] ok 27 - Checking examples of pub
+[PURL] # Subtest: Checking examples of pypi
+[PURL]     ok 1 - is this purl ok: pkg:pypi/django@1.11.1
+[PURL]     ok 2 - is this purl ok: pkg:pypi/django@1.11.1?file_name=Django-1.11.1.tar.gz
+[PURL]     ok 3 - is this purl ok: pkg:pypi/django@1.11.1?file_name=Django-1.11.1-py2.py3-none-any.whl
+[PURL]     ok 4 - is this purl ok: pkg:pypi/django-allauth@12.23
+[PURL]     1..4
+[PURL] ok 28 - Checking examples of pypi
+[PURL] # Subtest: Checking examples of qpkg
+[PURL]     ok 1 - is this purl ok: pkg:qpkg/blackberry/com.qnx.sdp@7.0.0.SGA201702151847
+[PURL]     ok 2 - is this purl ok: pkg:qpkg/blackberry/com.qnx.qnx710.foo.bar.qux@0.0.4.01449T202205040833L
+[PURL]     1..2
+[PURL] ok 29 - Checking examples of qpkg
+[PURL] # Subtest: Checking examples of raku
+[PURL]     ok 1 - is this purl ok: pkg:raku/zef:lizmat/SBOM::CycloneDX@0.07
+[PURL]     ok 2 - is this purl ok: pkg:raku/cpan:TIMOTIMO/JSON::Fast@0.19
+[PURL]     ok 3 - is this purl ok: pkg:raku/zef:lizmat/駱駝道@0.0.1
+[PURL]     ok 4 - is this purl ok: pkg:raku/zef:lizmat/SBOM::CycloneDX@0.07?download_url=https://360.zef.pm/S/BO/SBOM_CYCLONEDX/e9df9ac7d473c289aae4df19ea10c0289bb04851.tar.gz
+[PURL]     ok 5 - is this purl ok: pkg:raku/cpan:TIMOTIMO/JSON::Fast@0.19?download_url=https://cpan.metacpan.org/authors/id//T/TI/TIMOTIMO/Perl6/JSON-Fast-0.19.tar.gz
+[PURL]     1..5
+[PURL] ok 30 - Checking examples of raku
+[PURL] # Subtest: Checking examples of rpm
+[PURL]     ok 1 - is this purl ok: pkg:rpm/fedora/curl@7.50.3-1.fc25?arch=i386&distro=fedora-25
+[PURL]     ok 2 - is this purl ok: pkg:rpm/centerim@4.22.10-1.el6?arch=i686&epoch=1&distro=fedora-25
+[PURL]     1..2
+[PURL] ok 31 - Checking examples of rpm
+[PURL] # Subtest: Checking examples of swid
+[PURL]     ok 1 - is this purl ok: pkg:swid/Acme/example.com/Enterprise+Server@1.0.0?tag_id=75b8c285-fa7b-485b-b199-4745e3004d0d
+[PURL]     ok 2 - is this purl ok: pkg:swid/Fedora@29?tag_id=org.fedoraproject.Fedora-29
+[PURL]     ok 3 - is this purl ok: pkg:swid/Adobe+Systems+Incorporated/Adobe+InDesign@CC?tag_id=CreativeCloud-CS6-Win-GM-MUL
+[PURL]     1..3
+[PURL] ok 32 - Checking examples of swid
+[PURL] # Subtest: Checking examples of swift
+[PURL]     ok 1 - is this purl ok: pkg:swift/github.com/Alamofire/Alamofire@5.4.3
+[PURL]     ok 2 - is this purl ok: pkg:swift/github.com/RxSwiftCommunity/RxFlow@2.12.4
+[PURL]     1..2
+[PURL] ok 33 - Checking examples of swift
+===> Testing [FAIL]: PURL:ver<0.0.15>:auth<zef:lizmat>
+[PURL] Failed to get passing tests, but continuing with --force-test
+===> Installing: PURL:ver<0.0.15>:auth<zef:lizmat>
+===> Install [OK] for PURL:ver<0.0.15>:auth<zef:lizmat>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 15.459s
+             CPU time consumed: 21.445s
+                   Memory peak: 1.5G (swap: 0B)

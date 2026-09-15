@@ -1,0 +1,46 @@
+Running as unit: run-p1568848-i9918872.service; invocation ID: 3d4678357af544e58aaaec298295a03b
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Grammar::Debugger
+===> Found: Grammar::Debugger:ver<1.0.3>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[Grammar::Debugger] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789440660.1568849.7198.95121747815/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz https://360.zef.pm/G/RA/GRAMMAR_DEBUGGER/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz
+===> Fetching [OK]: Grammar::Debugger:ver<1.0.3>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1789440660.1568849.7198.95121747815/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz
+[Grammar::Debugger] Command: tar -t -f ./9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz
+[Grammar::Debugger] Command: tar -xvf ./9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz -C ../9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz
+===> Extraction [OK]: Grammar::Debugger to /home/coke/sandbox/blin/data/zef-data/tmp/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz
+===> Testing: Grammar::Debugger:ver<1.0.3>:auth<zef:raku-community-modules>
+[Grammar::Debugger] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz/Grammar-Debugger-1.0.3 t/debugger.rakutest
+[Grammar::Debugger] ===SORRY!=== Error while compiling t/debugger.rakutest
+[Grammar::Debugger] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz/Grammar-Debugger-1.0.3/lib/Grammar/Debugger.rakumod (Grammar::Debugger)
+[Grammar::Debugger] ===SORRY!===
+[Grammar::Debugger] Object does not exist in serialization context
+[Grammar::Debugger] at /home/coke/sandbox/blin/data/zef-data/tmp/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz/Grammar-Debugger-1.0.3/lib/Grammar/Debugger.rakumod (Grammar::Debugger):1
+[Grammar::Debugger] ------> <BOL><HERE>use Grammar::Debugger::WrapCache;
+[Grammar::Debugger] at t/debugger.rakutest:2
+[Grammar::Debugger] ------> <BOL><HERE>use Grammar::Debugger;
+[Grammar::Debugger] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz/Grammar-Debugger-1.0.3 t/ltm.rakutest
+[Grammar::Debugger] ===SORRY!=== Error while compiling t/ltm.rakutest
+[Grammar::Debugger] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz/Grammar-Debugger-1.0.3/lib/Grammar/Tracer.rakumod (Grammar::Tracer)
+[Grammar::Debugger] ===SORRY!===
+[Grammar::Debugger] Object does not exist in serialization context
+[Grammar::Debugger] at /home/coke/sandbox/blin/data/zef-data/tmp/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz/Grammar-Debugger-1.0.3/lib/Grammar/Tracer.rakumod (Grammar::Tracer):1
+[Grammar::Debugger] ------> <BOL><HERE>use Grammar::Debugger::WrapCache;
+[Grammar::Debugger] at t/ltm.rakutest:3
+[Grammar::Debugger] ------> <BOL><HERE>use Grammar::Tracer;
+[Grammar::Debugger] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz/Grammar-Debugger-1.0.3 t/tracer.rakutest
+[Grammar::Debugger] ===SORRY!=== Error while compiling t/tracer.rakutest
+[Grammar::Debugger] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz/Grammar-Debugger-1.0.3/lib/Grammar/Tracer.rakumod (Grammar::Tracer)
+[Grammar::Debugger] ===SORRY!===
+[Grammar::Debugger] Object does not exist in serialization context
+[Grammar::Debugger] at /home/coke/sandbox/blin/data/zef-data/tmp/9b7619264d0bbd987cad37d93d1c59d0c054e2b1.tar.gz/Grammar-Debugger-1.0.3/lib/Grammar/Tracer.rakumod (Grammar::Tracer):1
+[Grammar::Debugger] ------> <BOL><HERE>use Grammar::Debugger::WrapCache;
+[Grammar::Debugger] at t/tracer.rakutest:3
+[Grammar::Debugger] ------> <BOL><HERE>use Grammar::Tracer;
+===> Testing [FAIL]: Grammar::Debugger:ver<1.0.3>:auth<zef:raku-community-modules>
+[Grammar::Debugger] Failed to get passing tests, but continuing with --force-test
+===> Installing: Grammar::Debugger:ver<1.0.3>:auth<zef:raku-community-modules>
+===> Install [OK] for Grammar::Debugger:ver<1.0.3>:auth<zef:raku-community-modules>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 12.007s
+             CPU time consumed: 13.574s
+                   Memory peak: 1G (swap: 0B)

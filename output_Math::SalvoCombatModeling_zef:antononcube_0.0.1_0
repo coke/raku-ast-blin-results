@@ -1,0 +1,26 @@
+Running as unit: run-p1626498-i10000054.service; invocation ID: 676091f305a24b408bf92656a514c4e0
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Math::SalvoCombatModeling
+===> Found: Math::SalvoCombatModeling:ver<0.0.1>:auth<zef:antononcube>:api<0> [via Zef::Repository::Ecosystems<fez>]
+[Math::SalvoCombatModeling] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441844.1626502.2071.286144479604/0d532a959f0e3465a3924ec90be090003459ea6d.tar.gz https://360.zef.pm/M/AT/MATH_SALVOCOMBATMODELING/0d532a959f0e3465a3924ec90be090003459ea6d.tar.gz
+===> Fetching [OK]: Math::SalvoCombatModeling:ver<0.0.1>:auth<zef:antononcube>:api<0> to /home/coke/sandbox/blin/data/zef-data/tmp/1789441844.1626502.2071.286144479604/0d532a959f0e3465a3924ec90be090003459ea6d.tar.gz
+[Math::SalvoCombatModeling] Command: tar -t -f ./0d532a959f0e3465a3924ec90be090003459ea6d.tar.gz
+[Math::SalvoCombatModeling] Command: tar -xvf ./0d532a959f0e3465a3924ec90be090003459ea6d.tar.gz -C ../0d532a959f0e3465a3924ec90be090003459ea6d.tar.gz
+===> Extraction [OK]: Math::SalvoCombatModeling to /home/coke/sandbox/blin/data/zef-data/tmp/0d532a959f0e3465a3924ec90be090003459ea6d.tar.gz
+===> Testing: Math::SalvoCombatModeling:ver<0.0.1>:auth<zef:antononcube>:api<0>
+[Math::SalvoCombatModeling] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0d532a959f0e3465a3924ec90be090003459ea6d.tar.gz/dist t/01-definitions-import.rakutest
+[Math::SalvoCombatModeling] Expected a modifiable native int argument for '$pos'
+[Math::SalvoCombatModeling]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[Math::SalvoCombatModeling]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Math::SalvoCombatModeling]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Math::SalvoCombatModeling]   in sub salvo-notion-definitions at /home/coke/sandbox/blin/data/zef-data/tmp/0d532a959f0e3465a3924ec90be090003459ea6d.tar.gz/dist/lib/Math/SalvoCombatModeling.rakumod (Math::SalvoCombatModeling) line 478
+[Math::SalvoCombatModeling]   in block <unit> at t/01-definitions-import.rakutest line 9
+===> Testing [FAIL]: Math::SalvoCombatModeling:ver<0.0.1>:auth<zef:antononcube>:api<0>
+[Math::SalvoCombatModeling] Failed to get passing tests, but continuing with --force-test
+===> Installing: Math::SalvoCombatModeling:ver<0.0.1>:auth<zef:antononcube>:api<0>
+===> Install [OK] for Math::SalvoCombatModeling:ver<0.0.1>:auth<zef:antononcube>:api<0>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 10.082s
+             CPU time consumed: 11.971s
+                   Memory peak: 1G (swap: 0B)

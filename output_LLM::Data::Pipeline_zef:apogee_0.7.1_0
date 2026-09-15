@@ -1,0 +1,527 @@
+Running as unit: run-p1816272-i10261044.service
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: LLM::Data::Pipeline
+===> Found: LLM::Data::Pipeline:ver<0.7.1>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[LLM::Data::Pipeline] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789446073.1816274.3711.410157731898/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz https://360.zef.pm/L/LM/LLM_DATA_PIPELINE/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz
+===> Fetching [OK]: LLM::Data::Pipeline:ver<0.7.1>:auth<zef:apogee> to /home/coke/sandbox/blin/data/zef-data/tmp/1789446073.1816274.3711.410157731898/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz
+[LLM::Data::Pipeline] Command: tar -t -f ./b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz
+[LLM::Data::Pipeline] Command: tar -xvf ./b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz -C ../b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz
+===> Extraction [OK]: LLM::Data::Pipeline to /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz
+===> Testing: LLM::Data::Pipeline:ver<0.7.1>:auth<zef:apogee>
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/01-context.rakutest
+[LLM::Data::Pipeline] 1..15
+[LLM::Data::Pipeline] # Subtest: Empty context has no keys
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline]     ok 1 - No keys
+[LLM::Data::Pipeline]     ok 2 - has returns False for absent key
+[LLM::Data::Pipeline] ok 1 - Empty context has no keys
+[LLM::Data::Pipeline] # Subtest: set/get/has
+[LLM::Data::Pipeline]     1..3
+[LLM::Data::Pipeline]     ok 1 - get returns set value
+[LLM::Data::Pipeline]     ok 2 - has returns True for present key
+[LLM::Data::Pipeline]     ok 3 - has returns False for absent key
+[LLM::Data::Pipeline] ok 2 - set/get/has
+[LLM::Data::Pipeline] # Subtest: Overwrite value
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Second set overwrites first
+[LLM::Data::Pipeline] ok 3 - Overwrite value
+[LLM::Data::Pipeline] # Subtest: Various value types
+[LLM::Data::Pipeline]     1..6
+[LLM::Data::Pipeline]     ok 1 - String value
+[LLM::Data::Pipeline]     ok 2 - Int value
+[LLM::Data::Pipeline]     ok 3 - Bool value
+[LLM::Data::Pipeline]     ok 4 - Array value
+[LLM::Data::Pipeline]     ok 5 - Hash value
+[LLM::Data::Pipeline]     ok 6 - Nil/Any value
+[LLM::Data::Pipeline] ok 4 - Various value types
+[LLM::Data::Pipeline] # Subtest: keys returns sorted list
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Keys sorted alphabetically
+[LLM::Data::Pipeline] ok 5 - keys returns sorted list
+[LLM::Data::Pipeline] # Subtest: snapshot returns deep copy
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in block <unit> at t/01-context.rakutest line 62
+[LLM::Data::Pipeline]     # You planned 2 tests, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/02-step.rakutest
+[LLM::Data::Pipeline] 1..5
+[LLM::Data::Pipeline] # Subtest: Minimal step composes successfully
+[LLM::Data::Pipeline]     1..3
+[LLM::Data::Pipeline]     ok 1 - name returns correct value
+[LLM::Data::Pipeline]     ok 2 - description correct
+[LLM::Data::Pipeline]     ok 3 - Does the Step role
+[LLM::Data::Pipeline] ok 1 - Minimal step composes successfully
+[LLM::Data::Pipeline] # Subtest: Default requires and optional return empty lists
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline]     ok 1 - requires returns empty list
+[LLM::Data::Pipeline]     ok 2 - optional returns empty list
+[LLM::Data::Pipeline] ok 2 - Default requires and optional return empty lists
+[LLM::Data::Pipeline] # Subtest: Custom requires/optional/provides
+[LLM::Data::Pipeline]     1..3
+[LLM::Data::Pipeline]     ok 1 - requires returns declared keys
+[LLM::Data::Pipeline]     ok 2 - optional returns declared keys
+[LLM::Data::Pipeline]     ok 3 - provides returns declared keys
+[LLM::Data::Pipeline] ok 3 - Custom requires/optional/provides
+[LLM::Data::Pipeline] # Subtest: Execute mutates context
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Context updated by execute
+[LLM::Data::Pipeline] ok 4 - Execute mutates context
+[LLM::Data::Pipeline] # Subtest: Execute with requires and optional
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline]     ok 1 - Uses default when optional absent
+[LLM::Data::Pipeline]     ok 2 - Uses optional when present
+[LLM::Data::Pipeline] ok 5 - Execute with requires and optional
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/03-plan.rakutest
+[LLM::Data::Pipeline] 1..12
+[LLM::Data::Pipeline] # Subtest: Empty plan validates
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Empty plan is valid
+[LLM::Data::Pipeline] ok 1 - Empty plan validates
+[LLM::Data::Pipeline] # Subtest: Single step, no requirements
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Step with no requires validates
+[LLM::Data::Pipeline] ok 2 - Single step, no requirements
+[LLM::Data::Pipeline] # Subtest: Single step, requirement met by context
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Requirement met by context
+[LLM::Data::Pipeline] ok 3 - Single step, requirement met by context
+[LLM::Data::Pipeline] # Subtest: Single step, requirement NOT met
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline]     ok 1 - Error names the step
+[LLM::Data::Pipeline]     ok 2 - Error names the missing key
+[LLM::Data::Pipeline] ok 4 - Single step, requirement NOT met
+[LLM::Data::Pipeline] # Subtest: Chained steps — B requires what A provides
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Chained dependency validates
+[LLM::Data::Pipeline] ok 5 - Chained steps — B requires what A provides
+[LLM::Data::Pipeline] # Subtest: Broken chain — B requires key no prior step provides
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Broken chain fails validation
+[LLM::Data::Pipeline] ok 6 - Broken chain — B requires key no prior step provides
+[LLM::Data::Pipeline] # Subtest: Multiple missing keys all reported
+[LLM::Data::Pipeline]     1..3
+[LLM::Data::Pipeline]     ok 1 - Reports missing key x
+[LLM::Data::Pipeline]     ok 2 - Reports missing key y
+[LLM::Data::Pipeline]     ok 3 - Reports step name
+[LLM::Data::Pipeline] ok 7 - Multiple missing keys all reported
+[LLM::Data::Pipeline] # Subtest: Multiple failing steps all reported
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline]     ok 1 - Reports step a
+[LLM::Data::Pipeline]     ok 2 - Reports step b
+[LLM::Data::Pipeline] ok 8 - Multiple failing steps all reported
+[LLM::Data::Pipeline] # Subtest: add-step / steps ordering preserved
+[LLM::Data::Pipeline]     1..3
+[LLM::Data::Pipeline]     ok 1 - First step preserved
+[LLM::Data::Pipeline]     ok 2 - Second step preserved
+[LLM::Data::Pipeline]     ok 3 - Third step preserved
+[LLM::Data::Pipeline] ok 9 - add-step / steps ordering preserved
+[LLM::Data::Pipeline] # Subtest: Duplicate step names fails validation
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Duplicate step names fail validation
+[LLM::Data::Pipeline] ok 10 - Duplicate step names fails validation
+[LLM::Data::Pipeline] # Subtest: Context pre-seeds keys
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Pre-seeded context key satisfies requirement
+[LLM::Data::Pipeline] ok 11 - Context pre-seeds keys
+[LLM::Data::Pipeline] # Subtest: Optional keys absent do not fail validation
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Absent optional key does not fail
+[LLM::Data::Pipeline] ok 12 - Optional keys absent do not fail validation
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/04-runner.rakutest
+[LLM::Data::Pipeline] 1..14
+[LLM::Data::Pipeline] # Subtest: Run single step — context updated
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Context has value set by step
+[LLM::Data::Pipeline] ok 1 - Run single step — context updated
+[LLM::Data::Pipeline] # Subtest: Run multi-step — steps execute in order
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline]     ok 1 - First step ran
+[LLM::Data::Pipeline]     ok 2 - Second step used first step output
+[LLM::Data::Pipeline] ok 2 - Run multi-step — steps execute in order
+[LLM::Data::Pipeline] # Subtest: Validation failure — dies before executing
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Dies on validation failure
+[LLM::Data::Pipeline] ok 3 - Validation failure — dies before executing
+[LLM::Data::Pipeline] # Subtest: Step failure — error propagates
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Step failure propagates
+[LLM::Data::Pipeline] ok 4 - Step failure — error propagates
+[LLM::Data::Pipeline] # Subtest: Checkpoint writing — file exists after run
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method write-checkpoint at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 941
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 270
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in block <unit> at t/04-runner.rakutest line 101
+[LLM::Data::Pipeline]     # You planned 1 test, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/05-main.rakutest
+[LLM::Data::Pipeline] 1..3
+[LLM::Data::Pipeline] # Subtest: All types accessible via use LLM::Data::Pipeline
+[LLM::Data::Pipeline]     1..4
+[LLM::Data::Pipeline]     ok 1 - Context available
+[LLM::Data::Pipeline]     ok 2 - Step role available
+[LLM::Data::Pipeline]     ok 3 - Plan available
+[LLM::Data::Pipeline]     ok 4 - Runner available
+[LLM::Data::Pipeline] ok 1 - All types accessible via use LLM::Data::Pipeline
+[LLM::Data::Pipeline] # Subtest: End-to-end: 3-step pipeline
+[LLM::Data::Pipeline]     1..3
+[LLM::Data::Pipeline]     ok 1 - Synopsis generated
+[LLM::Data::Pipeline]     ok 2 - Characters extracted
+[LLM::Data::Pipeline]     ok 3 - Output includes character names
+[LLM::Data::Pipeline] ok 2 - End-to-end: 3-step pipeline
+[LLM::Data::Pipeline] # Subtest: End-to-end with checkpoint and resume
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method write-checkpoint at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 941
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 270
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in block <unit> at t/05-main.rakutest line 85
+[LLM::Data::Pipeline]     # You planned 2 tests, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/06-events.rakutest
+[LLM::Data::Pipeline] 1..13
+[LLM::Data::Pipeline] # Subtest: Fresh run with checkpoint — exact event kind sequence
+[LLM::Data::Pipeline]     1..6
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method write-checkpoint at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 941
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 270
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in block <unit> at t/06-events.rakutest line 64
+[LLM::Data::Pipeline]     # You planned 6 tests, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/07-retry.rakutest
+[LLM::Data::Pipeline] 1..12
+[LLM::Data::Pipeline] # Subtest: RetryPolicy.delay-for — exponential backoff, jitter 0
+[LLM::Data::Pipeline]     1..4
+[LLM::Data::Pipeline]     ok 1 - attempt 1 → base-delay
+[LLM::Data::Pipeline]     ok 2 - attempt 2 → doubled
+[LLM::Data::Pipeline]     ok 3 - attempt 3 → quadrupled
+[LLM::Data::Pipeline]     ok 4 - attempt 4 → x8
+[LLM::Data::Pipeline] ok 1 - RetryPolicy.delay-for — exponential backoff, jitter 0
+[LLM::Data::Pipeline] # Subtest: RetryPolicy.delay-for — capped at max-delay (jitter 0)
+[LLM::Data::Pipeline]     1..3
+[LLM::Data::Pipeline]     ok 1 - exponential 8 capped to max-delay 5
+[LLM::Data::Pipeline]     ok 2 - large attempt still capped
+[LLM::Data::Pipeline]     ok 3 - below-cap value unaffected
+[LLM::Data::Pipeline] ok 2 - RetryPolicy.delay-for — capped at max-delay (jitter 0)
+[LLM::Data::Pipeline] # Subtest: RetryPolicy.delay-for — jitter adds bounded noise
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline]     ok 1 - never below the exponential floor
+[LLM::Data::Pipeline]     ok 2 - never at/above floor + jitter
+[LLM::Data::Pipeline] ok 3 - RetryPolicy.delay-for — jitter adds bounded noise
+[LLM::Data::Pipeline] # Subtest: RetryPolicy.exhausted — budget boundary
+[LLM::Data::Pipeline]     1..4
+[LLM::Data::Pipeline]     ok 1 - 1 of 3 — not exhausted
+[LLM::Data::Pipeline]     ok 2 - 2 of 3 — not exhausted
+[LLM::Data::Pipeline]     ok 3 - 3 of 3 — exhausted
+[LLM::Data::Pipeline]     ok 4 - past budget — exhausted
+[LLM::Data::Pipeline] ok 4 - RetryPolicy.exhausted — budget boundary
+[LLM::Data::Pipeline] # Subtest: Fail-twice-then-succeed — event train + final success
+[LLM::Data::Pipeline]     1..5
+[LLM::Data::Pipeline]     ok 1 - Exact event train for two failures then success
+[LLM::Data::Pipeline]     ok 2 - Step succeeded on the third attempt
+[LLM::Data::Pipeline]     ok 3 - Both failures announced will-retry=True
+[LLM::Data::Pipeline]     ok 4 - step-failed attempts count up 1, 2
+[LLM::Data::Pipeline]     ok 5 - step-retry names the upcoming attempt (2, then 3)
+[LLM::Data::Pipeline] ok 5 - Fail-twice-then-succeed — event train + final success
+[LLM::Data::Pipeline] # Subtest: Exhaustion — StepExhausted thrown, event train ends run-failed
+[LLM::Data::Pipeline]     1..6
+[LLM::Data::Pipeline]     ok 1 - StepExhausted thrown (not the raw exception)
+[LLM::Data::Pipeline]     ok 2 - carries the failing step name
+[LLM::Data::Pipeline]     ok 3 - carries the attempt count
+[LLM::Data::Pipeline]     ok 4 - preserves the last error message
+[LLM::Data::Pipeline]     ok 5 - Event train ends step-failed(will-retry=False) → run-failed
+[LLM::Data::Pipeline]     ok 6 - Final step-failed has will-retry=False
+[LLM::Data::Pipeline] ok 6 - Exhaustion — StepExhausted thrown, event train ends run-failed
+[LLM::Data::Pipeline] # Subtest: Virtual clock — exact backoff schedule, zero real sleeps
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline]     ok 1 - run exhausted after 4 attempts
+[LLM::Data::Pipeline]     ok 2 - Backoff delays are 2, 4, 8 (three retries before the fourth attempt)
+[LLM::Data::Pipeline] ok 7 - Virtual clock — exact backoff schedule, zero real sleeps
+[LLM::Data::Pipeline] # Subtest: Virtual clock — backoff capped at max-delay
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline]     ok 1 - Delays climb 2, 4 then flatten at the 5s cap
+[LLM::Data::Pipeline] ok 8 - Virtual clock — backoff capped at max-delay
+[LLM::Data::Pipeline] # Subtest: Default policy (max-attempts 1) rethrows the ORIGINAL exception
+[LLM::Data::Pipeline]     1..4
+[LLM::Data::Pipeline]     ok 1 - Original typed exception flows out unchanged
+[LLM::Data::Pipeline]     ok 2 - NOT wrapped in StepExhausted
+[LLM::Data::Pipeline]     ok 3 - No step-failed events emitted with max-attempts 1
+[LLM::Data::Pipeline]     ok 4 - Single-attempt failure train matches the pre-retry contract
+[LLM::Data::Pipeline] ok 9 - Default policy (max-attempts 1) rethrows the ORIGINAL exception
+[LLM::Data::Pipeline] # Subtest: Default policy is the Runner default
+[LLM::Data::Pipeline]     1..2
+[LLM::Data::Pipeline]     ok 1 - Default step-retry is single-attempt
+[LLM::Data::Pipeline]     ok 2 - It is a RetryPolicy
+[LLM::Data::Pipeline] ok 10 - Default policy is the Runner default
+[LLM::Data::Pipeline] # Subtest: Resume after an exhausted run resumes at the failed step
+[LLM::Data::Pipeline]     1..5
+[LLM::Data::Pipeline]     not ok 1 - First run exhausted at step-b
+[LLM::Data::Pipeline]     # Failed test 'First run exhausted at step-b'
+[LLM::Data::Pipeline]     # at t/07-retry.rakutest line 292
+[LLM::Data::Pipeline] Failed to open file /tmp/pipeline-retry-test-1817855/exhausted-resume.json: No such file or directory
+[LLM::Data::Pipeline]   in block <unit> at t/07-retry.rakutest line 294
+[LLM::Data::Pipeline]     # You planned 5 tests, but ran 1
+[LLM::Data::Pipeline]     # You failed 1 test of 1
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/08-items-basic.rakutest
+[LLM::Data::Pipeline] 1..10
+[LLM::Data::Pipeline] # Subtest: Happy path (index keys) — results, reserved keys, finalize
+[LLM::Data::Pipeline]     1..5
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method run-item-step at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 522
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 262
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in sub run-step at t/08-items-basic.rakutest line 22
+[LLM::Data::Pipeline]   in block <unit> at t/08-items-basic.rakutest line 37
+[LLM::Data::Pipeline]     # You planned 5 tests, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/08-items-cancel.rakutest
+[LLM::Data::Pipeline] 1..5
+[LLM::Data::Pipeline] # Subtest: Cancellation: RunCancelled event + Cancelled exception + checkpoint
+[LLM::Data::Pipeline]     1..6
+[LLM::Data::Pipeline]     not ok 1 - Cancelled thrown
+[LLM::Data::Pipeline]     # Failed test 'Cancelled thrown'
+[LLM::Data::Pipeline]     # at t/08-items-cancel.rakutest line 37
+[LLM::Data::Pipeline] No such method 'step' for invocant of type 'X::AdHoc'. Did you mean any
+[LLM::Data::Pipeline] of these: 'Seq', 'Set', 'Slip', 'Str', 'grep', 'item', 'skip'?
+[LLM::Data::Pipeline]   in block <unit> at t/08-items-cancel.rakutest line 38
+[LLM::Data::Pipeline]     # You planned 6 tests, but ran 1
+[LLM::Data::Pipeline]     # You failed 1 test of 1
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/08-items-faults.rakutest
+[LLM::Data::Pipeline] 1..4
+[LLM::Data::Pipeline] # Subtest: Coordinator exception thaws the Context and does not leak workers
+[LLM::Data::Pipeline]     1..3
+[LLM::Data::Pipeline]     ok 1 - run threw (non-serializable result blew up the checkpoint)
+[LLM::Data::Pipeline]     ok 2 - the caller Context was thawed on the way out
+[LLM::Data::Pipeline]     ok 3 - Context is writable again after the failure
+[LLM::Data::Pipeline] ok 1 - Coordinator exception thaws the Context and does not leak workers
+[LLM::Data::Pipeline] # Subtest: Runner instance is reusable after a coordinator failure
+[LLM::Data::Pipeline]     1..1
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method run-item-step at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 522
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 262
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in block <unit> at t/08-items-faults.rakutest line 58
+[LLM::Data::Pipeline]     # You planned 1 test, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/08-items-partial.rakutest
+[LLM::Data::Pipeline] 1..10
+[LLM::Data::Pipeline] # Subtest: An item retry resumes from the partial and re-runs no sub-unit
+[LLM::Data::Pipeline]     1..6
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method run-item-step at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 522
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 262
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in block <unit> at t/08-items-partial.rakutest line 68
+[LLM::Data::Pipeline]     # You planned 6 tests, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/08-items-resume.rakutest
+[LLM::Data::Pipeline] 1..8
+[LLM::Data::Pipeline] # Subtest: Mid-step resume: recovers results, re-runs only pending
+[LLM::Data::Pipeline]     1..5
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method load-checkpoint at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 187
+[LLM::Data::Pipeline]   in method resume at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 108
+[LLM::Data::Pipeline]   in block <unit> at t/08-items-resume.rakutest line 53
+[LLM::Data::Pipeline]     # You planned 5 tests, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/08-items-retry.rakutest
+[LLM::Data::Pipeline] 1..10
+[LLM::Data::Pipeline] # Subtest: Retry-then-succeed — item event train + single completion
+[LLM::Data::Pipeline]     1..4
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method run-item-step at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 522
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 262
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in block <unit> at t/08-items-retry.rakutest line 34
+[LLM::Data::Pipeline]     # You planned 4 tests, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/08-items-retrydead.rakutest
+[LLM::Data::Pipeline] 1..4
+[LLM::Data::Pipeline] # Subtest: retry-dead requeues, reopens completed step, invalidates downstream
+[LLM::Data::Pipeline]     1..6
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method run-item-step at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 522
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 262
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in block <unit> at t/08-items-retrydead.rakutest line 51
+[LLM::Data::Pipeline]     # You planned 6 tests, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/08-items-stress.rakutest
+[LLM::Data::Pipeline] 1..5
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method run-item-step at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 522
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 262
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in block <unit> at t/08-items-stress.rakutest line 48
+[LLM::Data::Pipeline] # You planned 5 tests, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/08-items-telemetry.rakutest
+[LLM::Data::Pipeline] 1..5
+[LLM::Data::Pipeline] # Subtest: Telemetry events emitted for each sink call
+[LLM::Data::Pipeline]     1..3
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method run-item-step at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 522
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 262
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in block <unit> at t/08-items-telemetry.rakutest line 63
+[LLM::Data::Pipeline]     # You planned 3 tests, but ran 0
+[LLM::Data::Pipeline] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1 t/09-until-done.rakutest
+[LLM::Data::Pipeline] 1..8
+[LLM::Data::Pipeline] # Subtest: Fail attempts 1-2 then succeed: two run-retries, exact backoff, no re-exec
+[LLM::Data::Pipeline]     1..6
+[LLM::Data::Pipeline] Expected a modifiable native int argument for '$pos'
+[LLM::Data::Pipeline]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Data::Pipeline]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Data::Pipeline]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Data::Pipeline]   in method snapshot at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Context.rakumod (LLM::Data::Pipeline::Context) line 48
+[LLM::Data::Pipeline]   in method run-item-step at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 522
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 262
+[LLM::Data::Pipeline]   in method drive at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 227
+[LLM::Data::Pipeline]   in method run at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 94
+[LLM::Data::Pipeline]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 141
+[LLM::Data::Pipeline]   in method run-until-done at /home/coke/sandbox/blin/data/zef-data/tmp/b0ee8643f692b10e08aebc4490b56a74056e3db6.tar.gz/LLM-Data-Pipeline-0.7.1/lib/LLM/Data/Pipeline/Runner.rakumod (LLM::Data::Pipeline::Runner) line 134
+[LLM::Data::Pipeline]   in block <unit> at t/09-until-done.rakutest line 38
+[LLM::Data::Pipeline]     # You planned 6 tests, but ran 0
+===> Testing [FAIL]: LLM::Data::Pipeline:ver<0.7.1>:auth<zef:apogee>
+[LLM::Data::Pipeline] Failed to get passing tests, but continuing with --force-test
+===> Installing: LLM::Data::Pipeline:ver<0.7.1>:auth<zef:apogee>
+===> Install [OK] for LLM::Data::Pipeline:ver<0.7.1>:auth<zef:apogee>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 1.176s
+             CPU time consumed: 1min 24.099s
+                   Memory peak: 1.3G (swap: 0B)

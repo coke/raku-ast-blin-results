@@ -1,0 +1,159 @@
+Running as unit: run-p1790509-i10161986.service; invocation ID: 643775bb424545d29a76df2d1b226f74
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: LLM::Prompts
+===> Found: LLM::Prompts:ver<0.2.15>:auth<zef:antononcube>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[LLM::Prompts] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445531.1790510.6283.025089075488/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz https://360.zef.pm/L/LM/LLM_PROMPTS/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz
+===> Fetching [OK]: LLM::Prompts:ver<0.2.15>:auth<zef:antononcube>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445531.1790510.6283.025089075488/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz
+[LLM::Prompts] Command: tar -t -f ./494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz
+[LLM::Prompts] Command: tar -xvf ./494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz -C ../494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz
+===> Extraction [OK]: LLM::Prompts to /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz
+===> Testing: LLM::Prompts:ver<0.2.15>:auth<zef:antononcube>:api<1>
+[LLM::Prompts] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist t/01-basic-usage.rakutest
+[LLM::Prompts] ===SORRY!=== Error while compiling t/01-basic-usage.rakutest
+[LLM::Prompts] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist/lib/LLM/Prompts.rakumod (LLM::Prompts)
+[LLM::Prompts] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[LLM::Prompts] Expected a modifiable native int argument for '$pos'
+[LLM::Prompts] at /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist/lib/LLM/Prompts.rakumod (LLM::Prompts):410
+[LLM::Prompts] ------> <BOL><HERE>BEGIN {
+[LLM::Prompts] Exception details:
+[LLM::Prompts]   ===SORRY!=== Error while compiling:
+[LLM::Prompts]   Expected a modifiable native int argument for '$pos'
+[LLM::Prompts]   at line 
+[LLM::Prompts] at t/01-basic-usage.rakutest:4
+[LLM::Prompts] ------> <BOL><HERE>use LLM::Prompts;
+[LLM::Prompts] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist t/02-prompt-parsing.rakutest
+[LLM::Prompts] ===SORRY!=== Error while compiling t/02-prompt-parsing.rakutest
+[LLM::Prompts] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist/lib/LLM/Prompts.rakumod (LLM::Prompts)
+[LLM::Prompts] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[LLM::Prompts] Expected a modifiable native int argument for '$pos'
+[LLM::Prompts] at /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist/lib/LLM/Prompts.rakumod (LLM::Prompts):410
+[LLM::Prompts] ------> <BOL><HERE>BEGIN {
+[LLM::Prompts] Exception details:
+[LLM::Prompts]   ===SORRY!=== Error while compiling:
+[LLM::Prompts]   Expected a modifiable native int argument for '$pos'
+[LLM::Prompts]   at line 
+[LLM::Prompts] at t/02-prompt-parsing.rakutest:4
+[LLM::Prompts] ------> <BOL><HERE>use LLM::Prompts;
+[LLM::Prompts] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist t/03-prompt-expand.rakutest
+[LLM::Prompts] ===SORRY!=== Error while compiling t/03-prompt-expand.rakutest
+[LLM::Prompts] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist/lib/LLM/Prompts.rakumod (LLM::Prompts)
+[LLM::Prompts] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[LLM::Prompts] Expected a modifiable native int argument for '$pos'
+[LLM::Prompts] at /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist/lib/LLM/Prompts.rakumod (LLM::Prompts):410
+[LLM::Prompts] ------> <BOL><HERE>BEGIN {
+[LLM::Prompts] Exception details:
+[LLM::Prompts]   ===SORRY!=== Error while compiling:
+[LLM::Prompts]   Expected a modifiable native int argument for '$pos'
+[LLM::Prompts]   at line 
+[LLM::Prompts] at t/03-prompt-expand.rakutest:4
+[LLM::Prompts] ------> <BOL><HERE>use LLM::Prompts;
+[LLM::Prompts] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist t/04-special-prompts.rakutest
+[LLM::Prompts] ===SORRY!=== Error while compiling t/04-special-prompts.rakutest
+[LLM::Prompts] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist/lib/LLM/Prompts.rakumod (LLM::Prompts)
+[LLM::Prompts] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[LLM::Prompts] Expected a modifiable native int argument for '$pos'
+[LLM::Prompts] at /home/coke/sandbox/blin/data/zef-data/tmp/494ef19fa1f0a47496cc9a2c14051a2f40e33d5d.tar.gz/dist/lib/LLM/Prompts.rakumod (LLM::Prompts):410
+[LLM::Prompts] ------> <BOL><HERE>BEGIN {
+[LLM::Prompts] Exception details:
+[LLM::Prompts]   ===SORRY!=== Error while compiling:
+[LLM::Prompts]   Expected a modifiable native int argument for '$pos'
+[LLM::Prompts]   at line 
+[LLM::Prompts] at t/04-special-prompts.rakutest:3
+[LLM::Prompts] ------> <BOL><HERE>use LLM::Prompts;
+===> Testing [FAIL]: LLM::Prompts:ver<0.2.15>:auth<zef:antononcube>:api<1>
+[LLM::Prompts] Failed to get passing tests, but continuing with --force-test
+===> Installing: LLM::Prompts:ver<0.2.15>:auth<zef:antononcube>:api<1>
+===> Install [OK] for LLM::Prompts:ver<0.2.15>:auth<zef:antononcube>:api<1>
+
+1 bin/ script [llm-prompt] installed to:
+/home/coke/sandbox/blin/installed/LLM::Prompts_zef:antononcube_0.2.15_1/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 19.246s
+             CPU time consumed: 23.126s
+                   Memory peak: 1.2G (swap: 0B)

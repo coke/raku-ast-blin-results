@@ -1,0 +1,35 @@
+Running as unit: run-p1574813-i9990995.service; invocation ID: 89d076e4e27e4e3b8bff45a908ee8b37
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: App::ecogen
+===> Found: App::ecogen:ver<0.1.0>:auth<github:ugexe> [via Zef::Repository::Ecosystems<rea>]
+[App::ecogen] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789440791.1574817.2713.5434801045276/App%3A%3Aecogen%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/A/App%3A%3Aecogen/App%3A%3Aecogen%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+===> Fetching [OK]: App::ecogen:ver<0.1.0>:auth<github:ugexe> to /home/coke/sandbox/blin/data/zef-data/tmp/1789440791.1574817.2713.5434801045276/App%3A%3Aecogen%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+[App::ecogen] Command: tar -t -f ./App%3A%3Aecogen%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+[App::ecogen] Command: tar -xvf ./App%3A%3Aecogen%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz -C ../App%3A%3Aecogen%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+===> Extraction [OK]: App::ecogen to /home/coke/sandbox/blin/data/zef-data/tmp/App%3A%3Aecogen%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz
+===> Testing: App::ecogen:ver<0.1.0>:auth<github:ugexe>
+[App::ecogen] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/App%3A%3Aecogen%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz/Raku-App--ecogen-main t/00-load.rakutest
+[App::ecogen] 1..3
+[App::ecogen] ok 1 - App::ecogen module can be use-d ok
+[App::ecogen] ok 2 - App::ecogen::p6c module can be use-d ok
+[App::ecogen] ok 3 - App::ecogen::cpan module can be use-d ok
+[App::ecogen] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/App%3A%3Aecogen%3Aver%3C0.1.0%3E%3Aauth%3Cgithub%3Augexe%3E.tar.gz/Raku-App--ecogen-main t/01-downgrade.rakutest
+[App::ecogen] 1..2
+[App::ecogen] # Subtest: array depends
+[App::ecogen] Expected a modifiable native int argument for '$pos'
+[App::ecogen]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[App::ecogen]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[App::ecogen]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[App::ecogen]   in block <unit> at t/01-downgrade.rakutest line 38
+===> Testing [FAIL]: App::ecogen:ver<0.1.0>:auth<github:ugexe>
+[App::ecogen] Failed to get passing tests, but continuing with --force-test
+===> Installing: App::ecogen:ver<0.1.0>:auth<github:ugexe>
+===> Install [OK] for App::ecogen:ver<0.1.0>:auth<github:ugexe>
+
+1 bin/ script [ecogen] installed to:
+/home/coke/sandbox/blin/installed/App::ecogen_github:ugexe_0.1.0_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 33.042s
+             CPU time consumed: 36.833s
+                   Memory peak: 1.4G (swap: 0B)

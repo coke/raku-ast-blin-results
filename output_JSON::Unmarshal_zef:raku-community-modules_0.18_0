@@ -1,0 +1,224 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: JSON::Unmarshal
+Running as unit: run-p1675131-i10082373.service; invocation ID: 71ba3f9663824adfb3de3dba9380bfe6
+Press ^] three times within 1s to disconnect TTY.
+===> Found: JSON::Unmarshal:ver<0.18>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[JSON::Unmarshal] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442882.1675138.4507.885429686087/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz https://360.zef.pm/J/SO/JSON_UNMARSHAL/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz
+===> Fetching [OK]: JSON::Unmarshal:ver<0.18>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442882.1675138.4507.885429686087/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz
+[JSON::Unmarshal] Command: tar -t -f ./380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz
+[JSON::Unmarshal] Command: tar -xvf ./380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz -C ../380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz
+===> Extraction [OK]: JSON::Unmarshal to /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz
+===> Testing: JSON::Unmarshal:ver<0.18>:auth<zef:raku-community-modules>
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/010-basic.rakutest
+[JSON::Unmarshal] 1..25
+[JSON::Unmarshal] Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Unmarshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Unmarshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Unmarshal]   in sub unmarshal at /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18/lib/JSON/Unmarshal.rakumod (JSON::Unmarshal) line 263
+[JSON::Unmarshal]   in block <unit> at t/010-basic.rakutest line 41
+[JSON::Unmarshal] # You planned 25 tests, but ran 0
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/020-any.rakutest
+[JSON::Unmarshal] 1..16
+[JSON::Unmarshal] not ok 1 - unmarshal Int
+[JSON::Unmarshal] # Failed test 'unmarshal Int'
+[JSON::Unmarshal] # at t/020-any.rakutest line 20
+[JSON::Unmarshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal] not ok 2 - returns the right object
+[JSON::Unmarshal] # Failed test 'returns the right object'
+[JSON::Unmarshal] # at t/020-any.rakutest line 21
+[JSON::Unmarshal] # Actual type: Any
+[JSON::Unmarshal] No such method 'any-attr' for invocant of type 'Any'
+[JSON::Unmarshal]   in block <unit> at t/020-any.rakutest line 22
+[JSON::Unmarshal] # You planned 16 tests, but ran 2
+[JSON::Unmarshal] # You failed 2 tests of 2
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/030-null.rakutest
+[JSON::Unmarshal] 1..4
+[JSON::Unmarshal] not ok 1 - Int attribute
+[JSON::Unmarshal] # Failed test 'Int attribute'
+[JSON::Unmarshal] # at t/030-null.rakutest line 16
+[JSON::Unmarshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal] not ok 2 - Num attribute
+[JSON::Unmarshal] # Failed test 'Num attribute'
+[JSON::Unmarshal] # at t/030-null.rakutest line 16
+[JSON::Unmarshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal] not ok 3 - Rat attribute
+[JSON::Unmarshal] # Failed test 'Rat attribute'
+[JSON::Unmarshal] # at t/030-null.rakutest line 16
+[JSON::Unmarshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal] not ok 4 - Str attribute
+[JSON::Unmarshal] # Failed test 'Str attribute'
+[JSON::Unmarshal] # at t/030-null.rakutest line 16
+[JSON::Unmarshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal] # You failed 4 tests of 4
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/040-types.rakutest
+[JSON::Unmarshal] 1..21
+[JSON::Unmarshal] # Subtest: Rat attribute from JSON string
+[JSON::Unmarshal]     1..4
+[JSON::Unmarshal] Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Unmarshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Unmarshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Unmarshal]   in sub unmarshal at /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18/lib/JSON/Unmarshal.rakumod (JSON::Unmarshal) line 263
+[JSON::Unmarshal]   in sub test-typed at t/040-types.rakutest line 11
+[JSON::Unmarshal]   in block <unit> at t/040-types.rakutest line 171
+[JSON::Unmarshal]     # You planned 4 tests, but ran 0
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/050-json-name.rakutest
+[JSON::Unmarshal] 1..2
+[JSON::Unmarshal] not ok 1 - Unmarshal object with a json-name attribute
+[JSON::Unmarshal] # Failed test 'Unmarshal object with a json-name attribute'
+[JSON::Unmarshal] # at t/050-json-name.rakutest line 15
+[JSON::Unmarshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal] No such method 'nice-name' for invocant of type 'Any'
+[JSON::Unmarshal]   in block <unit> at t/050-json-name.rakutest line 17
+[JSON::Unmarshal] # You planned 2 tests, but ran 1
+[JSON::Unmarshal] # You failed 1 test of 1
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/060-lists_hashes.rakutest
+[JSON::Unmarshal] 1..18
+[JSON::Unmarshal] Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[JSON::Unmarshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Unmarshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Unmarshal]   in sub unmarshal at /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18/lib/JSON/Unmarshal.rakumod (JSON::Unmarshal) line 239
+[JSON::Unmarshal]   in block <unit> at t/060-lists_hashes.rakutest line 29
+[JSON::Unmarshal] # You planned 18 tests, but ran 0
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/070-parameterised.rakutest
+[JSON::Unmarshal] 1..2
+[JSON::Unmarshal] not ok 1 - unmarshal class with hash with subset constrained values
+[JSON::Unmarshal] # Failed test 'unmarshal class with hash with subset constrained values'
+[JSON::Unmarshal] # at t/070-parameterised.rakutest line 13
+[JSON::Unmarshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal] No such method 'bla' for invocant of type 'Any'
+[JSON::Unmarshal]   in block <unit> at t/070-parameterised.rakutest line 17
+[JSON::Unmarshal] # You planned 2 tests, but ran 1
+[JSON::Unmarshal] # You failed 1 test of 1
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/080-trait.rakutest
+[JSON::Unmarshal] 1..4
+[JSON::Unmarshal] # Subtest: unmarshalled-by trait with Code
+[JSON::Unmarshal]     not ok 1 - unmarshall with attrbute strait (code)
+[JSON::Unmarshal]     # Failed test 'unmarshall with attrbute strait (code)'
+[JSON::Unmarshal]     # at t/080-trait.rakutest line 16
+[JSON::Unmarshal]     # Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal] Cannot look up attributes in a VersionClassCode type object. Did you forget a '.new'?
+[JSON::Unmarshal]   in block <unit> at t/080-trait.rakutest line 17
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/090-unused-keys.rakutest
+[JSON::Unmarshal] 1..2
+[JSON::Unmarshal] Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Unmarshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Unmarshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Unmarshal]   in sub unmarshal at /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18/lib/JSON/Unmarshal.rakumod (JSON::Unmarshal) line 263
+[JSON::Unmarshal]   in block <unit> at t/090-unused-keys.rakutest line 22
+[JSON::Unmarshal] # You planned 2 tests, but ran 0
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/100-issue-7.rakutest
+[JSON::Unmarshal] 1..4
+[JSON::Unmarshal] # Subtest: where subset with Junction type
+[JSON::Unmarshal]     not ok 1 - with object attribute
+[JSON::Unmarshal]     # Failed test 'with object attribute'
+[JSON::Unmarshal]     # at t/100-issue-7.rakutest line 16
+[JSON::Unmarshal]     # Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal] No such method 'attribute' for invocant of type 'Any'
+[JSON::Unmarshal]   in block <unit> at t/100-issue-7.rakutest line 18
+[JSON::Unmarshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/380a18d50a4db788e8443e3e2ac1a3f5e158b238.tar.gz/JSON-Unmarshal-0.18 t/110-opt-in.rakutest
+[JSON::Unmarshal] 1..3
+[JSON::Unmarshal] not ok 1 - unmarshal with opt-in
+[JSON::Unmarshal] # Failed test 'unmarshal with opt-in'
+[JSON::Unmarshal] # at t/110-opt-in.rakutest line 19
+[JSON::Unmarshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Unmarshal] No such method 'not_opted_in' for invocant of type 'Any'
+[JSON::Unmarshal]   in block <unit> at t/110-opt-in.rakutest line 21
+[JSON::Unmarshal] # You planned 3 tests, but ran 1
+[JSON::Unmarshal] # You failed 1 test of 1
+===> Testing [FAIL]: JSON::Unmarshal:ver<0.18>:auth<zef:raku-community-modules>
+[JSON::Unmarshal] Failed to get passing tests, but continuing with --force-test
+===> Installing: JSON::Unmarshal:ver<0.18>:auth<zef:raku-community-modules>
+===> Install [OK] for JSON::Unmarshal:ver<0.18>:auth<zef:raku-community-modules>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 22.504s
+             CPU time consumed: 28.872s
+                   Memory peak: 1.1G (swap: 0B)

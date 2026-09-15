@@ -1,0 +1,131 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Data::Importers
+Running as unit: run-p1683769-i10105508.service; invocation ID: 482faf14f5f14478a7a6935b06cd78b8
+Press ^] three times within 1s to disconnect TTY.
+===> Found: Data::Importers:ver<0.1.8>:auth<zef:antononcube>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Data::Importers] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789443081.1683772.5680.104761115813/2204e5c3e30b24866e598346431dcacae51368df.tar.gz https://360.zef.pm/D/AT/DATA_IMPORTERS/2204e5c3e30b24866e598346431dcacae51368df.tar.gz
+===> Fetching [OK]: Data::Importers:ver<0.1.8>:auth<zef:antononcube>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789443081.1683772.5680.104761115813/2204e5c3e30b24866e598346431dcacae51368df.tar.gz
+[Data::Importers] Command: tar -t -f ./2204e5c3e30b24866e598346431dcacae51368df.tar.gz
+[Data::Importers] Command: tar -xvf ./2204e5c3e30b24866e598346431dcacae51368df.tar.gz -C ../2204e5c3e30b24866e598346431dcacae51368df.tar.gz
+===> Extraction [OK]: Data::Importers to /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz
+===> Testing: Data::Importers:ver<0.1.8>:auth<zef:antononcube>:api<1>
+[Data::Importers] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist t/01-basic-usage.rakutest
+[Data::Importers] # Subtest: Text and JSON import
+[Data::Importers]     ok 1 - 
+[Data::Importers] Expected a modifiable native int argument for '$pos'
+[Data::Importers]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Data::Importers]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Data::Importers]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Data::Importers]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist/lib/Data/Importers.rakumod (Data::Importers) line 233
+[Data::Importers]   in sub import-file at /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist/lib/Data/Importers.rakumod (Data::Importers) line 228
+[Data::Importers]   in sub import-file at /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist/lib/Data/Importers.rakumod (Data::Importers) line 190
+[Data::Importers]   in sub data-import at /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist/lib/Data/Importers.rakumod (Data::Importers) line 297
+[Data::Importers]   in block <unit> at t/01-basic-usage.rakutest line 17
+[Data::Importers] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist t/02-basic-usage-via-slurp.rakutest
+[Data::Importers] ok 1 - txt file equivalence
+[Data::Importers] Expected a modifiable native int argument for '$pos'
+[Data::Importers]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Data::Importers]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Data::Importers]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Data::Importers]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist/lib/Data/Importers.rakumod (Data::Importers) line 233
+[Data::Importers]   in sub import-file at /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist/lib/Data/Importers.rakumod (Data::Importers) line 228
+[Data::Importers]   in sub import-file at /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist/lib/Data/Importers.rakumod (Data::Importers) line 190
+[Data::Importers]   in sub slurp at /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist/lib/Data/Importers.rakumod (Data::Importers) line 309
+[Data::Importers]   in block <unit> at t/02-basic-usage-via-slurp.rakutest line 19
+[Data::Importers] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2204e5c3e30b24866e598346431dcacae51368df.tar.gz/dist t/03-harwell-boeing-roundtrip.rakutest
+[Data::Importers] 1..2
+[Data::Importers] ok 1 - export returns True
+[Data::Importers] ok 2 - g05.rua round-trip is byte-identical
+===> Testing [FAIL]: Data::Importers:ver<0.1.8>:auth<zef:antononcube>:api<1>
+[Data::Importers] Failed to get passing tests, but continuing with --force-test
+===> Installing: Data::Importers:ver<0.1.8>:auth<zef:antononcube>:api<1>
+===> Install [OK] for Data::Importers:ver<0.1.8>:auth<zef:antononcube>:api<1>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 34.496s
+             CPU time consumed: 47.040s
+                   Memory peak: 1.5G (swap: 0B)

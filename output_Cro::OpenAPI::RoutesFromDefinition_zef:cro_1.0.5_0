@@ -1,0 +1,325 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Cro::OpenAPI::RoutesFromDefinition
+===> Found: Cro::OpenAPI::RoutesFromDefinition:ver<1.0.5>:auth<zef:cro> [via Zef::Repository::Ecosystems<fez>]
+[Cro::OpenAPI::RoutesFromDefinition] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789461490.2122247.6834.153939249715/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz https://360.zef.pm/C/RO/CRO_OPENAPI_ROUTESFROMDEFINITION/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz
+Running as unit: run-p2122246-i10569443.service; invocation ID: 23a97e656e1649928121e86094561956
+Press ^] three times within 1s to disconnect TTY.
+===> Fetching [OK]: Cro::OpenAPI::RoutesFromDefinition:ver<1.0.5>:auth<zef:cro> to /home/coke/sandbox/blin/data/zef-data/tmp/1789461490.2122247.6834.153939249715/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz
+[Cro::OpenAPI::RoutesFromDefinition] Command: tar -t -f ./0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz
+[Cro::OpenAPI::RoutesFromDefinition] Command: tar -xvf ./0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz -C ../0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz
+===> Extraction [OK]: Cro::OpenAPI::RoutesFromDefinition to /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz
+===> Testing: Cro::OpenAPI::RoutesFromDefinition:ver<1.0.5>:auth<zef:cro>
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/basic-operations.t
+[Cro::OpenAPI::RoutesFromDefinition] # Subtest: did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?
+[Cro::OpenAPI::RoutesFromDefinition]     1..3
+[Cro::OpenAPI::RoutesFromDefinition]     ok 1 - code dies
+[Cro::OpenAPI::RoutesFromDefinition]     not ok 2 - right exception type (X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse)
+[Cro::OpenAPI::RoutesFromDefinition]     # Failed test 'right exception type (X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse)'
+[Cro::OpenAPI::RoutesFromDefinition]     # at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/85/85B0B38C91488F2043E2A4FFFD69E92785352B7A line 1
+[Cro::OpenAPI::RoutesFromDefinition]     # Expected: X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse
+[Cro::OpenAPI::RoutesFromDefinition]     # Got:      X::AdHoc
+[Cro::OpenAPI::RoutesFromDefinition]     # Exception message: Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]     ok 3 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     # You failed 1 test of 3
+[Cro::OpenAPI::RoutesFromDefinition] not ok 1 - did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?
+[Cro::OpenAPI::RoutesFromDefinition] # Failed test 'did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?'
+[Cro::OpenAPI::RoutesFromDefinition] # at t/basic-operations.t line 187
+[Cro::OpenAPI::RoutesFromDefinition] # Subtest: did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?
+[Cro::OpenAPI::RoutesFromDefinition]     1..3
+[Cro::OpenAPI::RoutesFromDefinition]     ok 1 - code dies
+[Cro::OpenAPI::RoutesFromDefinition]     not ok 2 - right exception type (X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse)
+[Cro::OpenAPI::RoutesFromDefinition]     # Failed test 'right exception type (X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse)'
+[Cro::OpenAPI::RoutesFromDefinition]     # at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/85/85B0B38C91488F2043E2A4FFFD69E92785352B7A line 1
+[Cro::OpenAPI::RoutesFromDefinition]     # Expected: X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse
+[Cro::OpenAPI::RoutesFromDefinition]     # Got:      X::AdHoc
+[Cro::OpenAPI::RoutesFromDefinition]     # Exception message: Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]     ok 3 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     # You failed 1 test of 3
+[Cro::OpenAPI::RoutesFromDefinition] not ok 2 - did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?
+[Cro::OpenAPI::RoutesFromDefinition] # Failed test 'did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?'
+[Cro::OpenAPI::RoutesFromDefinition] # at t/basic-operations.t line 197
+[Cro::OpenAPI::RoutesFromDefinition] # Subtest: did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?
+[Cro::OpenAPI::RoutesFromDefinition]     1..3
+[Cro::OpenAPI::RoutesFromDefinition]     ok 1 - code dies
+[Cro::OpenAPI::RoutesFromDefinition]     not ok 2 - right exception type (X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse)
+[Cro::OpenAPI::RoutesFromDefinition]     # Failed test 'right exception type (X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse)'
+[Cro::OpenAPI::RoutesFromDefinition]     # at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/85/85B0B38C91488F2043E2A4FFFD69E92785352B7A line 1
+[Cro::OpenAPI::RoutesFromDefinition]     # Expected: X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse
+[Cro::OpenAPI::RoutesFromDefinition]     # Got:      X::AdHoc
+[Cro::OpenAPI::RoutesFromDefinition]     # Exception message: Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]     ok 3 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     # You failed 1 test of 3
+[Cro::OpenAPI::RoutesFromDefinition] not ok 3 - did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?
+[Cro::OpenAPI::RoutesFromDefinition] # Failed test 'did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?'
+[Cro::OpenAPI::RoutesFromDefinition] # at t/basic-operations.t line 207
+[Cro::OpenAPI::RoutesFromDefinition] # Subtest: did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?
+[Cro::OpenAPI::RoutesFromDefinition]     1..3
+[Cro::OpenAPI::RoutesFromDefinition]     ok 1 - code dies
+[Cro::OpenAPI::RoutesFromDefinition]     not ok 2 - right exception type (X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse)
+[Cro::OpenAPI::RoutesFromDefinition]     # Failed test 'right exception type (X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse)'
+[Cro::OpenAPI::RoutesFromDefinition]     # at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/85/85B0B38C91488F2043E2A4FFFD69E92785352B7A line 1
+[Cro::OpenAPI::RoutesFromDefinition]     # Expected: X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse
+[Cro::OpenAPI::RoutesFromDefinition]     # Got:      X::AdHoc
+[Cro::OpenAPI::RoutesFromDefinition]     # Exception message: Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]     ok 3 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     # You failed 1 test of 3
+[Cro::OpenAPI::RoutesFromDefinition] not ok 4 - did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?
+[Cro::OpenAPI::RoutesFromDefinition] # Failed test 'did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::InvalidUse?'
+[Cro::OpenAPI::RoutesFromDefinition] # at t/basic-operations.t line 216
+[Cro::OpenAPI::RoutesFromDefinition] not ok 5 - With :ignore-unimplemented, no error even if no operations implemented
+[Cro::OpenAPI::RoutesFromDefinition] # Failed test 'With :ignore-unimplemented, no error even if no operations implemented'
+[Cro::OpenAPI::RoutesFromDefinition] # at t/basic-operations.t line 225
+[Cro::OpenAPI::RoutesFromDefinition] # Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition] # Subtest: did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::UnimplementedOperations?
+[Cro::OpenAPI::RoutesFromDefinition]     1..3
+[Cro::OpenAPI::RoutesFromDefinition]     ok 1 - code dies
+[Cro::OpenAPI::RoutesFromDefinition]     not ok 2 - right exception type (X::Cro::OpenAPI::RoutesFromDefinition::UnimplementedOperations)
+[Cro::OpenAPI::RoutesFromDefinition]     # Failed test 'right exception type (X::Cro::OpenAPI::RoutesFromDefinition::UnimplementedOperations)'
+[Cro::OpenAPI::RoutesFromDefinition]     # at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/85/85B0B38C91488F2043E2A4FFFD69E92785352B7A line 1
+[Cro::OpenAPI::RoutesFromDefinition]     # Expected: X::Cro::OpenAPI::RoutesFromDefinition::UnimplementedOperations
+[Cro::OpenAPI::RoutesFromDefinition]     # Got:      X::AdHoc
+[Cro::OpenAPI::RoutesFromDefinition]     # Exception message: Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]     # You failed 1 test of 3
+[Cro::OpenAPI::RoutesFromDefinition]     ok 3 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition] not ok 6 - did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::UnimplementedOperations?
+[Cro::OpenAPI::RoutesFromDefinition] # Failed test 'did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::UnimplementedOperations?'
+[Cro::OpenAPI::RoutesFromDefinition] # at t/basic-operations.t line 233
+[Cro::OpenAPI::RoutesFromDefinition] not ok 7 - Valid opperation declarations are accepted
+[Cro::OpenAPI::RoutesFromDefinition] # Failed test 'Valid opperation declarations are accepted'
+[Cro::OpenAPI::RoutesFromDefinition] # at t/basic-operations.t line 242
+[Cro::OpenAPI::RoutesFromDefinition] # Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition] # Subtest: did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::UnspecifiedOperation?
+[Cro::OpenAPI::RoutesFromDefinition]     1..3
+[Cro::OpenAPI::RoutesFromDefinition]     ok 1 - code dies
+[Cro::OpenAPI::RoutesFromDefinition]     not ok 2 - right exception type (X::Cro::OpenAPI::RoutesFromDefinition::UnspecifiedOperation)
+[Cro::OpenAPI::RoutesFromDefinition]     # Failed test 'right exception type (X::Cro::OpenAPI::RoutesFromDefinition::UnspecifiedOperation)'
+[Cro::OpenAPI::RoutesFromDefinition]     # at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/85/85B0B38C91488F2043E2A4FFFD69E92785352B7A line 1
+[Cro::OpenAPI::RoutesFromDefinition]     # Expected: X::Cro::OpenAPI::RoutesFromDefinition::UnspecifiedOperation
+[Cro::OpenAPI::RoutesFromDefinition]     # Got:      X::AdHoc
+[Cro::OpenAPI::RoutesFromDefinition]     # Exception message: Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]     ok 3 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     # You failed 1 test of 3
+[Cro::OpenAPI::RoutesFromDefinition] not ok 8 - did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::UnspecifiedOperation?
+[Cro::OpenAPI::RoutesFromDefinition] # Failed test 'did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::UnspecifiedOperation?'
+[Cro::OpenAPI::RoutesFromDefinition] # at t/basic-operations.t line 255
+[Cro::OpenAPI::RoutesFromDefinition] # Subtest: did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::WrongPathSegmentCount?
+[Cro::OpenAPI::RoutesFromDefinition]     1..6
+[Cro::OpenAPI::RoutesFromDefinition]     ok 1 - code dies
+[Cro::OpenAPI::RoutesFromDefinition]     not ok 2 - right exception type (X::Cro::OpenAPI::RoutesFromDefinition::WrongPathSegmentCount)
+[Cro::OpenAPI::RoutesFromDefinition]     # Failed test 'right exception type (X::Cro::OpenAPI::RoutesFromDefinition::WrongPathSegmentCount)'
+[Cro::OpenAPI::RoutesFromDefinition]     # at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/85/85B0B38C91488F2043E2A4FFFD69E92785352B7A line 1
+[Cro::OpenAPI::RoutesFromDefinition]     # Expected: X::Cro::OpenAPI::RoutesFromDefinition::WrongPathSegmentCount
+[Cro::OpenAPI::RoutesFromDefinition]     # Got:      X::AdHoc
+[Cro::OpenAPI::RoutesFromDefinition]     # Exception message: Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]     ok 3 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     ok 4 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     ok 5 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     ok 6 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     # You failed 1 test of 6
+[Cro::OpenAPI::RoutesFromDefinition] not ok 9 - did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::WrongPathSegmentCount?
+[Cro::OpenAPI::RoutesFromDefinition] # Failed test 'did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::WrongPathSegmentCount?'
+[Cro::OpenAPI::RoutesFromDefinition] # at t/basic-operations.t line 271
+[Cro::OpenAPI::RoutesFromDefinition] # Subtest: Basic operation handler invocation
+[Cro::OpenAPI::RoutesFromDefinition] No such method 'stop' for invocant of type 'Any'. Did you mean any of
+[Cro::OpenAPI::RoutesFromDefinition] these: 'Slip', 'Str', 'skip', 'so'?
+[Cro::OpenAPI::RoutesFromDefinition]   in block  at t/basic-operations.t line 311
+[Cro::OpenAPI::RoutesFromDefinition]   in sub subtest at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 431
+[Cro::OpenAPI::RoutesFromDefinition]   in sub subtest at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 416
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/basic-operations.t line 288
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/cookies.t
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/cookies.t line 48
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/custom-format.t
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/custom-format.t line 39
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/disable-response-validation.t
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/disable-response-validation.t line 61
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/document.t
+[Cro::OpenAPI::RoutesFromDefinition] # Subtest: Default OpenAPI document serving
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/document.t line 51
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/headers.t
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/headers.t line 83
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/query-string.t
+[Cro::OpenAPI::RoutesFromDefinition] # Subtest: did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::UnexpectedQueryPrameter?
+[Cro::OpenAPI::RoutesFromDefinition]     1..4
+[Cro::OpenAPI::RoutesFromDefinition]     ok 1 - code dies
+[Cro::OpenAPI::RoutesFromDefinition]     not ok 2 - right exception type (X::Cro::OpenAPI::RoutesFromDefinition::UnexpectedQueryPrameter)
+[Cro::OpenAPI::RoutesFromDefinition]     # Failed test 'right exception type (X::Cro::OpenAPI::RoutesFromDefinition::UnexpectedQueryPrameter)'
+[Cro::OpenAPI::RoutesFromDefinition]     # at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/85/85B0B38C91488F2043E2A4FFFD69E92785352B7A line 1
+[Cro::OpenAPI::RoutesFromDefinition]     # Expected: X::Cro::OpenAPI::RoutesFromDefinition::UnexpectedQueryPrameter
+[Cro::OpenAPI::RoutesFromDefinition]     # Got:      X::AdHoc
+[Cro::OpenAPI::RoutesFromDefinition]     # Exception message: Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]     ok 3 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     ok 4 - # SKIP wrong exception type
+[Cro::OpenAPI::RoutesFromDefinition]     # You failed 1 test of 4
+[Cro::OpenAPI::RoutesFromDefinition] not ok 1 - did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::UnexpectedQueryPrameter?
+[Cro::OpenAPI::RoutesFromDefinition] # Failed test 'did we throws-like X::Cro::OpenAPI::RoutesFromDefinition::UnexpectedQueryPrameter?'
+[Cro::OpenAPI::RoutesFromDefinition] # at t/query-string.t line 72
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/query-string.t line 83
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/request-body.t
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/request-body.t line 110
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/request-validation-error.t
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/request-validation-error.t line 38
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/response.t
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/response.t line 89
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/routes.t
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/routes.t line 52
+[Cro::OpenAPI::RoutesFromDefinition] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist t/security.t
+[Cro::OpenAPI::RoutesFromDefinition] Expected a modifiable native int argument for '$pos'
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::OpenAPI::RoutesFromDefinition]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::OpenAPI::RoutesFromDefinition]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::OpenAPI::RoutesFromDefinition]   in method from-json at /home/coke/sandbox/blin/installed/OpenAPI::Model_cpan:JNTHN_1.0.4_0/sources/D2AA13175D39845A6E06F308F7D704DB16E7AC7D (OpenAPI::Model) line 55
+[Cro::OpenAPI::RoutesFromDefinition]   in sub openapi at /home/coke/sandbox/blin/data/zef-data/tmp/0957fd58116bf3f0c5154bab365fe754f0b59ee1.tar.gz/dist/lib/Cro/OpenAPI/RoutesFromDefinition.pm6 (Cro::OpenAPI::RoutesFromDefinition) line 517
+[Cro::OpenAPI::RoutesFromDefinition]   in block <unit> at t/security.t line 66
+===> Testing [FAIL]: Cro::OpenAPI::RoutesFromDefinition:ver<1.0.5>:auth<zef:cro>
+[Cro::OpenAPI::RoutesFromDefinition] Failed to get passing tests, but continuing with --force-test
+===> Installing: Cro::OpenAPI::RoutesFromDefinition:ver<1.0.5>:auth<zef:cro>
+===> Install [OK] for Cro::OpenAPI::RoutesFromDefinition:ver<1.0.5>:auth<zef:cro>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 37.315s
+             CPU time consumed: 2min 18.968s
+                   Memory peak: 2.6G (swap: 0B)

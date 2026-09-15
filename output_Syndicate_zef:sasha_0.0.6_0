@@ -1,0 +1,1401 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Syndicate
+Running as unit: run-p1799169-i10166166.service; invocation ID: bf71012a7a2b40c2b0e246365c68480b
+Press ^] three times within 1s to disconnect TTY.
+===> Found: Syndicate:ver<0.0.6>:auth<zef:sasha> [via Zef::Repository::Ecosystems<fez>]
+[Syndicate] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445708.1799172.8819.22078168228/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz https://360.zef.pm/S/YN/SYNDICATE/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz
+===> Fetching [OK]: Syndicate:ver<0.0.6>:auth<zef:sasha> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445708.1799172.8819.22078168228/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz
+[Syndicate] Command: tar -t -f ./37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz
+[Syndicate] Command: tar -xvf ./37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz -C ../37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz
+===> Extraction [OK]: Syndicate to /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz
+===> Testing: Syndicate:ver<0.0.6>:auth<zef:sasha>
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/00-basic.rakutest
+[Syndicate] 1..10
+[Syndicate] ok 1 - Syndicate module can be use-d ok
+[Syndicate] ok 2 - RSS::Item generates XML
+[Syndicate] ok 3 - RSS::Item Str contains item tag
+[Syndicate] ok 4 - RSS feed generates XML
+[Syndicate] ok 5 - RSS feed Str contains rss tag
+[Syndicate] ok 6 - RSS feed contains channel tag
+[Syndicate] ok 7 - RSS feed contains title text
+[Syndicate] ok 8 - RSS feed contains item tag
+[Syndicate] ok 9 - RSS::Item.new(Str) parses item XML
+[Syndicate] ok 10 - RSS::Item.new(Str) title
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/01-roundtrip.rakutest
+[Syndicate] 1..18
+[Syndicate] ok 1 - RSS output encodes & in title
+[Syndicate] ok 2 - RSS output encodes <> in title
+[Syndicate] ok 3 - RSS output encodes & in link
+[Syndicate] ok 4 - RSS output encodes <> in description
+[Syndicate] ok 5 - RSS output encodes item title
+[Syndicate] ok 6 - RSS entity roundtrip title
+[Syndicate] ok 7 - RSS entity roundtrip item title
+[Syndicate] ok 8 - RSS roundtrip item count
+[Syndicate] ok 9 - Atom self-link type preserved in output
+[Syndicate] ok 10 - Atom roundtrip title
+[Syndicate] ok 11 - Atom self-link type roundtrips
+[Syndicate] ok 12 - Atom roundtrip item count
+[Syndicate] ok 13 - RSS 0.91 roundtrip title
+[Syndicate] ok 14 - RSS 0.91 image roundtrip
+[Syndicate] ok 15 - RSS 0.91 textInput roundtrip
+[Syndicate] ok 16 - RSS 0.91 skipHours count
+[Syndicate] ok 17 - RSS 0.91 skipDays count
+[Syndicate] ok 18 - RSS 0.91 item count
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/02-parse.rakutest
+[Syndicate] 1..38
+[Syndicate] ok 1 - atom-full.xml detected as Atom
+[Syndicate] ok 2 - rss2-full.xml detected as RSS2
+[Syndicate] ok 3 - rss091-full.xml detected as RSS091
+[Syndicate] ok 4 - RSS without version -> RSS2
+[Syndicate] ok 5 - RSS version="2.0" -> RSS2
+[Syndicate] ok 6 - RSS version="0.91" -> RSS091
+[Syndicate] ok 7 - bare Atom -> Atom
+[Syndicate] feed-format: unable to detect feed format — input is not valid XML or JSON
+[Syndicate]   in sub feed-format at /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6/lib/Syndicate/Parse.rakumod (Syndicate::Parse) line 75
+[Syndicate]   in block <unit> at t/02-parse.rakutest line 37
+[Syndicate] # You planned 38 tests, but ran 7
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/03-rss-parse.rakutest
+[Syndicate] 1..20
+[Syndicate] ok 1 - Parsed RSS 2.0 feed
+[Syndicate] ok 2 - Does Syndicate::Feed role
+[Syndicate] ok 3 - channel title
+[Syndicate] ok 4 - channel link
+[Syndicate] ok 5 - channel description
+[Syndicate] ok 6 - channel language
+[Syndicate] ok 7 - channel copyright
+[Syndicate] ok 8 - channel managingEditor
+[Syndicate] ok 9 - channel webMaster
+[Syndicate] ok 10 - channel category
+[Syndicate] ok 11 - channel generator
+[Syndicate] ok 12 - channel docs
+[Syndicate] ok 13 - channel ttl
+[Syndicate] ok 14 - pubDate is DateTime
+[Syndicate] ok 15 - pubDate year
+[Syndicate] ok 16 - pubDate month
+[Syndicate] ok 17 - pubDate day
+[Syndicate] ok 18 - dc:creator feed has 1 item
+[Syndicate] ok 19 - dc:creator maps to author
+[Syndicate] ok 20 - dc:creator item title preserved
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/04-rss091-parse.rakutest
+[Syndicate] 1..59
+[Syndicate] ok 1 - Parsed RSS 0.91 feed
+[Syndicate] ok 2 - Does Syndicate::Feed role
+[Syndicate] ok 3 - channel title
+[Syndicate] ok 4 - channel link
+[Syndicate] ok 5 - channel description
+[Syndicate] ok 6 - channel language
+[Syndicate] ok 7 - channel rating
+[Syndicate] ok 8 - channel copyright
+[Syndicate] ok 9 - channel managingEditor
+[Syndicate] ok 10 - channel webMaster
+[Syndicate] ok 11 - channel docs
+[Syndicate] ok 12 - pubDate is DateTime
+[Syndicate] ok 13 - pubDate year
+[Syndicate] ok 14 - pubDate month
+[Syndicate] ok 15 - pubDate day
+[Syndicate] ok 16 - lastBuildDate is DateTime
+[Syndicate] ok 17 - lastBuildDate year
+[Syndicate] ok 18 - image exists
+[Syndicate] ok 19 - image title
+[Syndicate] ok 20 - image url
+[Syndicate] ok 21 - image link
+[Syndicate] ok 22 - image width
+[Syndicate] ok 23 - image height
+[Syndicate] ok 24 - image description
+[Syndicate] ok 25 - textInput exists
+[Syndicate] ok 26 - textInput title
+[Syndicate] ok 27 - textInput description
+[Syndicate] ok 28 - textInput name
+[Syndicate] ok 29 - textInput link
+[Syndicate] ok 30 - skipHours count
+[Syndicate] ok 31 - skipHours first hour
+[Syndicate] ok 32 - skipHours second hour
+[Syndicate] ok 33 - skipDays count
+[Syndicate] ok 34 - skipDays first day
+[Syndicate] ok 35 - skipDays second day
+[Syndicate] ok 36 - item count
+[Syndicate] ok 37 - first item is V0_91::Item
+[Syndicate] ok 38 - first item title
+[Syndicate] ok 39 - first item link
+[Syndicate] ok 40 - first item description
+[Syndicate] ok 41 - second item title
+[Syndicate] ok 42 - second item link
+[Syndicate] ok 43 - second item description
+[Syndicate] ok 44 - third item title
+[Syndicate] ok 45 - third item description
+[Syndicate] ok 46 - items missing title/link/description are skipped
+[Syndicate] ok 47 - valid item still parsed
+[Syndicate] ok 48 - roundtrip title
+[Syndicate] ok 49 - roundtrip link
+[Syndicate] ok 50 - roundtrip description
+[Syndicate] ok 51 - roundtrip item count
+[Syndicate] ok 52 - roundtrip item title
+[Syndicate] ok 53 - roundtrip pubDate is DateTime
+[Syndicate] ok 54 - XML has rss root
+[Syndicate] ok 55 - XML has channel
+[Syndicate] ok 56 - XML has skipHours
+[Syndicate] ok 57 - XML has textInput
+[Syndicate] ok 58 - XML has image
+[Syndicate] ok 59 - XML has items
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/05-rss1-parse.rakutest
+[Syndicate] 1..32
+[Syndicate] ok 1 - Parsed RSS 1.0 feed
+[Syndicate] ok 2 - Does Syndicate::Feed role
+[Syndicate] ok 3 - channel title
+[Syndicate] ok 4 - channel link
+[Syndicate] ok 5 - channel description
+[Syndicate] ok 6 - channel about
+[Syndicate] ok 7 - image url
+[Syndicate] ok 8 - image title
+[Syndicate] ok 9 - image link
+[Syndicate] ok 10 - image about
+[Syndicate] ok 11 - two items
+[Syndicate] ok 12 - item is correct type
+[Syndicate] ok 13 - item 0 title
+[Syndicate] ok 14 - item 0 link
+[Syndicate] ok 15 - item 0 summary
+[Syndicate] ok 16 - item 0 about
+[Syndicate] ok 17 - item 1 title
+[Syndicate] ok 18 - item 1 link
+[Syndicate] ok 19 - Str roundtrip
+[Syndicate] ok 20 - roundtrip title matches
+[Syndicate] ok 21 - dc feed has 2 items
+[Syndicate] ok 22 - dc:creator maps to author
+[Syndicate] ok 23 - dc:date maps to DateTime
+[Syndicate] ok 24 - dc:date year
+[Syndicate] ok 25 - two dc:subject elements
+[Syndicate] ok 26 - first dc:subject
+[Syndicate] ok 27 - second dc:subject
+[Syndicate] ok 28 - dc:creator maps to author on item 1
+[Syndicate] ok 29 - one dc:subject on item 1
+[Syndicate] ok 30 - dc:subject on item 1
+[Syndicate] ok 31 - roundtrip dc:creator
+[Syndicate] ok 32 - roundtrip dc:subjects count
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/06-atom-parse.rakutest
+[Syndicate] 1..55
+[Syndicate] ok 1 - Parsed Atom 1.0 feed
+[Syndicate] ok 2 - Does Syndicate::Feed role
+[Syndicate] ok 3 - feed title
+[Syndicate] ok 4 - feed id
+[Syndicate] ok 5 - feed subtitle
+[Syndicate] ok 6 - feed rights
+[Syndicate] ok 7 - feed generator
+[Syndicate] ok 8 - feed icon
+[Syndicate] ok 9 - feed logo
+[Syndicate] ok 10 - updated is DateTime
+[Syndicate] ok 11 - updated year
+[Syndicate] ok 12 - feed link (alternate)
+[Syndicate] ok 13 - feed link-self href
+[Syndicate] ok 14 - feed link-alternate href
+[Syndicate] ok 15 - feed author-detail name defined
+[Syndicate] ok 16 - feed author-detail name
+[Syndicate] ok 17 - feed author-detail email
+[Syndicate] ok 18 - feed author-detail uri
+[Syndicate] ok 19 - two categories
+[Syndicate] ok 20 - first category
+[Syndicate] ok 21 - second category
+[Syndicate] ok 22 - two entries
+[Syndicate] ok 23 - entry is Atom::Item
+[Syndicate] ok 24 - entry title
+[Syndicate] ok 25 - entry link
+[Syndicate] ok 26 - entry id
+[Syndicate] ok 27 - entry summary
+[Syndicate] ok 28 - entry content
+[Syndicate] ok 29 - entry content-type
+[Syndicate] ok 30 - entry published is DateTime
+[Syndicate] ok 31 - entry updated is DateTime
+[Syndicate] ok 32 - entry rights
+[Syndicate] ok 33 - entry author name
+[Syndicate] ok 34 - entry author email
+[Syndicate] ok 35 - entry has one category
+[Syndicate] ok 36 - entry category term
+[Syndicate] ok 37 - entry has one contributor
+[Syndicate] ok 38 - entry contributor name
+[Syndicate] ok 39 - entry source-feed title defined
+[Syndicate] ok 40 - entry source-feed title
+[Syndicate] ok 41 - entry source-feed link
+[Syndicate] ok 42 - entry source-feed updated is DateTime
+[Syndicate] ok 43 - roundtrip title
+[Syndicate] ok 44 - roundtrip rights
+[Syndicate] ok 45 - roundtrip generator
+[Syndicate] ok 46 - roundtrip icon
+[Syndicate] ok 47 - roundtrip logo
+[Syndicate] ok 48 - roundtrip author name
+[Syndicate] ok 49 - roundtrip 2 categories
+[Syndicate] ok 50 - roundtrip 2 entries
+[Syndicate] ok 51 - roundtrip entry title
+[Syndicate] ok 52 - roundtrip entry content
+[Syndicate] ok 53 - roundtrip entry content-type
+[Syndicate] ok 54 - roundtrip entry 1 category
+[Syndicate] ok 55 - roundtrip entry 1 contributor
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/07-jsonfeed-parse.rakutest
+[Syndicate] 1..63
+[Syndicate] Invalid JSON: Expected a modifiable native int argument for '$pos'
+[Syndicate]   in method new at /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6/lib/Syndicate/JSONFeed.rakumod (Syndicate::JSONFeed) line 38
+[Syndicate]   in block <unit> at t/07-jsonfeed-parse.rakutest line 9
+[Syndicate] # You planned 63 tests, but ran 0
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/08-builder.rakutest
+[Syndicate] 1..140
+[Syndicate] ok 1 - Feed builder created
+[Syndicate] ok 2 - feed title get/set
+[Syndicate] ok 3 - feed link get/set
+[Syndicate] ok 4 - feed description get/set
+[Syndicate] ok 5 - feed id get/set
+[Syndicate] ok 6 - feed language get/set
+[Syndicate] ok 7 - feed rights get/set
+[Syndicate] ok 8 - feed generator get/set
+[Syndicate] ok 9 - feed icon get/set
+[Syndicate] ok 10 - feed logo get/set
+[Syndicate] ok 11 - feed author name
+[Syndicate] ok 12 - feed author email
+[Syndicate] ok 13 - feed has 2 categories
+[Syndicate] ok 14 - default generator value
+[Syndicate] ok 15 - entry created via add-entry
+[Syndicate] ok 16 - entry title get/set
+[Syndicate] ok 17 - entry link get/set
+[Syndicate] ok 18 - entry summary get/set
+[Syndicate] ok 19 - entry id get/set
+[Syndicate] ok 20 - entry updated is defined
+[Syndicate] ok 21 - feed has 2 entries
+[Syndicate] ok 22 - entry content get/set
+[Syndicate] ok 23 - rss-str generates output
+[Syndicate] ok 24 - RSS output has rss root
+[Syndicate] ok 25 - RSS output has channel
+[Syndicate] ok 26 - RSS output has feed title
+[Syndicate] ok 27 - RSS output has language
+[Syndicate] ok 28 - RSS output has copyright
+[Syndicate] ok 29 - RSS output has managingEditor
+[Syndicate] ok 30 - RSS output has generator
+[Syndicate] ok 31 - RSS output has items
+[Syndicate] ok 32 - atom-str generates output
+[Syndicate] ok 33 - Atom output has feed root
+[Syndicate] ok 34 - Atom output has feed title
+[Syndicate] ok 35 - Atom output has feed id
+[Syndicate] ok 36 - Atom output has subtitle
+[Syndicate] ok 37 - Atom output has author email (from entry)
+[Syndicate] ok 38 - Atom output has entries
+[Syndicate] ok 39 - Atom output has rights
+[Syndicate] ok 40 - Atom output has generator
+[Syndicate] ok 41 - Atom output has icon
+[Syndicate] ok 42 - Atom output has logo
+[Syndicate] ok 43 - Atom output has category
+[Syndicate] ok 44 - Atom output has second category
+[Syndicate] ok 45 - RSS roundtrip parsed
+[Syndicate] ok 46 - RSS roundtrip title
+[Syndicate] ok 47 - RSS roundtrip link
+[Syndicate] ok 48 - RSS roundtrip description
+[Syndicate] ok 49 - RSS roundtrip language
+[Syndicate] ok 50 - RSS roundtrip copyright
+[Syndicate] ok 51 - RSS roundtrip item count
+[Syndicate] ok 52 - RSS roundtrip first item title
+[Syndicate] ok 53 - RSS roundtrip second item title
+[Syndicate] ok 54 - RSS roundtrip pubDate is DateTime
+[Syndicate] ok 55 - Atom roundtrip parsed
+[Syndicate] ok 56 - Atom roundtrip title
+[Syndicate] ok 57 - Atom roundtrip id
+[Syndicate] ok 58 - Atom roundtrip subtitle
+[Syndicate] ok 59 - Atom roundtrip rights
+[Syndicate] ok 60 - Atom roundtrip generator
+[Syndicate] ok 61 - Atom roundtrip icon
+[Syndicate] ok 62 - Atom roundtrip logo
+[Syndicate] ok 63 - Atom roundtrip author name
+[Syndicate] ok 64 - Atom roundtrip author email
+[Syndicate] ok 65 - Atom roundtrip 2 categories
+[Syndicate] ok 66 - Atom roundtrip entry count
+[Syndicate] ok 67 - Atom roundtrip first entry title
+[Syndicate] ok 68 - Atom roundtrip second entry title
+[Syndicate] ok 69 - Atom roundtrip updated is DateTime
+[Syndicate] ok 70 - Atom output has content with type
+[Syndicate] ok 71 - Atom output has XHTML content body
+[Syndicate] ok 72 - content roundtrip body (RFC 4287 xhtml div wrapper)
+[Syndicate] ok 73 - content roundtrip type
+[Syndicate] ok 74 - empty RSS has root
+[Syndicate] ok 75 - empty RSS has title
+[Syndicate] ok 76 - empty Atom has root
+[Syndicate] ok 77 - empty Atom has title
+[Syndicate] ok 78 - rss091-str generates output
+[Syndicate] ok 79 - RSS 0.91 output has version 0.91
+[Syndicate] ok 80 - RSS 0.91 output has channel
+[Syndicate] ok 81 - RSS 0.91 output has feed title
+[Syndicate] ok 82 - RSS 0.91 output has language
+[Syndicate] ok 83 - RSS 0.91 output has copyright
+[Syndicate] ok 84 - RSS 0.91 output has managingEditor
+[Syndicate] ok 85 - RSS 0.91 output has items
+[Syndicate] ok 86 - rss091-feed returns V0_91
+[Syndicate] ok 87 - RSS 0.91 roundtrip parsed
+[Syndicate] ok 88 - RSS 0.91 roundtrip title
+[Syndicate] ok 89 - RSS 0.91 roundtrip link
+[Syndicate] ok 90 - RSS 0.91 roundtrip description
+[Syndicate] ok 91 - RSS 0.91 roundtrip language
+[Syndicate] ok 92 - RSS 0.91 roundtrip copyright
+[Syndicate] ok 93 - RSS 0.91 roundtrip item count
+[Syndicate] ok 94 - RSS 0.91 roundtrip first item title
+[Syndicate] ok 95 - RSS 0.91 roundtrip first item link
+[Syndicate] ok 96 - RSS 0.91 roundtrip first item description
+[Syndicate] ok 97 - empty RSS 0.91 has root
+[Syndicate] ok 98 - empty RSS 0.91 has title
+[Syndicate] ok 99 - rss1-str generates output
+[Syndicate] ok 100 - RSS 1.0 output has rdf:RDF root
+[Syndicate] ok 101 - RSS 1.0 output has channel
+[Syndicate] ok 102 - RSS 1.0 output has feed title
+[Syndicate] ok 103 - RSS 1.0 output has items
+[Syndicate] ok 104 - rss1-feed returns V1_0
+[Syndicate] ok 105 - RSS 1.0 roundtrip parsed
+[Syndicate] ok 106 - RSS 1.0 roundtrip title
+[Syndicate] ok 107 - RSS 1.0 roundtrip link
+[Syndicate] ok 108 - RSS 1.0 roundtrip description
+[Syndicate] ok 109 - RSS 1.0 roundtrip item count
+[Syndicate] ok 110 - RSS 1.0 roundtrip first item title
+[Syndicate] ok 111 - RSS 1.0 roundtrip first item link
+[Syndicate] ok 112 - RSS 1.0 roundtrip first item summary
+[Syndicate] ok 113 - RSS 1.0 roundtrip first item author (dc:creator)
+[Syndicate] ok 114 - RSS 1.0 output omits non-standard <author>
+[Syndicate] ok 115 - RSS 1.0 output omits non-standard <category>
+[Syndicate] ok 116 - RSS 1.0 output carries author as dc:creator
+[Syndicate] ok 117 - RSS 1.0 output carries category as dc:subject
+[Syndicate] ok 118 - RSS 1.0 dc:subject roundtrip
+[Syndicate] ok 119 - empty RSS 1.0 has root
+[Syndicate] ok 120 - empty RSS 1.0 has title
+[Syndicate] ok 121 - json-str generates output
+[Syndicate] not ok 122 - json-str output is valid JSON
+[Syndicate] # Failed test 'json-str output is valid JSON'
+[Syndicate] # at t/08-builder.rakutest line 266
+[Syndicate] # Actual type: Any
+[Syndicate] not ok 123 - JSON output has feed title
+[Syndicate] # Failed test 'JSON output has feed title'
+[Syndicate] # at t/08-builder.rakutest line 267
+[Syndicate] # expected: 'Test Builder Feed'
+[Syndicate] #      got: (Any)
+[Syndicate] not ok 124 - JSON output has 2 items
+[Syndicate] # Failed test 'JSON output has 2 items'
+[Syndicate] # at t/08-builder.rakutest line 268
+[Syndicate] Invalid JSON: Expected a modifiable native int argument for '$pos'
+[Syndicate]   in method new at /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6/lib/Syndicate/JSONFeed.rakumod (Syndicate::JSONFeed) line 38
+[Syndicate]   in block <unit> at t/08-builder.rakutest line 273
+[Syndicate] # You planned 140 tests, but ran 124
+[Syndicate] # You failed 3 tests of 124
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/09-discovery.rakutest
+[Syndicate] 1..61
+[Syndicate] ok 1 - absolute URL unchanged
+[Syndicate] ok 2 - root-relative URL
+[Syndicate] ok 3 - relative URL with trailing slash
+[Syndicate] ok 4 - relative URL without trailing slash
+[Syndicate] ok 5 - root-relative URL with path base
+[Syndicate] ok 6 - different origin https URL
+[Syndicate] ok 7 - protocol-relative URL
+[Syndicate] ok 8 - extract <base href>
+[Syndicate] ok 9 - no <base> tag returns Str
+[Syndicate] ok 10 - single-quoted base href
+[Syndicate] ok 11 - found 2 feed links
+[Syndicate] ok 12 - first feed is RSS
+[Syndicate] ok 13 - second feed is Atom
+[Syndicate] ok 14 - no feeds found when none present
+[Syndicate] ok 15 - found JSON feed link
+[Syndicate] ok 16 - JSON feed URL
+[Syndicate] ok 17 - found feed in multi-line HTML
+[Syndicate] ok 18 - multi-line feed URL
+[Syndicate] ok 19 - found feed with base href
+[Syndicate] ok 20 - base href affects URL resolution
+[Syndicate] ok 21 - found HTTPS feed link
+[Syndicate] ok 22 - HTTPS feed URL preserved
+[Syndicate] ok 23 - no feeds when rel is not alternate
+[Syndicate] ok 24 - single-quoted attributes work
+[Syndicate] ok 25 - single-quoted href
+[Syndicate] ok 26 - SSRF blocked: http://127.0.0.1/feed
+[Syndicate] ok 27 - SSRF blocked: http://127.1/feed
+[Syndicate] ok 28 - SSRF blocked: http://0x7f.1/feed
+[Syndicate] ok 29 - SSRF blocked: http://0177.0.0.1/feed
+[Syndicate] ok 30 - SSRF blocked: http://127.0.0.01/feed
+[Syndicate] ok 31 - SSRF blocked: http://0.0.0.0/feed
+[Syndicate] ok 32 - SSRF blocked: http://10.0.0.1/feed
+[Syndicate] ok 33 - SSRF blocked: http://192.168.1.1/feed
+[Syndicate] ok 34 - SSRF blocked: http://172.16.0.1/feed
+[Syndicate] ok 35 - SSRF blocked: http://169.254.0.1/feed
+[Syndicate] ok 36 - SSRF blocked: http://2130706433/feed
+[Syndicate] ok 37 - SSRF blocked: http://[::1]/feed
+[Syndicate] ok 38 - SSRF blocked: http://[::ffff:127.0.0.1]/feed
+[Syndicate] ok 39 - SSRF blocked: http://[::ffff:2130706433]/feed
+[Syndicate] ok 40 - SSRF blocked: http://[::ffff:7f00:1]/feed
+[Syndicate] ok 41 - SSRF blocked: http://[::ffff:10.0.0.1]/feed
+[Syndicate] ok 42 - SSRF allowed: http://8.8.8.8/feed
+[Syndicate] ok 43 - SSRF allowed: http://[::ffff:8.8.8.8]/feed
+[Syndicate] ok 44 - SSRF allowed: http://example.com/feed
+[Syndicate] ok 45 - SSRF allowed: http://01.example.com/feed
+[Syndicate] ok 46 - Content-Type with charset param accepted
+[Syndicate] ok 47 - Content-Type with multiple params accepted
+[Syndicate] ok 48 - missing Content-Type accepted
+[Syndicate] ok 49 - text/xml accepted
+[Syndicate] ok 50 - text/html rejected
+[Syndicate] ok 51 - bare href attribute skipped without crash
+[Syndicate] ok 52 - valid link found alongside bare href
+[Syndicate] ok 53 - bare rel attribute does not match alternate
+[Syndicate] ok 54 - SSRF blocked: http://[::127.0.0.1]/feed
+[Syndicate] ok 55 - SSRF blocked: http://[0:0:0:0:0:0:127.0.0.1]/feed
+[Syndicate] ok 56 - SSRF allowed: http://[::123.0.0.1]/feed
+[Syndicate] ok 57 - SSRF allowed: http://[2001:db8::1.2.3.4]/feed
+[Syndicate] ok 58 - Content-Length over MAX-FEED-SIZE rejected
+[Syndicate] ok 59 - body over MAX-FEED-SIZE rejected
+[Syndicate] ok 60 - custom duck-typed ua works
+[Syndicate] ok 61 - duck-typed ua fetch returns feed
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/10-media-rss.rakutest
+[Syndicate] 1..51
+[Syndicate] ok 1 - Parsed Media RSS feed
+[Syndicate] ok 2 - two items
+[Syndicate] ok 3 - item 0 title
+[Syndicate] ok 4 - item 0 link
+[Syndicate] ok 5 - item 0 description
+[Syndicate] ok 6 - item 0 has 1 media:content
+[Syndicate] ok 7 - media:content url
+[Syndicate] ok 8 - media:content type
+[Syndicate] ok 9 - media:content medium
+[Syndicate] ok 10 - media:content duration
+[Syndicate] ok 11 - media:content fileSize
+[Syndicate] ok 12 - media:content width
+[Syndicate] ok 13 - media:content height
+[Syndicate] ok 14 - item 0 has 1 media:thumbnail
+[Syndicate] ok 15 - media:thumbnail url
+[Syndicate] ok 16 - media:thumbnail width
+[Syndicate] ok 17 - media:thumbnail height
+[Syndicate] ok 18 - media:thumbnail time
+[Syndicate] ok 19 - media:title
+[Syndicate] ok 20 - media:description
+[Syndicate] ok 21 - item 1 title
+[Syndicate] ok 22 - item 1 link
+[Syndicate] ok 23 - item 1 has 1 media:content
+[Syndicate] ok 24 - item 1 media:content url
+[Syndicate] ok 25 - item 1 media:content type
+[Syndicate] ok 26 - item 1 media:content medium
+[Syndicate] ok 27 - item 1 media:content duration
+[Syndicate] ok 28 - item 1 has 1 media:thumbnail
+[Syndicate] ok 29 - item 1 thumbnail url
+[Syndicate] ok 30 - roundtrip media:content count
+[Syndicate] ok 31 - roundtrip media:content url
+[Syndicate] ok 32 - roundtrip media:title
+[Syndicate] ok 33 - Parsed HH:MM:SS Media RSS feed
+[Syndicate] ok 34 - 3 items in HH:MM:SS test feed
+[Syndicate] ok 35 - HH:MM:SS item title
+[Syndicate] ok 36 - HH:MM:SS item has 1 media:content
+[Syndicate] ok 37 - HH:MM:SS duration is defined
+[Syndicate] ok 38 - HH:MM:SS duration preserved as string
+[Syndicate] ok 39 - multi-content item title
+[Syndicate] ok 40 - multi-content item has 3 media:content elements
+[Syndicate] ok 41 - multi-content[0] url
+[Syndicate] ok 42 - multi-content[0] duration
+[Syndicate] ok 43 - multi-content[1] url
+[Syndicate] ok 44 - multi-content[1] duration
+[Syndicate] ok 45 - multi-content[2] url
+[Syndicate] ok 46 - multi-content[2] medium
+[Syndicate] ok 47 - HH:MM:SS roundtrip parsed
+[Syndicate] ok 48 - HH:MM:SS roundtrip item count
+[Syndicate] ok 49 - HH:MM:SS roundtrip duration
+[Syndicate] ok 50 - multi-content roundtrip count
+[Syndicate] # Subtest: Builder media-content carries medium and nested title/description
+[Syndicate]     ok 1 - media:content emitted
+[Syndicate]     ok 2 - media:content carries url
+[Syndicate]     ok 3 - media:content carries medium
+[Syndicate]     ok 4 - content-level media:title emitted
+[Syndicate]     ok 5 - content-level media:description emitted
+[Syndicate]     ok 6 - roundtrip content url
+[Syndicate]     ok 7 - roundtrip content medium
+[Syndicate]     ok 8 - roundtrip content duration
+[Syndicate]     ok 9 - roundtrip content title
+[Syndicate]     ok 10 - roundtrip content description
+[Syndicate]     ok 11 - medium survives new-from-feed roundtrip
+[Syndicate]     ok 12 - content title survives new-from-feed roundtrip
+[Syndicate]     1..12
+[Syndicate] ok 51 - Builder media-content carries medium and nested title/description
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/11-itunes-podcast.rakutest
+[Syndicate] 1..33
+[Syndicate] ok 1 - Parsed iTunes podcast feed
+[Syndicate] ok 2 - channel itunes:author
+[Syndicate] ok 3 - channel itunes:summary
+[Syndicate] ok 4 - item 0 title
+[Syndicate] ok 5 - item 0 link
+[Syndicate] ok 6 - item 0 itunes:author
+[Syndicate] ok 7 - item 0 itunes:summary
+[Syndicate] ok 8 - item 0 itunes:duration
+[Syndicate] ok 9 - item 1 title
+[Syndicate] ok 10 - item 1 link
+[Syndicate] ok 11 - item 1 itunes:author
+[Syndicate] ok 12 - item 1 itunes:summary
+[Syndicate] ok 13 - item 1 itunes:duration
+[Syndicate] ok 14 - item 2 title
+[Syndicate] ok 15 - item 2 itunes:duration (seconds)
+[Syndicate] ok 16 - item 2 itunes:author is undefined
+[Syndicate] ok 17 - item 2 itunes:summary is undefined
+[Syndicate] ok 18 - Roundtripped feed parsed
+[Syndicate] ok 19 - roundtrip channel itunes:author
+[Syndicate] ok 20 - roundtrip channel itunes:summary
+[Syndicate] ok 21 - roundtrip item count
+[Syndicate] ok 22 - roundtrip item 0 itunes:author
+[Syndicate] ok 23 - roundtrip item 0 itunes:summary
+[Syndicate] ok 24 - roundtrip item 0 itunes:duration
+[Syndicate] ok 25 - roundtrip item 1 itunes:author
+[Syndicate] ok 26 - roundtrip item 1 itunes:duration
+[Syndicate] ok 27 - roundtrip item 2 itunes:duration (seconds)
+[Syndicate] ok 28 - XML output contains xmlns:itunes
+[Syndicate] ok 29 - XML output contains itunes:author
+[Syndicate] ok 30 - XML output contains itunes:summary
+[Syndicate] ok 31 - XML output contains itunes:duration
+[Syndicate] ok 32 - builder channel itunes:author
+[Syndicate] ok 33 - builder item title
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/12-concurrency.rakutest
+[Syndicate] 1..6
+[Syndicate] ok 1 - Stats class exists
+[Syndicate] ok 2 - starts at zero
+[Syndicate] ok 3 - items starts at zero
+[Syndicate] ok 4 - errors starts at zero
+[Syndicate] ok 5 - feeds-parsed = 10 after concurrent increments
+[Syndicate] ok 6 - items-parsed = 50 after concurrent increments
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/13-errors.rakutest
+[Syndicate] 1..16
+[Syndicate] ok 1 - empty input dies
+[Syndicate] ok 2 - whitespace-only input dies
+[Syndicate] ok 3 - unknown root element dies
+[Syndicate] ok 4 - garbage input dies
+[Syndicate] ok 5 - JSON without version key dies
+[Syndicate] not ok 6 - parse-feed clarifies that valid JSON is not a JSON Feed
+[Syndicate] # Failed test 'parse-feed clarifies that valid JSON is not a JSON Feed'
+[Syndicate] # at t/13-errors.rakutest line 30
+[Syndicate] # expected a match with: /'valid JSON but not a JSON Feed'/
+[Syndicate] #                   got: "parse-feed: unable to detect feed format — input is not valid XML or JSON"
+[Syndicate] ok 7 - parse-feed keeps generic message for non-JSON input
+[Syndicate] ok 8 - wrong root element dies
+[Syndicate] ok 9 - no channel element dies
+[Syndicate] ok 10 - wrong RSS version dies
+[Syndicate] ok 11 - wrong item root element dies
+[Syndicate] ok 12 - wrong Atom entry root element dies
+[Syndicate] ok 13 - wrong Atom root element dies
+[Syndicate] ok 14 - invalid JSON dies
+[Syndicate] ok 15 - wrong RDF root element dies
+[Syndicate] ok 16 - all errors recorded by Stats
+[Syndicate] # You failed 1 test of 16
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/14-utils.rakutest
+[Syndicate] 1..27
+[Syndicate] ok 1 - encode &
+[Syndicate] ok 2 - encode <
+[Syndicate] ok 3 - encode Str returns Str
+[Syndicate] ok 4 - decode &amp;
+[Syndicate] ok 5 - decode &lt;
+[Syndicate] ok 6 - decode Str returns Str
+[Syndicate] ok 7 - add-element encodes value
+[Syndicate] ok 8 - add-element with Str appends nothing
+[Syndicate] ok 9 - get-text returns decoded text
+[Syndicate] ok 10 - get-text on missing element dies
+[Syndicate] ok 11 - get-text on empty element dies
+[Syndicate] ok 12 - get-text-optional returns text
+[Syndicate] ok 13 - get-text-optional on missing returns Str
+[Syndicate] ok 14 - parse-date RFC3339 returns DateTime
+[Syndicate] ok 15 - year correct
+[Syndicate] ok 16 - parse-date on empty dies
+[Syndicate] ok 17 - parse-date :optional valid returns DateTime
+[Syndicate] ok 18 - parse-date :optional invalid returns Nil
+[Syndicate] ok 19 - parse-date :optional empty returns Nil
+[Syndicate] ok 20 - AM/PM without seconds parses
+[Syndicate] ok 21 - AM hour preserved
+[Syndicate] ok 22 - missing seconds default to 0
+[Syndicate] ok 23 - AM/PM with seconds parses
+[Syndicate] ok 24 - PM hour converted to 24h
+[Syndicate] ok 25 - seconds preserved
+[Syndicate] ok 26 - 12 AM parses
+[Syndicate] ok 27 - 12 AM maps to midnight
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/15-extensions.rakutest
+[Syndicate] 1..6
+[Syndicate] ok 1 - run-parsers calls registered parse callbacks
+[Syndicate] ok 2 - run-parsers callback can modify %attrs
+[Syndicate] ok 3 - run-generators calls registered generate callbacks
+[Syndicate] ok 4 - run-generators callback can modify $xml
+[Syndicate] ok 5 - run-parsers catches dying callbacks
+[Syndicate] ok 6 - run-generators catches dying callbacks
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/16-ext-utils.rakutest
+[Syndicate] 1..19
+[Syndicate] ok 1 - DC: get-dc-text returns creator
+[Syndicate] ok 2 - DC: get-dc-text on missing returns Str
+[Syndicate] ok 3 - DC: get-dc-texts returns all subjects
+[Syndicate] ok 4 - DC: first dc:subject
+[Syndicate] ok 5 - DC: add-dc-declaration sets xmlns
+[Syndicate] ok 6 - DC: add-dc-element creates element with text
+[Syndicate] ok 7 - DC: add-dc-element with Str adds nothing
+[Syndicate] ok 8 - MRSS: get-media-text returns title
+[Syndicate] ok 9 - MRSS: get-media-text on missing returns Str
+[Syndicate] ok 10 - MRSS: get-media-contents count
+[Syndicate] ok 11 - MRSS: media:content url
+[Syndicate] ok 12 - MRSS: get-media-thumbnails count
+[Syndicate] ok 13 - MRSS: media:thumbnail url
+[Syndicate] ok 14 - IT: get-itunes-text returns author
+[Syndicate] ok 15 - IT: get-itunes-text returns summary
+[Syndicate] ok 16 - IT: get-itunes-duration returns duration
+[Syndicate] ok 17 - IT: get-itunes-text on missing returns Str
+[Syndicate] ok 18 - IT: add-itunes-declaration sets xmlns
+[Syndicate] ok 19 - IT: add-itunes-element creates element
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/17-dublin-core.rakutest
+[Syndicate] 1..12
+[Syndicate] ok 1 - Parsed RSS 2.0 with dc:date
+[Syndicate] ok 2 - 3 items parsed
+[Syndicate] ok 3 - item with dc:date only has DateTime updated
+[Syndicate] ok 4 - dc:date year
+[Syndicate] ok 5 - dc:date month
+[Syndicate] ok 6 - dc:date day
+[Syndicate] ok 7 - item with pubDate only has DateTime updated
+[Syndicate] ok 8 - pubDate year
+[Syndicate] ok 9 - item with both has DateTime updated
+[Syndicate] ok 10 - pubDate takes priority over dc:date
+[Syndicate] ok 11 - RSS 0.91 dc:date maps to updated
+[Syndicate] ok 12 - RSS 1.0 dc:date maps to updated
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/18-audit-regressions.rakutest
+[Syndicate] 1..30
+[Syndicate] ok 1 - RSS 1.0 CDATA item kept
+[Syndicate] ok 2 - RSS 1.0 CDATA item title
+[Syndicate] ok 3 - RSS 1.0 dc:subject CDATA captured
+[Syndicate] ok 4 - RSS 1.0 item with raw & < in CDATA kept
+[Syndicate] ok 5 - RSS 1.0 CDATA with raw & and < preserved
+[Syndicate] ok 6 - RSS 2.0 CDATA guid captured
+[Syndicate] ok 7 - RSS 0.91 CDATA skipHours captured
+[Syndicate] ok 8 - RSS 0.91 CDATA skipDays captured
+[Syndicate] ok 9 - media:title CDATA captured
+[Syndicate] ok 10 - media:description CDATA captured
+[Syndicate] ok 11 - itunes:summary CDATA captured
+[Syndicate] ok 12 - Atom CDATA content captured
+[Syndicate] ok 13 - direct Atom construction emits link rel=alternate
+[Syndicate] ok 14 - direct Atom construction emits link href
+[Syndicate] ok 15 - direct Atom construction emits author
+[Syndicate] ok 16 - builder atom output emits link rel=alternate
+[Syndicate] ok 17 - builder atom output emits link href
+[Syndicate] ok 18 - builder atom output emits author
+[Syndicate] Invalid JSON: Expected a modifiable native int argument for '$pos'
+[Syndicate]   in method new at /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6/lib/Syndicate/JSONFeed.rakumod (Syndicate::JSONFeed) line 38
+[Syndicate]   in block <unit> at t/18-audit-regressions.rakutest line 122
+[Syndicate] # You planned 30 tests, but ran 18
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/19-followup-audit.rakutest
+[Syndicate] 1..43
+[Syndicate] ok 1 - qualified Syndicate::Parse::parse-feed works
+[Syndicate] ok 2 - qualified parse-feed returns RSS
+[Syndicate] ok 3 - qualified Syndicate::Parse::feed-format works
+[Syndicate] ok 4 - qualified Syndicate::Parse::sanitize-input works
+[Syndicate] ok 5 - qualified Syndicate::Parse::parse-feed-with-format works
+[Syndicate] ok 6 - qualified Syndicate::Parse::parse-file works
+[Syndicate] ok 7 - qualified parse-file returns RSS
+[Syndicate] ok 8 - parse-rss works
+[Syndicate] ok 9 - parse-atom works
+[Syndicate] not ok 10 - parse-json works
+[Syndicate] # Failed test 'parse-json works'
+[Syndicate] # at t/19-followup-audit.rakutest line 48
+[Syndicate] # Invalid JSON: Expected a modifiable native int argument for '$pos'
+[Syndicate] ok 11 - parse-rss1 works
+[Syndicate] ok 12 - parse-rss091 works
+[Syndicate] ok 13 - query-only ref keeps base path
+[Syndicate] ok 14 - fragment-only ref keeps base path
+[Syndicate] ok 15 - empty ref keeps base path
+[Syndicate] Invalid JSON: Expected a modifiable native int argument for '$pos'
+[Syndicate]   in method new at /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6/lib/Syndicate/JSONFeed.rakumod (Syndicate::JSONFeed) line 38
+[Syndicate]   in block <unit> at t/19-followup-audit.rakutest line 63
+[Syndicate] # You planned 43 tests, but ran 15
+[Syndicate] # You failed 1 test of 15
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/20-rss-common.rakutest
+[Syndicate] 1..16
+[Syndicate] ok 1 - RSS 2.0 parses item count
+[Syndicate] ok 2 - RSS 2.0 XML is cached (same object)
+[Syndicate] ok 3 - RSS 2.0 regenerates dc declaration from item needs
+[Syndicate] ok 4 - RSS 2.0 regenerates media declaration from item needs
+[Syndicate] ok 5 - RSS 2.0 regenerates content declaration from item needs
+[Syndicate] ok 6 - RSS 2.0 new(Str) error uses shared constructor message
+[Syndicate] ok 7 - RSS 0.91 parses item count
+[Syndicate] ok 8 - RSS 0.91 XML is cached (same object)
+[Syndicate] ok 9 - RSS 0.91 regenerates itunes declaration from item needs
+[Syndicate] ok 10 - RSS 0.91 new(Str) error uses shared constructor message
+[Syndicate] ok 11 - RSS 1.0 parses item count
+[Syndicate] ok 12 - RSS 1.0 XML is cached (same object)
+[Syndicate] ok 13 - RSS 1.0 regenerates dc declaration from categories
+[Syndicate] ok 14 - RSS 1.0 shared XML path builds rdf:RDF root
+[Syndicate] ok 15 - RSS 2.0 shared XML path builds rss root
+[Syndicate] ok 16 - RSS 1.0 new(Str) error uses shared constructor message
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/21-entity-roundtrip.rakutest
+[Syndicate] 1..39
+[Syndicate] ok 1 - dc:language parses into language
+[Syndicate] ok 2 - dc:language-only feed regenerates dc declaration
+[Syndicate] ok 3 - dc:language element regenerated
+[Syndicate] ok 4 - MediaRSS url decoded on parse
+[Syndicate] ok 5 - MediaRSS type decoded on parse
+[Syndicate] ok 6 - MediaRSS url single-encoded on generate
+[Syndicate] ok 7 - MediaRSS type single-encoded on generate
+[Syndicate] ok 8 - MediaRSS not double-encoded
+[Syndicate] ok 9 - atom:self href decoded on parse
+[Syndicate] ok 10 - atom:self href single-encoded on generate
+[Syndicate] ok 11 - channel rdf:about decoded on parse
+[Syndicate] ok 12 - item rdf:about decoded on parse
+[Syndicate] ok 13 - image rdf:about decoded on parse
+[Syndicate] ok 14 - channel rdf:about single-encoded on generate
+[Syndicate] ok 15 - item rdf:about single-encoded on generate
+[Syndicate] ok 16 - image rdf:about single-encoded on generate
+[Syndicate] ok 17 - source link href decoded on parse
+[Syndicate] ok 18 - source link href single-encoded on generate
+[Syndicate] ok 19 - feed category term decoded on parse
+[Syndicate] ok 20 - entry category term decoded on parse
+[Syndicate] ok 21 - feed category term single-encoded on generate
+[Syndicate] ok 22 - entry category term single-encoded on generate
+[Syndicate] ok 23 - user-constructed category term encoded on generate
+[Syndicate] ok 24 - link type decoded on parse
+[Syndicate] ok 25 - content type decoded on parse
+[Syndicate] ok 26 - link type single-encoded on generate
+[Syndicate] ok 27 - content type single-encoded on generate
+[Syndicate] ok 28 - empty JSON Feed to-hash includes items key
+[Syndicate] ok 29 - empty JSON Feed items is an empty array
+[Syndicate] ok 30 - empty JSON Feed to-json includes items: []
+[Syndicate] ok 31 - decimal character references decode
+[Syndicate] ok 32 - hexadecimal character references decode
+[Syndicate] ok 33 - encoded numeric reference stays literal (no double decode)
+[Syndicate] ok 34 - numeric reference roundtrips single-encoded
+[Syndicate] ok 35 - unknown named entity stays literal
+[Syndicate] ok 36 - out-of-range numeric reference stays literal
+[Syndicate] ok 37 - numeric references decoded on parse
+[Syndicate] ok 38 - numeric references single-encoded on generate
+[Syndicate] ok 39 - no double-encoded ampersand
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/22-code-quality.rakutest
+[Syndicate] 1..10
+[Syndicate] ok 1 - skipDays normalizes day names
+[Syndicate] ok 2 - invalid skipDays value is skipped
+[Syndicate] ok 3 - all-invalid skipDays yields empty list
+[Syndicate] ok 4 - all-invalid skipDays feeds still parse
+[Syndicate] ok 5 - expired: true accepted
+[Syndicate] ok 6 - expired: false accepted
+[Syndicate] ok 7 - non-Bool expired dies
+[Syndicate] ok 8 - non-Bool expired dies with graceful message
+[Syndicate] ok 9 - rethrow-style constructors still record errors
+[Syndicate] ok 10 - normalized skipDays regenerated
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/23-audit-round-6.rakutest
+[Syndicate] 1..34
+[Syndicate] ok 1 - content:encoded found via URI-bound prefix
+[Syndicate] ok 2 - wrong-URI prefix does not match as content
+[Syndicate] ok 3 - default-namespace encoded element matches
+[Syndicate] ok 4 - space-separated ISO + EST parses
+[Syndicate] ok 5 - EST offset applied
+[Syndicate] ok 6 - space-separated ISO + numeric offset parses
+[Syndicate] ok 7 - numeric offset applied
+[Syndicate] ok 8 - space-separated ISO + colon offset parses
+[Syndicate] ok 9 - space-separated ISO without TZ parses as UTC
+[Syndicate] ok 10 - tz-less datetime treated as UTC
+[Syndicate] ok 11 - RFC 2822 dates still parse
+[Syndicate] ok 12 - RSS pubDate with space-separated ISO parses
+[Syndicate] ok 13 - RSS pubDate space-separated ISO offset applied
+[Syndicate] ok 14 - 0.91 item guid retained in object model
+[Syndicate] ok 15 - 0.91 item comments retained in object model
+[Syndicate] ok 16 - 0.91 item source retained in object model
+[Syndicate] ok 17 - 0.91 item dc:creator author retained in object model
+[Syndicate] ok 18 - 0.91 output omits guid
+[Syndicate] ok 19 - 0.91 output omits comments
+[Syndicate] ok 20 - 0.91 output omits enclosure
+[Syndicate] ok 21 - 0.91 output omits source
+[Syndicate] ok 22 - 0.91 output omits author
+[Syndicate] ok 23 - 0.91 output omits item pubDate
+[Syndicate] ok 24 - 0.91 output omits xmlns:dc declaration
+[Syndicate] ok 25 - 0.91 output omits dc:creator
+[Syndicate] ok 26 - 0.91 item regenerates only title, link, description
+[Syndicate] ok 27 - builder 0.91 item emits only title, link, description
+[Syndicate] ok 28 - builder 0.91 item omits author
+[Syndicate] ok 29 - builder 0.91 item omits comments
+[Syndicate] ok 30 - builder 0.91 item omits source
+[Syndicate] ok 31 - empty xhtml content parses to empty Str
+[Syndicate] ok 32 - empty xhtml content does not record an error
+[Syndicate] ok 33 - Set.new active-ext default still runs generators
+[Syndicate] ok 34 - entries without updated share a single build timestamp
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/24-date-offsets.rakutest
+[Syndicate] 1..43
+[Syndicate] ok 1 - ISO +05:30 parses
+[Syndicate] ok 2 - ISO +05:30 offset applied
+[Syndicate] ok 3 - ISO +05:30 stored as +05:30
+[Syndicate] ok 4 - ISO +0530 parses
+[Syndicate] ok 5 - ISO +0530 offset applied
+[Syndicate] ok 6 - space-separated ISO +05:30 parses
+[Syndicate] ok 7 - space-separated ISO +05:30 offset applied
+[Syndicate] ok 8 - RFC 2822 +0530 parses
+[Syndicate] ok 9 - RFC 2822 +0530 not mangled (was +05:18)
+[Syndicate] ok 10 - RFC 2822 +0530 stored as +05:30
+[Syndicate] ok 11 - RFC 2822 -0330 parses
+[Syndicate] ok 12 - RFC 2822 -0330 not mangled (was -03:18)
+[Syndicate] ok 13 - RFC 2822 -0330 stored as -03:30
+[Syndicate] ok 14 - IST abbreviation parses
+[Syndicate] ok 15 - half-hour abbreviation IST offset applied
+[Syndicate] ok 16 - whole-hour EST still correct
+[Syndicate] ok 17 - whole-hour -0500 still correct
+[Syndicate] ok 18 - explicit Z unaffected
+[Syndicate] ok 19 - Atom feed updated +05:30 applied
+[Syndicate] ok 20 - Atom entry updated +0530 applied
+[Syndicate] ok 21 - RSS pubDate RFC +0530 applied
+[Syndicate] ok 22 - JSON Feed date_published +0530 applied
+[Syndicate] ok 23 - JSON Feed date_modified -0330 applied
+[Syndicate] ok 24 - tz-less T-form parses
+[Syndicate] ok 25 - tz-less T-form treated as UTC
+[Syndicate] ok 26 - tz-less space-separated form parses
+[Syndicate] ok 27 - tz-less space-separated form treated as UTC
+[Syndicate] ok 28 - date-only still parses
+[Syndicate] ok 29 - date-only is midnight UTC
+[Syndicate] ok 30 - invalid ttl not set on feed
+[Syndicate] ok 31 - invalid ttl records no Stats error (optional metadata, feed parses fine)
+[Syndicate] ok 32 - valid ttl parses
+[Syndicate] ok 33 - &nbsp; decodes to non-breaking space
+[Syndicate] ok 34 - &mdash; decodes to em dash
+[Syndicate] ok 35 - &rsquo; decodes to right single quote
+[Syndicate] ok 36 - &ldquo; decodes to left double quote
+[Syndicate] ok 37 - &Aacute; decodes case-sensitively (Á)
+[Syndicate] ok 38 - &aacute; decodes case-sensitively (á)
+[Syndicate] ok 39 - uppercase &AMP; still decodes
+[Syndicate] ok 40 - uppercase &LT; still decodes
+[Syndicate] ok 41 - no double decode of named entities
+[Syndicate] ok 42 - unknown named entity stays literal
+[Syndicate] ok 43 - named entity roundtrips single-encoded
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/25-audit-round-8.rakutest
+[Syndicate] 1..47
+[Syndicate] ok 1 - B1: self-only feed has no $.link (no alternate)
+[Syndicate] ok 2 - B1: output emits no alternate link
+[Syndicate] ok 3 - B1: output keeps the self link
+[Syndicate] ok 4 - B1: self href preserved
+[Syndicate] ok 5 - B1: self link survives roundtrip
+[Syndicate] ok 6 - B2: RSS to-hash has copyright
+[Syndicate] ok 7 - B2: RSS to-hash has ttl
+[Syndicate] ok 8 - B2: RSS to-hash has pubDate
+[Syndicate] ok 9 - B2: RSS to-hash image includes width
+[Syndicate] ok 10 - B2: RSS to-hash has atom-self-link
+[Syndicate] ok 11 - B2: RSS to-hash omits categories when empty
+[Syndicate] ok 12 - B2: item to-hash has guid
+[Syndicate] ok 13 - B2: item to-hash has guid-is-permalink
+[Syndicate] ok 14 - B2: item to-hash has comments
+[Syndicate] ok 15 - B2: item to-hash has enclosure
+[Syndicate] ok 16 - B2: item to-hash has updated (pubDate)
+[Syndicate] ok 17 - B2: Atom to-hash has id
+[Syndicate] ok 18 - B2: Atom to-hash has updated
+[Syndicate] ok 19 - B2: Atom to-hash has subtitle
+[Syndicate] ok 20 - B2: Atom to-hash has icon
+[Syndicate] ok 21 - B2: Atom to-hash has logo
+[Syndicate] ok 22 - B2: Atom to-hash has rights
+[Syndicate] ok 23 - B2: Atom to-hash has author-detail
+[Syndicate] ok 24 - B2: Atom to-hash has contributors
+[Syndicate] ok 25 - B2: Atom to-hash has link-self
+[Syndicate] ok 26 - B2: Atom to-hash has link-alternate
+[Syndicate] ok 27 - B2: Atom item to-hash has content
+[Syndicate] ok 28 - B2: Atom item to-hash has content-type
+[Syndicate] ok 29 - B2: Atom item to-hash has published
+[Syndicate] ok 30 - B2: Atom item to-hash has contributors
+[Syndicate] ok 31 - B2: Atom item to-hash has categories
+[Syndicate] not ok 32 - B4: JSON feed served as application/json fetches
+[Syndicate] # Failed test 'B4: JSON feed served as application/json fetches'
+[Syndicate] # at t/25-audit-round-8.rakutest line 131
+[Syndicate] not ok 33 - B4: application/json with charset fetches
+[Syndicate] # Failed test 'B4: application/json with charset fetches'
+[Syndicate] # at t/25-audit-round-8.rakutest line 132
+[Syndicate] ok 34 - B5: skipHours keeps in-range hours, drops invalid
+[Syndicate] ok 35 - P2: non-numeric width leaves no key
+[Syndicate] ok 36 - P2: non-numeric height leaves no key
+[Syndicate] ok 37 - P2: other image fields intact
+[Syndicate] ok 38 - Q2: alt-prefix itunes:author parsed at feed level
+[Syndicate] ok 39 - Q2: alt-prefix itunes:summary parsed at feed level
+[Syndicate] ok 40 - Q2: alt-prefix itunes:summary parsed at item level
+[Syndicate] ok 41 - Q2: alt-prefix itunes:duration parsed (extension active)
+[Syndicate] ok 42 - Q2: alt-prefix dc:creator parsed as author
+[Syndicate] ok 43 - Q2: alt-prefix dc:subject parsed
+[Syndicate] ok 44 - Q4: builder feed categories returns a List
+[Syndicate] ok 45 - Q4: builder feed category value present
+[Syndicate] ok 46 - Q6: RSS 1.0 output has no <guid>
+[Syndicate] ok 47 - Q6: RSS 2.0 output still has <guid>
+[Syndicate] # You failed 2 tests of 47
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/26-audit-round-9.rakutest
+[Syndicate] 1..41
+[Syndicate] ok 1 - digit-named entities (frac12/sup2/frac34) decode
+[Syndicate] ok 2 - encoded digit-entity stays literal (no double decode)
+[Syndicate] ok 3 - unknown digit-named entity stays literal
+[Syndicate] ok 4 - RFC 2822 UT offset parses as UTC
+[Syndicate] ok 5 - tz-less RFC 2822 month-name date defaults to UTC
+[Syndicate] ok 6 - tz-less ISO shape still defaults to UTC
+[Syndicate] ok 7 - fragment-only ref keeps base query
+[Syndicate] ok 8 - empty ref keeps base query
+[Syndicate] ok 9 - query-only ref replaces base query
+[Syndicate] ok 10 - path ref drops base query
+[Syndicate] ok 11 - RSS 1.0 dc:subject via declared alt prefix
+[Syndicate] ok 12 - RSS 1.0 dc:subject via undeclared canonical prefix
+[Syndicate] ok 13 - undeclared itunes:author parsed at item level
+[Syndicate] ok 14 - undeclared itunes:duration parsed at item level
+[Syndicate] ok 15 - undeclared dc:creator parsed at item level
+[Syndicate] ok 16 - canonical prefix bound to wrong URI stays inactive
+[Syndicate] ok 17 - bare xhtml child normalized to div-wrapped form at parse
+[Syndicate] ok 18 - bare xhtml parse->regen->reparse is byte-stable
+[Syndicate] ok 19 - single xhtml div kept as-is at parse
+[Syndicate] ok 20 - div xhtml parse->regen->reparse is byte-stable
+[Syndicate] ok 21 - multi-div xhtml keeps all children at parse
+[Syndicate] ok 22 - parse-feed-or-nil returns parsed feed
+[Syndicate] ok 23 - parse-feed-or-nil returns Nil for HTML
+[Syndicate] ok 24 - parse-feed-or-nil returns Nil for garbage
+[Syndicate] ok 25 - parse-feed-or-nil records no error for non-feed input
+[Syndicate] Invalid JSON: Expected a modifiable native int argument for '$pos'
+[Syndicate]   in method new at /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6/lib/Syndicate/JSONFeed.rakumod (Syndicate::JSONFeed) line 38
+[Syndicate]   in block <unit> at t/26-audit-round-9.rakutest line 157
+[Syndicate] # You planned 41 tests, but ran 25
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/27-audit-round-10.rakutest
+[Syndicate] 1..41
+[Syndicate] ok 1 - path+query ref replaces query
+[Syndicate] ok 2 - path+fragment ref drops base query
+[Syndicate] ok 3 - dot-relative ref
+[Syndicate] ok 4 - parent-relative ref
+[Syndicate] ok 5 - alt prefix bound to MRSS URI parses as media:content
+[Syndicate] ok 6 - undeclared canonical media: prefix parses leniently
+[Syndicate] ok 7 - prefix bound to a wrong URI is never media:content
+[Syndicate] ok 8 - author preserved from parse
+[Syndicate] ok 9 - dc:creator values stored
+[Syndicate] ok 10 - dc:creator regenerated
+[Syndicate] ok 11 - author preserved through round-trip
+[Syndicate] ok 12 - dc:subject values stored
+[Syndicate] ok 13 - dc:subject 1 regenerated
+[Syndicate] ok 14 - dc:subject 2 regenerated
+[Syndicate] ok 15 - xmlns:dc declared for subject-only item
+[Syndicate] ok 16 - dc:subject survives round-trip
+[Syndicate] ok 17 - plain <language> parsed as $.language
+[Syndicate] ok 18 - language regenerates as dc:language
+[Syndicate] ok 19 - xmlns:dc declared for dc:language
+[Syndicate] ok 20 - second to-hash unaffected by title mutation
+[Syndicate] ok 21 - second to-hash unaffected by nested media mutation
+[Syndicate] ok 22 - mutation visible only in first result
+[Syndicate] ok 23 - third to-hash still pristine
+[Syndicate] ok 24 - failing extension parse is counted
+[Syndicate] ok 25 - failing extension parse is not noted to STDERR
+[Syndicate] ok 26 - missing semicolon tolerated
+[Syndicate] ok 27 - bare &amp decodes
+[Syndicate] ok 28 - bare digit-named entity decodes
+[Syndicate] ok 29 - encoded entity stays literal
+[Syndicate] ok 30 - greedy unknown name stays literal
+[Syndicate] ok 31 - ampersand without &name untouched
+[Syndicate] ok 32 - ampersand mid-word untouched
+[Syndicate] ok 33 - name terminated by space decodes
+[Syndicate] ok 34 - RSS 0.91 item dies without description
+[Syndicate] ok 35 - RSS 2.0 item dies without link
+[Syndicate] ok 36 - RSS 2.0 item dies without title
+[Syndicate] ok 37 - RSS 1.0 item dies without link
+[Syndicate] ok 38 - Atom item dies without title
+[Syndicate] ok 39 - JSON Feed item dies without title
+[Syndicate] ok 40 - RSS 2.0 title error message
+[Syndicate] ok 41 - RSS 2.0 link error message
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/28-audit-round-11.rakutest
+[Syndicate] 1..60
+[Syndicate] ok 1 - B1: wrong-URI and bare unprefixed dc:subject rejected; URI-bound/default-ns matched
+[Syndicate] ok 2 - B1: exactly the namespace-correct dc:subject elements match
+[Syndicate] ok 3 - B1: media:content bound to a foreign URI is not media
+[Syndicate] ok 4 - B1: undeclared canonical media:thumbnail still matches (lenient)
+[Syndicate] ok 5 - B2: get-text-by-ns sees a prefix declared on the child element itself
+[Syndicate] ok 6 - B1: get-text-by-ns skips children bound to a wrong URI
+[Syndicate] ok 7 - B2: RSS item content:encoded picked up via child-declared prefix
+[Syndicate] ok 8 - B1: RSS item ignores content:encoded bound to a wrong URI
+[Syndicate] ok 9 - B1: RSS 1.0 parses with foreign-URI dc prefix
+[Syndicate] ok 10 - B1: wrong-URI dc:subject is not a channel category
+[Syndicate] ok 11 - B1: wrong-URI dc:language is ignored
+[Syndicate] ok 12 - B1 control: correct dc:subject becomes a category
+[Syndicate] ok 13 - B1 control: category value
+[Syndicate] ok 14 - B1 control: correct dc:language maps to language
+[Syndicate] ok 15 - B5: Atom feed parses despite one invalid entry
+[Syndicate] ok 16 - B5: valid entries retained, invalid skipped
+[Syndicate] ok 17 - B5: exactly one error recorded for the skipped entry
+[Syndicate] ok 18 - B6: has-dc-date flag set from parsed dc:date
+[Syndicate] ok 19 - B6: regenerated RSS 2.0 emits pubDate
+[Syndicate] ok 20 - B6: regenerated RSS 2.0 keeps dc:date
+[Syndicate] ok 21 - B6: single dc:date, no duplicate
+[Syndicate] ok 22 - B6: dc namespace declared on regeneration
+[Syndicate] ok 23 - B6: builder RSS 2.0 emits pubDate
+[Syndicate] ok 24 - B6: builder RSS 2.0 emits no dc:date
+[Syndicate] ok 25 - B6: builder RSS 2.0 emits no dc namespace
+[Syndicate] ok 26 - B6: RSS 1.0 dc:date regenerates exactly once
+[Syndicate] ok 27 - B6: RSS 1.0 emits no pubDate
+[Syndicate] ok 28 - B6: RSS 1.0 dc namespace declared on regeneration
+[Syndicate] ok 29 - B3: mutating image in to-hash leaves the feed alone
+[Syndicate] ok 30 - B3: second to-hash is not corrupted
+[Syndicate] ok 31 - B3: Atom link-self not shared with to-hash
+[Syndicate] ok 32 - B3: Atom link-alternate not shared with to-hash
+[Syndicate] ok 33 - B3: Atom contributors not shared with to-hash
+[Syndicate] ok 34 - B3: second Atom to-hash is clean
+[Syndicate] ok 35 - B3: second Atom to-hash keeps contributors
+[Syndicate] ok 36 - B3: RSS 1.0 image not shared with to-hash
+[Syndicate] ok 37 - B4: no undefined values anywhere in RSS 2.0 to-hash
+[Syndicate] ok 38 - B4: absent enclosure length has no key (no null)
+[Syndicate] ok 39 - B4: enclosure url preserved
+[Syndicate] ok 40 - B4: RSS 2.0 to-json has no null
+[Syndicate] ok 41 - B4: to-json keeps enclosure url
+[Syndicate] ok 42 - B4: no undefined values in Atom to-hash
+[Syndicate] ok 43 - B4: absent author email has no key
+[Syndicate] ok 44 - B4: absent author uri has no key
+[Syndicate] ok 45 - B4: author name preserved
+[Syndicate] ok 46 - B4: Atom to-json has no null
+[Syndicate] ok 47 - B4: absent image description has no key
+[Syndicate] ok 48 - B4: image hash free of undefined values
+[Syndicate] ok 49 - B4: image-less-description to-json has no null
+[Syndicate] ok 50 - B7: image about is parsed
+[Syndicate] ok 51 - B7: degenerate image regenerates no dangling reference
+[Syndicate] ok 52 - B7 control: spec-correct image emits reference + element
+[Syndicate] ok 53 - sanitize keeps defined scalars
+[Syndicate] ok 54 - sanitize drops undefined scalars
+[Syndicate] ok 55 - sanitize recurses into hashes
+[Syndicate] ok 56 - sanitize keeps nested defined values
+[Syndicate] ok 57 - sanitize recurses into arrays
+[Syndicate] ok 58 - sanitize drops undefined array-element keys
+[Syndicate] ok 59 - sanitize output has no undefined values
+[Syndicate] ok 60 - sanitize returns a fresh clone
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/29-audit-round-12.rakutest
+[Syndicate] 1..26
+[Syndicate] ok 1 - B1: V0_91 mutating image in to-hash leaves the feed alone
+[Syndicate] ok 2 - B1: V0_91 mutating skipHours in to-hash leaves the feed alone
+[Syndicate] ok 3 - B1: V0_91 mutating skipDays in to-hash leaves the feed alone
+[Syndicate] ok 4 - B2: Atom mutating categories in to-hash leaves the feed alone
+[Syndicate] ok 5 - B2: Atom entry categories round-trip unchanged
+[Syndicate] ok 6 - B3: builder item declares xmlns:content
+[Syndicate] ok 7 - B3: builder item emits content:encoded
+[Syndicate] ok 8 - B3: builder item declares xmlns:media
+[Syndicate] ok 9 - B3: builder item declares xmlns:itunes
+[Syndicate] ok 10 - B3: feed-embedded items stay byte-identical (no item-level xmlns)
+[Syndicate] ok 11 - B4: V1_0 direct construction emits dc:date (not pubDate)
+[Syndicate] ok 12 - B4: V1_0 direct construction emits no pubDate
+[Syndicate] ok 13 - B4: V0_91 direct construction emits no content:encoded
+[Syndicate] ok 14 - B4: V0_91 direct construction emits no pubDate
+[Syndicate] ok 15 - B4: V0_91 direct construction emits description
+[Syndicate] ok 16 - Q4: dc-only V1_0 builder item declares xmlns:dc
+[Syndicate] ok 17 - Q4: plain V1_0 builder item declares no namespaces
+[Syndicate] ok 18 - Q2: Atom to-hash updated matches XML updated
+[Syndicate] ok 19 - Q2: computed updated is the newest entry timestamp
+[Syndicate] ok 20 - Q3: media duration is Str
+[Syndicate] ok 21 - Q3: media fileSize is Str
+[Syndicate] ok 22 - Q3: media width is Str
+[Syndicate] ok 23 - Q3: media duration value preserved
+[Syndicate] ok 24 - P1: default to-hash deep-clones item hashes
+[Syndicate] ok 25 - P1: to-hash(:!clone) shares the cached item hashes (opt-out)
+[Syndicate] ok 26 - P1: feed item object itself is never mutated
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/30-audit-round-13.rakutest
+[Syndicate] 1..13
+[Syndicate] ok 1 - B1: to-hash uses the newest entry updated when it beats the feed updated
+[Syndicate] ok 2 - B1: to-hash updated matches XML updated when an entry is newer
+[Syndicate] ok 3 - B1: to-hash keeps the feed updated when it beats all entries
+[Syndicate] ok 4 - B2: standalone V1_0 item declares xmlns:rdf
+[Syndicate] ok 5 - B2: standalone V1_0 item emits rdf:about
+[Syndicate] ok 6 - B2: V1_0 item without about declares no namespaces
+[Syndicate] ok 7 - B2: builder V1_0 feed item still carries rdf:about
+[Syndicate] ok 8 - B2: builder V1_0 feed item stays namespace-bare (root declares rdf)
+[Syndicate] ok 9 - B3: foreign-namespace link rel=self is not captured
+[Syndicate] ok 10 - B3: foreign link is not re-emitted as atom:link
+[Syndicate] ok 11 - B3: atom-namespaced link rel=self is still parsed
+[Syndicate] ok 12 - B3: atom:link rel=self with empty href is not captured
+[Syndicate] ok 13 - B3: no empty atom:link is emitted
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/31-audit-round-14.rakutest
+[Syndicate] 1..38
+[Syndicate] ok 1 - R1: RSS 2.0 keeps all items despite bad item dates
+[Syndicate] ok 2 - R1: good item pubDate parsed
+[Syndicate] ok 3 - R1: bad pubDate item degrades to Nil
+[Syndicate] ok 4 - R1: structurally-invalid ISO date degrades to Nil
+[Syndicate] ok 5 - R1: bad channel pubDate degrades to Nil
+[Syndicate] ok 6 - R1: feed still parses with bad channel pubDate
+[Syndicate] ok 7 - R1: RSS 2.0 item with bad dc:date still parses
+[Syndicate] ok 8 - R1: bad dc:date degrades to Nil
+[Syndicate] ok 9 - R1: RSS 0.91 item with bad dc:date still parses
+[Syndicate] ok 10 - R1: 0.91 bad dc:date degrades to Nil
+[Syndicate] ok 11 - R1: RSS 1.0 item with bad dc:date still parses
+[Syndicate] ok 12 - R1: 1.0 bad dc:date degrades to Nil
+[Syndicate] Invalid JSON: Expected a modifiable native int argument for '$pos'
+[Syndicate]   in method new at /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6/lib/Syndicate/JSONFeed.rakumod (Syndicate::JSONFeed) line 38
+[Syndicate]   in block <unit> at t/31-audit-round-14.rakutest line 90
+[Syndicate] # You planned 38 tests, but ran 12
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/32-audit-round-15.rakutest
+[Syndicate] 1..28
+[Syndicate] ok 1 - R1: high surrogate stays literal
+[Syndicate] ok 2 - R1: low surrogate stays literal
+[Syndicate] ok 3 - R1: decimal surrogate stays literal
+[Syndicate] ok 4 - R1: max valid codepoint decodes
+[Syndicate] ok 5 - R1: out-of-range codepoint stays literal
+[Syndicate] ok 6 - R1: normal refs still decode
+[Syndicate] ok 7 - R1: feed with a surrogate ref keeps it as literal text
+[Syndicate] ok 8 - R1: to-hash string is UTF-8-encodable
+[Syndicate] ok 9 - R1: item text is UTF-8-encodable
+[Syndicate] ok 10 - R1: sibling item decoded normally
+[Syndicate] ok 11 - R2: no feed-level updated stored
+[Syndicate] ok 12 - R2: to-hash computes the newest entry updated
+[Syndicate] ok 13 - R2: XML emits the computed updated
+[Syndicate] ok 14 - R2: fully timestamp-less feed has no updated in to-hash
+[Syndicate] ok 15 - R2: rendering a fully timestamp-less feed fails
+[Syndicate] ok 16 - R2: failure is the documented graceful die
+[Syndicate] ok 17 - R3: Content-Type with space before ; accepted
+[Syndicate] ok 18 - R3: text/html with parameters still rejected
+[Syndicate] ok 19 - R4: space-separated HH:MM parses as midnight-second
+[Syndicate] ok 20 - R4: space-separated HH:MM with offset parses
+[Syndicate] ok 21 - R4: RFC 2822 date-only parses as midnight UTC
+[Syndicate] ok 22 - R4: HH:MM:SS form unchanged
+[Syndicate] ok 23 - R4: full RFC 2822 unchanged
+[Syndicate] ok 24 - R4: bare ISO date unchanged
+[Syndicate] not ok 25 - R5: parse-feed-or-nil parses JSON Feed
+[Syndicate] # Failed test 'R5: parse-feed-or-nil parses JSON Feed'
+[Syndicate] # at t/32-audit-round-15.rakutest line 125
+[Syndicate] not ok 26 - R5: JSON Feed increments feeds-parsed
+[Syndicate] # Failed test 'R5: JSON Feed increments feeds-parsed'
+[Syndicate] # at t/32-audit-round-15.rakutest line 126
+[Syndicate] # expected: '1'
+[Syndicate] #      got: '0'
+[Syndicate] ok 27 - R5: non-feed records nothing
+[Syndicate] not ok 28 - R5: non-feed did not increment feeds-parsed
+[Syndicate] # Failed test 'R5: non-feed did not increment feeds-parsed'
+[Syndicate] # at t/32-audit-round-15.rakutest line 128
+[Syndicate] # expected: '1'
+[Syndicate] #      got: '0'
+[Syndicate] # You failed 3 tests of 28
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/33-audit-round-16.rakutest
+[Syndicate] 1..66
+[Syndicate] ok 1 - 2a: valueless <base href> yields no URL, no crash
+[Syndicate] ok 2 - 2a: valued <base href> still returned
+[Syndicate] ok 3 - 8: non-string home_page_url rejected
+[Syndicate] ok 4 - 8: home_page_url error names the field
+[Syndicate] ok 5 - 8: non-string description rejected
+[Syndicate] ok 6 - 8: description error names the field
+[Syndicate] ok 7 - 8: non-string generator rejected
+[Syndicate] ok 8 - 8: generator error names the field
+[Syndicate] ok 9 - 8: non-string feed_url rejected
+[Syndicate] ok 10 - 8: feed_url error names the field
+[Syndicate] ok 11 - 8: non-string user_comment rejected
+[Syndicate] ok 12 - 8: user_comment error names the field
+[Syndicate] ok 13 - 8: non-string next_url rejected
+[Syndicate] ok 14 - 8: next_url error names the field
+[Syndicate] ok 15 - 8: non-string icon rejected
+[Syndicate] ok 16 - 8: icon error names the field
+[Syndicate] ok 17 - 8: non-string favicon rejected
+[Syndicate] ok 18 - 8: favicon error names the field
+[Syndicate] ok 19 - 8: non-string locale rejected
+[Syndicate] ok 20 - 8: locale error names the field
+[Syndicate] ok 21 - 8: non-string language rejected when no locale
+[Syndicate] ok 22 - 8: language error names the field
+[Syndicate] ok 23 - 8: language used when locale absent
+[Syndicate] ok 24 - 8: feed_url parsed
+[Syndicate] ok 25 - 4: capital-X hex reference decodes
+[Syndicate] ok 26 - 4: lowercase-x hex reference still decodes
+[Syndicate] ok 27 - 4: surrogate hex reference stays literal
+[Syndicate] ok 28 - 4: decimal reference still decodes
+[Syndicate] ok 29 - 6: feed-format(0.0.92) is RSS2
+[Syndicate] ok 30 - 6: parse-feed accepts 0.92
+[Syndicate] ok 31 - 6: feed-format(0.0.93) is RSS2
+[Syndicate] ok 32 - 6: parse-feed accepts 0.93
+[Syndicate] ok 33 - 6: feed-format(0.0.94) is RSS2
+[Syndicate] ok 34 - 6: parse-feed accepts 0.94
+[Syndicate] ok 35 - 6: all three legacy versions accepted
+[Syndicate] ok 36 - 7: feed-format rejects empty suffix
+[Syndicate] ok 37 - 7: parse-feed-or-nil returns Nil for empty suffix
+[Syndicate] feed-format: unable to detect feed format — input is not valid XML or JSON
+[Syndicate]   in sub feed-format at /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6/lib/Syndicate/Parse.rakumod (Syndicate::Parse) line 75
+[Syndicate]   in block <unit> at t/33-audit-round-16.rakutest line 85
+[Syndicate] # You planned 66 tests, but ran 37
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/34-audit-round-17.rakutest
+[Syndicate] 1..56
+[Syndicate] ok 1 - 1: «Wed, 1 Jan 2020 00:00:00 UT» parses
+[Syndicate] ok 2 - 1: «Tue, 2 Feb 2021 12:00:00 GMT» parses
+[Syndicate] ok 3 - 1: «Wed, 1 Jan 2020 00:00:00 GMT» parses
+[Syndicate] ok 4 - 1: «Wed, 01 Jan 2020 10:00 +0000» parses
+[Syndicate] ok 5 - 1: «Sun, 08 Jul 2026 10:00:00+0000» parses
+[Syndicate] ok 6 - 1: «15 Jan 2024» parses
+[Syndicate] ok 7 - 1: «Mon, 15 Jan 2024 8:30:00 GMT» parses
+[Syndicate] ok 8 - 1: «Mon, 15 Jan 2024 8:30 AM EST» parses
+[Syndicate] ok 9 - 1: «Mon, 15 Jan 2024 10:00:00 +05:30» parses
+[Syndicate] ok 10 - 1: synthesized weekday is correct (15 Jan 2024 is a Monday)
+[Syndicate] ok 11 - 1: synthesized weekday is correct (29 Feb 2024 is a Thursday)
+[Syndicate] ok 12 - 1: bogus day still Nil
+[Syndicate] ok 13 - 1: bogus month-day still Nil
+[Syndicate] ok 14 - 1: space-separated ISO unaffected
+[Syndicate] ok 15 - 1: T-separated ISO with colon offset unaffected
+[Syndicate] ok 16 - 2: non-string url rejected
+[Syndicate] ok 17 - 2: url error is graceful and names the field
+[Syndicate] ok 18 - 2: non-string summary rejected
+[Syndicate] ok 19 - 2: summary error is graceful and names the field
+[Syndicate] ok 20 - 2: non-string content_html rejected
+[Syndicate] ok 21 - 2: content_html error is graceful and names the field
+[Syndicate] ok 22 - 2: non-string content_text rejected
+[Syndicate] ok 23 - 2: content_text error is graceful and names the field
+[Syndicate] ok 24 - 2: non-string external_url rejected
+[Syndicate] ok 25 - 2: external_url error is graceful and names the field
+[Syndicate] ok 26 - 2: non-string image rejected
+[Syndicate] ok 27 - 2: image error is graceful and names the field
+[Syndicate] ok 28 - 2: non-string banner_image rejected
+[Syndicate] ok 29 - 2: banner_image error is graceful and names the field
+[Syndicate] ok 30 - 2: non-string title rejected
+[Syndicate] ok 31 - 2: title error names the field
+[Syndicate] ok 32 - 2: non-string id rejected
+[Syndicate] ok 33 - 2: id falls back to url
+[Syndicate] ok 34 - 2: parse-feed propagates the graceful die
+[Syndicate] not ok 35 - 2: parse-feed surfaces the graceful message, not X::TypeCheck
+[Syndicate] # Failed test '2: parse-feed surfaces the graceful message, not X::TypeCheck'
+[Syndicate] # at t/34-audit-round-17.rakutest line 75
+[Syndicate] ok 36 - 2: parse-feed records the error
+[Syndicate] ok 37 - 5: RSS item to-hash has no active-ext key
+[Syndicate] ok 38 - 5: extension data still present
+[Syndicate] ok 39 - 5: item JSON is clean of active-ext
+[Syndicate] ok 40 - 6: good result
+[Syndicate] ok 41 - 6: good feeds-parsed delta
+[Syndicate] ok 42 - 6: good errors delta
+[Syndicate] ok 43 - 6: nochan result
+[Syndicate] ok 44 - 6: nochan feeds-parsed delta
+[Syndicate] ok 45 - 6: nochan errors delta
+[Syndicate] ok 46 - 6: html result
+[Syndicate] ok 47 - 6: html feeds-parsed delta
+[Syndicate] ok 48 - 6: html errors delta
+[Syndicate] ok 49 - V0_91: title
+[Syndicate] ok 50 - V0_91: link
+[Syndicate] ok 51 - V0_91: description
+[Syndicate] ok 52 - V0_91: guid -> id
+[Syndicate] ok 53 - V0_91: comments
+[Syndicate] ok 54 - V0_91: source
+[Syndicate] ok 55 - date_modified: parse path round-trips date_modified
+[Syndicate] ok 56 - date_modified: builder item with only updated emits no date_modified
+[Syndicate] # You failed 1 test of 56
+[Syndicate] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6 t/35-convert.rakutest
+[Syndicate] 1..195
+[Syndicate] ok 1 - rss: title mapped
+[Syndicate] ok 2 - rss: link mapped
+[Syndicate] ok 3 - rss: description mapped
+[Syndicate] ok 4 - rss: copyright -> rights
+[Syndicate] ok 5 - rss: managingEditor -> author email
+[Syndicate] ok 6 - rss: lastBuildDate -> updated
+[Syndicate] ok 7 - rss: one entry
+[Syndicate] ok 8 - rss item: title
+[Syndicate] ok 9 - rss item: link
+[Syndicate] ok 10 - rss item: summary
+[Syndicate] ok 11 - rss item: guid -> id
+[Syndicate] ok 12 - rss item: author
+[Syndicate] ok 13 - rss item: categories
+[Syndicate] ok 14 - rss item: enclosure
+[Syndicate] ok 15 - rss item: content
+[Syndicate] ok 16 - rss091: title mapped
+[Syndicate] ok 17 - rss091: link mapped
+[Syndicate] ok 18 - rss091: description mapped
+[Syndicate] ok 19 - rss091: copyright -> rights
+[Syndicate] ok 20 - rss091: managingEditor -> author email
+[Syndicate] ok 21 - rss091: lastBuildDate -> updated
+[Syndicate] ok 22 - rss091: one entry
+[Syndicate] ok 23 - rss091 item: title
+[Syndicate] ok 24 - rss091 item: link
+[Syndicate] ok 25 - rss091 item: summary
+[Syndicate] ok 26 - rss091 item: id falls back to link
+[Syndicate] ok 27 - rss1: title mapped
+[Syndicate] ok 28 - rss1: link mapped
+[Syndicate] ok 29 - rss1: description mapped
+[Syndicate] ok 30 - rss1: about -> id
+[Syndicate] ok 31 - rss1: dc:subject -> feed categories
+[Syndicate] ok 32 - rss1: one entry
+[Syndicate] ok 33 - rss1 item: title
+[Syndicate] ok 34 - rss1 item: link
+[Syndicate] ok 35 - rss1 item: summary
+[Syndicate] ok 36 - rss1 item: about -> id
+[Syndicate] ok 37 - rss1 item: dc:date -> updated
+[Syndicate] ok 38 - rss1 item: dc:creator -> author
+[Syndicate] ok 39 - atom: title mapped
+[Syndicate] ok 40 - atom: primary alternate -> link
+[Syndicate] ok 41 - atom: subtitle -> description
+[Syndicate] ok 42 - atom: id mapped
+[Syndicate] ok 43 - atom: rights mapped
+[Syndicate] ok 44 - atom: icon mapped
+[Syndicate] ok 45 - atom: logo mapped
+[Syndicate] ok 46 - atom: updated mapped
+[Syndicate] ok 47 - atom: author name
+[Syndicate] ok 48 - atom: author email
+[Syndicate] ok 49 - atom: author uri
+[Syndicate] ok 50 - atom: feed categories
+[Syndicate] ok 51 - atom: link-self -> atom-self-link
+[Syndicate] ok 52 - atom: one entry
+[Syndicate] ok 53 - atom item: title
+[Syndicate] ok 54 - atom item: link
+[Syndicate] ok 55 - atom item: summary
+[Syndicate] ok 56 - atom item: id
+[Syndicate] ok 57 - atom item: content
+[Syndicate] ok 58 - atom item: published
+[Syndicate] ok 59 - atom item: author name
+[Syndicate] ok 60 - atom item: categories
+[Syndicate] parse-feed: unable to detect feed format — input is not valid XML or JSON
+[Syndicate]   in sub parse-feed at /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6/lib/Syndicate/Parse.rakumod (Syndicate::Parse) line 148
+[Syndicate]   in sub parse at /home/coke/sandbox/blin/data/zef-data/tmp/37de0e74a03acd7c7cbc2a6ec5876703c22c7a6c.tar.gz/Syndicate-0.0.6/lib/Syndicate.rakumod (Syndicate) line 38
+[Syndicate]   in block <unit> at t/35-convert.rakutest line 212
+[Syndicate] # You planned 195 tests, but ran 60
+===> Testing [FAIL]: Syndicate:ver<0.0.6>:auth<zef:sasha>
+[Syndicate] Failed to get passing tests, but continuing with --force-test
+===> Installing: Syndicate:ver<0.0.6>:auth<zef:sasha>
+===> Install [OK] for Syndicate:ver<0.0.6>:auth<zef:sasha>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 2min 3.871s
+             CPU time consumed: 3min 4.013s
+                   Memory peak: 2.2G (swap: 0B)

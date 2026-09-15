@@ -1,0 +1,145 @@
+Running as unit: run-p1704462-i10130173.service; invocation ID: 4bc384392a874771807a08fda85f5c29
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: JSON::JWT
+===> Found: JSON::JWT:ver<1.1.2>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[JSON::JWT] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789443584.1704463.94.72620320179925/574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz https://360.zef.pm/J/SO/JSON_JWT/574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz
+===> Fetching [OK]: JSON::JWT:ver<1.1.2>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1789443584.1704463.94.72620320179925/574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz
+[JSON::JWT] Command: tar -t -f ./574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz
+[JSON::JWT] Command: tar -xvf ./574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz -C ../574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz
+===> Extraction [OK]: JSON::JWT to /home/coke/sandbox/blin/data/zef-data/tmp/574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz
+===> Testing: JSON::JWT:ver<1.1.2>:auth<zef:raku-community-modules>
+[JSON::JWT] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz/JSON-JWT-1.1.2 t/01-decode.rakutest
+[JSON::JWT] 1..7
+[JSON::JWT] ok 1 - none alg fails
+[JSON::JWT] ok 2 - RS256 alg fails
+[JSON::JWT] ok 3 - bad secret fails
+[JSON::JWT] not ok 4 - correct decode succeeds
+[JSON::JWT] # Failed test 'correct decode succeeds'
+[JSON::JWT] # at t/01-decode.rakutest line 12
+[JSON::JWT] # Expected a modifiable native int argument for '$pos'
+[JSON::JWT] not ok 5 - Got correct data
+[JSON::JWT] # Failed test 'Got correct data'
+[JSON::JWT] # at t/01-decode.rakutest line 14
+[JSON::JWT] # expected: '1234567890'
+[JSON::JWT] #      got: (Any)
+[JSON::JWT] not ok 6 - correct decode succeeds
+[JSON::JWT] # Failed test 'correct decode succeeds'
+[JSON::JWT] # at t/01-decode.rakutest line 20
+[JSON::JWT] # Expected a modifiable native int argument for '$pos'
+[JSON::JWT] not ok 7 - Got correct data
+[JSON::JWT] # Failed test 'Got correct data'
+[JSON::JWT] # at t/01-decode.rakutest line 22
+[JSON::JWT] # expected: '1234567890'
+[JSON::JWT] #      got: (Any)
+[JSON::JWT] # You failed 4 tests of 7
+[JSON::JWT] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz/JSON-JWT-1.1.2 t/02-encode.rakutest
+[JSON::JWT] 1..6
+[JSON::JWT] ok 1 - Can encode with alg none
+[JSON::JWT] not ok 2 - correct decode succeeds
+[JSON::JWT] # Failed test 'correct decode succeeds'
+[JSON::JWT] # at t/02-encode.rakutest line 11
+[JSON::JWT] # Expected a modifiable native int argument for '$pos'
+[JSON::JWT] ok 3 - Can encode with alg HS256
+[JSON::JWT] Expected a modifiable native int argument for '$pos'
+[JSON::JWT]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::JWT]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::JWT]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::JWT]   in method unpack at /home/coke/sandbox/blin/data/zef-data/tmp/574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz/JSON-JWT-1.1.2/lib/JSON/JWT.rakumod (JSON::JWT) line 52
+[JSON::JWT]   in method decode at /home/coke/sandbox/blin/data/zef-data/tmp/574dbcbeb0830b3922ecfa31f9381322c1c3647c.tar.gz/JSON-JWT-1.1.2/lib/JSON/JWT.rakumod (JSON::JWT) line 18
+[JSON::JWT]   in block <unit> at t/02-encode.rakutest line 14
+[JSON::JWT] # You planned 6 tests, but ran 3
+[JSON::JWT] # You failed 1 test of 3
+===> Testing [FAIL]: JSON::JWT:ver<1.1.2>:auth<zef:raku-community-modules>
+[JSON::JWT] Failed to get passing tests, but continuing with --force-test
+===> Installing: JSON::JWT:ver<1.1.2>:auth<zef:raku-community-modules>
+===> Install [OK] for JSON::JWT:ver<1.1.2>:auth<zef:raku-community-modules>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 11.588s
+             CPU time consumed: 15.775s
+                   Memory peak: 1.6G (swap: 0B)

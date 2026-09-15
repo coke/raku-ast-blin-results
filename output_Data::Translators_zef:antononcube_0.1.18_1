@@ -1,0 +1,163 @@
+Running as unit: run-p1879473-i10136919.service; invocation ID: f021e2c098c44e5f872560c5b3ee6f5c
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Data::Translators
+===> Found: Data::Translators:ver<0.1.18>:auth<zef:antononcube>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Data::Translators] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789447529.1879477.8305.160833415712/b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz https://360.zef.pm/D/AT/DATA_TRANSLATORS/b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz
+===> Fetching [OK]: Data::Translators:ver<0.1.18>:auth<zef:antononcube>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789447529.1879477.8305.160833415712/b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz
+[Data::Translators] Command: tar -t -f ./b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz
+[Data::Translators] Command: tar -xvf ./b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz -C ../b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz
+===> Extraction [OK]: Data::Translators to /home/coke/sandbox/blin/data/zef-data/tmp/b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz
+===> Testing: Data::Translators:ver<0.1.18>:auth<zef:antononcube>:api<1>
+[Data::Translators] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz/dist t/01-basic-usage-HTML.rakutest
+[Data::Translators] not ok 1 - basic
+[Data::Translators] # Failed test 'basic'
+[Data::Translators] # at t/01-basic-usage-HTML.rakutest line 31
+[Data::Translators] # expected: '<tableborder="1"><tr><th>name</th><td>Json2Html</td></tr><tr><th>desription</th><td>convertsjson2htmltableformat</td></tr></table>'
+[Data::Translators] #      got: '{&quot;name&quot;:&quot;Json2Html&quot;,&quot;desription&quot;:&quot;convertsjson2htmltableformat&quot;}'
+[Data::Translators] Expected a modifiable native int argument for '$pos'
+[Data::Translators]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Data::Translators]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Data::Translators]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Data::Translators]   in block <unit> at t/01-basic-usage-HTML.rakutest line 36
+[Data::Translators] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz/dist t/02-basic-usage-R.rakutest
+[Data::Translators] not ok 1 - basic
+[Data::Translators] # Failed test 'basic'
+[Data::Translators] # at t/02-basic-usage-R.rakutest line 22
+[Data::Translators] # expected: 'list("name"="Json2Html","desription"="convertsjson2htmltableformat")'
+[Data::Translators] #      got: '"{"name":"Json2Html","desription":"convertsjson2htmltableformat"}"'
+[Data::Translators] Expected a modifiable native int argument for '$pos'
+[Data::Translators]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Data::Translators]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Data::Translators]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Data::Translators]   in block <unit> at t/02-basic-usage-R.rakutest line 27
+[Data::Translators] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz/dist t/03-to-dataset.rakutest
+[Data::Translators] ok 1 - 
+[Data::Translators] ok 2 - 
+[Data::Translators] ok 3 - 
+[Data::Translators] ok 4 - 
+[Data::Translators] ok 5 - equivalence
+[Data::Translators] 1..5
+[Data::Translators] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz/dist t/04-basic-usage-data-translation.rakutest
+[Data::Translators] not ok 1 - basic
+[Data::Translators] # Failed test 'basic'
+[Data::Translators] # at t/04-basic-usage-data-translation.rakutest line 31
+[Data::Translators] # expected: '<tableborder="1"><tr><th>name</th><td>Json2Html</td></tr><tr><th>desription</th><td>convertsjson2htmltableformat</td></tr></table>'
+[Data::Translators] #      got: '{&quot;name&quot;:&quot;Json2Html&quot;,&quot;desription&quot;:&quot;convertsjson2htmltableformat&quot;}'
+[Data::Translators] Expected a modifiable native int argument for '$pos'
+[Data::Translators]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Data::Translators]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Data::Translators]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Data::Translators]   in block <unit> at t/04-basic-usage-data-translation.rakutest line 36
+[Data::Translators] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz/dist t/05-basic-usage-WL.rakutest
+[Data::Translators] not ok 1 - basic
+[Data::Translators] # Failed test 'basic'
+[Data::Translators] # at t/05-basic-usage-WL.rakutest line 24
+[Data::Translators] # expected: 'Association["name"->"Json2Html","desription"->"convertsjson2htmltableformat"]'
+[Data::Translators] #      got: '"{"name":"Json2Html","desription":"convertsjson2htmltableformat"}"'
+[Data::Translators] Expected a modifiable native int argument for '$pos'
+[Data::Translators]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Data::Translators]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Data::Translators]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Data::Translators]   in block <unit> at t/05-basic-usage-WL.rakutest line 29
+[Data::Translators] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b3c390d10ef660e25c81d562aba831cae7639caf.tar.gz/dist t/06-html-table-data-extraction.rakutest
+[Data::Translators] ok 1 - Table with headers extracts correctly
+[Data::Translators] ok 2 - Table without headers uses column indexes correctly
+[Data::Translators] ok 3 - Table without headers uses column indexes correctly
+[Data::Translators] 1..3
+===> Testing [FAIL]: Data::Translators:ver<0.1.18>:auth<zef:antononcube>:api<1>
+[Data::Translators] Failed to get passing tests, but continuing with --force-test
+===> Installing: Data::Translators:ver<0.1.18>:auth<zef:antononcube>:api<1>
+===> Install [OK] for Data::Translators:ver<0.1.18>:auth<zef:antononcube>:api<1>
+
+1 bin/ script [data-translation] installed to:
+/home/coke/sandbox/blin/installed/Data::Translators_zef:antononcube_0.1.18_1/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 29.304s
+             CPU time consumed: 38.605s
+                   Memory peak: 1.5G (swap: 0B)

@@ -1,0 +1,208 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: AI::Gator
+Running as unit: run-p1821993-i10177083.service; invocation ID: c3447bd4c3974db1a7fb698e77557822
+Press ^] three times within 1s to disconnect TTY.
+===> Found: AI::Gator:ver<0.0.14>:auth<zef:bduggan> [via Zef::Repository::Ecosystems<fez>]
+[AI::Gator] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789446204.1821994.1624.141910642488/07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz https://360.zef.pm/A/I_/AI_GATOR/07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz
+===> Fetching [OK]: AI::Gator:ver<0.0.14>:auth<zef:bduggan> to /home/coke/sandbox/blin/data/zef-data/tmp/1789446204.1821994.1624.141910642488/07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz
+[AI::Gator] Command: tar -t -f ./07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz
+[AI::Gator] Command: tar -xvf ./07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz -C ../07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz
+===> Extraction [OK]: AI::Gator to /home/coke/sandbox/blin/data/zef-data/tmp/07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz
+===> Testing: AI::Gator:ver<0.0.14>:auth<zef:bduggan>
+[AI::Gator] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz/AI-Gator-0.0.14 t/00-load.rakutest
+[AI::Gator] 1..1
+[AI::Gator] ok 1 - AI::Gator module can be use-d ok
+[AI::Gator] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz/AI-Gator-0.0.14 t/01-session.rakutest
+[AI::Gator] 1..7
+[AI::Gator] # Subtest: Basic Session Creation
+[AI::Gator]     1..4
+[AI::Gator]     ok 1 - Session created successfully
+[AI::Gator]     ok 2 - Session starts with no messages
+[AI::Gator]     ok 3 - Session starts with no tool calls
+[AI::Gator]     ok 4 - Session starts with empty finish reason
+[AI::Gator] ok 1 - Basic Session Creation
+[AI::Gator] # Subtest: Message Management
+[AI::Gator]     1..6
+[AI::Gator]     ok 1 - Message added successfully
+[AI::Gator]     ok 2 - Default role is user
+[AI::Gator]     ok 3 - Content stored correctly
+[AI::Gator]     ok 4 - Second message added
+[AI::Gator]     ok 5 - Custom role set correctly
+[AI::Gator]     ok 6 - Additional args preserved
+[AI::Gator] ok 2 - Message Management
+[AI::Gator] # Subtest: Tool Call Management
+[AI::Gator]     1..5
+[AI::Gator]     ok 1 - Tool call added
+[AI::Gator]     ok 2 - Has pending tool calls
+[AI::Gator]     ok 3 - Tool call name preserved
+[AI::Gator]     ok 4 - Tool calls cleared
+[AI::Gator]     ok 5 - No pending tool calls after clear
+[AI::Gator] ok 3 - Tool Call Management
+[AI::Gator] # Subtest: with-message Method
+[AI::Gator]     1..3
+[AI::Gator]     ok 1 - with-message returns original + new message
+[AI::Gator]     ok 2 - New message content correct
+[AI::Gator]     ok 3 - Original session unchanged
+[AI::Gator] ok 4 - with-message Method
+[AI::Gator] # Subtest: Session File Handling
+[AI::Gator]     1..3
+[AI::Gator]     ok 1 - Session directory is IO::Path
+[AI::Gator]     ok 2 - Session file is IO::Path
+[AI::Gator]     ok 3 - Session file in correct directory
+[AI::Gator] ok 5 - Session File Handling
+[AI::Gator] # Subtest: Session Saving
+[AI::Gator]     1..5
+[AI::Gator]     ok 1 - Session saves without error
+[AI::Gator]     ok 2 - Session file created
+[AI::Gator] Expected a modifiable native int argument for '$pos'
+[AI::Gator]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[AI::Gator]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[AI::Gator]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[AI::Gator]   in block <unit> at t/01-session.rakutest line 104
+[AI::Gator]     # You planned 5 tests, but ran 2
+[AI::Gator] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz/AI-Gator-0.0.14 t/02-gator.rakutest
+[AI::Gator] 1..14
+[AI::Gator] # Subtest: Basic Gator Creation
+[AI::Gator]     1..4
+[AI::Gator]     ok 1 - Gator created successfully
+[AI::Gator]     ok 2 - Model set correctly
+[AI::Gator]     ok 3 - Base URI set to OpenAI
+[AI::Gator]     ok 4 - Toolbox is a Supplier
+[AI::Gator] ok 1 - Basic Gator Creation
+[AI::Gator] # Subtest: Tool Management
+[AI::Gator]     1..4
+[AI::Gator]     ok 1 - Tool added to gator
+[AI::Gator]     ok 2 - Tool function registered
+[AI::Gator]     ok 3 - Tool function accessible by name
+[AI::Gator]     ok 4 - Tool function works correctly
+[AI::Gator] ok 2 - Tool Management
+[AI::Gator] # Subtest: HTTP POST Method
+[AI::Gator]     1..3
+[AI::Gator]     ok 1 - POST returns correct content
+[AI::Gator]     ok 2 - One request made
+[AI::Gator]     ok 3 - Correct URL called
+[AI::Gator] ok 3 - HTTP POST Method
+[AI::Gator] # Subtest: HTTP POST Error Handling
+[AI::Gator]     1..1
+[AI::Gator]     # Subtest: POST throws on HTTP error
+[AI::Gator]         1..2
+[AI::Gator]         ok 1 - code dies
+[AI::Gator]         ok 2 - right exception type (Exception)
+[AI::Gator]     ok 1 - POST throws on HTTP error
+[AI::Gator] ok 4 - HTTP POST Error Handling
+[AI::Gator] # Subtest: Chat Once Method
+[AI::Gator]     1..2
+[AI::Gator] Expected a modifiable native int argument for '$pos'
+[AI::Gator]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[AI::Gator]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[AI::Gator]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[AI::Gator]   in method chat-once at /home/coke/sandbox/blin/data/zef-data/tmp/07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz/AI-Gator-0.0.14/lib/AI/Gator.rakumod (AI::Gator) line 117
+[AI::Gator]   in block <unit> at t/02-gator.rakutest line 101
+[AI::Gator]     # You planned 2 tests, but ran 0
+[AI::Gator] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz/AI-Gator-0.0.14 t/03-integration.rakutest
+[AI::Gator] 1..6
+[AI::Gator] # Subtest: Complete Conversation Flow
+[AI::Gator]     1..4
+[AI::Gator] Expected a modifiable native int argument for '$pos'
+[AI::Gator]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[AI::Gator]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[AI::Gator]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[AI::Gator]   in method chat-once at /home/coke/sandbox/blin/data/zef-data/tmp/07aa6b0f600b2c651092632e2f8c712d8633567e.tar.gz/AI-Gator-0.0.14/lib/AI/Gator.rakumod (AI::Gator) line 117
+[AI::Gator]   in block <unit> at t/03-integration.rakutest line 68
+[AI::Gator]     # You planned 4 tests, but ran 0
+===> Testing [FAIL]: AI::Gator:ver<0.0.14>:auth<zef:bduggan>
+[AI::Gator] Failed to get passing tests, but continuing with --force-test
+===> Installing: AI::Gator:ver<0.0.14>:auth<zef:bduggan>
+===> Install [OK] for AI::Gator:ver<0.0.14>:auth<zef:bduggan>
+
+1 bin/ script [ai-gator] installed to:
+/home/coke/sandbox/blin/installed/AI::Gator_zef:bduggan_0.0.14_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 34.896s
+             CPU time consumed: 44.934s
+                   Memory peak: 1.9G (swap: 0B)

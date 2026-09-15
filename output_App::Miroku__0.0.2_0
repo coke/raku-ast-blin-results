@@ -1,0 +1,137 @@
+Running as unit: run-p1662947-i10081874.service; invocation ID: a6017bdb8f76489899642eeead1da2c2
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: App::Miroku
+===> Found: App::Miroku:ver<0.0.2> [via Zef::Repository::Ecosystems<rea>]
+[App::Miroku] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442630.1662948.2672.3013832749043/App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/A/App%3A%3AMiroku/App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz
+===> Fetching [OK]: App::Miroku:ver<0.0.2> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442630.1662948.2672.3013832749043/App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz
+[App::Miroku] Command: tar -t -f ./App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz
+[App::Miroku] Command: tar -xvf ./App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz -C ../App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz
+===> Extraction [OK]: App::Miroku to /home/coke/sandbox/blin/data/zef-data/tmp/App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz
+===> Testing: App::Miroku:ver<0.0.2>
+[App::Miroku] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz/p6-miroku-master t/01-sanity.t
+[App::Miroku] 1..1
+[App::Miroku] ok 1 - load module
+[App::Miroku] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz/p6-miroku-master t/02-template.t
+[App::Miroku] 1..2
+[App::Miroku] ok 1 - 
+[App::Miroku] ok 2 - 
+[App::Miroku] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz/p6-miroku-master t/03-find-source-url.t
+[App::Miroku] 1..4
+[App::Miroku] ok 1 - # SKIP We can't find source from git repository, Not found .git/
+[App::Miroku] ok 2 - # SKIP We can't find source from git repository, Not found .git/
+[App::Miroku] ok 3 - # SKIP We can't find source from git repository, Not found .git/
+[App::Miroku] ok 4 - # SKIP We can't find source from git repository, Not found .git/
+[App::Miroku] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz/p6-miroku-master t/04-path-utils.t
+[App::Miroku] 1..3
+[App::Miroku] ok 1 - 
+[App::Miroku] ok 2 - 
+[App::Miroku] ok 3 - 
+[App::Miroku] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz/p6-miroku-master t/05-json.t
+[App::Miroku] 1..2
+[App::Miroku] ok 1 - 
+[App::Miroku] Expected a modifiable native int argument for '$pos'
+[App::Miroku]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[App::Miroku]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[App::Miroku]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[App::Miroku]   in block <unit> at t/05-json.t line 16
+[App::Miroku] # You planned 2 tests, but ran 1
+[App::Miroku] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/App%3A%3AMiroku%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Anoqisofon%3E.tar.gz/p6-miroku-master t/06-array-ref.t
+[App::Miroku] 1..1
+[App::Miroku] ok 1 - 
+===> Testing [FAIL]: App::Miroku:ver<0.0.2>
+[App::Miroku] Failed to get passing tests, but continuing with --force-test
+===> Installing: App::Miroku:ver<0.0.2>
+===> Install [OK] for App::Miroku:ver<0.0.2>
+
+1 bin/ script [miroku] installed to:
+/home/coke/sandbox/blin/installed/App::Miroku__0.0.2_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 31.746s
+             CPU time consumed: 36.135s
+                   Memory peak: 1.5G (swap: 0B)

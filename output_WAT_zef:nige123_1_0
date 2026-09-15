@@ -1,0 +1,131 @@
+Running as unit: run-p2290974-i10708972.service; invocation ID: a198855c122b4e69a1158d7377d3ba94
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: WAT
+===> Found: WAT:ver<1>:auth<zef:nige123> [via Zef::Repository::Ecosystems<fez>]
+[WAT] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789465524.2290975.9216.636145746406/4bd4950a3c897192e6c650e66d887494d5939bc2.tar.gz https://360.zef.pm/W/AT/WAT/4bd4950a3c897192e6c650e66d887494d5939bc2.tar.gz
+===> Fetching [OK]: WAT:ver<1>:auth<zef:nige123> to /home/coke/sandbox/blin/data/zef-data/tmp/1789465524.2290975.9216.636145746406/4bd4950a3c897192e6c650e66d887494d5939bc2.tar.gz
+[WAT] Command: tar -t -f ./4bd4950a3c897192e6c650e66d887494d5939bc2.tar.gz
+[WAT] Command: tar -xvf ./4bd4950a3c897192e6c650e66d887494d5939bc2.tar.gz -C ../4bd4950a3c897192e6c650e66d887494d5939bc2.tar.gz
+===> Extraction [OK]: WAT to /home/coke/sandbox/blin/data/zef-data/tmp/4bd4950a3c897192e6c650e66d887494d5939bc2.tar.gz
+===> Testing: WAT:ver<1>:auth<zef:nige123>
+[WAT] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4bd4950a3c897192e6c650e66d887494d5939bc2.tar.gz/dist t/00-use.rakutest
+[WAT] 1..1
+[WAT] not ok 1 - WAT::CLI module can be use-d ok
+[WAT] # Failed test 'WAT::CLI module can be use-d ok'
+[WAT] # at t/00-use.rakutest line 5
+[WAT] # ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/4bd4950a3c897192e6c650e66d887494d5939bc2.tar.gz/dist/lib/WAT/CLI.rakumod (WAT::CLI)
+[WAT] # ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/LLM::DWIM_zef:bduggan_0.0.6_0/sources/3B93348195D4AAB028E60EE4C4348A4FD26BC220 (LLM::DWIM)
+[WAT] # ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/LLM::Prompts_zef:antononcube_0.2.15_1/sources/0658A6BAAB0B4760E95F86907C936816AAC0B27D (LLM::Prompts)
+[WAT] # An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[WAT] # Expected a modifiable native int argument for '$pos'
+[WAT] # at /home/coke/sandbox/blin/installed/LLM::Prompts_zef:antononcube_0.2.15_1/sources/0658A6BAAB0B4760E95F86907C936816AAC0B27D (LLM::Prompts):410
+[WAT] # ------> <BOL><HERE>BEGIN {
+[WAT] # Exception details:
+[WAT] #   ===SORRY!=== Error while compiling:
+[WAT] #   Expected a modifiable native int argument for '$pos'
+[WAT] #   at line 
+[WAT] # 
+[WAT] # at /home/coke/sandbox/blin/installed/LLM::DWIM_zef:bduggan_0.0.6_0/sources/3B93348195D4AAB028E60EE4C4348A4FD26BC220 (LLM::DWIM):3
+[WAT] # ------> <BOL><HERE>use LLM::Prompts;
+[WAT] # 
+[WAT] # at /home/coke/sandbox/blin/data/zef-data/tmp/4bd4950a3c897192e6c650e66d887494d5939bc2.tar.gz/dist/lib/WAT/CLI.rakumod (WAT::CLI):2
+[WAT] # ------> <BOL><HERE>use LLM::DWIM;
+[WAT] # 
+[WAT] # You failed 1 test of 1
+===> Testing [FAIL]: WAT:ver<1>:auth<zef:nige123>
+[WAT] Failed to get passing tests, but continuing with --force-test
+===> Installing: WAT:ver<1>:auth<zef:nige123>
+===> Install [OK] for WAT:ver<1>:auth<zef:nige123>
+
+1 bin/ script [wat] installed to:
+/home/coke/sandbox/blin/installed/WAT_zef:nige123_1_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 49.270s
+             CPU time consumed: 1min 12.595s
+                   Memory peak: 2.5G (swap: 0B)

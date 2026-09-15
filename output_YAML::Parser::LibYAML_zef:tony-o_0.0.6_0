@@ -1,0 +1,47 @@
+Running as unit: run-p1790492-i10180396.service; invocation ID: 742f62265f8c4d369ea4f5afeb86d28a
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: YAML::Parser::LibYAML
+===> Found: YAML::Parser::LibYAML:ver<0.0.6>:auth<zef:tony-o> [via Zef::Repository::Ecosystems<fez>]
+[YAML::Parser::LibYAML] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445529.1790496.9463.722682862028/a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz https://360.zef.pm/Y/AM/YAML_PARSER_LIBYAML/a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz
+===> Fetching [OK]: YAML::Parser::LibYAML:ver<0.0.6>:auth<zef:tony-o> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445529.1790496.9463.722682862028/a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz
+[YAML::Parser::LibYAML] Command: tar -t -f ./a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz
+[YAML::Parser::LibYAML] Command: tar -xvf ./a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz -C ../a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz
+===> Extraction [OK]: YAML::Parser::LibYAML to /home/coke/sandbox/blin/data/zef-data/tmp/a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz
+===> Building: YAML::Parser::LibYAML:ver<0.0.6>:auth<zef:tony-o>
+[YAML::Parser::LibYAML] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -e require '/home/coke/sandbox/blin/data/zef-data/tmp/a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz/Build.pm'; ::('Build').new.build('/home/coke/sandbox/blin/data/zef-data/tmp/a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz') ?? exit(0) !! exit(1);
+[YAML::Parser::LibYAML] gcc -I src -c -fPIC -fwrapv -std=gnu99 -Wextra -Wall -Wno-unused-parameter -Wno-unused-function -Wno-missing-braces -Werror=pointer-arith -O3 -DNDEBUG  -D_REENTRANT -D_FILE_OFFSET_BITS=64 -fPIC -DMVM_HEAPSNAPSHOT_FORMAT=2 -D_GNU_SOURCE -o src/yamlwrap.o src/yamlwrap.c
+[YAML::Parser::LibYAML] src/yamlwrap.c: In function ‘parse_file’:
+[YAML::Parser::LibYAML] src/yamlwrap.c:31:9: warning: variable ‘ext’ set but not used [-Wunused-but-set-variable]
+[YAML::Parser::LibYAML]    31 |   void* ext;
+[YAML::Parser::LibYAML]       |         ^~~
+[YAML::Parser::LibYAML] gcc -shared -fPIC  -O3 -DNDEBUG -Wl,-rpath,"//tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/lib" -o resources/lib/libyamlwrap.so src/yamlwrap.o -lyaml
+===> Building [OK] for YAML::Parser::LibYAML:ver<0.0.6>:auth<zef:tony-o>
+===> Testing: YAML::Parser::LibYAML:ver<0.0.6>:auth<zef:tony-o>
+[YAML::Parser::LibYAML] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz t/00-gauntlet.t
+[YAML::Parser::LibYAML] 1..97
+[YAML::Parser::LibYAML] Expected a modifiable native int argument for '$pos'
+[YAML::Parser::LibYAML]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[YAML::Parser::LibYAML]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[YAML::Parser::LibYAML]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[YAML::Parser::LibYAML]   in block <unit> at t/00-gauntlet.t line 17
+[YAML::Parser::LibYAML] # You planned 97 tests, but ran 0
+[YAML::Parser::LibYAML] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz t/01-quoted-issue1.t
+[YAML::Parser::LibYAML] 1..1
+[YAML::Parser::LibYAML] ok 1 - quoted string
+[YAML::Parser::LibYAML] Saw 1 occurrence of deprecated code.
+[YAML::Parser::LibYAML] ================================================================================
+[YAML::Parser::LibYAML] Method absolute (from Distribution::Resource) seen at:
+[YAML::Parser::LibYAML]   /home/coke/sandbox/blin/data/zef-data/tmp/a1a696f3eb7b7076fcd46a9b5c4ac04eedee6b39.tar.gz/lib/YAML/Parser/LibYAML.pm6 (YAML::Parser::LibYAML), line 9
+[YAML::Parser::LibYAML] Please use %?RESOURCES<key> directly instead.
+[YAML::Parser::LibYAML] --------------------------------------------------------------------------------
+[YAML::Parser::LibYAML] Please contact the author to have these occurrences of deprecated code
+[YAML::Parser::LibYAML] adapted, so that this message will disappear!
+===> Testing [FAIL]: YAML::Parser::LibYAML:ver<0.0.6>:auth<zef:tony-o>
+[YAML::Parser::LibYAML] Failed to get passing tests, but continuing with --force-test
+===> Installing: YAML::Parser::LibYAML:ver<0.0.6>:auth<zef:tony-o>
+===> Install [OK] for YAML::Parser::LibYAML:ver<0.0.6>:auth<zef:tony-o>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 8.986s
+             CPU time consumed: 10.978s
+                   Memory peak: 979.5M (swap: 0B)

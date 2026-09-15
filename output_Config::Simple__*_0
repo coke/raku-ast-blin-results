@@ -1,0 +1,129 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Config::Simple
+Running as unit: run-p1830006-i10222411.service; invocation ID: bba45a97c3304ebfa084a61bed1f2424
+Press ^] three times within 1s to disconnect TTY.
+===> Found: Config::Simple [via Zef::Repository::Ecosystems<rea>]
+[Config::Simple] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789446398.1830018.2139.814049881056/Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/Config%3A%3ASimple/Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz
+===> Fetching [OK]: Config::Simple to /home/coke/sandbox/blin/data/zef-data/tmp/1789446398.1830018.2139.814049881056/Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz
+[Config::Simple] Command: tar -t -f ./Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz
+[Config::Simple] Command: tar -xvf ./Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz -C ../Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz
+===> Extraction [OK]: Config::Simple to /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz
+===> Testing: Config::Simple
+[Config::Simple] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz/perl6-config-simple-master t/00_use_meta.t
+[Config::Simple] 1..1
+[Config::Simple] ok 1 - # SKIP Skipping author test
+[Config::Simple] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz/perl6-config-simple-master t/01_perl6.t
+[Config::Simple] 1..4
+[Config::Simple] ok 1 - Video title is Dune
+[Config::Simple] ok 2 - Subtitle file is Dune_sub.txt
+[Config::Simple] ok 3 - Calling something that don't exist
+[Config::Simple] ok 4 - Changing subtitle format
+[Config::Simple] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz/perl6-config-simple-master t/02_ini.t
+[Config::Simple] 1..4
+[Config::Simple] ok 1 - Video title is Dune
+[Config::Simple] ok 2 - Subtitle file is Dune_sub.txt
+[Config::Simple] ok 3 - Calling something that don't exist
+[Config::Simple] ok 4 - fudging for ini
+[Config::Simple] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz/perl6-config-simple-master t/03_JSON.t
+[Config::Simple] 1..4
+[Config::Simple] Expected a modifiable native int argument for '$pos'
+[Config::Simple]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Config::Simple]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Config::Simple]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Config::Simple]   in method read at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz/perl6-config-simple-master/lib/Config/Simple/JSON.pm6 (Config::Simple::JSON) line 8
+[Config::Simple]   in method read at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ASimple%3Aver%3C%2A%3E%3Aauth%3Cgithub%3ASkarsnik%3E.tar.gz/perl6-config-simple-master/lib/Config/Simple.pm6 (Config::Simple) line 13
+[Config::Simple]   in block <unit> at t/03_JSON.t line 5
+[Config::Simple] # You planned 4 tests, but ran 0
+===> Testing [FAIL]: Config::Simple
+[Config::Simple] Failed to get passing tests, but continuing with --force-test
+===> Installing: Config::Simple
+===> Install [OK] for Config::Simple
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 36.442s
+             CPU time consumed: 42.646s
+                   Memory peak: 1.6G (swap: 0B)

@@ -1,0 +1,187 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: H2O::Client
+Running as unit: run-p1848516-i10177687.service; invocation ID: 4db5ecdce7e5499c8090857197f5be57
+Press ^] three times within 1s to disconnect TTY.
+===> Found: H2O::Client:ver<0.0.2>:auth<zef:antononcube>:api<0> [via Zef::Repository::Ecosystems<fez>]
+[H2O::Client] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789446785.1848517.5842.839570937017/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz https://360.zef.pm/H/2O/H2O_CLIENT/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz
+===> Fetching [OK]: H2O::Client:ver<0.0.2>:auth<zef:antononcube>:api<0> to /home/coke/sandbox/blin/data/zef-data/tmp/1789446785.1848517.5842.839570937017/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz
+[H2O::Client] Command: tar -t -f ./78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz
+[H2O::Client] Command: tar -xvf ./78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz -C ../78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz
+===> Extraction [OK]: H2O::Client to /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz
+===> Testing: H2O::Client:ver<0.0.2>:auth<zef:antononcube>:api<0>
+[H2O::Client] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz/dist t/00-load.rakutest
+[H2O::Client] ok 1 - H2O::Client module can be use-d ok
+[H2O::Client] ok 2 - H2O::Client::Connector module can be use-d ok
+[H2O::Client] ok 3 - H2O::Client::Transport module can be use-d ok
+[H2O::Client] ok 4 - H2O::Client::Frame module can be use-d ok
+[H2O::Client] ok 5 - H2O::Client::Column module can be use-d ok
+[H2O::Client] ok 6 - H2O::Client::Job module can be use-d ok
+[H2O::Client] ok 7 - H2O::Client::Rapids::Expr module can be use-d ok
+[H2O::Client] ok 8 - H2O::Client::Rapids::GroupBy module can be use-d ok
+[H2O::Client] 1..8
+[H2O::Client] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz/dist t/01-client-frame.rakutest
+[H2O::Client] ok 1 - positional base URL is retained
+[H2O::Client] ok 2 - frame list becomes proxy objects
+[H2O::Client] ok 3 - The object is-a 'H2O::Client::Frame'
+[H2O::Client] ok 4 - frame key is retained
+[H2O::Client] ok 5 - metadata is loaded lazily
+[H2O::Client] ok 6 - column names are exposed
+[H2O::Client] ok 7 - column types are exposed
+[H2O::Client] ok 8 - The object is-a 'H2O::Client::Column'
+[H2O::Client] ok 9 - column domain is available
+[H2O::Client] ok 10 - preview materializes the requested row count
+[H2O::Client] ok 11 - preview selects named columns
+[H2O::Client] ok 12 - preview returns numeric values
+[H2O::Client] ok 13 - integer positional access materializes one row
+[H2O::Client] ok 14 - list positional access preserves selector order
+[H2O::Client] ok 15 - range positional access materializes every row in range
+[H2O::Client] ok 16 - Whatever positional access materializes all rows
+[H2O::Client] ok 17 - Whatever type object selects all rows
+[H2O::Client] # Subtest: method Array gives an array of hashmaps
+[H2O::Client]     ok 1 - is an array
+[H2O::Client]     ok 2 - is of length 3
+[H2O::Client]     ok 3 - all hashmaps
+[H2O::Client]     1..3
+[H2O::Client] ok 18 - method Array gives an array of hashmaps
+[H2O::Client] ok 19 - frame can be deleted
+[H2O::Client] ok 20 - frame IDs are URL encoded
+[H2O::Client] 1..20
+[H2O::Client] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz/dist t/02-job.rakutest
+[H2O::Client] ok 1 - wait polls until DONE
+[H2O::Client] ok 2 - job progress is refreshed
+[H2O::Client] ok 3 - frame destinations become proxies
+[H2O::Client] ok 4 - result proxy uses destination key
+[H2O::Client] 1..4
+[H2O::Client] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz/dist t/03-transport.rakutest
+[H2O::Client] Invalid JSON from H2O at http://example.test/3/Cloud: Expected a modifiable native int argument for '$pos'
+[H2O::Client]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz/dist/lib/H2O/Client/Transport.rakumod (H2O::Client::Transport) line 51
+[H2O::Client]   in any  at /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz/dist/.precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/9F/9FAE857174ECBDB80B6E5D2E98D0C69BC77F1FF0 line 1
+[H2O::Client]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[H2O::Client]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[H2O::Client]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[H2O::Client]   in method request at /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz/dist/lib/H2O/Client/Transport.rakumod (H2O::Client::Transport) line 52
+[H2O::Client]   in method get at /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz/dist/lib/H2O/Client/Transport.rakumod (H2O::Client::Transport) line 57
+[H2O::Client]   in block <unit> at t/03-transport.rakutest line 16
+[H2O::Client] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz/dist t/04-rapids.rakutest
+[H2O::Client] ok 1 - frame identity includes cluster and key
+[H2O::Client] ok 2 - column predicate has a safe Rapids AST
+[H2O::Client] ok 3 - column factor conversion is a lazy Rapids expression
+[H2O::Client] ok 4 - selection is a lazy expression
+[H2O::Client] ok 5 - grouping returns a lazy builder
+[H2O::Client] ok 6 - grouping builds a lazy Rapids aggregation expression
+[H2O::Client] ok 7 - materializing expression returns a frame proxy
+[H2O::Client] ok 8 - Rapids endpoint is used
+[H2O::Client] ok 9 - destination is explicitly materialized through tmp=
+[H2O::Client] ok 10 - Rapids execution carries the client session key
+[H2O::Client] # Subtest: unsafe frame keys cannot become a Rapids expression
+[H2O::Client]     1..2
+[H2O::Client]     ok 1 - code dies
+[H2O::Client]     ok 2 - right exception type (X::AdHoc)
+[H2O::Client] ok 11 - unsafe frame keys cannot become a Rapids expression
+[H2O::Client] 1..11
+[H2O::Client] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/78b5b8bdafee218d82305c102c86b798fb10af1f.tar.gz/dist t/05-import-file.rakutest
+[H2O::Client] ok 1 - an import without :job returns the ImportFiles response
+[H2O::Client] ok 2 - an import with :job returns the parse job
+[H2O::Client] ok 3 - the parse job is retained
+[H2O::Client] ok 4 - the server path is imported first
+[H2O::Client] ok 5 - the server path is sent as a query parameter
+[H2O::Client] ok 6 - the imported keys are sent to ParseSetup
+[H2O::Client] ok 7 - all imported files are included in parse setup
+[H2O::Client] ok 8 - the inferred setup is submitted to Parse
+[H2O::Client] ok 9 - the setup source keys are submitted to Parse
+[H2O::Client] ok 10 - explicit parse options override inferred setup
+[H2O::Client] ok 11 - additional parse options are preserved
+[H2O::Client] 1..11
+===> Testing [FAIL]: H2O::Client:ver<0.0.2>:auth<zef:antononcube>:api<0>
+[H2O::Client] Failed to get passing tests, but continuing with --force-test
+===> Installing: H2O::Client:ver<0.0.2>:auth<zef:antononcube>:api<0>
+===> Install [OK] for H2O::Client:ver<0.0.2>:auth<zef:antononcube>:api<0>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 41.735s
+             CPU time consumed: 59.205s
+                   Memory peak: 1.7G (swap: 0B)

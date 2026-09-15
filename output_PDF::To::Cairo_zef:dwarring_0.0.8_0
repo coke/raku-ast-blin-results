@@ -1,0 +1,236 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: PDF::To::Cairo
+Running as unit: run-p2319720-i10698709.service; invocation ID: a42ce10c24a34447a4bc9b470fe3fd4b
+Press ^] three times within 1s to disconnect TTY.
+===> Found: PDF::To::Cairo:ver<0.0.8>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[PDF::To::Cairo] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789466266.2319724.6710.342596577183/2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz https://360.zef.pm/P/DF/PDF_TO_CAIRO/2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz
+===> Fetching [OK]: PDF::To::Cairo:ver<0.0.8>:auth<zef:dwarring> to /home/coke/sandbox/blin/data/zef-data/tmp/1789466266.2319724.6710.342596577183/2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz
+[PDF::To::Cairo] Command: tar -t -f ./2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz
+[PDF::To::Cairo] Command: tar -xvf ./2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz -C ../2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz
+===> Extraction [OK]: PDF::To::Cairo to /home/coke/sandbox/blin/data/zef-data/tmp/2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz
+===> Testing: PDF::To::Cairo:ver<0.0.8>:auth<zef:dwarring>
+[PDF::To::Cairo] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz/PDF-To-Cairo-0.0.8 t/draw.t
+[PDF::To::Cairo] Potential difficulties:
+[PDF::To::Cairo]     Missing declarand for leading declarator doc
+[PDF::To::Cairo]     at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/D551184A16A6031B10EA96323DBE2F56ACA5AE4C (PDF::COS::Type::Info):1
+[PDF::To::Cairo]     ------> <BOL><HERE>use v6;
+[PDF::To::Cairo] Potential difficulties:
+[PDF::To::Cairo]     Missing declarand for trailing declarator doc
+[PDF::To::Cairo]     at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/C6583504D51212B9607A665CD74EC56B7315362F (PDF::Class::OptionalContent):1
+[PDF::To::Cairo]     ------> #= Consumed by PDF::OCG and PDF::OCMD<HERE><EOL>
+[PDF::To::Cairo] Potential difficulties:
+[PDF::To::Cairo]     Useless use of $surface in sink context
+[PDF::To::Cairo]     at /home/coke/sandbox/blin/data/zef-data/tmp/2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz/PDF-To-Cairo-0.0.8/lib/PDF/To/Cairo.rakumod (PDF::To::Cairo):522
+[PDF::To::Cairo]     ------>                             <HERE>$surface;
+[PDF::To::Cairo] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog)
+[PDF::To::Cairo] ===SORRY!===
+[PDF::To::Cairo] Cannot do compile time parameterization with these args
+[PDF::To::Cairo] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog):33
+[PDF::To::Cairo] ------> <BOL><HERE>use PDF::Names;
+[PDF::To::Cairo]   in sub resolve-package-slow-path at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 74
+[PDF::To::Cairo]   in method required at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 78
+[PDF::To::Cairo]   in method find-delegate at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/FA1236164DAFABD52DC78773AACAB3F32E27F9C8 (PDF::COS::Loader) line 35
+[PDF::To::Cairo]   in method load-delegate at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/FCAB97D3031F636168D38D45C96654B615D8B202 (PDF::Class::Loader) line 41
+[PDF::To::Cairo]   in method load-dict at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 98
+[PDF::To::Cairo]   in method COERCE at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 99
+[PDF::To::Cairo]   in method coerce at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 143
+[PDF::To::Cairo]   in method coerce at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 50
+[PDF::To::Cairo]   in method lvalue at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie) line 231
+[PDF::To::Cairo]   in method ASSIGN-KEY at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 88
+[PDF::To::Cairo]   in method deref at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie) line 268
+[PDF::To::Cairo]   in method AT-KEY at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 75
+[PDF::To::Cairo]   in sub FETCH at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 30
+[PDF::To::Cairo]   in method Pages at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/084159E4577C1852A7D9D83495ACDA12BF1CC407 (PDF::Class) line 95
+[PDF::To::Cairo]   in block <unit> at t/draw.t line 11
+[PDF::To::Cairo] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz/PDF-To-Cairo-0.0.8 t/save-as.t
+[PDF::To::Cairo] 1..3
+[PDF::To::Cairo] not ok 1 - save as SVG
+[PDF::To::Cairo] # Failed test 'save as SVG'
+[PDF::To::Cairo] # at t/save-as.t line 11
+[PDF::To::Cairo] # ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog)
+[PDF::To::Cairo] # ===SORRY!===
+[PDF::To::Cairo] # Cannot do compile time parameterization with these args
+[PDF::To::Cairo] # 
+[PDF::To::Cairo] # at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog):33
+[PDF::To::Cairo] # ------> <BOL><HERE>use PDF::Names;
+[PDF::To::Cairo] # 
+[PDF::To::Cairo] not ok 2 - save as PDF
+[PDF::To::Cairo] # Failed test 'save as PDF'
+[PDF::To::Cairo] # at t/save-as.t line 11
+[PDF::To::Cairo] # ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog)
+[PDF::To::Cairo] # ===SORRY!===
+[PDF::To::Cairo] # Cannot do compile time parameterization with these args
+[PDF::To::Cairo] # 
+[PDF::To::Cairo] # at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog):33
+[PDF::To::Cairo] # ------> <BOL><HERE>use PDF::Names;
+[PDF::To::Cairo] # 
+[PDF::To::Cairo] not ok 3 - save as PNG
+[PDF::To::Cairo] # Failed test 'save as PNG'
+[PDF::To::Cairo] # at t/save-as.t line 11
+[PDF::To::Cairo] # ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog)
+[PDF::To::Cairo] # ===SORRY!===
+[PDF::To::Cairo] # Cannot do compile time parameterization with these args
+[PDF::To::Cairo] # 
+[PDF::To::Cairo] # at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog):33
+[PDF::To::Cairo] # ------> <BOL><HERE>use PDF::Names;
+[PDF::To::Cairo] # 
+[PDF::To::Cairo] # You failed 3 tests of 3
+[PDF::To::Cairo] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz/PDF-To-Cairo-0.0.8 t/text.t
+[PDF::To::Cairo] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog)
+[PDF::To::Cairo] ===SORRY!===
+[PDF::To::Cairo] Cannot do compile time parameterization with these args
+[PDF::To::Cairo] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog):33
+[PDF::To::Cairo] ------> <BOL><HERE>use PDF::Names;
+[PDF::To::Cairo]   in sub resolve-package-slow-path at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 74
+[PDF::To::Cairo]   in method required at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 78
+[PDF::To::Cairo]   in method find-delegate at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/FA1236164DAFABD52DC78773AACAB3F32E27F9C8 (PDF::COS::Loader) line 35
+[PDF::To::Cairo]   in method load-delegate at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/FCAB97D3031F636168D38D45C96654B615D8B202 (PDF::Class::Loader) line 41
+[PDF::To::Cairo]   in method load-dict at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 98
+[PDF::To::Cairo]   in method COERCE at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 99
+[PDF::To::Cairo]   in method coerce at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 143
+[PDF::To::Cairo]   in method coerce at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 50
+[PDF::To::Cairo]   in method lvalue at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie) line 231
+[PDF::To::Cairo]   in method ASSIGN-KEY at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 88
+[PDF::To::Cairo]   in method deref at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie) line 268
+[PDF::To::Cairo]   in method AT-KEY at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 75
+[PDF::To::Cairo]   in sub FETCH at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 30
+[PDF::To::Cairo]   in method Pages at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/084159E4577C1852A7D9D83495ACDA12BF1CC407 (PDF::Class) line 95
+[PDF::To::Cairo]   in block <unit> at t/text.t line 12
+[PDF::To::Cairo] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz/PDF-To-Cairo-0.0.8 t/transforms.t
+[PDF::To::Cairo] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog)
+[PDF::To::Cairo] ===SORRY!===
+[PDF::To::Cairo] Cannot do compile time parameterization with these args
+[PDF::To::Cairo] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog):33
+[PDF::To::Cairo] ------> <BOL><HERE>use PDF::Names;
+[PDF::To::Cairo]   in sub resolve-package-slow-path at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 74
+[PDF::To::Cairo]   in method required at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 78
+[PDF::To::Cairo]   in method find-delegate at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/FA1236164DAFABD52DC78773AACAB3F32E27F9C8 (PDF::COS::Loader) line 35
+[PDF::To::Cairo]   in method load-delegate at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/FCAB97D3031F636168D38D45C96654B615D8B202 (PDF::Class::Loader) line 41
+[PDF::To::Cairo]   in method load-dict at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 98
+[PDF::To::Cairo]   in method COERCE at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 99
+[PDF::To::Cairo]   in method coerce at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 143
+[PDF::To::Cairo]   in method coerce at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 50
+[PDF::To::Cairo]   in method lvalue at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie) line 231
+[PDF::To::Cairo]   in method ASSIGN-KEY at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 88
+[PDF::To::Cairo]   in method deref at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie) line 268
+[PDF::To::Cairo]   in method AT-KEY at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 75
+[PDF::To::Cairo]   in sub FETCH at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 30
+[PDF::To::Cairo]   in method Pages at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/084159E4577C1852A7D9D83495ACDA12BF1CC407 (PDF::Class) line 95
+[PDF::To::Cairo]   in block <unit> at t/transforms.t line 11
+[PDF::To::Cairo] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2269e076e02b5525853f168a2a0eed13b513d1e3.tar.gz/PDF-To-Cairo-0.0.8 t/xobject.t
+[PDF::To::Cairo] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog)
+[PDF::To::Cairo] ===SORRY!===
+[PDF::To::Cairo] Cannot do compile time parameterization with these args
+[PDF::To::Cairo] at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/578E5C4F1643DE2A618D862FD8538FA9D55698F2 (PDF::Catalog):33
+[PDF::To::Cairo] ------> <BOL><HERE>use PDF::Names;
+[PDF::To::Cairo]   in sub resolve-package-slow-path at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 74
+[PDF::To::Cairo]   in method required at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 78
+[PDF::To::Cairo]   in method find-delegate at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/FA1236164DAFABD52DC78773AACAB3F32E27F9C8 (PDF::COS::Loader) line 35
+[PDF::To::Cairo]   in method load-delegate at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/FCAB97D3031F636168D38D45C96654B615D8B202 (PDF::Class::Loader) line 41
+[PDF::To::Cairo]   in method load-dict at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 98
+[PDF::To::Cairo]   in method COERCE at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 99
+[PDF::To::Cairo]   in method coerce at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 143
+[PDF::To::Cairo]   in method coerce at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/9A882411F1D2D7E6ED27A16846D01AD94E4AE1DC (PDF::COS) line 50
+[PDF::To::Cairo]   in method lvalue at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie) line 231
+[PDF::To::Cairo]   in method ASSIGN-KEY at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 88
+[PDF::To::Cairo]   in method deref at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/331B515167232797D9AB6E36815B036F93D383C9 (PDF::COS::Tie) line 268
+[PDF::To::Cairo]   in method AT-KEY at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 75
+[PDF::To::Cairo]   in sub FETCH at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/E7BA44535707BB0756435D2A3D909EAF0051531F (PDF::COS::Tie::Hash) line 30
+[PDF::To::Cairo]   in method Pages at /home/coke/sandbox/blin/installed/PDF::Class_zef:dwarring_0.5.30_0/sources/084159E4577C1852A7D9D83495ACDA12BF1CC407 (PDF::Class) line 95
+[PDF::To::Cairo]   in block <unit> at t/xobject.t line 13
+===> Testing [FAIL]: PDF::To::Cairo:ver<0.0.8>:auth<zef:dwarring>
+[PDF::To::Cairo] Failed to get passing tests, but continuing with --force-test
+===> Installing: PDF::To::Cairo:ver<0.0.8>:auth<zef:dwarring>
+===> Install [OK] for PDF::To::Cairo:ver<0.0.8>:auth<zef:dwarring>
+
+2 bin/ scripts [pdf2image.raku pdf-previews.raku] installed to:
+/home/coke/sandbox/blin/installed/PDF::To::Cairo_zef:dwarring_0.0.8_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 3min 3.506s
+             CPU time consumed: 4min 23.934s
+                   Memory peak: 2.6G (swap: 2.1M)

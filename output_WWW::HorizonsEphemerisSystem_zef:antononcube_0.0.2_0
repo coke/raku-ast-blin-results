@@ -1,0 +1,150 @@
+Running as unit: run-p1875204-i10309976.service; invocation ID: d3700ffb14cf47ed9f602732dc09fe32
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: WWW::HorizonsEphemerisSystem
+===> Found: WWW::HorizonsEphemerisSystem:ver<0.0.2>:auth<zef:antononcube> [via Zef::Repository::Ecosystems<fez>]
+[WWW::HorizonsEphemerisSystem] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789447411.1875210.2583.1003996317536/573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz https://360.zef.pm/W/WW/WWW_HORIZONSEPHEMERISSYSTEM/573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz
+===> Fetching [OK]: WWW::HorizonsEphemerisSystem:ver<0.0.2>:auth<zef:antononcube> to /home/coke/sandbox/blin/data/zef-data/tmp/1789447411.1875210.2583.1003996317536/573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz
+[WWW::HorizonsEphemerisSystem] Command: tar -t -f ./573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz
+[WWW::HorizonsEphemerisSystem] Command: tar -xvf ./573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz -C ../573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz
+===> Extraction [OK]: WWW::HorizonsEphemerisSystem to /home/coke/sandbox/blin/data/zef-data/tmp/573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz
+===> Testing: WWW::HorizonsEphemerisSystem:ver<0.0.2>:auth<zef:antononcube>
+[WWW::HorizonsEphemerisSystem] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz/dist t/00-sanity.rakutest
+[WWW::HorizonsEphemerisSystem] Potential difficulties:
+[WWW::HorizonsEphemerisSystem]     Declaring class 'WWW::HorizonsEphemerisSystem::Client' inside an
+[WWW::HorizonsEphemerisSystem]     enclosing module of the same name silently replaces the module in the
+[WWW::HorizonsEphemerisSystem]     outer stash. This is legacy behavior specific to Raku 6.d and earlier;
+[WWW::HorizonsEphemerisSystem]     in Raku 6.e the same pattern installs the class as a nested package
+[WWW::HorizonsEphemerisSystem]     instead. Rewrite as 'unit class WWW::HorizonsEphemerisSystem::Client;'
+[WWW::HorizonsEphemerisSystem]     in its own file (or otherwise avoid the module+same-named-class
+[WWW::HorizonsEphemerisSystem]     collision) to work the same way on either revision.
+[WWW::HorizonsEphemerisSystem]     at /home/coke/sandbox/blin/data/zef-data/tmp/573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz/dist/lib/WWW/HorizonsEphemerisSystem/Client.rakumod (WWW::HorizonsEphemerisSystem::Client):85
+[WWW::HorizonsEphemerisSystem]     ------> class <HERE>WWW::HorizonsEphemerisSystem::Client {
+[WWW::HorizonsEphemerisSystem] 1..0
+[WWW::HorizonsEphemerisSystem] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz/dist t/01-client.rakutest
+[WWW::HorizonsEphemerisSystem] ok 1 - reserved characters are percent-encoded
+[WWW::HorizonsEphemerisSystem] ok 2 - build-url uses Horizons endpoint
+[WWW::HorizonsEphemerisSystem] ok 3 - COMMAND is encoded
+[WWW::HorizonsEphemerisSystem] ok 4 - STEP_SIZE with space is encoded
+[WWW::HorizonsEphemerisSystem] Failed to decode JSON payload: Expected a modifiable native int argument for '$pos'
+[WWW::HorizonsEphemerisSystem] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/573e0cdaf342797dd435af145d2ce0025a8743a2.tar.gz/dist t/02-horizons-ephemeris-data-mock.rakutest
+[WWW::HorizonsEphemerisSystem] ok 1 - state query-parameters command works
+[WWW::HorizonsEphemerisSystem] ok 2 - observer properties command works
+[WWW::HorizonsEphemerisSystem] ok 3 - state default returns one parsed row
+[WWW::HorizonsEphemerisSystem] ok 4 - state result has parsed X column
+[WWW::HorizonsEphemerisSystem] ok 5 - state mapping applies Date key
+[WWW::HorizonsEphemerisSystem] ok 6 - state uses vectors ephemeris call
+[WWW::HorizonsEphemerisSystem] ok 7 - state command target is mapped
+[WWW::HorizonsEphemerisSystem] ok 8 - position maps to VEC_TABLE group 2
+[WWW::HorizonsEphemerisSystem] ok 9 - state with specific date returns parsed data
+[WWW::HorizonsEphemerisSystem] ok 10 - state mapping applies Date key with specific date
+[WWW::HorizonsEphemerisSystem] ok 11 - single date maps to TLIST
+[WWW::HorizonsEphemerisSystem] ok 12 - observer example returns parsed row
+[WWW::HorizonsEphemerisSystem] ok 13 - observer azimuth is parsed
+[WWW::HorizonsEphemerisSystem] ok 14 - observer etype uses observer-ephemeris
+[WWW::HorizonsEphemerisSystem] ok 15 - geo tuple center maps to coord center
+[WWW::HorizonsEphemerisSystem] ok 16 - geo tuple maps to lon,lat,h
+[WWW::HorizonsEphemerisSystem] ok 17 - date interval step is mapped
+[WWW::HorizonsEphemerisSystem] ok 18 - azimuth/elevation map to quantities=4
+[WWW::HorizonsEphemerisSystem] ok 19 - orbital-elements association has two keyed rows
+[WWW::HorizonsEphemerisSystem] ok 20 - orbital mapping applies Date key
+[WWW::HorizonsEphemerisSystem] ok 21 - orbital mapping applies Eccentricity key
+[WWW::HorizonsEphemerisSystem] ok 22 - orbital mapping applies Inclination key
+[WWW::HorizonsEphemerisSystem] ok 23 - orbital-elements uses elements-ephemeris
+[WWW::HorizonsEphemerisSystem] ok 24 - datetime list maps to TLIST
+[WWW::HorizonsEphemerisSystem] ok 25 - raw mode includes api params
+[WWW::HorizonsEphemerisSystem] ok 26 - raw mode includes response
+[WWW::HorizonsEphemerisSystem] 1..26
+===> Testing [FAIL]: WWW::HorizonsEphemerisSystem:ver<0.0.2>:auth<zef:antononcube>
+[WWW::HorizonsEphemerisSystem] Failed to get passing tests, but continuing with --force-test
+===> Installing: WWW::HorizonsEphemerisSystem:ver<0.0.2>:auth<zef:antononcube>
+===> Install [OK] for WWW::HorizonsEphemerisSystem:ver<0.0.2>:auth<zef:antononcube>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 29.022s
+             CPU time consumed: 37.989s
+                   Memory peak: 1G (swap: 226.2M)

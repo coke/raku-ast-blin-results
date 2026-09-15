@@ -1,0 +1,235 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: OpenRouter::API
+Running as unit: run-p2122260-i10553200.service; invocation ID: 50f0c7ba99a44570a416fb794c09f2ed
+Press ^] three times within 1s to disconnect TTY.
+===> Found: OpenRouter::API:ver<0.1.1>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[OpenRouter::API] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789461490.2122262.1084.4535124130027/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz https://360.zef.pm/O/PE/OPENROUTER_API/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz
+===> Fetching [OK]: OpenRouter::API:ver<0.1.1>:auth<zef:apogee> to /home/coke/sandbox/blin/data/zef-data/tmp/1789461490.2122262.1084.4535124130027/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz
+[OpenRouter::API] Command: tar -t -f ./8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz
+[OpenRouter::API] Command: tar -xvf ./8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz -C ../8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz
+===> Extraction [OK]: OpenRouter::API to /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz
+===> Testing: OpenRouter::API:ver<0.1.1>:auth<zef:apogee>
+[OpenRouter::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz/OpenRouter-API-0.1.1 t/01-client-construction.rakutest
+[OpenRouter::API] 1..6
+[OpenRouter::API] # Subtest: defaults
+[OpenRouter::API]     1..5
+[OpenRouter::API]     ok 1 - default base-url
+[OpenRouter::API]     ok 2 - cache default on
+[OpenRouter::API]     ok 3 - cache-ttl default 5 min
+[OpenRouter::API]     ok 4 - api-key undefined without env
+[OpenRouter::API]     ok 5 - http-referer undefined by default
+[OpenRouter::API] ok 1 - defaults
+[OpenRouter::API] # Subtest: explicit api-key wins when no env
+[OpenRouter::API]     1..1
+[OpenRouter::API]     ok 1 - explicit :api-key assigns
+[OpenRouter::API] ok 2 - explicit api-key wins when no env
+[OpenRouter::API] # Subtest: env-var fallback
+[OpenRouter::API]     1..1
+[OpenRouter::API]     ok 1 - OPENROUTER_API_KEY picked up via TWEAK
+[OpenRouter::API] ok 3 - env-var fallback
+[OpenRouter::API] # Subtest: explicit beats env-var
+[OpenRouter::API]     1..1
+[OpenRouter::API]     ok 1 - explicit :api-key trumps env
+[OpenRouter::API] ok 4 - explicit beats env-var
+[OpenRouter::API] # Subtest: clear-cache is safe on empty state
+[OpenRouter::API]     1..1
+[OpenRouter::API]     ok 1 - clear-cache on fresh client is a no-op
+[OpenRouter::API] ok 5 - clear-cache is safe on empty state
+[OpenRouter::API] # Subtest: auth-required methods die with helpful message when no key
+[OpenRouter::API]     1..5
+[OpenRouter::API]     # Subtest: get-credits dies with helpful message
+[OpenRouter::API]         1..3
+[OpenRouter::API]         ok 1 - code dies
+[OpenRouter::API]         ok 2 - right exception type (Exception)
+[OpenRouter::API]         ok 3 - .message matches all(/'OpenRouter::API'/, /$m/, /'OPENROUTER_API_KEY'/)
+[OpenRouter::API]     ok 1 - get-credits dies with helpful message
+[OpenRouter::API]     # Subtest: get-user-models dies with helpful message
+[OpenRouter::API]         1..3
+[OpenRouter::API]         ok 1 - code dies
+[OpenRouter::API]         ok 2 - right exception type (Exception)
+[OpenRouter::API]         ok 3 - .message matches all(/'OpenRouter::API'/, /$m/, /'OPENROUTER_API_KEY'/)
+[OpenRouter::API]     ok 2 - get-user-models dies with helpful message
+[OpenRouter::API]     # Subtest: get-activity dies with helpful message
+[OpenRouter::API]         1..3
+[OpenRouter::API]         ok 1 - code dies
+[OpenRouter::API]         ok 2 - right exception type (Exception)
+[OpenRouter::API]         ok 3 - .message matches all(/'OpenRouter::API'/, /$m/, /'OPENROUTER_API_KEY'/)
+[OpenRouter::API]     ok 3 - get-activity dies with helpful message
+[OpenRouter::API]     # Subtest: get-generation(Str) dies with helpful message
+[OpenRouter::API]         1..3
+[OpenRouter::API]         ok 1 - code dies
+[OpenRouter::API]         ok 2 - right exception type (Exception)
+[OpenRouter::API]         ok 3 - .message matches all(/'get-generation'/, /'OPENROUTER_API_KEY'/)
+[OpenRouter::API]     ok 4 - get-generation(Str) dies with helpful message
+[OpenRouter::API]     # Subtest: get-generation-content(Str) dies with helpful message
+[OpenRouter::API]         1..3
+[OpenRouter::API]         ok 1 - code dies
+[OpenRouter::API]         ok 2 - right exception type (Exception)
+[OpenRouter::API]         ok 3 - .message matches all(/'get-generation-content'/, /'OPENROUTER_API_KEY'/)
+[OpenRouter::API]     ok 5 - get-generation-content(Str) dies with helpful message
+[OpenRouter::API] ok 6 - auth-required methods die with helpful message when no key
+[OpenRouter::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz/OpenRouter-API-0.1.1 t/02-result-model.rakutest
+[OpenRouter::API] 1..6
+[OpenRouter::API] Expected a modifiable native int argument for '$pos'
+[OpenRouter::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[OpenRouter::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[OpenRouter::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[OpenRouter::API]   in block <unit> at t/02-result-model.rakutest line 14
+[OpenRouter::API] # You planned 6 tests, but ran 0
+[OpenRouter::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz/OpenRouter-API-0.1.1 t/03-result-endpoint.rakutest
+[OpenRouter::API] 1..4
+[OpenRouter::API] Expected a modifiable native int argument for '$pos'
+[OpenRouter::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[OpenRouter::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[OpenRouter::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[OpenRouter::API]   in block <unit> at t/03-result-endpoint.rakutest line 13
+[OpenRouter::API] # You planned 4 tests, but ran 0
+[OpenRouter::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz/OpenRouter-API-0.1.1 t/04-result-credits.rakutest
+[OpenRouter::API] 1..3
+[OpenRouter::API] Expected a modifiable native int argument for '$pos'
+[OpenRouter::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[OpenRouter::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[OpenRouter::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[OpenRouter::API]   in block <unit> at t/04-result-credits.rakutest line 9
+[OpenRouter::API] # You planned 3 tests, but ran 0
+[OpenRouter::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz/OpenRouter-API-0.1.1 t/05-result-activity.rakutest
+[OpenRouter::API] 1..4
+[OpenRouter::API] Expected a modifiable native int argument for '$pos'
+[OpenRouter::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[OpenRouter::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[OpenRouter::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[OpenRouter::API]   in block <unit> at t/05-result-activity.rakutest line 9
+[OpenRouter::API] # You planned 4 tests, but ran 0
+[OpenRouter::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz/OpenRouter-API-0.1.1 t/06-result-generation.rakutest
+[OpenRouter::API] 1..4
+[OpenRouter::API] Expected a modifiable native int argument for '$pos'
+[OpenRouter::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[OpenRouter::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[OpenRouter::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[OpenRouter::API]   in block <unit> at t/06-result-generation.rakutest line 9
+[OpenRouter::API] # You planned 4 tests, but ran 0
+[OpenRouter::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz/OpenRouter-API-0.1.1 t/07-result-provider.rakutest
+[OpenRouter::API] 1..3
+[OpenRouter::API] Expected a modifiable native int argument for '$pos'
+[OpenRouter::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[OpenRouter::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[OpenRouter::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[OpenRouter::API]   in block <unit> at t/07-result-provider.rakutest line 9
+[OpenRouter::API] # You planned 3 tests, but ran 0
+[OpenRouter::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz/OpenRouter-API-0.1.1 t/08-filter.rakutest
+[OpenRouter::API] 1..9
+[OpenRouter::API] Expected a modifiable native int argument for '$pos'
+[OpenRouter::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[OpenRouter::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[OpenRouter::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[OpenRouter::API]   in block <unit> at t/08-filter.rakutest line 14
+[OpenRouter::API] # You planned 9 tests, but ran 0
+[OpenRouter::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz/OpenRouter-API-0.1.1 t/09-cache.rakutest
+[OpenRouter::API] 1..4
+[OpenRouter::API] Expected a modifiable native int argument for '$pos'
+[OpenRouter::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[OpenRouter::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[OpenRouter::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[OpenRouter::API]   in block <unit> at t/09-cache.rakutest line 13
+[OpenRouter::API] # You planned 4 tests, but ran 0
+[OpenRouter::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/8b9e2a878a16a3748272845a5f848c8602ffb921.tar.gz/OpenRouter-API-0.1.1 t/10-multi-dispatch.rakutest
+[OpenRouter::API] 1..4
+[OpenRouter::API] Expected a modifiable native int argument for '$pos'
+[OpenRouter::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[OpenRouter::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[OpenRouter::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[OpenRouter::API]   in block <unit> at t/10-multi-dispatch.rakutest line 17
+[OpenRouter::API] # You planned 4 tests, but ran 0
+===> Testing [FAIL]: OpenRouter::API:ver<0.1.1>:auth<zef:apogee>
+[OpenRouter::API] Failed to get passing tests, but continuing with --force-test
+===> Installing: OpenRouter::API:ver<0.1.1>:auth<zef:apogee>
+===> Install [OK] for OpenRouter::API:ver<0.1.1>:auth<zef:apogee>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 11.882s
+             CPU time consumed: 1min 45.907s
+                   Memory peak: 2.8G (swap: 0B)

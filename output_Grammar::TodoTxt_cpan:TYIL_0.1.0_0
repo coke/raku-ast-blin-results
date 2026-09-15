@@ -1,0 +1,43 @@
+Running as unit: run-p1490974-i9689574.service; invocation ID: 788f56ef27d3416fb777ee2b9d86a565
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Grammar::TodoTxt
+===> Found: Grammar::TodoTxt:ver<0.1.0>:auth<cpan:TYIL>:api<0> [via Zef::Repository::Ecosystems<rea>]
+[Grammar::TodoTxt] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789439060.1490976.6623.295214523052/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/G/Grammar%3A%3ATodoTxt/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+===> Fetching [OK]: Grammar::TodoTxt:ver<0.1.0>:auth<cpan:TYIL>:api<0> to /home/coke/sandbox/blin/data/zef-data/tmp/1789439060.1490976.6623.295214523052/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+[Grammar::TodoTxt] Command: tar -t -f ./Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+[Grammar::TodoTxt] Command: tar -xvf ./Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz -C ../Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+===> Extraction [OK]: Grammar::TodoTxt to /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+===> Testing: Grammar::TodoTxt:ver<0.1.0>:api<0>
+[Grammar::TodoTxt] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-TodoTxt-0.1.0 t/integration.t
+[Grammar::TodoTxt] ===SORRY!=== Error while compiling t/integration.t
+[Grammar::TodoTxt] ===SORRY!===
+[Grammar::TodoTxt] Object does not exist in serialization context
+[Grammar::TodoTxt] at t/integration.t:5
+[Grammar::TodoTxt] ------> <BOL><HERE>use Grammar::TodoTxt;
+[Grammar::TodoTxt] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-TodoTxt-0.1.0 t/rule-1.t
+[Grammar::TodoTxt] ===SORRY!=== Error while compiling t/rule-1.t
+[Grammar::TodoTxt] ===SORRY!===
+[Grammar::TodoTxt] Object does not exist in serialization context
+[Grammar::TodoTxt] at t/rule-1.t:5
+[Grammar::TodoTxt] ------> <BOL><HERE>use Grammar::TodoTxt;
+[Grammar::TodoTxt] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-TodoTxt-0.1.0 t/rule-2.t
+[Grammar::TodoTxt] ===SORRY!=== Error while compiling t/rule-2.t
+[Grammar::TodoTxt] ===SORRY!===
+[Grammar::TodoTxt] Object does not exist in serialization context
+[Grammar::TodoTxt] at t/rule-2.t:5
+[Grammar::TodoTxt] ------> <BOL><HERE>use Grammar::TodoTxt;
+[Grammar::TodoTxt] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3ATodoTxt%3Aver%3C0.1.0%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-TodoTxt-0.1.0 t/rule-3.t
+[Grammar::TodoTxt] ===SORRY!=== Error while compiling t/rule-3.t
+[Grammar::TodoTxt] ===SORRY!===
+[Grammar::TodoTxt] Object does not exist in serialization context
+[Grammar::TodoTxt] at t/rule-3.t:5
+[Grammar::TodoTxt] ------> <BOL><HERE>use Grammar::TodoTxt;
+===> Testing [FAIL]: Grammar::TodoTxt:ver<0.1.0>:api<0>
+[Grammar::TodoTxt] Failed to get passing tests, but continuing with --force-test
+===> Installing: Grammar::TodoTxt:ver<0.1.0>:api<0>
+===> Install [OK] for Grammar::TodoTxt:ver<0.1.0>:api<0>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 41.048s
+             CPU time consumed: 38.655s
+                   Memory peak: 1.2G (swap: 0B)

@@ -1,0 +1,25 @@
+Running as unit: run-p1546674-i9994328.service; invocation ID: 163d7dccb4224d6aaf213c3394ee4125
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Array::Sorted::Map
+===> Found: Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[Array::Sorted::Map] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789440245.1546678.6933.4885379836405/440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz https://360.zef.pm/A/RR/ARRAY_SORTED_MAP/440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz
+===> Fetching [OK]: Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1789440245.1546678.6933.4885379836405/440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz
+[Array::Sorted::Map] Command: tar -t -f ./440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz
+[Array::Sorted::Map] Command: tar -xvf ./440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz -C ../440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz
+===> Extraction [OK]: Array::Sorted::Map to /home/coke/sandbox/blin/data/zef-data/tmp/440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz
+===> Testing: Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat>
+[Array::Sorted::Map] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/440c7f0eae47ef27f2adcfdae36c6974100b5d8d.tar.gz/Array-Sorted-Map-0.0.4 t/01-basic.rakutest
+[Array::Sorted::Map] ===SORRY!=== Error while compiling t/01-basic.rakutest
+[Array::Sorted::Map] ===SORRY!===
+[Array::Sorted::Map] Object does not exist in serialization context
+[Array::Sorted::Map] at t/01-basic.rakutest:3
+[Array::Sorted::Map] ------> <BOL><HERE>use Array::Sorted::Map;
+===> Testing [FAIL]: Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat>
+[Array::Sorted::Map] Failed to get passing tests, but continuing with --force-test
+===> Installing: Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat>
+===> Install [OK] for Array::Sorted::Map:ver<0.0.4>:auth<zef:lizmat>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 10.300s
+             CPU time consumed: 11.815s
+                   Memory peak: 919.9M (swap: 0B)

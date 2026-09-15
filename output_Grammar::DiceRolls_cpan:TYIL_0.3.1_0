@@ -1,0 +1,46 @@
+Running as unit: run-p1490929-i9804674.service; invocation ID: b1c11cbdd27d42c3b313d6695f733e3f
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Grammar::DiceRolls
+===> Found: Grammar::DiceRolls:ver<0.3.1>:auth<cpan:TYIL>:api<0> [via Zef::Repository::Ecosystems<rea>]
+[Grammar::DiceRolls] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789439057.1490934.9586.473290541186/Grammar%3A%3ADiceRolls%3Aver%3C0.3.1%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/G/Grammar%3A%3ADiceRolls/Grammar%3A%3ADiceRolls%3Aver%3C0.3.1%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+===> Fetching [OK]: Grammar::DiceRolls:ver<0.3.1>:auth<cpan:TYIL>:api<0> to /home/coke/sandbox/blin/data/zef-data/tmp/1789439057.1490934.9586.473290541186/Grammar%3A%3ADiceRolls%3Aver%3C0.3.1%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+[Grammar::DiceRolls] Command: tar -t -f ./Grammar%3A%3ADiceRolls%3Aver%3C0.3.1%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+[Grammar::DiceRolls] Command: tar -xvf ./Grammar%3A%3ADiceRolls%3Aver%3C0.3.1%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz -C ../Grammar%3A%3ADiceRolls%3Aver%3C0.3.1%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+===> Extraction [OK]: Grammar::DiceRolls to /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3ADiceRolls%3Aver%3C0.3.1%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz
+===> Testing: Grammar::DiceRolls:ver<0.3.1>:api<0>
+[Grammar::DiceRolls] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3ADiceRolls%3Aver%3C0.3.1%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-DiceRolls-0.3.1 t/00-use.rakutest
+[Grammar::DiceRolls] 1..2
+[Grammar::DiceRolls] not ok 1 - Grammar::DiceRolls
+[Grammar::DiceRolls] # Failed test 'Grammar::DiceRolls'
+[Grammar::DiceRolls] # at t/00-use.rakutest line 13
+[Grammar::DiceRolls] # ===SORRY!===
+[Grammar::DiceRolls] # Object does not exist in serialization context
+[Grammar::DiceRolls] # 
+[Grammar::DiceRolls] not ok 2 - Grammar::DiceRolls::CountActions
+[Grammar::DiceRolls] # Failed test 'Grammar::DiceRolls::CountActions'
+[Grammar::DiceRolls] # at t/00-use.rakutest line 13
+[Grammar::DiceRolls] # ===SORRY!===
+[Grammar::DiceRolls] # Object does not exist in serialization context
+[Grammar::DiceRolls] # 
+[Grammar::DiceRolls] # You failed 2 tests of 2
+[Grammar::DiceRolls] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3ADiceRolls%3Aver%3C0.3.1%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-DiceRolls-0.3.1 t/01-parse.rakutest
+[Grammar::DiceRolls] ===SORRY!=== Error while compiling t/01-parse.rakutest
+[Grammar::DiceRolls] ===SORRY!===
+[Grammar::DiceRolls] Object does not exist in serialization context
+[Grammar::DiceRolls] at t/01-parse.rakutest:5
+[Grammar::DiceRolls] ------> <BOL><HERE>use Grammar::DiceRolls;
+[Grammar::DiceRolls] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Grammar%3A%3ADiceRolls%3Aver%3C0.3.1%3E%3Aauth%3Ccpan%3ATYIL%3E.tar.gz/Grammar-DiceRolls-0.3.1 t/02-actions.rakutest
+[Grammar::DiceRolls] ===SORRY!=== Error while compiling t/02-actions.rakutest
+[Grammar::DiceRolls] ===SORRY!===
+[Grammar::DiceRolls] Object does not exist in serialization context
+[Grammar::DiceRolls] at t/02-actions.rakutest:5
+[Grammar::DiceRolls] ------> <BOL><HERE>use Grammar::DiceRolls;
+===> Testing [FAIL]: Grammar::DiceRolls:ver<0.3.1>:api<0>
+[Grammar::DiceRolls] Failed to get passing tests, but continuing with --force-test
+===> Installing: Grammar::DiceRolls:ver<0.3.1>:api<0>
+===> Install [OK] for Grammar::DiceRolls:ver<0.3.1>:api<0>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 37.669s
+             CPU time consumed: 35.327s
+                   Memory peak: 1.2G (swap: 0B)

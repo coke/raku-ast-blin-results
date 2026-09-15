@@ -1,0 +1,26 @@
+Running as unit: run-p1780694-i10161624.service; invocation ID: 451090d230bd423697050836497bd6c7
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: CSS::Module::CSS3::Selectors
+===> Found: CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[CSS::Module::CSS3::Selectors] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445330.1780701.3736.325386547913/7167453e1346af70f5194176044416f55906978f.tar.gz https://360.zef.pm/C/SS/CSS_MODULE_CSS3_SELECTORS/7167453e1346af70f5194176044416f55906978f.tar.gz
+===> Fetching [OK]: CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445330.1780701.3736.325386547913/7167453e1346af70f5194176044416f55906978f.tar.gz
+[CSS::Module::CSS3::Selectors] Command: tar -t -f ./7167453e1346af70f5194176044416f55906978f.tar.gz
+[CSS::Module::CSS3::Selectors] Command: tar -xvf ./7167453e1346af70f5194176044416f55906978f.tar.gz -C ../7167453e1346af70f5194176044416f55906978f.tar.gz
+===> Extraction [OK]: CSS::Module::CSS3::Selectors to /home/coke/sandbox/blin/data/zef-data/tmp/7167453e1346af70f5194176044416f55906978f.tar.gz
+===> Testing: CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring>
+[CSS::Module::CSS3::Selectors] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/7167453e1346af70f5194176044416f55906978f.tar.gz/CSS-Module-CSS3-Selectors-0.0.6 t/00basic.t
+[CSS::Module::CSS3::Selectors] ok 1 - CSS::Grammar version
+[CSS::Module::CSS3::Selectors] Expected a modifiable native int argument for '$pos'
+[CSS::Module::CSS3::Selectors]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[CSS::Module::CSS3::Selectors]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[CSS::Module::CSS3::Selectors]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[CSS::Module::CSS3::Selectors]   in block <unit> at t/00basic.t line 15
+===> Testing [FAIL]: CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring>
+[CSS::Module::CSS3::Selectors] Failed to get passing tests, but continuing with --force-test
+===> Installing: CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring>
+===> Install [OK] for CSS::Module::CSS3::Selectors:ver<0.0.6>:auth<zef:dwarring>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 15.717s
+             CPU time consumed: 21.626s
+                   Memory peak: 1.4G (swap: 0B)

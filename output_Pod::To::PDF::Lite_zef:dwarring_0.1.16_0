@@ -1,0 +1,133 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Pod::To::PDF::Lite
+Running as unit: run-p2164324-i10517736.service; invocation ID: ac16f23020854353a82dd372f9164569
+Press ^] three times within 1s to disconnect TTY.
+===> Found: Pod::To::PDF::Lite:ver<0.1.16>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[Pod::To::PDF::Lite] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789462483.2164325.3181.373129602959/4d11725c353051348c4d493720cb260a741c4476.tar.gz https://360.zef.pm/P/OD/POD_TO_PDF_LITE/4d11725c353051348c4d493720cb260a741c4476.tar.gz
+===> Fetching [OK]: Pod::To::PDF::Lite:ver<0.1.16>:auth<zef:dwarring> to /home/coke/sandbox/blin/data/zef-data/tmp/1789462483.2164325.3181.373129602959/4d11725c353051348c4d493720cb260a741c4476.tar.gz
+[Pod::To::PDF::Lite] Command: tar -t -f ./4d11725c353051348c4d493720cb260a741c4476.tar.gz
+[Pod::To::PDF::Lite] Command: tar -xvf ./4d11725c353051348c4d493720cb260a741c4476.tar.gz -C ../4d11725c353051348c4d493720cb260a741c4476.tar.gz
+===> Extraction [OK]: Pod::To::PDF::Lite to /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz
+===> Testing: Pod::To::PDF::Lite:ver<0.1.16>:auth<zef:dwarring>
+[Pod::To::PDF::Lite] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16 t/code.t
+[Pod::To::PDF::Lite] Potential difficulties:
+[Pod::To::PDF::Lite]     Missing declarand for leading declarator doc
+[Pod::To::PDF::Lite]     at /home/coke/sandbox/blin/installed/PDF_zef:dwarring_0.6.15_0/sources/D551184A16A6031B10EA96323DBE2F56ACA5AE4C (PDF::COS::Type::Info):1
+[Pod::To::PDF::Lite]     ------> <BOL><HERE>use v6;
+[Pod::To::PDF::Lite] 1..1
+[Pod::To::PDF::Lite] No such method 'graphics-state' for invocant of type
+[Pod::To::PDF::Lite] 'Rakudo::Internals::LoweredAwayLexical'
+[Pod::To::PDF::Lite]   in method  at /home/coke/sandbox/blin/installed/PDF::Content_zef:dwarring_0.9.11_0/sources/76D33018B7E8C361F5704ED6F2C29E300A9FBD45 (PDF::Content::Ops) line 254
+[Pod::To::PDF::Lite]   in block  at /home/coke/sandbox/blin/installed/PDF::Content_zef:dwarring_0.9.11_0/sources/76D33018B7E8C361F5704ED6F2C29E300A9FBD45 (PDF::Content::Ops) line 950
+[Pod::To::PDF::Lite]   in method op at /home/coke/sandbox/blin/installed/PDF::Content_zef:dwarring_0.9.11_0/sources/76D33018B7E8C361F5704ED6F2C29E300A9FBD45 (PDF::Content::Ops) line 935
+[Pod::To::PDF::Lite]   in method graphics at /home/coke/sandbox/blin/installed/PDF::Content_zef:dwarring_0.9.11_0/sources/7F7351ECA7E1E8DB162C5BE1D7641B47F19BE23B (PDF::Content) line 61
+[Pod::To::PDF::Lite]   in method finish-code at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 684
+[Pod::To::PDF::Lite]   in method code at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 727
+[Pod::To::PDF::Lite]   in method pod2pdf at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 278
+[Pod::To::PDF::Lite]   in method pod2pdf-block at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 561
+[Pod::To::PDF::Lite]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 570
+[Pod::To::PDF::Lite]   in method pod2pdf at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 568
+[Pod::To::PDF::Lite]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 246
+[Pod::To::PDF::Lite]   in method pod2pdf at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 245
+[Pod::To::PDF::Lite]   in method pod2pdf-block at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 561
+[Pod::To::PDF::Lite]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 570
+[Pod::To::PDF::Lite]   in method pod2pdf at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 568
+[Pod::To::PDF::Lite]   in method write at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite/Writer.rakumod (Pod::To::PDF::Lite::Writer) line 57
+[Pod::To::PDF::Lite]   in method read at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite.rakumod (Pod::To::PDF::Lite) line 113
+[Pod::To::PDF::Lite]   in sub pod-render at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite.rakumod (Pod::To::PDF::Lite) line 176
+[Pod::To::PDF::Lite]   in sub pod2pdf at /home/coke/sandbox/blin/data/zef-data/tmp/4d11725c353051348c4d493720cb260a741c4476.tar.gz/Pod-To-PDF-Lite-0.1.16/lib/Pod/To/PDF/Lite.rakumod (Pod::To::PDF::Lite) line 191
+[Pod::To::PDF::Lite]   in block <unit> at t/code.t line 9
+[Pod::To::PDF::Lite] # You planned 1 test, but ran 0
+===> Testing [FAIL]: Pod::To::PDF::Lite:ver<0.1.16>:auth<zef:dwarring>
+[Pod::To::PDF::Lite] Failed to get passing tests, but continuing with --force-test
+===> Installing: Pod::To::PDF::Lite:ver<0.1.16>:auth<zef:dwarring>
+===> Install [OK] for Pod::To::PDF::Lite:ver<0.1.16>:auth<zef:dwarring>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 2min 13.942s
+             CPU time consumed: 3min 11.685s
+                   Memory peak: 2.5G (swap: 0B)

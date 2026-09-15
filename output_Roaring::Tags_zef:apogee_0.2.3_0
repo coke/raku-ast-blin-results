@@ -1,0 +1,592 @@
+===> Searching for: Roaring::Tags
+Running as unit: run-p1628515-i10052637.service; invocation ID: 744869f5f0f4471fbb6c83d194e06128
+Press ^] three times within 1s to disconnect TTY.
+===> Found: Roaring::Tags:ver<0.2.3>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[Roaring::Tags] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441888.1628517.4264.825788475998/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz https://360.zef.pm/R/OA/ROARING_TAGS/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz
+===> Fetching [OK]: Roaring::Tags:ver<0.2.3>:auth<zef:apogee> to /home/coke/sandbox/blin/data/zef-data/tmp/1789441888.1628517.4264.825788475998/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz
+[Roaring::Tags] Command: tar -t -f ./5393aea13491a964f92fd90dd4df134d7e056815.tar.gz
+[Roaring::Tags] Command: tar -xvf ./5393aea13491a964f92fd90dd4df134d7e056815.tar.gz -C ../5393aea13491a964f92fd90dd4df134d7e056815.tar.gz
+===> Extraction [OK]: Roaring::Tags to /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz
+===> Testing: Roaring::Tags:ver<0.2.3>:auth<zef:apogee>
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/01-boolean-tags.rakutest
+[Roaring::Tags] 1..9
+[Roaring::Tags] # Subtest: Tag doc, has-tag True
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Tagged doc found
+[Roaring::Tags] ok 1 - Tag doc, has-tag True
+[Roaring::Tags] # Subtest: Untag doc, has-tag False
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Untagged doc not found
+[Roaring::Tags] ok 2 - Untag doc, has-tag False
+[Roaring::Tags] # Subtest: tag-many bulk
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Bulk-tagged doc found
+[Roaring::Tags]     ok 2 - 5 docs tagged
+[Roaring::Tags] ok 3 - tag-many bulk
+[Roaring::Tags] # Subtest: untag-many bulk
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Only 1 remains after bulk untag
+[Roaring::Tags] ok 4 - untag-many bulk
+[Roaring::Tags] # Subtest: Tag same doc twice, cardinality still 1
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Duplicate tag does not increase count
+[Roaring::Tags] ok 5 - Tag same doc twice, cardinality still 1
+[Roaring::Tags] # Subtest: Untag absent doc — no error
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Untag nonexistent tag/doc is fine
+[Roaring::Tags] ok 6 - Untag absent doc — no error
+[Roaring::Tags] # Subtest: query returns bitmap with correct contents
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Query returns 3 elements
+[Roaring::Tags]     ok 2 - Contains expected doc
+[Roaring::Tags] ok 7 - query returns bitmap with correct contents
+[Roaring::Tags] # Subtest: query for unknown tag returns empty bitmap
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Unknown tag query returns empty
+[Roaring::Tags] ok 8 - query for unknown tag returns empty bitmap
+[Roaring::Tags] # Subtest: count correct
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Count 0 for absent tag
+[Roaring::Tags]     ok 2 - Count 3 after tagging
+[Roaring::Tags] ok 9 - count correct
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/02-categorical-tags.rakutest
+[Roaring::Tags] 1..7
+[Roaring::Tags] # Subtest: tag with colon syntax
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Colon syntax works
+[Roaring::Tags] ok 1 - tag with colon syntax
+[Roaring::Tags] # Subtest: tag two-arg form
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Two-arg form creates correct key
+[Roaring::Tags] ok 2 - tag two-arg form
+[Roaring::Tags] # Subtest: Same doc, multiple values for same field
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Has fantasy
+[Roaring::Tags]     ok 2 - Has romance
+[Roaring::Tags] ok 3 - Same doc, multiple values for same field
+[Roaring::Tags] # Subtest: query single-arg and two-arg both work
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Single-arg query
+[Roaring::Tags]     ok 2 - Two-arg query
+[Roaring::Tags] ok 4 - query single-arg and two-arg both work
+[Roaring::Tags] # Subtest: field-values returns all values for field
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - All values returned sorted
+[Roaring::Tags] ok 5 - field-values returns all values for field
+[Roaring::Tags] # Subtest: fields includes categorical field names
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - genre in fields
+[Roaring::Tags] ok 6 - fields includes categorical field names
+[Roaring::Tags] # Subtest: boolean-tags excludes categorical keys
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - nsfw is a boolean tag
+[Roaring::Tags]     ok 2 - genre:fantasy not in boolean-tags
+[Roaring::Tags] ok 7 - boolean-tags excludes categorical keys
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/03-numeric-index.rakutest
+[Roaring::Tags] 1..13
+[Roaring::Tags] # Subtest: Insert and get
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Get returns inserted value
+[Roaring::Tags]     ok 2 - Get returns undefined for absent doc
+[Roaring::Tags] ok 1 - Insert and get
+[Roaring::Tags] # Subtest: Update value (same doc, new value)
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Value updated
+[Roaring::Tags]     ok 2 - Still one entry
+[Roaring::Tags] ok 2 - Update value (same doc, new value)
+[Roaring::Tags] # Subtest: Remove doc
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Removed doc returns undefined
+[Roaring::Tags]     ok 2 - Elems is 0
+[Roaring::Tags] ok 3 - Remove doc
+[Roaring::Tags] # Subtest: Entries returns sorted list
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Entries sorted by value
+[Roaring::Tags] ok 4 - Entries returns sorted list
+[Roaring::Tags] # Subtest: Elems correct
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Empty index has 0 elems
+[Roaring::Tags]     ok 2 - 2 after two inserts
+[Roaring::Tags] ok 5 - Elems correct
+[Roaring::Tags] # Subtest: from-entries restores state
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Doc 1 restored
+[Roaring::Tags]     ok 2 - All entries restored
+[Roaring::Tags] ok 6 - from-entries restores state
+[Roaring::Tags] # Subtest: Insert many values, all gettable
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - All 100 values gettable
+[Roaring::Tags] ok 7 - Insert many values, all gettable
+[Roaring::Tags] # Subtest: Remove nonexistent doc — no error
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Remove absent doc does not error
+[Roaring::Tags] ok 8 - Remove nonexistent doc — no error
+[Roaring::Tags] # Subtest: Range query basic
+[Roaring::Tags]     1..4
+[Roaring::Tags]     ok 1 - :gt(50) gives docs with values 60,70,80,90
+[Roaring::Tags]     ok 2 - :gte(50) gives docs with values 50,60,70,80,90
+[Roaring::Tags]     ok 3 - :lt(30) gives docs with values 0,10,20
+[Roaring::Tags]     ok 4 - :gte(20),:lt(60) gives docs with values 20,30,40,50
+[Roaring::Tags] ok 9 - Range query basic
+[Roaring::Tags] # Subtest: Range query edge cases
+[Roaring::Tags]     1..3
+[Roaring::Tags]     ok 1 - No matches returns empty
+[Roaring::Tags]     ok 2 - Exact match works
+[Roaring::Tags]     ok 3 - Range on empty index returns empty
+[Roaring::Tags] ok 10 - Range query edge cases
+[Roaring::Tags] # Subtest: insert-many dedupes incoming doc-ids (last wins)
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Last value wins for duplicate doc-id
+[Roaring::Tags]     ok 2 - Only 1 entry after deduped insert
+[Roaring::Tags] ok 11 - insert-many dedupes incoming doc-ids (last wins)
+[Roaring::Tags] # Subtest: insert-many updates existing entries
+[Roaring::Tags]     1..3
+[Roaring::Tags]     ok 1 - Initial value for doc 1
+[Roaring::Tags]     ok 2 - Doc 1 updated to 999
+[Roaring::Tags]     ok 3 - 3 entries total
+[Roaring::Tags] ok 12 - insert-many updates existing entries
+[Roaring::Tags] # Subtest: insert-many overlap does not create duplicates in sorted index
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Still 2 entries
+[Roaring::Tags]     ok 2 - Range returns exactly 2 docs
+[Roaring::Tags] ok 13 - insert-many overlap does not create duplicates in sorted index
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/04-range-queries.rakutest
+[Roaring::Tags] 1..10
+[Roaring::Tags] # Subtest: :gt(50)
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Docs with score > 50 (60,70,80,90)
+[Roaring::Tags] ok 1 - :gt(50)
+[Roaring::Tags] # Subtest: :gte(50)
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Docs with score >= 50
+[Roaring::Tags] ok 2 - :gte(50)
+[Roaring::Tags] # Subtest: :lt(30)
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Docs with score < 30 (0,10,20)
+[Roaring::Tags] ok 3 - :lt(30)
+[Roaring::Tags] # Subtest: :lte(30)
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Docs with score <= 30
+[Roaring::Tags] ok 4 - :lte(30)
+[Roaring::Tags] # Subtest: :gte(20), :lt(60)
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Docs with 20 <= score < 60
+[Roaring::Tags] ok 5 - :gte(20), :lt(60)
+[Roaring::Tags] # Subtest: :gt(0), :lte(50)
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Docs with 0 < score <= 50
+[Roaring::Tags] ok 6 - :gt(0), :lte(50)
+[Roaring::Tags] # Subtest: No matches returns empty
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - No matches returns empty bitmap
+[Roaring::Tags] ok 7 - No matches returns empty
+[Roaring::Tags] # Subtest: Unknown field returns empty
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Unknown field returns empty
+[Roaring::Tags] ok 8 - Unknown field returns empty
+[Roaring::Tags] # Subtest: Boundary exact match
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Exact boundary match returns 1
+[Roaring::Tags] ok 9 - Boundary exact match
+[Roaring::Tags] # Subtest: Large dataset range correctness
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - 1000 docs in range 5000..5999
+[Roaring::Tags]     ok 2 - Contains lower bound
+[Roaring::Tags] ok 10 - Large dataset range correctness
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/05-composition.rakutest
+[Roaring::Tags] 1..6
+[Roaring::Tags] # Subtest: Boolean AND boolean
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - nsfw AND violent = {3,4}
+[Roaring::Tags] ok 1 - Boolean AND boolean
+[Roaring::Tags] # Subtest: Boolean AND range result
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - nsfw AND score>=300 = {3,4,5}
+[Roaring::Tags] ok 2 - Boolean AND range result
+[Roaring::Tags] # Subtest: Boolean OR categorical
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - nsfw OR genre:horror = 4 docs
+[Roaring::Tags] ok 3 - Boolean OR categorical
+[Roaring::Tags] # Subtest: Three-way composition
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - a AND b AND c = {5}
+[Roaring::Tags] ok 4 - Three-way composition
+[Roaring::Tags] # Subtest: ANDNOT with range
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - all ANDNOT score<30 = {3,4,5}
+[Roaring::Tags] ok 5 - ANDNOT with range
+[Roaring::Tags] # Subtest: Complex chained query
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Complex chain correct
+[Roaring::Tags] ok 6 - Complex chained query
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/06-introspection.rakutest
+[Roaring::Tags] 1..7
+[Roaring::Tags] # Subtest: tags lists all keys
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - All keys sorted
+[Roaring::Tags] ok 1 - tags lists all keys
+[Roaring::Tags] # Subtest: boolean-tags filters correctly
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Only boolean tags
+[Roaring::Tags] ok 2 - boolean-tags filters correctly
+[Roaring::Tags] # Subtest: fields includes categorical and numeric
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Categorical field present
+[Roaring::Tags]     ok 2 - Numeric field present
+[Roaring::Tags] ok 3 - fields includes categorical and numeric
+[Roaring::Tags] # Subtest: numeric-fields
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Numeric fields sorted
+[Roaring::Tags] ok 4 - numeric-fields
+[Roaring::Tags] # Subtest: doc-tags returns tags for document
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Correct tags for doc 42
+[Roaring::Tags] ok 5 - doc-tags returns tags for document
+[Roaring::Tags] # Subtest: doc-values returns numeric values
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Score correct
+[Roaring::Tags]     ok 2 - Tokens correct
+[Roaring::Tags] ok 6 - doc-values returns numeric values
+[Roaring::Tags] # Subtest: count per tag
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - nsfw count
+[Roaring::Tags]     ok 2 - safe count
+[Roaring::Tags] ok 7 - count per tag
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/07-storage.rakutest
+[Roaring::Tags] 1..7
+[Roaring::Tags] # Subtest: Save empty, load, verify empty
+[Roaring::Tags]     1..2
+[Roaring::Tags] Expected a modifiable native int argument for '$pos'
+[Roaring::Tags]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Roaring::Tags]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Roaring::Tags]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Roaring::Tags]   in method load at /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3/lib/Roaring/Tags/Storage.rakumod (Roaring::Tags::Storage) line 53
+[Roaring::Tags]   in method load at /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3/lib/Roaring/Tags.rakumod (Roaring::Tags) line 166
+[Roaring::Tags]   in block <unit> at t/07-storage.rakutest line 32
+[Roaring::Tags]     # You planned 2 tests, but ran 0
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/08-remove-doc.rakutest
+[Roaring::Tags] 1..5
+[Roaring::Tags] # Subtest: Remove doc from multiple boolean tags
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Removed from nsfw
+[Roaring::Tags]     ok 2 - Removed from violent
+[Roaring::Tags] ok 1 - Remove doc from multiple boolean tags
+[Roaring::Tags] # Subtest: Remove doc from categorical tags
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - No tags after removal
+[Roaring::Tags] ok 2 - Remove doc from categorical tags
+[Roaring::Tags] # Subtest: Remove doc with numeric values
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - No numeric values after removal
+[Roaring::Tags] ok 3 - Remove doc with numeric values
+[Roaring::Tags] # Subtest: Remove nonexistent doc — no error
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Removing absent doc is fine
+[Roaring::Tags] ok 4 - Remove nonexistent doc — no error
+[Roaring::Tags] # Subtest: After removal, queries exclude that doc
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Query excludes removed doc
+[Roaring::Tags]     ok 2 - Range excludes removed doc
+[Roaring::Tags] ok 5 - After removal, queries exclude that doc
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/09-query-parse.rakutest
+[Roaring::Tags] 1..12
+[Roaring::Tags] # Subtest: Single boolean tag
+[Roaring::Tags]     1..3
+[Roaring::Tags]     ok 1 - One term
+[Roaring::Tags]     ok 2 - Is tag
+[Roaring::Tags]     ok 3 - Tag is landscape
+[Roaring::Tags] ok 1 - Single boolean tag
+[Roaring::Tags] # Subtest: Negated tag
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Is negated
+[Roaring::Tags]     ok 2 - Tag is violent
+[Roaring::Tags] ok 2 - Negated tag
+[Roaring::Tags] # Subtest: Categorical tag
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Is tag
+[Roaring::Tags]     ok 2 - Full key preserved
+[Roaring::Tags] ok 3 - Categorical tag
+[Roaring::Tags] # Subtest: Numeric >N
+[Roaring::Tags]     1..3
+[Roaring::Tags]     ok 1 - Is numeric
+[Roaring::Tags]     ok 2 - Field is score
+[Roaring::Tags]     ok 3 - gt=100
+[Roaring::Tags] ok 4 - Numeric >N
+[Roaring::Tags] # Subtest: Numeric >=N
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Field is score
+[Roaring::Tags]     ok 2 - gte=100
+[Roaring::Tags] ok 5 - Numeric >=N
+[Roaring::Tags] # Subtest: Numeric <N
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Field is score
+[Roaring::Tags]     ok 2 - lt=50
+[Roaring::Tags] ok 6 - Numeric <N
+[Roaring::Tags] # Subtest: Numeric <=N
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Field is score
+[Roaring::Tags]     ok 2 - lte=50
+[Roaring::Tags] ok 7 - Numeric <=N
+[Roaring::Tags] # Subtest: Numeric range N..M
+[Roaring::Tags]     1..3
+[Roaring::Tags]     ok 1 - Field is score
+[Roaring::Tags]     ok 2 - gte=100
+[Roaring::Tags]     ok 3 - lte=500
+[Roaring::Tags] ok 8 - Numeric range N..M
+[Roaring::Tags] # Subtest: Negated numeric
+[Roaring::Tags]     1..3
+[Roaring::Tags]     ok 1 - Is negated
+[Roaring::Tags]     ok 2 - Is numeric
+[Roaring::Tags]     ok 3 - gt=100
+[Roaring::Tags] ok 9 - Negated numeric
+[Roaring::Tags] # Subtest: Complex multi-term query
+[Roaring::Tags]     1..3
+[Roaring::Tags]     ok 1 - 5 terms
+[Roaring::Tags]     ok 2 - 4 positive
+[Roaring::Tags]     ok 3 - 1 negative
+[Roaring::Tags] ok 10 - Complex multi-term query
+[Roaring::Tags] # Subtest: Whitespace handling
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - 2 terms
+[Roaring::Tags]     ok 2 - Trimmed correctly
+[Roaring::Tags] ok 11 - Whitespace handling
+[Roaring::Tags] # Subtest: Empty string dies
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Empty string dies
+[Roaring::Tags] ok 12 - Empty string dies
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/10-query-execute.rakutest
+[Roaring::Tags] 1..10
+[Roaring::Tags] # Subtest: Single positive tag
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - hdr returns 8 docs
+[Roaring::Tags] ok 1 - Single positive tag
+[Roaring::Tags] # Subtest: Two positive tags — intersection
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - landscape AND safe = 6
+[Roaring::Tags] ok 2 - Two positive tags — intersection
+[Roaring::Tags] # Subtest: Positive + negative
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - landscape ANDNOT violent = 7
+[Roaring::Tags] ok 3 - Positive + negative
+[Roaring::Tags] # Subtest: Numeric range in query
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - score > 100 gives 9 docs
+[Roaring::Tags] ok 4 - Numeric range in query
+[Roaring::Tags] # Subtest: Mixed: boolean + categorical + numeric + negation
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Complex mixed query gives 2
+[Roaring::Tags] ok 5 - Mixed: boolean + categorical + numeric + negation
+[Roaring::Tags] # Subtest: Full example: landscape, safe, score:>100, hdr, -violent
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - No docs match all positive criteria
+[Roaring::Tags] ok 6 - Full example: landscape, safe, score:>100, hdr, -violent
+[Roaring::Tags] # Subtest: Execution order: smallest first via explain
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Explain shows both terms with cardinalities
+[Roaring::Tags] ok 7 - Execution order: smallest first via explain
+[Roaring::Tags] # Subtest: No matches returns empty
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - No matches returns empty
+[Roaring::Tags] ok 8 - No matches returns empty
+[Roaring::Tags] # Subtest: All-negative terms uses universe
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - All-negative query returns results from universe
+[Roaring::Tags] ok 9 - All-negative terms uses universe
+[Roaring::Tags] # Subtest: Unknown tag returns empty
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Unknown tag intersected = empty
+[Roaring::Tags] ok 10 - Unknown tag returns empty
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/11-query-explain.rakutest
+[Roaring::Tags] 1..4
+[Roaring::Tags] # Subtest: explain returns string
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Non-empty string returned
+[Roaring::Tags] ok 1 - explain returns string
+[Roaring::Tags] # Subtest: explain shows query string
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Shows original query
+[Roaring::Tags] ok 2 - explain shows query string
+[Roaring::Tags] # Subtest: explain shows cardinalities
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Shows large cardinality
+[Roaring::Tags]     ok 2 - Shows small cardinality
+[Roaring::Tags] ok 3 - explain shows cardinalities
+[Roaring::Tags] # Subtest: explain shows tree structure for OR queries
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Shows OR node
+[Roaring::Tags]     ok 2 - Shows AND node
+[Roaring::Tags] ok 4 - explain shows tree structure for OR queries
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/12-search-method.rakutest
+[Roaring::Tags] 1..2
+[Roaring::Tags] # Subtest: search convenience method works
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - search returns intersection
+[Roaring::Tags] ok 1 - search convenience method works
+[Roaring::Tags] # Subtest: search equivalent to manual Query
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Convenience matches manual
+[Roaring::Tags] ok 2 - search equivalent to manual Query
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/13-query-or.rakutest
+[Roaring::Tags] 1..17
+[Roaring::Tags] # Subtest: (a, b) OR (c, d) — union of two AND groups
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Union of two AND groups
+[Roaring::Tags] ok 1 - (a, b) OR (c, d) — union of two AND groups
+[Roaring::Tags] # Subtest: (a, b) OR (c, d), e — OR result ANDed with e
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - OR ANDed with top-level term
+[Roaring::Tags] ok 2 - (a, b) OR (c, d), e — OR result ANDed with e
+[Roaring::Tags] # Subtest: (a) OR (b) OR (c) — three-way OR
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Three-way OR
+[Roaring::Tags] ok 3 - (a) OR (b) OR (c) — three-way OR
+[Roaring::Tags] # Subtest: (a, b) OR (c, d), -x — AND binds tighter, -x applies to second group
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - -x binds to second AND group
+[Roaring::Tags] ok 4 - (a, b) OR (c, d), -x — AND binds tighter, -x applies to second group
+[Roaring::Tags] # Subtest: Nested parens: ((a, b) OR (c, d)), e
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Nested parens work
+[Roaring::Tags] ok 5 - Nested parens: ((a, b) OR (c, d)), e
+[Roaring::Tags] # Subtest: Single group: (a, b) — equivalent to a, b
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Single group = flat AND
+[Roaring::Tags] ok 6 - Single group: (a, b) — equivalent to a, b
+[Roaring::Tags] # Subtest: OR with numeric: (a, score:>50) OR (c, score:<30)
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - OR with numeric — no matches
+[Roaring::Tags] ok 7 - OR with numeric: (a, score:>50) OR (c, score:<30)
+[Roaring::Tags] # Subtest: OR with numeric — has matches
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - OR with numeric matches
+[Roaring::Tags] ok 8 - OR with numeric — has matches
+[Roaring::Tags] # Subtest: OR with negation inside group: (a, -x) OR (c, -x)
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Negation inside OR groups
+[Roaring::Tags] ok 9 - OR with negation inside group: (a, -x) OR (c, -x)
+[Roaring::Tags] # Subtest: Explain shows OR structure
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Explain contains OR
+[Roaring::Tags]     ok 2 - Explain contains AND
+[Roaring::Tags] ok 10 - Explain shows OR structure
+[Roaring::Tags] # Subtest: Complex real-world query — use parens to apply filters to both sides
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Parens group OR before applying filters
+[Roaring::Tags] ok 11 - Complex real-world query — use parens to apply filters to both sides
+[Roaring::Tags] # Subtest: Mismatched parens dies
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Mismatched parens dies
+[Roaring::Tags] ok 12 - Mismatched parens dies
+[Roaring::Tags] # Subtest: Bare OR: a OR c
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Bare a OR c works
+[Roaring::Tags] ok 13 - Bare OR: a OR c
+[Roaring::Tags] # Subtest: Bare OR with AND: a OR c, e — AND binds tighter
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - AND binds tighter than OR
+[Roaring::Tags] ok 14 - Bare OR with AND: a OR c, e — AND binds tighter
+[Roaring::Tags] # Subtest: Mixed bare and grouped OR: a OR (c, d)
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Bare atom OR grouped AND
+[Roaring::Tags] ok 15 - Mixed bare and grouped OR: a OR (c, d)
+[Roaring::Tags] # Subtest: Precedence: AND binds tighter than OR
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - a OR b,c = a OR (b AND c) = {1,2,3}
+[Roaring::Tags]     ok 2 - (a OR b), c = (a∪b) AND c = {}
+[Roaring::Tags] ok 16 - Precedence: AND binds tighter than OR
+[Roaring::Tags] # Subtest: Precedence: three-way with mixed operators
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - x,y OR z = (x AND y) OR z
+[Roaring::Tags] ok 17 - Precedence: three-way with mixed operators
+[Roaring::Tags] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3 t/15-audit-fixes.rakutest
+[Roaring::Tags] 1..22
+[Roaring::Tags] # Subtest: Fix #1: remove-docs handles non-monotonic doc_id order
+[Roaring::Tags]     1..3
+[Roaring::Tags]     ok 1 - Three entries
+[Roaring::Tags]     ok 2 - Still 3 entries after update (no ghosts)
+[Roaring::Tags]     ok 3 - Doc 3 updated correctly
+[Roaring::Tags] ok 1 - Fix  \#1: remove-docs handles non-monotonic doc_id order
+[Roaring::Tags] # Subtest: Fix #1: range query returns no stale doc_ids after update
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Doc 1 not in old range after update
+[Roaring::Tags]     ok 2 - Doc 1 in new range after update
+[Roaring::Tags] ok 2 - Fix  \#1: range query returns no stale doc_ids after update
+[Roaring::Tags] # Subtest: Fix #1: repeated insert-many does not grow index unboundedly
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Index stays at 3 entries after 10 redundant updates
+[Roaring::Tags] ok 3 - Fix  \#1: repeated insert-many does not grow index unboundedly
+[Roaring::Tags] # Subtest: Fix #2: query unknown tag returns empty owned bitmap
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Empty bitmap for unknown tag
+[Roaring::Tags]     ok 2 - Can dispose the returned bitmap
+[Roaring::Tags] ok 4 - Fix  \#2: query unknown tag returns empty owned bitmap
+[Roaring::Tags] # Subtest: Fix #3: query returns clone — disposing does not corrupt store
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Store intact after disposing query result
+[Roaring::Tags]     ok 2 - Can still query the tag
+[Roaring::Tags] ok 5 - Fix  \#3: query returns clone — disposing does not corrupt store
+[Roaring::Tags] # Subtest: Fix #3: mutating query result does not affect store
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Store cardinality unchanged
+[Roaring::Tags]     ok 2 - Doc 1 still in store
+[Roaring::Tags] ok 6 - Fix  \#3: mutating query result does not affect store
+[Roaring::Tags] # Subtest: Fix #3: two query calls return independent bitmaps
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Second query unaffected by first mutation
+[Roaring::Tags]     ok 2 - Second query still valid after first disposed
+[Roaring::Tags] ok 7 - Fix  \#3: two query calls return independent bitmaps
+[Roaring::Tags] # Subtest: Fix #4: all-negative query uses universe
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - All-negative returns universe minus excluded
+[Roaring::Tags]     ok 2 - Contains doc from non-excluded tag
+[Roaring::Tags] ok 8 - Fix  \#4: all-negative query uses universe
+[Roaring::Tags] # Subtest: Fix #4: search with unknown tag does not leak on empty intersection
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Intersection with unknown = empty, no crash
+[Roaring::Tags] ok 9 - Fix  \#4: search with unknown tag does not leak on empty intersection
+[Roaring::Tags] # Subtest: Fix #5: single remove works correctly
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - 2 entries after remove
+[Roaring::Tags]     ok 2 - Doc 2 gone
+[Roaring::Tags] ok 10 - Fix  \#5: single remove works correctly
+[Roaring::Tags] # Subtest: Regression: full search pipeline after fixes
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Complex search returns 1 result
+[Roaring::Tags]     ok 2 - Result is doc 5
+[Roaring::Tags] ok 11 - Regression: full search pipeline after fixes
+[Roaring::Tags] # Subtest: Regression: explain does not leak bitmaps
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Explain produces output without crash
+[Roaring::Tags] ok 12 - Regression: explain does not leak bitmaps
+[Roaring::Tags] # Subtest: Universe: negative-only with multiple exclusions
+[Roaring::Tags]     1..2
+[Roaring::Tags]     ok 1 - Two exclusions leave only untagged docs
+[Roaring::Tags]     ok 2 - Correct docs remain
+[Roaring::Tags] ok 13 - Universe: negative-only with multiple exclusions
+[Roaring::Tags] # Subtest: Universe: negative query with numeric-only docs
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Numeric-only doc appears in negative query
+[Roaring::Tags] ok 14 - Universe: negative query with numeric-only docs
+[Roaring::Tags] # Subtest: Universe: remove-doc shrinks universe
+[Roaring::Tags]     1..1
+[Roaring::Tags]     ok 1 - Remove-doc updates universe correctly
+[Roaring::Tags] ok 15 - Universe: remove-doc shrinks universe
+[Roaring::Tags] # Subtest: Universe: save/load preserves universe
+[Roaring::Tags]     1..1
+[Roaring::Tags] Expected a modifiable native int argument for '$pos'
+[Roaring::Tags]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Roaring::Tags]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Roaring::Tags]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Roaring::Tags]   in method load at /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3/lib/Roaring/Tags/Storage.rakumod (Roaring::Tags::Storage) line 53
+[Roaring::Tags]   in method load at /home/coke/sandbox/blin/data/zef-data/tmp/5393aea13491a964f92fd90dd4df134d7e056815.tar.gz/Roaring-Tags-0.2.3/lib/Roaring/Tags.rakumod (Roaring::Tags) line 166
+[Roaring::Tags]   in block <unit> at t/15-audit-fixes.rakutest line 221
+[Roaring::Tags]     # You planned 1 test, but ran 0
+===> Testing [FAIL]: Roaring::Tags:ver<0.2.3>:auth<zef:apogee>
+[Roaring::Tags] Failed to get passing tests, but continuing with --force-test
+===> Installing: Roaring::Tags:ver<0.2.3>:auth<zef:apogee>
+===> Install [OK] for Roaring::Tags:ver<0.2.3>:auth<zef:apogee>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 30.497s
+             CPU time consumed: 41.673s
+                   Memory peak: 1.2G (swap: 0B)

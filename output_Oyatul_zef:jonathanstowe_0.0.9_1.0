@@ -1,0 +1,71 @@
+Running as unit: run-p1614488-i10039821.service; invocation ID: 9460c80ababe479aba9587a3f880db1b
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Oyatul
+===> Found: Oyatul:ver<0.0.9>:auth<zef:jonathanstowe>:api<1.0> [via Zef::Repository::Ecosystems<fez>]
+[Oyatul] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441597.1614501.4888.706930824927/bb4d21f761bf59674200205b23980f763df50aa8.tar.gz https://360.zef.pm/O/YA/OYATUL/bb4d21f761bf59674200205b23980f763df50aa8.tar.gz
+===> Fetching [OK]: Oyatul:ver<0.0.9>:auth<zef:jonathanstowe>:api<1.0> to /home/coke/sandbox/blin/data/zef-data/tmp/1789441597.1614501.4888.706930824927/bb4d21f761bf59674200205b23980f763df50aa8.tar.gz
+[Oyatul] Command: tar -t -f ./bb4d21f761bf59674200205b23980f763df50aa8.tar.gz
+[Oyatul] Command: tar -xvf ./bb4d21f761bf59674200205b23980f763df50aa8.tar.gz -C ../bb4d21f761bf59674200205b23980f763df50aa8.tar.gz
+===> Extraction [OK]: Oyatul to /home/coke/sandbox/blin/data/zef-data/tmp/bb4d21f761bf59674200205b23980f763df50aa8.tar.gz
+===> Testing: Oyatul:ver<0.0.9>:auth<zef:jonathanstowe>:api<1.0>
+[Oyatul] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/bb4d21f761bf59674200205b23980f763df50aa8.tar.gz/Oyatul-0.0.9 t/001-meta.t
+[Oyatul] 1..1
+[Oyatul] ok 1 - # SKIP no Test::META - skipping
+[Oyatul] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/bb4d21f761bf59674200205b23980f763df50aa8.tar.gz/Oyatul-0.0.9 t/010-use.t
+[Oyatul] ok 1 - Can use the module successfully
+[Oyatul] 1..1
+[Oyatul] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/bb4d21f761bf59674200205b23980f763df50aa8.tar.gz/Oyatul-0.0.9 t/020-basic.t
+[Oyatul] ok 1 - generate
+[Oyatul] ok 2 - and we got the right sort of thing
+[Oyatul] ok 3 - get the layout as a hash
+[Oyatul] ok 4 - and the child 'META6.json' is a node
+[Oyatul] ok 5 - and it's in the hash
+[Oyatul] ok 6 - and the child 'README.md' is a node
+[Oyatul] ok 7 - and it's in the hash
+[Oyatul] ok 8 - and the child 'lib' is a node
+[Oyatul] ok 9 - and it's in the hash
+[Oyatul] ok 10 - and its child 'Oyatul.rakumod' too
+[Oyatul] ok 11 - and the child 'Changes' is a node
+[Oyatul] ok 12 - and it's in the hash
+[Oyatul] ok 13 - and the child 'LICENCE' is a node
+[Oyatul] ok 14 - and it's in the hash
+[Oyatul] ok 15 - and the child 't' is a node
+[Oyatul] ok 16 - and it's in the hash
+[Oyatul] ok 17 - and its child '040-synopsis.t' too
+[Oyatul] ok 18 - and its child '030-detail.t' too
+[Oyatul] ok 19 - and its child '020-basic.t' too
+[Oyatul] ok 20 - and its child 'lib' too
+[Oyatul] ok 21 - and its child 'data' too
+[Oyatul] ok 22 - and its child '001-meta.t' too
+[Oyatul] ok 23 - and its child '010-use.t' too
+[Oyatul] ok 24 - to-json
+[Oyatul] not ok 25 - from-json
+[Oyatul] # Failed test 'from-json'
+[Oyatul] # at t/020-basic.t line 36
+[Oyatul] # Expected a modifiable native int argument for '$pos'
+[Oyatul] No such method 'to-hash' for invocant of type 'Any'
+[Oyatul]   in block <unit> at t/020-basic.t line 37
+[Oyatul] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/bb4d21f761bf59674200205b23980f763df50aa8.tar.gz/Oyatul-0.0.9 t/030-detail.t
+[Oyatul] not ok 1 - create from file
+[Oyatul] # Failed test 'create from file'
+[Oyatul] # at t/030-detail.t line 14
+[Oyatul] # Expected a modifiable native int argument for '$pos'
+[Oyatul] No such method 'root' for invocant of type 'Any'. Did you mean any of
+[Oyatul] these: 'Bool', 'not', 'roll', 'rotor', 'sort'?
+[Oyatul]   in block <unit> at t/030-detail.t line 17
+[Oyatul] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/bb4d21f761bf59674200205b23980f763df50aa8.tar.gz/Oyatul-0.0.9 t/040-synopsis.t
+[Oyatul] not ok 1 - the synopsis runs ok
+[Oyatul] # Failed test 'the synopsis runs ok'
+[Oyatul] # at t/040-synopsis.t line 8
+[Oyatul] # Expected a modifiable native int argument for '$pos'
+[Oyatul] 1..1
+[Oyatul] # You failed 1 test of 1
+===> Testing [FAIL]: Oyatul:ver<0.0.9>:auth<zef:jonathanstowe>:api<1.0>
+[Oyatul] Failed to get passing tests, but continuing with --force-test
+===> Installing: Oyatul:ver<0.0.9>:auth<zef:jonathanstowe>:api<1.0>
+===> Install [OK] for Oyatul:ver<0.0.9>:auth<zef:jonathanstowe>:api<1.0>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 11.805s
+             CPU time consumed: 15.216s
+                   Memory peak: 1G (swap: 0B)

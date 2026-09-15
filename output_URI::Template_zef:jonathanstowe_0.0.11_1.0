@@ -1,0 +1,309 @@
+===> Searching for: URI::Template
+Running as unit: run-p1639514-i10053053.service; invocation ID: 926bc06a87414b19a77d477bc9b8e441
+Press ^] three times within 1s to disconnect TTY.
+===> Found: URI::Template:ver<0.0.11>:auth<zef:jonathanstowe>:api<1.0> [via Zef::Repository::Ecosystems<fez>]
+[URI::Template] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442117.1639522.3277.3514297826887/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz https://360.zef.pm/U/RI/URI_TEMPLATE/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz
+===> Fetching [OK]: URI::Template:ver<0.0.11>:auth<zef:jonathanstowe>:api<1.0> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442117.1639522.3277.3514297826887/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz
+[URI::Template] Command: tar -t -f ./4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz
+[URI::Template] Command: tar -xvf ./4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz -C ../4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz
+===> Extraction [OK]: URI::Template to /home/coke/sandbox/blin/data/zef-data/tmp/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz
+===> Testing: URI::Template:ver<0.0.11>:auth<zef:jonathanstowe>:api<1.0>
+[URI::Template] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz/URI-Template-0.0.11 t/001-meta.t
+[URI::Template] 1..1
+[URI::Template] ok 1 - # SKIP no Test::META - skipping
+[URI::Template] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz/URI-Template-0.0.11 t/010-use.t
+[URI::Template] ok 1 - Can load "URI::Template" ok
+[URI::Template] 1..1
+[URI::Template] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz/URI-Template-0.0.11 t/020-grammar.t
+[URI::Template] ok 1 - matched 'http://example.com/~{username}/'
+[URI::Template] ok 2 - and we have made something with strings and expressions
+[URI::Template] ok 3 - matched 'http://example.com/dictionary/{term:1}/{term}'
+[URI::Template] ok 4 - and we have made something with strings and expressions
+[URI::Template] ok 5 - matched 'http://example.com/zub/{things*}'
+[URI::Template] ok 6 - and we have made something with strings and expressions
+[URI::Template] ok 7 - matched 'http://example.com/search{?q,lang}'
+[URI::Template] ok 8 - and we have made something with strings and expressions
+[URI::Template] ok 9 - matched 'http://www.example.com/foo{?query,number}'
+[URI::Template] ok 10 - and we have made something with strings and expressions
+[URI::Template] ok 11 - matched 'http://www.example.com/foo{?query,number}'
+[URI::Template] ok 12 - and we have made something with strings and expressions
+[URI::Template] # Subtest: Simple variable no operator
+[URI::Template]     ok 1 - matched '{var}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 13 - Simple variable no operator
+[URI::Template] # Subtest: reserved operator
+[URI::Template]     ok 1 - matched '{+var}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 14 - reserved operator
+[URI::Template] # Subtest: fragment operator
+[URI::Template]     ok 1 - matched '{ \#var}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 15 - fragment operator
+[URI::Template] # Subtest: suffix operator
+[URI::Template]     ok 1 - matched '{.var}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 16 - suffix operator
+[URI::Template] # Subtest: Semicolon path operator
+[URI::Template]     ok 1 - matched '{;x}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 17 - Semicolon path operator
+[URI::Template] # Subtest: ? query operator
+[URI::Template]     ok 1 - matched '{?x}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 18 - ? query operator
+[URI::Template] # Subtest: Ampersand extend query
+[URI::Template]     ok 1 - matched '{&x}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 19 - Ampersand extend query
+[URI::Template] # Subtest: No operator max-length set
+[URI::Template]     ok 1 - matched '{var:3}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 20 - No operator max-length set
+[URI::Template] # Subtest: Simple with explode
+[URI::Template]     ok 1 - matched '{list*}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 21 - Simple with explode
+[URI::Template] # Subtest: reserved operator with max-length
+[URI::Template]     ok 1 - matched '{+path:6}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 22 - reserved operator with max-length
+[URI::Template] # Subtest: Reserved operator with explode
+[URI::Template]     ok 1 - matched '{+list*}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 23 - Reserved operator with explode
+[URI::Template] # Subtest: fragment operator with max-length
+[URI::Template]     ok 1 - matched '{ \#path:6}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 24 - fragment operator with max-length
+[URI::Template] # Subtest: Fragment operator with explode
+[URI::Template]     ok 1 - matched '{ \#list*}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 25 - Fragment operator with explode
+[URI::Template] # Subtest: suffix operator with max-length
+[URI::Template]     ok 1 - matched '{.var:3}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 26 - suffix operator with max-length
+[URI::Template] # Subtest: Suffix operator with explode
+[URI::Template]     ok 1 - matched '{.list*}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 27 - Suffix operator with explode
+[URI::Template] # Subtest: semi-colon operator with max-length
+[URI::Template]     ok 1 - matched '{;hello:5}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 28 - semi-colon operator with max-length
+[URI::Template] # Subtest: semi-colon with explode
+[URI::Template]     ok 1 - matched '{;list*}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 29 - semi-colon with explode
+[URI::Template] # Subtest: query operator with max-length
+[URI::Template]     ok 1 - matched '{?var:3}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 30 - query operator with max-length
+[URI::Template] # Subtest: query operator with explode
+[URI::Template]     ok 1 - matched '{?list*}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 31 - query operator with explode
+[URI::Template] # Subtest: ampersand query extend with max-length
+[URI::Template]     ok 1 - matched '{&var:3}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 32 - ampersand query extend with max-length
+[URI::Template] # Subtest: ampersand query extend with explode
+[URI::Template]     ok 1 - matched '{&list*}'
+[URI::Template]     ok 2 - got first bit
+[URI::Template]     ok 3 - and it's an expression
+[URI::Template]     ok 4 - got the right operator
+[URI::Template]     ok 5 - get the (only) variable
+[URI::Template]     ok 6 - and it's a Variable
+[URI::Template]     ok 7 - correct max-length
+[URI::Template]     ok 8 - correct explode
+[URI::Template]     1..8
+[URI::Template] ok 33 - ampersand query extend with explode
+[URI::Template] # Subtest: special cases
+[URI::Template]     ok 1 - matched '{+path}/here'
+[URI::Template]     ok 2 - expect two parts
+[URI::Template]     ok 3 - and got /here as we expected
+[URI::Template]     1..3
+[URI::Template] ok 34 - special cases
+[URI::Template] 1..34
+[URI::Template] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz/URI-Template-0.0.11 t/030-spec-examples.t
+[URI::Template] Expected a modifiable native int argument for '$pos'
+[URI::Template]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[URI::Template]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[URI::Template]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[URI::Template]   in block <unit> at t/030-spec-examples.t line 18
+[URI::Template] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz/URI-Template-0.0.11 t/040-spec-examples-by-section.t
+[URI::Template] Expected a modifiable native int argument for '$pos'
+[URI::Template]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[URI::Template]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[URI::Template]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[URI::Template]   in block <unit> at t/040-spec-examples-by-section.t line 18
+[URI::Template] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz/URI-Template-0.0.11 t/050-extended-tests.t
+[URI::Template] Expected a modifiable native int argument for '$pos'
+[URI::Template]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[URI::Template]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[URI::Template]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[URI::Template]   in block <unit> at t/050-extended-tests.t line 17
+[URI::Template] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz/URI-Template-0.0.11 t/060-synopsis.t
+[URI::Template] ok 1 - check the synopsis code is actually correct
+[URI::Template] 1..1
+[URI::Template] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/4cc01b6a3404c6b41ee2c2366012702680ab9544.tar.gz/URI-Template-0.0.11 t/070-exceptions.t
+[URI::Template] # Subtest: throws 'X::NoTemplate' without a defined template
+[URI::Template]     1..2
+[URI::Template]     ok 1 - code dies
+[URI::Template]     ok 2 - right exception type (URI::Template::X::NoTemplate)
+[URI::Template] ok 1 - throws 'X::NoTemplate' without a defined template
+[URI::Template] # Subtest: throws 'X::InvalidTemplate' with a broken template
+[URI::Template]     1..2
+[URI::Template]     ok 1 - code dies
+[URI::Template]     ok 2 - right exception type (URI::Template::X::InvalidTemplate)
+[URI::Template] ok 2 - throws 'X::InvalidTemplate' with a broken template
+[URI::Template] 1..2
+===> Testing [FAIL]: URI::Template:ver<0.0.11>:auth<zef:jonathanstowe>:api<1.0>
+[URI::Template] Failed to get passing tests, but continuing with --force-test
+===> Installing: URI::Template:ver<0.0.11>:auth<zef:jonathanstowe>:api<1.0>
+===> Install [OK] for URI::Template:ver<0.0.11>:auth<zef:jonathanstowe>:api<1.0>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 16.161s
+             CPU time consumed: 19.967s
+                   Memory peak: 956.7M (swap: 0B)

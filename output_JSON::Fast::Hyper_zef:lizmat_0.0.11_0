@@ -1,0 +1,32 @@
+Running as unit: run-p1658774-i9973018.service; invocation ID: b1d88df4454848e3b66f56f53116ce4f
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: JSON::Fast::Hyper
+===> Found: JSON::Fast::Hyper:ver<0.0.11>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[JSON::Fast::Hyper] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442527.1658781.8216.178999898497/f5d47206faf4b962f7e708e97f28b26125146fdb.tar.gz https://360.zef.pm/J/SO/JSON_FAST_HYPER/f5d47206faf4b962f7e708e97f28b26125146fdb.tar.gz
+===> Fetching [OK]: JSON::Fast::Hyper:ver<0.0.11>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442527.1658781.8216.178999898497/f5d47206faf4b962f7e708e97f28b26125146fdb.tar.gz
+[JSON::Fast::Hyper] Command: tar -t -f ./f5d47206faf4b962f7e708e97f28b26125146fdb.tar.gz
+[JSON::Fast::Hyper] Command: tar -xvf ./f5d47206faf4b962f7e708e97f28b26125146fdb.tar.gz -C ../f5d47206faf4b962f7e708e97f28b26125146fdb.tar.gz
+===> Extraction [OK]: JSON::Fast::Hyper to /home/coke/sandbox/blin/data/zef-data/tmp/f5d47206faf4b962f7e708e97f28b26125146fdb.tar.gz
+===> Testing: JSON::Fast::Hyper:ver<0.0.11>:auth<zef:lizmat>
+[JSON::Fast::Hyper] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f5d47206faf4b962f7e708e97f28b26125146fdb.tar.gz/JSON-Fast-Hyper-0.0.11 t/01-basic.rakutest
+[JSON::Fast::Hyper] 1..5
+[JSON::Fast::Hyper] A worker in a parallel iteration (hyper or race) initiated here:
+[JSON::Fast::Hyper]   in sub _is_deeply at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 715
+[JSON::Fast::Hyper]   in sub is-deeply at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 621
+[JSON::Fast::Hyper]   in block <unit> at t/01-basic.rakutest line 10
+[JSON::Fast::Hyper] Died at:
+[JSON::Fast::Hyper]     Expected a modifiable native int argument for '$pos'
+[JSON::Fast::Hyper]       in sub parse-string at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 542
+[JSON::Fast::Hyper]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Fast::Hyper]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Fast::Hyper]       in block  at /home/coke/sandbox/blin/data/zef-data/tmp/f5d47206faf4b962f7e708e97f28b26125146fdb.tar.gz/JSON-Fast-Hyper-0.0.11/lib/JSON/Fast/Hyper.rakumod (JSON::Fast::Hyper) line 19
+[JSON::Fast::Hyper] # You planned 5 tests, but ran 0
+===> Testing [FAIL]: JSON::Fast::Hyper:ver<0.0.11>:auth<zef:lizmat>
+[JSON::Fast::Hyper] Failed to get passing tests, but continuing with --force-test
+===> Installing: JSON::Fast::Hyper:ver<0.0.11>:auth<zef:lizmat>
+===> Install [OK] for JSON::Fast::Hyper:ver<0.0.11>:auth<zef:lizmat>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 12.878s
+             CPU time consumed: 15.005s
+                   Memory peak: 1G (swap: 0B)

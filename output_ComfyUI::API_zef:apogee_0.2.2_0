@@ -1,0 +1,344 @@
+Running as unit: run-p2248357-i10694875.service; invocation ID: 4e7b8fb89c4948b29378dbbacc0366bc
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: ComfyUI::API
+===> Found: ComfyUI::API:ver<0.2.2>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[ComfyUI::API] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789464486.2248364.675.2729741256913/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz https://360.zef.pm/C/OM/COMFYUI_API/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz
+===> Fetching [OK]: ComfyUI::API:ver<0.2.2>:auth<zef:apogee> to /home/coke/sandbox/blin/data/zef-data/tmp/1789464486.2248364.675.2729741256913/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz
+[ComfyUI::API] Command: tar -t -f ./38cd054241b2b71b8620671d719459f47930d3eb.tar.gz
+[ComfyUI::API] Command: tar -xvf ./38cd054241b2b71b8620671d719459f47930d3eb.tar.gz -C ../38cd054241b2b71b8620671d719459f47930d3eb.tar.gz
+===> Extraction [OK]: ComfyUI::API to /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz
+===> Testing: ComfyUI::API:ver<0.2.2>:auth<zef:apogee>
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2 t/01-workflow.rakutest
+[ComfyUI::API] 1..11
+[ComfyUI::API] # Subtest: from-file loads workflow
+[ComfyUI::API]     1..1
+[ComfyUI::API] Expected a modifiable native int argument for '$pos'
+[ComfyUI::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[ComfyUI::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[ComfyUI::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[ComfyUI::API]   in method from-json at /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2/lib/ComfyUI/API/Workflow.rakumod (ComfyUI::API::Workflow) line 14
+[ComfyUI::API]   in method from-file at /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2/lib/ComfyUI/API/Workflow.rakumod (ComfyUI::API::Workflow) line 10
+[ComfyUI::API]   in block <unit> at t/01-workflow.rakutest line 11
+[ComfyUI::API]     # You planned 1 test, but ran 0
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2 t/02-client.rakutest
+[ComfyUI::API] 1..0 # Skipped: Set COMFYUI_URL to run client tests
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2 t/03-result.rakutest
+[ComfyUI::API] 1..5
+[ComfyUI::API] # Subtest: images returns image list
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Two images found
+[ComfyUI::API] ok 1 - images returns image list
+[ComfyUI::API] # Subtest: image-filenames returns filenames
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Filenames extracted
+[ComfyUI::API] ok 2 - image-filenames returns filenames
+[ComfyUI::API] # Subtest: output-for-node returns node output
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Node 9 has images
+[ComfyUI::API] ok 3 - output-for-node returns node output
+[ComfyUI::API] # Subtest: output-for-node unknown returns empty hash
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Unknown node returns empty
+[ComfyUI::API] ok 4 - output-for-node unknown returns empty hash
+[ComfyUI::API] # Subtest: prompt-id accessible
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - Prompt ID correct
+[ComfyUI::API] ok 5 - prompt-id accessible
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2 t/04-introspection.rakutest
+[ComfyUI::API] 1..9
+[ComfyUI::API] Expected a modifiable native int argument for '$pos'
+[ComfyUI::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[ComfyUI::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[ComfyUI::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[ComfyUI::API]   in block <unit> at t/04-introspection.rakutest line 12
+[ComfyUI::API] # You planned 9 tests, but ran 0
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2 t/05-progress.rakutest
+[ComfyUI::API] 1..8
+[ComfyUI::API] # Subtest: parse-progress-message: status → queue event
+[ComfyUI::API]     1..3
+[ComfyUI::API]     ok 1 - type
+[ComfyUI::API]     ok 2 - pending count
+[ComfyUI::API]     ok 3 - running count default
+[ComfyUI::API] ok 1 - parse-progress-message: status → queue event
+[ComfyUI::API] # Subtest: parse-progress-message: execution_start
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API] ok 2 - parse-progress-message: execution_start
+[ComfyUI::API] # Subtest: parse-progress-message: executing with node → executing event
+[ComfyUI::API]     1..3
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API]     ok 3 - 
+[ComfyUI::API] ok 3 - parse-progress-message: executing with node → executing event
+[ComfyUI::API] # Subtest: parse-progress-message: executing with null node → execution-end (legacy)
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API] ok 4 - parse-progress-message: executing with null node → execution-end (legacy)
+[ComfyUI::API] # Subtest: parse-progress-message: progress
+[ComfyUI::API]     1..5
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API]     ok 3 - 
+[ComfyUI::API]     ok 4 - 
+[ComfyUI::API]     ok 5 - 
+[ComfyUI::API] ok 5 - parse-progress-message: progress
+[ComfyUI::API] # Subtest: parse-progress-message: execution_success → execution-end
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API] ok 6 - parse-progress-message: execution_success → execution-end
+[ComfyUI::API] # Subtest: parse-progress-message: execution_error
+[ComfyUI::API]     1..4
+[ComfyUI::API]     ok 1 - 
+[ComfyUI::API]     ok 2 - 
+[ComfyUI::API]     ok 3 - 
+[ComfyUI::API]     ok 4 - 
+[ComfyUI::API] ok 7 - parse-progress-message: execution_error
+[ComfyUI::API] # Subtest: progress-supply emits typed events from a live WebSocket fixture
+[ComfyUI::API]     1..3
+[ComfyUI::API]     not ok 1 - Saw execution-start (got: )
+[ComfyUI::API]     # Failed test 'Saw execution-start (got: )'
+[ComfyUI::API]     # at t/05-progress.rakutest line 156
+[ComfyUI::API]     not ok 2 - Saw progress
+[ComfyUI::API]     # Failed test 'Saw progress'
+[ComfyUI::API]     # at t/05-progress.rakutest line 157
+[ComfyUI::API]     not ok 3 - Saw execution-end
+[ComfyUI::API]     # Failed test 'Saw execution-end'
+[ComfyUI::API]     # at t/05-progress.rakutest line 158
+[ComfyUI::API]     # You failed 3 tests of 3
+[ComfyUI::API] # Failed test 'progress-supply emits typed events from a live WebSocket fixture'
+[ComfyUI::API] # at t/05-progress.rakutest line 100
+[ComfyUI::API] # You failed 1 test of 8
+[ComfyUI::API] not ok 8 - progress-supply emits typed events from a live WebSocket fixture
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2 t/06-cancel.rakutest
+[ComfyUI::API] 1..5
+[ComfyUI::API] # Subtest: interrupt absorbs network failure
+[ComfyUI::API]     1..1
+[ComfyUI::API] ComfyUI::API::Client.interrupt failed: connection refused
+[ComfyUI::API]     ok 1 - interrupt against unreachable URL returns silently
+[ComfyUI::API] ok 1 - interrupt absorbs network failure
+[ComfyUI::API] # Subtest: delete-from-queue absorbs network failure
+[ComfyUI::API]     1..1
+[ComfyUI::API] ComfyUI::API::Client.delete-from-queue(any-id) failed: connection refused
+[ComfyUI::API]     ok 1 - delete-from-queue against unreachable URL returns silently
+[ComfyUI::API] ok 2 - delete-from-queue absorbs network failure
+[ComfyUI::API] # Subtest: delete-from-queue short-circuits on empty prompt-id
+[ComfyUI::API]     1..1
+[ComfyUI::API]     ok 1 - empty prompt-id short-circuits before HTTP
+[ComfyUI::API] ok 3 - delete-from-queue short-circuits on empty prompt-id
+[ComfyUI::API] # Subtest: queued delete and targeted interrupt send exact Comfy payloads
+[ComfyUI::API]     1..4
+[ComfyUI::API] An operation first awaited:
+[ComfyUI::API]   in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[ComfyUI::API]   in block  at t/06-cancel.rakutest line 49
+[ComfyUI::API]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[ComfyUI::API]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[ComfyUI::API] Died with the exception:
+[ComfyUI::API]     Expected a modifiable native int argument for '$pos'
+[ComfyUI::API]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[ComfyUI::API]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[ComfyUI::API]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[ComfyUI::API]       in method parse at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/14810917667F81B44F5C39489F1DA27137B4D636 (Cro::HTTP::BodyParsers) line 225
+[ComfyUI::API]       in method body at /home/coke/sandbox/blin/installed/Cro::Core_zef:cro_0.8.10_0/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 78
+[ComfyUI::API]       in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[ComfyUI::API]       in block  at t/06-cancel.rakutest line 49
+[ComfyUI::API]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[ComfyUI::API]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[ComfyUI::API] ComfyUI::API::Client.delete-from-queue(prompt-123) failed: Server responded with 500 Internal Server Error (POST http://127.0.0.1:32250/queue)
+[ComfyUI::API] An operation first awaited:
+[ComfyUI::API]   in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[ComfyUI::API]   in block  at t/06-cancel.rakutest line 56
+[ComfyUI::API]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[ComfyUI::API]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[ComfyUI::API] Died with the exception:
+[ComfyUI::API]     Expected a modifiable native int argument for '$pos'
+[ComfyUI::API]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[ComfyUI::API]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[ComfyUI::API]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[ComfyUI::API]       in method parse at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/14810917667F81B44F5C39489F1DA27137B4D636 (Cro::HTTP::BodyParsers) line 225
+[ComfyUI::API]       in method body at /home/coke/sandbox/blin/installed/Cro::Core_zef:cro_0.8.10_0/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 78
+[ComfyUI::API]       in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[ComfyUI::API]       in block  at t/06-cancel.rakutest line 56
+[ComfyUI::API]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[ComfyUI::API]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[ComfyUI::API] ComfyUI::API::Client.interrupt failed: Server responded with 500 Internal Server Error (POST http://127.0.0.1:32250/interrupt)
+[ComfyUI::API]     not ok 1 - queued prompt deletion uses /queue
+[ComfyUI::API]     # Failed test 'queued prompt deletion uses /queue'
+[ComfyUI::API]     # at t/06-cancel.rakutest line 81
+[ComfyUI::API]     # expected: '/queue'
+[ComfyUI::API]     #      got: (Any)
+[ComfyUI::API]     not ok 2 - queued prompt deletion body matches Comfy frontend
+[ComfyUI::API]     # Failed test 'queued prompt deletion body matches Comfy frontend'
+[ComfyUI::API]     # at t/06-cancel.rakutest line 82
+[ComfyUI::API]     # expected: ${:delete($["prompt-123"])}
+[ComfyUI::API]     #      got: Any
+[ComfyUI::API]     not ok 3 - running prompt interrupt uses /interrupt
+[ComfyUI::API]     # Failed test 'running prompt interrupt uses /interrupt'
+[ComfyUI::API]     # at t/06-cancel.rakutest line 84
+[ComfyUI::API]     # expected: '/interrupt'
+[ComfyUI::API]     #      got: (Any)
+[ComfyUI::API]     not ok 4 - targeted interrupt body carries prompt_id
+[ComfyUI::API]     # Failed test 'targeted interrupt body carries prompt_id'
+[ComfyUI::API]     # at t/06-cancel.rakutest line 85
+[ComfyUI::API]     # expected: ${:prompt_id("prompt-123")}
+[ComfyUI::API]     #      got: Any
+[ComfyUI::API]     # You failed 4 tests of 4
+[ComfyUI::API] not ok 4 - queued delete and targeted interrupt send exact Comfy payloads
+[ComfyUI::API] # Failed test 'queued delete and targeted interrupt send exact Comfy payloads'
+[ComfyUI::API] # at t/06-cancel.rakutest line 68
+[ComfyUI::API] # Subtest: cancel methods return Nil
+[ComfyUI::API]     1..2
+[ComfyUI::API] ComfyUI::API::Client.interrupt failed: connection refused
+[ComfyUI::API]     ok 1 - interrupt has Nil return type
+[ComfyUI::API]     ok 2 - delete-from-queue has Nil return type
+[ComfyUI::API] ok 5 - cancel methods return Nil
+[ComfyUI::API] # You failed 1 test of 5
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2 t/07-download-timeout.rakutest
+[ComfyUI::API] 1..3
+[ComfyUI::API] ok 1 - test TCP listener bound on port 35073
+[ComfyUI::API] # Subtest: download throws X::ComfyUI::DownloadTimeout when body never arrives
+[ComfyUI::API]     1..3
+[ComfyUI::API]     ok 1 - download did not return — an exception fired
+[ComfyUI::API]     ok 2 - exception is X::ComfyUI::DownloadTimeout (got ComfyUI::API::Exception::X::ComfyUI::DownloadTimeout)
+[ComfyUI::API]     ok 3 - download returned within bounded time (0.51s, timeout=0.5s)
+[ComfyUI::API] ok 2 - download throws X::ComfyUI::DownloadTimeout when body never arrives
+[ComfyUI::API] # Subtest: X::ComfyUI::DownloadTimeout message includes filename + timeout
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - exception message mentions the stalled filename
+[ComfyUI::API]     ok 2 - exception message mentions the configured timeout
+[ComfyUI::API] ok 3 - X::ComfyUI::DownloadTimeout message includes filename + timeout
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2 t/08-poll-timeout.rakutest
+[ComfyUI::API] 1..2
+[ComfyUI::API] # Subtest: poll throws within timeout when /history request stalls
+[ComfyUI::API]     1..3
+[ComfyUI::API]     ok 1 - poll did not return — an exception fired
+[ComfyUI::API]     ok 2 - poll returned in bounded time (0.51s, timeout=0.5s)
+[ComfyUI::API]     ok 3 - exception message indicates a timeout / stall (got: ComfyUI::API::Client: HTTP request to /history/my-prompt-id stalled mid-flight ()
+[ComfyUI::API] ok 1 - poll throws within timeout when /history request stalls
+[ComfyUI::API] # Subtest: poll throws an HTTP error when the connection is refused
+[ComfyUI::API]     1..2
+[ComfyUI::API]     ok 1 - poll surfaced an exception
+[ComfyUI::API]     ok 2 - exception carries a non-empty message
+[ComfyUI::API] ok 2 - poll throws an HTTP error when the connection is refused
+[ComfyUI::API] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2 t/09-body-encoding.rakutest
+[ComfyUI::API] 1..8
+[ComfyUI::API] # Subtest: the decode helper
+[ComfyUI::API]     1..6
+[ComfyUI::API]     ok 1 - multi-byte UTF-8 survives the round trip
+[ComfyUI::API]     ok 2 - no latin-1 expansion into one character per byte
+[ComfyUI::API]     ok 3 - ASCII is unchanged
+[ComfyUI::API]     ok 4 - undecodable UTF-8 falls back to latin-1
+[ComfyUI::API]     ok 5 - an empty body reads as the empty string
+[ComfyUI::API]     ok 6 - an undefined body reads as the empty string rather than throwing
+[ComfyUI::API] ok 1 - the decode helper
+[ComfyUI::API] # Subtest: the fixture really does omit the charset
+[ComfyUI::API]     1..3
+[ComfyUI::API]     ok 1 - JSON served as application/json
+[ComfyUI::API]     ok 2 - with no charset parameter
+[ComfyUI::API]     ok 3 - the download route serves image/png
+[ComfyUI::API] ok 2 - the fixture really does omit the charset
+[ComfyUI::API] # Subtest: submit round-trips the prompt id and error text
+[ComfyUI::API]     1..3
+[ComfyUI::API] Expected a modifiable native int argument for '$pos'
+[ComfyUI::API]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[ComfyUI::API]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[ComfyUI::API]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[ComfyUI::API]   in method submit at /home/coke/sandbox/blin/data/zef-data/tmp/38cd054241b2b71b8620671d719459f47930d3eb.tar.gz/ComfyUI-API-0.2.2/lib/ComfyUI/API/Client.rakumod (ComfyUI::API::Client) line 90
+[ComfyUI::API]   in block <unit> at t/09-body-encoding.rakutest line 233
+[ComfyUI::API]     # You planned 3 tests, but ran 0
+===> Testing [FAIL]: ComfyUI::API:ver<0.2.2>:auth<zef:apogee>
+[ComfyUI::API] Failed to get passing tests, but continuing with --force-test
+===> Installing: ComfyUI::API:ver<0.2.2>:auth<zef:apogee>
+===> Install [OK] for ComfyUI::API:ver<0.2.2>:auth<zef:apogee>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 2min 14.137s
+             CPU time consumed: 3min 1.356s
+                   Memory peak: 2.7G (swap: 0B)

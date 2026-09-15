@@ -1,0 +1,157 @@
+Running as unit: run-p1872754-i10128597.service; invocation ID: 8e4606c761844988bfad2c301b840d94
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Config::JSON
+===> Found: Config::JSON:ver<1.001003> [via Zef::Repository::Ecosystems<rea>]
+[Config::JSON] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789447353.1872759.3778.12446093049/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/Config%3A%3AJSON/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz
+===> Fetching [OK]: Config::JSON:ver<1.001003> to /home/coke/sandbox/blin/data/zef-data/tmp/1789447353.1872759.3778.12446093049/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz
+[Config::JSON] Command: tar -t -f ./Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz
+[Config::JSON] Command: tar -xvf ./Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz -C ../Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz
+===> Extraction [OK]: Config::JSON to /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz
+===> Testing: Config::JSON:ver<1.001003>
+[Config::JSON] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/Config-JSON-master t/01-default.t
+[Config::JSON] Potential difficulties:
+[Config::JSON]     Declaring role 'Testo::Test' inside an enclosing package of the same
+[Config::JSON]     name silently replaces the package in the outer stash. This is legacy
+[Config::JSON]     behavior specific to Raku 6.d and earlier; in Raku 6.e the same pattern
+[Config::JSON]     installs the role as a nested package instead. Rewrite as 'unit role
+[Config::JSON]     Testo::Test;' in its own file (or otherwise avoid the
+[Config::JSON]     package+same-named-role collision) to work the same way on either
+[Config::JSON]     revision.
+[Config::JSON]     at /home/coke/sandbox/blin/installed/Testo_zef:raku-community-modules_1.003009_0/sources/EE240FACDAC777430D6C72B98784A06BC2D16126 (Testo::Test):13
+[Config::JSON]     ------> role <HERE>Testo::Test {
+[Config::JSON] 1..5
+[Config::JSON] ok 1 - config file got created
+[Config::JSON] Expected a modifiable native int argument for '$pos'
+[Config::JSON]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Config::JSON]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Config::JSON]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Config::JSON]   in sub read-conf-from at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/Config-JSON-master/lib/Config/JSON.pm6 (Config::JSON) line 24
+[Config::JSON]   in sub jconf at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/Config-JSON-master/lib/Config/JSON.pm6 (Config::JSON) line 32
+[Config::JSON]   in block <unit> at t/01-default.t line 12
+[Config::JSON] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/Config-JSON-master t/02-custom-file-in-use.t
+[Config::JSON] 1..5
+[Config::JSON] ok 1 - config file got created
+[Config::JSON] Expected a modifiable native int argument for '$pos'
+[Config::JSON]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Config::JSON]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Config::JSON]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Config::JSON]   in sub read-conf-from at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/Config-JSON-master/lib/Config/JSON.pm6 (Config::JSON) line 24
+[Config::JSON]   in sub jconf at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/Config-JSON-master/lib/Config/JSON.pm6 (Config::JSON) line 32
+[Config::JSON]   in block <unit> at t/02-custom-file-in-use.t line 12
+[Config::JSON] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/Config-JSON-master t/03-custom-file-in-param.t
+[Config::JSON] 1..6
+[Config::JSON] ok 1 - default file was not created
+[Config::JSON]     1..3
+[Config::JSON]     ok 1 - config file did not get auto created
+[Config::JSON]         1..3
+[Config::JSON]         ok 1 - returns Failure
+[Config::JSON]         ok 2 - right exception
+[Config::JSON]         ok 3 - non-existent key returns unhandled Failure
+[Config::JSON]     ok 2 - reading key
+[Config::JSON]         1..3
+[Config::JSON]         ok 1 - returns Failure
+[Config::JSON]         ok 2 - right exception
+[Config::JSON]         ok 3 - non-existent key returns unhandled Failure
+[Config::JSON]     ok 3 - writing key
+[Config::JSON] ok 2 - reading without file
+[Config::JSON] Expected a modifiable native int argument for '$pos'
+[Config::JSON]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Config::JSON]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Config::JSON]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Config::JSON]   in sub read-conf-from at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/Config-JSON-master/lib/Config/JSON.pm6 (Config::JSON) line 24
+[Config::JSON]   in sub jconf at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3AJSON%3Aver%3C1.001003%3E%3Aauth%3Cgithub%3Araku-community-modules%3E.tar.gz/Config-JSON-master/lib/Config/JSON.pm6 (Config::JSON) line 32
+[Config::JSON]   in block <unit> at t/03-custom-file-in-param.t line 33
+===> Testing [FAIL]: Config::JSON:ver<1.001003>
+[Config::JSON] Failed to get passing tests, but continuing with --force-test
+===> Installing: Config::JSON:ver<1.001003>
+===> Install [OK] for Config::JSON:ver<1.001003>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 47.885s
+             CPU time consumed: 56.954s
+                   Memory peak: 1.6G (swap: 0B)

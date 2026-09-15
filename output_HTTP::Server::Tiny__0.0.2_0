@@ -1,0 +1,358 @@
+Running as unit: run-p1776390-i10194093.service; invocation ID: 4a8e57d6894d4f7a99cee612b63ce836
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: HTTP::Server::Tiny
+===> Found: HTTP::Server::Tiny:ver<0.0.2> [via Zef::Repository::Ecosystems<rea>]
+[HTTP::Server::Tiny] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445254.1776391.7561.753006786024/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/H/HTTP%3A%3AServer%3A%3ATiny/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz
+===> Fetching [OK]: HTTP::Server::Tiny:ver<0.0.2> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445254.1776391.7561.753006786024/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz
+[HTTP::Server::Tiny] Command: tar -t -f ./HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz
+[HTTP::Server::Tiny] Command: tar -xvf ./HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz -C ../HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz
+===> Extraction [OK]: HTTP::Server::Tiny to /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz
+===> Testing: HTTP::Server::Tiny:ver<0.0.2>
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/00-dependency-checking.t
+[HTTP::Server::Tiny] 1..1
+[HTTP::Server::Tiny] ok 1 - GET response code
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/01-psgi.t
+[HTTP::Server::Tiny] Saw 1 occurrence of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] 1..1
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777101, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - 
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/02-server.t
+[HTTP::Server::Tiny] 1..1
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777216, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - 
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/04-get.t
+[HTTP::Server::Tiny] 1..2
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777252, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - Response status
+[HTTP::Server::Tiny] ERROR: Expected a modifiable native int argument for '$pos'
+[HTTP::Server::Tiny] ${:content("\{\n  \"QUERY_STRING\": \"foo=bar\",\n  \"PATH_INFO\": \"/goo\"\n}"), :headers(${}), :protocol("HTTP/1.1"), :reason("OK"), :status(200), :success(Bool::True), :url("http://127.0.0.1:15555/goo?foo=bar")}
+[HTTP::Server::Tiny] Failed
+[HTTP::Server::Tiny]   in block  at t/04-get.t line 34
+[HTTP::Server::Tiny]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[HTTP::Server::Tiny]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[HTTP::Server::Tiny]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[HTTP::Server::Tiny]   in block <unit> at t/04-get.t line 37
+[HTTP::Server::Tiny] # You planned 2 tests, but ran 1
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny]   t/04-get.t, line 34
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/05-post.t
+[HTTP::Server::Tiny] 1..2
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777415, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - Response status
+[HTTP::Server::Tiny] ok 2 - Response content
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/06-channel.t
+[HTTP::Server::Tiny] 1..4
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777443, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - Response status
+[HTTP::Server::Tiny] ok 2 - Received channel content as response from post request
+[HTTP::Server::Tiny] ok 3 - Channel was filled
+[HTTP::Server::Tiny] ok 4 - Server executed reply
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/07-io-handle.t
+[HTTP::Server::Tiny] 1..2
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777542, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - Reponse status
+[HTTP::Server::Tiny] ok 2 - Response content
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/08-long-req.t
+[HTTP::Server::Tiny] 1..1
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777592, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - 
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/09-chunked-request.t
+[HTTP::Server::Tiny] 1..1
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777625, keepalive: 1)
+[HTTP::Server::Tiny] # wrote requests
+[HTTP::Server::Tiny] ok 1 - 
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/10-ise.t
+[HTTP::Server::Tiny] 1..2
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777728, keepalive: 1)
+[HTTP::Server::Tiny] [ERROR] [1777728] [8] Died   in sub  at t/10-ise.t line 17
+[HTTP::Server::Tiny]   in sub  at /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny) line 279
+[HTTP::Server::Tiny]   in method run-app at /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny) line 272
+[HTTP::Server::Tiny]   in method parse-body at /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny) line 248
+[HTTP::Server::Tiny]   in method handle at /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny) line 107
+[HTTP::Server::Tiny]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny) line 556
+[HTTP::Server::Tiny] ok 1 - Reponse status (Internal server error)
+[HTTP::Server::Tiny] ok 2 - Response content
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/11-str.t
+[HTTP::Server::Tiny] 1..3
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777772, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - Reponse status
+[HTTP::Server::Tiny] ok 2 - 
+[HTTP::Server::Tiny] ok 3 - response body
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/12-supply.t
+[HTTP::Server::Tiny] 1..2
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1777818, keepalive: 1)
+[HTTP::Server::Tiny] Saw 1 occurrence of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] ok 1 - 
+[HTTP::Server::Tiny] ok 2 - Server served request
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/13-promise.t
+[HTTP::Server::Tiny] 1..3
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:11273/ (pid:1777954, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - control-promise is kept
+[HTTP::Server::Tiny] ok 2 - server completed on command
+[HTTP::Server::Tiny] ok 3 - and just to be sure it didn't timeout
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/14-error.t
+[HTTP::Server::Tiny] 1..4
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1778300, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - Reponse status
+[HTTP::Server::Tiny] ok 2 - 
+[HTTP::Server::Tiny] ok 3 - 
+[HTTP::Server::Tiny] ok 4 - 
+[HTTP::Server::Tiny] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master t/15-p6w.t
+[HTTP::Server::Tiny] 1..5
+[HTTP::Server::Tiny] http server is ready: http://127.0.0.1:15555/ (pid:1778338, keepalive: 1)
+[HTTP::Server::Tiny] ok 1 - The object is-a 'Version'
+[HTTP::Server::Tiny] ok 2 - 
+[HTTP::Server::Tiny] ok 3 - 
+[HTTP::Server::Tiny] ok 4 - 
+[HTTP::Server::Tiny] ok 5 - 
+[HTTP::Server::Tiny] Saw 2 occurrences of deprecated code.
+[HTTP::Server::Tiny] ================================================================================
+[HTTP::Server::Tiny] Method perl (from Mu) seen at:
+[HTTP::Server::Tiny]   /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/lib/HTTP/Server/Tiny.pm6 (HTTP::Server::Tiny), line 179
+[HTTP::Server::Tiny] Please use raku instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] .pm file extension in raku library path seen at:
+[HTTP::Server::Tiny]   file#/home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AServer%3A%3ATiny%3Aver%3C0.0.2%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-Server-Tiny-master/t/lib, line 0
+[HTTP::Server::Tiny] Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+[HTTP::Server::Tiny] --------------------------------------------------------------------------------
+[HTTP::Server::Tiny] Please contact the author to have these occurrences of deprecated code
+[HTTP::Server::Tiny] adapted, so that this message will disappear!
+===> Testing [FAIL]: HTTP::Server::Tiny:ver<0.0.2>
+[HTTP::Server::Tiny] Failed to get passing tests, but continuing with --force-test
+===> Installing: HTTP::Server::Tiny:ver<0.0.2>
+===> Install [OK] for HTTP::Server::Tiny:ver<0.0.2>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 37.618s
+             CPU time consumed: 44.037s
+                   Memory peak: 1.9G (swap: 0B)

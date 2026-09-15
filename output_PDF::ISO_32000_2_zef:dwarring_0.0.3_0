@@ -1,0 +1,32 @@
+Running as unit: run-p1646446-i9956419.service; invocation ID: 71a860865793498483f91a8eb72c3568
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: PDF::ISO_32000_2
+===> Found: PDF::ISO_32000_2:ver<0.0.3>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[PDF::ISO_32000_2] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442265.1646448.4430.796904266033/daf4c59b266d840972eb1bf03c6d10b35143aa54.tar.gz https://360.zef.pm/P/DF/PDF_ISO_32000_2/daf4c59b266d840972eb1bf03c6d10b35143aa54.tar.gz
+===> Fetching [OK]: PDF::ISO_32000_2:ver<0.0.3>:auth<zef:dwarring> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442265.1646448.4430.796904266033/daf4c59b266d840972eb1bf03c6d10b35143aa54.tar.gz
+[PDF::ISO_32000_2] Command: tar -t -f ./daf4c59b266d840972eb1bf03c6d10b35143aa54.tar.gz
+[PDF::ISO_32000_2] Command: tar -xvf ./daf4c59b266d840972eb1bf03c6d10b35143aa54.tar.gz -C ../daf4c59b266d840972eb1bf03c6d10b35143aa54.tar.gz
+===> Extraction [OK]: PDF::ISO_32000_2 to /home/coke/sandbox/blin/data/zef-data/tmp/daf4c59b266d840972eb1bf03c6d10b35143aa54.tar.gz
+===> Testing: PDF::ISO_32000_2:ver<0.0.3>:auth<zef:dwarring>
+[PDF::ISO_32000_2] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/daf4c59b266d840972eb1bf03c6d10b35143aa54.tar.gz/PDF-ISO_32000_2-0.0.3 t/interface-roles.t
+[PDF::ISO_32000_2] 1..2
+[PDF::ISO_32000_2] ok 1 - interface role missing method - dies
+[PDF::ISO_32000_2] ok 2 - interface role declared method - lives
+[PDF::ISO_32000_2] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/daf4c59b266d840972eb1bf03c6d10b35143aa54.tar.gz/PDF-ISO_32000_2-0.0.3 t/resources.t
+[PDF::ISO_32000_2] 1..10
+[PDF::ISO_32000_2] Expected a modifiable native int argument for '$pos'
+[PDF::ISO_32000_2]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[PDF::ISO_32000_2]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[PDF::ISO_32000_2]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[PDF::ISO_32000_2]   in method table at /home/coke/sandbox/blin/data/zef-data/tmp/daf4c59b266d840972eb1bf03c6d10b35143aa54.tar.gz/PDF-ISO_32000_2-0.0.3/lib/PDF/ISO_32000_2.rakumod (PDF::ISO_32000_2) line 12
+[PDF::ISO_32000_2]   in block <unit> at t/resources.t line 5
+[PDF::ISO_32000_2] # You planned 10 tests, but ran 0
+===> Testing [FAIL]: PDF::ISO_32000_2:ver<0.0.3>:auth<zef:dwarring>
+[PDF::ISO_32000_2] Failed to get passing tests, but continuing with --force-test
+===> Installing: PDF::ISO_32000_2:ver<0.0.3>:auth<zef:dwarring>
+===> Install [OK] for PDF::ISO_32000_2:ver<0.0.3>:auth<zef:dwarring>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 14.780s
+             CPU time consumed: 17.351s
+                   Memory peak: 1.6G (swap: 0B)

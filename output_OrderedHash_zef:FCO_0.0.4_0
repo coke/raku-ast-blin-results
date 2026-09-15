@@ -1,0 +1,35 @@
+Running as unit: run-p1495024-i9916393.service
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: OrderedHash
+===> Found: OrderedHash:ver<0.0.4>:auth<zef:FCO> [via Zef::Repository::Ecosystems<fez>]
+[OrderedHash] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789439146.1495025.3559.6871882244154/7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz https://360.zef.pm/O/RD/ORDEREDHASH/7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz
+===> Fetching [OK]: OrderedHash:ver<0.0.4>:auth<zef:FCO> to /home/coke/sandbox/blin/data/zef-data/tmp/1789439146.1495025.3559.6871882244154/7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz
+[OrderedHash] Command: tar -t -f ./7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz
+[OrderedHash] Command: tar -xvf ./7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz -C ../7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz
+===> Extraction [OK]: OrderedHash to /home/coke/sandbox/blin/data/zef-data/tmp/7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz
+===> Testing: OrderedHash:ver<0.0.4>:auth<zef:FCO>
+[OrderedHash] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz/OrderedHash-0.0.4 t/01-basic.t
+[OrderedHash] ===SORRY!=== Error while compiling t/01-basic.t
+[OrderedHash] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz/OrderedHash-0.0.4/lib/OrderedHash.pm6 (OrderedHash)
+[OrderedHash] Can never assign default value "T" to attribute '$!of', it expects: "Mu:U"
+[OrderedHash] at /home/coke/sandbox/blin/data/zef-data/tmp/7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz/OrderedHash-0.0.4/lib/OrderedHash.pm6 (OrderedHash):2
+[OrderedHash] ------> has Mu:U    <HERE>$!of    = T;
+[OrderedHash] at t/01-basic.t:3
+[OrderedHash] ------> <BOL><HERE>use OrderedHash;
+[OrderedHash] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz/OrderedHash-0.0.4 t/02-ordered-hash.t
+[OrderedHash] ===SORRY!=== Error while compiling t/02-ordered-hash.t
+[OrderedHash] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz/OrderedHash-0.0.4/lib/OrderedHash.pm6 (OrderedHash)
+[OrderedHash] Can never assign default value "T" to attribute '$!of', it expects: "Mu:U"
+[OrderedHash] at /home/coke/sandbox/blin/data/zef-data/tmp/7b3e46ff7470898adc9cf449f08fac5b5519f7a8.tar.gz/OrderedHash-0.0.4/lib/OrderedHash.pm6 (OrderedHash):2
+[OrderedHash] ------> has Mu:U    <HERE>$!of    = T;
+[OrderedHash] at t/02-ordered-hash.t:3
+[OrderedHash] ------> <BOL><HERE>use OrderedHash;
+===> Testing [FAIL]: OrderedHash:ver<0.0.4>:auth<zef:FCO>
+[OrderedHash] Failed to get passing tests, but continuing with --force-test
+===> Installing: OrderedHash:ver<0.0.4>:auth<zef:FCO>
+===> Install [OK] for OrderedHash:ver<0.0.4>:auth<zef:FCO>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 18.719s
+             CPU time consumed: 16.915s
+                   Memory peak: 864.8M (swap: 0B)

@@ -1,0 +1,182 @@
+Running as unit: run-p2150644-i10551079.service; invocation ID: 57f9bd76fded463b818101de6024e63a
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Slangify::Tutorial
+===> Found: Slangify::Tutorial:ver<0.0.1>:auth<zef:librasteve> [via Zef::Repository::Ecosystems<fez>]
+[Slangify::Tutorial] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789462172.2150647.4191.617316970838/b5e7f20a7b0819d2ceca5d19a1f9e8a68cf25f1a.tar.gz https://360.zef.pm/S/LA/SLANGIFY_TUTORIAL/b5e7f20a7b0819d2ceca5d19a1f9e8a68cf25f1a.tar.gz
+===> Fetching [OK]: Slangify::Tutorial:ver<0.0.1>:auth<zef:librasteve> to /home/coke/sandbox/blin/data/zef-data/tmp/1789462172.2150647.4191.617316970838/b5e7f20a7b0819d2ceca5d19a1f9e8a68cf25f1a.tar.gz
+[Slangify::Tutorial] Command: tar -t -f ./b5e7f20a7b0819d2ceca5d19a1f9e8a68cf25f1a.tar.gz
+[Slangify::Tutorial] Command: tar -xvf ./b5e7f20a7b0819d2ceca5d19a1f9e8a68cf25f1a.tar.gz -C ../b5e7f20a7b0819d2ceca5d19a1f9e8a68cf25f1a.tar.gz
+===> Extraction [OK]: Slangify::Tutorial to /home/coke/sandbox/blin/data/zef-data/tmp/b5e7f20a7b0819d2ceca5d19a1f9e8a68cf25f1a.tar.gz
+===> Testing: Slangify::Tutorial:ver<0.0.1>:auth<zef:librasteve>
+[Slangify::Tutorial] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b5e7f20a7b0819d2ceca5d19a1f9e8a68cf25f1a.tar.gz/Slangify-Tutorial-0.0.1 t/01-basic.rakutest
+[Slangify::Tutorial] # Subtest: grammar parses canonical DSL line
+[Slangify::Tutorial]     ok 1 - grammar parses
+[Slangify::Tutorial]     ok 2 - name captured (quotes stripped)
+[Slangify::Tutorial]     ok 3 - party captured
+[Slangify::Tutorial]     ok 4 - time captured
+[Slangify::Tutorial]     ok 5 - restaurant captured (quotes stripped)
+[Slangify::Tutorial]     ok 6 - date captured
+[Slangify::Tutorial]     1..6
+[Slangify::Tutorial] ok 1 - grammar parses canonical DSL line
+[Slangify::Tutorial] # Subtest: name with title and last name
+[Slangify::Tutorial]     ok 1 - grammar parses
+[Slangify::Tutorial]     ok 2 - title + first + last captured
+[Slangify::Tutorial]     1..2
+[Slangify::Tutorial] ok 2 - name with title and last name
+[Slangify::Tutorial] # Subtest: name with middle name
+[Slangify::Tutorial]     ok 1 - grammar parses
+[Slangify::Tutorial]     ok 2 - first + middle + last captured
+[Slangify::Tutorial]     1..2
+[Slangify::Tutorial] ok 3 - name with middle name
+[Slangify::Tutorial] # Subtest: actions populate Booking from canonical DSL
+[Slangify::Tutorial]     ok 1 - parse succeeded
+[Slangify::Tutorial]     ok 2 - made a Booking
+[Slangify::Tutorial]     ok 3 - name
+[Slangify::Tutorial]     ok 4 - party coerced to Int
+[Slangify::Tutorial]     ok 5 - party is Int
+[Slangify::Tutorial]     ok 6 - time passes through as 24h
+[Slangify::Tutorial]     ok 7 - restaurant
+[Slangify::Tutorial]     ok 8 - date
+[Slangify::Tutorial]     1..8
+[Slangify::Tutorial] ok 4 - actions populate Booking from canonical DSL
+[Slangify::Tutorial] # Subtest: action-hash has all expected keys
+[Slangify::Tutorial]     ok 1 - name key
+[Slangify::Tutorial]     ok 2 - party key
+[Slangify::Tutorial]     ok 3 - time key
+[Slangify::Tutorial]     ok 4 - restaurant key
+[Slangify::Tutorial]     ok 5 - date key
+[Slangify::Tutorial]     1..5
+[Slangify::Tutorial] ok 5 - action-hash has all expected keys
+[Slangify::Tutorial] # Subtest: grammar rejects raw freeform text
+[Slangify::Tutorial]     ok 1 - freeform text does not parse
+[Slangify::Tutorial]     1..1
+[Slangify::Tutorial] ok 6 - grammar rejects raw freeform text
+[Slangify::Tutorial] # Subtest: various 24h times pass through unchanged
+[Slangify::Tutorial]     ok 1 - 00:00 parses
+[Slangify::Tutorial]     ok 2 - 00:00 passes through
+[Slangify::Tutorial]     ok 3 - 08:30 parses
+[Slangify::Tutorial]     ok 4 - 08:30 passes through
+[Slangify::Tutorial]     ok 5 - 12:00 parses
+[Slangify::Tutorial]     ok 6 - 12:00 passes through
+[Slangify::Tutorial]     ok 7 - 13:45 parses
+[Slangify::Tutorial]     ok 8 - 13:45 passes through
+[Slangify::Tutorial]     ok 9 - 19:30 parses
+[Slangify::Tutorial]     ok 10 - 19:30 passes through
+[Slangify::Tutorial]     ok 11 - 23:59 parses
+[Slangify::Tutorial]     ok 12 - 23:59 passes through
+[Slangify::Tutorial]     1..12
+[Slangify::Tutorial] ok 7 - various 24h times pass through unchanged
+[Slangify::Tutorial] # Subtest: multi-digit party size
+[Slangify::Tutorial]     ok 1 - parses large party
+[Slangify::Tutorial]     ok 2 - party 20
+[Slangify::Tutorial]     ok 3 - still Int
+[Slangify::Tutorial]     1..3
+[Slangify::Tutorial] ok 8 - multi-digit party size
+[Slangify::Tutorial] # Subtest: ISO date
+[Slangify::Tutorial]     ok 1 - parses ISO date
+[Slangify::Tutorial]     ok 2 - ISO date preserved
+[Slangify::Tutorial]     1..2
+[Slangify::Tutorial] ok 9 - ISO date
+[Slangify::Tutorial] # Subtest: JSON output via .raku has correct keys and types
+[Slangify::Tutorial] Expected a modifiable native int argument for '$pos'
+[Slangify::Tutorial]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Slangify::Tutorial]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Slangify::Tutorial]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Slangify::Tutorial]   in block <unit> at t/01-basic.rakutest line 106
+===> Testing [FAIL]: Slangify::Tutorial:ver<0.0.1>:auth<zef:librasteve>
+[Slangify::Tutorial] Failed to get passing tests, but continuing with --force-test
+===> Installing: Slangify::Tutorial:ver<0.0.1>:auth<zef:librasteve>
+===> Install [OK] for Slangify::Tutorial:ver<0.0.1>:auth<zef:librasteve>
+
+1 bin/ script [extract-booking] installed to:
+/home/coke/sandbox/blin/installed/Slangify::Tutorial_zef:librasteve_0.0.1_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 57.651s
+             CPU time consumed: 1min 26.331s
+                   Memory peak: 2.4G (swap: 0B)

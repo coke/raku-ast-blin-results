@@ -1,0 +1,222 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: LLM::Functions
+Running as unit: run-p1880529-i10302070.service; invocation ID: 74411072c0b245d5b734553d469a0da3
+Press ^] three times within 1s to disconnect TTY.
+===> Found: LLM::Functions:ver<0.5.10>:auth<zef:antononcube>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[LLM::Functions] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789447562.1880531.880.7504666056243/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz https://360.zef.pm/L/LM/LLM_FUNCTIONS/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz
+===> Fetching [OK]: LLM::Functions:ver<0.5.10>:auth<zef:antononcube>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789447562.1880531.880.7504666056243/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz
+[LLM::Functions] Command: tar -t -f ./6bf4cecdef73997cd656dd630b288669db917d79.tar.gz
+[LLM::Functions] Command: tar -xvf ./6bf4cecdef73997cd656dd630b288669db917d79.tar.gz -C ../6bf4cecdef73997cd656dd630b288669db917d79.tar.gz
+===> Extraction [OK]: LLM::Functions to /home/coke/sandbox/blin/data/zef-data/tmp/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz
+===> Testing: LLM::Functions:ver<0.5.10>:auth<zef:antononcube>:api<1>
+[LLM::Functions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz/dist t/01-LLM-configurations.rakutest
+[LLM::Functions] ok 1 - The object is-a 'Hash'
+[LLM::Functions] ok 2 - The object is-a 'LLM::Functions::Configuration'
+[LLM::Functions] ok 3 - 
+[LLM::Functions] ok 4 - 
+[LLM::Functions] ok 5 - 
+[LLM::Functions] ok 6 - The object is-a 'Positional'
+[LLM::Functions] ok 7 - 
+[LLM::Functions] ok 8 - 
+[LLM::Functions] ok 9 - 
+[LLM::Functions] ok 10 - 
+[LLM::Functions] # Subtest: path handling
+[LLM::Functions]     ok 1 - no path in Hash
+[LLM::Functions]     ok 2 - path in Hash
+[LLM::Functions]     1..2
+[LLM::Functions] ok 11 - path handling
+[LLM::Functions] # Subtest: get default OpenAI model
+[LLM::Functions]     ok 1 - expected model name
+[LLM::Functions]     1..1
+[LLM::Functions] ok 12 - get default OpenAI model
+[LLM::Functions] # Subtest: get default Gemini model
+[LLM::Functions]     ok 1 - expected model name
+[LLM::Functions]     1..1
+[LLM::Functions] ok 13 - get default Gemini model
+[LLM::Functions] # Subtest: get default Ollama model
+[LLM::Functions]     ok 1 - expected model name
+[LLM::Functions]     1..1
+[LLM::Functions] ok 14 - get default Ollama model
+[LLM::Functions] 1..14
+[LLM::Functions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz/dist t/02-LLM-evaluators.rakutest
+[LLM::Functions] ok 1 - 
+[LLM::Functions] ok 2 - 
+[LLM::Functions] ok 3 - 
+[LLM::Functions] ok 4 - 
+[LLM::Functions] ok 5 - 
+[LLM::Functions] ok 6 - 
+[LLM::Functions] ok 7 - 
+[LLM::Functions] ok 8 - 
+[LLM::Functions] ok 9 - 
+[LLM::Functions] ok 10 - 
+[LLM::Functions] ok 11 - 
+[LLM::Functions] ok 12 - 
+[LLM::Functions] ok 13 - 
+[LLM::Functions] ok 14 - 
+[LLM::Functions] ok 15 - Expected ChatGemini type
+[LLM::Functions] ok 16 - The object is-a 'Hash'
+[LLM::Functions] ok 17 - The object is-a 'Str'
+[LLM::Functions] ok 18 - 
+[LLM::Functions] ok 19 - Same prompt
+[LLM::Functions] ok 20 - Same configurations of evaluators with images
+[LLM::Functions] ok 21 - Same configurations with images
+[LLM::Functions] ok 22 - Same configurations with images
+[LLM::Functions] 1..22
+[LLM::Functions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz/dist t/03-cloning.rakutest
+[LLM::Functions] ok 1 - 
+[LLM::Functions] ok 2 - 
+[LLM::Functions] ok 3 - 
+[LLM::Functions] ok 4 - 
+[LLM::Functions] ok 5 - 
+[LLM::Functions] 1..5
+[LLM::Functions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz/dist t/04-LLM-chats.rakutest
+[LLM::Functions] ok 1 - 
+[LLM::Functions] ok 2 - 
+[LLM::Functions] # Subtest: cloning
+[LLM::Functions]     ok 1 - same messages
+[LLM::Functions]     ok 2 - larger number of messages after adding a new one
+[LLM::Functions]     ok 3 - same messages after cloning with re-assignment
+[LLM::Functions]     1..3
+[LLM::Functions] ok 3 - cloning
+[LLM::Functions] ok 4 - 
+[LLM::Functions] ok 5 - 
+[LLM::Functions] ok 6 - 
+[LLM::Functions] ok 7 - If the first agument matches /:i Gemini / then the LLM-evaluator is expected to be EvaluatorChatGemini
+[LLM::Functions] ok 8 - 
+[LLM::Functions] ok 9 - The evaluator object of a number oracle is EvaluatorChatGemini
+[LLM::Functions] ok 10 - 
+[LLM::Functions] 1..10
+[LLM::Functions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz/dist t/05-sub-info-extraction.rakutest
+[LLM::Functions] # Subtest: Magician duel sub
+[LLM::Functions]     ok 1 - expected type
+[LLM::Functions]     ok 2 - expected keys
+[LLM::Functions]     ok 3 - exepcted description
+[LLM::Functions]     ok 4 - parameters are given in an array
+[LLM::Functions]     ok 5 - parameters are given in an array
+[LLM::Functions]     ok 6 - expected value for the key "required"
+[LLM::Functions]     1..6
+[LLM::Functions] ok 1 - Magician duel sub
+[LLM::Functions] # Subtest: LLM tool spec
+[LLM::Functions]     ok 1 - The object is-a 'Str:D'
+[LLM::Functions]     1..1
+[LLM::Functions] ok 2 - LLM tool spec
+[LLM::Functions] 1..2
+[LLM::Functions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz/dist t/06-LLM-tooling.rakutest
+[LLM::Functions] # Subtest: Magician duel sub
+[LLM::Functions]     ok 1 - expected type
+[LLM::Functions]     ok 2 - info is retrievable
+[LLM::Functions]     ok 3 - spec is retrievable and a string
+[LLM::Functions] Expected a modifiable native int argument for '$pos'
+[LLM::Functions]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Functions]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Functions]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Functions]   in block <unit> at t/06-LLM-tooling.rakutest line 28
+[LLM::Functions] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6bf4cecdef73997cd656dd630b288669db917d79.tar.gz/dist t/07-LLM-functors-and-functions.rakutest
+[LLM::Functions] # Subtest: No-arguments functor: color palette
+[LLM::Functions]     ok 1 - The object is-a 'LLM::Function:D'
+[LLM::Functions]     1..1
+[LLM::Functions] ok 1 - No-arguments functor: color palette
+[LLM::Functions] # Subtest: Two rguments functor: GDP
+[LLM::Functions]     ok 1 - The object is-a 'LLM::Function:D'
+[LLM::Functions]     ok 2 - The object is-a 'Callable:D'
+[LLM::Functions]     1..2
+[LLM::Functions] ok 2 - Two rguments functor: GDP
+[LLM::Functions] # Subtest: Block results
+[LLM::Functions]     ok 1 - The object is-a 'Block:D'
+[LLM::Functions]     ok 2 - The object is-a 'Block:D'
+[LLM::Functions]     1..2
+[LLM::Functions] ok 3 - Block results
+[LLM::Functions] 1..3
+===> Testing [FAIL]: LLM::Functions:ver<0.5.10>:auth<zef:antononcube>:api<1>
+[LLM::Functions] Failed to get passing tests, but continuing with --force-test
+===> Installing: LLM::Functions:ver<0.5.10>:auth<zef:antononcube>:api<1>
+===> Install [OK] for LLM::Functions:ver<0.5.10>:auth<zef:antononcube>:api<1>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 41.082s
+             CPU time consumed: 2min 23.582s
+                   Memory peak: 2G (swap: 0B)

@@ -1,0 +1,199 @@
+Running as unit: run-p1671014-i10001039.service; invocation ID: d2f71b1f8ea944afaa0a8c79ddf9d64b
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: panda
+===> Found: panda:ver<2016.02> [via Zef::Repository::Ecosystems<rea>]
+[panda] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442800.1671016.8895.19981653732/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/P/panda/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz
+===> Fetching [OK]: panda:ver<2016.02> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442800.1671016.8895.19981653732/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz
+[panda] Command: tar -t -f ./panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz
+[panda] Command: tar -xvf ./panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz -C ../panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz
+===> Extraction [OK]: panda to /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz
+===> Testing: panda:ver<2016.02>
+[panda] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master t/build-hook.t
+[panda] Saw 1 occurrence of deprecated code.
+[panda] ================================================================================
+[panda] The PERL6LIB environment variable being set, support will be removed with v6.e.
+[panda] Please use RAKULIB instead.
+[panda] --------------------------------------------------------------------------------
+[panda] Please contact the author to have these occurrences of deprecated code
+[panda] adapted, so that this message will disappear!
+[panda] t/dummy.t .. 
+[panda] ok 1 - ran the test
+[panda] 1..1
+[panda] ok
+[panda] All tests successful.
+[panda] Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.52 cusr  0.04 csys =  0.58 CPU)
+[panda] Result: PASS
+[panda] ok 1 - run test
+[panda] ok 2 - run build
+[panda] ok 3 - run build
+[panda] ok 4 - and it ran the builder
+[panda] ok 5 - run test and build with a Build.pm present
+[panda] 1..5
+[panda] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master t/builder.t
+[panda] 1..2
+[panda] ok 1 - 
+[panda] ok 2 - 
+[panda] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master t/common.t
+[panda] 1..2
+[panda] ok 1 - &indir passes exceptions on
+[panda] ok 2 - indir rewinds cwd even when exceptions were thrown
+[panda] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master t/ecosystem.t
+[panda] 1..14
+[panda] Cannot parse t/fakeprojects as JSON: Expected a modifiable native int argument for '$pos'
+[panda]   in method init-projects at /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master/lib/Panda/Ecosystem.pm (Panda::Ecosystem) line 53
+[panda]   in method get-project at /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master/lib/Panda/Ecosystem.pm (Panda::Ecosystem) line 152
+[panda]   in block <unit> at t/ecosystem.t line 17
+[panda] # You planned 14 tests, but ran 0
+[panda] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master t/installer.t
+[panda] 1..8
+[panda] Copying lib/bar.pod to /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master/removeme/lib/bar.pod
+[panda] Copying lib/foo.jar to /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master/removeme/lib/foo.jar
+[panda] Copying lib/foo.pir to /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master/removeme/lib/foo.pir
+[panda] Copying lib/foo.pm to /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master/removeme/lib/foo.pm
+[panda] Copying lib/baz.js to /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master/removeme/lib/baz.js
+[panda] Copying lib/foo.moarvm to /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master/removeme/lib/foo.moarvm
+[panda] Copying bin/bar to /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master/removeme/bin/bar
+[panda] ok 1 - 
+[panda] ok 2 - module installed
+[panda] ok 3 - moarvm installed
+[panda] ok 4 - pod installed
+[panda] ok 5 - random files installed
+[panda] ok 6 - bin installed
+[panda] ok 7 - git files not copied
+[panda] ok 8 - moarvms will get installed after rest of the things
+[panda] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/panda%3Aver%3C2016.02%3E%3Aauth%3Cgithub%3Atadzik%3E.tar.gz/panda-master t/tester.t
+[panda] 1..2
+[panda] Saw 1 occurrence of deprecated code.
+[panda] ================================================================================
+[panda] The PERL6LIB environment variable being set, support will be removed with v6.e.
+[panda] Please use RAKULIB instead.
+[panda] --------------------------------------------------------------------------------
+[panda] Please contact the author to have these occurrences of deprecated code
+[panda] adapted, so that this message will disappear!
+[panda] t/win.t .. 
+[panda] 1..1
+[panda] ok 1 - 
+[panda] ok
+[panda] All tests successful.
+[panda] Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.46 cusr  0.04 csys =  0.52 CPU)
+[panda] Result: PASS
+[panda] ok 1 - what should pass, passes
+[panda] # Failed test at t/fail.t line 3
+[panda] # You failed 1 test of 1
+[panda] Saw 1 occurrence of deprecated code.
+[panda] ================================================================================
+[panda] The PERL6LIB environment variable being set, support will be removed with v6.e.
+[panda] Please use RAKULIB instead.
+[panda] --------------------------------------------------------------------------------
+[panda] Please contact the author to have these occurrences of deprecated code
+[panda] adapted, so that this message will disappear!
+[panda] t/fail.t .. 
+[panda] 1..1
+[panda] not ok 1 - 
+[panda] Dubious, test returned 1 (wstat 256, 0x100)
+[panda] Failed 1/1 subtests 
+[panda] Test Summary Report
+[panda] -------------------
+[panda] t/fail.t (Wstat: 256 (exited 1) Tests: 1 Failed: 1)
+[panda]   Failed test:  1
+[panda]   Non-zero exit status: 1
+[panda] Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.46 cusr  0.03 csys =  0.51 CPU)
+[panda] Result: FAIL
+[panda] ok 2 - what should fail, fails
+===> Testing [FAIL]: panda:ver<2016.02>
+[panda] Failed to get passing tests, but continuing with --force-test
+===> Installing: panda:ver<2016.02>
+===> Install [OK] for panda:ver<2016.02>
+
+6 bin/ scripts [panda panda-cpanize panda-install panda-build panda-fetch panda-test] installed to:
+/home/coke/sandbox/blin/installed/panda__2016.02_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 30.331s
+             CPU time consumed: 36.718s
+                   Memory peak: 1.7G (swap: 0B)

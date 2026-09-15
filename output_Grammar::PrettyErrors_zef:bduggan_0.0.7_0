@@ -1,0 +1,61 @@
+Running as unit: run-p1565038-i10011168.service; invocation ID: bf7a47f3059b4db3afdf30cf435ed3ab
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Grammar::PrettyErrors
+===> Found: Grammar::PrettyErrors:ver<0.0.7>:auth<zef:bduggan> [via Zef::Repository::Ecosystems<fez>]
+[Grammar::PrettyErrors] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789440586.1565041.2700.628702701099/5573063b120ae1164bdc5798dbb969130375916f.tar.gz https://360.zef.pm/G/RA/GRAMMAR_PRETTYERRORS/5573063b120ae1164bdc5798dbb969130375916f.tar.gz
+===> Fetching [OK]: Grammar::PrettyErrors:ver<0.0.7>:auth<zef:bduggan> to /home/coke/sandbox/blin/data/zef-data/tmp/1789440586.1565041.2700.628702701099/5573063b120ae1164bdc5798dbb969130375916f.tar.gz
+[Grammar::PrettyErrors] Command: tar -t -f ./5573063b120ae1164bdc5798dbb969130375916f.tar.gz
+[Grammar::PrettyErrors] Command: tar -xvf ./5573063b120ae1164bdc5798dbb969130375916f.tar.gz -C ../5573063b120ae1164bdc5798dbb969130375916f.tar.gz
+===> Extraction [OK]: Grammar::PrettyErrors to /home/coke/sandbox/blin/data/zef-data/tmp/5573063b120ae1164bdc5798dbb969130375916f.tar.gz
+===> Testing: Grammar::PrettyErrors:ver<0.0.7>:auth<zef:bduggan>
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5573063b120ae1164bdc5798dbb969130375916f.tar.gz/Grammar-PrettyErrors-0.0.7 t/00-basic.rakutest
+[Grammar::PrettyErrors] 1..1
+[Grammar::PrettyErrors] not ok 1 - Grammar::PrettyErrors module can be use-d ok
+[Grammar::PrettyErrors] # Failed test 'Grammar::PrettyErrors module can be use-d ok'
+[Grammar::PrettyErrors] # at t/00-basic.rakutest line 6
+[Grammar::PrettyErrors] # ===SORRY!===
+[Grammar::PrettyErrors] # Object does not exist in serialization context
+[Grammar::PrettyErrors] # 
+[Grammar::PrettyErrors] # You failed 1 test of 1
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5573063b120ae1164bdc5798dbb969130375916f.tar.gz/Grammar-PrettyErrors-0.0.7 t/01-has-ws.rakutest
+[Grammar::PrettyErrors] ===SORRY!=== Error while compiling t/01-has-ws.rakutest
+[Grammar::PrettyErrors] ===SORRY!===
+[Grammar::PrettyErrors] Object does not exist in serialization context
+[Grammar::PrettyErrors] at t/01-has-ws.rakutest:3
+[Grammar::PrettyErrors] ------> <BOL><HERE>use Grammar::PrettyErrors;
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5573063b120ae1164bdc5798dbb969130375916f.tar.gz/Grammar-PrettyErrors-0.0.7 t/02-no-ws.rakutest
+[Grammar::PrettyErrors] ===SORRY!=== Error while compiling t/02-no-ws.rakutest
+[Grammar::PrettyErrors] ===SORRY!===
+[Grammar::PrettyErrors] Object does not exist in serialization context
+[Grammar::PrettyErrors] at t/02-no-ws.rakutest:3
+[Grammar::PrettyErrors] ------> <BOL><HERE>use Grammar::PrettyErrors;
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5573063b120ae1164bdc5798dbb969130375916f.tar.gz/Grammar-PrettyErrors-0.0.7 t/03-example.rakutest
+[Grammar::PrettyErrors] ===SORRY!=== Error while compiling t/03-example.rakutest
+[Grammar::PrettyErrors] ===SORRY!===
+[Grammar::PrettyErrors] Object does not exist in serialization context
+[Grammar::PrettyErrors] at t/03-example.rakutest:4
+[Grammar::PrettyErrors] ------> <BOL><HERE>use Grammar::PrettyErrors;
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5573063b120ae1164bdc5798dbb969130375916f.tar.gz/Grammar-PrettyErrors-0.0.7 t/04-context.rakutest
+[Grammar::PrettyErrors] ===SORRY!=== Error while compiling t/04-context.rakutest
+[Grammar::PrettyErrors] ===SORRY!===
+[Grammar::PrettyErrors] Object does not exist in serialization context
+[Grammar::PrettyErrors] at t/04-context.rakutest:4
+[Grammar::PrettyErrors] ------> <BOL><HERE>use Grammar::PrettyErrors;
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5573063b120ae1164bdc5798dbb969130375916f.tar.gz/Grammar-PrettyErrors-0.0.7 t/05-custom-ws.rakutest
+[Grammar::PrettyErrors] ===SORRY!=== Error while compiling t/05-custom-ws.rakutest
+[Grammar::PrettyErrors] ===SORRY!===
+[Grammar::PrettyErrors] Object does not exist in serialization context
+[Grammar::PrettyErrors] at t/05-custom-ws.rakutest:3
+[Grammar::PrettyErrors] ------> <BOL><HERE>use Grammar::PrettyErrors;
+[Grammar::PrettyErrors] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5573063b120ae1164bdc5798dbb969130375916f.tar.gz/Grammar-PrettyErrors-0.0.7 t/99-meta.rakutest
+[Grammar::PrettyErrors] 1..1
+[Grammar::PrettyErrors] ok 1 - # SKIP Skipping author test
+===> Testing [FAIL]: Grammar::PrettyErrors:ver<0.0.7>:auth<zef:bduggan>
+[Grammar::PrettyErrors] Failed to get passing tests, but continuing with --force-test
+===> Installing: Grammar::PrettyErrors:ver<0.0.7>:auth<zef:bduggan>
+===> Install [OK] for Grammar::PrettyErrors:ver<0.0.7>:auth<zef:bduggan>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 20.336s
+             CPU time consumed: 25.352s
+                   Memory peak: 1G (swap: 0B)

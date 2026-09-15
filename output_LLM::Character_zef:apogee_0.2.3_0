@@ -1,0 +1,338 @@
+Running as unit: run-p2423019-i10867769.service; invocation ID: 418503d05ef847feb2f53c73614c42cb
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: LLM::Character
+===> Found: LLM::Character:ver<0.2.3>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[LLM::Character] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789468990.2423020.8521.050922703758/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz https://360.zef.pm/L/LM/LLM_CHARACTER/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz
+===> Fetching [OK]: LLM::Character:ver<0.2.3>:auth<zef:apogee> to /home/coke/sandbox/blin/data/zef-data/tmp/1789468990.2423020.8521.050922703758/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz
+[LLM::Character] Command: tar -t -f ./f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz
+[LLM::Character] Command: tar -xvf ./f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz -C ../f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz
+===> Extraction [OK]: LLM::Character to /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz
+===> Testing: LLM::Character:ver<0.2.3>:auth<zef:apogee>
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/01-basic.rakutest
+[LLM::Character] ok 1 - replace me
+[LLM::Character] 1..1
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/02-minimal_lorebook.rakutest
+[LLM::Character] 1..29
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-lorebook-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 17
+[LLM::Character]   in block <unit> at t/02-minimal_lorebook.rakutest line 10
+[LLM::Character] # You planned 29 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/03-all_fields_lorebook.rakutest
+[LLM::Character] 1..49
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-lorebook-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 17
+[LLM::Character]   in block <unit> at t/03-all_fields_lorebook.rakutest line 10
+[LLM::Character] # You planned 49 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/04-enclosed_minimal_lorebook.rakutest
+[LLM::Character] 1..29
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-lorebook-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 17
+[LLM::Character]   in block <unit> at t/04-enclosed_minimal_lorebook.rakutest line 10
+[LLM::Character] # You planned 29 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/05-enclosed_all_fields_lorebook.rakutest
+[LLM::Character] 1..49
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-lorebook-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 17
+[LLM::Character]   in block <unit> at t/05-enclosed_all_fields_lorebook.rakutest line 10
+[LLM::Character] # You planned 49 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/06-st_lorebook.rakutest
+[LLM::Character] 1..79
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-lorebook-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 17
+[LLM::Character]   in block <unit> at t/06-st_lorebook.rakutest line 10
+[LLM::Character] # You planned 79 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/07-character_enclosed.rakutest
+[LLM::Character] 1..5
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-character-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 11
+[LLM::Character]   in block <unit> at t/07-character_enclosed.rakutest line 8
+[LLM::Character] # You planned 5 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/08-character_flat.rakutest
+[LLM::Character] 1..3
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-character-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 11
+[LLM::Character]   in block <unit> at t/08-character_flat.rakutest line 8
+[LLM::Character] # You planned 3 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/09-character_with_book.rakutest
+[LLM::Character] 1..5
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-character-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 11
+[LLM::Character]   in block <unit> at t/09-character_with_book.rakutest line 8
+[LLM::Character] # You planned 5 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/10-main.rakutest
+[LLM::Character] 1..10
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-lorebook-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 17
+[LLM::Character]   in method import-lorebook at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character.rakumod (LLM::Character) line 36
+[LLM::Character]   in block <unit> at t/10-main.rakutest line 10
+[LLM::Character] # You planned 10 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/11-matcher-construction.rakutest
+[LLM::Character] 1..2
+[LLM::Character] # Subtest: Basic trie building
+[LLM::Character]     ok 1 - Root has 'f' child
+[LLM::Character]     ok 2 - 'f' node has 'o' child
+[LLM::Character]     ok 3 - 'f'→'o' has 'o' child
+[LLM::Character]     ok 4 - 'f'→'o' has 'a' child
+[LLM::Character]     ok 5 - 'foo' terminal node has one output
+[LLM::Character]     ok 6 - 'foo' entry output is correct
+[LLM::Character]     ok 7 - 'foal' entry output is correct
+[LLM::Character]     1..7
+[LLM::Character] ok 1 - Basic trie building
+[LLM::Character] # Subtest: Regex and constant handling
+[LLM::Character]     ok 1 - Constant entries list has 1
+[LLM::Character]     ok 2 - Constant entry uuid matches
+[LLM::Character]     ok 3 - Regex entries list has 2
+[LLM::Character]     ok 4 - Regex entry uuid matches
+[LLM::Character]     ok 5 - Regex was compiled
+[LLM::Character]     not ok 6 - Regex matches
+[LLM::Character]     # Failed test 'Regex matches'
+[LLM::Character]     # at t/11-matcher-construction.rakutest line 57
+[LLM::Character]     ok 7 - Regex with flags entry uuid matches
+[LLM::Character]     ok 8 - Regex with flags was compiled
+[LLM::Character]     not ok 9 - Regex with flags is case-insensitive
+[LLM::Character]     1..9
+[LLM::Character]     # Failed test 'Regex with flags is case-insensitive'
+[LLM::Character]     # at t/11-matcher-construction.rakutest line 61
+[LLM::Character]     # You failed 2 tests of 9
+[LLM::Character] not ok 2 - Regex and constant handling
+[LLM::Character] # Failed test 'Regex and constant handling'
+[LLM::Character] # at t/11-matcher-construction.rakutest line 39
+[LLM::Character] # You failed 1 test of 2
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/12-matching.rakutest
+[LLM::Character] 1..12
+[LLM::Character] # Subtest: Single keyword match
+[LLM::Character]     ok 1 - Single match
+[LLM::Character]     ok 2 - UUID correct
+[LLM::Character]     1..2
+[LLM::Character] ok 1 - Single keyword match
+[LLM::Character] # Subtest: Multiple keywords, one pass
+[LLM::Character]     ok 1 - Both matches found
+[LLM::Character]     1..1
+[LLM::Character] ok 2 - Multiple keywords, one pass
+[LLM::Character] # Subtest: Case-insensitive key matches any case
+[LLM::Character]     ok 1 - Insensitive match (all upper)
+[LLM::Character]     ok 2 - Insensitive match (mixed)
+[LLM::Character]     ok 3 - No match on unrelated word
+[LLM::Character]     1..3
+[LLM::Character] ok 3 - Case-insensitive key matches any case
+[LLM::Character] # Subtest: Regex entry matches and respects flags
+[LLM::Character]     not ok 1 - Regex matches start of line
+[LLM::Character]     # Failed test 'Regex matches start of line'
+[LLM::Character]     # at t/12-matching.rakutest line 41
+[LLM::Character]     not ok 2 - Regex with /i matches
+[LLM::Character]     # Failed test 'Regex with /i matches'
+[LLM::Character]     # at t/12-matching.rakutest line 42
+[LLM::Character]     ok 3 - No regex match on non-bar/baz
+[LLM::Character]     1..3
+[LLM::Character]     # You failed 2 tests of 3
+[LLM::Character] not ok 4 - Regex entry matches and respects flags
+[LLM::Character] # Failed test 'Regex entry matches and respects flags'
+[LLM::Character] # at t/12-matching.rakutest line 37
+[LLM::Character] # Subtest: Constant entries always included
+[LLM::Character]     ok 1 - Only constant present when no match
+[LLM::Character]     ok 2 - Constant plus normal match
+[LLM::Character]     1..2
+[LLM::Character] ok 5 - Constant entries always included
+[LLM::Character] # Subtest: Selective entry: needs primary & secondary
+[LLM::Character]     ok 1 - Both keys present (fires)
+[LLM::Character]     ok 2 - Only primary, not selective
+[LLM::Character]     ok 3 - Only selective, not primary
+[LLM::Character]     1..3
+[LLM::Character] ok 6 - Selective entry: needs primary & secondary
+[LLM::Character] # Subtest: exclude_recursion: only pass 0
+[LLM::Character]     ok 1 - Matches on pass 0
+[LLM::Character]     ok 2 - Correct entry
+[LLM::Character]     1..2
+[LLM::Character] ok 7 - exclude_recursion: only pass 0
+[LLM::Character] # Subtest: delay_until_recursion: only pass > 0
+[LLM::Character]     ok 1 - delay_until_recursion only fires after pass 0
+[LLM::Character]     1..1
+[LLM::Character] ok 8 - delay_until_recursion: only pass > 0
+[LLM::Character] # Subtest: prevent_recursion: no content added for recursion
+[LLM::Character]     ok 1 - Second entry not matched due to prevent_recursion
+[LLM::Character]     1..1
+[LLM::Character] ok 9 - prevent_recursion: no content added for recursion
+[LLM::Character] # Subtest: Recursive matching up to scan_depth
+[LLM::Character]     ok 1 - All found through recursive scan
+[LLM::Character]     1..1
+[LLM::Character] ok 10 - Recursive matching up to scan_depth
+[LLM::Character] # Subtest: No duplicate matches
+[LLM::Character]     ok 1 - Entry matched only once
+[LLM::Character]     1..1
+[LLM::Character] ok 11 - No duplicate matches
+[LLM::Character] # Subtest: Edge cases
+[LLM::Character]     ok 1 - No match on empty haystack
+[LLM::Character]     ok 2 - No match on empty keys
+[LLM::Character]     ok 3 - No match if not enabled
+[LLM::Character]     ok 4 - Both 'foo' and 'food' matched
+[LLM::Character]     1..4
+[LLM::Character] ok 12 - Edge cases
+[LLM::Character] # You failed 1 test of 12
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/13-export_character_json.rakutest
+[LLM::Character] 1..25
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-character-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 11
+[LLM::Character]   in block <unit> at t/13-export_character_json.rakutest line 12
+[LLM::Character] # You planned 25 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/14-export_lorebook_json.rakutest
+[LLM::Character] 1..27
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-lorebook-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 17
+[LLM::Character]   in block <unit> at t/14-export_lorebook_json.rakutest line 12
+[LLM::Character] # You planned 27 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/15-export_lorebook_st.rakutest
+[LLM::Character] 1..22
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-lorebook-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 17
+[LLM::Character]   in block <unit> at t/15-export_lorebook_st.rakutest line 12
+[LLM::Character] # You planned 22 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/16-export_character_png.rakutest
+[LLM::Character] 1..9
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-character-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 11
+[LLM::Character]   in block <unit> at t/16-export_character_png.rakutest line 11
+[LLM::Character] # You planned 9 tests, but ran 0
+[LLM::Character] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3 t/17-export_main.rakutest
+[LLM::Character] 1..15
+[LLM::Character] Expected a modifiable native int argument for '$pos'
+[LLM::Character]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LLM::Character]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LLM::Character]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LLM::Character]   in sub import-character-json at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character/IO/Import.rakumod (LLM::Character::IO::Import) line 11
+[LLM::Character]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character.rakumod (LLM::Character) line 16
+[LLM::Character]   in method import-character at /home/coke/sandbox/blin/data/zef-data/tmp/f594ebd569812d0ed2cd94f07155aef37438c3b9.tar.gz/LLM-Character-0.2.3/lib/LLM/Character.rakumod (LLM::Character) line 14
+[LLM::Character]   in block <unit> at t/17-export_main.rakutest line 12
+[LLM::Character] # You planned 15 tests, but ran 0
+===> Testing [FAIL]: LLM::Character:ver<0.2.3>:auth<zef:apogee>
+[LLM::Character] Failed to get passing tests, but continuing with --force-test
+===> Installing: LLM::Character:ver<0.2.3>:auth<zef:apogee>
+===> Install [OK] for LLM::Character:ver<0.2.3>:auth<zef:apogee>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 21.383s
+             CPU time consumed: 30.629s
+                   Memory peak: 1.7G (swap: 0B)

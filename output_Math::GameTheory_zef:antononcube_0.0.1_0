@@ -1,0 +1,120 @@
+Running as unit: run-p1686543-i10082776.service; invocation ID: 7b6e8bd74bf94270a9e558d901a8a06f
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Math::GameTheory
+===> Found: Math::GameTheory:ver<0.0.1>:auth<zef:antononcube> [via Zef::Repository::Ecosystems<fez>]
+[Math::GameTheory] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789443150.1686548.1043.9637147497128/23ed442a69948983a77f85804e888f5afc62b1be.tar.gz https://360.zef.pm/M/AT/MATH_GAMETHEORY/23ed442a69948983a77f85804e888f5afc62b1be.tar.gz
+===> Fetching [OK]: Math::GameTheory:ver<0.0.1>:auth<zef:antononcube> to /home/coke/sandbox/blin/data/zef-data/tmp/1789443150.1686548.1043.9637147497128/23ed442a69948983a77f85804e888f5afc62b1be.tar.gz
+[Math::GameTheory] Command: tar -t -f ./23ed442a69948983a77f85804e888f5afc62b1be.tar.gz
+[Math::GameTheory] Command: tar -xvf ./23ed442a69948983a77f85804e888f5afc62b1be.tar.gz -C ../23ed442a69948983a77f85804e888f5afc62b1be.tar.gz
+===> Extraction [OK]: Math::GameTheory to /home/coke/sandbox/blin/data/zef-data/tmp/23ed442a69948983a77f85804e888f5afc62b1be.tar.gz
+===> Testing: Math::GameTheory:ver<0.0.1>:auth<zef:antononcube>
+[Math::GameTheory] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23ed442a69948983a77f85804e888f5afc62b1be.tar.gz/dist t/00-sanity.rakutest
+[Math::GameTheory] Expected a modifiable native int argument for '$pos'
+[Math::GameTheory]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Math::GameTheory]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Math::GameTheory]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Math::GameTheory]   in sub get-game-data at /home/coke/sandbox/blin/data/zef-data/tmp/23ed442a69948983a77f85804e888f5afc62b1be.tar.gz/dist/lib/Math/GameTheory.rakumod (Math::GameTheory) line 16
+[Math::GameTheory]   in sub game-theory-data at /home/coke/sandbox/blin/data/zef-data/tmp/23ed442a69948983a77f85804e888f5afc62b1be.tar.gz/dist/lib/Math/GameTheory.rakumod (Math::GameTheory) line 23
+[Math::GameTheory]   in block <unit> at t/00-sanity.rakutest line 8
+[Math::GameTheory] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/23ed442a69948983a77f85804e888f5afc62b1be.tar.gz/dist t/01-matrix-game-construction.rakutest
+[Math::GameTheory] ok 1 - name is accepted by the constructor
+[Math::GameTheory] ok 2 - game-player-labels are stored
+[Math::GameTheory] ok 3 - game-action-labels are stored
+[Math::GameTheory] ok 4 - component-payoff-array works with layer-derived player labels
+[Math::GameTheory] ok 5 - component-payoff-array works with layer-derived player labels
+[Math::GameTheory] ok 6 - min-max-payoffs works for the 3-player constructor example
+[Math::GameTheory] 1..6
+===> Testing [FAIL]: Math::GameTheory:ver<0.0.1>:auth<zef:antononcube>
+[Math::GameTheory] Failed to get passing tests, but continuing with --force-test
+===> Installing: Math::GameTheory:ver<0.0.1>:auth<zef:antononcube>
+===> Install [OK] for Math::GameTheory:ver<0.0.1>:auth<zef:antononcube>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 19.136s
+             CPU time consumed: 25.480s
+                   Memory peak: 1.5G (swap: 0B)

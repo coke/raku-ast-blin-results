@@ -1,0 +1,167 @@
+Running as unit: run-p2336199-i10714859.service; invocation ID: 9885746c4dc0420f80453c9506b888e7
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: JSON::GLib::Node
+===> Found: JSON::GLib::Node:ver<0.0.1>:auth<cpan:CBWOOD> [via Zef::Repository::Ecosystems<rea>]
+[JSON::GLib::Node] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789466681.2336200.7151.47975270406/JSON%3A%3AGLib%3A%3ANode%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ACBWOOD%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/J/JSON%3A%3AGLib%3A%3ANode/JSON%3A%3AGLib%3A%3ANode%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ACBWOOD%3E.tar.gz
+===> Fetching [OK]: JSON::GLib::Node:ver<0.0.1>:auth<cpan:CBWOOD> to /home/coke/sandbox/blin/data/zef-data/tmp/1789466681.2336200.7151.47975270406/JSON%3A%3AGLib%3A%3ANode%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ACBWOOD%3E.tar.gz
+[JSON::GLib::Node] Command: tar -t -f ./JSON%3A%3AGLib%3A%3ANode%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ACBWOOD%3E.tar.gz
+[JSON::GLib::Node] Command: tar -xvf ./JSON%3A%3AGLib%3A%3ANode%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ACBWOOD%3E.tar.gz -C ../JSON%3A%3AGLib%3A%3ANode%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ACBWOOD%3E.tar.gz
+===> Extraction [OK]: JSON::GLib::Node to /home/coke/sandbox/blin/data/zef-data/tmp/JSON%3A%3AGLib%3A%3ANode%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ACBWOOD%3E.tar.gz
+===> Testing: JSON::GLib::Node:ver<0.0.1>
+[JSON::GLib::Node] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/JSON%3A%3AGLib%3A%3ANode%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ACBWOOD%3E.tar.gz/JSON-GLib-Node-0.0.1 t/01-basic.t
+[JSON::GLib::Node] ===SORRY!=== Error while compiling t/01-basic.t
+[JSON::GLib::Node] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/JSON%3A%3AGLib%3A%3ANode%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ACBWOOD%3E.tar.gz/JSON-GLib-Node-0.0.1/lib/JSON/GLib/Array.pm6 (JSON::GLib::Array)
+[JSON::GLib::Node] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/0C336C09131938C526DC4C924AD2A0CDE35A600C (GLib::GList)
+[JSON::GLib::Node] Potential difficulties:
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):870
+[JSON::GLib::Node]     ------>                #= G_REGEX_MATCH_PARTIAL,<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):865
+[JSON::GLib::Node]     ------> H_NEWLINE_CR | G_REGEX_MATCH_NEWLINE_LF,<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):867
+[JSON::GLib::Node]     ------> _NEWLINE_CR | G_REGEX_MATCH_NEWLINE_ANY,<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):891
+[JSON::GLib::Node]     ------> G_REGEX_NEWLINE_CR | G_REGEX_NEWLINE_LF,<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):892
+[JSON::GLib::Node]     ------>  +< 22, #= G_REGEX_NEWLINE_CR | 1 << 22,<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):920
+[JSON::GLib::Node]     ------> G_LOG_FLAG_RECURSION | G_LOG_FLAG_FATAL)<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):913
+[JSON::GLib::Node]     ------>         => 1 +< 2,       #= always fatal<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):933
+[JSON::GLib::Node]     ------> _MAX_RESULT',        #= s:blurb d:result<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):934
+[JSON::GLib::Node]     ------> _TEST_LOG_MESSAGE',           #= s:blurb<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):926
+[JSON::GLib::Node]     ------> 'G_TEST_LOG_ERROR',             #= s:msg<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):930
+[JSON::GLib::Node]     ------> ST_LOG_START_CASE',        #= s:testpath<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):927
+[JSON::GLib::Node]     ------> ART_BINARY',      #= s:binaryname s:seed<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):929
+[JSON::GLib::Node]     ------> ST_LOG_SKIP_CASE',         #= s:testpath<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):931
+[JSON::GLib::Node]     ------> ,         #= d:status d:nforks d:elapsed<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):932
+[JSON::GLib::Node]     ------> _MIN_RESULT',        #= s:blurb d:result<HERE><EOL>
+[JSON::GLib::Node]     Missing declarand for trailing declarator doc
+[JSON::GLib::Node]     at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/8A8263741B354370F4373FEC279A2C8B2B77BBA2 (GLib::Raw::Enums):928
+[JSON::GLib::Node]     ------> ST_LOG_LIST_CASE',         #= s:testpath<HERE><EOL>
+[JSON::GLib::Node] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/3E6796E3681A9E7317502A97903E4856F1C3F0B1 (GLib::Raw::Exceptions)
+[JSON::GLib::Node] Can only use : as invocant marker in a signature after the first parameter
+[JSON::GLib::Node] at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/3E6796E3681A9E7317502A97903E4856F1C3F0B1 (GLib::Raw::Exceptions):133
+[JSON::GLib::Node] ------>   method new (<HERE> :
+[JSON::GLib::Node] at /home/coke/sandbox/blin/installed/GLib_cpan:CBWOOD_0.0.11_0/sources/0C336C09131938C526DC4C924AD2A0CDE35A600C (GLib::GList):6
+[JSON::GLib::Node] ------> <BOL><HERE>use GLib::Raw::Types;
+[JSON::GLib::Node] at /home/coke/sandbox/blin/data/zef-data/tmp/JSON%3A%3AGLib%3A%3ANode%3Aver%3C0.0.1%3E%3Aauth%3Ccpan%3ACBWOOD%3E.tar.gz/JSON-GLib-Node-0.0.1/lib/JSON/GLib/Array.pm6 (JSON::GLib::Array):7
+[JSON::GLib::Node] ------> <BOL><HERE>use GLib::GList;
+[JSON::GLib::Node] at t/01-basic.t:7
+[JSON::GLib::Node] ------> lives-ok { <HERE>use JSON::GLib::Array       }, 'JSON::GL
+===> Testing [FAIL]: JSON::GLib::Node:ver<0.0.1>
+[JSON::GLib::Node] Failed to get passing tests, but continuing with --force-test
+===> Installing: JSON::GLib::Node:ver<0.0.1>
+===> Install [OK] for JSON::GLib::Node:ver<0.0.1>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 24.689s
+             CPU time consumed: 30.990s
+                   Memory peak: 2.4G (swap: 0B)

@@ -1,0 +1,502 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: App::Tasks
+===> Found: App::Tasks:ver<0.4.0>:auth<zef:jmaslak> [via Zef::Repository::Ecosystems<fez>]
+[App::Tasks] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789461490.2122259.607.4631032210898/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz https://360.zef.pm/A/PP/APP_TASKS/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz
+Running as unit: run-p2122257-i10569447.service; invocation ID: 8c31526c9fe34b94806d0130e87b6dc9
+Press ^] three times within 1s to disconnect TTY.
+===> Fetching [OK]: App::Tasks:ver<0.4.0>:auth<zef:jmaslak> to /home/coke/sandbox/blin/data/zef-data/tmp/1789461490.2122259.607.4631032210898/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz
+[App::Tasks] Command: tar -t -f ./67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz
+[App::Tasks] Command: tar -xvf ./67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz -C ../67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz
+===> Extraction [OK]: App::Tasks to /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz
+===> Testing: App::Tasks:ver<0.4.0>:auth<zef:jmaslak>
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/01-basic.t
+[App::Tasks] CWD: /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0
+[App::Tasks] ok 1 - Initialized class
+[App::Tasks] ok 2 - Data directory matches
+[App::Tasks] ok 3 - Data directory exists
+[App::Tasks] ok 4 - Lock count is 0
+[App::Tasks] ok 5 - Proper number of tasks
+[App::Tasks] ok 6 - Lock count is 0
+[App::Tasks] ok 7 - Proper next sequence
+[App::Tasks] ok 8 - Lock count is 0
+[App::Tasks] ok 9 - Current working directory unchanged
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 1
+[App::Tasks] ok 10 - Added new task
+[App::Tasks] 1..10
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/10-config.t
+[App::Tasks] # Subtest: basic-dark
+[App::Tasks]     ok 1 - Initialized class
+[App::Tasks]     ok 2 - Body color is proper
+[App::Tasks]     ok 3 - Immature task color is proper
+[App::Tasks]     1..3
+[App::Tasks] ok 1 - basic-dark
+[App::Tasks] # Subtest: basic-light
+[App::Tasks]     ok 1 - Initialized class
+[App::Tasks]     ok 2 - Body color is proper
+[App::Tasks]     1..2
+[App::Tasks] ok 2 - basic-light
+[App::Tasks] # Subtest: basic-none
+[App::Tasks]     ok 1 - Initialized class
+[App::Tasks]     ok 2 - Body color is proper
+[App::Tasks]     1..2
+[App::Tasks] ok 3 - basic-none
+[App::Tasks] # Subtest: empty
+[App::Tasks]     ok 1 - Initialized class
+[App::Tasks]     ok 2 - Body color is proper
+[App::Tasks]     1..2
+[App::Tasks] ok 4 - empty
+[App::Tasks] # Subtest: none
+[App::Tasks]     ok 1 - Initialized class
+[App::Tasks]     ok 2 - Body color is proper
+[App::Tasks]     ok 3 - No ignore tags present
+[App::Tasks]     1..3
+[App::Tasks] ok 5 - none
+[App::Tasks] # Subtest: editor-pager
+[App::Tasks]     ok 1 - pager command
+[App::Tasks]     ok 2 - prompt command
+[App::Tasks]     1..2
+[App::Tasks] ok 6 - editor-pager
+[App::Tasks] # Subtest: ignore-tags
+[App::Tasks]     ok 1 - Initialized class
+[App::Tasks]     ok 2 - ignore tags as expected
+[App::Tasks]     1..2
+[App::Tasks] ok 7 - ignore-tags
+[App::Tasks] # Subtest: display-time
+[App::Tasks]     ok 1 - Initialized class
+[App::Tasks]     ok 2 - Do not display time
+[App::Tasks]     ok 3 - Initialized class
+[App::Tasks]     ok 4 - Do display time
+[App::Tasks]     ok 5 - Initialized class
+[App::Tasks]     ok 6 - Do display time (default)
+[App::Tasks]     1..6
+[App::Tasks] ok 8 - display-time
+[App::Tasks] # Subtest: trello
+[App::Tasks]     ok 1 - Initialized class
+[App::Tasks]     ok 2 - Trello API key set
+[App::Tasks]     ok 3 - Trello token set
+[App::Tasks]     ok 4 - Board+list tag set
+[App::Tasks]     ok 5 - Initialized class
+[App::Tasks]     ok 6 - Trello API key not set
+[App::Tasks]     ok 7 - Trello token not set
+[App::Tasks]     ok 8 - Trello tasks not set
+[App::Tasks]     1..8
+[App::Tasks] ok 9 - trello
+[App::Tasks] # Subtest: trello-secret
+[App::Tasks]     ok 1 - Initialized class
+[App::Tasks]     ok 2 - Do display time
+[App::Tasks]     ok 3 - Trello API key set
+[App::Tasks]     ok 4 - Trello token set
+[App::Tasks]     1..4
+[App::Tasks] ok 10 - trello-secret
+[App::Tasks] 1..10
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/20-retitle.t
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 1
+[App::Tasks] ok 1 - Added new task
+[App::Tasks] ok 2 - Proper number of tasks exist
+[App::Tasks] ok 3 - Proper subject line
+[App::Tasks] ok 4 - No notes found
+[App::Tasks] ok 5 - Proper number of tasks exist
+[App::Tasks] ok 6 - Proper (updated) subject line
+[App::Tasks] ok 7 - One note found
+[App::Tasks] ok 8 - Note is correct
+[App::Tasks] ok 9 - Lock count is 0
+[App::Tasks] 1..9
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/21-move.t
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 1
+[App::Tasks] ok 1 - Added new task
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 2
+[App::Tasks] ok 2 - Added new task
+[App::Tasks] ok 3 - Proper number of tasks exist (A)
+[App::Tasks] ok 4 - Proper subject line (1)
+[App::Tasks] ok 5 - Proper subject line (2)
+[App::Tasks] ok 6 - Proper number (A1)
+[App::Tasks] ok 7 - Proper Number (A2)
+[App::Tasks] ok 8 - Proper number of tasks exist (B)
+[App::Tasks] ok 9 - Proper subject line (3)
+[App::Tasks] ok 10 - Proper subject line (4)
+[App::Tasks] ok 11 - Proper number (B1)
+[App::Tasks] ok 12 - Proper Number (B2)
+[App::Tasks] ok 13 - Proper number of tasks exist (C)
+[App::Tasks] ok 14 - Proper subject line (5)
+[App::Tasks] ok 15 - Proper subject line (6)
+[App::Tasks] ok 16 - Proper number (C1)
+[App::Tasks] ok 17 - Proper Number (C2)
+[App::Tasks] ok 18 - Lock count is 0
+[App::Tasks] 1..18
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/22-add-note.t
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 1
+[App::Tasks] ok 1 - Added new task
+[App::Tasks] ok 2 - Proper number of tasks exist (A)
+[App::Tasks] ok 3 - Proper subject line (1)
+[App::Tasks] ok 4 - Proper number (A1)
+[App::Tasks] Updated task 1
+[App::Tasks] ok 5 - Proper number of tasks exist (B)
+[App::Tasks] ok 6 - Proper subject line (B)
+[App::Tasks] ok 7 - Proper number (B1)
+[App::Tasks] ok 8 - Proper number of body elements
+[App::Tasks] ok 9 - Proper body text
+[App::Tasks] ok 10 - Date field defined
+[App::Tasks] ok 11 - Lock count is 0
+[App::Tasks] Updated task 1
+[App::Tasks] ok 12 - Proper number of tasks exist (B)
+[App::Tasks] ok 13 - Proper subject line (B)
+[App::Tasks] ok 14 - Proper number (B1)
+[App::Tasks] ok 15 - Proper number of body elements
+[App::Tasks] ok 16 - Proper body text
+[App::Tasks] ok 17 - Date field defined
+[App::Tasks] ok 18 - Proper body text
+[App::Tasks] ok 19 - Date field defined
+[App::Tasks] ok 20 - Lock count is 0
+[App::Tasks] 1..20
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/23-expire.t
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 1
+[App::Tasks] ok 1 - Added new task
+[App::Tasks] ok 2 - Proper number of tasks exist
+[App::Tasks] ok 3 - Proper subject line
+[App::Tasks] ok 4 - Expires header does not exist
+[App::Tasks] ok 5 - No notes found
+[App::Tasks] ok 6 - Proper number of tasks exist
+[App::Tasks] ok 7 - Proper subject line
+[App::Tasks] ok 8 - Expires header correct
+[App::Tasks] ok 9 - One note found
+[App::Tasks] ok 10 - Note is correct
+[App::Tasks] ok 11 - Proper number of tasks exist
+[App::Tasks] ok 12 - Proper subject line
+[App::Tasks] ok 13 - Expires header correct
+[App::Tasks] ok 14 - Two notes found
+[App::Tasks] ok 15 - Note is correct
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 2
+[App::Tasks] ok 16 - Added new task
+[App::Tasks] ok 17 - Proper number of tasks exist
+[App::Tasks] ok 18 - Proper subject line
+[App::Tasks] ok 19 - One note found
+[App::Tasks] ok 20 - Expires header correct
+[App::Tasks] ok 21 - One note found
+[App::Tasks] ok 22 - Note is correct
+[App::Tasks] ok 23 - B: Proper number of tasks exist
+[App::Tasks] ok 24 - B: Proper subject line
+[App::Tasks] ok 25 - B: Expires header correct
+[App::Tasks] ok 26 - B: Three notes found
+[App::Tasks] Here
+[App::Tasks] Closed 00001
+[App::Tasks] ok 27 - C: Proper number of tasks exist
+[App::Tasks] ok 28 - C: Proper subject line
+[App::Tasks] ok 29 - Lock count is 0
+[App::Tasks] 1..29
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/24-task-class.t
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 1
+[App::Tasks] ok 1 - Added new task
+[App::Tasks] ok 2 - Proper number of tasks exist
+[App::Tasks] ok 3 - Proper subject line
+[App::Tasks] ok 4 - One note found
+[App::Tasks] ok 5 - Expires header correct
+[App::Tasks] ok 6 - Version is correct
+[App::Tasks] ok 7 - Task ID is defined
+[App::Tasks] ok 8 - field matches: title
+[App::Tasks] ok 9 - field matches: created
+[App::Tasks] ok 10 - field matches: expires
+[App::Tasks] ok 11 - body count matches
+[App::Tasks] ok 12 - body date matches
+[App::Tasks] ok 13 - body text matches
+[App::Tasks] not ok 14 - refreshed: field matches: title # TODO Refresh doesn't actually do anything yet
+[App::Tasks] # Failed test 'refreshed: field matches: title'
+[App::Tasks] # at t/24-task-class.t line 53
+[App::Tasks] # expected: 'Subject Line'
+[App::Tasks] #      got: 'Foo Bar'
+[App::Tasks] ok 15 - refreshed: field matches: created
+[App::Tasks] ok 16 - refreshed: field matches: expires
+[App::Tasks] ok 17 - refreshed: body count matches
+[App::Tasks] ok 18 - refreshed: body date matches
+[App::Tasks] ok 19 - refreshed: body text matches
+[App::Tasks] not ok 20 - to-file works properly # TODO This will have a changed title now
+[App::Tasks] # Failed test 'to-file works properly'
+[App::Tasks] # at t/24-task-class.t line 64
+[App::Tasks] # expected: $["--- 1789461568", "Added expiration date: 2026-09-15", "Created: 1789461568", "Expires: 2026-09-15", "Task-Id: 7157846273387587453955", "Title: Subject Line"]
+[App::Tasks] #      got: $["--- 1789461568", "Added expiration date: 2026-09-15", "Created: 1789461568", "Expires: 2026-09-15", "Task-Id: 7157846273387587453955", "Title: Foo Bar"]
+[App::Tasks] ok 21 - No duplications of TaskIDs
+[App::Tasks] ok 22 - Lock count is 0
+[App::Tasks] ok 23 - Can't add a note to a Trello task
+[App::Tasks] 1..23
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/25-not-before.t
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 1
+[App::Tasks] ok 1 - Added new task
+[App::Tasks] ok 2 - Proper number of tasks exist
+[App::Tasks] ok 3 - Proper subject line
+[App::Tasks] ok 4 - Not-before header does not exist
+[App::Tasks] ok 5 - No notes found
+[App::Tasks] ok 6 - Proper number of tasks exist
+[App::Tasks] ok 7 - Proper subject line
+[App::Tasks] ok 8 - Not-before header correct
+[App::Tasks] ok 9 - One note found
+[App::Tasks] ok 10 - Note is correct
+[App::Tasks] ok 11 - Proper number of tasks exist
+[App::Tasks] ok 12 - Proper subject line
+[App::Tasks] ok 13 - Not-before header correct
+[App::Tasks] ok 14 - Two notes found
+[App::Tasks] ok 15 - Note is correct
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 2
+[App::Tasks] ok 16 - Added new task
+[App::Tasks] ok 17 - Proper number of tasks exist
+[App::Tasks] ok 18 - Proper subject line
+[App::Tasks] ok 19 - Not-before header set properly
+[App::Tasks] ok 20 - No notes found
+[App::Tasks] ok 21 - Note is correct
+[App::Tasks] ok 22 - Lock count is 0
+[App::Tasks] 1..22
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/26-frequency.t
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 1
+[App::Tasks] ok 1 - Added new task
+[App::Tasks] ok 2 - 0 Proper number of tasks exist
+[App::Tasks] ok 3 - 0 Proper subject line
+[App::Tasks] ok 4 - 0 Not-before header does not exist
+[App::Tasks] ok 5 - 0 No notes found
+[App::Tasks] ok 6 - 0 Display frequency not defined
+[App::Tasks] ok 7 - 0 Display frequency today
+[App::Tasks] ok 8 - A Proper number of tasks exist
+[App::Tasks] ok 9 - A Proper subject line
+[App::Tasks] ok 10 - A Not-before header does not exist
+[App::Tasks] ok 11 - A Display frequency is 1
+[App::Tasks] ok 12 - A Display frequency today
+[App::Tasks] ok 13 - A One note found
+[App::Tasks] ok 14 - A Note is correct
+[App::Tasks] ok 15 - B Proper number of tasks exist
+[App::Tasks] ok 16 - B Proper subject line
+[App::Tasks] ok 17 - B Not-before header does not exist
+[App::Tasks] ok 18 - B Display frequency is 1_000_000_000_000
+[App::Tasks] ok 19 - B Display frequency today
+[App::Tasks] ok 20 - B One note found
+[App::Tasks] ok 21 - B Note 1 is correct
+[App::Tasks] ok 22 - B Note 2 is correct
+[App::Tasks] ok 23 - Lock count is 0
+[App::Tasks] 1..23
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/27-tags.t
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 1
+[App::Tasks] ok 1 - Added new task
+[App::Tasks] # Subtest: init
+[App::Tasks]     ok 1 - Proper number of tasks exist
+[App::Tasks]     ok 2 - Proper subject line
+[App::Tasks]     ok 3 - No notes found
+[App::Tasks]     ok 4 - tags defined
+[App::Tasks]     1..4
+[App::Tasks] ok 2 - init
+[App::Tasks] # Subtest: first tag
+[App::Tasks]     ok 1 - Proper number of tasks exist
+[App::Tasks]     ok 2 - Proper subject line
+[App::Tasks]     ok 3 - One note found
+[App::Tasks]     ok 4 - Note[0] is correct
+[App::Tasks]     ok 5 - tags proper
+[App::Tasks]     1..5
+[App::Tasks] ok 3 - first tag
+[App::Tasks] # Subtest: duplicate tag
+[App::Tasks]     ok 1 - Proper number of tasks exist
+[App::Tasks]     ok 2 - Proper subject line
+[App::Tasks]     ok 3 - One note found
+[App::Tasks]     ok 4 - Note[0] is correct
+[App::Tasks]     ok 5 - tags proper
+[App::Tasks]     1..5
+[App::Tasks] ok 4 - duplicate tag
+[App::Tasks] # Subtest: second tag
+[App::Tasks]     ok 1 - Proper number of tasks exist
+[App::Tasks]     ok 2 - Proper subject line
+[App::Tasks]     ok 3 - Two notes found
+[App::Tasks]     ok 4 - Note[0] is correct
+[App::Tasks]     ok 5 - Note[1] is correct
+[App::Tasks]     ok 6 - tags proper
+[App::Tasks]     1..6
+[App::Tasks] ok 5 - second tag
+[App::Tasks] # Subtest: remove unset tag
+[App::Tasks]     ok 1 - Proper number of tasks exist
+[App::Tasks]     ok 2 - Proper subject line
+[App::Tasks]     ok 3 - Two notes found
+[App::Tasks]     ok 4 - Note[0] is correct
+[App::Tasks]     ok 5 - Note[1] is correct
+[App::Tasks]     ok 6 - tags proper
+[App::Tasks]     1..6
+[App::Tasks] ok 6 - remove unset tag
+[App::Tasks] # Subtest: remove first tag
+[App::Tasks]     ok 1 - Proper number of tasks exist
+[App::Tasks]     ok 2 - Proper subject line
+[App::Tasks]     ok 3 - Three notes found
+[App::Tasks]     ok 4 - Note[0] is correct
+[App::Tasks]     ok 5 - Note[1] is correct
+[App::Tasks]     ok 6 - Note[2] is correct
+[App::Tasks]     ok 7 - tags proper
+[App::Tasks]     1..7
+[App::Tasks] ok 7 - remove first tag
+[App::Tasks] # Subtest: remove second tag
+[App::Tasks]     ok 1 - Proper number of tasks exist
+[App::Tasks]     ok 2 - Proper subject line
+[App::Tasks]     ok 3 - Four notes found
+[App::Tasks]     ok 4 - Note[0] is correct
+[App::Tasks]     ok 5 - Note[1] is correct
+[App::Tasks]     ok 6 - Note[2] is correct
+[App::Tasks]     ok 7 - Note[3] is correct
+[App::Tasks]     ok 8 - tags proper
+[App::Tasks]     1..8
+[App::Tasks] ok 8 - remove second tag
+[App::Tasks] ok 9 - Lock count is 0
+[App::Tasks] 1..9
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/28-trello.rakutest
+[App::Tasks] # Subtest: get_boards
+[App::Tasks] An operation first awaited:
+[App::Tasks]   in method get_boards at /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0/lib/App/Tasks/Trello.rakumod (App::Tasks::Trello) line 33
+[App::Tasks]   in block <unit> at t/28-trello.rakutest line 27
+[App::Tasks] Died with the exception:
+[App::Tasks]     Expected a modifiable native int argument for '$pos'
+[App::Tasks]       in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[App::Tasks]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[App::Tasks]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[App::Tasks]       in method parse at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/14810917667F81B44F5C39489F1DA27137B4D636 (Cro::HTTP::BodyParsers) line 225
+[App::Tasks]       in method body at /home/coke/sandbox/blin/installed/Cro::Core_zef:cro_0.8.10_0/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 78
+[App::Tasks]       in method get_boards at /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0/lib/App/Tasks/Trello.rakumod (App::Tasks::Trello) line 33
+[App::Tasks]       in block <unit> at t/28-trello.rakutest line 27
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/98-bug-yn-dialog.t
+[App::Tasks] ok 1 - Testing N --> False
+[App::Tasks] ok 2 - Testing n --> False
+[App::Tasks] ok 3 - Testing no --> False
+[App::Tasks] ok 4 - Testing Y --> True
+[App::Tasks] ok 5 - Testing y --> True
+[App::Tasks] ok 6 - Testing yes --> True
+[App::Tasks] ok 7 - Testing invalid followed by valid
+[App::Tasks] ok 8 - Testing terminating false
+[App::Tasks] ok 9 - Lock count is 0
+[App::Tasks] 1..9
+[App::Tasks] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/67e63f70957d1bd79f6d1d0526d7ffed05853861.tar.gz/App-Tasks-0.4.0 t/99-bug-display-gaps.t
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 1
+[App::Tasks] ok 1 - Added new task
+[App::Tasks] [task] Enter Task Subject > 
+[App::Tasks] [task] Add a Note to This Task [Y/n]? > 
+[App::Tasks] [task] Save This Task [Y/n]? > Created task 2
+[App::Tasks] ok 2 - Added new task
+[App::Tasks] ok 3 - Proper number of tasks exist (A)
+[App::Tasks] ok 4 - Proper subject line (1)
+[App::Tasks] ok 5 - Proper subject line (2)
+[App::Tasks] ok 6 - Proper number (A1)
+[App::Tasks] ok 7 - Proper Number (A2)
+[App::Tasks] ok 8 - Proper number of tasks exist (B)
+[App::Tasks] ok 9 - Proper subject line (3)
+[App::Tasks] ok 10 - Proper number (B1)
+[App::Tasks] ok 11 - Lock count is 0
+[App::Tasks] 1..11
+===> Testing [FAIL]: App::Tasks:ver<0.4.0>:auth<zef:jmaslak>
+[App::Tasks] Failed to get passing tests, but continuing with --force-test
+===> Installing: App::Tasks:ver<0.4.0>:auth<zef:jmaslak>
+===> Install [OK] for App::Tasks:ver<0.4.0>:auth<zef:jmaslak>
+
+1 bin/ script [task.pl6] installed to:
+/home/coke/sandbox/blin/installed/App::Tasks_zef:jmaslak_0.4.0_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 38.270s
+             CPU time consumed: 2min 22.104s
+                   Memory peak: 3.2G (swap: 0B)

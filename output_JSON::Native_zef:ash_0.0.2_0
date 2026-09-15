@@ -1,0 +1,178 @@
+Running as unit: run-p1601908-i10036262.service; invocation ID: 2512fa0a3b124975839e7940f31f6037
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: JSON::Native
+===> Found: JSON::Native:ver<0.0.2>:auth<zef:ash> [via Zef::Repository::Ecosystems<fez>]
+[JSON::Native] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441342.1601919.9450.81019084053/677562281d4117a343489fcac83bb6d01271fca5.tar.gz https://360.zef.pm/J/SO/JSON_NATIVE/677562281d4117a343489fcac83bb6d01271fca5.tar.gz
+===> Fetching [OK]: JSON::Native:ver<0.0.2>:auth<zef:ash> to /home/coke/sandbox/blin/data/zef-data/tmp/1789441342.1601919.9450.81019084053/677562281d4117a343489fcac83bb6d01271fca5.tar.gz
+[JSON::Native] Command: tar -t -f ./677562281d4117a343489fcac83bb6d01271fca5.tar.gz
+[JSON::Native] Command: tar -xvf ./677562281d4117a343489fcac83bb6d01271fca5.tar.gz -C ../677562281d4117a343489fcac83bb6d01271fca5.tar.gz
+===> Extraction [OK]: JSON::Native to /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz
+===> Building: JSON::Native:ver<0.0.2>:auth<zef:ash>
+[JSON::Native] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -e require '/home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist/Build.rakumod'; ::('Build').new.build('/home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist') ?? exit(0) !! exit(1);
+===> Building [OK] for JSON::Native:ver<0.0.2>:auth<zef:ash>
+===> Testing: JSON::Native:ver<0.0.2>:auth<zef:ash>
+[JSON::Native] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist t/01-parse.t
+[JSON::Native] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[JSON::Native] No such symbol 'Rakupp::Internals::JSON'
+[JSON::Native]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist/lib/JSON/Native.rakumod (JSON::Native) line 131
+[JSON::Native]   in block <unit> at /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist/lib/JSON/Native.rakumod (JSON::Native) line 60
+[JSON::Native]   in any <load> at /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist/.precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/25/25A6B3DE4FD2FA8E39C3B0B706BFB1C55E00ABC2 line 1
+[JSON::Native]   in any IMPL-LOAD-MODULE at src/Raku/ast/statements.rakumod line 2559
+[JSON::Native]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 2802
+[JSON::Native]   in any  at src/Raku/ast/begintime.rakumod line 43
+[JSON::Native]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 40
+[JSON::Native]   in any statement-control at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/lib/Raku/Grammar.moarvm line 1
+[JSON::Native] # json-backend: JSON::Fast
+[JSON::Native] 1..39
+[JSON::Native] Expected a modifiable native int argument for '$pos'
+[JSON::Native]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Native]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Native]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Native]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist/lib/JSON/Native.rakumod (JSON::Native) line 155
+[JSON::Native]   in block <unit> at t/01-parse.t line 41
+[JSON::Native] # You planned 39 tests, but ran 0
+[JSON::Native] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist t/02-write.t
+[JSON::Native] WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+[JSON::Native] No such symbol 'Rakupp::Internals::JSON'
+[JSON::Native]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist/lib/JSON/Native.rakumod (JSON::Native) line 131
+[JSON::Native]   in block <unit> at /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist/lib/JSON/Native.rakumod (JSON::Native) line 60
+[JSON::Native]   in any <load> at /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist/.precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/25/25A6B3DE4FD2FA8E39C3B0B706BFB1C55E00ABC2 line 1
+[JSON::Native]   in any IMPL-LOAD-MODULE at src/Raku/ast/statements.rakumod line 2559
+[JSON::Native]   in any PERFORM-BEGIN at src/Raku/ast/statements.rakumod line 2802
+[JSON::Native]   in any  at src/Raku/ast/begintime.rakumod line 43
+[JSON::Native]   in any ensure-begin-performed at src/Raku/ast/begintime.rakumod line 40
+[JSON::Native]   in any statement-control at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/lib/Raku/Grammar.moarvm line 1
+[JSON::Native] ok 1 - matches JSON::Fast (:pretty(True)): 42
+[JSON::Native] ok 2 - matches JSON::Fast (:pretty(False)): 42
+[JSON::Native] ok 3 - matches JSON::Fast (:pretty(True)): -7
+[JSON::Native] ok 4 - matches JSON::Fast (:pretty(False)): -7
+[JSON::Native] ok 5 - matches JSON::Fast (:pretty(True)): 0
+[JSON::Native] ok 6 - matches JSON::Fast (:pretty(False)): 0
+[JSON::Native] ok 7 - matches JSON::Fast (:pretty(True)): 1180591620717411303424
+[JSON::Native] ok 8 - matches JSON::Fast (:pretty(False)): 1180591620717411303424
+[JSON::Native] ok 9 - matches JSON::Fast (:pretty(True)): -1180591620717411303424
+[JSON::Native] ok 10 - matches JSON::Fast (:pretty(False)): -1180591620717411303424
+[JSON::Native] ok 11 - matches JSON::Fast (:pretty(True)): 3.14
+[JSON::Native] ok 12 - matches JSON::Fast (:pretty(False)): 3.14
+[JSON::Native] ok 13 - matches JSON::Fast (:pretty(True)): ¹/₃
+[JSON::Native] ok 14 - matches JSON::Fast (:pretty(False)): ¹/₃
+[JSON::Native] ok 15 - matches JSON::Fast (:pretty(True)): ²/₃
+[JSON::Native] ok 16 - matches JSON::Fast (:pretty(False)): ²/₃
+[JSON::Native] ok 17 - matches JSON::Fast (:pretty(True)): 0.5
+[JSON::Native] ok 18 - matches JSON::Fast (:pretty(False)): 0.5
+[JSON::Native] ok 19 - matches JSON::Fast (:pretty(True)): 3.5
+[JSON::Native] ok 20 - matches JSON::Fast (:pretty(False)): 3.5
+[JSON::Native] ok 21 - matches JSON::Fast (:pretty(True)): 1.0
+[JSON::Native] ok 22 - matches JSON::Fast (:pretty(False)): 1.0
+[JSON::Native] ok 23 - matches JSON::Fast (:pretty(True)): 100.0
+[JSON::Native] ok 24 - matches JSON::Fast (:pretty(False)): 100.0
+[JSON::Native] ok 25 - matches JSON::Fast (:pretty(True)): -1.0
+[JSON::Native] ok 26 - matches JSON::Fast (:pretty(False)): -1.0
+[JSON::Native] ok 27 - matches JSON::Fast (:pretty(True)): 3¹/₇
+[JSON::Native] ok 28 - matches JSON::Fast (:pretty(False)): 3¹/₇
+[JSON::Native] ok 29 - matches JSON::Fast (:pretty(True)): 10000000000e0
+[JSON::Native] ok 30 - matches JSON::Fast (:pretty(False)): 10000000000e0
+[JSON::Native] ok 31 - matches JSON::Fast (:pretty(True)): 2e0
+[JSON::Native] ok 32 - matches JSON::Fast (:pretty(False)): 2e0
+[JSON::Native] ok 33 - matches JSON::Fast (:pretty(True)): -0e0
+[JSON::Native] ok 34 - matches JSON::Fast (:pretty(False)): -0e0
+[JSON::Native] ok 35 - matches JSON::Fast (:pretty(True)): -2.5e-08
+[JSON::Native] ok 36 - matches JSON::Fast (:pretty(False)): -2.5e-08
+[JSON::Native] ok 37 - matches JSON::Fast (:pretty(True)): 1e+100
+[JSON::Native] ok 38 - matches JSON::Fast (:pretty(False)): 1e+100
+[JSON::Native] ok 39 - matches JSON::Fast (:pretty(True)): 1e-300
+[JSON::Native] ok 40 - matches JSON::Fast (:pretty(False)): 1e-300
+[JSON::Native] ok 41 - matches JSON::Fast (:pretty(True)): 0.30000000000000004e0
+[JSON::Native] ok 42 - matches JSON::Fast (:pretty(False)): 0.30000000000000004e0
+[JSON::Native] ok 43 - matches JSON::Fast (:pretty(True)): 3e0
+[JSON::Native] ok 44 - matches JSON::Fast (:pretty(False)): 3e0
+[JSON::Native] ok 45 - matches JSON::Fast (:pretty(True)): 1234567e0
+[JSON::Native] ok 46 - matches JSON::Fast (:pretty(False)): 1234567e0
+[JSON::Native] ok 47 - matches JSON::Fast (:pretty(True)): Inf
+[JSON::Native] ok 48 - matches JSON::Fast (:pretty(False)): Inf
+[JSON::Native] ok 49 - matches JSON::Fast (:pretty(True)): -Inf
+[JSON::Native] ok 50 - matches JSON::Fast (:pretty(False)): -Inf
+[JSON::Native] ok 51 - matches JSON::Fast (:pretty(True)): NaN
+[JSON::Native] ok 52 - matches JSON::Fast (:pretty(False)): NaN
+[JSON::Native] ok 53 - matches JSON::Fast (:pretty(True)): "plain"
+[JSON::Native] ok 54 - matches JSON::Fast (:pretty(False)): "plain"
+[JSON::Native] ok 55 - matches JSON::Fast (:pretty(True)): ""
+[JSON::Native] ok 56 - matches JSON::Fast (:pretty(False)): ""
+[JSON::Native] ok 57 - matches JSON::Fast (:pretty(True)): "quote\"back\\slash"
+[JSON::Native] ok 58 - matches JSON::Fast (:pretty(False)): "quote\"back\\slash"
+[JSON::Native] ok 59 - matches JSON::Fast (:pretty(True)): "tab\ttab"
+[JSON::Native] ok 60 - matches JSON::Fast (:pretty(False)): "tab\ttab"
+[JSON::Native] ok 61 - matches JSON::Fast (:pretty(True)): "nl\nnl"
+[JSON::Native] ok 62 - matches JSON::Fast (:pretty(False)): "nl\nnl"
+[JSON::Native] ok 63 - matches JSON::Fast (:pretty(True)): "cr\rcr"
+[JSON::Native] ok 64 - matches JSON::Fast (:pretty(False)): "cr\rcr"
+[JSON::Native] ok 65 - matches JSON::Fast (:pretty(True)): "backspace\bhere"
+[JSON::Native] ok 66 - matches JSON::Fast (:pretty(False)): "backspace\bhere"
+[JSON::Native] ok 67 - matches JSON::Fast (:pretty(True)): "formfeed\x[C]here"
+[JSON::Native] ok 68 - matches JSON::Fast (:pretty(False)): "formfeed\x[C]here"
+[JSON::Native] ok 69 - matches JSON::Fast (:pretty(True)): "ctrl\x[1]\x[1F]"
+[JSON::Native] ok 70 - matches JSON::Fast (:pretty(False)): "ctrl\x[1]\x[1F]"
+[JSON::Native] ok 71 - matches JSON::Fast (:pretty(True)): "unicode é ☃ 高"
+[JSON::Native] ok 72 - matches JSON::Fast (:pretty(False)): "unicode é ☃ 高"
+[JSON::Native] ok 73 - matches JSON::Fast (:pretty(True)): "sol/idus"
+[JSON::Native] ok 74 - matches JSON::Fast (:pretty(False)): "sol/idus"
+[JSON::Native] ok 75 - matches JSON::Fast (:pretty(True)): "del\x[7F]"
+[JSON::Native] ok 76 - matches JSON::Fast (:pretty(False)): "del\x[7F]"
+[JSON::Native] ok 77 - matches JSON::Fast (:pretty(True)): "😀"
+[JSON::Native] ok 78 - matches JSON::Fast (:pretty(False)): "😀"
+[JSON::Native] ok 79 - matches JSON::Fast (:pretty(True)): "a😀z"
+[JSON::Native] ok 80 - matches JSON::Fast (:pretty(False)): "a😀z"
+[JSON::Native] ok 81 - matches JSON::Fast (:pretty(True)): "é"
+[JSON::Native] ok 82 - matches JSON::Fast (:pretty(False)): "é"
+[JSON::Native] ok 83 - matches JSON::Fast (:pretty(True)): "􏿿"
+[JSON::Native] ok 84 - matches JSON::Fast (:pretty(False)): "􏿿"
+[JSON::Native] ok 85 - matches JSON::Fast (:pretty(True)): Bool::True
+[JSON::Native] ok 86 - matches JSON::Fast (:pretty(False)): Bool::True
+[JSON::Native] ok 87 - matches JSON::Fast (:pretty(True)): Bool::False
+[JSON::Native] ok 88 - matches JSON::Fast (:pretty(False)): Bool::False
+[JSON::Native] ok 89 - matches JSON::Fast (:pretty(True)): Any
+[JSON::Native] ok 90 - matches JSON::Fast (:pretty(False)): Any
+[JSON::Native] ok 91 - matches JSON::Fast (:pretty(True)): $[]
+[JSON::Native] ok 92 - matches JSON::Fast (:pretty(False)): $[]
+[JSON::Native] ok 93 - matches JSON::Fast (:pretty(True)): $[1, 2, 3]
+[JSON::Native] ok 94 - matches JSON::Fast (:pretty(False)): $[1, 2, 3]
+[JSON::Native] ok 95 - matches JSON::Fast (:pretty(True)): $[[1], [2]]
+[JSON::Native] ok 96 - matches JSON::Fast (:pretty(False)): $[[1], [2]]
+[JSON::Native] ok 97 - matches JSON::Fast (:pretty(True)): $[Any, Bool::True, "s"]
+[JSON::Native] ok 98 - matches JSON::Fast (:pretty(False)): $[Any, Bool::True, "s"]
+[JSON::Native] ok 99 - matches JSON::Fast (:pretty(True)): $[1]
+[JSON::Native] ok 100 - matches JSON::Fast (:pretty(False)): $[1]
+[JSON::Native] ok 101 - matches JSON::Fast (:pretty(True)): ${}
+[JSON::Native] ok 102 - matches JSON::Fast (:pretty(False)): ${}
+[JSON::Native] ok 103 - matches JSON::Fast (:pretty(True)): ${:a(1)}
+[JSON::Native] ok 104 - matches JSON::Fast (:pretty(False)): ${:a(1)}
+[JSON::Native] ok 105 - matches JSON::Fast (:pretty(True)): ${:b($[1, {:c(2)}])}
+[JSON::Native] ok 106 - matches JSON::Fast (:pretty(False)): ${:b($[1, {:c(2)}])}
+[JSON::Native] ok 107 - matches JSON::Fast (:pretty(True)): ${:a(2), :m(3), :z(1)}
+[JSON::Native] ok 108 - matches JSON::Fast (:pretty(False)): ${:a(2), :m(3), :z(1)}
+[JSON::Native] ok 109 - matches JSON::Fast (:pretty(True)): ${"" => "empty key", "k with space" => "v", "q\"k" => 1}
+[JSON::Native] ok 110 - matches JSON::Fast (:pretty(False)): ${"" => "empty key", "k with space" => "v", "q\"k" => 1}
+[JSON::Native] ok 111 - matches JSON::Fast (:pretty(True)): ${:list($[1, 2.5, "three", Bool::True, Any]), :nested(${:deep(${:deeper($[])})})}
+[JSON::Native] ok 112 - matches JSON::Fast (:pretty(False)): ${:list($[1, 2.5, "three", Bool::True, Any]), :nested(${:deep(${:deeper($[])})})}
+[JSON::Native] ok 113 - matches JSON::Fast (:pretty(True)): $[{:a(1)}, {:b(2)}]
+[JSON::Native] ok 114 - matches JSON::Fast (:pretty(False)): $[{:a(1)}, {:b(2)}]
+[JSON::Native] ok 115 - falls back correctly for Date
+[JSON::Native] ok 116 - falls back correctly for Set
+[JSON::Native] ok 117 - falls back correctly for Bag
+[JSON::Native] ok 118 - a Range fails the same way it fails under JSON::Fast
+[JSON::Native] ok 119 - :sorted-keys is delegated
+[JSON::Native] Expected a modifiable native int argument for '$pos'
+[JSON::Native]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Native]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Native]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Native]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/677562281d4117a343489fcac83bb6d01271fca5.tar.gz/dist/lib/JSON/Native.rakumod (JSON::Native) line 155
+[JSON::Native]   in block <unit> at t/02-write.t line 76
+===> Testing [FAIL]: JSON::Native:ver<0.0.2>:auth<zef:ash>
+[JSON::Native] Failed to get passing tests, but continuing with --force-test
+===> Installing: JSON::Native:ver<0.0.2>:auth<zef:ash>
+===> Install [OK] for JSON::Native:ver<0.0.2>:auth<zef:ash>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 15.167s
+             CPU time consumed: 18.082s
+                   Memory peak: 1G (swap: 0B)

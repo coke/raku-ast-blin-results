@@ -1,0 +1,260 @@
+Running as unit: run-p1698636-i10001631.service; invocation ID: 4dda4fc1a0cf493d830519716ae5c474
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Prettier::Table
+===> Found: Prettier::Table:ver<1.1.3>:auth<zef:masukomi>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Prettier::Table] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789443438.1698637.3006.9464755660724/92801685d8df096c54d68c81af639a2abd557860.tar.gz https://360.zef.pm/P/RE/PRETTIER_TABLE/92801685d8df096c54d68c81af639a2abd557860.tar.gz
+===> Fetching [OK]: Prettier::Table:ver<1.1.3>:auth<zef:masukomi>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789443438.1698637.3006.9464755660724/92801685d8df096c54d68c81af639a2abd557860.tar.gz
+[Prettier::Table] Command: tar -t -f ./92801685d8df096c54d68c81af639a2abd557860.tar.gz
+[Prettier::Table] Command: tar -xvf ./92801685d8df096c54d68c81af639a2abd557860.tar.gz -C ../92801685d8df096c54d68c81af639a2abd557860.tar.gz
+===> Extraction [OK]: Prettier::Table to /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz
+===> Testing: Prettier::Table:ver<1.1.3>:auth<zef:masukomi>:api<1>
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-basic.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-basic.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-basic.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-breakline.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-breakline.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-breakline.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-build-equivalence.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-build-equivalence.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-build-equivalence.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-empty-table.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-empty-table.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-empty-table.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-float-formatting.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-float-formatting.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-float-formatting.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-int-float-basic.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-int-float-basic.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-int-float-basic.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-maximum-widths.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-maximum-widths.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-maximum-widths.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-override.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-override.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-override.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-preset.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-preset.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-preset.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-print-english.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-print-english.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-print-english.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-slicing.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-slicing.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-slicing.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-sorting.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-sorting.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-sorting.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+[Prettier::Table] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist t/pretty-table-unpadded-table.t
+[Prettier::Table] ===SORRY!=== Error while compiling t/pretty-table-unpadded-table.t
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table)
+[Prettier::Table] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains)
+[Prettier::Table] ===SORRY!===
+[Prettier::Table] Object does not exist in serialization context
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table/Constrains.rakumod (Prettier::Table::Constrains):1
+[Prettier::Table] ------> <BOL><HERE>use Listicles;
+[Prettier::Table] at /home/coke/sandbox/blin/data/zef-data/tmp/92801685d8df096c54d68c81af639a2abd557860.tar.gz/dist/lib/Prettier/Table.rakumod (Prettier::Table):2
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table::Constrains;
+[Prettier::Table] at t/pretty-table-unpadded-table.t:3
+[Prettier::Table] ------> <BOL><HERE>use Prettier::Table;
+===> Testing [FAIL]: Prettier::Table:ver<1.1.3>:auth<zef:masukomi>:api<1>
+[Prettier::Table] Failed to get passing tests, but continuing with --force-test
+===> Installing: Prettier::Table:ver<1.1.3>:auth<zef:masukomi>:api<1>
+===> Install [OK] for Prettier::Table:ver<1.1.3>:auth<zef:masukomi>:api<1>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 21.500s
+             CPU time consumed: 29.943s
+                   Memory peak: 1.2G (swap: 0B)

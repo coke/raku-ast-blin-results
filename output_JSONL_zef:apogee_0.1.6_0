@@ -1,0 +1,152 @@
+Running as unit: run-p1603810-i9965193.service; invocation ID: bf3caf0c8c2d41b9a93c0a0f6d0fdf18
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: JSONL
+===> Found: JSONL:ver<0.1.6>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[JSONL] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441375.1603811.7940.781154996569/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz https://360.zef.pm/J/SO/JSONL/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz
+===> Fetching [OK]: JSONL:ver<0.1.6>:auth<zef:apogee> to /home/coke/sandbox/blin/data/zef-data/tmp/1789441375.1603811.7940.781154996569/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz
+[JSONL] Command: tar -t -f ./727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz
+[JSONL] Command: tar -xvf ./727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz -C ../727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz
+===> Extraction [OK]: JSONL to /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz
+===> Testing: JSONL:ver<0.1.6>:auth<zef:apogee>
+[JSONL] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6 t/01-line.rakutest
+[JSONL] 1..26
+[JSONL] # Subtest: Hash value
+[JSONL]     1..3
+[JSONL]     ok 1 - Created Line with Hash value
+[JSONL]     ok 2 - Hash value accessible
+[JSONL]     ok 3 - Line number correct
+[JSONL] ok 1 - Hash value
+[JSONL] # Subtest: Array value
+[JSONL]     1..2
+[JSONL]     ok 1 - Array value preserved
+[JSONL]     ok 2 - Line number correct
+[JSONL] ok 2 - Array value
+[JSONL] # Subtest: String value
+[JSONL]     1..2
+[JSONL]     ok 1 - String value preserved
+[JSONL]     ok 2 - Line number correct
+[JSONL] ok 3 - String value
+[JSONL] # Subtest: Int value
+[JSONL]     1..2
+[JSONL]     ok 1 - Int value preserved
+[JSONL]     ok 2 - Line number correct
+[JSONL] ok 4 - Int value
+[JSONL] # Subtest: Bool value (True)
+[JSONL]     1..2
+[JSONL]     ok 1 - True value preserved
+[JSONL]     ok 2 - Line number correct
+[JSONL] ok 5 - Bool value (True)
+[JSONL] # Subtest: Bool value (False)
+[JSONL]     1..2
+[JSONL]     ok 1 - False value preserved
+[JSONL]     ok 2 - Line number correct
+[JSONL] ok 6 - Bool value (False)
+[JSONL] # Subtest: Nil value
+[JSONL]     1..2
+[JSONL]     ok 1 - Nil/Any value preserved as undefined
+[JSONL]     ok 2 - Line number correct
+[JSONL] ok 7 - Nil value
+[JSONL] # Subtest: to-json Hash produces compact output
+[JSONL]     1..2
+[JSONL]     ok 1 - No newlines in output
+[JSONL]     ok 2 - Keys sorted, compact format
+[JSONL] ok 8 - to-json Hash produces compact output
+[JSONL] # Subtest: to-json Array produces compact output
+[JSONL]     1..2
+[JSONL]     ok 1 - No newlines in output
+[JSONL]     ok 2 - Compact array format
+[JSONL] ok 9 - to-json Array produces compact output
+[JSONL] # Subtest: to-json String
+[JSONL]     1..1
+[JSONL]     ok 1 - String serialized with quotes
+[JSONL] ok 10 - to-json String
+[JSONL] # Subtest: to-json Int
+[JSONL]     1..1
+[JSONL]     ok 1 - Int serialized as number
+[JSONL] ok 11 - to-json Int
+[JSONL] # Subtest: to-json Bool True
+[JSONL]     1..1
+[JSONL]     ok 1 - True serialized as true
+[JSONL] ok 12 - to-json Bool True
+[JSONL] # Subtest: to-json Bool False
+[JSONL]     1..1
+[JSONL]     ok 1 - False serialized as false
+[JSONL] ok 13 - to-json Bool False
+[JSONL] # Subtest: to-json Nil
+[JSONL]     1..1
+[JSONL]     ok 1 - Nil serialized as null
+[JSONL] ok 14 - to-json Nil
+[JSONL] # Subtest: Round-trip Hash
+[JSONL]     1..1
+[JSONL] Expected a modifiable native int argument for '$pos'
+[JSONL]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSONL]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSONL]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSONL]   in block <unit> at t/01-line.rakutest line 114
+[JSONL]     # You planned 1 test, but ran 0
+[JSONL] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6 t/02-reader.rakutest
+[JSONL] 1..23
+[JSONL] # Subtest: Read simple.jsonl — correct count and values
+[JSONL]     1..4
+[JSONL] JSONL::Reader: malformed JSON at line 1: Expected a modifiable native int argument for '$pos'
+[JSONL]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 44
+[JSONL]   in any  at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/.precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/A2/A2475BA01C0903D18143BED10734834573EB8E31 line 1
+[JSONL]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSONL]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSONL]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSONL]   in method parse-line at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 37
+[JSONL]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 55
+[JSONL]   in method list at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 60
+[JSONL]   in block <unit> at t/02-reader.rakutest line 15
+[JSONL]     # You planned 4 tests, but ran 0
+[JSONL] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6 t/03-writer.rakutest
+[JSONL] 1..20
+[JSONL] # Subtest: write-all writes array of Hashes
+[JSONL]     1..3
+[JSONL]     ok 1 - Two lines written
+[JSONL] Expected a modifiable native int argument for '$pos'
+[JSONL]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSONL]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSONL]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSONL]   in block <unit> at t/03-writer.rakutest line 25
+[JSONL]     # You planned 3 tests, but ran 1
+[JSONL] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6 t/04-editor.rakutest
+[JSONL] 1..16
+[JSONL] # Subtest: update-at replaces middle line
+[JSONL]     1..3
+[JSONL] JSONL::Reader: malformed JSON at line 1: Expected a modifiable native int argument for '$pos'
+[JSONL]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 44
+[JSONL]   in any  at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/.precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/A2/A2475BA01C0903D18143BED10734834573EB8E31 line 1
+[JSONL]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSONL]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSONL]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSONL]   in method parse-line at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 37
+[JSONL]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 55
+[JSONL]   in method list at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 60
+[JSONL]   in method read-lines at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Editor.rakumod (JSONL::Editor) line 8
+[JSONL]   in method update-at at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Editor.rakumod (JSONL::Editor) line 17
+[JSONL]   in block <unit> at t/04-editor.rakutest line 34
+[JSONL]     # You planned 3 tests, but ran 0
+[JSONL] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6 t/05-main.rakutest
+[JSONL] 1..8
+[JSONL] # Subtest: read-jsonl reads file
+[JSONL]     1..2
+[JSONL] JSONL::Reader: malformed JSON at line 1: Expected a modifiable native int argument for '$pos'
+[JSONL]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 44
+[JSONL]   in any  at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/.precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/A2/A2475BA01C0903D18143BED10734834573EB8E31 line 1
+[JSONL]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSONL]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSONL]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSONL]   in method parse-line at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 37
+[JSONL]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/727c832ef8e4731beaa9c7aabd3e5e263d4583ab.tar.gz/JSONL-0.1.6/lib/JSONL/Reader.rakumod (JSONL::Reader) line 55
+[JSONL]   in block <unit> at t/05-main.rakutest line 23
+[JSONL]     # You planned 2 tests, but ran 0
+===> Testing [FAIL]: JSONL:ver<0.1.6>:auth<zef:apogee>
+[JSONL] Failed to get passing tests, but continuing with --force-test
+===> Installing: JSONL:ver<0.1.6>:auth<zef:apogee>
+===> Install [OK] for JSONL:ver<0.1.6>:auth<zef:apogee>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 17.258s
+             CPU time consumed: 22.911s
+                   Memory peak: 1G (swap: 0B)

@@ -1,0 +1,143 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: LLM::DWIM
+Running as unit: run-p2150640-i10570813.service; invocation ID: 48ef4211073b42b3812d01d40dd26ad6
+Press ^] three times within 1s to disconnect TTY.
+===> Found: LLM::DWIM:ver<0.0.6>:auth<zef:bduggan> [via Zef::Repository::Ecosystems<fez>]
+[LLM::DWIM] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789462172.2150642.3109.4944413152457/a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz https://360.zef.pm/L/LM/LLM_DWIM/a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz
+===> Fetching [OK]: LLM::DWIM:ver<0.0.6>:auth<zef:bduggan> to /home/coke/sandbox/blin/data/zef-data/tmp/1789462172.2150642.3109.4944413152457/a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz
+[LLM::DWIM] Command: tar -t -f ./a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz
+[LLM::DWIM] Command: tar -xvf ./a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz -C ../a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz
+===> Extraction [OK]: LLM::DWIM to /home/coke/sandbox/blin/data/zef-data/tmp/a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz
+===> Testing: LLM::DWIM:ver<0.0.6>:auth<zef:bduggan>
+[LLM::DWIM] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz/LLM-DWIM-0.0.6 t/00-use.rakutest
+[LLM::DWIM] 1..1
+[LLM::DWIM] not ok 1 - LLM::DWIM module can be use-d ok
+[LLM::DWIM] # Failed test 'LLM::DWIM module can be use-d ok'
+[LLM::DWIM] # at t/00-use.rakutest line 4
+[LLM::DWIM] # ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz/LLM-DWIM-0.0.6/lib/LLM/DWIM.rakumod (LLM::DWIM)
+[LLM::DWIM] # ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/LLM::Prompts_zef:antononcube_0.2.15_1/sources/0658A6BAAB0B4760E95F86907C936816AAC0B27D (LLM::Prompts)
+[LLM::DWIM] # An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[LLM::DWIM] # Expected a modifiable native int argument for '$pos'
+[LLM::DWIM] # at /home/coke/sandbox/blin/installed/LLM::Prompts_zef:antononcube_0.2.15_1/sources/0658A6BAAB0B4760E95F86907C936816AAC0B27D (LLM::Prompts):410
+[LLM::DWIM] # ------> <BOL><HERE>BEGIN {
+[LLM::DWIM] # Exception details:
+[LLM::DWIM] #   ===SORRY!=== Error while compiling:
+[LLM::DWIM] #   Expected a modifiable native int argument for '$pos'
+[LLM::DWIM] #   at line 
+[LLM::DWIM] # 
+[LLM::DWIM] # at /home/coke/sandbox/blin/data/zef-data/tmp/a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz/LLM-DWIM-0.0.6/lib/LLM/DWIM.rakumod (LLM::DWIM):3
+[LLM::DWIM] # ------> <BOL><HERE>use LLM::Prompts;
+[LLM::DWIM] # 
+[LLM::DWIM] # You failed 1 test of 1
+[LLM::DWIM] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz/LLM-DWIM-0.0.6 t/01-dwim.rakutest
+[LLM::DWIM] ===SORRY!=== Error while compiling t/01-dwim.rakutest
+[LLM::DWIM] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz/LLM-DWIM-0.0.6/lib/LLM/DWIM.rakumod (LLM::DWIM)
+[LLM::DWIM] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/installed/LLM::Prompts_zef:antononcube_0.2.15_1/sources/0658A6BAAB0B4760E95F86907C936816AAC0B27D (LLM::Prompts)
+[LLM::DWIM] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[LLM::DWIM] Expected a modifiable native int argument for '$pos'
+[LLM::DWIM] at /home/coke/sandbox/blin/installed/LLM::Prompts_zef:antononcube_0.2.15_1/sources/0658A6BAAB0B4760E95F86907C936816AAC0B27D (LLM::Prompts):410
+[LLM::DWIM] ------> <BOL><HERE>BEGIN {
+[LLM::DWIM] Exception details:
+[LLM::DWIM]   ===SORRY!=== Error while compiling:
+[LLM::DWIM]   Expected a modifiable native int argument for '$pos'
+[LLM::DWIM]   at line 
+[LLM::DWIM] at /home/coke/sandbox/blin/data/zef-data/tmp/a7068fc4d7028a2da52f766af9ebfcd7166feeb4.tar.gz/LLM-DWIM-0.0.6/lib/LLM/DWIM.rakumod (LLM::DWIM):3
+[LLM::DWIM] ------> <BOL><HERE>use LLM::Prompts;
+[LLM::DWIM] at t/01-dwim.rakutest:2
+[LLM::DWIM] ------> <BOL><HERE>use LLM::DWIM;
+===> Testing [FAIL]: LLM::DWIM:ver<0.0.6>:auth<zef:bduggan>
+[LLM::DWIM] Failed to get passing tests, but continuing with --force-test
+===> Installing: LLM::DWIM:ver<0.0.6>:auth<zef:bduggan>
+===> Install [OK] for LLM::DWIM:ver<0.0.6>:auth<zef:bduggan>
+
+2 bin/ scripts [llm-dwim llm-dwim-chat] installed to:
+/home/coke/sandbox/blin/installed/LLM::DWIM_zef:bduggan_0.0.6_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 59.483s
+             CPU time consumed: 1min 27.189s
+                   Memory peak: 2.4G (swap: 0B)

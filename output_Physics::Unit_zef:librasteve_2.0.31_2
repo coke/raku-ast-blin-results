@@ -1,0 +1,156 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Physics::Unit
+Running as unit: run-p1842120-i10234902.service; invocation ID: 3955f582650b49f7b2eda86107b9197b
+Press ^] three times within 1s to disconnect TTY.
+===> Found: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2> [via Zef::Repository::Ecosystems<fez>]
+[Physics::Unit] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789446654.1842123.2941.1199265965706/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz https://360.zef.pm/P/HY/PHYSICS_UNIT/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz
+===> Fetching [OK]: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2> to /home/coke/sandbox/blin/data/zef-data/tmp/1789446654.1842123.2941.1199265965706/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz
+[Physics::Unit] Command: tar -t -f ./2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz
+[Physics::Unit] Command: tar -xvf ./2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz -C ../2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz
+===> Extraction [OK]: Physics::Unit to /home/coke/sandbox/blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz
+===> Building: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+[Physics::Unit] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -e require '/home/coke/sandbox/blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/Build.rakumod'; ::('Build').new.build('/home/coke/sandbox/blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist') ?? exit(0) !! exit(1);
+[Physics::Unit] Selection of us / imperial depends on your locale
+[Physics::Unit] ***export CRAGLANG=[us|imp] to override***
+[Physics::Unit] Fetching currency exchange rates
+[Physics::Unit] ***zef install Physics::Unit --force-install for latest rates***
+[Physics::Unit] Expected a modifiable native int argument for '$pos'
+[Physics::Unit]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Physics::Unit]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Physics::Unit]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Physics::Unit]   in method build at /home/coke/sandbox/blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist/Build.rakumod line 36
+[Physics::Unit]   in block <unit> at -e line 1
+===> Building [FAIL]: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+[Physics::Unit] Failed to build, but continuing with --force-build
+===> Testing: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+[Physics::Unit] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist t/01-tst.rakutest
+[Physics::Unit] 1..15
+[Physics::Unit] ok 1 - $u.name exists
+[Physics::Unit] ok 2 - $u.units made
+[Physics::Unit] ok 3 - $ff defined
+[Physics::Unit] ok 4 - $ff.type ok
+[Physics::Unit] ok 5 - $ff.canonical ok
+[Physics::Unit] ok 6 - $ff.pretty ok
+[Physics::Unit] ok 7 - new by ref ok
+[Physics::Unit] ok 8 - new named ok
+[Physics::Unit] ok 9 - new intricate name ok
+[Physics::Unit] ok 10 - new intricate dims ok
+[Physics::Unit] ok 11 - parse & cmp ok
+[Physics::Unit] ok 12 - SI recommended ok
+[Physics::Unit] ok 13 - SI derived ok
+[Physics::Unit] ok 14 - currency ok
+[Physics::Unit] ok 15 - fatratstr ok
+[Physics::Unit] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist t/02-dim.rakutest
+[Physics::Unit] 1..17
+[Physics::Unit] ok 1 - steradian => SolidAngle
+[Physics::Unit] ok 2 - hertz => Frequency
+[Physics::Unit] ok 3 - newton => Force
+[Physics::Unit] ok 4 - pascal => Pressure
+[Physics::Unit] ok 5 - joule => Energy
+[Physics::Unit] ok 6 - watt => Power
+[Physics::Unit] ok 7 - coulomb => Charge
+[Physics::Unit] ok 8 - volt => Potential
+[Physics::Unit] ok 9 - farad => Capacitance
+[Physics::Unit] ok 10 - ohm => Resistance
+[Physics::Unit] ok 11 - siemens => Conductance
+[Physics::Unit] ok 12 - weber => MagneticFlux
+[Physics::Unit] ok 13 - tesla => MagneticField
+[Physics::Unit] ok 14 - henry => Inductance
+[Physics::Unit] ok 15 - celsius => Temperature
+[Physics::Unit] ok 16 - lumen => LuminousFlux
+[Physics::Unit] ok 17 - lux => Illuminance
+[Physics::Unit] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2e0019ff3095ec3595badba117a82036cbae7cab.tar.gz/dist t/99-testMETA.rakutest
+[Physics::Unit] 1..1
+[Physics::Unit] ok 1 - # SKIP Skipping author test
+===> Testing [OK] for Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+===> Installing: Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+===> Install [OK] for Physics::Unit:ver<2.0.31>:auth<zef:librasteve>:api<2>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 38.232s
+             CPU time consumed: 46.343s
+                   Memory peak: 1.3G (swap: 0B)

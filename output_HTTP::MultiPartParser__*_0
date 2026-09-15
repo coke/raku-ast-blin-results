@@ -1,0 +1,104 @@
+Running as unit: run-p1597572-i9975145.service; invocation ID: 841372b25a1a4a36b9d288ecbe54517f
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: HTTP::MultiPartParser
+===> Found: HTTP::MultiPartParser [via Zef::Repository::Ecosystems<rea>]
+[HTTP::MultiPartParser] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441263.1597573.4199.973157231384/HTTP%3A%3AMultiPartParser%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/H/HTTP%3A%3AMultiPartParser/HTTP%3A%3AMultiPartParser%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz
+===> Fetching [OK]: HTTP::MultiPartParser to /home/coke/sandbox/blin/data/zef-data/tmp/1789441263.1597573.4199.973157231384/HTTP%3A%3AMultiPartParser%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz
+[HTTP::MultiPartParser] Command: tar -t -f ./HTTP%3A%3AMultiPartParser%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz
+[HTTP::MultiPartParser] Command: tar -xvf ./HTTP%3A%3AMultiPartParser%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz -C ../HTTP%3A%3AMultiPartParser%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz
+===> Extraction [OK]: HTTP::MultiPartParser to /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AMultiPartParser%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz
+===> Testing: HTTP::MultiPartParser
+[HTTP::MultiPartParser] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AMultiPartParser%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-MultiPartParser-master t/030_basic.t
+[HTTP::MultiPartParser] Expected a modifiable native int argument for '$pos'
+[HTTP::MultiPartParser]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[HTTP::MultiPartParser]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[HTTP::MultiPartParser]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[HTTP::MultiPartParser]   in block <unit> at t/030_basic.t line 13
+[HTTP::MultiPartParser] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AMultiPartParser%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-MultiPartParser-master t/035_headers.t
+[HTTP::MultiPartParser] # Subtest: --xxx\x0DFoo:\x20Foo\x0DBar:\x20Bar\x0D\x0D\x0D--xxx--\x0D
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx\x0DFoo:\x20Foo\x0DBar:\x20Bar\x0D\x0D\x0D--xxx--\x0D)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx\x0DFoo:\x20Foo\x0DBar:\x20Bar\x0D\x0D\x0D--xxx--\x0D)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 1 - --xxx\x0DFoo:\x20Foo\x0DBar:\x20Bar\x0D\x0D\x0D--xxx--\x0D
+[HTTP::MultiPartParser] # Subtest: --xxx\x0DFoo:\x20Foo\x0D\x20Bar\x0D\x0D\x0D--xxx--\x0D
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx\x0DFoo:\x20Foo\x0D\x20Bar\x0D\x0D\x0D--xxx--\x0D)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx\x0DFoo:\x20Foo\x0D\x20Bar\x0D\x0D\x0D--xxx--\x0D)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 2 - --xxx\x0DFoo:\x20Foo\x0D\x20Bar\x0D\x0D\x0D--xxx--\x0D
+[HTTP::MultiPartParser] # Subtest: --xxx\x0DFoo:\x20\x0D\x09Bar\x0D\x09\x0D\x09Baz\x0D\x0D\x0D--xxx--\x0D
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx\x0DFoo:\x20\x0D\x09Bar\x0D\x09\x0D\x09Baz\x0D\x0D\x0D--xxx--\x0D)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx\x0DFoo:\x20\x0D\x09Bar\x0D\x09\x0D\x09Baz\x0D\x0D\x0D--xxx--\x0D)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 3 - --xxx\x0DFoo:\x20\x0D\x09Bar\x0D\x09\x0D\x09Baz\x0D\x0D\x0D--xxx--\x0D
+[HTTP::MultiPartParser] # Subtest: --xxx\x0DFoo:\x20\x0D\x20Bar\x0D\x20\x0D\x20Baz\x0D\x0D\x0D--xxx--\x0D
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx\x0DFoo:\x20\x0D\x20Bar\x0D\x20\x0D\x20Baz\x0D\x0D\x0D--xxx--\x0D)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx\x0DFoo:\x20\x0D\x20Bar\x0D\x20\x0D\x20Baz\x0D\x0D\x0D--xxx--\x0D)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 4 - --xxx\x0DFoo:\x20\x0D\x20Bar\x0D\x20\x0D\x20Baz\x0D\x0D\x0D--xxx--\x0D
+[HTTP::MultiPartParser] 1..4
+[HTTP::MultiPartParser] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/HTTP%3A%3AMultiPartParser%3Aver%3C%2A%3E%3Aauth%3Cgithub%3Atokuhirom%3E.tar.gz/p6-HTTP-MultiPartParser-master t/040_malformed.t
+[HTTP::MultiPartParser] # Subtest
+[HTTP::MultiPartParser]     ok 1 - parts ()
+[HTTP::MultiPartParser]     ok 2 - error ()
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 1 - 
+[HTTP::MultiPartParser] # Subtest: --xxx
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 2 - --xxx
+[HTTP::MultiPartParser] # Subtest: --xxx--
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx--)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx--)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 3 - --xxx--
+[HTTP::MultiPartParser] # Subtest: --xxx----
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx----)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx----)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 4 - --xxx----
+[HTTP::MultiPartParser] # Subtest: --xxx__
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx__)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx__)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 5 - --xxx__
+[HTTP::MultiPartParser] # Subtest: --xxx\x0DFoo
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx\x0DFoo)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx\x0DFoo)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 6 - --xxx\x0DFoo
+[HTTP::MultiPartParser] # Subtest: --xxx\x0D\x0D\x0D
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx\x0D\x0D\x0D)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx\x0D\x0D\x0D)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 7 - --xxx\x0D\x0D\x0D
+[HTTP::MultiPartParser] # Subtest: --xxx\x0D\x0D\x0D\x0D--xxx--\x0Dxx
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx\x0D\x0D\x0D\x0D--xxx--\x0Dxx)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx\x0D\x0D\x0D\x0D--xxx--\x0Dxx)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 8 - --xxx\x0D\x0D\x0D\x0D--xxx--\x0Dxx
+[HTTP::MultiPartParser] # Subtest: --xxx\x0D\x20Foo\x0D\x0D
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx\x0D\x20Foo\x0D\x0D)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx\x0D\x20Foo\x0D\x0D)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 9 - --xxx\x0D\x20Foo\x0D\x0D
+[HTTP::MultiPartParser] # Subtest: --xxx\x0D\x09Foo\x0D\x0D
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx\x0D\x09Foo\x0D\x0D)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx\x0D\x09Foo\x0D\x0D)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 10 - --xxx\x0D\x09Foo\x0D\x0D
+[HTTP::MultiPartParser] # Subtest: --xxx\x0DFoo\x0D\x0D
+[HTTP::MultiPartParser]     ok 1 - parts (--xxx\x0DFoo\x0D\x0D)
+[HTTP::MultiPartParser]     ok 2 - error (--xxx\x0DFoo\x0D\x0D)
+[HTTP::MultiPartParser]     1..2
+[HTTP::MultiPartParser] ok 11 - --xxx\x0DFoo\x0D\x0D
+[HTTP::MultiPartParser] 1..11
+===> Testing [FAIL]: HTTP::MultiPartParser
+[HTTP::MultiPartParser] Failed to get passing tests, but continuing with --force-test
+===> Installing: HTTP::MultiPartParser
+===> Install [OK] for HTTP::MultiPartParser
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 25.932s
+             CPU time consumed: 28.845s
+                   Memory peak: 1.3G (swap: 0B)

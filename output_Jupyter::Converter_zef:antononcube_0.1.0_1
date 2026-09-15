@@ -1,0 +1,131 @@
+Running as unit: run-p1793011-i10216781.service; invocation ID: 27f19d60fd6b485084cb1bcb12d1a871
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Jupyter::Converter
+===> Found: Jupyter::Converter:ver<0.1.0>:auth<zef:antononcube>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[Jupyter::Converter] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445581.1793020.3906.5148903860136/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz https://360.zef.pm/J/UP/JUPYTER_CONVERTER/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz
+===> Fetching [OK]: Jupyter::Converter:ver<0.1.0>:auth<zef:antononcube>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445581.1793020.3906.5148903860136/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz
+[Jupyter::Converter] Command: tar -t -f ./26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz
+[Jupyter::Converter] Command: tar -xvf ./26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz -C ../26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz
+===> Extraction [OK]: Jupyter::Converter to /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz
+===> Testing: Jupyter::Converter:ver<0.1.0>:auth<zef:antononcube>:api<1>
+[Jupyter::Converter] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist t/01-markdown.rakutest
+[Jupyter::Converter] # Subtest: Markdown conversion from JSON string
+[Jupyter::Converter] The first argument is not a valid JSON string.
+[Jupyter::Converter]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist/lib/Jupyter/Converter.rakumod (Jupyter::Converter) line 109
+[Jupyter::Converter]   in sub from-jupyter at /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist/lib/Jupyter/Converter.rakumod (Jupyter::Converter) line 103
+[Jupyter::Converter]   in block <unit> at t/01-markdown.rakutest line 42
+[Jupyter::Converter] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist t/02-html.rakutest
+[Jupyter::Converter] # Subtest: HTML conversion from JSON string
+[Jupyter::Converter] The first argument is not a valid JSON string.
+[Jupyter::Converter]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist/lib/Jupyter/Converter.rakumod (Jupyter::Converter) line 109
+[Jupyter::Converter]   in sub from-jupyter at /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist/lib/Jupyter/Converter.rakumod (Jupyter::Converter) line 103
+[Jupyter::Converter]   in block <unit> at t/02-html.rakutest line 36
+[Jupyter::Converter] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist t/03-pod6.rakutest
+[Jupyter::Converter] # Subtest: POD6 conversion from JSON string
+[Jupyter::Converter] The first argument is not a valid JSON string.
+[Jupyter::Converter]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist/lib/Jupyter/Converter.rakumod (Jupyter::Converter) line 109
+[Jupyter::Converter]   in sub from-jupyter at /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist/lib/Jupyter/Converter.rakumod (Jupyter::Converter) line 103
+[Jupyter::Converter]   in block <unit> at t/03-pod6.rakutest line 41
+[Jupyter::Converter] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist t/04-markdown-svg.rakutest
+[Jupyter::Converter] # Subtest: Markdown captures SVG outputs
+[Jupyter::Converter] The first argument is not a valid JSON string.
+[Jupyter::Converter]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist/lib/Jupyter/Converter.rakumod (Jupyter::Converter) line 109
+[Jupyter::Converter]   in sub from-jupyter at /home/coke/sandbox/blin/data/zef-data/tmp/26dbee7b49fb7fe7d6b044abac4282dcd6e9d0eb.tar.gz/dist/lib/Jupyter/Converter.rakumod (Jupyter::Converter) line 103
+[Jupyter::Converter]   in block <unit> at t/04-markdown-svg.rakutest line 61
+===> Testing [FAIL]: Jupyter::Converter:ver<0.1.0>:auth<zef:antononcube>:api<1>
+[Jupyter::Converter] Failed to get passing tests, but continuing with --force-test
+===> Installing: Jupyter::Converter:ver<0.1.0>:auth<zef:antononcube>:api<1>
+===> Install [OK] for Jupyter::Converter:ver<0.1.0>:auth<zef:antononcube>:api<1>
+
+1 bin/ script [from-jupyter] installed to:
+/home/coke/sandbox/blin/installed/Jupyter::Converter_zef:antononcube_0.1.0_1/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 30.954s
+             CPU time consumed: 44.963s
+                   Memory peak: 1.4G (swap: 0B)

@@ -1,0 +1,101 @@
+Running as unit: run-p1630336-i10014022.service; invocation ID: 4b4fb8a11996424aa92705f841a39b6f
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Template::Mustache
+===> Found: Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0> [via Zef::Repository::Ecosystems<fez>]
+[Template::Mustache] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441928.1630337.2289.005840594205/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz https://360.zef.pm/T/EM/TEMPLATE_MUSTACHE/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz
+===> Fetching [OK]: Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0> to /home/coke/sandbox/blin/data/zef-data/tmp/1789441928.1630337.2289.005840594205/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz
+[Template::Mustache] Command: tar -t -f ./88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz
+[Template::Mustache] Command: tar -xvf ./88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz -C ../88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz
+===> Extraction [OK]: Template::Mustache to /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz
+===> Testing: Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0>
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/01-basic.rakutest
+[Template::Mustache] 1..10
+[Template::Mustache] ok 1 - Standalone interpolation should not alter surrounding whitesp
+[Template::Mustache] ok 2 - Context Precedence: Dotted names should be resolved against former resolutions
+[Template::Mustache] ok 3 - delimiter change
+[Template::Mustache] ok 4 - Comment with unmatched }
+[Template::Mustache] ok 5 - {{var}} substitution
+[Template::Mustache] ok 6 - {{=delim=}} substitution
+[Template::Mustache] ok 7 - The digit 0 prints
+[Template::Mustache] ok 8 - Triple-mustache substitution works
+[Template::Mustache] ok 9 - Triple-mustache substitution works when field name contains a minus
+[Template::Mustache] ok 10 - Can specify a log routine
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/02-file.rakutest
+[Template::Mustache] 1..8
+[Template::Mustache] ok 1 - Basic file template
+[Template::Mustache] ok 2 - Literal string override
+[Template::Mustache] ok 3 - Remembers original $!from
+[Template::Mustache] ok 4 - Renders empty template if file not found
+[Template::Mustache] ok 5 - Partial loads from file
+[Template::Mustache] ok 6 - Alternate extension
+[Template::Mustache] ok 7 - Instance extension can be overridden
+[Template::Mustache] ok 8 - Absolute path to templates
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/03-cascade.rakutest
+[Template::Mustache] 1..5
+[Template::Mustache] ok 1 - .render(:from) overrides instance $.from
+[Template::Mustache] ok 2 - .render(:from) doesn't obliterate instance $.from
+[Template::Mustache] ok 3 - .render(:from) overrides instance $.from for partials
+[Template::Mustache] ok 4 - .render(:from) doesn't obliterate instance $.from for partials
+[Template::Mustache] ok 5 - Inline partial can get filesystem partial
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/04-lambda.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] ok 1 - Interpolate lambda value
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/05-promise.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] ok 1 - Interpolate promise object
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/06-logging.rakutest
+[Template::Mustache] 1..3
+[Template::Mustache] ok 1 - Warn missing field(s)
+[Template::Mustache] ok 2 - Warn missing . field
+[Template::Mustache] ok 3 - Set log routine for Warn level to &die
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/10-objects.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] ok 1 - Object stringifies
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/11-iterable.rakutest
+[Template::Mustache] 1..6
+[Template::Mustache] ok 1 - with Positional
+[Template::Mustache] ok 2 - with Iterable
+[Template::Mustache] ok 3 - with Positional Object
+[Template::Mustache] ok 4 - with Iterable Object
+[Template::Mustache] ok 5 - Can run parallel hyper and list comparison routine
+[Template::Mustache] ok 6 - # SKIP set TEST_BENCHMARK to enable this test
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/12-inheritence.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] ok 1 - 'article' inherits 'layout' with overrides
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/13-pragmas.rakutest
+[Template::Mustache] 1..1
+[Template::Mustache] # Subtest: KEEP-UNUSED-VARIABLES
+[Template::Mustache]     1..3
+[Template::Mustache]     ok 1 - Keeps unused variable (render-time pragma)
+[Template::Mustache]     ok 2 - Keeps unused variable (instance pragma)
+[Template::Mustache]     ok 3 - Keeps unused variable (instance pragma)
+[Template::Mustache] ok 1 - KEEP-UNUSED-VARIABLES
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/50-readme.rakutest
+[Template::Mustache] 1..4
+[Template::Mustache] ok 1 - Hello world
+[Template::Mustache] ok 2 - Local time
+[Template::Mustache] ok 3 - Roster
+[Template::Mustache] ok 4 - Event
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/91-specs.rakutest
+[Template::Mustache] Expected a modifiable native int argument for '$pos'
+[Template::Mustache]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Template::Mustache]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Template::Mustache]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Template::Mustache]   in sub load-specs at /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/t/lib/Template/Mustache/TestUtil.rakumod (Template::Mustache::TestUtil) line 24
+[Template::Mustache]   in block <unit> at t/91-specs.rakutest line 7
+[Template::Mustache] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6 t/92-specs-file.rakutest
+[Template::Mustache] Expected a modifiable native int argument for '$pos'
+[Template::Mustache]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Template::Mustache]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Template::Mustache]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Template::Mustache]   in sub load-specs at /home/coke/sandbox/blin/data/zef-data/tmp/88be779dba17cf6db3e8ffaa45ab548b925306c6.tar.gz/Template-Mustache-1.2.6/t/lib/Template/Mustache/TestUtil.rakumod (Template::Mustache::TestUtil) line 24
+[Template::Mustache]   in block <unit> at t/92-specs-file.rakutest line 11
+===> Testing [FAIL]: Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0>
+[Template::Mustache] Failed to get passing tests, but continuing with --force-test
+===> Installing: Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0>
+===> Install [OK] for Template::Mustache:ver<1.2.6>:auth<zef:raku-community-modules>:api<1.2.0>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 20.924s
+             CPU time consumed: 26.151s
+                   Memory peak: 1.1G (swap: 0B)

@@ -1,0 +1,43 @@
+Running as unit: run-p1600105-i10024913.service; invocation ID: ec868fb343be4d0c8c6f312ff9e3e661
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: JSON::Collector
+===> Found: JSON::Collector:ver<0.0.4>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[JSON::Collector] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441301.1600108.8985.878877045765/b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz https://360.zef.pm/J/SO/JSON_COLLECTOR/b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz
+===> Fetching [OK]: JSON::Collector:ver<0.0.4>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1789441301.1600108.8985.878877045765/b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz
+[JSON::Collector] Command: tar -t -f ./b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz
+[JSON::Collector] Command: tar -xvf ./b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz -C ../b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz
+===> Extraction [OK]: JSON::Collector to /home/coke/sandbox/blin/data/zef-data/tmp/b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz
+===> Testing: JSON::Collector:ver<0.0.4>:auth<zef:lizmat>
+[JSON::Collector] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz/JSON-Collector-0.0.4 t/01-basic.rakutest
+[JSON::Collector] 1..11
+[JSON::Collector] ok 1 - was from-json re-exported
+[JSON::Collector] ok 2 - was to-json re-exported
+[JSON::Collector] ok 3 - was the store successful
+[JSON::Collector] ok 4 - is the data stored as expected
+[JSON::Collector] Expected a modifiable native int argument for '$pos'
+[JSON::Collector]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[JSON::Collector]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Collector]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Collector]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz/JSON-Collector-0.0.4/lib/JSON/Collector.rakumod (JSON::Collector) line 97
+[JSON::Collector]   in block <unit> at t/01-basic.rakutest line 28
+[JSON::Collector] # You planned 11 tests, but ran 4
+[JSON::Collector] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz/JSON-Collector-0.0.4 t/02-callable.rakutest
+[JSON::Collector] 1..5
+[JSON::Collector] ok 1 - was the store successful
+[JSON::Collector] ok 2 - is the data stored as expected
+[JSON::Collector] Expected a modifiable native int argument for '$pos'
+[JSON::Collector]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[JSON::Collector]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Collector]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Collector]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/b9bf8df9da63c75a44fed63a2069a247a9671bb8.tar.gz/JSON-Collector-0.0.4/lib/JSON/Collector.rakumod (JSON::Collector) line 97
+[JSON::Collector]   in block <unit> at t/02-callable.rakutest line 22
+[JSON::Collector] # You planned 5 tests, but ran 2
+===> Testing [FAIL]: JSON::Collector:ver<0.0.4>:auth<zef:lizmat>
+[JSON::Collector] Failed to get passing tests, but continuing with --force-test
+===> Installing: JSON::Collector:ver<0.0.4>:auth<zef:lizmat>
+===> Install [OK] for JSON::Collector:ver<0.0.4>:auth<zef:lizmat>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 11.162s
+             CPU time consumed: 13.323s
+                   Memory peak: 1G (swap: 0B)

@@ -1,0 +1,796 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: LLM::Data::Inference
+Running as unit: run-p2144423-i10580996.service; invocation ID: c80bdbcf67334bbea8481d8657537bfa
+Press ^] three times within 1s to disconnect TTY.
+===> Found: LLM::Data::Inference:ver<0.10.0>:auth<zef:apogee> [via Zef::Repository::Ecosystems<fez>]
+[LLM::Data::Inference] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789462023.2144430.1374.1968099094659/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz https://360.zef.pm/L/LM/LLM_DATA_INFERENCE/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz
+===> Fetching [OK]: LLM::Data::Inference:ver<0.10.0>:auth<zef:apogee> to /home/coke/sandbox/blin/data/zef-data/tmp/1789462023.2144430.1374.1968099094659/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz
+[LLM::Data::Inference] Command: tar -t -f ./9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz
+[LLM::Data::Inference] Command: tar -xvf ./9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz -C ../9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz
+===> Extraction [OK]: LLM::Data::Inference to /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz
+===> Testing: LLM::Data::Inference:ver<0.10.0>:auth<zef:apogee>
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/01-prompt-builder.rakutest
+[LLM::Data::Inference] 1..7
+[LLM::Data::Inference] # Subtest: Simple substitution
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Single variable replaced
+[LLM::Data::Inference] ok 1 - Simple substitution
+[LLM::Data::Inference] # Subtest: Multiple variables
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Multiple variables replaced
+[LLM::Data::Inference] ok 2 - Multiple variables
+[LLM::Data::Inference] # Subtest: Missing variable dies
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Dies on missing variable
+[LLM::Data::Inference] ok 3 - Missing variable dies
+[LLM::Data::Inference] # Subtest: Unused variables ignored
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Extra vars ignored
+[LLM::Data::Inference] ok 4 - Unused variables ignored
+[LLM::Data::Inference] # Subtest: Empty template
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Empty template returns empty
+[LLM::Data::Inference] ok 5 - Empty template
+[LLM::Data::Inference] # Subtest: No variables returns as-is
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - No placeholders returns template as-is
+[LLM::Data::Inference] ok 6 - No variables returns as-is
+[LLM::Data::Inference] # Subtest: Same variable used twice
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Repeated variable works
+[LLM::Data::Inference] ok 7 - Same variable used twice
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/02-task.rakutest
+[LLM::Data::Inference] 1..11
+[LLM::Data::Inference] # Subtest: Execute with no parser returns raw string
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Raw string returned
+[LLM::Data::Inference] ok 1 - Execute with no parser returns raw string
+[LLM::Data::Inference] # Subtest: Execute with parser returns parsed result
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Parser applied
+[LLM::Data::Inference] ok 2 - Execute with parser returns parsed result
+[LLM::Data::Inference] # Subtest: Parser failure advances to next backend
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - Advanced and got valid result
+[LLM::Data::Inference]     ok 2 - Parser invoked once per backend
+[LLM::Data::Inference] ok 3 - Parser failure advances to next backend
+[LLM::Data::Inference] # Subtest: Retries exhausted dies
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Dies after exhausting retries
+[LLM::Data::Inference] ok 4 - Retries exhausted dies
+[LLM::Data::Inference] # Subtest: System prompt included
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - System prompt does not cause error
+[LLM::Data::Inference] ok 5 - System prompt included
+[LLM::Data::Inference] # Subtest: Execute returns on first success without extra retries
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Parser called only once on success
+[LLM::Data::Inference] ok 6 - Execute returns on first success without extra retries
+[LLM::Data::Inference] # Subtest: Network error triggers backoff-retry and eventually succeeds
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - Succeeded after two transient failures
+[LLM::Data::Inference]     ok 2 - Exactly three backend calls — two failures + one success
+[LLM::Data::Inference] ok 7 - Network error triggers backoff-retry and eventually succeeds
+[LLM::Data::Inference] # Subtest: Network error that never recovers dies after max-retries
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - Dies when every attempt fails
+[LLM::Data::Inference]     ok 2 - Stopped at max-retries without infinite retry
+[LLM::Data::Inference] ok 8 - Network error that never recovers dies after max-retries
+[LLM::Data::Inference] # Subtest: on-call-complete fires once per network call (success path)
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - exactly one hook fire
+[LLM::Data::Inference]     ok 2 - attempt=1 on first success
+[LLM::Data::Inference]     ok 3 - success flag True
+[LLM::Data::Inference]     ok 4 - stage=network
+[LLM::Data::Inference]     ok 5 - latency-ms is non-negative
+[LLM::Data::Inference] ok 9 - on-call-complete fires once per network call (success path)
+[LLM::Data::Inference] # Subtest: on-call-complete fires on each backend in a fallback chain
+[LLM::Data::Inference]     1..6
+[LLM::Data::Inference]     ok 1 - advanced and got valid result
+[LLM::Data::Inference]     ok 2 - two hook fires — one per backend
+[LLM::Data::Inference]     ok 3 - first fire is attempt=1
+[LLM::Data::Inference]     ok 4 - second fire is attempt=2
+[LLM::Data::Inference]     ok 5 - first fire is backend 0
+[LLM::Data::Inference]     ok 6 - second fire is backend 1
+[LLM::Data::Inference] ok 10 - on-call-complete fires on each backend in a fallback chain
+[LLM::Data::Inference] # Subtest: on-call-complete fires even on network failure
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - succeeded after two failures
+[LLM::Data::Inference]     ok 2 - three hook fires — two failures + one success
+[LLM::Data::Inference]     ok 3 - first fire is a failure
+[LLM::Data::Inference]     ok 4 - failure fire carries the error message
+[LLM::Data::Inference] ok 11 - on-call-complete fires even on network failure
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/03-json-task.rakutest
+[LLM::Data::Inference] 1..8
+[LLM::Data::Inference] # Subtest: Valid JSON parsed correctly
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference] LLM::Data::Inference::Task: all 1 backend(s) exhausted.
+[LLM::Data::Inference]   [backend 0 unknown] parser: Expected a modifiable native int argument for '$pos'
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/Task.rakumod (LLM::Data::Inference::Task) line 771
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/JSONTask.rakumod (LLM::Data::Inference::JSONTask) line 172
+[LLM::Data::Inference]   in block <unit> at t/03-json-task.rakutest line 44
+[LLM::Data::Inference]     # You planned 2 tests, but ran 0
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/04-router.rakutest
+[LLM::Data::Inference] 1..6
+[LLM::Data::Inference] # Subtest: No routes match — default backend
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Falls back to default
+[LLM::Data::Inference] ok 1 - No routes match — default backend
+[LLM::Data::Inference] # Subtest: Single tag route matches
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - NSFW doc routed correctly
+[LLM::Data::Inference] ok 2 - Single tag route matches
+[LLM::Data::Inference] # Subtest: Multi-tag AND route matches
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - AND route matches doc with both tags
+[LLM::Data::Inference]     ok 2 - AND route does not match doc with only one tag
+[LLM::Data::Inference] ok 3 - Multi-tag AND route matches
+[LLM::Data::Inference] # Subtest: First matching route wins
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - First route takes priority
+[LLM::Data::Inference] ok 4 - First matching route wins
+[LLM::Data::Inference] # Subtest: Non-matching route skipped, later route matches
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Skipped gore, matched nsfw
+[LLM::Data::Inference] ok 5 - Non-matching route skipped, later route matches
+[LLM::Data::Inference] # Subtest: Complex query route
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - OR route matches violent
+[LLM::Data::Inference]     ok 2 - Safe doc not matched by OR route
+[LLM::Data::Inference] ok 6 - Complex query route
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/05-main.rakutest
+[LLM::Data::Inference] 1..4
+[LLM::Data::Inference] # Subtest: Task accessible
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Task type available
+[LLM::Data::Inference] ok 1 - Task accessible
+[LLM::Data::Inference] # Subtest: JSONTask accessible
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - JSONTask type available
+[LLM::Data::Inference] ok 2 - JSONTask accessible
+[LLM::Data::Inference] # Subtest: Router accessible
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - Router type available
+[LLM::Data::Inference] ok 3 - Router accessible
+[LLM::Data::Inference] # Subtest: PromptBuilder accessible
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference]     ok 1 - PromptBuilder type available
+[LLM::Data::Inference] ok 4 - PromptBuilder accessible
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/06-fallback.rakutest
+[LLM::Data::Inference] 1..13
+[LLM::Data::Inference] # Subtest: classify-error: 4xx auth codes abort
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - HTTP 400 → abort
+[LLM::Data::Inference]     ok 2 - HTTP 401 → abort
+[LLM::Data::Inference]     ok 3 - HTTP 402 → abort
+[LLM::Data::Inference]     ok 4 - HTTP 403 → abort
+[LLM::Data::Inference]     ok 5 - HTTP 404 → abort
+[LLM::Data::Inference] ok 1 - classify-error: 4xx auth codes abort
+[LLM::Data::Inference] # Subtest: classify-error: 429 + timeout + malformed → advance
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - 429 → advance
+[LLM::Data::Inference]     ok 2 - timeout → advance
+[LLM::Data::Inference]     ok 3 - response (malformed/empty) → advance
+[LLM::Data::Inference]     ok 4 - parser-failed → advance
+[LLM::Data::Inference] ok 2 - classify-error: 429 + timeout + malformed → advance
+[LLM::Data::Inference] # Subtest: classify-error: 5xx + connection + unknown → retry-same
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - 500 → retry-same
+[LLM::Data::Inference]     ok 2 - 503 → retry-same
+[LLM::Data::Inference]     ok 3 - 599 → retry-same
+[LLM::Data::Inference]     ok 4 - connection → retry-same
+[LLM::Data::Inference]     ok 5 - unknown → retry-same
+[LLM::Data::Inference] ok 3 - classify-error: 5xx + connection + unknown → retry-same
+[LLM::Data::Inference] # Subtest: 4xx auth error aborts immediately without trying fallbacks
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - dies on 401
+[LLM::Data::Inference]     ok 2 - primary hit once
+[LLM::Data::Inference]     ok 3 - fallback NOT hit (abort before advancing)
+[LLM::Data::Inference] ok 4 - 4xx auth error aborts immediately without trying fallbacks
+[LLM::Data::Inference] # Subtest: 402 payment-required aborts
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - dies on 402
+[LLM::Data::Inference]     ok 2 - 402 does not cascade to fallback
+[LLM::Data::Inference] ok 5 - 402 payment-required aborts
+[LLM::Data::Inference] # Subtest: Timeout advances to next backend without retrying same
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - fallback served the response
+[LLM::Data::Inference]     ok 2 - primary called exactly once (no same-model retry on timeout)
+[LLM::Data::Inference]     ok 3 - fallback called exactly once
+[LLM::Data::Inference] ok 6 - Timeout advances to next backend without retrying same
+[LLM::Data::Inference] # Subtest: 429 rate-limit advances to next backend
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - fallback served the response
+[LLM::Data::Inference]     ok 2 - 429 does not burn same-model retries
+[LLM::Data::Inference] ok 7 - 429 rate-limit advances to next backend
+[LLM::Data::Inference] # Subtest: 5xx triggers same-model retry up to max-retries, then advances
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - fallback served after primary exhausted
+[LLM::Data::Inference]     ok 2 - primary called max-retries times (initial + 1 retry)
+[LLM::Data::Inference]     ok 3 - fallback called once after primary exhausted
+[LLM::Data::Inference] ok 8 - 5xx triggers same-model retry up to max-retries, then advances
+[LLM::Data::Inference] # Subtest: Connection error retries same backend before advancing
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - same-model retry succeeded
+[LLM::Data::Inference]     ok 2 - fallback not needed when same-model retry works
+[LLM::Data::Inference] ok 9 - Connection error retries same backend before advancing
+[LLM::Data::Inference] # Subtest: Three-backend chain: timeout → parser failure → success
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference] LLM::Data::Inference::Task: all 3 backend(s) exhausted.
+[LLM::Data::Inference]   [backend 0 unknown] timeout: LLM call failed: timed out
+[LLM::Data::Inference]   [backend 1 unknown] parser: No JSON object or array found in response
+[LLM::Data::Inference]   [backend 2 unknown] parser: Expected a modifiable native int argument for '$pos'
+[LLM::Data::Inference]   At least one attempt hit the 120-second response deadline before completing: raise the task timeout, use a faster backend, or shrink the response.
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/Task.rakumod (LLM::Data::Inference::Task) line 771
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/JSONTask.rakumod (LLM::Data::Inference::JSONTask) line 172
+[LLM::Data::Inference]   in block <unit> at t/06-fallback.rakutest line 175
+[LLM::Data::Inference]     # You planned 4 tests, but ran 0
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/07-or-telemetry.rakutest
+[LLM::Data::Inference] 1..4
+[LLM::Data::Inference] # Subtest: OR Response → hook payload carries generation-id, not provider-id
+[LLM::Data::Inference]     1..6
+[LLM::Data::Inference]     ok 1 - one hook fire
+[LLM::Data::Inference]     ok 2 - cost in payload
+[LLM::Data::Inference]     ok 3 - generation-id in payload
+[LLM::Data::Inference]     ok 4 - provider-name in payload
+[LLM::Data::Inference]     ok 5 - is-byok in payload
+[LLM::Data::Inference]     ok 6 - provider-id key removed
+[LLM::Data::Inference] ok 1 - OR Response → hook payload carries generation-id, not provider-id
+[LLM::Data::Inference] # Subtest: OAI-spec keys still flow alongside OR extras
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - OAI prompt-tokens lifted
+[LLM::Data::Inference]     ok 2 - OAI completion-tokens lifted
+[LLM::Data::Inference]     ok 3 - OAI total-tokens lifted
+[LLM::Data::Inference]     ok 4 - OAI model-used lifted
+[LLM::Data::Inference] ok 2 - OAI-spec keys still flow alongside OR extras
+[LLM::Data::Inference] # Subtest: Base Response → OR keys absent from payload
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - OAI keys present
+[LLM::Data::Inference]     ok 2 - OAI model-used present
+[LLM::Data::Inference]     ok 3 - cost absent on base Response
+[LLM::Data::Inference]     ok 4 - generation-id absent on base Response
+[LLM::Data::Inference]     ok 5 - provider-name absent on base Response
+[LLM::Data::Inference] ok 3 - Base Response → OR keys absent from payload
+[LLM::Data::Inference] # Subtest: OR Response with no fake-usage extras leaves keys absent
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - cost absent without fake-usage
+[LLM::Data::Inference]     ok 2 - generation-id absent without fake-usage
+[LLM::Data::Inference]     ok 3 - provider-name absent without fake-usage
+[LLM::Data::Inference]     ok 4 - is-byok absent without fake-usage
+[LLM::Data::Inference] ok 4 - OR Response with no fake-usage extras leaves keys absent
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/08-parse-retry.rakutest
+[LLM::Data::Inference] 1..5
+[LLM::Data::Inference] # Subtest: parse-retries re-rolls the same backend until output parses
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - third roll parses and is returned
+[LLM::Data::Inference]     ok 2 - exactly three round-trips were made
+[LLM::Data::Inference] ok 1 - parse-retries re-rolls the same backend until output parses
+[LLM::Data::Inference] # Subtest: default parse-retries=0 keeps the historical advance behaviour
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     # Subtest: single malformed response exhausts a one-backend chain
+[LLM::Data::Inference]         1..3
+[LLM::Data::Inference]         ok 1 - code dies
+[LLM::Data::Inference]         ok 2 - right exception type (LLM::Data::Inference::Exceptions::X::LLM::Data::Inference::Exhausted)
+[LLM::Data::Inference]         ok 3 - .message matches /'all 1 backend(s) exhausted'/
+[LLM::Data::Inference]     ok 1 - single malformed response exhausts a one-backend chain
+[LLM::Data::Inference]     ok 2 - no same-backend re-roll happened
+[LLM::Data::Inference] ok 2 - default parse-retries=0 keeps the historical advance behaviour
+[LLM::Data::Inference] # Subtest: exhaustion carries every raw model output for parse failures
+[LLM::Data::Inference]     1..6
+[LLM::Data::Inference]     ok 1 - typed exception thrown
+[LLM::Data::Inference]     ok 2 - both attempts recorded
+[LLM::Data::Inference]     ok 3 - first raw output retained
+[LLM::Data::Inference]     ok 4 - second raw output retained
+[LLM::Data::Inference]     ok 5 - backend index recorded
+[LLM::Data::Inference]     ok 6 - message keeps the aggregate error summary
+[LLM::Data::Inference] ok 3 - exhaustion carries every raw model output for parse failures
+[LLM::Data::Inference] # Subtest: network failures record attempts without raw-text
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - typed exception thrown
+[LLM::Data::Inference]     ok 2 - one attempt recorded
+[LLM::Data::Inference]     ok 3 - network failure has no raw-text key
+[LLM::Data::Inference] ok 4 - network failures record attempts without raw-text
+[LLM::Data::Inference] # Subtest: JSONTask threads parse-retries through to the inner Task
+[LLM::Data::Inference]     1..1
+[LLM::Data::Inference] LLM::Data::Inference::Task: all 1 backend(s) exhausted.
+[LLM::Data::Inference]   [backend 0 unknown] parser: No JSON object or array found in response
+[LLM::Data::Inference]   [backend 0 unknown] parser: Expected a modifiable native int argument for '$pos'
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/Task.rakumod (LLM::Data::Inference::Task) line 771
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/JSONTask.rakumod (LLM::Data::Inference::JSONTask) line 172
+[LLM::Data::Inference]   in block <unit> at t/08-parse-retry.rakutest line 116
+[LLM::Data::Inference]     # You planned 1 test, but ran 0
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/09-cancellation.rakutest
+[LLM::Data::Inference] 1..8
+[LLM::Data::Inference] # Subtest: absent or False hook leaves behaviour unchanged
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - no hook: result returned
+[LLM::Data::Inference]     ok 2 - False hook: result returned
+[LLM::Data::Inference] ok 1 - absent or False hook leaves behaviour unchanged
+[LLM::Data::Inference] # Subtest: cancelled before the first call: zero round-trips
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - typed Cancelled exception thrown
+[LLM::Data::Inference]     ok 2 - no HTTP round-trip was made
+[LLM::Data::Inference]     ok 3 - no attempt records — nothing ran
+[LLM::Data::Inference] ok 2 - cancelled before the first call: zero round-trips
+[LLM::Data::Inference] # Subtest: cancel after a parse failure skips the re-roll
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - Cancelled thrown instead of re-rolling
+[LLM::Data::Inference]     ok 2 - exactly one round-trip — re-roll budget unspent
+[LLM::Data::Inference]     ok 3 - the failed parse attempt is on record
+[LLM::Data::Inference]     ok 4 - raw model output retained for inspection
+[LLM::Data::Inference] ok 3 - cancel after a parse failure skips the re-roll
+[LLM::Data::Inference] # Subtest: cancel mid-call aborts the in-flight response
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     # Subtest: mid-flight cancel throws the typed exception
+[LLM::Data::Inference]         1..2
+[LLM::Data::Inference]         ok 1 - code dies
+[LLM::Data::Inference]         ok 2 - right exception type (LLM::Data::Inference::Exceptions::X::LLM::Data::Inference::Cancelled)
+[LLM::Data::Inference]     ok 1 - mid-flight cancel throws the typed exception
+[LLM::Data::Inference]     ok 2 - returned well before the 2 s response latency — call was aborted
+[LLM::Data::Inference]     ok 3 - the one in-flight call is all there was
+[LLM::Data::Inference] ok 4 - cancel mid-call aborts the in-flight response
+[LLM::Data::Inference] # Subtest: mid-call cancel aborts via Backend.cancel, not Response.cancel
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     # Subtest: mid-flight cancel still throws the typed exception
+[LLM::Data::Inference]         1..2
+[LLM::Data::Inference]         ok 1 - code dies
+[LLM::Data::Inference]         ok 2 - right exception type (LLM::Data::Inference::Exceptions::X::LLM::Data::Inference::Cancelled)
+[LLM::Data::Inference]     ok 1 - mid-flight cancel still throws the typed exception
+[LLM::Data::Inference]     ok 2 - abort routed through Backend.cancel — upstream stop signal fires
+[LLM::Data::Inference]     ok 3 - still returned well before the 2 s latency — local close intact
+[LLM::Data::Inference] ok 5 - mid-call cancel aborts via Backend.cancel, not Response.cancel
+[LLM::Data::Inference] # Subtest: deadline abort also routes through Backend.cancel
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - deadline abort carries the upstream stop signal too
+[LLM::Data::Inference]     ok 2 - returned on the 0.2 s deadline, not the 3 s response latency
+[LLM::Data::Inference] ok 6 - deadline abort also routes through Backend.cancel
+[LLM::Data::Inference] # Subtest: cancel interrupts retry backoff
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     # Subtest: cancel lands during backoff, not after it
+[LLM::Data::Inference]         1..2
+[LLM::Data::Inference]         ok 1 - code dies
+[LLM::Data::Inference]         ok 2 - right exception type (LLM::Data::Inference::Exceptions::X::LLM::Data::Inference::Cancelled)
+[LLM::Data::Inference]     ok 1 - cancel lands during backoff, not after it
+[LLM::Data::Inference]     ok 2 - no full backoff sleep was served (first wait would be >= 1 s)
+[LLM::Data::Inference]     ok 3 - no retry round-trip happened
+[LLM::Data::Inference] ok 7 - cancel interrupts retry backoff
+[LLM::Data::Inference] # Subtest: is-cancelled threads through JSONTask
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference] LLM::Data::Inference::Task: all 1 backend(s) exhausted.
+[LLM::Data::Inference]   [backend 0 unknown] parser: Expected a modifiable native int argument for '$pos'
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/Task.rakumod (LLM::Data::Inference::Task) line 771
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/JSONTask.rakumod (LLM::Data::Inference::JSONTask) line 172
+[LLM::Data::Inference]   in block <unit> at t/09-cancellation.rakutest line 203
+[LLM::Data::Inference]     # You planned 2 tests, but ran 0
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/10-on-exhausted.rakutest
+[LLM::Data::Inference] 1..6
+[LLM::Data::Inference] # Subtest: fires exactly once on full exhaustion, payload matches the thrown exception
+[LLM::Data::Inference]     1..8
+[LLM::Data::Inference]     ok 1 - typed exception thrown
+[LLM::Data::Inference]     ok 2 - hook fired exactly once
+[LLM::Data::Inference]     ok 3 - stage is exhausted
+[LLM::Data::Inference]     ok 4 - backends count matches chain length
+[LLM::Data::Inference]     ok 5 - summary matches the exception
+[LLM::Data::Inference]     ok 6 - attempts count matches
+[LLM::Data::Inference]     ok 7 - every record is the identical Hash the exception carries — same objects
+[LLM::Data::Inference]     ok 8 - first attempt tagged backend 0
+[LLM::Data::Inference] ok 1 - fires exactly once on full exhaustion, payload matches the thrown exception
+[LLM::Data::Inference] # Subtest: parse-failure exhaustion includes raw-text in attempts
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - typed exception thrown
+[LLM::Data::Inference]     ok 2 - hook fired exactly once
+[LLM::Data::Inference]     ok 3 - first raw output present in hook payload
+[LLM::Data::Inference]     ok 4 - second raw output present in hook payload
+[LLM::Data::Inference] ok 2 - parse-failure exhaustion includes raw-text in attempts
+[LLM::Data::Inference] # Subtest: hook NOT fired on success
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - succeeds normally
+[LLM::Data::Inference]     ok 2 - hook never fired on the success path
+[LLM::Data::Inference] ok 3 - hook NOT fired on success
+[LLM::Data::Inference] # Subtest: hook NOT fired on cancellation
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - typed Cancelled exception thrown
+[LLM::Data::Inference]     ok 2 - no HTTP round-trip was made
+[LLM::Data::Inference]     ok 3 - on-exhausted never fired on the Cancelled path
+[LLM::Data::Inference] ok 4 - hook NOT fired on cancellation
+[LLM::Data::Inference] # Subtest: a hook that dies is shielded — Exhausted still thrown
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference] exhausted hook: boom, broken hook
+[LLM::Data::Inference]     ok 1 - Exhausted still thrown despite the throwing hook
+[LLM::Data::Inference]     ok 2 - no other exception leaked out of execute
+[LLM::Data::Inference]     ok 3 - exception summary is intact — the hook did not alter it
+[LLM::Data::Inference] ok 5 - a hook that dies is shielded — Exhausted still thrown
+[LLM::Data::Inference] # Subtest: JSONTask forwards on-exhausted to the inner Task
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - typed exception thrown after the JSON chain exhausts
+[LLM::Data::Inference]     ok 2 - hook fired exactly once
+[LLM::Data::Inference]     ok 3 - stage is exhausted
+[LLM::Data::Inference]     ok 4 - raw text of the first failed parse is present in the hook payload
+[LLM::Data::Inference]     ok 5 - payload attempts count matches the caught exception
+[LLM::Data::Inference] ok 6 - JSONTask forwards on-exhausted to the inner Task
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/11-truncation.rakutest
+[LLM::Data::Inference] 1..9
+[LLM::Data::Inference] # Subtest: truncation fails fast without burning parse-retries
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - the chain throws
+[LLM::Data::Inference]     ok 2 - exactly ONE round-trip — the parse-retry budget is untouched
+[LLM::Data::Inference]     ok 3 - one attempt recorded
+[LLM::Data::Inference]     ok 4 - the attempt is recorded as a truncation
+[LLM::Data::Inference]     ok 5 - the partial output is preserved for inspection
+[LLM::Data::Inference] ok 1 - truncation fails fast without burning parse-retries
+[LLM::Data::Inference] # Subtest: Truncated is an Exhausted subclass, and not a Cancelled
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - the specific type is thrown
+[LLM::Data::Inference]     ok 2 - ... and it IS an Exhausted
+[LLM::Data::Inference]     ok 3 - ... but never a Cancelled — the caller did not withdraw
+[LLM::Data::Inference]     ok 4 - a bare `when Exhausted` handler catches it unchanged
+[LLM::Data::Inference]     ok 5 - the message names the budget that was hit
+[LLM::Data::Inference] ok 2 - Truncated is an Exhausted subclass, and not a Cancelled
+[LLM::Data::Inference] # Subtest: a truncating backend advances to one that fits
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - the larger-budget backend produces the result
+[LLM::Data::Inference]     ok 2 - the truncating backend was tried exactly once
+[LLM::Data::Inference]     ok 3 - the fallback was reached on the very next call
+[LLM::Data::Inference]     ok 4 - ... where accept burns all three attempts on the doomed backend
+[LLM::Data::Inference] ok 3 - a truncating backend advances to one that fits
+[LLM::Data::Inference] # Subtest: parser-less Task keeps the partial text (derived accept)
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - truncated prose is returned, not thrown
+[LLM::Data::Inference]     ok 2 - one call, no retries
+[LLM::Data::Inference]     ok 3 - the attribute itself is still the derive sentinel
+[LLM::Data::Inference] ok 4 - parser-less Task keeps the partial text (derived accept)
+[LLM::Data::Inference] # Subtest: parser-less Task can opt INTO failing on truncation
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - explicit fail overrides the derived accept
+[LLM::Data::Inference]     ok 2 - the partial prose is still captured on the record
+[LLM::Data::Inference]     ok 3 - one call
+[LLM::Data::Inference] ok 5 - parser-less Task can opt INTO failing on truncation
+[LLM::Data::Inference] # Subtest: parser Task can opt INTO accepting truncated output
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - explicit accept overrides the derived fail
+[LLM::Data::Inference]     ok 2 - one call
+[LLM::Data::Inference]     ok 3 - the attribute reads back
+[LLM::Data::Inference] ok 6 - parser Task can opt INTO accepting truncated output
+[LLM::Data::Inference] # Subtest: think-budget burnout reports as truncation, not empty body
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - an empty truncated body is still a truncation
+[LLM::Data::Inference]     ok 2 - diagnosed as truncated
+[LLM::Data::Inference]     ok 3 - NOT diagnosed as an empty response body
+[LLM::Data::Inference] ok 7 - think-budget burnout reports as truncation, not empty body
+[LLM::Data::Inference] # Subtest: on-exhausted fires with the lever line and identical attempts
+[LLM::Data::Inference]     1..6
+[LLM::Data::Inference]     ok 1 - one truncation anywhere in the chain types the whole failure
+[LLM::Data::Inference]     ok 2 - the DLQ hook still fires exactly once
+[LLM::Data::Inference]     ok 3 - hook summary is the exception summary
+[LLM::Data::Inference]     ok 4 - the summary names the lever
+[LLM::Data::Inference]     ok 5 - the DLQ payload carries the identical attempt records
+[LLM::Data::Inference]     ok 6 - both the truncation and the parse failure are recorded
+[LLM::Data::Inference] ok 8 - on-exhausted fires with the lever line and identical attempts
+[LLM::Data::Inference] # Subtest: JSONTask defaults to fail and honours an explicit accept
+[LLM::Data::Inference]     1..6
+[LLM::Data::Inference]     ok 1 - a truncated JSON body throws Truncated by default
+[LLM::Data::Inference]     ok 2 - three parse-retries were available and none were spent
+[LLM::Data::Inference]     ok 3 - the lever is in the message
+[LLM::Data::Inference] LLM::Data::Inference::Task: all 1 backend(s) exhausted.
+[LLM::Data::Inference]   [backend 0 unknown] parser: Found ' but no matching ' in response
+[LLM::Data::Inference]   [backend 0 unknown] parser: Expected a modifiable native int argument for '$pos'
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/Task.rakumod (LLM::Data::Inference::Task) line 771
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/JSONTask.rakumod (LLM::Data::Inference::JSONTask) line 172
+[LLM::Data::Inference]   in block <unit> at t/11-truncation.rakutest line 288
+[LLM::Data::Inference]     # You planned 6 tests, but ran 3
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/12-retry-feedback.rakutest
+[LLM::Data::Inference] 1..7
+[LLM::Data::Inference] # Subtest: an informed re-roll recovers where a blind one would not
+[LLM::Data::Inference]     1..7
+[LLM::Data::Inference]     ok 1 - the second, informed attempt produces the result
+[LLM::Data::Inference]     ok 2 - exactly one re-roll was needed
+[LLM::Data::Inference]     ok 3 - the FIRST call is pristine — nothing to feed back yet
+[LLM::Data::Inference]     ok 4 - ... just the user prompt
+[LLM::Data::Inference]     ok 5 - the re-roll carries exactly one extra turn
+[LLM::Data::Inference]     ok 6 - ... appended as a user turn (last position)
+[LLM::Data::Inference]     ok 7 - ... whose wording is the canned feedback message, verbatim
+[LLM::Data::Inference] ok 1 - an informed re-roll recovers where a blind one would not
+[LLM::Data::Inference] # Subtest: each re-roll replaces the previous feedback, never accumulates
+[LLM::Data::Inference]     1..8
+[LLM::Data::Inference]     # Subtest: all three attempts fail and the chain exhausts
+[LLM::Data::Inference]         1..2
+[LLM::Data::Inference]         ok 1 - code dies
+[LLM::Data::Inference]         ok 2 - right exception type (LLM::Data::Inference::Exceptions::X::LLM::Data::Inference::Exhausted)
+[LLM::Data::Inference]     ok 1 - all three attempts fail and the chain exhausts
+[LLM::Data::Inference]     ok 2 - the full re-roll budget was spent
+[LLM::Data::Inference]     ok 3 - call 1: system + user, pristine
+[LLM::Data::Inference]     ok 4 - call 2: one appended turn
+[LLM::Data::Inference]     ok 5 - ... carrying the FIRST rejection
+[LLM::Data::Inference]     ok 6 - call 3: still ONE appended turn — feedback replaced, not stacked
+[LLM::Data::Inference]     ok 7 - ... carrying the SECOND rejection
+[LLM::Data::Inference]     ok 8 - ... and no trace of the first, now-stale complaint
+[LLM::Data::Inference] ok 2 - each re-roll replaces the previous feedback, never accumulates
+[LLM::Data::Inference] # Subtest: off by default — blind re-rolls are unchanged
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     # Subtest: the chain still exhausts
+[LLM::Data::Inference]         1..2
+[LLM::Data::Inference]         ok 1 - code dies
+[LLM::Data::Inference]         ok 2 - right exception type (LLM::Data::Inference::Exceptions::X::LLM::Data::Inference::Exhausted)
+[LLM::Data::Inference]     ok 1 - the chain still exhausts
+[LLM::Data::Inference]     ok 2 - the attribute defaults to False
+[LLM::Data::Inference]     ok 3 - three attempts, as before
+[LLM::Data::Inference]     ok 4 - every re-roll sent the identical single-turn prompt
+[LLM::Data::Inference] ok 3 - off by default — blind re-rolls are unchanged
+[LLM::Data::Inference] # Subtest: a truncation advance never produces feedback
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - the larger-budget backend produces the result
+[LLM::Data::Inference]     ok 2 - the truncating backend was tried once — no informed re-roll
+[LLM::Data::Inference]     ok 3 - the fallback was reached immediately
+[LLM::Data::Inference]     ok 4 - the fallback got a pristine prompt
+[LLM::Data::Inference]     ok 5 - ... with no feedback smuggled into the user turn
+[LLM::Data::Inference] ok 4 - a truncation advance never produces feedback
+[LLM::Data::Inference] # Subtest: feedback does not cross a backend advance
+[LLM::Data::Inference]     1..6
+[LLM::Data::Inference]     ok 1 - the second backend answers
+[LLM::Data::Inference]     ok 2 - backend 0 spent its one re-roll
+[LLM::Data::Inference]     ok 3 - backend 0 call 1: pristine
+[LLM::Data::Inference]     ok 4 - backend 0 call 2: informed — feedback works within a backend
+[LLM::Data::Inference]     ok 5 - backend 1 needed one call
+[LLM::Data::Inference]     ok 6 - backend 1 call 1: pristine — the slot died with backend 0
+[LLM::Data::Inference] ok 5 - feedback does not cross a backend advance
+[LLM::Data::Inference] # Subtest: a network retry-same sends the same prompt it always did
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - the retry-same recovers as before
+[LLM::Data::Inference]     ok 2 - one failed call plus one retry
+[LLM::Data::Inference]     ok 3 - the failed call: one turn
+[LLM::Data::Inference]     ok 4 - the retry: still one turn — no feedback invented for it
+[LLM::Data::Inference] ok 6 - a network retry-same sends the same prompt it always did
+[LLM::Data::Inference] # Subtest: JSONTask threads the flag through, validator message included
+[LLM::Data::Inference]     1..6
+[LLM::Data::Inference] LLM::Data::Inference::Task: all 1 backend(s) exhausted.
+[LLM::Data::Inference]   [backend 0 unknown] parser: Expected a modifiable native int argument for '$pos'
+[LLM::Data::Inference]   [backend 0 unknown] parser: Expected a modifiable native int argument for '$pos'
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/Task.rakumod (LLM::Data::Inference::Task) line 771
+[LLM::Data::Inference]   in method execute at /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0/lib/LLM/Data/Inference/JSONTask.rakumod (LLM::Data::Inference::JSONTask) line 172
+[LLM::Data::Inference]   in block <unit> at t/12-retry-feedback.rakutest line 251
+[LLM::Data::Inference]     # You planned 6 tests, but ran 0
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/13-timeout.rakutest
+[LLM::Data::Inference] 1..8
+[LLM::Data::Inference] # Subtest: a chain exhausted on deadlines throws TimedOut
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - the deadline-specific type is thrown
+[LLM::Data::Inference]     ok 2 - a timeout advances at once — no same-model re-roll
+[LLM::Data::Inference]     ok 3 - one attempt recorded
+[LLM::Data::Inference]     ok 4 - the attempt is recorded as a timeout
+[LLM::Data::Inference] ok 1 - a chain exhausted on deadlines throws TimedOut
+[LLM::Data::Inference] # Subtest: the Task-side deadline types the failure too
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - the Task giving up is a TimedOut, not a bare Exhausted
+[LLM::Data::Inference]     ok 2 - returned on the 0.2 s deadline, not the 5 s response latency
+[LLM::Data::Inference]     ok 3 - the lever quotes the deadline that actually fired
+[LLM::Data::Inference] ok 2 - the Task-side deadline types the failure too
+[LLM::Data::Inference] # Subtest: TimedOut is an Exhausted, and neither Truncated nor Cancelled
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - ... it IS an Exhausted
+[LLM::Data::Inference]     ok 2 - ... but not a Truncated — nothing hit the token budget
+[LLM::Data::Inference]     ok 3 - ... and never a Cancelled — the caller did not withdraw
+[LLM::Data::Inference]     ok 4 - a bare `when Exhausted` handler catches it unchanged
+[LLM::Data::Inference]     ok 5 - a narrower TimedOut arm before the Exhausted arm wins
+[LLM::Data::Inference] ok 3 - TimedOut is an Exhausted, and neither Truncated nor Cancelled
+[LLM::Data::Inference] # Subtest: the summary names the deadline and its levers
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - the actual timeout value is in the lever line
+[LLM::Data::Inference]     ok 2 - lever 1
+[LLM::Data::Inference]     ok 3 - lever 2
+[LLM::Data::Inference]     ok 4 - lever 3
+[LLM::Data::Inference]     ok 5 - message is still the summary — string-matching callers unaffected
+[LLM::Data::Inference] ok 4 - the summary names the deadline and its levers
+[LLM::Data::Inference] # Subtest: the exhausted hook carries the timeout lever too
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - one timeout anywhere in the chain types the whole failure
+[LLM::Data::Inference]     ok 2 - the DLQ hook still fires exactly once
+[LLM::Data::Inference]     ok 3 - the hook sees the same summary, lever line included
+[LLM::Data::Inference] ok 5 - the exhausted hook carries the timeout lever too
+[LLM::Data::Inference] # Subtest: Truncated wins when a chain saw both pathologies
+[LLM::Data::Inference]     1..8
+[LLM::Data::Inference]     ok 1 - truncation then timeout throws Truncated
+[LLM::Data::Inference]     ok 2 - ... and NOT a TimedOut — the two subclasses are siblings
+[LLM::Data::Inference]     ok 3 - the truncation lever is present
+[LLM::Data::Inference]     ok 4 - ... alongside the timeout lever — both fixes are named
+[LLM::Data::Inference]     ok 5 - both attempts recorded
+[LLM::Data::Inference]     ok 6 - timeout then truncation ALSO throws Truncated
+[LLM::Data::Inference]     ok 7 - the default deadline is reported when it is the one in force
+[LLM::Data::Inference]     ok 8 - ... and the whole point: the item stops being re-run
+[LLM::Data::Inference] ok 6 - Truncated wins when a chain saw both pathologies
+[LLM::Data::Inference] # Subtest: the advice contract: Truncated declares False, TimedOut abstains
+[LLM::Data::Inference]     1..8
+[LLM::Data::Inference]     ok 1 - Truncated.item-retryable is False
+[LLM::Data::Inference]     ok 2 - ... a real Bool, not a truthy stand-in
+[LLM::Data::Inference]     ok 3 - ... which a duck-typed consumer reads as "do not re-run"
+[LLM::Data::Inference]     ok 4 - TimedOut does not define item-retryable at all
+[LLM::Data::Inference]     ok 5 - ... so the .? probe returns Nil
+[LLM::Data::Inference]     ok 6 - ... and an absent method defaults to retryable
+[LLM::Data::Inference]     ok 7 - plain Exhausted abstains too
+[LLM::Data::Inference]     ok 8 - ... and is therefore retryable, exactly as before 0.8.0
+[LLM::Data::Inference] ok 7 - the advice contract: Truncated declares False, TimedOut abstains
+[LLM::Data::Inference] # Subtest: a chain that hit neither pathology is unchanged
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - still a plain Exhausted
+[LLM::Data::Inference]     ok 2 - ... not a TimedOut
+[LLM::Data::Inference]     ok 3 - ... not a Truncated
+[LLM::Data::Inference]     ok 4 - the summary is byte-identical to the historical one — no levers
+[LLM::Data::Inference] ok 8 - a chain that hit neither pathology is unchanged
+[LLM::Data::Inference] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9123464fca9f9df34fc342e640d42e4b7391bb61.tar.gz/LLM-Data-Inference-0.10.0 t/14-shared-exceptions.rakutest
+[LLM::Data::Inference] 1..12
+[LLM::Data::Inference] # Subtest: Exhausted matches both hierarchies
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - the inference type
+[LLM::Data::Inference]     ok 2 - AND the shared type
+[LLM::Data::Inference]     ok 3 - but not a shared subclass
+[LLM::Data::Inference]     ok 4 - nor the other one
+[LLM::Data::Inference] ok 1 - Exhausted matches both hierarchies
+[LLM::Data::Inference] # Subtest: Truncated matches four types at once
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - its own type
+[LLM::Data::Inference]     ok 2 - the inference base — existing DLQ routing still catches it
+[LLM::Data::Inference]     ok 3 - the shared truncation type
+[LLM::Data::Inference]     ok 4 - the shared base
+[LLM::Data::Inference]     ok 5 - and not its sibling
+[LLM::Data::Inference] ok 2 - Truncated matches four types at once
+[LLM::Data::Inference] # Subtest: TimedOut matches four types at once
+[LLM::Data::Inference]     1..5
+[LLM::Data::Inference]     ok 1 - its own type
+[LLM::Data::Inference]     ok 2 - the inference base
+[LLM::Data::Inference]     ok 3 - the shared deadline type
+[LLM::Data::Inference]     ok 4 - the shared base
+[LLM::Data::Inference]     ok 5 - and not its sibling
+[LLM::Data::Inference] ok 3 - TimedOut matches four types at once
+[LLM::Data::Inference] # Subtest: Cancelled is not an exhaustion in EITHER hierarchy
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - the inference type
+[LLM::Data::Inference]     ok 2 - AND the shared type
+[LLM::Data::Inference]     ok 3 - a user cancel must never reach an exhaustion handler
+[LLM::Data::Inference]     ok 4 - ...not even a shared-hierarchy one
+[LLM::Data::Inference] ok 4 - Cancelled is not an exhaustion in EITHER hierarchy
+[LLM::Data::Inference] # Subtest: inherited attributes and message
+[LLM::Data::Inference]     1..6
+[LLM::Data::Inference]     ok 1 - attempts survive the inheritance
+[LLM::Data::Inference]     ok 2 - record contents are untouched
+[LLM::Data::Inference]     ok 3 - and a record without raw-text still has no such key
+[LLM::Data::Inference]     ok 4 - summary accessor
+[LLM::Data::Inference]     ok 5 - message is still the summary verbatim
+[LLM::Data::Inference]     ok 6 - the required summary is still required
+[LLM::Data::Inference] ok 5 - inherited attributes and message
+[LLM::Data::Inference] # Subtest: Cancelled message strings are byte-identical to 0.8.0
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - no attempts: no suffix
+[LLM::Data::Inference]     ok 2 - one attempt: singular count, plural spelling
+[LLM::Data::Inference]     ok 3 - three attempts
+[LLM::Data::Inference] ok 6 - Cancelled message strings are byte-identical to 0.8.0
+[LLM::Data::Inference] # Subtest: the message override does NOT leak the shared wording
+[LLM::Data::Inference]     1..2
+[LLM::Data::Inference]     ok 1 - the subclass wording wins
+[LLM::Data::Inference]     ok 2 - and the parent keeps its own
+[LLM::Data::Inference] ok 7 - the message override does NOT leak the shared wording
+[LLM::Data::Inference] # Subtest: item-retryable advice survives the move
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - Truncated still advises against a blind item re-run
+[LLM::Data::Inference]     ok 2 - TimedOut still abstains — a deadline miss is transient
+[LLM::Data::Inference]     ok 3 - plain Exhausted still abstains
+[LLM::Data::Inference]     ok 4 - Cancelled still abstains
+[LLM::Data::Inference] ok 8 - item-retryable advice survives the move
+[LLM::Data::Inference] # Subtest: a real exhausted chain is caught by a shared-type handler
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - a generic retry handler catches it
+[LLM::Data::Inference]     ok 2 - and it is still the inference type underneath
+[LLM::Data::Inference]     ok 3 - both attempts recorded
+[LLM::Data::Inference]     ok 4 - summary unchanged
+[LLM::Data::Inference] ok 9 - a real exhausted chain is caught by a shared-type handler
+[LLM::Data::Inference] # Subtest: a real truncated chain carries the advice through
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - a shared-hierarchy Truncated arm catches the Task throw
+[LLM::Data::Inference]     ok 2 - still the inference type
+[LLM::Data::Inference]     ok 3 - and an orchestrator is still told not to re-run the item
+[LLM::Data::Inference]     ok 4 - the partial output survives
+[LLM::Data::Inference] ok 10 - a real truncated chain carries the advice through
+[LLM::Data::Inference] # Subtest: a real deadline exhaustion is caught by the shared TimedOut
+[LLM::Data::Inference]     1..3
+[LLM::Data::Inference]     ok 1 - a shared TimedOut arm catches it
+[LLM::Data::Inference]     ok 2 - and it is still an inference exhaustion
+[LLM::Data::Inference]     ok 3 - still no advice — the item keeps its full budget
+[LLM::Data::Inference] ok 11 - a real deadline exhaustion is caught by the shared TimedOut
+[LLM::Data::Inference] # Subtest: a real cancel is caught by the shared Cancelled, with its own message
+[LLM::Data::Inference]     1..4
+[LLM::Data::Inference]     ok 1 - a shared Cancelled arm catches the Task throw
+[LLM::Data::Inference]     ok 2 - and it is still not an exhaustion in either hierarchy
+[LLM::Data::Inference]     ok 3 - the one failed attempt is on record
+[LLM::Data::Inference]     ok 4 - with this distribution's own wording, unchanged
+[LLM::Data::Inference] ok 12 - a real cancel is caught by the shared Cancelled, with its own message
+===> Testing [FAIL]: LLM::Data::Inference:ver<0.10.0>:auth<zef:apogee>
+[LLM::Data::Inference] Failed to get passing tests, but continuing with --force-test
+===> Installing: LLM::Data::Inference:ver<0.10.0>:auth<zef:apogee>
+===> Install [OK] for LLM::Data::Inference:ver<0.10.0>:auth<zef:apogee>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 8.248s
+             CPU time consumed: 1min 17.401s
+                   Memory peak: 1.5G (swap: 0B)

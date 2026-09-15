@@ -1,0 +1,135 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Dist::Helper
+Running as unit: run-p1878121-i10226407.service; invocation ID: 8f7aa12035a74740b0bbaed946bd3fda
+Press ^] three times within 1s to disconnect TTY.
+===> Found: Dist::Helper:ver<1.0.1>:auth<cpan:TYIL>:api<1> [via Zef::Repository::Ecosystems<rea>]
+[Dist::Helper] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789447507.1878124.4684.697866836997/Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/D/Dist%3A%3AHelper/Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz
+===> Fetching [OK]: Dist::Helper:ver<1.0.1>:auth<cpan:TYIL>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789447507.1878124.4684.697866836997/Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz
+[Dist::Helper] Command: tar -t -f ./Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz
+[Dist::Helper] Command: tar -xvf ./Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz -C ../Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz
+===> Extraction [OK]: Dist::Helper to /home/coke/sandbox/blin/data/zef-data/tmp/Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz
+===> Testing: Dist::Helper:ver<1.0.1>:auth<github:scriptkitties>:api<1>
+[Dist::Helper] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz/Dist-Helper-1.0.1 t/00-use.t
+[Dist::Helper] Expected a modifiable native int argument for '$pos'
+[Dist::Helper]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Dist::Helper]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Dist::Helper]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Dist::Helper]   in block <unit> at t/00-use.t line 8
+[Dist::Helper] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz/Dist-Helper-1.0.1 t/01-meta.t
+[Dist::Helper] 1..1
+[Dist::Helper] # Subtest: get-meta
+[Dist::Helper]     1..2
+[Dist::Helper]     # Subtest: Don't add missing keys
+[Dist::Helper]         1..2
+[Dist::Helper] Expected a modifiable native int argument for '$pos'
+[Dist::Helper]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Dist::Helper]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Dist::Helper]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Dist::Helper]   in sub get-meta at /home/coke/sandbox/blin/data/zef-data/tmp/Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz/Dist-Helper-1.0.1/lib/Dist/Helper/Meta.pm6 (Dist::Helper::Meta) line 24
+[Dist::Helper]   in sub get-meta at /home/coke/sandbox/blin/data/zef-data/tmp/Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz/Dist-Helper-1.0.1/lib/Dist/Helper/Meta.pm6 (Dist::Helper::Meta) line 36
+[Dist::Helper]   in block  at t/01-meta.t line 17
+[Dist::Helper]   in sub subtest at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 431
+[Dist::Helper]   in sub subtest at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 416
+[Dist::Helper]   in block <unit> at t/01-meta.t line 11
+[Dist::Helper]         # You planned 2 tests, but ran 0
+[Dist::Helper] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Dist%3A%3AHelper%3Aver%3C1.0.1%3E%3Aauth%3Ccpan%3ATYIL%3E%3Aapi%3C1%3E.tar.gz/Dist-Helper-1.0.1 t/01-template.t
+[Dist::Helper] 1..1
+[Dist::Helper] # Subtest: readme.pod6
+[Dist::Helper]     1..3
+[Dist::Helper]     ok 1 - Template call is correct
+[Dist::Helper]     ok 2 - Output file gets created correctly
+[Dist::Helper]     ok 3 - Output has correct contents
+[Dist::Helper] ok 1 - readme.pod6
+===> Testing [FAIL]: Dist::Helper:ver<1.0.1>:auth<github:scriptkitties>:api<1>
+[Dist::Helper] Failed to get passing tests, but continuing with --force-test
+===> Installing: Dist::Helper:ver<1.0.1>:auth<github:scriptkitties>:api<1>
+===> Install [OK] for Dist::Helper:ver<1.0.1>:auth<github:scriptkitties>:api<1>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 36.233s
+             CPU time consumed: 41.907s
+                   Memory peak: 1.5G (swap: 0B)

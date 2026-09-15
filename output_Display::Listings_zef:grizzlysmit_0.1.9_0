@@ -1,0 +1,115 @@
+Running as unit: run-p1906938-i10287693.service
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Display::Listings
+===> Found: Display::Listings:ver<0.1.9>:auth<zef:grizzlysmit> [via Zef::Repository::Ecosystems<fez>]
+[Display::Listings] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789448322.1906941.4796.7399971331415/6d5ff3ddfdec696cc0fd3026aec7c74b4bbd3621.tar.gz https://360.zef.pm/D/IS/DISPLAY_LISTINGS/6d5ff3ddfdec696cc0fd3026aec7c74b4bbd3621.tar.gz
+===> Fetching [OK]: Display::Listings:ver<0.1.9>:auth<zef:grizzlysmit> to /home/coke/sandbox/blin/data/zef-data/tmp/1789448322.1906941.4796.7399971331415/6d5ff3ddfdec696cc0fd3026aec7c74b4bbd3621.tar.gz
+[Display::Listings] Command: tar -t -f ./6d5ff3ddfdec696cc0fd3026aec7c74b4bbd3621.tar.gz
+[Display::Listings] Command: tar -xvf ./6d5ff3ddfdec696cc0fd3026aec7c74b4bbd3621.tar.gz -C ../6d5ff3ddfdec696cc0fd3026aec7c74b4bbd3621.tar.gz
+===> Extraction [OK]: Display::Listings to /home/coke/sandbox/blin/data/zef-data/tmp/6d5ff3ddfdec696cc0fd3026aec7c74b4bbd3621.tar.gz
+===> Testing: Display::Listings:ver<0.1.9>:auth<zef:grizzlysmit>
+[Display::Listings] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6d5ff3ddfdec696cc0fd3026aec7c74b4bbd3621.tar.gz t/000-Display::Listings.rakutest
+[Display::Listings] 1..4
+[Display::Listings] Type check failed in binding to parameter '%chnk'; expected Associative but got Any
+[Display::Listings]   in sub strip-ansi at /home/coke/sandbox/blin/installed/Gzz::Text::Utils_zef:grizzlysmit_0.1.23_0/sources/17B02955824D371E48E6A0F77AA2AC288CB01328 (Gzz::Text::Utils) line 1014
+[Display::Listings]   in sub hwcswidth at /home/coke/sandbox/blin/installed/Gzz::Text::Utils_zef:grizzlysmit_0.1.23_0/sources/17B02955824D371E48E6A0F77AA2AC288CB01328 (Gzz::Text::Utils) line 1051
+[Display::Listings]   in sub list-by at /home/coke/sandbox/blin/data/zef-data/tmp/6d5ff3ddfdec696cc0fd3026aec7c74b4bbd3621.tar.gz/lib/Display/Listings.rakumod (Display::Listings) line 664
+[Display::Listings]   in block <unit> at t/000-Display::Listings.rakutest line 22
+[Display::Listings] # You planned 4 tests, but ran 0
+[Display::Listings] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6d5ff3ddfdec696cc0fd3026aec7c74b4bbd3621.tar.gz t/001-Meta-test.rakutest
+[Display::Listings] 1..1
+[Display::Listings] ok 1 - # SKIP Skipping author test
+===> Testing [FAIL]: Display::Listings:ver<0.1.9>:auth<zef:grizzlysmit>
+[Display::Listings] Failed to get passing tests, but continuing with --force-test
+===> Installing: Display::Listings:ver<0.1.9>:auth<zef:grizzlysmit>
+===> Install [OK] for Display::Listings:ver<0.1.9>:auth<zef:grizzlysmit>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 22.864s
+             CPU time consumed: 30.434s
+                   Memory peak: 1.5G (swap: 0B)

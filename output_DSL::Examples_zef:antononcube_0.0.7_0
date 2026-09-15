@@ -1,0 +1,30 @@
+===> Searching for: DSL::Examples
+Running as unit: run-p1584485-i9995358.service; invocation ID: f1bb6dc6ff2940bf8eae90e27b70a5d7
+Press ^] three times within 1s to disconnect TTY.
+===> Found: DSL::Examples:ver<0.0.7>:auth<zef:antononcube>:api<0> [via Zef::Repository::Ecosystems<fez>]
+[DSL::Examples] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789440985.1584489.4911.423837391347/2ff96be239bcde5a143cec6b57da763d458fc0c7.tar.gz https://360.zef.pm/D/SL/DSL_EXAMPLES/2ff96be239bcde5a143cec6b57da763d458fc0c7.tar.gz
+===> Fetching [OK]: DSL::Examples:ver<0.0.7>:auth<zef:antononcube>:api<0> to /home/coke/sandbox/blin/data/zef-data/tmp/1789440985.1584489.4911.423837391347/2ff96be239bcde5a143cec6b57da763d458fc0c7.tar.gz
+[DSL::Examples] Command: tar -t -f ./2ff96be239bcde5a143cec6b57da763d458fc0c7.tar.gz
+[DSL::Examples] Command: tar -xvf ./2ff96be239bcde5a143cec6b57da763d458fc0c7.tar.gz -C ../2ff96be239bcde5a143cec6b57da763d458fc0c7.tar.gz
+===> Extraction [OK]: DSL::Examples to /home/coke/sandbox/blin/data/zef-data/tmp/2ff96be239bcde5a143cec6b57da763d458fc0c7.tar.gz
+===> Testing: DSL::Examples:ver<0.0.7>:auth<zef:antononcube>:api<0>
+[DSL::Examples] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/2ff96be239bcde5a143cec6b57da763d458fc0c7.tar.gz/dist t/00-basic-usage.rakutest
+[DSL::Examples] Expected a modifiable native int argument for '$pos'
+[DSL::Examples]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[DSL::Examples]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[DSL::Examples]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[DSL::Examples]   in sub get-dsl-examples at /home/coke/sandbox/blin/data/zef-data/tmp/2ff96be239bcde5a143cec6b57da763d458fc0c7.tar.gz/dist/lib/DSL/Examples.rakumod (DSL::Examples) line 49
+[DSL::Examples]   in sub dsl-examples at /home/coke/sandbox/blin/data/zef-data/tmp/2ff96be239bcde5a143cec6b57da763d458fc0c7.tar.gz/dist/lib/DSL/Examples.rakumod (DSL::Examples) line 62
+[DSL::Examples]   in block <unit> at t/00-basic-usage.rakutest line 10
+===> Testing [FAIL]: DSL::Examples:ver<0.0.7>:auth<zef:antononcube>:api<0>
+[DSL::Examples] Failed to get passing tests, but continuing with --force-test
+===> Installing: DSL::Examples:ver<0.0.7>:auth<zef:antononcube>:api<0>
+===> Install [OK] for DSL::Examples:ver<0.0.7>:auth<zef:antononcube>:api<0>
+
+1 bin/ script [dsl-examples] installed to:
+/home/coke/sandbox/blin/installed/DSL::Examples_zef:antononcube_0.0.7_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 13.967s
+             CPU time consumed: 16.081s
+                   Memory peak: 1G (swap: 0B)

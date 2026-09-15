@@ -1,0 +1,45 @@
+Running as unit: run-p1661528-i10029537.service; invocation ID: 2f6f67d2e1604f7ca4460ab1a1ac1c3b
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: App::Zef-Deps
+===> Found: App::Zef-Deps:ver<0.9.8>:auth<zef:coke> [via Zef::Repository::Ecosystems<fez>]
+[App::Zef-Deps] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442586.1661532.6178.96239501906/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz https://360.zef.pm/A/PP/APP_ZEFDEPS/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz
+===> Fetching [OK]: App::Zef-Deps:ver<0.9.8>:auth<zef:coke> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442586.1661532.6178.96239501906/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz
+[App::Zef-Deps] Command: tar -t -f ./c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz
+[App::Zef-Deps] Command: tar -xvf ./c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz -C ../c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz
+===> Extraction [OK]: App::Zef-Deps to /home/coke/sandbox/blin/data/zef-data/tmp/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz
+===> Testing: App::Zef-Deps:ver<0.9.8>:auth<zef:coke>
+[App::Zef-Deps] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz/App-Zef-Deps-0.9.8 t/basic.t
+[App::Zef-Deps] 1..1
+[App::Zef-Deps] ok 1 - zef dependencies
+[App::Zef-Deps] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz/App-Zef-Deps-0.9.8 t/combo.t
+[App::Zef-Deps] 1..1
+[App::Zef-Deps] ok 1 - Zef:C... dependencies
+[App::Zef-Deps] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz/App-Zef-Deps-0.9.8 t/dot.t
+[App::Zef-Deps] 1..1
+[App::Zef-Deps] Expected a modifiable native int argument for '$pos'
+[App::Zef-Deps]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[App::Zef-Deps]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[App::Zef-Deps]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[App::Zef-Deps]   in sub MAIN-handler-dot at /home/coke/sandbox/blin/data/zef-data/tmp/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz/App-Zef-Deps-0.9.8/lib/App/Zef-Deps.rakumod (App::Zef-Deps) line 7
+[App::Zef-Deps]   in block <unit> at t/dot.t line 8
+[App::Zef-Deps] # You planned 1 test, but ran 0
+[App::Zef-Deps] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz/App-Zef-Deps-0.9.8 t/indent.t
+[App::Zef-Deps] 1..1
+[App::Zef-Deps] ok 1 - zef dependencies, indented
+[App::Zef-Deps] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz/App-Zef-Deps-0.9.8 t/json.t
+[App::Zef-Deps] 1..1
+[App::Zef-Deps] ok 1 - zef dependencies as json
+[App::Zef-Deps] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/c92e0e2dd6275905077113f9ce9ede04cf50378c.tar.gz/App-Zef-Deps-0.9.8 t/png.t
+[App::Zef-Deps] 1..0 # Skipped: Optional module needed for this feature not installed.
+===> Testing [FAIL]: App::Zef-Deps:ver<0.9.8>:auth<zef:coke>
+[App::Zef-Deps] Failed to get passing tests, but continuing with --force-test
+===> Installing: App::Zef-Deps:ver<0.9.8>:auth<zef:coke>
+===> Install [OK] for App::Zef-Deps:ver<0.9.8>:auth<zef:coke>
+
+1 bin/ script [zef-deps] installed to:
+/home/coke/sandbox/blin/installed/App::Zef-Deps_zef:coke_0.9.8_0/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 54.656s
+             CPU time consumed: 2min 12.898s
+                   Memory peak: 1.6G (swap: 0B)

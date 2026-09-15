@@ -1,0 +1,41 @@
+Running as unit: run-p1577619-i9948183.service; invocation ID: a5bf772d73254d84911d43dbe55154cd
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Geo::Location
+===> Found: Geo::Location:ver<0.0.4>:auth<zef:tbrowder> [via Zef::Repository::Ecosystems<fez>]
+[Geo::Location] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789440837.1577622.3792.1745214619996/9b9658f55af7546f4f16661989fca2a4b9a1ecdb.tar.gz https://360.zef.pm/G/EO/GEO_LOCATION/9b9658f55af7546f4f16661989fca2a4b9a1ecdb.tar.gz
+===> Fetching [OK]: Geo::Location:ver<0.0.4>:auth<zef:tbrowder> to /home/coke/sandbox/blin/data/zef-data/tmp/1789440837.1577622.3792.1745214619996/9b9658f55af7546f4f16661989fca2a4b9a1ecdb.tar.gz
+[Geo::Location] Command: tar -t -f ./9b9658f55af7546f4f16661989fca2a4b9a1ecdb.tar.gz
+[Geo::Location] Command: tar -xvf ./9b9658f55af7546f4f16661989fca2a4b9a1ecdb.tar.gz -C ../9b9658f55af7546f4f16661989fca2a4b9a1ecdb.tar.gz
+===> Extraction [OK]: Geo::Location to /home/coke/sandbox/blin/data/zef-data/tmp/9b9658f55af7546f4f16661989fca2a4b9a1ecdb.tar.gz
+===> Testing: Geo::Location:ver<0.0.4>:auth<zef:tbrowder>
+[Geo::Location] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/9b9658f55af7546f4f16661989fca2a4b9a1ecdb.tar.gz/Geo-Location-0.0.4 t/1-construction.t
+[Geo::Location] 1..48
+[Geo::Location] ok 1 - 
+[Geo::Location] ok 2 - 
+[Geo::Location] ok 3 - 
+[Geo::Location] ok 4 - 
+[Geo::Location] ok 5 - 
+[Geo::Location] ok 6 - 
+[Geo::Location] ok 7 - 
+[Geo::Location] ok 8 - 
+[Geo::Location] ok 9 - 
+[Geo::Location] ok 10 - 
+[Geo::Location] ok 11 - 
+[Geo::Location] ok 12 - 
+[Geo::Location] Expected a modifiable native int argument for '$pos'
+[Geo::Location]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Geo::Location]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Geo::Location]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Geo::Location]   in method new-from-json at /home/coke/sandbox/blin/data/zef-data/tmp/9b9658f55af7546f4f16661989fca2a4b9a1ecdb.tar.gz/Geo-Location-0.0.4/lib/Geo/Location.rakumod (Geo::Location) line 171
+[Geo::Location]   in submethod TWEAK at /home/coke/sandbox/blin/data/zef-data/tmp/9b9658f55af7546f4f16661989fca2a4b9a1ecdb.tar.gz/Geo-Location-0.0.4/lib/Geo/Location.rakumod (Geo::Location) line 34
+[Geo::Location]   in block <unit> at t/1-construction.t line 35
+[Geo::Location] # You planned 48 tests, but ran 12
+===> Testing [FAIL]: Geo::Location:ver<0.0.4>:auth<zef:tbrowder>
+[Geo::Location] Failed to get passing tests, but continuing with --force-test
+===> Installing: Geo::Location:ver<0.0.4>:auth<zef:tbrowder>
+===> Install [OK] for Geo::Location:ver<0.0.4>:auth<zef:tbrowder>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 13.625s
+             CPU time consumed: 16.401s
+                   Memory peak: 1G (swap: 0B)

@@ -1,0 +1,185 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: LogP6-Writer-Journald
+Running as unit: run-p1802405-i10221446.service; invocation ID: e185646fbde14072b1a0127893fd57ce
+Press ^] three times within 1s to disconnect TTY.
+===> Found: LogP6-Writer-Journald:ver<1.3.3>:auth<cpan:ATROXAPER> [via Zef::Repository::Ecosystems<rea>]
+[LogP6-Writer-Journald] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445792.1802406.7515.298985721377/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/L/LogP6-Writer-Journald/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+===> Fetching [OK]: LogP6-Writer-Journald:ver<1.3.3>:auth<cpan:ATROXAPER> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445792.1802406.7515.298985721377/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+[LogP6-Writer-Journald] Command: tar -t -f ./LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+[LogP6-Writer-Journald] Command: tar -xvf ./LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz -C ../LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+===> Extraction [OK]: LogP6-Writer-Journald to /home/coke/sandbox/blin/data/zef-data/tmp/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz
+===> Testing: LogP6-Writer-Journald:ver<1.3.3>:auth<github:atroxaper>
+[LogP6-Writer-Journald] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-Writer-Journald-1.3.3 t/00-functionality.t
+[LogP6-Writer-Journald] Potential difficulties:
+[LogP6-Writer-Journald]     Declaring class 'LogP6::ConfigFile' inside an enclosing module of the
+[LogP6-Writer-Journald]     same name silently replaces the module in the outer stash. This is
+[LogP6-Writer-Journald]     legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the same
+[LogP6-Writer-Journald]     pattern installs the class as a nested package instead. Rewrite as 'unit
+[LogP6-Writer-Journald]     class LogP6::ConfigFile;' in its own file (or otherwise avoid the
+[LogP6-Writer-Journald]     module+same-named-class collision) to work the same way on either
+[LogP6-Writer-Journald]     revision.
+[LogP6-Writer-Journald]     at /home/coke/sandbox/blin/installed/LogP6_cpan:ATROXAPER_1.6.4_0/sources/E3439F5B3CF598ACB86244DEF311287EDB54E5F6 (LogP6::ConfigFile):35
+[LogP6-Writer-Journald]     ------> class <HERE>LogP6::ConfigFile {
+[LogP6-Writer-Journald] 1..4
+[LogP6-Writer-Journald] ok 1 - code journald-1 sent
+[LogP6-Writer-Journald] ok 2 - code journald-2 sent
+[LogP6-Writer-Journald] LogP6 error: X::AdHoc: Cannot read and create config from file ./t/resources/00-config-file/log-p6.json. Cause X::AdHoc: Expected a modifiable native int argument for '$pos'
+[LogP6-Writer-Journald]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LogP6-Writer-Journald]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LogP6-Writer-Journald]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LogP6-Writer-Journald]   in method parse-config at /home/coke/sandbox/blin/installed/LogP6_cpan:ATROXAPER_1.6.4_0/sources/E3439F5B3CF598ACB86244DEF311287EDB54E5F6 (LogP6::ConfigFile) line 49
+[LogP6-Writer-Journald]   in block  at /home/coke/sandbox/blin/installed/LogP6_cpan:ATROXAPER_1.6.4_0/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 99
+[LogP6-Writer-Journald]   in sub init-from-file at /home/coke/sandbox/blin/installed/LogP6_cpan:ATROXAPER_1.6.4_0/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 72
+[LogP6-Writer-Journald]   in block <unit> at t/00-functionality.t line 26
+[LogP6-Writer-Journald]   in block  at /home/coke/sandbox/blin/installed/LogP6_cpan:ATROXAPER_1.6.4_0/sources/E3439F5B3CF598ACB86244DEF311287EDB54E5F6 (LogP6::ConfigFile) line 42
+[LogP6-Writer-Journald]   in any  at /home/coke/sandbox/blin/data/zef-data/tmp/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-Writer-Journald-1.3.3/t/resources/00-config-file/.precomp/8741AB01E3CAA11ED51F313B8D2FF54AB0CD002D/E3/E3439F5B3CF598ACB86244DEF311287EDB54E5F6 line 1
+[LogP6-Writer-Journald]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[LogP6-Writer-Journald]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[LogP6-Writer-Journald]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[LogP6-Writer-Journald]   in method parse-config at /home/coke/sandbox/blin/installed/LogP6_cpan:ATROXAPER_1.6.4_0/sources/E3439F5B3CF598ACB86244DEF311287EDB54E5F6 (LogP6::ConfigFile) line 49
+[LogP6-Writer-Journald]   in block  at /home/coke/sandbox/blin/installed/LogP6_cpan:ATROXAPER_1.6.4_0/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 99
+[LogP6-Writer-Journald]   in sub init-from-file at /home/coke/sandbox/blin/installed/LogP6_cpan:ATROXAPER_1.6.4_0/sources/B08BD331DE63A75C577EF8374D4452ED6622FA26 (LogP6) line 72
+[LogP6-Writer-Journald]   in block <unit> at t/00-functionality.t line 26
+[LogP6-Writer-Journald] not ok 3 - file journald-1 sent
+[LogP6-Writer-Journald] # Failed test 'file journald-1 sent'
+[LogP6-Writer-Journald] # at t/00-functionality.t line 42
+[LogP6-Writer-Journald] # expected: $("CODE_FILE=t/00-functionality.t", "CODE_FUNC=foo", "CODE_LINE=31", "MESSAGE=WARN boom", "OBJ=value", "PRIORITY=4", "VAL=obj")
+[LogP6-Writer-Journald] #      got: $("CODE_FILE=t/00-functionality.t", "CODE_FILE=t/00-functionality.t", "CODE_FUNC=foo", "CODE_FUNC=foo", "CODE_LINE=31", "CODE_LINE=31", "MESSAGE=WARN boom", "MESSAGE=WARN boom", "OBJ=value", "OBJ=value", "PRIORITY=4", "PRIORITY=4", "VAL=obj", "VAL=obj")
+[LogP6-Writer-Journald] not ok 4 - file journald-2 sent
+[LogP6-Writer-Journald] # Failed test 'file journald-2 sent'
+[LogP6-Writer-Journald] # at t/00-functionality.t line 51
+[LogP6-Writer-Journald] # expected: $("MESSAGE=boom", "PRIORITY=4")
+[LogP6-Writer-Journald] #      got: $("MESSAGE=boom", "MESSAGE=boom", "PRIORITY=4", "PRIORITY=4")
+[LogP6-Writer-Journald] # You failed 2 tests of 4
+[LogP6-Writer-Journald] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LogP6-Writer-Journald%3Aver%3C1.3.3%3E%3Aauth%3Ccpan%3AATROXAPER%3E.tar.gz/LogP6-Writer-Journald-1.3.3 t/01-integration.t
+[LogP6-Writer-Journald] 1..37
+[LogP6-Writer-Journald] ok 1 - send with 0 elems
+[LogP6-Writer-Journald] ok 2 - send with 1 elems
+[LogP6-Writer-Journald] ok 3 - send with 2 elems
+[LogP6-Writer-Journald] ok 4 - send with 3 elems
+[LogP6-Writer-Journald] ok 5 - send with 4 elems
+[LogP6-Writer-Journald] ok 6 - send with 5 elems
+[LogP6-Writer-Journald] ok 7 - send with 6 elems
+[LogP6-Writer-Journald] ok 8 - send with 7 elems
+[LogP6-Writer-Journald] ok 9 - send with 8 elems
+[LogP6-Writer-Journald] ok 10 - send with 9 elems
+[LogP6-Writer-Journald] ok 11 - send with 10 elems
+[LogP6-Writer-Journald] ok 12 - send with 11 elems
+[LogP6-Writer-Journald] ok 13 - send with 12 elems
+[LogP6-Writer-Journald] ok 14 - send with 13 elems
+[LogP6-Writer-Journald] ok 15 - send with 14 elems
+[LogP6-Writer-Journald] ok 16 - send with 15 elems
+[LogP6-Writer-Journald] ok 17 - send with 16 elems
+[LogP6-Writer-Journald] ok 18 - send with 17 elems
+[LogP6-Writer-Journald] ok 19 - send with 18 elems
+[LogP6-Writer-Journald] ok 20 - send with 19 elems
+[LogP6-Writer-Journald] ok 21 - send with 20 elems
+[LogP6-Writer-Journald] ok 22 - send with 21 elems
+[LogP6-Writer-Journald] ok 23 - send with 22 elems
+[LogP6-Writer-Journald] ok 24 - send with 23 elems
+[LogP6-Writer-Journald] ok 25 - send with 24 elems
+[LogP6-Writer-Journald] ok 26 - send with 25 elems
+[LogP6-Writer-Journald] ok 27 - send with 26 elems
+[LogP6-Writer-Journald] ok 28 - send with 27 elems
+[LogP6-Writer-Journald] ok 29 - send with 28 elems
+[LogP6-Writer-Journald] ok 30 - send with 29 elems
+[LogP6-Writer-Journald] ok 31 - send with 30 elems
+[LogP6-Writer-Journald] ok 32 - send with 31 elems
+[LogP6-Writer-Journald] ok 33 - send with 32 elems
+[LogP6-Writer-Journald] ok 34 - send with 33 elems
+[LogP6-Writer-Journald] ok 35 - send with 34 elems
+[LogP6-Writer-Journald] ok 36 - send with 35 elems
+[LogP6-Writer-Journald] ok 37 - send with 36 elems
+===> Testing [FAIL]: LogP6-Writer-Journald:ver<1.3.3>:auth<github:atroxaper>
+[LogP6-Writer-Journald] Failed to get passing tests, but continuing with --force-test
+===> Installing: LogP6-Writer-Journald:ver<1.3.3>:auth<github:atroxaper>
+===> Install [OK] for LogP6-Writer-Journald:ver<1.3.3>:auth<github:atroxaper>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 50.753s
+             CPU time consumed: 1min 5.370s
+                   Memory peak: 2G (swap: 0B)

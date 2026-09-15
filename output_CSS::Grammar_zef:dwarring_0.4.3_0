@@ -1,0 +1,191 @@
+Running as unit: run-p1581245-i9906735.service; invocation ID: c8760de969f54721bd7c67cdee182c60
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: CSS::Grammar
+===> Found: CSS::Grammar:ver<0.4.3>:auth<zef:dwarring> [via Zef::Repository::Ecosystems<fez>]
+[CSS::Grammar] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789440917.1581246.9014.72203171115/5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz https://360.zef.pm/C/SS/CSS_GRAMMAR/5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz
+===> Fetching [OK]: CSS::Grammar:ver<0.4.3>:auth<zef:dwarring> to /home/coke/sandbox/blin/data/zef-data/tmp/1789440917.1581246.9014.72203171115/5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz
+[CSS::Grammar] Command: tar -t -f ./5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz
+[CSS::Grammar] Command: tar -xvf ./5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz -C ../5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz
+===> Extraction [OK]: CSS::Grammar to /home/coke/sandbox/blin/data/zef-data/tmp/5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz
+===> Testing: CSS::Grammar:ver<0.4.3>:auth<zef:dwarring>
+[CSS::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz/CSS-Grammar-0.4.3 t/compat.t
+[CSS::Grammar] Expected a modifiable native int argument for '$pos'
+[CSS::Grammar]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[CSS::Grammar]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[CSS::Grammar]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[CSS::Grammar]   in block <unit> at t/compat.t line 24
+[CSS::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz/CSS-Grammar-0.4.3 t/css3-syntax.t
+[CSS::Grammar] Expected a modifiable native int argument for '$pos'
+[CSS::Grammar]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[CSS::Grammar]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[CSS::Grammar]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[CSS::Grammar]   in block <unit> at t/css3-syntax.t line 16
+[CSS::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz/CSS-Grammar-0.4.3 t/error-handling.t
+[CSS::Grammar] Expected a modifiable native int argument for '$pos'
+[CSS::Grammar]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[CSS::Grammar]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[CSS::Grammar]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[CSS::Grammar]   in block <unit> at t/error-handling.t line 21
+[CSS::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz/CSS-Grammar-0.4.3 t/parse-stylesheets.t
+[CSS::Grammar] ok 1 - css1 stylesheet parse: H1 { color: blue; }
+[CSS::Grammar] ok 2 - css1 stylesheet no warnings
+[CSS::Grammar] ok 3 - css21 stylesheet parse: H1 { color: blue; }
+[CSS::Grammar] ok 4 - css21 stylesheet no warnings
+[CSS::Grammar] ok 5 - css3 stylesheet parse: H1 { color: blue; }
+[CSS::Grammar] ok 6 - css3 stylesheet no warnings
+[CSS::Grammar] ok 7 - css1 stylesheet parse: A:link IMG { border: 2px solid blue !important}
+[CSS::Grammar] ok 8 - css1 stylesheet no warnings
+[CSS::Grammar] ok 9 - css21 stylesheet parse: A:link IMG { border: 2px solid blue !important}
+[CSS::Grammar] ok 10 - css21 stylesheet no warnings
+[CSS::Grammar] ok 11 - css3 stylesheet parse: A:link IMG { border: 2px solid blue !important}
+[CSS::Grammar] ok 12 - css3 stylesheet no warnings
+[CSS::Grammar] ok 13 - css1 stylesheet parse: BODY {... }
+[CSS::Grammar] ok 14 - css1 stylesheet no warnings
+[CSS::Grammar] ok 15 - css21 stylesheet parse: BODY {... }
+[CSS::Grammar] ok 16 - css21 stylesheet no warnings
+[CSS::Grammar] ok 17 - css3 stylesheet parse: BODY {... }
+[CSS::Grammar] ok 18 - css3 stylesheet no warnings
+[CSS::Grammar] ok 19 - css1 stylesheet parse: BODY {... A:active IMG { border: 2px solid lime }
+[CSS::Grammar] ok 20 - css1 stylesheet no warnings
+[CSS::Grammar] ok 21 - css21 stylesheet parse: BODY {... A:active IMG { border: 2px solid lime }
+[CSS::Grammar] ok 22 - css21 stylesheet no warnings
+[CSS::Grammar] ok 23 - css3 stylesheet parse: BODY {... A:active IMG { border: 2px solid lime }
+[CSS::Grammar] ok 24 - css3 stylesheet no warnings
+[CSS::Grammar] 1..24
+[CSS::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz/CSS-Grammar-0.4.3 t/parse-warnings.t
+[CSS::Grammar] ok 1 - css1 parse
+[CSS::Grammar] ok 2 - css1 warnings
+[CSS::Grammar] ok 3 - css21 parse
+[CSS::Grammar] ok 4 - css21 warnings
+[CSS::Grammar] ok 5 - css3 parse
+[CSS::Grammar] ok 6 - css3 warnings
+[CSS::Grammar] 1..6
+[CSS::Grammar] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/5de0dc5873f5e1768dc427bf48cbeef8ce450f8a.tar.gz/CSS-Grammar-0.4.3 t/regex-tokens.t
+[CSS::Grammar] ok 1 - ws:  
+[CSS::Grammar] ok 2 - ws:   
+[CSS::Grammar] ok 3 - ws: 	
+[CSS::Grammar] ok 4 - ws: 
+[CSS::Grammar] ok 5 - ws:  /* hi */ 
+[CSS::Grammar] ok 6 - ws: /*there*/
+[CSS::Grammar] ok 7 - ws: <!-- zzz -->
+[CSS::Grammar] ok 8 - ws: r\n
+[CSS::Grammar] ok 9 - comment: /**/
+[CSS::Grammar] ok 10 - comment: /* hi */
+[CSS::Grammar] ok 11 - comment: <!--X-->
+[CSS::Grammar] ok 12 - comment: <!-- almost done -->
+[CSS::Grammar] ok 13 - comment: <!-- Out of coffee
+[CSS::Grammar] ok 14 - comment: /* is that the door?
+[CSS::Grammar] ok 15 - unicode: f
+[CSS::Grammar] ok 16 - unicode: 012f
+[CSS::Grammar] ok 17 - unicode: 012A
+[CSS::Grammar] ok 18 - not css1 unicode: 012AF
+[CSS::Grammar] ok 19 - css21 unicode: 012AF
+[CSS::Grammar] ok 20 - css3 unicode: 012AF
+[CSS::Grammar] ok 21 - not css1 unicode: 012AFc
+[CSS::Grammar] ok 22 - css21 unicode: 012AFc
+[CSS::Grammar] ok 23 - css3 unicode: 012AFc
+[CSS::Grammar] ok 24 - css1 num+ident: 70deg
+[CSS::Grammar] ok 25 - css21 term: 70deg
+[CSS::Grammar] ok 26 - css3 term: 70deg
+[CSS::Grammar] ok 27 - css1 num+ident: 50Hz
+[CSS::Grammar] ok 28 - css21 term: 50Hz
+[CSS::Grammar] ok 29 - css3 term: 50Hz
+[CSS::Grammar] ok 30 - non-ascii: ¡ (161)
+[CSS::Grammar] ok 31 - non-ascii css1: ¡
+[CSS::Grammar] ok 32 - non-ascii css21: ¡
+[CSS::Grammar] ok 33 - non-ascii css3: ¡
+[CSS::Grammar] ok 34 - non-ascii scan: ¡
+[CSS::Grammar] ok 35 - non-ascii ident: ¡
+[CSS::Grammar] ok 36 - non-ascii: ¨ (168)
+[CSS::Grammar] ok 37 - non-ascii css1: ¨
+[CSS::Grammar] ok 38 - non-ascii css21: ¨
+[CSS::Grammar] ok 39 - non-ascii css3: ¨
+[CSS::Grammar] ok 40 - non-ascii scan: ¨
+[CSS::Grammar] ok 41 - non-ascii ident: ¨
+[CSS::Grammar] ok 42 - non-ascii: ÿ (255)
+[CSS::Grammar] ok 43 - non-ascii css1: ÿ
+[CSS::Grammar] ok 44 - non-ascii css21: ÿ
+[CSS::Grammar] ok 45 - non-ascii css3: ÿ
+[CSS::Grammar] ok 46 - non-ascii scan: ÿ
+[CSS::Grammar] ok 47 - non-ascii ident: ÿ
+[CSS::Grammar] ok 48 - non-ascii: 
+[CSS::Grammar]  (13)
+[CSS::Grammar] ok 49 - non-ascii css1: 
+[CSS::Grammar] ok 50 - non-ascii css21: 
+[CSS::Grammar] ok 51 - non-ascii css3: 
+[CSS::Grammar] ok 52 - non-ascii scan: 
+[CSS::Grammar] ok 53 - non-ascii:  (149)
+[CSS::Grammar] ok 54 - not non-ascii css1: 
+[CSS::Grammar] ok 55 - not non-ascii css21: 
+[CSS::Grammar] ok 56 - non-ascii css3: 
+[CSS::Grammar] ok 57 - not non-ascii:  
+[CSS::Grammar] ok 58 - not non-ascii css1:  
+[CSS::Grammar] ok 59 - not non-ascii css21:  
+[CSS::Grammar] ok 60 - not non-ascii css3:  
+[CSS::Grammar] ok 61 - not non-ascii:  
+[CSS::Grammar] ok 62 - not non-ascii css1:  
+[CSS::Grammar] ok 63 - not non-ascii css21:  
+[CSS::Grammar] ok 64 - not non-ascii css3:  
+[CSS::Grammar] ok 65 - not non-ascii: ~
+[CSS::Grammar] ok 66 - not non-ascii css1: ~
+[CSS::Grammar] ok 67 - not non-ascii css21: ~
+[CSS::Grammar] ok 68 - not non-ascii css3: ~
+[CSS::Grammar] ok 69 - css1 url: url(http://www.bg.com/pinkish.gif)
+[CSS::Grammar] ok 70 - css1 url: url("http://www.bg.com/pinkish.gif")
+[CSS::Grammar] ok 71 - css1 url: url('http://www.bg.com/pinkish.gif')
+[CSS::Grammar] ok 72 - css1 url: url("http://www.bg.com/pink(ish).gif")
+[CSS::Grammar] ok 73 - css1 url: url('http://www.bg.com/pink(ish).gif')
+[CSS::Grammar] ok 74 - css1 url: url(http://www.bg.com/pink%20ish.gif)
+[CSS::Grammar] ok 75 - css1 url: url(http://www.bg.com/pink\(ish\).gif)
+[CSS::Grammar] ok 76 - not css1 url: url(http://www.bg.com/pink(ish).gif)
+[CSS::Grammar] ok 77 - ident: Appl8s
+[CSS::Grammar] ok 78 - ident: oranges
+[CSS::Grammar] ok 79 - ident: k1w1-fru1t
+[CSS::Grammar] ok 80 - ident: -i
+[CSS::Grammar] ok 81 - not ident: 8
+[CSS::Grammar] ok 82 - string: "Hello"
+[CSS::Grammar] ok 83 - string: 'world'
+[CSS::Grammar] ok 84 - string: ''
+[CSS::Grammar] ok 85 - string: ""
+[CSS::Grammar] ok 86 - string: "'"
+[CSS::Grammar] ok 87 - string: '"'
+[CSS::Grammar] ok 88 - string: "grocer's"
+[CSS::Grammar] ok 89 - string: "a /* non-comment */"
+[CSS::Grammar] ok 90 - string: 'hello\
+[CSS::Grammar] # world'
+[CSS::Grammar] ok 91 - not string: "Unclosed
+[CSS::Grammar] ok 92 - badstring: "Unclosed
+[CSS::Grammar] ok 93 - not string: "
+[CSS::Grammar] ok 94 - badstring: "
+[CSS::Grammar] ok 95 - not string: world'
+[CSS::Grammar] ok 96 - not string: '''
+[CSS::Grammar] ok 97 - not string: 'grocer's'
+[CSS::Grammar] ok 98 - not string: 'hello
+[CSS::Grammar] # world'
+[CSS::Grammar] ok 99 - scan op: *
+[CSS::Grammar] ok 100 - scan op: +
+[CSS::Grammar] ok 101 - scan op: >
+[CSS::Grammar] ok 102 - scan op: |=
+[CSS::Grammar] ok 103 - scan op: ~=
+[CSS::Grammar] ok 104 - css21 rule-list: { }
+[CSS::Grammar] ok 105 - css3 rule-list: { }
+[CSS::Grammar] ok 106 - css21 rule-list: {
+[CSS::Grammar] #    body { font-size: 10pt }
+[CSS::Grammar] # }
+[CSS::Grammar] ok 107 - css3 rule-list: {
+[CSS::Grammar] #    body { font-size: 10pt }
+[CSS::Grammar] # }
+[CSS::Grammar] ok 108 - css21 at-rule: @page :left { margin: 3cm };
+[CSS::Grammar] ok 109 - css21 at-rule: @media print {
+[CSS::Grammar] #    body { font-size: 10pt }
+[CSS::Grammar] # }
+[CSS::Grammar] 1..109
+===> Testing [FAIL]: CSS::Grammar:ver<0.4.3>:auth<zef:dwarring>
+[CSS::Grammar] Failed to get passing tests, but continuing with --force-test
+===> Installing: CSS::Grammar:ver<0.4.3>:auth<zef:dwarring>
+===> Install [OK] for CSS::Grammar:ver<0.4.3>:auth<zef:dwarring>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 26.000s
+             CPU time consumed: 33.923s
+                   Memory peak: 1.2G (swap: 0B)

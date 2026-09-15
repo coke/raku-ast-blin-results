@@ -1,0 +1,155 @@
+Running as unit: run-p1587879-i10012126.service; invocation ID: c6664d12992a45ed8f1788b5d56337ff
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Compress::LZString
+===> Found: Compress::LZString:ver<0.0.1>:auth<zef:bduggan> [via Zef::Repository::Ecosystems<fez>]
+[Compress::LZString] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441051.1587880.4868.407890493528/6a3d010126d456e88c52bf5fc61058e029a653ae.tar.gz https://360.zef.pm/C/OM/COMPRESS_LZSTRING/6a3d010126d456e88c52bf5fc61058e029a653ae.tar.gz
+===> Fetching [OK]: Compress::LZString:ver<0.0.1>:auth<zef:bduggan> to /home/coke/sandbox/blin/data/zef-data/tmp/1789441051.1587880.4868.407890493528/6a3d010126d456e88c52bf5fc61058e029a653ae.tar.gz
+[Compress::LZString] Command: tar -t -f ./6a3d010126d456e88c52bf5fc61058e029a653ae.tar.gz
+[Compress::LZString] Command: tar -xvf ./6a3d010126d456e88c52bf5fc61058e029a653ae.tar.gz -C ../6a3d010126d456e88c52bf5fc61058e029a653ae.tar.gz
+===> Extraction [OK]: Compress::LZString to /home/coke/sandbox/blin/data/zef-data/tmp/6a3d010126d456e88c52bf5fc61058e029a653ae.tar.gz
+===> Testing: Compress::LZString:ver<0.0.1>:auth<zef:bduggan>
+[Compress::LZString] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6a3d010126d456e88c52bf5fc61058e029a653ae.tar.gz/Compress-LZString-0.0.1 t/01-basic.rakutest
+[Compress::LZString] ok 1 - uri round-trip (len 0)
+[Compress::LZString] ok 2 - uri round-trip (len 1)
+[Compress::LZString] ok 3 - uri round-trip (len 11)
+[Compress::LZString] ok 4 - uri round-trip (len 30)
+[Compress::LZString] ok 5 - uri round-trip (len 24)
+[Compress::LZString] ok 6 - uri round-trip (len 500)
+[Compress::LZString] ok 7 - uri round-trip (len 18)
+[Compress::LZString] ok 8 - uri round-trip (len 17)
+[Compress::LZString] ok 9 - uri round-trip (len 11)
+[Compress::LZString] ok 10 - uri round-trip (len 17)
+[Compress::LZString] ok 11 - base64 round-trip (len 0)
+[Compress::LZString] ok 12 - base64 round-trip (len 1)
+[Compress::LZString] ok 13 - base64 round-trip (len 11)
+[Compress::LZString] ok 14 - base64 round-trip (len 30)
+[Compress::LZString] ok 15 - base64 round-trip (len 24)
+[Compress::LZString] ok 16 - base64 round-trip (len 500)
+[Compress::LZString] ok 17 - base64 round-trip (len 18)
+[Compress::LZString] ok 18 - base64 round-trip (len 17)
+[Compress::LZString] ok 19 - base64 round-trip (len 11)
+[Compress::LZString] ok 20 - base64 round-trip (len 17)
+[Compress::LZString] ok 21 - lz-compress-utf16 returns a Uni (len 0)
+[Compress::LZString] ok 22 - utf16 round-trip (len 0)
+[Compress::LZString] ok 23 - lz-compress-utf16 returns a Uni (len 1)
+[Compress::LZString] ok 24 - utf16 round-trip (len 1)
+[Compress::LZString] ok 25 - lz-compress-utf16 returns a Uni (len 11)
+[Compress::LZString] ok 26 - utf16 round-trip (len 11)
+[Compress::LZString] ok 27 - lz-compress-utf16 returns a Uni (len 30)
+[Compress::LZString] ok 28 - utf16 round-trip (len 30)
+[Compress::LZString] ok 29 - lz-compress-utf16 returns a Uni (len 24)
+[Compress::LZString] ok 30 - utf16 round-trip (len 24)
+[Compress::LZString] ok 31 - lz-compress-utf16 returns a Uni (len 500)
+[Compress::LZString] ok 32 - utf16 round-trip (len 500)
+[Compress::LZString] ok 33 - lz-compress-utf16 returns a Uni (len 18)
+[Compress::LZString] ok 34 - utf16 round-trip (len 18)
+[Compress::LZString] ok 35 - lz-compress-utf16 returns a Uni (len 17)
+[Compress::LZString] ok 36 - utf16 round-trip (len 17)
+[Compress::LZString] ok 37 - lz-compress-utf16 returns a Uni (len 11)
+[Compress::LZString] ok 38 - utf16 round-trip (len 11)
+[Compress::LZString] ok 39 - lz-compress-utf16 returns a Uni (len 17)
+[Compress::LZString] ok 40 - utf16 round-trip (len 17)
+[Compress::LZString] ok 41 - lz-compress returns a Buf (len 0)
+[Compress::LZString] ok 42 - raw round-trip (len 0)
+[Compress::LZString] ok 43 - lz-compress returns a Buf (len 1)
+[Compress::LZString] ok 44 - raw round-trip (len 1)
+[Compress::LZString] ok 45 - lz-compress returns a Buf (len 11)
+[Compress::LZString] ok 46 - raw round-trip (len 11)
+[Compress::LZString] ok 47 - lz-compress returns a Buf (len 30)
+[Compress::LZString] ok 48 - raw round-trip (len 30)
+[Compress::LZString] ok 49 - lz-compress returns a Buf (len 24)
+[Compress::LZString] ok 50 - raw round-trip (len 24)
+[Compress::LZString] ok 51 - lz-compress returns a Buf (len 500)
+[Compress::LZString] ok 52 - raw round-trip (len 500)
+[Compress::LZString] ok 53 - lz-compress returns a Buf (len 18)
+[Compress::LZString] ok 54 - raw round-trip (len 18)
+[Compress::LZString] ok 55 - lz-compress returns a Buf (len 17)
+[Compress::LZString] ok 56 - raw round-trip (len 17)
+[Compress::LZString] ok 57 - lz-compress returns a Buf (len 11)
+[Compress::LZString] ok 58 - raw round-trip (len 11)
+[Compress::LZString] ok 59 - lz-compress returns a Buf (len 17)
+[Compress::LZString] ok 60 - raw round-trip (len 17)
+[Compress::LZString] ok 61 - lz-compress-bytes returns a Buf (len 0)
+[Compress::LZString] ok 62 - byte output is a whole number of pairs (len 0)
+[Compress::LZString] ok 63 - bytes round-trip (len 0)
+[Compress::LZString] ok 64 - lz-compress-bytes returns a Buf (len 1)
+[Compress::LZString] ok 65 - byte output is a whole number of pairs (len 1)
+[Compress::LZString] ok 66 - bytes round-trip (len 1)
+[Compress::LZString] ok 67 - lz-compress-bytes returns a Buf (len 11)
+[Compress::LZString] ok 68 - byte output is a whole number of pairs (len 11)
+[Compress::LZString] ok 69 - bytes round-trip (len 11)
+[Compress::LZString] ok 70 - lz-compress-bytes returns a Buf (len 30)
+[Compress::LZString] ok 71 - byte output is a whole number of pairs (len 30)
+[Compress::LZString] ok 72 - bytes round-trip (len 30)
+[Compress::LZString] ok 73 - lz-compress-bytes returns a Buf (len 24)
+[Compress::LZString] ok 74 - byte output is a whole number of pairs (len 24)
+[Compress::LZString] ok 75 - bytes round-trip (len 24)
+[Compress::LZString] ok 76 - lz-compress-bytes returns a Buf (len 500)
+[Compress::LZString] ok 77 - byte output is a whole number of pairs (len 500)
+[Compress::LZString] ok 78 - bytes round-trip (len 500)
+[Compress::LZString] ok 79 - lz-compress-bytes returns a Buf (len 18)
+[Compress::LZString] ok 80 - byte output is a whole number of pairs (len 18)
+[Compress::LZString] ok 81 - bytes round-trip (len 18)
+[Compress::LZString] ok 82 - lz-compress-bytes returns a Buf (len 17)
+[Compress::LZString] ok 83 - byte output is a whole number of pairs (len 17)
+[Compress::LZString] ok 84 - bytes round-trip (len 17)
+[Compress::LZString] ok 85 - lz-compress-bytes returns a Buf (len 11)
+[Compress::LZString] ok 86 - byte output is a whole number of pairs (len 11)
+[Compress::LZString] ok 87 - bytes round-trip (len 11)
+[Compress::LZString] ok 88 - lz-compress-bytes returns a Buf (len 17)
+[Compress::LZString] ok 89 - byte output is a whole number of pairs (len 17)
+[Compress::LZString] ok 90 - bytes round-trip (len 17)
+[Compress::LZString] ok 91 - bytes are the raw stream, big-endian (len 0)
+[Compress::LZString] ok 92 - bytes are the raw stream, big-endian (len 1)
+[Compress::LZString] ok 93 - bytes are the raw stream, big-endian (len 11)
+[Compress::LZString] ok 94 - bytes are the raw stream, big-endian (len 30)
+[Compress::LZString] ok 95 - bytes are the raw stream, big-endian (len 24)
+[Compress::LZString] ok 96 - bytes are the raw stream, big-endian (len 500)
+[Compress::LZString] ok 97 - bytes are the raw stream, big-endian (len 18)
+[Compress::LZString] ok 98 - bytes are the raw stream, big-endian (len 17)
+[Compress::LZString] ok 99 - bytes are the raw stream, big-endian (len 11)
+[Compress::LZString] ok 100 - bytes are the raw stream, big-endian (len 17)
+[Compress::LZString] ok 101 - uri: "hello world"
+[Compress::LZString] ok 102 - base64: "hello world"
+[Compress::LZString] ok 103 - uri: emoji/CJK sample
+[Compress::LZString] ok 104 - base64: emoji/CJK sample
+[Compress::LZString] ok 105 - Str would reorder these codepoints (the hazard being guarded against)
+[Compress::LZString] ok 106 - Uni carries them unchanged
+[Compress::LZString] ok 107 - this input really does pack to a Str-hostile sequence
+[Compress::LZString] ok 108 - utf16 round-trips input whose packing lands on combining marks
+[Compress::LZString] ok 109 - utf16 decodes from an Array
+[Compress::LZString] ok 110 - utf16 decodes from a Buf
+[Compress::LZString] ok 111 - utf16 decodes from a Str when the packing survives normalisation
+[Compress::LZString] ok 112 - lz-compress "" → "Q"
+[Compress::LZString] ok 113 - base64 lz-compress "" → "Q==="
+[Compress::LZString] ok 114 - uri "Q" → ""
+[Compress::LZString] ok 115 - base64 "Q===" → ""
+[Compress::LZString] ok 116 - uri lz-decompress "" → Nil
+[Compress::LZString] ok 117 - base64 lz-decompress "" → Nil
+[Compress::LZString] 1..117
+[Compress::LZString] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6a3d010126d456e88c52bf5fc61058e029a653ae.tar.gz/Compress-LZString-0.0.1 t/02-fragment.rakutest
+[Compress::LZString] ok 1 - URI fragment decodes to the exact JSON
+[Compress::LZString] ok 2 - base64 fragment decodes to the exact JSON
+[Compress::LZString] ok 3 - URI encode matches reference
+[Compress::LZString] ok 4 - base64 encode matches reference
+[Compress::LZString] ok 5 - uri round-trip
+[Compress::LZString] ok 6 - base64 round-trip
+[Compress::LZString] ok 7 - utf16 round-trip
+[Compress::LZString] ok 8 - raw round-trip
+[Compress::LZString] ok 9 - bytes round-trip
+[Compress::LZString] 1..9
+[Compress::LZString] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/6a3d010126d456e88c52bf5fc61058e029a653ae.tar.gz/Compress-LZString-0.0.1 t/03-canonical-data.rakutest
+[Compress::LZString] Expected a modifiable native int argument for '$pos'
+[Compress::LZString]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Compress::LZString]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Compress::LZString]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Compress::LZString]   in block <unit> at t/03-canonical-data.rakutest line 18
+===> Testing [FAIL]: Compress::LZString:ver<0.0.1>:auth<zef:bduggan>
+[Compress::LZString] Failed to get passing tests, but continuing with --force-test
+===> Installing: Compress::LZString:ver<0.0.1>:auth<zef:bduggan>
+===> Install [OK] for Compress::LZString:ver<0.0.1>:auth<zef:bduggan>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 13.505s
+             CPU time consumed: 17.123s
+                   Memory peak: 947M (swap: 0B)

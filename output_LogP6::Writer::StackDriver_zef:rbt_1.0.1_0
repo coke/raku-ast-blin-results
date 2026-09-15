@@ -1,0 +1,178 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: LogP6::Writer::StackDriver
+Running as unit: run-p1805811-i10207963.service; invocation ID: 42f99bab64ea4f81bc347f14face1314
+Press ^] three times within 1s to disconnect TTY.
+===> Found: LogP6::Writer::StackDriver:ver<1.0.1>:auth<zef:rbt> [via Zef::Repository::Ecosystems<fez>]
+[LogP6::Writer::StackDriver] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445849.1805816.9689.858550124132/e90bf9ab382a888d0482a6e3eb34482e828012b0.tar.gz https://360.zef.pm/L/OG/LOGP6_WRITER_STACKDRIVER/e90bf9ab382a888d0482a6e3eb34482e828012b0.tar.gz
+===> Fetching [OK]: LogP6::Writer::StackDriver:ver<1.0.1>:auth<zef:rbt> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445849.1805816.9689.858550124132/e90bf9ab382a888d0482a6e3eb34482e828012b0.tar.gz
+[LogP6::Writer::StackDriver] Command: tar -t -f ./e90bf9ab382a888d0482a6e3eb34482e828012b0.tar.gz
+[LogP6::Writer::StackDriver] Command: tar -xvf ./e90bf9ab382a888d0482a6e3eb34482e828012b0.tar.gz -C ../e90bf9ab382a888d0482a6e3eb34482e828012b0.tar.gz
+===> Extraction [OK]: LogP6::Writer::StackDriver to /home/coke/sandbox/blin/data/zef-data/tmp/e90bf9ab382a888d0482a6e3eb34482e828012b0.tar.gz
+===> Testing: LogP6::Writer::StackDriver:ver<1.0.1>:auth<zef:rbt>
+[LogP6::Writer::StackDriver] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e90bf9ab382a888d0482a6e3eb34482e828012b0.tar.gz/dist t/00-functionality.t
+[LogP6::Writer::StackDriver] Potential difficulties:
+[LogP6::Writer::StackDriver]     Declaring class 'LogP6::ConfigFile' inside an enclosing module of the
+[LogP6::Writer::StackDriver]     same name silently replaces the module in the outer stash. This is
+[LogP6::Writer::StackDriver]     legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the same
+[LogP6::Writer::StackDriver]     pattern installs the class as a nested package instead. Rewrite as 'unit
+[LogP6::Writer::StackDriver]     class LogP6::ConfigFile;' in its own file (or otherwise avoid the
+[LogP6::Writer::StackDriver]     module+same-named-class collision) to work the same way on either
+[LogP6::Writer::StackDriver]     revision.
+[LogP6::Writer::StackDriver]     at /home/coke/sandbox/blin/installed/LogP6_cpan:ATROXAPER_1.6.4_0/sources/E3439F5B3CF598ACB86244DEF311287EDB54E5F6 (LogP6::ConfigFile):35
+[LogP6::Writer::StackDriver]     ------> class <HERE>LogP6::ConfigFile {
+[LogP6::Writer::StackDriver] 1..2
+[LogP6::Writer::StackDriver] # Subtest: Writer with MDC
+[LogP6::Writer::StackDriver]     not ok 1 - Output is json
+[LogP6::Writer::StackDriver]     # Failed test 'Output is json'
+[LogP6::Writer::StackDriver]     # at t/00-functionality.t line 46
+[LogP6::Writer::StackDriver]     # Expected a modifiable native int argument for '$pos'
+[LogP6::Writer::StackDriver]     not ok 2 - Has MDC variable OBJ
+[LogP6::Writer::StackDriver]     # Failed test 'Has MDC variable OBJ'
+[LogP6::Writer::StackDriver]     # at t/00-functionality.t line 49
+[LogP6::Writer::StackDriver]     # expected: 'value'
+[LogP6::Writer::StackDriver]     #      got: (Any)
+[LogP6::Writer::StackDriver]     not ok 3 - Has MDC variable VAL
+[LogP6::Writer::StackDriver]     # Failed test 'Has MDC variable VAL'
+[LogP6::Writer::StackDriver]     # at t/00-functionality.t line 50
+[LogP6::Writer::StackDriver]     # expected: 'obj'
+[LogP6::Writer::StackDriver]     #      got: (Any)
+[LogP6::Writer::StackDriver]     not ok 4 - Has message
+[LogP6::Writer::StackDriver]     # Failed test 'Has message'
+[LogP6::Writer::StackDriver]     # at t/00-functionality.t line 51
+[LogP6::Writer::StackDriver]     # expected: 'boom'
+[LogP6::Writer::StackDriver]     #      got: (Any)
+[LogP6::Writer::StackDriver]     not ok 5 - Has severity
+[LogP6::Writer::StackDriver]     # Failed test 'Has severity'
+[LogP6::Writer::StackDriver]     # at t/00-functionality.t line 52
+[LogP6::Writer::StackDriver]     # expected: 'warn'
+[LogP6::Writer::StackDriver]     #      got: (Any)
+[LogP6::Writer::StackDriver]     not ok 6 - Has timestamp
+[LogP6::Writer::StackDriver]     # Failed test 'Has timestamp'
+[LogP6::Writer::StackDriver]     # at t/00-functionality.t line 53
+[LogP6::Writer::StackDriver]     1..6
+[LogP6::Writer::StackDriver]     # You failed 6 tests of 6
+[LogP6::Writer::StackDriver] not ok 1 - Writer with MDC
+[LogP6::Writer::StackDriver] # Failed test 'Writer with MDC'
+[LogP6::Writer::StackDriver] # at t/00-functionality.t line 44
+[LogP6::Writer::StackDriver] # Subtest: Writer without MDC
+[LogP6::Writer::StackDriver]     not ok 1 - Output is json
+[LogP6::Writer::StackDriver]     # Failed test 'Output is json'
+[LogP6::Writer::StackDriver]     # at t/00-functionality.t line 58
+[LogP6::Writer::StackDriver]     # Expected a modifiable native int argument for '$pos'
+[LogP6::Writer::StackDriver]     ok 2 - Does not have MDC variable OBJ
+[LogP6::Writer::StackDriver]     ok 3 - Does not have MDC variable VAL
+[LogP6::Writer::StackDriver]     not ok 4 - Has message
+[LogP6::Writer::StackDriver]     # Failed test 'Has message'
+[LogP6::Writer::StackDriver]     # at t/00-functionality.t line 63
+[LogP6::Writer::StackDriver]     # expected: 'boom'
+[LogP6::Writer::StackDriver]     #      got: (Any)
+[LogP6::Writer::StackDriver]     not ok 5 - Has severity
+[LogP6::Writer::StackDriver]     # Failed test 'Has severity'
+[LogP6::Writer::StackDriver]     # at t/00-functionality.t line 64
+[LogP6::Writer::StackDriver]     # expected: 'warn'
+[LogP6::Writer::StackDriver]     #      got: (Any)
+[LogP6::Writer::StackDriver]     not ok 6 - Has timestamp
+[LogP6::Writer::StackDriver]     # Failed test 'Has timestamp'
+[LogP6::Writer::StackDriver]     # at t/00-functionality.t line 65
+[LogP6::Writer::StackDriver]     # You failed 4 tests of 6
+[LogP6::Writer::StackDriver]     1..6
+[LogP6::Writer::StackDriver] not ok 2 - Writer without MDC
+[LogP6::Writer::StackDriver] # Failed test 'Writer without MDC'
+[LogP6::Writer::StackDriver] # at t/00-functionality.t line 56
+[LogP6::Writer::StackDriver] # You failed 2 tests of 2
+[LogP6::Writer::StackDriver] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e90bf9ab382a888d0482a6e3eb34482e828012b0.tar.gz/dist t/meta6.t
+[LogP6::Writer::StackDriver] 1..1
+[LogP6::Writer::StackDriver] ok 1 - # SKIP Skipping author test
+===> Testing [FAIL]: LogP6::Writer::StackDriver:ver<1.0.1>:auth<zef:rbt>
+[LogP6::Writer::StackDriver] Failed to get passing tests, but continuing with --force-test
+===> Installing: LogP6::Writer::StackDriver:ver<1.0.1>:auth<zef:rbt>
+===> Install [OK] for LogP6::Writer::StackDriver:ver<1.0.1>:auth<zef:rbt>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 25.846s
+             CPU time consumed: 35.475s
+                   Memory peak: 1.6G (swap: 0B)

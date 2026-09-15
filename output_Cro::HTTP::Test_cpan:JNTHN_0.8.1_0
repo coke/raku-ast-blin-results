@@ -1,0 +1,586 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Cro::HTTP::Test
+Running as unit: run-p2136295-i10333051.service; invocation ID: b98002e4bb6545b8af2f83f3e5fae136
+Press ^] three times within 1s to disconnect TTY.
+===> Found: Cro::HTTP::Test:ver<0.8.1>:auth<cpan:JNTHN> [via Zef::Repository::Ecosystems<rea>]
+[Cro::HTTP::Test] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789461841.2136296.1414.327171692241/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/Cro%3A%3AHTTP%3A%3ATest/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz
+===> Fetching [OK]: Cro::HTTP::Test:ver<0.8.1>:auth<cpan:JNTHN> to /home/coke/sandbox/blin/data/zef-data/tmp/1789461841.2136296.1414.327171692241/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz
+[Cro::HTTP::Test] Command: tar -t -f ./Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz
+[Cro::HTTP::Test] Command: tar -xvf ./Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz -C ../Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz
+===> Extraction [OK]: Cro::HTTP::Test to /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz
+===> Testing: Cro::HTTP::Test:ver<0.8.1>
+[Cro::HTTP::Test] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test t/checks.t
+[Cro::HTTP::Test] 1..20
+[Cro::HTTP::Test] # Subtest: GET /text
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 1 - GET /text
+[Cro::HTTP::Test] # Subtest: GET /text
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 2 - GET /text
+[Cro::HTTP::Test] # Subtest: GET /text
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 3 - GET /text
+[Cro::HTTP::Test] # Subtest: GET /text
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 4 - GET /text
+[Cro::HTTP::Test] # Subtest: GET /binary
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 5 - GET /binary
+[Cro::HTTP::Test] # Subtest: GET /binary
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 6 - GET /binary
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 7 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 8 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 9 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 10 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 11 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 12 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     ok 2 - X-bar header
+[Cro::HTTP::Test]     1..2
+[Cro::HTTP::Test] ok 13 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 14 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 15 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     ok 2 - X-bar header
+[Cro::HTTP::Test]     1..2
+[Cro::HTTP::Test] ok 16 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-bar header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 17 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-bar header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 18 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-foo header
+[Cro::HTTP::Test]     ok 2 - X-bar header
+[Cro::HTTP::Test]     1..2
+[Cro::HTTP::Test] ok 19 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - X-bar header
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 20 - GET /headers
+[Cro::HTTP::Test] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test t/fake-auth.t
+[Cro::HTTP::Test] 1..9
+[Cro::HTTP::Test] # Subtest: GET /public
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 1 - GET /public
+[Cro::HTTP::Test] # Subtest: GET /secret
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 2 - GET /secret
+[Cro::HTTP::Test] # Subtest: GET /admin
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 3 - GET /admin
+[Cro::HTTP::Test] # Subtest: GET /public
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 4 - GET /public
+[Cro::HTTP::Test] # Subtest: GET /secret
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 5 - GET /secret
+[Cro::HTTP::Test] # Subtest: GET /admin
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 6 - GET /admin
+[Cro::HTTP::Test] # Subtest: GET /public
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 7 - GET /public
+[Cro::HTTP::Test] # Subtest: GET /secret
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 8 - GET /secret
+[Cro::HTTP::Test] # Subtest: GET /admin
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 9 - GET /admin
+[Cro::HTTP::Test] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test t/fake-peer.t
+[Cro::HTTP::Test] # Subtest: GET /
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is recognized as a JSON one
+[Cro::HTTP::Test] An operation first awaited:
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 217
+[Cro::HTTP::Test]   in sub subtest at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 431
+[Cro::HTTP::Test]   in sub subtest at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 416
+[Cro::HTTP::Test]   in sub test at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 162
+[Cro::HTTP::Test]   in block <unit> at t/fake-peer.t line 16
+[Cro::HTTP::Test] Died with the exception:
+[Cro::HTTP::Test]     Expected a modifiable native int argument for '$pos'
+[Cro::HTTP::Test]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::HTTP::Test]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::HTTP::Test]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::HTTP::Test]       in method parse at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/14810917667F81B44F5C39489F1DA27137B4D636 (Cro::HTTP::BodyParsers) line 225
+[Cro::HTTP::Test]       in method body at /home/coke/sandbox/blin/installed/Cro::Core_zef:cro_0.8.10_0/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 78
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 217
+[Cro::HTTP::Test]       in sub subtest at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 431
+[Cro::HTTP::Test]       in sub subtest at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 416
+[Cro::HTTP::Test]       in sub test at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 162
+[Cro::HTTP::Test]       in block <unit> at t/fake-peer.t line 16
+[Cro::HTTP::Test] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test t/http2.t
+[Cro::HTTP::Test] 1..4
+[Cro::HTTP::Test] # Subtest: GET /
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 1 - GET /
+[Cro::HTTP::Test] # Subtest: POST /add
+[Cro::HTTP::Test] An operation first awaited:
+[Cro::HTTP::Test]   in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]   in block  at t/http2.t line 10
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test] Died with the exception:
+[Cro::HTTP::Test]     Expected a modifiable native int argument for '$pos'
+[Cro::HTTP::Test]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::HTTP::Test]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::HTTP::Test]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::HTTP::Test]       in method parse at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/14810917667F81B44F5C39489F1DA27137B4D636 (Cro::HTTP::BodyParsers) line 225
+[Cro::HTTP::Test]       in method body at /home/coke/sandbox/blin/installed/Cro::Core_zef:cro_0.8.10_0/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 78
+[Cro::HTTP::Test]       in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]       in block  at t/http2.t line 10
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test]     not ok 1 - Status is acceptable
+[Cro::HTTP::Test]     # Failed test 'Status is acceptable'
+[Cro::HTTP::Test]     # at t/http2.t line 19
+[Cro::HTTP::Test]     # expected: '200'
+[Cro::HTTP::Test]     #      got: '500'
+[Cro::HTTP::Test] Use of Nil in string context
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 209
+[Cro::HTTP::Test] Use of Nil in string context
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 209
+[Cro::HTTP::Test]     not ok 2 - Content type is recognized as a JSON one
+[Cro::HTTP::Test]     # Failed test 'Content type is recognized as a JSON one'
+[Cro::HTTP::Test]     # at t/http2.t line 19
+[Cro::HTTP::Test]     not ok 3 - Body is acceptable
+[Cro::HTTP::Test]     # Failed test 'Body is acceptable'
+[Cro::HTTP::Test]     # at t/http2.t line 19
+[Cro::HTTP::Test]     # expected: ${:result(42)}
+[Cro::HTTP::Test]     #      got: Buf.new()
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test]     # You failed 3 tests of 3
+[Cro::HTTP::Test] not ok 2 - POST /add
+[Cro::HTTP::Test] # Failed test 'POST /add'
+[Cro::HTTP::Test] # at t/http2.t line 19
+[Cro::HTTP::Test] # Subtest: POST /add
+[Cro::HTTP::Test] An operation first awaited:
+[Cro::HTTP::Test]   in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]   in block  at t/http2.t line 10
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test] Died with the exception:
+[Cro::HTTP::Test]     Expected a modifiable native int argument for '$pos'
+[Cro::HTTP::Test]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::HTTP::Test]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::HTTP::Test]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::HTTP::Test]       in method parse at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/14810917667F81B44F5C39489F1DA27137B4D636 (Cro::HTTP::BodyParsers) line 225
+[Cro::HTTP::Test]       in method body at /home/coke/sandbox/blin/installed/Cro::Core_zef:cro_0.8.10_0/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 78
+[Cro::HTTP::Test]       in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]       in block  at t/http2.t line 10
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test]     not ok 1 - Status is acceptable
+[Cro::HTTP::Test]     # Failed test 'Status is acceptable'
+[Cro::HTTP::Test]     # at t/http2.t line 19
+[Cro::HTTP::Test]     # expected: '400'
+[Cro::HTTP::Test]     #      got: '500'
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test]     # You failed 1 test of 1
+[Cro::HTTP::Test] not ok 3 - POST /add
+[Cro::HTTP::Test] # Failed test 'POST /add'
+[Cro::HTTP::Test] # at t/http2.t line 19
+[Cro::HTTP::Test] # Subtest: GET /add
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 4 - GET /add
+[Cro::HTTP::Test] # You failed 2 tests of 4
+[Cro::HTTP::Test] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test t/synopsis.t
+[Cro::HTTP::Test] 1..4
+[Cro::HTTP::Test] # Subtest: GET /
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 1 - GET /
+[Cro::HTTP::Test] # Subtest: POST /add
+[Cro::HTTP::Test] An operation first awaited:
+[Cro::HTTP::Test]   in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]   in block  at t/synopsis.t line 10
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test] Died with the exception:
+[Cro::HTTP::Test]     Expected a modifiable native int argument for '$pos'
+[Cro::HTTP::Test]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::HTTP::Test]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::HTTP::Test]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::HTTP::Test]       in method parse at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/14810917667F81B44F5C39489F1DA27137B4D636 (Cro::HTTP::BodyParsers) line 225
+[Cro::HTTP::Test]       in method body at /home/coke/sandbox/blin/installed/Cro::Core_zef:cro_0.8.10_0/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 78
+[Cro::HTTP::Test]       in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]       in block  at t/synopsis.t line 10
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test]     not ok 1 - Status is acceptable
+[Cro::HTTP::Test]     # Failed test 'Status is acceptable'
+[Cro::HTTP::Test]     # at t/synopsis.t line 19
+[Cro::HTTP::Test]     # expected: '200'
+[Cro::HTTP::Test]     #      got: '500'
+[Cro::HTTP::Test] Use of Nil in string context
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 209
+[Cro::HTTP::Test] Use of Nil in string context
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 209
+[Cro::HTTP::Test]     not ok 2 - Content type is recognized as a JSON one
+[Cro::HTTP::Test]     # Failed test 'Content type is recognized as a JSON one'
+[Cro::HTTP::Test]     # at t/synopsis.t line 19
+[Cro::HTTP::Test]     not ok 3 - Body is acceptable
+[Cro::HTTP::Test]     # Failed test 'Body is acceptable'
+[Cro::HTTP::Test]     # at t/synopsis.t line 19
+[Cro::HTTP::Test]     # expected: ${:result(42)}
+[Cro::HTTP::Test]     #      got: Buf.new()
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test]     # You failed 3 tests of 3
+[Cro::HTTP::Test] not ok 2 - POST /add
+[Cro::HTTP::Test] # Failed test 'POST /add'
+[Cro::HTTP::Test] # at t/synopsis.t line 19
+[Cro::HTTP::Test] # Subtest: POST /add
+[Cro::HTTP::Test] An operation first awaited:
+[Cro::HTTP::Test]   in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]   in block  at t/synopsis.t line 10
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test] Died with the exception:
+[Cro::HTTP::Test]     Expected a modifiable native int argument for '$pos'
+[Cro::HTTP::Test]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::HTTP::Test]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::HTTP::Test]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::HTTP::Test]       in method parse at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/14810917667F81B44F5C39489F1DA27137B4D636 (Cro::HTTP::BodyParsers) line 225
+[Cro::HTTP::Test]       in method body at /home/coke/sandbox/blin/installed/Cro::Core_zef:cro_0.8.10_0/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 78
+[Cro::HTTP::Test]       in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]       in block  at t/synopsis.t line 10
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test]     not ok 1 - Status is acceptable
+[Cro::HTTP::Test]     # Failed test 'Status is acceptable'
+[Cro::HTTP::Test]     # at t/synopsis.t line 19
+[Cro::HTTP::Test]     # expected: '400'
+[Cro::HTTP::Test]     #      got: '500'
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test]     # You failed 1 test of 1
+[Cro::HTTP::Test] not ok 3 - POST /add
+[Cro::HTTP::Test] # Failed test 'POST /add'
+[Cro::HTTP::Test] # at t/synopsis.t line 19
+[Cro::HTTP::Test] # Subtest: GET /add
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     1..1
+[Cro::HTTP::Test] ok 4 - GET /add
+[Cro::HTTP::Test] # You failed 2 tests of 4
+[Cro::HTTP::Test] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test t/test-given.t
+[Cro::HTTP::Test] 1..14
+[Cro::HTTP::Test] # Subtest: GET /cookies
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 1 - GET /cookies
+[Cro::HTTP::Test] # Subtest: GET /cookies
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 2 - GET /cookies
+[Cro::HTTP::Test] # Subtest: GET /cookies
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 3 - GET /cookies
+[Cro::HTTP::Test] # Subtest: GET /cookies
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 4 - GET /cookies
+[Cro::HTTP::Test] # Subtest: GET /cookies
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 5 - GET /cookies
+[Cro::HTTP::Test] # Subtest: GET /cookies
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 6 - GET /cookies
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 7 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 8 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 9 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 10 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 11 - GET /headers
+[Cro::HTTP::Test] # Subtest: GET /headers
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 12 - GET /headers
+[Cro::HTTP::Test] # Subtest: PUT /content
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 13 - PUT /content
+[Cro::HTTP::Test] # Subtest: PUT /content
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 14 - PUT /content
+[Cro::HTTP::Test] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test t/test-uri.t
+[Cro::HTTP::Test] 1..5
+[Cro::HTTP::Test] # Subtest: GET /
+[Cro::HTTP::Test]     ok 1 - Status is acceptable
+[Cro::HTTP::Test]     ok 2 - Content type is acceptable
+[Cro::HTTP::Test]     ok 3 - Body is acceptable
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test] ok 1 - GET /
+[Cro::HTTP::Test] # Subtest: POST /add
+[Cro::HTTP::Test] An operation first awaited:
+[Cro::HTTP::Test]   in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]   in block  at t/test-uri.t line 13
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test] Died with the exception:
+[Cro::HTTP::Test]     Expected a modifiable native int argument for '$pos'
+[Cro::HTTP::Test]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::HTTP::Test]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::HTTP::Test]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::HTTP::Test]       in method parse at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/14810917667F81B44F5C39489F1DA27137B4D636 (Cro::HTTP::BodyParsers) line 225
+[Cro::HTTP::Test]       in method body at /home/coke/sandbox/blin/installed/Cro::Core_zef:cro_0.8.10_0/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 78
+[Cro::HTTP::Test]       in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]       in block  at t/test-uri.t line 13
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test]     not ok 1 - Status is acceptable
+[Cro::HTTP::Test]     # Failed test 'Status is acceptable'
+[Cro::HTTP::Test]     # at t/test-uri.t line 26
+[Cro::HTTP::Test]     # expected: '200'
+[Cro::HTTP::Test]     #      got: '500'
+[Cro::HTTP::Test] Use of Nil in string context
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 209
+[Cro::HTTP::Test] Use of Nil in string context
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 209
+[Cro::HTTP::Test]     not ok 2 - Content type is recognized as a JSON one
+[Cro::HTTP::Test]     # Failed test 'Content type is recognized as a JSON one'
+[Cro::HTTP::Test]     # at t/test-uri.t line 26
+[Cro::HTTP::Test]     not ok 3 - Body is acceptable
+[Cro::HTTP::Test]     # Failed test 'Body is acceptable'
+[Cro::HTTP::Test]     # at t/test-uri.t line 26
+[Cro::HTTP::Test]     # expected: ${:result(42)}
+[Cro::HTTP::Test]     #      got: Buf.new()
+[Cro::HTTP::Test]     1..3
+[Cro::HTTP::Test]     # You failed 3 tests of 3
+[Cro::HTTP::Test] not ok 2 - POST /add
+[Cro::HTTP::Test] # Failed test 'POST /add'
+[Cro::HTTP::Test] # at t/test-uri.t line 26
+[Cro::HTTP::Test] # Subtest: POST /add
+[Cro::HTTP::Test] An operation first awaited:
+[Cro::HTTP::Test]   in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]   in block  at t/test-uri.t line 13
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test] Died with the exception:
+[Cro::HTTP::Test]     Expected a modifiable native int argument for '$pos'
+[Cro::HTTP::Test]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Cro::HTTP::Test]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Cro::HTTP::Test]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Cro::HTTP::Test]       in method parse at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/14810917667F81B44F5C39489F1DA27137B4D636 (Cro::HTTP::BodyParsers) line 225
+[Cro::HTTP::Test]       in method body at /home/coke/sandbox/blin/installed/Cro::Core_zef:cro_0.8.10_0/sources/DAF2DD216931EA6FBC6203826A2C1E38F04DE958 (Cro::MessageWithBody) line 78
+[Cro::HTTP::Test]       in sub request-body at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 935
+[Cro::HTTP::Test]       in block  at t/test-uri.t line 13
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 217
+[Cro::HTTP::Test]       in block  at /home/coke/sandbox/blin/installed/Cro::HTTP_zef:cro_0.8.13_0/sources/C23BCEDC1368B0A1665A2FC4B3C6100B19AABE86 (Cro::HTTP::Router) line 214
+[Cro::HTTP::Test]     not ok 1 - Status is acceptable
+[Cro::HTTP::Test]     # Failed test 'Status is acceptable'
+[Cro::HTTP::Test]     # at t/test-uri.t line 26
+[Cro::HTTP::Test]     # expected: '200'
+[Cro::HTTP::Test]     #      got: '500'
+[Cro::HTTP::Test] Use of Nil in string context
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 209
+[Cro::HTTP::Test] Use of Nil in string context
+[Cro::HTTP::Test]   in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 209
+[Cro::HTTP::Test]     not ok 2 - Content type is recognized as a JSON one
+[Cro::HTTP::Test]     # Failed test 'Content type is recognized as a JSON one'
+[Cro::HTTP::Test]     # at t/test-uri.t line 26
+[Cro::HTTP::Test] Type Buf does not support associative indexing.
+[Cro::HTTP::Test]   in block  at t/test-uri.t line 39
+[Cro::HTTP::Test]   in sub run-test-given at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 90
+[Cro::HTTP::Test]   in sub test-given at /home/coke/sandbox/blin/data/zef-data/tmp/Cro%3A%3AHTTP%3A%3ATest%3Aver%3C0.8.1%3E%3Aauth%3Ccpan%3AJNTHN%3E.tar.gz/Cro-HTTP-Test/lib/Cro/HTTP/Test.pm6 (Cro::HTTP::Test) line 69
+[Cro::HTTP::Test]   in block <unit> at t/test-uri.t line 32
+===> Testing [FAIL]: Cro::HTTP::Test:ver<0.8.1>
+[Cro::HTTP::Test] Failed to get passing tests, but continuing with --force-test
+===> Installing: Cro::HTTP::Test:ver<0.8.1>
+===> Install [OK] for Cro::HTTP::Test:ver<0.8.1>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 2min 5.919s
+             CPU time consumed: 2min 54.806s
+                   Memory peak: 3.2G (swap: 185M)

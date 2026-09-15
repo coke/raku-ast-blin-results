@@ -1,0 +1,9 @@
+Running as unit: run-p1488760-i9853218.service; invocation ID: f6e5416395cd4c1099931a0f7d46548f
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Cache::LRU
+No candidates found matching identity: Cache::LRU
+          Finished with result: exit-code
+Main processes terminated with: code=exited, status=255/EXCEPTION
+               Service runtime: 10.126s
+             CPU time consumed: 10.286s
+                   Memory peak: 529.1M (swap: 0B)

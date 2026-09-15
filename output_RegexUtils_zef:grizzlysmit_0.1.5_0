@@ -1,17 +1,17 @@
-Running as unit: run-p2445618-i2456107.service; invocation ID: 12367157300540928294483315abc101
+Running as unit: run-p1547994-i9966725.service; invocation ID: fd9578e90a6e4f168cea54abcc185dde
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: RegexUtils
 ===> Found: RegexUtils:ver<0.1.5>:auth<zef:grizzlysmit> [via Zef::Repository::Ecosystems<fez>]
-[RegexUtils] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786655826.2445623.7608.068666898809/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz https://360.zef.pm/R/EG/REGEXUTILS/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz
-===> Fetching [OK]: RegexUtils:ver<0.1.5>:auth<zef:grizzlysmit> to /home/coke/sandbox/blin/data/zef-data/tmp/1786655826.2445623.7608.068666898809/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz
+[RegexUtils] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789440268.1547997.7693.798624288523/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz https://360.zef.pm/R/EG/REGEXUTILS/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz
+===> Fetching [OK]: RegexUtils:ver<0.1.5>:auth<zef:grizzlysmit> to /home/coke/sandbox/blin/data/zef-data/tmp/1789440268.1547997.7693.798624288523/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz
 [RegexUtils] Command: tar -t -f ./befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz
 [RegexUtils] Command: tar -xvf ./befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz -C ../befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz
 ===> Extraction [OK]: RegexUtils to /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz
 ===> Testing: RegexUtils:ver<0.1.5>:auth<zef:grizzlysmit>
-[RegexUtils] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/001-Meta-test.rakutest
+[RegexUtils] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/001-Meta-test.rakutest
 [RegexUtils] 1..1
 [RegexUtils] ok 1 - # SKIP Skipping author test
-[RegexUtils] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/010-flags.rakutest
+[RegexUtils] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/010-flags.rakutest
 [RegexUtils] ok 1 - Flags parsed correctly
 [RegexUtils] ok 2 - Flags parsed correctly
 [RegexUtils] ok 3 - Flags parsed correctly
@@ -25,7 +25,7 @@ Press ^] three times within 1s to disconnect TTY.
 [RegexUtils] ok 11 - Flags parsed correctly
 [RegexUtils] ok 12 - Flags parsed correctly
 [RegexUtils] 1..12
-[RegexUtils] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/020-compile.rakutest
+[RegexUtils] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/020-compile.rakutest
 [RegexUtils] ok 1 - fo\n, foo\n, FOO\n, ... whole string case insensitive
 [RegexUtils] ok 2 - fo\n, foo\n, ... whole string case sensitive
 [RegexUtils] ok 3 - a or b whole string case insensitive
@@ -41,7 +41,7 @@ Press ^] three times within 1s to disconnect TTY.
 [RegexUtils] --------------------------------------------------------------------------------
 [RegexUtils] Please contact the author to have these occurrences of deprecated code
 [RegexUtils] adapted, so that this message will disappear!
-[RegexUtils] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/030-facade.rakutest
+[RegexUtils] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/030-facade.rakutest
 [RegexUtils] not ok 1 - Regex is compiled, successful check
 [RegexUtils] # Failed test 'Regex is compiled, successful check'
 [RegexUtils] # at t/030-facade.rakutest line 8
@@ -62,7 +62,7 @@ Press ^] three times within 1s to disconnect TTY.
 [RegexUtils] --------------------------------------------------------------------------------
 [RegexUtils] Please contact the author to have these occurrences of deprecated code
 [RegexUtils] adapted, so that this message will disappear!
-[RegexUtils] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/10-flags.rakutest
+[RegexUtils] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/10-flags.rakutest
 [RegexUtils] ok 1 - Flags parsed correctly
 [RegexUtils] ok 2 - Flags parsed correctly
 [RegexUtils] ok 3 - Flags parsed correctly
@@ -76,7 +76,7 @@ Press ^] three times within 1s to disconnect TTY.
 [RegexUtils] ok 11 - Flags parsed correctly
 [RegexUtils] ok 12 - Flags parsed correctly
 [RegexUtils] 1..12
-[RegexUtils] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/20-compile.rakutest
+[RegexUtils] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/20-compile.rakutest
 [RegexUtils] ok 1 - fo\n, foo\n, FOO\n, ... whole string case insensitive
 [RegexUtils] ok 2 - fo\n, foo\n, ... whole string case sensitive
 [RegexUtils] ok 3 - a or b whole string case insensitive
@@ -92,7 +92,7 @@ Press ^] three times within 1s to disconnect TTY.
 [RegexUtils] --------------------------------------------------------------------------------
 [RegexUtils] Please contact the author to have these occurrences of deprecated code
 [RegexUtils] adapted, so that this message will disappear!
-[RegexUtils] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/30-facade.rakutest
+[RegexUtils] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/befeea80c4138a4e2bde1b94afa91d3756451bc5.tar.gz t/30-facade.rakutest
 [RegexUtils] not ok 1 - Regex is compiled, successful check
 [RegexUtils] # Failed test 'Regex is compiled, successful check'
 [RegexUtils] # at t/30-facade.rakutest line 8
@@ -119,6 +119,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for RegexUtils:ver<0.1.5>:auth<zef:grizzlysmit>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 2min 52.392s
-             CPU time consumed: 2min 47.112s
-                   Memory peak: 1.2G (swap: 110.1M)
+               Service runtime: 18.998s
+             CPU time consumed: 23.523s
+                   Memory peak: 1G (swap: 0B)

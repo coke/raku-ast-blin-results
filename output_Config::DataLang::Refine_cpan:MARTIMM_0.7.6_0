@@ -1,0 +1,127 @@
+Running as unit: run-p1677494-i10082442.service; invocation ID: a6d0fe7dba21470a8a147bb1df3c00b2
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: Config::DataLang::Refine
+===> Found: Config::DataLang::Refine:ver<0.7.6>:auth<cpan:MARTIMM> [via Zef::Repository::Ecosystems<rea>]
+[Config::DataLang::Refine] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442947.1677497.817.4787171975662/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/C/Config%3A%3ADataLang%3A%3ARefine/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz
+===> Fetching [OK]: Config::DataLang::Refine:ver<0.7.6>:auth<cpan:MARTIMM> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442947.1677497.817.4787171975662/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz
+[Config::DataLang::Refine] Command: tar -t -f ./Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz
+[Config::DataLang::Refine] Command: tar -xvf ./Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz -C ../Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz
+===> Extraction [OK]: Config::DataLang::Refine to /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz
+===> Testing: Config::DataLang::Refine:ver<0.7.6>:auth<cpan:MARTIMM>
+[Config::DataLang::Refine] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/config-datalang-refine-0.7.6 t/100-refine-toml.rakutest
+[Config::DataLang::Refine] # Subtest: build test, two config files
+[Config::DataLang::Refine]     ok 1 - Config files derived from 100-refine-toml.toml not found or empty in current directory (plain or hidden) or in home directory
+[Config::DataLang::Refine]     ok 2 - no workdir
+[Config::DataLang::Refine]     ok 3 - workdir p1 /tmp
+[Config::DataLang::Refine]     ok 4 - no host
+[Config::DataLang::Refine]     ok 5 - workdir p2 ~/p2
+[Config::DataLang::Refine]     ok 6 - workdir p3 not existent
+[Config::DataLang::Refine]     ok 7 - workdir app /var/tmp
+[Config::DataLang::Refine]     ok 8 - workdir p1 /tmp
+[Config::DataLang::Refine]     ok 9 - host p1 example.com
+[Config::DataLang::Refine]     ok 10 - workdir p2 ~/p2
+[Config::DataLang::Refine]     ok 11 - times p2 10 11 12
+[Config::DataLang::Refine]     ok 12 - tunnel p2 false
+[Config::DataLang::Refine]     ok 13 - vision p2 true
+[Config::DataLang::Refine]     1..13
+[Config::DataLang::Refine] ok 1 - build test, two config files
+[Config::DataLang::Refine] # Subtest: build test, one config Hash and two config files
+[Config::DataLang::Refine]     ok 1 - workdir p1 /tmp
+[Config::DataLang::Refine]     ok 2 - workdir p3 ~/p3
+[Config::DataLang::Refine]     ok 3 - p3 vision True
+[Config::DataLang::Refine]     ok 4 - Check p3 path = /opt/bin
+[Config::DataLang::Refine]     1..4
+[Config::DataLang::Refine] ok 2 - build test, one config Hash and two config files
+[Config::DataLang::Refine] # Subtest: refine tests
+[Config::DataLang::Refine] Search using name myCfg.cfg
+[Config::DataLang::Refine] Use only file myCfg.cfg
+[Config::DataLang::Refine]     ok 1 - app has no workdir
+[Config::DataLang::Refine]     ok 2 - port app 2345
+[Config::DataLang::Refine]     ok 3 - workdir p1 is /tmp
+[Config::DataLang::Refine]     ok 4 - port p1 2345
+[Config::DataLang::Refine]     ok 5 - workdir app /var/tmp
+[Config::DataLang::Refine]     ok 6 - port app 2345
+[Config::DataLang::Refine]     ok 7 - host p1 is example.com
+[Config::DataLang::Refine]     ok 8 - port p1 2345
+[Config::DataLang::Refine]     1..8
+[Config::DataLang::Refine] ok 3 - refine tests
+[Config::DataLang::Refine] # Subtest: refine filter string array tests C-URI-OPTS-*
+[Config::DataLang::Refine]     ok 1 - no perl5 lib
+[Config::DataLang::Refine]     ok 2 - perl6lib lib .
+[Config::DataLang::Refine]     1..2
+[Config::DataLang::Refine] ok 4 - refine filter string array tests C-URI-OPTS-*
+[Config::DataLang::Refine] # Subtest
+[Config::DataLang::Refine]     ok 1 - port in list
+[Config::DataLang::Refine]     ok 2 - workdir not in list
+[Config::DataLang::Refine]     ok 3 - port in list
+[Config::DataLang::Refine]     ok 4 - workdir in list
+[Config::DataLang::Refine]     ok 5 - vision in list
+[Config::DataLang::Refine]     ok 6 - tunnel not in list
+[Config::DataLang::Refine]     ok 7 - app workdir in list
+[Config::DataLang::Refine]     ok 8 - p2 text in list
+[Config::DataLang::Refine]     ok 9 - p2 workdir in list
+[Config::DataLang::Refine]     ok 10 - p2 times in list
+[Config::DataLang::Refine]     ok 11 - p3 encoded text in list
+[Config::DataLang::Refine]     1..11
+[Config::DataLang::Refine] ok 5 - 
+[Config::DataLang::Refine] # Subtest: refine filter string array tests C-UNIX-OPTS-T1
+[Config::DataLang::Refine]     ok 1 - app --port in list
+[Config::DataLang::Refine]     ok 2 - app --workdir /tmp not in list
+[Config::DataLang::Refine]     ok 3 - app -p in list
+[Config::DataLang::Refine]     ok 4 - app -q in list
+[Config::DataLang::Refine]     ok 5 - port in list
+[Config::DataLang::Refine]     ok 6 - workdir ~/p2 in list
+[Config::DataLang::Refine]     ok 7 - --vision in list
+[Config::DataLang::Refine]     ok 8 - --tunnel not in list
+[Config::DataLang::Refine]     ok 9 - app --workdir /var/tmp  in list
+[Config::DataLang::Refine]     ok 10 - p2 --text: spaced text
+[Config::DataLang::Refine]     ok 11 - p3 --command: backtick text
+[Config::DataLang::Refine]     ok 12 - p3 --c3tick: backtick text
+[Config::DataLang::Refine]     ok 13 - p2 --workdir ~/p2 in list
+[Config::DataLang::Refine]     ok 14 - p2 --times in list
+[Config::DataLang::Refine]     1..14
+[Config::DataLang::Refine] ok 6 - refine filter string array tests C-UNIX-OPTS-T1
+[Config::DataLang::Refine] # Subtest: refine filter string array tests C-UNIX-OPTS-T2 and T3
+[Config::DataLang::Refine]     ok 1 - app --port in list
+[Config::DataLang::Refine]     ok 2 - app --workdir /tmp not in list
+[Config::DataLang::Refine]     ok 3 - app -p not in list
+[Config::DataLang::Refine]     ok 4 - app -q not in list
+[Config::DataLang::Refine]     ok 5 - app -pq in list
+[Config::DataLang::Refine]     ok 6 - app -notest in list
+[Config::DataLang::Refine]     ok 7 - app --port in list
+[Config::DataLang::Refine]     ok 8 - app --workdir /tmp not in list
+[Config::DataLang::Refine]     ok 9 - app -p not in list
+[Config::DataLang::Refine]     ok 10 - app -q not in list
+[Config::DataLang::Refine]     ok 11 - app -pq in list
+[Config::DataLang::Refine]     ok 12 - p2 --/test: negated perl6 option, filter ignored
+[Config::DataLang::Refine]     ok 13 - p2 --/tunnel: negated perl6 option, filter ignored
+[Config::DataLang::Refine]     1..13
+[Config::DataLang::Refine] ok 7 - refine filter string array tests C-UNIX-OPTS-T2 and T3
+[Config::DataLang::Refine] 1..7
+[Config::DataLang::Refine] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/config-datalang-refine-0.7.6 t/200-refine-json.rakutest
+[Config::DataLang::Refine] # Subtest: build tests
+[Config::DataLang::Refine]     ok 1 - Config files derived from 200-refine-json.toml not found or empty in current directory (plain or hidden) or in home directory
+[Config::DataLang::Refine] Expected a modifiable native int argument for '$pos'
+[Config::DataLang::Refine] Config files derived from myCfg.cfg not found or empty in current directory (plain or hidden) or in home directory
+[Config::DataLang::Refine]   in method read-config at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/config-datalang-refine-0.7.6/lib/Config/DataLang/Refine.rakumod (Config::DataLang::Refine) line 241
+[Config::DataLang::Refine]   in method init-config at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/config-datalang-refine-0.7.6/lib/Config/DataLang/Refine.rakumod (Config::DataLang::Refine) line 124
+[Config::DataLang::Refine]   in submethod BUILD at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/config-datalang-refine-0.7.6/lib/Config/DataLang/Refine.rakumod (Config::DataLang::Refine) line 53
+[Config::DataLang::Refine]   in block <unit> at t/200-refine-json.rakutest line 88
+[Config::DataLang::Refine] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/config-datalang-refine-0.7.6 t/300-refine-locations.rakutest
+[Config::DataLang::Refine] # Subtest: test config-name as relative path
+[Config::DataLang::Refine] Odd number of elements found where hash initializer expected:
+[Config::DataLang::Refine] Only saw: Nil
+[Config::DataLang::Refine] Config files derived from myCfg.cfg not found or empty in current directory (plain or hidden) or in home directory
+[Config::DataLang::Refine]   in method read-config at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/config-datalang-refine-0.7.6/lib/Config/DataLang/Refine.rakumod (Config::DataLang::Refine) line 241
+[Config::DataLang::Refine]   in method init-config at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/config-datalang-refine-0.7.6/lib/Config/DataLang/Refine.rakumod (Config::DataLang::Refine) line 124
+[Config::DataLang::Refine]   in submethod BUILD at /home/coke/sandbox/blin/data/zef-data/tmp/Config%3A%3ADataLang%3A%3ARefine%3Aver%3C0.7.6%3E%3Aauth%3Ccpan%3AMARTIMM%3E.tar.gz/config-datalang-refine-0.7.6/lib/Config/DataLang/Refine.rakumod (Config::DataLang::Refine) line 53
+[Config::DataLang::Refine]   in block <unit> at t/300-refine-locations.rakutest line 62
+===> Testing [FAIL]: Config::DataLang::Refine:ver<0.7.6>:auth<cpan:MARTIMM>
+[Config::DataLang::Refine] Failed to get passing tests, but continuing with --force-test
+===> Installing: Config::DataLang::Refine:ver<0.7.6>:auth<cpan:MARTIMM>
+===> Install [OK] for Config::DataLang::Refine:ver<0.7.6>:auth<cpan:MARTIMM>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 53.351s
+             CPU time consumed: 1min 11.218s
+                   Memory peak: 2.5G (swap: 0B)

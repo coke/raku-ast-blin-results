@@ -1,0 +1,323 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: JSON::Marshal
+Running as unit: run-p1674835-i9976851.service; invocation ID: 5cf8a90afc7c4b1784b20b74b01e14fc
+Press ^] three times within 1s to disconnect TTY.
+===> Found: JSON::Marshal:ver<0.0.25>:auth<zef:jonathanstowe>:api<1.0> [via Zef::Repository::Ecosystems<fez>]
+[JSON::Marshal] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789442873.1674838.2231.611195921701/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz https://360.zef.pm/J/SO/JSON_MARSHAL/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz
+===> Fetching [OK]: JSON::Marshal:ver<0.0.25>:auth<zef:jonathanstowe>:api<1.0> to /home/coke/sandbox/blin/data/zef-data/tmp/1789442873.1674838.2231.611195921701/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz
+[JSON::Marshal] Command: tar -t -f ./e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz
+[JSON::Marshal] Command: tar -xvf ./e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz -C ../e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz
+===> Extraction [OK]: JSON::Marshal to /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz
+===> Testing: JSON::Marshal:ver<0.0.25>:auth<zef:jonathanstowe>:api<1.0>
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/010-use.t
+[JSON::Marshal] ok 1 - Can load "JSON::Marshal" ok
+[JSON::Marshal] 1..1
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/020-marshal.t
+[JSON::Marshal] 1..12
+[JSON::Marshal] ok 1 - marshal object
+[JSON::Marshal] Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Marshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Marshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Marshal]   in block <unit> at t/020-marshal.t line 32
+[JSON::Marshal] # You planned 12 tests, but ran 1
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/030-trait.t
+[JSON::Marshal] # Subtest: marshalled-by trait with Code
+[JSON::Marshal]     ok 1 - marshall with attribute trait (code)
+[JSON::Marshal]     not ok 2 - parse the resulting JSON
+[JSON::Marshal]     # Failed test 'parse the resulting JSON'
+[JSON::Marshal]     # at t/030-trait.t line 22
+[JSON::Marshal]     # Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]     not ok 3 - got something back
+[JSON::Marshal]     # Failed test 'got something back'
+[JSON::Marshal]     # at t/030-trait.t line 24
+[JSON::Marshal]     not ok 4 - and has the right value
+[JSON::Marshal]     # Failed test 'and has the right value'
+[JSON::Marshal]     # at t/030-trait.t line 25
+[JSON::Marshal]     # expected: '0.0.1'
+[JSON::Marshal]     #      got: (Any)
+[JSON::Marshal]     ok 5 - marshall with attrbute trait (code) but attribute not defined
+[JSON::Marshal]     not ok 6 - got sensible JSON back
+[JSON::Marshal]     # Failed test 'got sensible JSON back'
+[JSON::Marshal]     # at t/030-trait.t line 30
+[JSON::Marshal]     # Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]     not ok 7 - got something back
+[JSON::Marshal]     # Failed test 'got something back'
+[JSON::Marshal]     # at t/030-trait.t line 31
+[JSON::Marshal]     not ok 8 - got the key
+[JSON::Marshal]     # Failed test 'got the key'
+[JSON::Marshal]     # at t/030-trait.t line 32
+[JSON::Marshal]     ok 9 - and has the right value (Nil)
+[JSON::Marshal]     1..9
+[JSON::Marshal]     # You failed 6 tests of 9
+[JSON::Marshal] not ok 1 - marshalled-by trait with Code
+[JSON::Marshal] # Failed test 'marshalled-by trait with Code'
+[JSON::Marshal] # at t/030-trait.t line 9
+[JSON::Marshal] # Subtest: marshalled-by trait with Method name
+[JSON::Marshal]     ok 1 - marshall with attrbute trait (method name)
+[JSON::Marshal]     not ok 2 - got sensible JSON back
+[JSON::Marshal]     # Failed test 'got sensible JSON back'
+[JSON::Marshal]     # at t/030-trait.t line 48
+[JSON::Marshal]     # Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]     not ok 3 - got something back
+[JSON::Marshal]     # Failed test 'got something back'
+[JSON::Marshal]     # at t/030-trait.t line 50
+[JSON::Marshal]     not ok 4 - and has the right value
+[JSON::Marshal]     # Failed test 'and has the right value'
+[JSON::Marshal]     # at t/030-trait.t line 51
+[JSON::Marshal]     # expected: '0.0.1'
+[JSON::Marshal]     #      got: (Any)
+[JSON::Marshal]     ok 5 - marshall with attrbute trait (method name) but attribute not defined
+[JSON::Marshal]     not ok 6 - got sensible JSON back
+[JSON::Marshal]     # Failed test 'got sensible JSON back'
+[JSON::Marshal]     # at t/030-trait.t line 56
+[JSON::Marshal]     # Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]     not ok 7 - got something back
+[JSON::Marshal]     # Failed test 'got something back'
+[JSON::Marshal]     # at t/030-trait.t line 57
+[JSON::Marshal]     not ok 8 - got the key
+[JSON::Marshal]     # Failed test 'got the key'
+[JSON::Marshal]     # at t/030-trait.t line 58
+[JSON::Marshal]     ok 9 - and has the right value (Nil)
+[JSON::Marshal]     1..9
+[JSON::Marshal]     # You failed 6 tests of 9
+[JSON::Marshal] not ok 2 - marshalled-by trait with Method name
+[JSON::Marshal] # Failed test 'marshalled-by trait with Method name'
+[JSON::Marshal] # at t/030-trait.t line 36
+[JSON::Marshal] 1..2
+[JSON::Marshal] # You failed 2 tests of 2
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/040-json-name.t
+[JSON::Marshal] ok 1 - create on object with a json-name attribute
+[JSON::Marshal] ok 2 - marshal that object
+[JSON::Marshal] not ok 3 - parse the JSON
+[JSON::Marshal] # Failed test 'parse the JSON'
+[JSON::Marshal] # at t/040-json-name.t line 24
+[JSON::Marshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Marshal] not ok 4 - and we got the key back with the json name
+[JSON::Marshal] # Failed test 'and we got the key back with the json name'
+[JSON::Marshal] # at t/040-json-name.t line 26
+[JSON::Marshal] # expected: 'value for money'
+[JSON::Marshal] #      got: (Any)
+[JSON::Marshal] ok 5 - create on object with a json-name attribute but not defined
+[JSON::Marshal] ok 6 - marshal that object
+[JSON::Marshal] 1..6
+[JSON::Marshal] # You failed 2 tests of 6
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/050-skip-null.t
+[JSON::Marshal] 1..15
+[JSON::Marshal] ok 1 - apply skip-null to marshal
+[JSON::Marshal] Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Marshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Marshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Marshal]   in block <unit> at t/050-skip-null.t line 23
+[JSON::Marshal] # You planned 15 tests, but ran 1
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/060-array.t
+[JSON::Marshal] ok 1 - marshal an array
+[JSON::Marshal] Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]   in sub parse-array at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 820
+[JSON::Marshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Marshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Marshal]   in block <unit> at t/060-array.t line 19
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/070-inheritance.t
+[JSON::Marshal] ok 1 - marshal object
+[JSON::Marshal] Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Marshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Marshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Marshal]   in block <unit> at t/070-inheritance.t line 25
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/080-type-constraints.t
+[JSON::Marshal] ok 1 - create object with anonymous constraint (no arguments)
+[JSON::Marshal] ok 2 - marshal that
+[JSON::Marshal] not ok 3 - got some sane JSON
+[JSON::Marshal] # Failed test 'got some sane JSON'
+[JSON::Marshal] # at t/080-type-constraints.t line 24
+[JSON::Marshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Marshal] not ok 4 - and we got the expected key
+[JSON::Marshal] # Failed test 'and we got the expected key'
+[JSON::Marshal] # at t/080-type-constraints.t line 26
+[JSON::Marshal] ok 5 - and is 'null' as expected
+[JSON::Marshal] ok 6 - create object with anonymous constraint positional argument
+[JSON::Marshal] ok 7 - marshal that
+[JSON::Marshal] not ok 8 - got some sane JSON
+[JSON::Marshal] # Failed test 'got some sane JSON'
+[JSON::Marshal] # at t/080-type-constraints.t line 35
+[JSON::Marshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Marshal] not ok 9 - and we got the expected key
+[JSON::Marshal] # Failed test 'and we got the expected key'
+[JSON::Marshal] # at t/080-type-constraints.t line 37
+[JSON::Marshal] not ok 10 - and is a Positional as expected
+[JSON::Marshal] # Failed test 'and is a Positional as expected'
+[JSON::Marshal] # at t/080-type-constraints.t line 38
+[JSON::Marshal] ok 11 - create object with anonymous constraint associative argument
+[JSON::Marshal] ok 12 - marshal that
+[JSON::Marshal] not ok 13 - got some sane JSON
+[JSON::Marshal] # Failed test 'got some sane JSON'
+[JSON::Marshal] # at t/080-type-constraints.t line 46
+[JSON::Marshal] # Expected a modifiable native int argument for '$pos'
+[JSON::Marshal] not ok 14 - and we got the expected key
+[JSON::Marshal] # Failed test 'and we got the expected key'
+[JSON::Marshal] # at t/080-type-constraints.t line 48
+[JSON::Marshal] not ok 15 - and is a Associative as expected
+[JSON::Marshal] # Failed test 'and is a Associative as expected'
+[JSON::Marshal] # at t/080-type-constraints.t line 49
+[JSON::Marshal] not ok 16 - with the  expected value
+[JSON::Marshal] # Failed test 'with the  expected value'
+[JSON::Marshal] # at t/080-type-constraints.t line 50
+[JSON::Marshal] # expected: 'bar'
+[JSON::Marshal] #      got: (Any)
+[JSON::Marshal] 1..16
+[JSON::Marshal] # You failed 9 tests of 16
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/090-issue-8.t
+[JSON::Marshal] # Subtest: class with no attributes
+[JSON::Marshal]     ok 1 - marshal type-object
+[JSON::Marshal]     ok 2 - roundtripped value not defined
+[JSON::Marshal]     ok 3 - it's an Any
+[JSON::Marshal]     ok 4 - and it's not a hash
+[JSON::Marshal]     1..4
+[JSON::Marshal] ok 1 - class with no attributes
+[JSON::Marshal] # Subtest: class with attributes
+[JSON::Marshal]     ok 1 - marshal type-object
+[JSON::Marshal]     ok 2 - roundtripped value not defined
+[JSON::Marshal]     ok 3 - it's an Any
+[JSON::Marshal]     ok 4 - and it's not a hash
+[JSON::Marshal]     1..4
+[JSON::Marshal] ok 2 - class with attributes
+[JSON::Marshal] # Subtest: Hash type object
+[JSON::Marshal]     ok 1 - marshal type-object
+[JSON::Marshal]     ok 2 - roundtripped value not defined
+[JSON::Marshal]     ok 3 - it's an Any
+[JSON::Marshal]     ok 4 - and it's not a hash
+[JSON::Marshal]     1..4
+[JSON::Marshal] ok 3 - Hash type object
+[JSON::Marshal] # Subtest: Array type object
+[JSON::Marshal]     ok 1 - marshal type-object
+[JSON::Marshal]     ok 2 - roundtripped value not defined
+[JSON::Marshal]     ok 3 - it's an Any
+[JSON::Marshal]     ok 4 - and it's not a hash
+[JSON::Marshal]     1..4
+[JSON::Marshal] ok 4 - Array type object
+[JSON::Marshal] 1..4
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/100-meta6-issue-22.t
+[JSON::Marshal] ok 1 - create object with json-name and marshalled-by attribute not provided
+[JSON::Marshal] ok 2 - and try to marshal it
+[JSON::Marshal] 1..2
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/110-skip.t
+[JSON::Marshal] Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Marshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Marshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Marshal]   in block <unit> at t/110-skip.t line 20
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/120-pretty.t
+[JSON::Marshal] 1..4
+[JSON::Marshal] ok 1 - pretty-marshal object doesn't fail
+[JSON::Marshal] ok 2 - marshalled JSON is pretty
+[JSON::Marshal] ok 3 - compact-marshal object
+[JSON::Marshal] ok 4 - marshalled JSON is compact
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/130-custom-accessor.t
+[JSON::Marshal] Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Marshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Marshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Marshal]   in block <unit> at t/130-custom-accessor.t line 21
+[JSON::Marshal] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/e622954e9ded2f92966827ea2aedd2a3fd4e925d.tar.gz/JSON-Marshal-0.0.25 t/140-opt-in.t
+[JSON::Marshal] 1..11
+[JSON::Marshal] ok 1 - marshal() with opt-in
+[JSON::Marshal] Expected a modifiable native int argument for '$pos'
+[JSON::Marshal]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Marshal]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Marshal]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Marshal]   in block <unit> at t/140-opt-in.t line 28
+[JSON::Marshal] # You planned 11 tests, but ran 1
+===> Testing [FAIL]: JSON::Marshal:ver<0.0.25>:auth<zef:jonathanstowe>:api<1.0>
+[JSON::Marshal] Failed to get passing tests, but continuing with --force-test
+===> Installing: JSON::Marshal:ver<0.0.25>:auth<zef:jonathanstowe>:api<1.0>
+===> Install [OK] for JSON::Marshal:ver<0.0.25>:auth<zef:jonathanstowe>:api<1.0>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 19.733s
+             CPU time consumed: 26.010s
+                   Memory peak: 1.1G (swap: 0B)

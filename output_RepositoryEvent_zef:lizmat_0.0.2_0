@@ -1,0 +1,59 @@
+Running as unit: run-p1795107-i10070706.service; invocation ID: f32fe01d95814f30b65cd9d1d539db70
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: RepositoryEvent
+===> Found: RepositoryEvent:ver<0.0.2>:auth<zef:lizmat> [via Zef::Repository::Ecosystems<fez>]
+[RepositoryEvent] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789445624.1795110.2071.683462132646/b452935c796f0d62138a97445a589bf88d585c8e.tar.gz https://360.zef.pm/R/EP/REPOSITORYEVENT/b452935c796f0d62138a97445a589bf88d585c8e.tar.gz
+===> Fetching [OK]: RepositoryEvent:ver<0.0.2>:auth<zef:lizmat> to /home/coke/sandbox/blin/data/zef-data/tmp/1789445624.1795110.2071.683462132646/b452935c796f0d62138a97445a589bf88d585c8e.tar.gz
+[RepositoryEvent] Command: tar -t -f ./b452935c796f0d62138a97445a589bf88d585c8e.tar.gz
+[RepositoryEvent] Command: tar -xvf ./b452935c796f0d62138a97445a589bf88d585c8e.tar.gz -C ../b452935c796f0d62138a97445a589bf88d585c8e.tar.gz
+===> Extraction [OK]: RepositoryEvent to /home/coke/sandbox/blin/data/zef-data/tmp/b452935c796f0d62138a97445a589bf88d585c8e.tar.gz
+===> Testing: RepositoryEvent:ver<0.0.2>:auth<zef:lizmat>
+[RepositoryEvent] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b452935c796f0d62138a97445a589bf88d585c8e.tar.gz/RepositoryEvent-0.0.2 t/01-basic.rakutest
+[RepositoryEvent] 1..96
+[RepositoryEvent] Expected a modifiable native int argument for '$pos'
+[RepositoryEvent]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[RepositoryEvent]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[RepositoryEvent]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[RepositoryEvent]   in block <unit> at t/01-basic.rakutest line 13
+[RepositoryEvent] # You planned 96 tests, but ran 0
+[RepositoryEvent] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b452935c796f0d62138a97445a589bf88d585c8e.tar.gz/RepositoryEvent-0.0.2 t/02-push.rakutest
+[RepositoryEvent] 1..44
+[RepositoryEvent] Expected a modifiable native int argument for '$pos'
+[RepositoryEvent]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[RepositoryEvent]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[RepositoryEvent]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[RepositoryEvent]   in block <unit> at t/02-push.rakutest line 14
+[RepositoryEvent] # You planned 44 tests, but ran 0
+[RepositoryEvent] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b452935c796f0d62138a97445a589bf88d585c8e.tar.gz/RepositoryEvent-0.0.2 t/03-pull-request.rakutest
+[RepositoryEvent] 1..24
+[RepositoryEvent] Expected a modifiable native int argument for '$pos'
+[RepositoryEvent]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[RepositoryEvent]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[RepositoryEvent]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[RepositoryEvent]   in block <unit> at t/03-pull-request.rakutest line 14
+[RepositoryEvent] # You planned 24 tests, but ran 0
+[RepositoryEvent] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b452935c796f0d62138a97445a589bf88d585c8e.tar.gz/RepositoryEvent-0.0.2 t/04-issues.rakutest
+[RepositoryEvent] 1..24
+[RepositoryEvent] Expected a modifiable native int argument for '$pos'
+[RepositoryEvent]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[RepositoryEvent]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[RepositoryEvent]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[RepositoryEvent]   in block <unit> at t/04-issues.rakutest line 14
+[RepositoryEvent] # You planned 24 tests, but ran 0
+[RepositoryEvent] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/b452935c796f0d62138a97445a589bf88d585c8e.tar.gz/RepositoryEvent-0.0.2 t/05-check-suite.rakutest
+[RepositoryEvent] 1..11
+[RepositoryEvent] Expected a modifiable native int argument for '$pos'
+[RepositoryEvent]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[RepositoryEvent]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[RepositoryEvent]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[RepositoryEvent]   in block <unit> at t/05-check-suite.rakutest line 15
+[RepositoryEvent] # You planned 11 tests, but ran 0
+===> Testing [FAIL]: RepositoryEvent:ver<0.0.2>:auth<zef:lizmat>
+[RepositoryEvent] Failed to get passing tests, but continuing with --force-test
+===> Installing: RepositoryEvent:ver<0.0.2>:auth<zef:lizmat>
+===> Install [OK] for RepositoryEvent:ver<0.0.2>:auth<zef:lizmat>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 15.117s
+             CPU time consumed: 19.708s
+                   Memory peak: 1.1G (swap: 0B)

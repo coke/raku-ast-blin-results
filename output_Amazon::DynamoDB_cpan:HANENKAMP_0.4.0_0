@@ -1,0 +1,127 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Amazon::DynamoDB
+Running as unit: run-p2122254-i10569446.service; invocation ID: 5ce477314bd847fe93d92d93537fa3c8
+Press ^] three times within 1s to disconnect TTY.
+===> Found: Amazon::DynamoDB:ver<0.4.0>:auth<cpan:HANENKAMP> [via Zef::Repository::Ecosystems<rea>]
+[Amazon::DynamoDB] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789461496.2122256.1948.44601962049/Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/A/Amazon%3A%3ADynamoDB/Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz
+===> Fetching [OK]: Amazon::DynamoDB:ver<0.4.0>:auth<cpan:HANENKAMP> to /home/coke/sandbox/blin/data/zef-data/tmp/1789461496.2122256.1948.44601962049/Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz
+[Amazon::DynamoDB] Command: tar -t -f ./Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz
+[Amazon::DynamoDB] Command: tar -xvf ./Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz -C ../Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz
+===> Extraction [OK]: Amazon::DynamoDB to /home/coke/sandbox/blin/data/zef-data/tmp/Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz
+===> Testing: Amazon::DynamoDB:ver<0.4.0>:auth<github:zostay>
+[Amazon::DynamoDB] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz/Amazon-DynamoDB-0.4.0 t/Actions-Object-PutGetDelete.t
+[Amazon::DynamoDB] Potential difficulties:
+[Amazon::DynamoDB]     Declaring class 'WebService::AWS::Auth::V4' inside an enclosing module
+[Amazon::DynamoDB]     of the same name silently replaces the module in the outer stash. This
+[Amazon::DynamoDB]     is legacy behavior specific to Raku 6.d and earlier; in Raku 6.e the
+[Amazon::DynamoDB]     same pattern installs the class as a nested package instead. Rewrite as
+[Amazon::DynamoDB]     'unit class WebService::AWS::Auth::V4;' in its own file (or otherwise
+[Amazon::DynamoDB]     avoid the module+same-named-class collision) to work the same way on
+[Amazon::DynamoDB]     either revision.
+[Amazon::DynamoDB]     at /home/coke/sandbox/blin/installed/WebService::AWS::Auth::V4_zef:bradclawsie_0.0.5_0/sources/3C1439EA289CCA94812E99A60CA41E224BD52FF0 (WebService::AWS::Auth::V4):98
+[Amazon::DynamoDB]     ------> class <HERE>WebService::AWS::Auth::V4 {
+[Amazon::DynamoDB] 1..0 # Skipped: Missing required environment, at least TEST_AWS_DDB_HOSTNAME and TEST_AWS_DDB_TABLE_PREFIX must be set.
+[Amazon::DynamoDB] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz/Amazon-DynamoDB-0.4.0 t/Actions-Table-CreateDelete.t
+[Amazon::DynamoDB] 1..0 # Skipped: Missing required environment, at least TEST_AWS_DDB_HOSTNAME and TEST_AWS_DDB_TABLE_PREFIX must be set.
+[Amazon::DynamoDB] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz/Amazon-DynamoDB-0.4.0 t/aws-examples-offline.t
+[Amazon::DynamoDB] An operation first awaited:
+[Amazon::DynamoDB]   in block <unit> at t/aws-examples-offline.t line 57
+[Amazon::DynamoDB] Died with the exception:
+[Amazon::DynamoDB]     Expected a modifiable native int argument for '$pos'
+[Amazon::DynamoDB]       in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Amazon::DynamoDB]       in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Amazon::DynamoDB]       in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Amazon::DynamoDB]       in block  at /home/coke/sandbox/blin/data/zef-data/tmp/Amazon%3A%3ADynamoDB%3Aver%3C0.4.0%3E%3Aauth%3Ccpan%3AHANENKAMP%3E.tar.gz/Amazon-DynamoDB-0.4.0/lib/Amazon/DynamoDB.pm6 (Amazon::DynamoDB) line 813
+===> Testing [FAIL]: Amazon::DynamoDB:ver<0.4.0>:auth<github:zostay>
+[Amazon::DynamoDB] Failed to get passing tests, but continuing with --force-test
+===> Installing: Amazon::DynamoDB:ver<0.4.0>:auth<github:zostay>
+===> Install [OK] for Amazon::DynamoDB:ver<0.4.0>:auth<github:zostay>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 37.146s
+             CPU time consumed: 2min 20.689s
+                   Memory peak: 3.5G (swap: 0B)

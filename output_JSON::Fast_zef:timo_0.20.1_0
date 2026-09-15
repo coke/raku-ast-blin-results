@@ -1,164 +1,599 @@
-Running as unit: run-p2336619-i2356500.service; invocation ID: 02dca4e8c498466d8e31abe02545fbe2
+Running as unit: run-p1492213-i9824977.service; invocation ID: c54eda5b3c49478295f4176f079138e4
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: JSON::Fast
 ===> Found: JSON::Fast:ver<0.20.1>:auth<zef:timo> [via Zef::Repository::Ecosystems<fez>]
-[JSON::Fast] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786651974.2336624.8751.517008182562/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz https://360.zef.pm/J/SO/JSON_FAST/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz
-===> Fetching [OK]: JSON::Fast:ver<0.20.1>:auth<zef:timo> to /home/coke/sandbox/blin/data/zef-data/tmp/1786651974.2336624.8751.517008182562/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz
+[JSON::Fast] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789439073.1492214.4767.894193546387/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz https://360.zef.pm/J/SO/JSON_FAST/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz
+===> Fetching [OK]: JSON::Fast:ver<0.20.1>:auth<zef:timo> to /home/coke/sandbox/blin/data/zef-data/tmp/1789439073.1492214.4767.894193546387/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz
 [JSON::Fast] Command: tar -t -f ./d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz
 [JSON::Fast] Command: tar -xvf ./d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz -C ../d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz
 ===> Extraction [OK]: JSON::Fast to /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz
 ===> Testing: JSON::Fast:ver<0.20.1>:auth<zef:timo>
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/01-parse.t
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/01-parse.t
 [JSON::Fast] 1..724
-[JSON::Fast] ok 1 - JSON string <{}> parsed
-[JSON::Fast] ok 2 - JSON string <{  }> parsed
-[JSON::Fast] ok 3 - JSON string < { } > parsed
-[JSON::Fast] ok 4 - JSON string <{ "a" : "b" }> parsed
-[JSON::Fast] ok 5 - JSON string <{ "a" : null }> parsed
-[JSON::Fast] ok 6 - JSON string <{ "a" : true }> parsed
-[JSON::Fast] ok 7 - JSON string <{ "a" : false }> parsed
-[JSON::Fast] ok 8 - JSON string <{ "a" : { } }> parsed
-[JSON::Fast] ok 9 - JSON string <[]> parsed
-[JSON::Fast] ok 10 - JSON string <[ ]> parsed
-[JSON::Fast] ok 11 - JSON string < [ ] > parsed
-[JSON::Fast] ok 12 - JSON string <[\n...[11]> parsed
-[JSON::Fast] ok 13 - JSON string <[1]> parsed
-[JSON::Fast] ok 14 - JSON string <[true]> parsed
-[JSON::Fast] ok 15 - JSON string <[-42]> parsed
-[JSON::Fast] ok 16 - JSON string <[-42,true,false,null]> parsed
-[JSON::Fast] ok 17 - JSON string <{ "integer": 1234567890 }> parsed
-[JSON::Fast] ok 18 - JSON string <{ "real": -9876.543210 }> parsed
-[JSON::Fast] ok 19 - JSON string <{ "e": 0.123456789e-12 }> parsed
-[JSON::Fast] ok 20 - JSON string <{ "E": 1.234567890E+34 }> parsed
-[JSON::Fast] ok 21 - JSON string <{ "":  23456789012E66 }> parsed
-[JSON::Fast] ok 22 - JSON string <"A JSON payload is allowed to be a string."> parsed
-[JSON::Fast] ok 23 - JSON string <99> parsed
-[JSON::Fast] ok 24 - JSON string <5e1> parsed
-[JSON::Fast] ok 25 - JSON string <-1> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 1 - JSON string <{}> parsed
+[JSON::Fast] # Failed test 'JSON string <{}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 2 - JSON string <{  }> parsed
+[JSON::Fast] # Failed test 'JSON string <{  }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 3 - JSON string < { } > parsed
+[JSON::Fast] # Failed test 'JSON string < { } > parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "a" : "b" }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] not ok 4 - JSON string <{ "a" : "b" }> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "a" : null }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "a" : true }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "a" : false }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "a" : { } }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 5 - JSON string <{ "a" : null }> parsed
+[JSON::Fast] not ok 6 - JSON string <{ "a" : true }> parsed
+[JSON::Fast] not ok 7 - JSON string <{ "a" : false }> parsed
+[JSON::Fast] not ok 8 - JSON string <{ "a" : { } }> parsed
+[JSON::Fast] not ok 9 - JSON string <[]> parsed
+[JSON::Fast] not ok 10 - JSON string <[ ]> parsed
+[JSON::Fast] # Failed test 'JSON string <[ ]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 11 - JSON string < [ ] > parsed
+[JSON::Fast] # Failed test 'JSON string < [ ] > parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 12 - JSON string <[\n...[11]> parsed
+[JSON::Fast] # Failed test 'JSON string <[\n...[11]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 13 - JSON string <[1]> parsed
+[JSON::Fast] not ok 14 - JSON string <[true]> parsed
+[JSON::Fast] not ok 15 - JSON string <[-42]> parsed
+[JSON::Fast] not ok 16 - JSON string <[-42,true,false,null]> parsed
+[JSON::Fast] not ok 17 - JSON string <{ "integer": 1234567890 }> parsed
+[JSON::Fast] not ok 18 - JSON string <{ "real": -9876.543210 }> parsed
+[JSON::Fast] not ok 19 - JSON string <{ "e": 0.123456789e-12 }> parsed
+[JSON::Fast] not ok 20 - JSON string <{ "E": 1.234567890E+34 }> parsed
+[JSON::Fast] not ok 21 - JSON string <{ "":  23456789012E66 }> parsed
+[JSON::Fast] not ok 22 - JSON string <"A JSON payload is allowed to be a string."> parsed
+[JSON::Fast] not ok 23 - JSON string <99> parsed
+[JSON::Fast] not ok 24 - JSON string <5e1> parsed
+[JSON::Fast] not ok 25 - JSON string <-1> parsed
 [JSON::Fast] ok 26 - JSON string <true> parsed
-[JSON::Fast] ok 27 - JSON string <{ "zero": 0 }> parsed
-[JSON::Fast] ok 28 - JSON string <{ "one": 1 }> parsed
-[JSON::Fast] ok 29 - JSON string <{ "space": " " }> parsed
-[JSON::Fast] ok 30 - JSON string <{ "quote": "\""}> parsed
-[JSON::Fast] ok 31 - JSON string <{ "backslash": "\\"}> parsed
-[JSON::Fast] ok 32 - JSON string <{ "controls": "\b\f\n\r\t"}> parsed
-[JSON::Fast] ok 33 - JSON string <{ "slash": "/ & \/"}> parsed
-[JSON::Fast] ok 34 - JSON string <{ "alpha": "abcdefghijklmnopqrstuvwyz"}> parsed
-[JSON::Fast] ok 35 - JSON string <{ "ALPHA": "ABCDEFGHIJKLMNOPQRSTUVWYZ"}> parsed
-[JSON::Fast] ok 36 - JSON string <{ "digit": "0123456789"}> parsed
-[JSON::Fast] ok 37 - JSON string <{ "0123456789": "digit"}> parsed
-[JSON::Fast] ok 38 - JSON string <{"special": "`1~!@ \#$%^&*()_+-={':[,]}|;.</>?"}> parsed
-[JSON::Fast] ok 39 - JSON string <{"hex": "\u0123\u4567\u89AB\uCDEF\uabcd\uef4A"}> parsed
-[JSON::Fast] ok 40 - JSON string <{"true": true}> parsed
-[JSON::Fast] ok 41 - JSON string <{"false": false}> parsed
-[JSON::Fast] ok 42 - JSON string <{"null": null}> parsed
-[JSON::Fast] ok 43 - JSON string <{"array":[  ]}> parsed
-[JSON::Fast] ok 44 - JSON string <{"object":{  }}> parsed
-[JSON::Fast] ok 45 - JSON string <{"address": "50 St. James Street"}> parsed
-[JSON::Fast] ok 46 - JSON string <{"url": "http://www.JSON.org/"}> parsed
-[JSON::Fast] ok 47 - JSON string <{"comment": "// /* <!-- --"}> parsed
-[JSON::Fast] ok 48 - JSON string <{" \# -- --> */": " "}> parsed
-[JSON::Fast] ok 49 - JSON string <{ " s p a c e d " :[1,2 , 3\n...[48]> parsed
-[JSON::Fast] ok 50 - JSON string <{"jsontext": "{\"object with 1 member\":[\"array with 1 element\"]}"}> parsed
-[JSON::Fast] ok 51 - JSON string <{"quotes": "& \#34; \u0022 %22 0x22 034 & \#x22;"}> parsed
-[JSON::Fast] ok 52 - JSON string <{    "\/\\\"\uCAFE\uBABE\uAB98\uFCDE\ubcda\uef4A\b\f\n\r\t`1~!@ \#$%^&*()_+-=[]{}|;:',./<>?"\n...[51]> parsed
-[JSON::Fast] ok 53 - JSON string <[    0.5 ,98.6\n...[52]> parsed
-[JSON::Fast] ok 54 - JSON string <[1e-1]> parsed
-[JSON::Fast] ok 55 - JSON string <[1e00,2e+00,2e-00,"rosebud"]> parsed
-[JSON::Fast] ok 56 - JSON string <[[[[[[[[[[[[[[[[[[["Not too deep"]]]]]]]]]]]]]]]]]]]> parsed
-[JSON::Fast] ok 57 - JSON string <{\n...[56]> parsed
-[JSON::Fast] ok 58 - JSON string <{\n...[57]> parsed
-[JSON::Fast] ok 59 - JSON string <{"menu": {\n...[58]> parsed
-[JSON::Fast] ok 60 - JSON string <{"widget": {\n...[59]> parsed
-[JSON::Fast] ok 61 - JSON string <[""]> parsed
-[JSON::Fast] ok 62 - JSON string <[]> parsed
-[JSON::Fast] ok 63 - JSON string <["a"]> parsed
-[JSON::Fast] ok 64 - JSON string <[false]> parsed
-[JSON::Fast] ok 65 - JSON string <[null, 1, "1", {}]> parsed
-[JSON::Fast] ok 66 - JSON string <[null]> parsed
-[JSON::Fast] ok 67 - JSON string <[1\n...[66]> parsed
-[JSON::Fast] ok 68 - JSON string < [1]> parsed
-[JSON::Fast] ok 69 - JSON string <[1,null,null,null,2]> parsed
-[JSON::Fast] ok 70 - JSON string <[1] > parsed
-[JSON::Fast] ok 71 - JSON string <[123e65]> parsed
-[JSON::Fast] ok 72 - JSON string <[0e+1]> parsed
-[JSON::Fast] ok 73 - JSON string <[0e1]> parsed
-[JSON::Fast] ok 74 - JSON string <[ 4]> parsed
-[JSON::Fast] ok 75 - JSON string <[-0.000000000000000000000000000000000000000000000000000000000000000000000000000001]> parsed
-[JSON::Fast] ok 76 - JSON string <[20e1]> parsed
-[JSON::Fast] ok 77 - JSON string <[-0]> parsed
-[JSON::Fast] ok 78 - JSON string <[-123]> parsed
-[JSON::Fast] ok 79 - JSON string <[-1]> parsed
-[JSON::Fast] ok 80 - JSON string <[1E22]> parsed
-[JSON::Fast] ok 81 - JSON string <[1E-2]> parsed
-[JSON::Fast] ok 82 - JSON string <[1E+2]> parsed
-[JSON::Fast] ok 83 - JSON string <[123e45]> parsed
-[JSON::Fast] ok 84 - JSON string <[123.456e78]> parsed
-[JSON::Fast] ok 85 - JSON string <[1e-2]> parsed
-[JSON::Fast] ok 86 - JSON string <[1e+2]> parsed
-[JSON::Fast] ok 87 - JSON string <[123]> parsed
-[JSON::Fast] ok 88 - JSON string <[123.456789]> parsed
-[JSON::Fast] ok 89 - JSON string <{"asd":"sdf", "dfg":"fgh"}> parsed
-[JSON::Fast] ok 90 - JSON string <{"asd":"sdf"}> parsed
-[JSON::Fast] ok 91 - JSON string <{"a":"b","a":"c"}> parsed
-[JSON::Fast] ok 92 - JSON string <{"a":"b","a":"b"}> parsed
-[JSON::Fast] ok 93 - JSON string <{}> parsed
-[JSON::Fast] ok 94 - JSON string <{"":0}> parsed
-[JSON::Fast] ok 95 - JSON string <{"foo\u0000bar": 42}> parsed
-[JSON::Fast] ok 96 - JSON string <{ "min": -1.0e+28, "max": 1.0e+28 }> parsed
-[JSON::Fast] ok 97 - JSON string <{"x":[{"id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}], "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}> parsed
-[JSON::Fast] ok 98 - JSON string <{"a":[]}> parsed
-[JSON::Fast] ok 99 - JSON string <{"title":"\u041f\u043e\u043b\u0442\u043e\u0440\u0430 \u0417\u0435\u043c\u043b\u0435\u043a\u043e\u043f\u0430" }> parsed
-[JSON::Fast] ok 100 - JSON string <{\n...[99]> parsed
-[JSON::Fast] ok 101 - JSON string <["\u0060\u012A\u12AB"]> parsed
-[JSON::Fast] ok 102 - JSON string <["\uD801\uDC37"]> parsed
-[JSON::Fast] ok 103 - JSON string <["\uD83D\uDE39\uD83D\uDC8D"]> parsed
-[JSON::Fast] ok 104 - JSON string <["\"\\\/\b\f\n\r\t"]> parsed
-[JSON::Fast] ok 105 - JSON string <["\\u0000"]> parsed
-[JSON::Fast] ok 106 - JSON string <["\""]> parsed
-[JSON::Fast] ok 107 - JSON string <["a/*b*/c/*d//e"]> parsed
-[JSON::Fast] ok 108 - JSON string <["\\a"]> parsed
-[JSON::Fast] ok 109 - JSON string <["\\n"]> parsed
-[JSON::Fast] ok 110 - JSON string <["\u0012"]> parsed
-[JSON::Fast] ok 111 - JSON string <["\uFFFF"]> parsed
-[JSON::Fast] ok 112 - JSON string <["asd"]> parsed
-[JSON::Fast] ok 113 - JSON string <[ "asd"]> parsed
-[JSON::Fast] ok 114 - JSON string <["\uD8FF\uDFFF"]> parsed
-[JSON::Fast] ok 115 - JSON string <["new\u00A0line"]> parsed
-[JSON::Fast] ok 116 - JSON string <["￿"]> parsed
-[JSON::Fast] ok 117 - JSON string <["\u0000"]> parsed
-[JSON::Fast] ok 118 - JSON string <["\u002C"]> parsed
-[JSON::Fast] ok 119 - JSON string <["π"]> parsed
-[JSON::Fast] ok 120 - JSON string <["asd "]> parsed
-[JSON::Fast] ok 121 - JSON string <" "> parsed
-[JSON::Fast] ok 122 - JSON string <["\uD834\uDD1E"]> parsed
-[JSON::Fast] ok 123 - JSON string <["\u0821"]> parsed
-[JSON::Fast] ok 124 - JSON string <["\u0123"]> parsed
-[JSON::Fast] ok 125 - JSON string <"\u0061\u30AF\u30EA\u30B9"> parsed
-[JSON::Fast] ok 126 - JSON string <["new\u000Aline"]> parsed
-[JSON::Fast] ok 127 - JSON string <[""]> parsed
-[JSON::Fast] ok 128 - JSON string <["\uA660"]> parsed
-[JSON::Fast] ok 129 - JSON string <["⍂㈴⍂"]> parsed
-[JSON::Fast] ok 130 - JSON string <["\u0022"]> parsed
-[JSON::Fast] ok 131 - JSON string <["\uD8FF\uDFFE"]> parsed
-[JSON::Fast] ok 132 - JSON string <["\uD83F\uDFFE"]> parsed
-[JSON::Fast] ok 133 - JSON string <["\u200B"]> parsed
-[JSON::Fast] ok 134 - JSON string <["\u2064"]> parsed
-[JSON::Fast] ok 135 - JSON string <["\uFDD0"]> parsed
-[JSON::Fast] ok 136 - JSON string <["\uFFFE"]> parsed
-[JSON::Fast] ok 137 - JSON string <["\u005C"]> parsed
-[JSON::Fast] ok 138 - JSON string <["€𝄞"]> parsed
-[JSON::Fast] ok 139 - JSON string <["aa"]> parsed
+[JSON::Fast] not ok 27 - JSON string <{ "zero": 0 }> parsed
+[JSON::Fast] not ok 28 - JSON string <{ "one": 1 }> parsed
+[JSON::Fast] not ok 29 - JSON string <{ "space": " " }> parsed
+[JSON::Fast] not ok 30 - JSON string <{ "quote": "\""}> parsed
+[JSON::Fast] not ok 31 - JSON string <{ "backslash": "\\"}> parsed
+[JSON::Fast] not ok 32 - JSON string <{ "controls": "\b\f\n\r\t"}> parsed
+[JSON::Fast] not ok 33 - JSON string <{ "slash": "/ & \/"}> parsed
+[JSON::Fast] not ok 34 - JSON string <{ "alpha": "abcdefghijklmnopqrstuvwyz"}> parsed
+[JSON::Fast] not ok 35 - JSON string <{ "ALPHA": "ABCDEFGHIJKLMNOPQRSTUVWYZ"}> parsed
+[JSON::Fast] not ok 36 - JSON string <{ "digit": "0123456789"}> parsed
+[JSON::Fast] not ok 37 - JSON string <{ "0123456789": "digit"}> parsed
+[JSON::Fast] not ok 38 - JSON string <{"special": "`1~!@ \#$%^&*()_+-={':[,]}|;.</>?"}> parsed
+[JSON::Fast] not ok 39 - JSON string <{"hex": "\u0123\u4567\u89AB\uCDEF\uabcd\uef4A"}> parsed
+[JSON::Fast] not ok 40 - JSON string <{"true": true}> parsed
+[JSON::Fast] not ok 41 - JSON string <{"false": false}> parsed
+[JSON::Fast] not ok 42 - JSON string <{"null": null}> parsed
+[JSON::Fast] not ok 43 - JSON string <{"array":[  ]}> parsed
+[JSON::Fast] not ok 44 - JSON string <{"object":{  }}> parsed
+[JSON::Fast] not ok 45 - JSON string <{"address": "50 St. James Street"}> parsed
+[JSON::Fast] not ok 46 - JSON string <{"url": "http://www.JSON.org/"}> parsed
+[JSON::Fast] not ok 47 - JSON string <{"comment": "// /* <!-- --"}> parsed
+[JSON::Fast] not ok 48 - JSON string <{" \# -- --> */": " "}> parsed
+[JSON::Fast] not ok 49 - JSON string <{ " s p a c e d " :[1,2 , 3\n...[48]> parsed
+[JSON::Fast] not ok 50 - JSON string <{"jsontext": "{\"object with 1 member\":[\"array with 1 element\"]}"}> parsed
+[JSON::Fast] not ok 51 - JSON string <{"quotes": "& \#34; \u0022 %22 0x22 034 & \#x22;"}> parsed
+[JSON::Fast] not ok 52 - JSON string <{    "\/\\\"\uCAFE\uBABE\uAB98\uFCDE\ubcda\uef4A\b\f\n\r\t`1~!@ \#$%^&*()_+-=[]{}|;:',./<>?"\n...[51]> parsed
+[JSON::Fast] not ok 53 - JSON string <[    0.5 ,98.6\n...[52]> parsed
+[JSON::Fast] not ok 54 - JSON string <[1e-1]> parsed
+[JSON::Fast] not ok 55 - JSON string <[1e00,2e+00,2e-00,"rosebud"]> parsed
+[JSON::Fast] not ok 56 - JSON string <[[[[[[[[[[[[[[[[[[["Not too deep"]]]]]]]]]]]]]]]]]]]> parsed
+[JSON::Fast] not ok 57 - JSON string <{\n...[56]> parsed
+[JSON::Fast] not ok 58 - JSON string <{\n...[57]> parsed
+[JSON::Fast] not ok 59 - JSON string <{"menu": {\n...[58]> parsed
+[JSON::Fast] not ok 60 - JSON string <{"widget": {\n...[59]> parsed
+[JSON::Fast] not ok 61 - JSON string <[""]> parsed
+[JSON::Fast] not ok 62 - JSON string <[]> parsed
+[JSON::Fast] not ok 63 - JSON string <["a"]> parsed
+[JSON::Fast] not ok 64 - JSON string <[false]> parsed
+[JSON::Fast] not ok 65 - JSON string <[null, 1, "1", {}]> parsed
+[JSON::Fast] not ok 66 - JSON string <[null]> parsed
+[JSON::Fast] not ok 67 - JSON string <[1\n...[66]> parsed
+[JSON::Fast] not ok 68 - JSON string < [1]> parsed
+[JSON::Fast] not ok 69 - JSON string <[1,null,null,null,2]> parsed
+[JSON::Fast] not ok 70 - JSON string <[1] > parsed
+[JSON::Fast] not ok 71 - JSON string <[123e65]> parsed
+[JSON::Fast] not ok 72 - JSON string <[0e+1]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[true]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[-42]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[-42,true,false,null]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "integer": 1234567890 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "real": -9876.543210 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "e": 0.123456789e-12 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "E": 1.234567890E+34 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "":  23456789012E66 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <"A JSON payload is allowed to be a string."> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <99> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <5e1> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <-1> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "zero": 0 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "one": 1 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "space": " " }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "quote": "\""}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "backslash": "\\"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "controls": "\b\f\n\r\t"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "slash": "/ & \/"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "alpha": "abcdefghijklmnopqrstuvwyz"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "ALPHA": "ABCDEFGHIJKLMNOPQRSTUVWYZ"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "digit": "0123456789"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "0123456789": "digit"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"special": "`1~!@ \#$%^&*()_+-={':[,]}|;.</>?"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"hex": "\u0123\u4567\u89AB\uCDEF\uabcd\uef4A"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"true": true}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"false": false}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"null": null}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"array":[  ]}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"object":{  }}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"address": "50 St. James Street"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"url": "http://www.JSON.org/"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"comment": "// /* <!-- --"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{" \# -- --> */": " "}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ " s p a c e d " :[1,2 , 3\n...[48]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"jsontext": "{\"object with 1 member\":[\"array with 1 element\"]}"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"quotes": "& \#34; \u0022 %22 0x22 034 & \#x22;"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{    "\/\\\"\uCAFE\uBABE\uAB98\uFCDE\ubcda\uef4A\b\f\n\r\t`1~!@ \#$%^&*()_+-=[]{}|;:',./<>?"\n...[51]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[    0.5 ,98.6\n...[52]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[1e-1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[1e00,2e+00,2e-00,"rosebud"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[[[[[[[[[[[[[[[[[[["Not too deep"]]]]]]]]]]]]]]]]]]]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{\n...[56]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{\n...[57]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"menu": {\n...[58]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"widget": {\n...[59]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[""]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <["a"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[false]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[null, 1, "1", {}]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[null]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[1\n...[66]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string < [1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[1,null,null,null,2]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[1] > parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[123e65]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[0e+1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 73 - JSON string <[0e1]> parsed
+[JSON::Fast] # Failed test 'JSON string <[0e1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[ 4]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[-0.000000000000000000000000000000000000000000000000000000000000000000000000000001]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[20e1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] not ok 74 - JSON string <[ 4]> parsed
+[JSON::Fast] not ok 75 - JSON string <[-0.000000000000000000000000000000000000000000000000000000000000000000000000000001]> parsed
+[JSON::Fast] not ok 76 - JSON string <[20e1]> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 77 - JSON string <[-0]> parsed
+[JSON::Fast] # Failed test 'JSON string <[-0]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 78 - JSON string <[-123]> parsed
+[JSON::Fast] # Failed test 'JSON string <[-123]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 79 - JSON string <[-1]> parsed
+[JSON::Fast] # Failed test 'JSON string <[-1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 80 - JSON string <[1E22]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1E22]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 81 - JSON string <[1E-2]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1E-2]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 82 - JSON string <[1E+2]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1E+2]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 83 - JSON string <[123e45]> parsed
+[JSON::Fast] # Failed test 'JSON string <[123e45]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 84 - JSON string <[123.456e78]> parsed
+[JSON::Fast] # Failed test 'JSON string <[123.456e78]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 85 - JSON string <[1e-2]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1e-2]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 86 - JSON string <[1e+2]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1e+2]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 87 - JSON string <[123]> parsed
+[JSON::Fast] # Failed test 'JSON string <[123]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 88 - JSON string <[123.456789]> parsed
+[JSON::Fast] # Failed test 'JSON string <[123.456789]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 89 - JSON string <{"asd":"sdf", "dfg":"fgh"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"asd":"sdf", "dfg":"fgh"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 90 - JSON string <{"asd":"sdf"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"asd":"sdf"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 91 - JSON string <{"a":"b","a":"c"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"a":"b","a":"c"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 92 - JSON string <{"a":"b","a":"b"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"a":"b","a":"b"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 93 - JSON string <{}> parsed
+[JSON::Fast] # Failed test 'JSON string <{}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 94 - JSON string <{"":0}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"":0}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 95 - JSON string <{"foo\u0000bar": 42}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"foo\u0000bar": 42}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 96 - JSON string <{ "min": -1.0e+28, "max": 1.0e+28 }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "min": -1.0e+28, "max": 1.0e+28 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 97 - JSON string <{"x":[{"id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}], "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"x":[{"id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}], "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 98 - JSON string <{"a":[]}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"a":[]}> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 99 - JSON string <{"title":"\u041f\u043e\u043b\u0442\u043e\u0440\u0430 \u0417\u0435\u043c\u043b\u0435\u043a\u043e\u043f\u0430" }> parsed
+[JSON::Fast] # Failed test 'JSON string <{"title":"\u041f\u043e\u043b\u0442\u043e\u0440\u0430 \u0417\u0435\u043c\u043b\u0435\u043a\u043e\u043f\u0430" }> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 100 - JSON string <{\n...[99]> parsed
+[JSON::Fast] # Failed test 'JSON string <{\n...[99]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 101 - JSON string <["\u0060\u012A\u12AB"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0060\u012A\u12AB"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 102 - JSON string <["\uD801\uDC37"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD801\uDC37"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 103 - JSON string <["\uD83D\uDE39\uD83D\uDC8D"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD83D\uDE39\uD83D\uDC8D"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 104 - JSON string <["\"\\\/\b\f\n\r\t"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\"\\\/\b\f\n\r\t"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 105 - JSON string <["\\u0000"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\\u0000"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 106 - JSON string <["\""]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\""]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 107 - JSON string <["a/*b*/c/*d//e"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["a/*b*/c/*d//e"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 108 - JSON string <["\\a"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\\a"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 109 - JSON string <["\\n"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\\n"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 110 - JSON string <["\u0012"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0012"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 111 - JSON string <["\uFFFF"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uFFFF"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 112 - JSON string <["asd"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["asd"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 113 - JSON string <[ "asd"]> parsed
+[JSON::Fast] # Failed test 'JSON string <[ "asd"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 114 - JSON string <["\uD8FF\uDFFF"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD8FF\uDFFF"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 115 - JSON string <["new\u00A0line"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["new\u00A0line"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 116 - JSON string <["￿"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["￿"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 117 - JSON string <["\u0000"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0000"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 118 - JSON string <["\u002C"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u002C"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 119 - JSON string <["π"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["π"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 120 - JSON string <["asd "]> parsed
+[JSON::Fast] # Failed test 'JSON string <["asd "]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 121 - JSON string <" "> parsed
+[JSON::Fast] # Failed test 'JSON string <" "> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 122 - JSON string <["\uD834\uDD1E"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD834\uDD1E"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 123 - JSON string <["\u0821"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0821"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 124 - JSON string <["\u0123"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0123"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 125 - JSON string <"\u0061\u30AF\u30EA\u30B9"> parsed
+[JSON::Fast] # Failed test 'JSON string <"\u0061\u30AF\u30EA\u30B9"> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 126 - JSON string <["new\u000Aline"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["new\u000Aline"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 127 - JSON string <[""]> parsed
+[JSON::Fast] # Failed test 'JSON string <[""]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 128 - JSON string <["\uA660"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uA660"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 129 - JSON string <["⍂㈴⍂"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["⍂㈴⍂"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 130 - JSON string <["\u0022"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0022"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 131 - JSON string <["\uD8FF\uDFFE"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD8FF\uDFFE"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 132 - JSON string <["\uD83F\uDFFE"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD83F\uDFFE"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 133 - JSON string <["\u200B"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u200B"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 134 - JSON string <["\u2064"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u2064"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 135 - JSON string <["\uFDD0"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uFDD0"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 136 - JSON string <["\uFFFE"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uFFFE"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 137 - JSON string <["\u005C"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u005C"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 138 - JSON string <["€𝄞"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["€𝄞"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 139 - JSON string <["aa"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["aa"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
 [JSON::Fast] ok 140 - JSON string <false> parsed
-[JSON::Fast] ok 141 - JSON string <42> parsed
-[JSON::Fast] ok 142 - JSON string <-0.1> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 141 - JSON string <42> parsed
+[JSON::Fast] # Failed test 'JSON string <42> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 142 - JSON string <-0.1> parsed
+[JSON::Fast] # Failed test 'JSON string <-0.1> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
 [JSON::Fast] ok 143 - JSON string <null> parsed
-[JSON::Fast] ok 144 - JSON string <"asd"> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 144 - JSON string <"asd"> parsed
+[JSON::Fast] # Failed test 'JSON string <"asd"> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
 [JSON::Fast] ok 145 - JSON string <true> parsed
-[JSON::Fast] ok 146 - JSON string <""> parsed
-[JSON::Fast] ok 147 - JSON string <["a"]\n...[146]> parsed
-[JSON::Fast] ok 148 - JSON string <[true]> parsed
-[JSON::Fast] ok 149 - JSON string <[] > parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 146 - JSON string <""> parsed
+[JSON::Fast] # Failed test 'JSON string <""> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 147 - JSON string <["a"]\n...[146]> parsed
+[JSON::Fast] # Failed test 'JSON string <["a"]\n...[146]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 148 - JSON string <[true]> parsed
+[JSON::Fast] # Failed test 'JSON string <[true]> parsed'
+[JSON::Fast] # at t/01-parse.t line 506
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 149 - JSON string <[] > parsed
+[JSON::Fast] # Failed test 'JSON string <[] > parsed'
+[JSON::Fast] # at t/01-parse.t line 506
 [JSON::Fast] ok 150 - JSON string <{ > NOT parsed
 [JSON::Fast] ok 151 - JSON string <{ 3 : 4 }> NOT parsed
 [JSON::Fast] ok 152 - JSON string <{ 3 : tru }> NOT parsed
@@ -291,7 +726,7 @@ Press ^] three times within 1s to disconnect TTY.
 [JSON::Fast] ok 279 - JSON string <{"a":"b"}/**/> NOT parsed
 [JSON::Fast] ok 280 - JSON string <{"a":"b"}/**//> NOT parsed
 [JSON::Fast] ok 281 - JSON string <{"a":"b"}//> NOT parsed
-[JSON::Fast] not ok 282 - JSON string <{"a":"b"}/> NOT parsed
+[JSON::Fast] ok 282 - JSON string <{"a":"b"}/> NOT parsed
 [JSON::Fast] ok 283 - JSON string <{"a":"b",,"c":"d"}> NOT parsed
 [JSON::Fast] ok 284 - JSON string <{a: "b"}> NOT parsed
 [JSON::Fast] ok 285 - JSON string <{"a":"a> NOT parsed
@@ -347,8 +782,6 @@ Press ^] three times within 1s to disconnect TTY.
 [JSON::Fast] ok 335 - JSON string <{"a": true} "x"> NOT parsed
 [JSON::Fast] ok 336 - JSON string <['> NOT parsed
 [JSON::Fast] ok 337 - JSON string <[,> NOT parsed
-[JSON::Fast] # Failed test 'JSON string <{"a":"b"}/> NOT parsed'
-[JSON::Fast] # at t/01-parse.t line 485
 [JSON::Fast] ok 338 - JSON string <[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":[{"":> NOT parsed
 [JSON::Fast] ok 339 - JSON string <[{> NOT parsed
 [JSON::Fast] ok 340 - JSON string <["a> NOT parsed
@@ -373,158 +806,591 @@ Press ^] three times within 1s to disconnect TTY.
 [JSON::Fast] ok 359 - JSON string <å> NOT parsed
 [JSON::Fast] ok 360 - JSON string <[\n...[359]> NOT parsed
 [JSON::Fast] ok 361 - JSON string <[⁠]> NOT parsed
-[JSON::Fast] not ok 362 - JSON string <[[]   ]> NOT parsed # TODO Test currently fails.
-[JSON::Fast] # Failed test 'JSON string <[[]   ]> NOT parsed'
-[JSON::Fast] # at t/01-parse.t line 506
-[JSON::Fast] ok 363 - JSON string <{}> parsed
-[JSON::Fast] ok 364 - JSON string <{  }> parsed
-[JSON::Fast] ok 365 - JSON string < { } > parsed
-[JSON::Fast] ok 366 - JSON string <{ "a" : "b" }> parsed
-[JSON::Fast] ok 367 - JSON string <{ "a" : null }> parsed
-[JSON::Fast] ok 368 - JSON string <{ "a" : true }> parsed
-[JSON::Fast] ok 369 - JSON string <{ "a" : false }> parsed
-[JSON::Fast] ok 370 - JSON string <{ "a" : { } }> parsed
-[JSON::Fast] ok 371 - JSON string <[]> parsed
-[JSON::Fast] ok 372 - JSON string <[ ]> parsed
-[JSON::Fast] ok 373 - JSON string < [ ] > parsed
-[JSON::Fast] ok 374 - JSON string <[\n...[373]> parsed
-[JSON::Fast] ok 375 - JSON string <[1]> parsed
-[JSON::Fast] ok 376 - JSON string <[true]> parsed
-[JSON::Fast] ok 377 - JSON string <[-42]> parsed
-[JSON::Fast] ok 378 - JSON string <[-42,true,false,null]> parsed
-[JSON::Fast] ok 379 - JSON string <{ "integer": 1234567890 }> parsed
-[JSON::Fast] ok 380 - JSON string <{ "real": -9876.543210 }> parsed
-[JSON::Fast] ok 381 - JSON string <{ "e": 0.123456789e-12 }> parsed
-[JSON::Fast] ok 382 - JSON string <{ "E": 1.234567890E+34 }> parsed
-[JSON::Fast] ok 383 - JSON string <{ "":  23456789012E66 }> parsed
-[JSON::Fast] ok 384 - JSON string <"A JSON payload is allowed to be a string."> parsed
-[JSON::Fast] ok 385 - JSON string <99> parsed
-[JSON::Fast] ok 386 - JSON string <5e1> parsed
-[JSON::Fast] ok 387 - JSON string <-1> parsed
+[JSON::Fast] ok 362 - JSON string <[[]   ]> NOT parsed # TODO Test currently fails.
+[JSON::Fast] not ok 363 - JSON string <{}> parsed
+[JSON::Fast] not ok 364 - JSON string <{  }> parsed
+[JSON::Fast] not ok 365 - JSON string < { } > parsed
+[JSON::Fast] not ok 366 - JSON string <{ "a" : "b" }> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{  }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string < { } > parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{ "a" : "b" }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 367 - JSON string <{ "a" : null }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "a" : null }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 368 - JSON string <{ "a" : true }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "a" : true }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 369 - JSON string <{ "a" : false }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "a" : false }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 370 - JSON string <{ "a" : { } }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "a" : { } }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 371 - JSON string <[]> parsed
+[JSON::Fast] # Failed test 'JSON string <[]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 372 - JSON string <[ ]> parsed
+[JSON::Fast] # Failed test 'JSON string <[ ]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 373 - JSON string < [ ] > parsed
+[JSON::Fast] # Failed test 'JSON string < [ ] > parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 374 - JSON string <[\n...[373]> parsed
+[JSON::Fast] # Failed test 'JSON string <[\n...[373]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 375 - JSON string <[1]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 376 - JSON string <[true]> parsed
+[JSON::Fast] # Failed test 'JSON string <[true]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 377 - JSON string <[-42]> parsed
+[JSON::Fast] # Failed test 'JSON string <[-42]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 378 - JSON string <[-42,true,false,null]> parsed
+[JSON::Fast] # Failed test 'JSON string <[-42,true,false,null]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 379 - JSON string <{ "integer": 1234567890 }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "integer": 1234567890 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 380 - JSON string <{ "real": -9876.543210 }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "real": -9876.543210 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 381 - JSON string <{ "e": 0.123456789e-12 }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "e": 0.123456789e-12 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 382 - JSON string <{ "E": 1.234567890E+34 }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "E": 1.234567890E+34 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 383 - JSON string <{ "":  23456789012E66 }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "":  23456789012E66 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 384 - JSON string <"A JSON payload is allowed to be a string."> parsed
+[JSON::Fast] # Failed test 'JSON string <"A JSON payload is allowed to be a string."> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 385 - JSON string <99> parsed
+[JSON::Fast] # Failed test 'JSON string <99> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 386 - JSON string <5e1> parsed
+[JSON::Fast] # Failed test 'JSON string <5e1> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 387 - JSON string <-1> parsed
+[JSON::Fast] # Failed test 'JSON string <-1> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
 [JSON::Fast] ok 388 - JSON string <true> parsed
-[JSON::Fast] ok 389 - JSON string <{ "zero": 0 }> parsed
-[JSON::Fast] ok 390 - JSON string <{ "one": 1 }> parsed
-[JSON::Fast] ok 391 - JSON string <{ "space": " " }> parsed
-[JSON::Fast] ok 392 - JSON string <{ "quote": "\""}> parsed
-[JSON::Fast] ok 393 - JSON string <{ "backslash": "\\"}> parsed
-[JSON::Fast] ok 394 - JSON string <{ "controls": "\b\f\n\r\t"}> parsed
-[JSON::Fast] ok 395 - JSON string <{ "slash": "/ & \/"}> parsed
-[JSON::Fast] ok 396 - JSON string <{ "alpha": "abcdefghijklmnopqrstuvwyz"}> parsed
-[JSON::Fast] ok 397 - JSON string <{ "ALPHA": "ABCDEFGHIJKLMNOPQRSTUVWYZ"}> parsed
-[JSON::Fast] ok 398 - JSON string <{ "digit": "0123456789"}> parsed
-[JSON::Fast] ok 399 - JSON string <{ "0123456789": "digit"}> parsed
-[JSON::Fast] ok 400 - JSON string <{"special": "`1~!@ \#$%^&*()_+-={':[,]}|;.</>?"}> parsed
-[JSON::Fast] ok 401 - JSON string <{"hex": "\u0123\u4567\u89AB\uCDEF\uabcd\uef4A"}> parsed
-[JSON::Fast] ok 402 - JSON string <{"true": true}> parsed
-[JSON::Fast] ok 403 - JSON string <{"false": false}> parsed
-[JSON::Fast] ok 404 - JSON string <{"null": null}> parsed
-[JSON::Fast] ok 405 - JSON string <{"array":[  ]}> parsed
-[JSON::Fast] ok 406 - JSON string <{"object":{  }}> parsed
-[JSON::Fast] ok 407 - JSON string <{"address": "50 St. James Street"}> parsed
-[JSON::Fast] ok 408 - JSON string <{"url": "http://www.JSON.org/"}> parsed
-[JSON::Fast] ok 409 - JSON string <{"comment": "// /* <!-- --"}> parsed
-[JSON::Fast] ok 410 - JSON string <{" \# -- --> */": " "}> parsed
-[JSON::Fast] ok 411 - JSON string <{ " s p a c e d " :[1,2 , 3\n...[410]> parsed
-[JSON::Fast] ok 412 - JSON string <{"jsontext": "{\"object with 1 member\":[\"array with 1 element\"]}"}> parsed
-[JSON::Fast] ok 413 - JSON string <{"quotes": "& \#34; \u0022 %22 0x22 034 & \#x22;"}> parsed
-[JSON::Fast] ok 414 - JSON string <{    "\/\\\"\uCAFE\uBABE\uAB98\uFCDE\ubcda\uef4A\b\f\n\r\t`1~!@ \#$%^&*()_+-=[]{}|;:',./<>?"\n...[413]> parsed
-[JSON::Fast] ok 415 - JSON string <[    0.5 ,98.6\n...[414]> parsed
-[JSON::Fast] ok 416 - JSON string <[1e-1]> parsed
-[JSON::Fast] ok 417 - JSON string <[1e00,2e+00,2e-00,"rosebud"]> parsed
-[JSON::Fast] ok 418 - JSON string <[[[[[[[[[[[[[[[[[[["Not too deep"]]]]]]]]]]]]]]]]]]]> parsed
-[JSON::Fast] ok 419 - JSON string <{\n...[418]> parsed
-[JSON::Fast] ok 420 - JSON string <{\n...[419]> parsed
-[JSON::Fast] ok 421 - JSON string <{"menu": {\n...[420]> parsed
-[JSON::Fast] ok 422 - JSON string <{"widget": {\n...[421]> parsed
-[JSON::Fast] ok 423 - JSON string <[""]> parsed
-[JSON::Fast] ok 424 - JSON string <[]> parsed
-[JSON::Fast] ok 425 - JSON string <["a"]> parsed
-[JSON::Fast] ok 426 - JSON string <[false]> parsed
-[JSON::Fast] ok 427 - JSON string <[null, 1, "1", {}]> parsed
-[JSON::Fast] ok 428 - JSON string <[null]> parsed
-[JSON::Fast] ok 429 - JSON string <[1\n...[428]> parsed
-[JSON::Fast] ok 430 - JSON string < [1]> parsed
-[JSON::Fast] ok 431 - JSON string <[1,null,null,null,2]> parsed
-[JSON::Fast] ok 432 - JSON string <[1] > parsed
-[JSON::Fast] ok 433 - JSON string <[123e65]> parsed
-[JSON::Fast] ok 434 - JSON string <[0e+1]> parsed
-[JSON::Fast] ok 435 - JSON string <[0e1]> parsed
-[JSON::Fast] ok 436 - JSON string <[ 4]> parsed
-[JSON::Fast] ok 437 - JSON string <[-0.000000000000000000000000000000000000000000000000000000000000000000000000000001]> parsed
-[JSON::Fast] ok 438 - JSON string <[20e1]> parsed
-[JSON::Fast] ok 439 - JSON string <[-0]> parsed
-[JSON::Fast] ok 440 - JSON string <[-123]> parsed
-[JSON::Fast] ok 441 - JSON string <[-1]> parsed
-[JSON::Fast] ok 442 - JSON string <[1E22]> parsed
-[JSON::Fast] ok 443 - JSON string <[1E-2]> parsed
-[JSON::Fast] ok 444 - JSON string <[1E+2]> parsed
-[JSON::Fast] ok 445 - JSON string <[123e45]> parsed
-[JSON::Fast] ok 446 - JSON string <[123.456e78]> parsed
-[JSON::Fast] ok 447 - JSON string <[1e-2]> parsed
-[JSON::Fast] ok 448 - JSON string <[1e+2]> parsed
-[JSON::Fast] ok 449 - JSON string <[123]> parsed
-[JSON::Fast] ok 450 - JSON string <[123.456789]> parsed
-[JSON::Fast] ok 451 - JSON string <{"asd":"sdf", "dfg":"fgh"}> parsed
-[JSON::Fast] ok 452 - JSON string <{"asd":"sdf"}> parsed
-[JSON::Fast] ok 453 - JSON string <{"a":"b","a":"c"}> parsed
-[JSON::Fast] ok 454 - JSON string <{"a":"b","a":"b"}> parsed
-[JSON::Fast] ok 455 - JSON string <{}> parsed
-[JSON::Fast] ok 456 - JSON string <{"":0}> parsed
-[JSON::Fast] ok 457 - JSON string <{"foo\u0000bar": 42}> parsed
-[JSON::Fast] ok 458 - JSON string <{ "min": -1.0e+28, "max": 1.0e+28 }> parsed
-[JSON::Fast] ok 459 - JSON string <{"x":[{"id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}], "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}> parsed
-[JSON::Fast] ok 460 - JSON string <{"a":[]}> parsed
-[JSON::Fast] ok 461 - JSON string <{"title":"\u041f\u043e\u043b\u0442\u043e\u0440\u0430 \u0417\u0435\u043c\u043b\u0435\u043a\u043e\u043f\u0430" }> parsed
-[JSON::Fast] ok 462 - JSON string <{\n...[461]> parsed
-[JSON::Fast] ok 463 - JSON string <["\u0060\u012A\u12AB"]> parsed
-[JSON::Fast] ok 464 - JSON string <["\uD801\uDC37"]> parsed
-[JSON::Fast] ok 465 - JSON string <["\uD83D\uDE39\uD83D\uDC8D"]> parsed
-[JSON::Fast] ok 466 - JSON string <["\"\\\/\b\f\n\r\t"]> parsed
-[JSON::Fast] ok 467 - JSON string <["\\u0000"]> parsed
-[JSON::Fast] ok 468 - JSON string <["\""]> parsed
-[JSON::Fast] ok 469 - JSON string <["a/*b*/c/*d//e"]> parsed
-[JSON::Fast] ok 470 - JSON string <["\\a"]> parsed
-[JSON::Fast] ok 471 - JSON string <["\\n"]> parsed
-[JSON::Fast] ok 472 - JSON string <["\u0012"]> parsed
-[JSON::Fast] ok 473 - JSON string <["\uFFFF"]> parsed
-[JSON::Fast] ok 474 - JSON string <["asd"]> parsed
-[JSON::Fast] ok 475 - JSON string <[ "asd"]> parsed
-[JSON::Fast] ok 476 - JSON string <["\uD8FF\uDFFF"]> parsed
-[JSON::Fast] ok 477 - JSON string <["new\u00A0line"]> parsed
-[JSON::Fast] ok 478 - JSON string <["￿"]> parsed
-[JSON::Fast] ok 479 - JSON string <["\u0000"]> parsed
-[JSON::Fast] ok 480 - JSON string <["\u002C"]> parsed
-[JSON::Fast] ok 481 - JSON string <["π"]> parsed
-[JSON::Fast] ok 482 - JSON string <["asd "]> parsed
-[JSON::Fast] ok 483 - JSON string <" "> parsed
-[JSON::Fast] ok 484 - JSON string <["\uD834\uDD1E"]> parsed
-[JSON::Fast] ok 485 - JSON string <["\u0821"]> parsed
-[JSON::Fast] ok 486 - JSON string <["\u0123"]> parsed
-[JSON::Fast] ok 487 - JSON string <"\u0061\u30AF\u30EA\u30B9"> parsed
-[JSON::Fast] ok 488 - JSON string <["new\u000Aline"]> parsed
-[JSON::Fast] ok 489 - JSON string <[""]> parsed
-[JSON::Fast] ok 490 - JSON string <["\uA660"]> parsed
-[JSON::Fast] ok 491 - JSON string <["⍂㈴⍂"]> parsed
-[JSON::Fast] ok 492 - JSON string <["\u0022"]> parsed
-[JSON::Fast] ok 493 - JSON string <["\uD8FF\uDFFE"]> parsed
-[JSON::Fast] ok 494 - JSON string <["\uD83F\uDFFE"]> parsed
-[JSON::Fast] ok 495 - JSON string <["\u200B"]> parsed
-[JSON::Fast] ok 496 - JSON string <["\u2064"]> parsed
-[JSON::Fast] ok 497 - JSON string <["\uFDD0"]> parsed
-[JSON::Fast] ok 498 - JSON string <["\uFFFE"]> parsed
-[JSON::Fast] ok 499 - JSON string <["\u005C"]> parsed
-[JSON::Fast] ok 500 - JSON string <["€𝄞"]> parsed
-[JSON::Fast] ok 501 - JSON string <["aa"]> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 389 - JSON string <{ "zero": 0 }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "zero": 0 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 390 - JSON string <{ "one": 1 }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "one": 1 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 391 - JSON string <{ "space": " " }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "space": " " }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 392 - JSON string <{ "quote": "\""}> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "quote": "\""}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 393 - JSON string <{ "backslash": "\\"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "backslash": "\\"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 394 - JSON string <{ "controls": "\b\f\n\r\t"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "controls": "\b\f\n\r\t"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 395 - JSON string <{ "slash": "/ & \/"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "slash": "/ & \/"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 396 - JSON string <{ "alpha": "abcdefghijklmnopqrstuvwyz"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "alpha": "abcdefghijklmnopqrstuvwyz"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 397 - JSON string <{ "ALPHA": "ABCDEFGHIJKLMNOPQRSTUVWYZ"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "ALPHA": "ABCDEFGHIJKLMNOPQRSTUVWYZ"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 398 - JSON string <{ "digit": "0123456789"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "digit": "0123456789"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 399 - JSON string <{ "0123456789": "digit"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "0123456789": "digit"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 400 - JSON string <{"special": "`1~!@ \#$%^&*()_+-={':[,]}|;.</>?"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"special": "`1~!@ \#$%^&*()_+-={':[,]}|;.</>?"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 401 - JSON string <{"hex": "\u0123\u4567\u89AB\uCDEF\uabcd\uef4A"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"hex": "\u0123\u4567\u89AB\uCDEF\uabcd\uef4A"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 402 - JSON string <{"true": true}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"true": true}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 403 - JSON string <{"false": false}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"false": false}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 404 - JSON string <{"null": null}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"null": null}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 405 - JSON string <{"array":[  ]}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"array":[  ]}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 406 - JSON string <{"object":{  }}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"object":{  }}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 407 - JSON string <{"address": "50 St. James Street"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"address": "50 St. James Street"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 408 - JSON string <{"url": "http://www.JSON.org/"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"url": "http://www.JSON.org/"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 409 - JSON string <{"comment": "// /* <!-- --"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"comment": "// /* <!-- --"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 410 - JSON string <{" \# -- --> */": " "}> parsed
+[JSON::Fast] # Failed test 'JSON string <{" \# -- --> */": " "}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 411 - JSON string <{ " s p a c e d " :[1,2 , 3\n...[410]> parsed
+[JSON::Fast] # Failed test 'JSON string <{ " s p a c e d " :[1,2 , 3\n...[410]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 412 - JSON string <{"jsontext": "{\"object with 1 member\":[\"array with 1 element\"]}"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"jsontext": "{\"object with 1 member\":[\"array with 1 element\"]}"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 413 - JSON string <{"quotes": "& \#34; \u0022 %22 0x22 034 & \#x22;"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"quotes": "& \#34; \u0022 %22 0x22 034 & \#x22;"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{    "\/\\\"\uCAFE\uBABE\uAB98\uFCDE\ubcda\uef4A\b\f\n\r\t`1~!@ \#$%^&*()_+-=[]{}|;:',./<>?"\n...[413]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[    0.5 ,98.6\n...[414]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[1e-1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[1e00,2e+00,2e-00,"rosebud"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] not ok 414 - JSON string <{    "\/\\\"\uCAFE\uBABE\uAB98\uFCDE\ubcda\uef4A\b\f\n\r\t`1~!@ \#$%^&*()_+-=[]{}|;:',./<>?"\n...[413]> parsed
+[JSON::Fast] not ok 415 - JSON string <[    0.5 ,98.6\n...[414]> parsed
+[JSON::Fast] not ok 416 - JSON string <[1e-1]> parsed
+[JSON::Fast] not ok 417 - JSON string <[1e00,2e+00,2e-00,"rosebud"]> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <[[[[[[[[[[[[[[[[[[["Not too deep"]]]]]]]]]]]]]]]]]]]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{\n...[418]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{\n...[419]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] # Failed test 'JSON string <{"menu": {\n...[420]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] not ok 418 - JSON string <[[[[[[[[[[[[[[[[[[["Not too deep"]]]]]]]]]]]]]]]]]]]> parsed
+[JSON::Fast] not ok 419 - JSON string <{\n...[418]> parsed
+[JSON::Fast] not ok 420 - JSON string <{\n...[419]> parsed
+[JSON::Fast] not ok 421 - JSON string <{"menu": {\n...[420]> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 422 - JSON string <{"widget": {\n...[421]> parsed
+[JSON::Fast] # Failed test 'JSON string <{"widget": {\n...[421]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 423 - JSON string <[""]> parsed
+[JSON::Fast] # Failed test 'JSON string <[""]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 424 - JSON string <[]> parsed
+[JSON::Fast] # Failed test 'JSON string <[]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 425 - JSON string <["a"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["a"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 426 - JSON string <[false]> parsed
+[JSON::Fast] # Failed test 'JSON string <[false]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 427 - JSON string <[null, 1, "1", {}]> parsed
+[JSON::Fast] # Failed test 'JSON string <[null, 1, "1", {}]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 428 - JSON string <[null]> parsed
+[JSON::Fast] # Failed test 'JSON string <[null]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 429 - JSON string <[1\n...[428]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1\n...[428]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 430 - JSON string < [1]> parsed
+[JSON::Fast] # Failed test 'JSON string < [1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 431 - JSON string <[1,null,null,null,2]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1,null,null,null,2]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 432 - JSON string <[1] > parsed
+[JSON::Fast] # Failed test 'JSON string <[1] > parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 433 - JSON string <[123e65]> parsed
+[JSON::Fast] # Failed test 'JSON string <[123e65]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 434 - JSON string <[0e+1]> parsed
+[JSON::Fast] # Failed test 'JSON string <[0e+1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 435 - JSON string <[0e1]> parsed
+[JSON::Fast] # Failed test 'JSON string <[0e1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 436 - JSON string <[ 4]> parsed
+[JSON::Fast] # Failed test 'JSON string <[ 4]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 437 - JSON string <[-0.000000000000000000000000000000000000000000000000000000000000000000000000000001]> parsed
+[JSON::Fast] # Failed test 'JSON string <[-0.000000000000000000000000000000000000000000000000000000000000000000000000000001]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 438 - JSON string <[20e1]> parsed
+[JSON::Fast] # Failed test 'JSON string <[20e1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 439 - JSON string <[-0]> parsed
+[JSON::Fast] # Failed test 'JSON string <[-0]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 440 - JSON string <[-123]> parsed
+[JSON::Fast] # Failed test 'JSON string <[-123]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 441 - JSON string <[-1]> parsed
+[JSON::Fast] # Failed test 'JSON string <[-1]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 442 - JSON string <[1E22]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1E22]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 443 - JSON string <[1E-2]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1E-2]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 444 - JSON string <[1E+2]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1E+2]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 445 - JSON string <[123e45]> parsed
+[JSON::Fast] # Failed test 'JSON string <[123e45]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 446 - JSON string <[123.456e78]> parsed
+[JSON::Fast] # Failed test 'JSON string <[123.456e78]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 447 - JSON string <[1e-2]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1e-2]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 448 - JSON string <[1e+2]> parsed
+[JSON::Fast] # Failed test 'JSON string <[1e+2]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 449 - JSON string <[123]> parsed
+[JSON::Fast] # Failed test 'JSON string <[123]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 450 - JSON string <[123.456789]> parsed
+[JSON::Fast] # Failed test 'JSON string <[123.456789]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 451 - JSON string <{"asd":"sdf", "dfg":"fgh"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"asd":"sdf", "dfg":"fgh"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 452 - JSON string <{"asd":"sdf"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"asd":"sdf"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 453 - JSON string <{"a":"b","a":"c"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"a":"b","a":"c"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 454 - JSON string <{"a":"b","a":"b"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"a":"b","a":"b"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 455 - JSON string <{}> parsed
+[JSON::Fast] # Failed test 'JSON string <{}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 456 - JSON string <{"":0}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"":0}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 457 - JSON string <{"foo\u0000bar": 42}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"foo\u0000bar": 42}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 458 - JSON string <{ "min": -1.0e+28, "max": 1.0e+28 }> parsed
+[JSON::Fast] # Failed test 'JSON string <{ "min": -1.0e+28, "max": 1.0e+28 }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 459 - JSON string <{"x":[{"id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}], "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"x":[{"id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}], "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 460 - JSON string <{"a":[]}> parsed
+[JSON::Fast] # Failed test 'JSON string <{"a":[]}> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 461 - JSON string <{"title":"\u041f\u043e\u043b\u0442\u043e\u0440\u0430 \u0417\u0435\u043c\u043b\u0435\u043a\u043e\u043f\u0430" }> parsed
+[JSON::Fast] # Failed test 'JSON string <{"title":"\u041f\u043e\u043b\u0442\u043e\u0440\u0430 \u0417\u0435\u043c\u043b\u0435\u043a\u043e\u043f\u0430" }> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 462 - JSON string <{\n...[461]> parsed
+[JSON::Fast] # Failed test 'JSON string <{\n...[461]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 463 - JSON string <["\u0060\u012A\u12AB"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0060\u012A\u12AB"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 464 - JSON string <["\uD801\uDC37"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD801\uDC37"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 465 - JSON string <["\uD83D\uDE39\uD83D\uDC8D"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD83D\uDE39\uD83D\uDC8D"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 466 - JSON string <["\"\\\/\b\f\n\r\t"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\"\\\/\b\f\n\r\t"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 467 - JSON string <["\\u0000"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\\u0000"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 468 - JSON string <["\""]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\""]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 469 - JSON string <["a/*b*/c/*d//e"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["a/*b*/c/*d//e"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 470 - JSON string <["\\a"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\\a"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 471 - JSON string <["\\n"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\\n"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 472 - JSON string <["\u0012"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0012"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 473 - JSON string <["\uFFFF"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uFFFF"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 474 - JSON string <["asd"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["asd"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 475 - JSON string <[ "asd"]> parsed
+[JSON::Fast] # Failed test 'JSON string <[ "asd"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 476 - JSON string <["\uD8FF\uDFFF"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD8FF\uDFFF"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 477 - JSON string <["new\u00A0line"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["new\u00A0line"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 478 - JSON string <["￿"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["￿"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 479 - JSON string <["\u0000"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0000"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 480 - JSON string <["\u002C"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u002C"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 481 - JSON string <["π"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["π"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 482 - JSON string <["asd "]> parsed
+[JSON::Fast] # Failed test 'JSON string <["asd "]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 483 - JSON string <" "> parsed
+[JSON::Fast] # Failed test 'JSON string <" "> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 484 - JSON string <["\uD834\uDD1E"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD834\uDD1E"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 485 - JSON string <["\u0821"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0821"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 486 - JSON string <["\u0123"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0123"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 487 - JSON string <"\u0061\u30AF\u30EA\u30B9"> parsed
+[JSON::Fast] # Failed test 'JSON string <"\u0061\u30AF\u30EA\u30B9"> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 488 - JSON string <["new\u000Aline"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["new\u000Aline"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 489 - JSON string <[""]> parsed
+[JSON::Fast] # Failed test 'JSON string <[""]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 490 - JSON string <["\uA660"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uA660"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 491 - JSON string <["⍂㈴⍂"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["⍂㈴⍂"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 492 - JSON string <["\u0022"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u0022"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 493 - JSON string <["\uD8FF\uDFFE"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD8FF\uDFFE"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 494 - JSON string <["\uD83F\uDFFE"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uD83F\uDFFE"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 495 - JSON string <["\u200B"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u200B"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 496 - JSON string <["\u2064"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u2064"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 497 - JSON string <["\uFDD0"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uFDD0"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 498 - JSON string <["\uFFFE"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\uFFFE"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 499 - JSON string <["\u005C"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["\u005C"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 500 - JSON string <["€𝄞"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["€𝄞"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 501 - JSON string <["aa"]> parsed
+[JSON::Fast] # Failed test 'JSON string <["aa"]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
 [JSON::Fast] ok 502 - JSON string <false> parsed
-[JSON::Fast] ok 503 - JSON string <42> parsed
-[JSON::Fast] ok 504 - JSON string <-0.1> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 503 - JSON string <42> parsed
+[JSON::Fast] # Failed test 'JSON string <42> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 504 - JSON string <-0.1> parsed
+[JSON::Fast] # Failed test 'JSON string <-0.1> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
 [JSON::Fast] ok 505 - JSON string <null> parsed
-[JSON::Fast] ok 506 - JSON string <"asd"> parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 506 - JSON string <"asd"> parsed
+[JSON::Fast] # Failed test 'JSON string <"asd"> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
 [JSON::Fast] ok 507 - JSON string <true> parsed
-[JSON::Fast] ok 508 - JSON string <""> parsed
-[JSON::Fast] ok 509 - JSON string <["a"]\n...[508]> parsed
-[JSON::Fast] ok 510 - JSON string <[true]> parsed
-[JSON::Fast] ok 511 - JSON string <[] > parsed
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 508 - JSON string <""> parsed
+[JSON::Fast] # Failed test 'JSON string <""> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 509 - JSON string <["a"]\n...[508]> parsed
+[JSON::Fast] # Failed test 'JSON string <["a"]\n...[508]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 510 - JSON string <[true]> parsed
+[JSON::Fast] # Failed test 'JSON string <[true]> parsed'
+[JSON::Fast] # at t/01-parse.t line 485
+[JSON::Fast] # Expected a modifiable native int argument for '$pos'
+[JSON::Fast] not ok 511 - JSON string <[] > parsed
+[JSON::Fast] # Failed test 'JSON string <[] > parsed'
+[JSON::Fast] # at t/01-parse.t line 485
 [JSON::Fast] ok 512 - JSON string <{ > NOT parsed
 [JSON::Fast] ok 513 - JSON string <{ 3 : 4 }> NOT parsed
 [JSON::Fast] ok 514 - JSON string <{ 3 : tru }> NOT parsed
@@ -657,7 +1523,7 @@ Press ^] three times within 1s to disconnect TTY.
 [JSON::Fast] ok 641 - JSON string <{"a":"b"}/**/> NOT parsed
 [JSON::Fast] ok 642 - JSON string <{"a":"b"}/**//> NOT parsed
 [JSON::Fast] ok 643 - JSON string <{"a":"b"}//> NOT parsed
-[JSON::Fast] not ok 644 - JSON string <{"a":"b"}/> NOT parsed
+[JSON::Fast] ok 644 - JSON string <{"a":"b"}/> NOT parsed
 [JSON::Fast] ok 645 - JSON string <{"a":"b",,"c":"d"}> NOT parsed
 [JSON::Fast] ok 646 - JSON string <{a: "b"}> NOT parsed
 [JSON::Fast] ok 647 - JSON string <{"a":"a> NOT parsed
@@ -689,8 +1555,6 @@ Press ^] three times within 1s to disconnect TTY.
 [JSON::Fast] ok 673 - JSON string <["\> NOT parsed
 [JSON::Fast] ok 674 - JSON string <["new\n...[673]> NOT parsed
 [JSON::Fast] ok 675 - JSON string <["	"]> NOT parsed
-[JSON::Fast] # Failed test 'JSON string <{"a":"b"}/> NOT parsed'
-[JSON::Fast] # at t/01-parse.t line 485
 [JSON::Fast] ok 676 - JSON string <""x> NOT parsed
 [JSON::Fast] ok 677 - JSON string <<.>> NOT parsed
 [JSON::Fast] ok 678 - JSON string <[<null>]> NOT parsed
@@ -739,107 +1603,129 @@ Press ^] three times within 1s to disconnect TTY.
 [JSON::Fast] ok 721 - JSON string <å> NOT parsed
 [JSON::Fast] ok 722 - JSON string <[\n...[721]> NOT parsed
 [JSON::Fast] ok 723 - JSON string <[⁠]> NOT parsed
-[JSON::Fast] not ok 724 - JSON string <[[]   ]> NOT parsed # TODO Test currently fails.
-[JSON::Fast] # Failed test 'JSON string <[[]   ]> NOT parsed'
-[JSON::Fast] # at t/01-parse.t line 506
-[JSON::Fast] # You failed 2 tests of 724
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/02-structure.t
+[JSON::Fast] ok 724 - JSON string <[[]   ]> NOT parsed # TODO Test currently fails.
+[JSON::Fast] # You failed 290 tests of 724
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/02-structure.t
 [JSON::Fast] 1..20
-[JSON::Fast] ok 1 - Correct data structure for «{ "a" : 1 }»
-[JSON::Fast] ok 2 - Correct data structure for «{ "a" : 1 }»
-[JSON::Fast] ok 3 - Correct data structure for «[]»
-[JSON::Fast] ok 4 - Correct data structure for «[]»
-[JSON::Fast] ok 5 - Correct data structure for «{}»
-[JSON::Fast] ok 6 - Correct data structure for «{}»
-[JSON::Fast] ok 7 - Correct data structure for «[ "a", "b"]»
-[JSON::Fast] ok 8 - Correct data structure for «[ "a", "b"]»
-[JSON::Fast] ok 9 - Correct data structure for «[3]»
-[JSON::Fast] ok 10 - Correct data structure for «[3]»
-[JSON::Fast] ok 11 - Correct data structure for «["\b\f\n\r\t"]»
-[JSON::Fast] ok 12 - Correct data structure for «["\b\f\n\r\t"]»
-[JSON::Fast] ok 13 - Correct data structure for «["\""]»
-[JSON::Fast] ok 14 - Correct data structure for «["\""]»
-[JSON::Fast] ok 15 - Correct data structure for «[{ "foo" : { "bar" : 3 } }, 78]»
-[JSON::Fast] ok 16 - Correct data structure for «[{ "foo" : { "bar" : 3 } }, 78]»
-[JSON::Fast] ok 17 - Correct data structure for «[{ "a" : 3, "b" : 4 }]»
-[JSON::Fast] ok 18 - Correct data structure for «[{ "a" : 3, "b" : 4 }]»
-[JSON::Fast] ok 19 - Correct data structure for «{\n    "glossary": {\n        "title": "example glossary",\n		"GlossDiv": {\n            "title": "S",\n			"GlossList": {\n                "GlossEntry": {\n                    "ID": "SGML",\n					"SortAs": "SGML",\n					"GlossTerm": "Standard Generalized Markup Language",\n					"Acronym": "SGML",\n					"Abbrev": "ISO 8879:1986",\n					"GlossDef": {\n                        "para": "A meta-markup language, used to create markup languages such as DocBook.",\n						"GlossSeeAlso": ["GML", "XML"]\n                    },\n					"GlossSee": "markup"\n                }\n            }\n        }\n    }\n}\n    »
-[JSON::Fast] ok 20 - Correct data structure for «{\n    "glossary": {\n        "title": "example glossary",\n		"GlossDiv": {\n            "title": "S",\n			"GlossList": {\n                "GlossEntry": {\n                    "ID": "SGML",\n					"SortAs": "SGML",\n					"GlossTerm": "Standard Generalized Markup Language",\n					"Acronym": "SGML",\n					"Abbrev": "ISO 8879:1986",\n					"GlossDef": {\n                        "para": "A meta-markup language, used to create markup languages such as DocBook.",\n						"GlossSeeAlso": ["GML", "XML"]\n                    },\n					"GlossSee": "markup"\n                }\n            }\n        }\n    }\n}\n    »
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/03-unicode.t
+[JSON::Fast] not ok 1 - Correct data structure for «{ "a" : 1 }»
+[JSON::Fast] # Failed test 'Correct data structure for «{ "a" : 1 }»'
+[JSON::Fast] # at t/02-structure.t line 77
+[JSON::Fast] # expected: ${:a(1)}
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 2 - Correct data structure for «{ "a" : 1 }»
+[JSON::Fast] # Failed test 'Correct data structure for «{ "a" : 1 }»'
+[JSON::Fast] # at t/02-structure.t line 81
+[JSON::Fast] # expected: $(Map.new((:a(1))))
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 3 - Correct data structure for «[]»
+[JSON::Fast] # Failed test 'Correct data structure for «[]»'
+[JSON::Fast] # at t/02-structure.t line 77
+[JSON::Fast] # expected: $[]
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 4 - Correct data structure for «[]»
+[JSON::Fast] # Failed test 'Correct data structure for «[]»'
+[JSON::Fast] # at t/02-structure.t line 81
+[JSON::Fast] # expected: $( )
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 5 - Correct data structure for «{}»
+[JSON::Fast] # Failed test 'Correct data structure for «{}»'
+[JSON::Fast] # at t/02-structure.t line 77
+[JSON::Fast] # expected: ${}
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 6 - Correct data structure for «{}»
+[JSON::Fast] # Failed test 'Correct data structure for «{}»'
+[JSON::Fast] # at t/02-structure.t line 81
+[JSON::Fast] # expected: $(Map.new)
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 7 - Correct data structure for «[ "a", "b"]»
+[JSON::Fast] # Failed test 'Correct data structure for «[ "a", "b"]»'
+[JSON::Fast] # at t/02-structure.t line 77
+[JSON::Fast] # expected: $["a", "b"]
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 8 - Correct data structure for «[ "a", "b"]»
+[JSON::Fast] # Failed test 'Correct data structure for «[ "a", "b"]»'
+[JSON::Fast] # at t/02-structure.t line 81
+[JSON::Fast] # expected: $("a", "b")
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 9 - Correct data structure for «[3]»
+[JSON::Fast] # Failed test 'Correct data structure for «[3]»'
+[JSON::Fast] # at t/02-structure.t line 77
+[JSON::Fast] # expected: $[3]
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 10 - Correct data structure for «[3]»
+[JSON::Fast] # Failed test 'Correct data structure for «[3]»'
+[JSON::Fast] # at t/02-structure.t line 81
+[JSON::Fast] # expected: $(3,)
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 11 - Correct data structure for «["\b\f\n\r\t"]»
+[JSON::Fast] # Failed test 'Correct data structure for «["\b\f\n\r\t"]»'
+[JSON::Fast] # at t/02-structure.t line 77
+[JSON::Fast] # expected: $["\b\x[C]\n\r\t"]
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 12 - Correct data structure for «["\b\f\n\r\t"]»
+[JSON::Fast] # Failed test 'Correct data structure for «["\b\f\n\r\t"]»'
+[JSON::Fast] # at t/02-structure.t line 81
+[JSON::Fast] # expected: $("\b\x[C]\n\r\t",)
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 13 - Correct data structure for «["\""]»
+[JSON::Fast] # Failed test 'Correct data structure for «["\""]»'
+[JSON::Fast] # at t/02-structure.t line 77
+[JSON::Fast] # expected: $["\""]
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 14 - Correct data structure for «["\""]»
+[JSON::Fast] # Failed test 'Correct data structure for «["\""]»'
+[JSON::Fast] # at t/02-structure.t line 81
+[JSON::Fast] # expected: $("\"",)
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 15 - Correct data structure for «[{ "foo" : { "bar" : 3 } }, 78]»
+[JSON::Fast] # Failed test 'Correct data structure for «[{ "foo" : { "bar" : 3 } }, 78]»'
+[JSON::Fast] # at t/02-structure.t line 77
+[JSON::Fast] # expected: $[{:foo(${:bar(3)})}, 78]
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 16 - Correct data structure for «[{ "foo" : { "bar" : 3 } }, 78]»
+[JSON::Fast] # Failed test 'Correct data structure for «[{ "foo" : { "bar" : 3 } }, 78]»'
+[JSON::Fast] # at t/02-structure.t line 81
+[JSON::Fast] # expected: $(Map.new((:foo(Map.new((:bar(3)))))), 78)
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 17 - Correct data structure for «[{ "a" : 3, "b" : 4 }]»
+[JSON::Fast] # Failed test 'Correct data structure for «[{ "a" : 3, "b" : 4 }]»'
+[JSON::Fast] # at t/02-structure.t line 77
+[JSON::Fast] # expected: $[{:a(3), :b(4)},]
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 18 - Correct data structure for «[{ "a" : 3, "b" : 4 }]»
+[JSON::Fast] # Failed test 'Correct data structure for «[{ "a" : 3, "b" : 4 }]»'
+[JSON::Fast] # at t/02-structure.t line 81
+[JSON::Fast] # expected: $(Map.new((:a(3),:b(4))),)
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 19 - Correct data structure for «{\n    "glossary": {\n        "title": "example glossary",\n		"GlossDiv": {\n            "title": "S",\n			"GlossList": {\n                "GlossEntry": {\n                    "ID": "SGML",\n					"SortAs": "SGML",\n					"GlossTerm": "Standard Generalized Markup Language",\n					"Acronym": "SGML",\n					"Abbrev": "ISO 8879:1986",\n					"GlossDef": {\n                        "para": "A meta-markup language, used to create markup languages such as DocBook.",\n						"GlossSeeAlso": ["GML", "XML"]\n                    },\n					"GlossSee": "markup"\n                }\n            }\n        }\n    }\n}\n    »
+[JSON::Fast] # Failed test 'Correct data structure for «{\n    "glossary": {\n        "title": "example glossary",\n		"GlossDiv": {\n            "title": "S",\n			"GlossList": {\n                "GlossEntry": {\n                    "ID": "SGML",\n					"SortAs": "SGML",\n					"GlossTerm": "Standard Generalized Markup Language",\n					"Acronym": "SGML",\n					"Abbrev": "ISO 8879:1986",\n					"GlossDef": {\n                        "para": "A meta-markup language, used to create markup languages such as DocBook.",\n						"GlossSeeAlso": ["GML", "XML"]\n                    },\n					"GlossSee": "markup"\n                }\n            }\n        }\n    }\n}\n    »'
+[JSON::Fast] # at t/02-structure.t line 77
+[JSON::Fast] # expected: ${:glossary(${:GlossDiv(${:GlossList(${:GlossEntry(${:Abbrev("ISO 8879:1986"), :Acronym("SGML"), :GlossDef(${:GlossSeeAlso($["GML", "XML"]), :para("A meta-markup language, used to create markup languages such as DocBook.")}), :GlossSee("markup"), :GlossTerm("Standard Generalized Markup Language"), :ID("SGML"), :SortAs("SGML")})}), :title("S")}), :title("example glossary")})}
+[JSON::Fast] #      got: Nil
+[JSON::Fast] not ok 20 - Correct data structure for «{\n    "glossary": {\n        "title": "example glossary",\n		"GlossDiv": {\n            "title": "S",\n			"GlossList": {\n                "GlossEntry": {\n                    "ID": "SGML",\n					"SortAs": "SGML",\n					"GlossTerm": "Standard Generalized Markup Language",\n					"Acronym": "SGML",\n					"Abbrev": "ISO 8879:1986",\n					"GlossDef": {\n                        "para": "A meta-markup language, used to create markup languages such as DocBook.",\n						"GlossSeeAlso": ["GML", "XML"]\n                    },\n					"GlossSee": "markup"\n                }\n            }\n        }\n    }\n}\n    »
+[JSON::Fast] # Failed test 'Correct data structure for «{\n    "glossary": {\n        "title": "example glossary",\n		"GlossDiv": {\n            "title": "S",\n			"GlossList": {\n                "GlossEntry": {\n                    "ID": "SGML",\n					"SortAs": "SGML",\n					"GlossTerm": "Standard Generalized Markup Language",\n					"Acronym": "SGML",\n					"Abbrev": "ISO 8879:1986",\n					"GlossDef": {\n                        "para": "A meta-markup language, used to create markup languages such as DocBook.",\n						"GlossSeeAlso": ["GML", "XML"]\n                    },\n					"GlossSee": "markup"\n                }\n            }\n        }\n    }\n}\n    »'
+[JSON::Fast] # at t/02-structure.t line 81
+[JSON::Fast] # expected: $(Map.new((:glossary(Map.new((:GlossDiv(Map.new((:GlossList(Map.new((:GlossEntry(Map.new((:Abbrev("ISO 8879:1986"),:Acronym("SGML"),:GlossDef(Map.new((:GlossSeeAlso(("GML", "XML")),:para("A meta-markup language, used to create markup languages such as DocBook.")))),:GlossSee("markup"),:GlossTerm("Standard Generalized Markup Language"),:ID("SGML"),:SortAs("SGML"))))))),:title("S")))),:title("example glossary")))))))
+[JSON::Fast] #      got: Nil
+[JSON::Fast] # You failed 20 tests of 20
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/03-unicode.t
 [JSON::Fast] 1..14
-[JSON::Fast] ok 1 - Correct data structure for «{ "a" : "b\u00E5" }»
-[JSON::Fast] ok 2 - to-json test
-[JSON::Fast] ok 3 - Correct data structure for «[ "\u2685" ]»
-[JSON::Fast] ok 4 - to-json test
-[JSON::Fast] ok 5 - Correct data structure for «[ "̅hello" ]»
-[JSON::Fast] ok 6 - to-json test
-[JSON::Fast] ok 7 - Correct data structure for «{ "̅hello": "goodbye" }»
-[JSON::Fast] ok 8 - to-json test
-[JSON::Fast] ok 9 - Correct data structure for «[ "\ud83c\udded\ud83c\uddf7" ]»
-[JSON::Fast] ok 10 - to-json test
-[JSON::Fast] ok 11 - parse a mean zalgo string
-[JSON::Fast] ok 12 - zalgostring roundtrips
-[JSON::Fast] ok 13 - 
-[JSON::Fast] ok 14 - 
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/04-roundtrip.t
+[JSON::Fast] Expected a modifiable native int argument for '$pos'
+[JSON::Fast]   in sub parse-obj at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 761
+[JSON::Fast]   in sub parse-thing at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 874
+[JSON::Fast]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1043
+[JSON::Fast]   in block <unit> at t/03-unicode.t line 24
+[JSON::Fast] # You planned 14 tests, but ran 0
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/04-roundtrip.t
 [JSON::Fast] 1..56
 [JSON::Fast] ok 1 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 2 - Int
-[JSON::Fast] ok 3 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 4 - Rat
-[JSON::Fast] ok 5 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 6 - Str
-[JSON::Fast] ok 7 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 8 - Str with quote
-[JSON::Fast] ok 9 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 10 - Undef
-[JSON::Fast] ok 11 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 12 - other escapes
-[JSON::Fast] ok 13 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 14 - Non-ASCII
-[JSON::Fast] ok 15 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 16 - Empty Array
-[JSON::Fast] ok 17 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 18 - Array of Int
-[JSON::Fast] ok 19 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 20 - Array of Num
-[JSON::Fast] ok 21 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 22 - Array of Str
-[JSON::Fast] ok 23 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 24 - Array of Undef
-[JSON::Fast] ok 25 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 26 - Int Allomorph
-[JSON::Fast] ok 27 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 28 - Rat Allomorph
-[JSON::Fast] ok 29 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 30 - Num Allomorph
-[JSON::Fast] ok 31 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 32 - Duration
-[JSON::Fast] ok 33 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 34 - Rational
-[JSON::Fast] ok 35 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 36 - Empty Hash
-[JSON::Fast] ok 37 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 38 - Undef Hash Val
-[JSON::Fast] ok 39 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 40 - Hash of Int
-[JSON::Fast] ok 41 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 42 - Hash of Num
-[JSON::Fast] ok 43 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 44 - Hash of Str
-[JSON::Fast] ok 45 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 46 - Hash of weird Str
-[JSON::Fast] ok 47 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 48 - Hash: Int keys
-[JSON::Fast] ok 49 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 50 - Array of Stuff
-[JSON::Fast] ok 51 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 52 - Hash of Stuff
-[JSON::Fast] ok 53 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 54 - Backslashes 1
-[JSON::Fast] ok 55 - :!pretty jsonified has only a single line
-[JSON::Fast] ok 56 - URLs
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/05-unreasonable-requirements.t
+[JSON::Fast] Expected a modifiable native int argument for '$pos'
+[JSON::Fast]   in sub parse-array at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 820
+[JSON::Fast]   in sub parse-thing at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 874
+[JSON::Fast]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1043
+[JSON::Fast]   in block <unit> at t/04-roundtrip.t line 51
+[JSON::Fast] # You planned 56 tests, but ran 1
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/05-unreasonable-requirements.t
 [JSON::Fast] 1..7
 [JSON::Fast] ok 1 - json standard dictates Inf turns into null
 [JSON::Fast] ok 2 - json standard dictates -Inf turns into null
@@ -847,97 +1733,54 @@ Press ^] three times within 1s to disconnect TTY.
 [JSON::Fast] ok 4 - $*JSON_NAN_INF_SUPPORT allows for Inf
 [JSON::Fast] ok 5 - $*JSON_NAN_INF_SUPPORT allows for -Inf
 [JSON::Fast] ok 6 - $*JSON_NAN_INF_SUPPORT allows for NaN
-[JSON::Fast] ok 7 - backslashed forward slashes get unescaped to forward slashes
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/06-control-characters.t
+[JSON::Fast] Expected a modifiable native int argument for '$pos'
+[JSON::Fast]   in sub parse-string at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 542
+[JSON::Fast]   in sub parse-thing at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 874
+[JSON::Fast]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1043
+[JSON::Fast]   in block <unit> at t/05-unreasonable-requirements.t line 19
+[JSON::Fast] # You planned 7 tests, but ran 6
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/06-control-characters.t
 [JSON::Fast] 1..68
 [JSON::Fast] ok 1 - control character 0 => "\u0000"
-[JSON::Fast] ok 2 - control character goes backwards, too
-[JSON::Fast] ok 3 - control character 1 => "\u0001"
-[JSON::Fast] ok 4 - control character goes backwards, too
-[JSON::Fast] ok 5 - control character 2 => "\u0002"
-[JSON::Fast] ok 6 - control character goes backwards, too
-[JSON::Fast] ok 7 - control character 3 => "\u0003"
-[JSON::Fast] ok 8 - control character goes backwards, too
-[JSON::Fast] ok 9 - control character 4 => "\u0004"
-[JSON::Fast] ok 10 - control character goes backwards, too
-[JSON::Fast] ok 11 - control character 5 => "\u0005"
-[JSON::Fast] ok 12 - control character goes backwards, too
-[JSON::Fast] ok 13 - control character 6 => "\u0006"
-[JSON::Fast] ok 14 - control character goes backwards, too
-[JSON::Fast] ok 15 - control character 7 => "\u0007"
-[JSON::Fast] ok 16 - control character goes backwards, too
-[JSON::Fast] ok 17 - control character 8 => "\u0008"
-[JSON::Fast] ok 18 - control character goes backwards, too
-[JSON::Fast] ok 19 - control character 9 => "\t"
-[JSON::Fast] ok 20 - control character goes backwards, too
-[JSON::Fast] ok 21 - control character 10 => "\n"
-[JSON::Fast] ok 22 - control character goes backwards, too
-[JSON::Fast] ok 23 - control character 11 => "\u000b"
-[JSON::Fast] ok 24 - control character goes backwards, too
-[JSON::Fast] ok 25 - control character 12 => "\u000c"
-[JSON::Fast] ok 26 - control character goes backwards, too
-[JSON::Fast] ok 27 - control character 13 => "\r"
-[JSON::Fast] ok 28 - control character goes backwards, too
-[JSON::Fast] ok 29 - control character 14 => "\u000e"
-[JSON::Fast] ok 30 - control character goes backwards, too
-[JSON::Fast] ok 31 - control character 15 => "\u000f"
-[JSON::Fast] ok 32 - control character goes backwards, too
-[JSON::Fast] ok 33 - control character 16 => "\u0010"
-[JSON::Fast] ok 34 - control character goes backwards, too
-[JSON::Fast] ok 35 - control character 17 => "\u0011"
-[JSON::Fast] ok 36 - control character goes backwards, too
-[JSON::Fast] ok 37 - control character 18 => "\u0012"
-[JSON::Fast] ok 38 - control character goes backwards, too
-[JSON::Fast] ok 39 - control character 19 => "\u0013"
-[JSON::Fast] ok 40 - control character goes backwards, too
-[JSON::Fast] ok 41 - control character 20 => "\u0014"
-[JSON::Fast] ok 42 - control character goes backwards, too
-[JSON::Fast] ok 43 - control character 21 => "\u0015"
-[JSON::Fast] ok 44 - control character goes backwards, too
-[JSON::Fast] ok 45 - control character 22 => "\u0016"
-[JSON::Fast] ok 46 - control character goes backwards, too
-[JSON::Fast] ok 47 - control character 23 => "\u0017"
-[JSON::Fast] ok 48 - control character goes backwards, too
-[JSON::Fast] ok 49 - control character 24 => "\u0018"
-[JSON::Fast] ok 50 - control character goes backwards, too
-[JSON::Fast] ok 51 - control character 25 => "\u0019"
-[JSON::Fast] ok 52 - control character goes backwards, too
-[JSON::Fast] ok 53 - control character 26 => "\u001a"
-[JSON::Fast] ok 54 - control character goes backwards, too
-[JSON::Fast] ok 55 - control character 27 => "\u001b"
-[JSON::Fast] ok 56 - control character goes backwards, too
-[JSON::Fast] ok 57 - control character 28 => "\u001c"
-[JSON::Fast] ok 58 - control character goes backwards, too
-[JSON::Fast] ok 59 - control character 29 => "\u001d"
-[JSON::Fast] ok 60 - control character goes backwards, too
-[JSON::Fast] ok 61 - control character 30 => "\u001e"
-[JSON::Fast] ok 62 - control character goes backwards, too
-[JSON::Fast] ok 63 - control character 31 => "\u001f"
-[JSON::Fast] ok 64 - control character goes backwards, too
-[JSON::Fast] ok 65 - control character 13 => "\r\n"
-[JSON::Fast] ok 66 - control character goes backwards, too
-[JSON::Fast] ok 67 - simple control character escape plus a unicode sequence
-[JSON::Fast] ok 68 - simple control character escape plus a unicode sequence
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/07-datetime.t
+[JSON::Fast] Expected a modifiable native int argument for '$pos'
+[JSON::Fast]   in sub parse-string at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 542
+[JSON::Fast]   in sub parse-thing at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 874
+[JSON::Fast]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1043
+[JSON::Fast]   in block <unit> at t/06-control-characters.t line 43
+[JSON::Fast] # You planned 68 tests, but ran 1
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/07-datetime.t
 [JSON::Fast] 1..1
-[JSON::Fast] ok 1 - Roundtrip for DateTime instant, DateTime, Date and Instant instant works
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/08-sorted-keys.t
+[JSON::Fast] Expected a modifiable native int argument for '$pos'
+[JSON::Fast]   in sub parse-array at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 820
+[JSON::Fast]   in sub parse-thing at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 874
+[JSON::Fast]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1043
+[JSON::Fast]   in block <unit> at t/07-datetime.t line 24
+[JSON::Fast] # You planned 1 test, but ran 0
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/08-sorted-keys.t
 [JSON::Fast] 1..5
 [JSON::Fast] ok 1 - 
 [JSON::Fast] ok 2 - sorted keys even inside other constructs
 [JSON::Fast] ok 3 - sorted outer dictionary with inner sorted dictionaries
 [JSON::Fast] ok 4 - sorted with custom transformation function (1 argument)
 [JSON::Fast] ok 5 - sorted with custom transformation function (2 arguments)
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/09-race.t
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/09-race.t
 [JSON::Fast] 1..1
-[JSON::Fast] ok 1 - right number of items
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/10-multidocument.t
-[JSON::Fast] ok 1 - right number of parses
-[JSON::Fast] ok 2 - first result
-[JSON::Fast] ok 3 - second result
-[JSON::Fast] ok 4 - third result
-[JSON::Fast] 1..4
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/11-enum.t
+[JSON::Fast] A worker in a parallel iteration (hyper or race) initiated here:
+[JSON::Fast]   in block <unit> at t/09-race.t line 8
+[JSON::Fast] Died at:
+[JSON::Fast]     Expected a modifiable native int argument for '$pos'
+[JSON::Fast]       in sub parse-obj at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 761
+[JSON::Fast]       in sub parse-thing at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 874
+[JSON::Fast]       in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1043
+[JSON::Fast]       in block  at t/09-race.t line 10
+[JSON::Fast] # You planned 1 test, but ran 0
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/10-multidocument.t
+[JSON::Fast] Expected a modifiable native int argument for '$pos'
+[JSON::Fast]   in sub parse-array at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 820
+[JSON::Fast]   in sub parse-thing at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 874
+[JSON::Fast]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1043
+[JSON::Fast]   in block <unit> at t/10-multidocument.t line 14
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/11-enum.t
 [JSON::Fast] ok 1 - enum type gives 'null'
 [JSON::Fast] ok 2 - enum value stringifies to its short name
 [JSON::Fast] ok 3 - enum value stringifies to its short name
@@ -955,29 +1798,29 @@ Press ^] three times within 1s to disconnect TTY.
 [JSON::Fast] ok 15 - with enums-as-value: enum value stringifies to its integer value
 [JSON::Fast] ok 16 - with enums-as-value: enum value jsonifies to its integer value
 [JSON::Fast] 1..16
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/12-assocpositional.t
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/12-assocpositional.t
 [JSON::Fast] 1..4
-[JSON::Fast] ok 1 - 
-[JSON::Fast] ok 2 - 
-[JSON::Fast] ok 3 - 
-[JSON::Fast] ok 4 - 
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/13-scopes.t
+[JSON::Fast] Expected a modifiable native int argument for '$pos'
+[JSON::Fast]   in sub parse-obj at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 761
+[JSON::Fast]   in sub parse-thing at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 874
+[JSON::Fast]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1043
+[JSON::Fast]   in block <unit> at t/12-assocpositional.t line 24
+[JSON::Fast] # You planned 4 tests, but ran 0
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/13-scopes.t
 [JSON::Fast] 1..8
 [JSON::Fast] ok 1 - to-json is not pretty
 [JSON::Fast] ok 2 - to-json override to pretty works
-[JSON::Fast] ok 3 - from-json is immutable
-[JSON::Fast] ok 4 - from-json override to immutable works
-[JSON::Fast] ok 5 - to-json is not pretty
-[JSON::Fast] ok 6 - to-json override to pretty works
-[JSON::Fast] ok 7 - from-json is immutable
-[JSON::Fast] ok 8 - from-json override to immutable works
-[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/14-comments.t
+[JSON::Fast] Expected a modifiable native int argument for '$pos'
+[JSON::Fast]   in sub parse-array-immutable at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 966
+[JSON::Fast]   in sub parse-thing-immutable at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1013
+[JSON::Fast]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1043
+[JSON::Fast]   in sub from-json-changed at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1097
+[JSON::Fast]   in block <unit> at t/13-scopes.t line 18
+[JSON::Fast] # You planned 8 tests, but ran 2
+[JSON::Fast] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1 t/14-comments.t
 [JSON::Fast] 1..3
-[JSON::Fast] Parameter '$pos' expects a writable container (variable) as an
-[JSON::Fast] argument, but got '5' (Int) as a value without a container.
-[JSON::Fast]   in sub nom-comment at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 441
-[JSON::Fast]   in sub nom-ws at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 435
-[JSON::Fast]   in sub parse-obj at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 770
+[JSON::Fast] Expected a modifiable native int argument for '$pos'
+[JSON::Fast]   in sub parse-obj at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 761
 [JSON::Fast]   in sub parse-thing at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 874
 [JSON::Fast]   in sub from-json at /home/coke/sandbox/blin/data/zef-data/tmp/d5c8426f72f4481b3a639adb0eda4131590cbe8b.tar.gz/JSON-Fast-0.20.1/lib/JSON/Fast.pm6 (JSON::Fast) line 1043
 [JSON::Fast]   in block <unit> at t/14-comments.t line 22
@@ -988,6 +1831,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for JSON::Fast:ver<0.20.1>:auth<zef:timo>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 2min 29.851s
-             CPU time consumed: 2min 36.664s
-                   Memory peak: 1.2G (swap: 74.9M)
+               Service runtime: 47.618s
+             CPU time consumed: 44.292s
+                   Memory peak: 847.4M (swap: 0B)

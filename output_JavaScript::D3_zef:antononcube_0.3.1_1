@@ -1,0 +1,252 @@
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: JavaScript::D3
+Running as unit: run-p1876241-i10263349.service; invocation ID: 03a8edeb5d3944e28dd5c48d16aeda7d
+Press ^] three times within 1s to disconnect TTY.
+===> Found: JavaScript::D3:ver<0.3.1>:auth<zef:antononcube>:api<1> [via Zef::Repository::Ecosystems<fez>]
+[JavaScript::D3] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789447444.1876244.4986.021273742539/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz https://360.zef.pm/J/AV/JAVASCRIPT_D3/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz
+===> Fetching [OK]: JavaScript::D3:ver<0.3.1>:auth<zef:antononcube>:api<1> to /home/coke/sandbox/blin/data/zef-data/tmp/1789447444.1876244.4986.021273742539/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz
+[JavaScript::D3] Command: tar -t -f ./cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz
+[JavaScript::D3] Command: tar -xvf ./cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz -C ../cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz
+===> Extraction [OK]: JavaScript::D3 to /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz
+===> Testing: JavaScript::D3:ver<0.3.1>:auth<zef:antononcube>:api<1>
+[JavaScript::D3] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist t/01-plots-calls.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling t/01-plots-calls.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities)
+[JavaScript::D3] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[JavaScript::D3] Expected a modifiable native int argument for '$pos'
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities):339
+[JavaScript::D3] ------> <BOL><HERE>BEGIN { get-named-colors() }
+[JavaScript::D3] Exception details:
+[JavaScript::D3]   ===SORRY!=== Error while compiling:
+[JavaScript::D3]   Expected a modifiable native int argument for '$pos'
+[JavaScript::D3]   at line 
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Utilities;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts):4
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::CodeSnippets;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Charts;
+[JavaScript::D3] at t/01-plots-calls.rakutest:6
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3;
+[JavaScript::D3] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist t/02-charts-calls.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling t/02-charts-calls.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities)
+[JavaScript::D3] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[JavaScript::D3] Expected a modifiable native int argument for '$pos'
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities):339
+[JavaScript::D3] ------> <BOL><HERE>BEGIN { get-named-colors() }
+[JavaScript::D3] Exception details:
+[JavaScript::D3]   ===SORRY!=== Error while compiling:
+[JavaScript::D3]   Expected a modifiable native int argument for '$pos'
+[JavaScript::D3]   at line 
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Utilities;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts):4
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::CodeSnippets;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Charts;
+[JavaScript::D3] at t/02-charts-calls.rakutest:5
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3;
+[JavaScript::D3] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist t/03-random-mandala-calls.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling t/03-random-mandala-calls.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities)
+[JavaScript::D3] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[JavaScript::D3] Expected a modifiable native int argument for '$pos'
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities):339
+[JavaScript::D3] ------> <BOL><HERE>BEGIN { get-named-colors() }
+[JavaScript::D3] Exception details:
+[JavaScript::D3]   ===SORRY!=== Error while compiling:
+[JavaScript::D3]   Expected a modifiable native int argument for '$pos'
+[JavaScript::D3]   at line 
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Utilities;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts):4
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::CodeSnippets;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Charts;
+[JavaScript::D3] at t/03-random-mandala-calls.rakutest:5
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3;
+[JavaScript::D3] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist t/04-chessboard.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling t/04-chessboard.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities)
+[JavaScript::D3] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[JavaScript::D3] Expected a modifiable native int argument for '$pos'
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities):339
+[JavaScript::D3] ------> <BOL><HERE>BEGIN { get-named-colors() }
+[JavaScript::D3] Exception details:
+[JavaScript::D3]   ===SORRY!=== Error while compiling:
+[JavaScript::D3]   Expected a modifiable native int argument for '$pos'
+[JavaScript::D3]   at line 
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Utilities;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts):4
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::CodeSnippets;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Charts;
+[JavaScript::D3] at t/04-chessboard.rakutest:5
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3;
+[JavaScript::D3] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist t/05-clock-gauge.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling t/05-clock-gauge.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities)
+[JavaScript::D3] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[JavaScript::D3] Expected a modifiable native int argument for '$pos'
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities):339
+[JavaScript::D3] ------> <BOL><HERE>BEGIN { get-named-colors() }
+[JavaScript::D3] Exception details:
+[JavaScript::D3]   ===SORRY!=== Error while compiling:
+[JavaScript::D3]   Expected a modifiable native int argument for '$pos'
+[JavaScript::D3]   at line 
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Utilities;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts):4
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::CodeSnippets;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Charts;
+[JavaScript::D3] at t/05-clock-gauge.rakutest:5
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3;
+[JavaScript::D3] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist t/06-named-colors.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling t/06-named-colors.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets)
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities)
+[JavaScript::D3] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[JavaScript::D3] Expected a modifiable native int argument for '$pos'
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities):339
+[JavaScript::D3] ------> <BOL><HERE>BEGIN { get-named-colors() }
+[JavaScript::D3] Exception details:
+[JavaScript::D3]   ===SORRY!=== Error while compiling:
+[JavaScript::D3]   Expected a modifiable native int argument for '$pos'
+[JavaScript::D3]   at line 
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/CodeSnippets.rakumod (JavaScript::D3::CodeSnippets):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Utilities;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Charts.rakumod (JavaScript::D3::Charts):4
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::CodeSnippets;
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3.rakumod (JavaScript::D3):3
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Charts;
+[JavaScript::D3] at t/06-named-colors.rakutest:4
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3;
+[JavaScript::D3] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist t/07-angle-path.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling t/07-angle-path.rakutest
+[JavaScript::D3] ===SORRY!=== Error while compiling /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities)
+[JavaScript::D3] An exception X::Comp::AdHoc occurred while evaluating a BEGIN:
+[JavaScript::D3] Expected a modifiable native int argument for '$pos'
+[JavaScript::D3] at /home/coke/sandbox/blin/data/zef-data/tmp/cc1a7cc73f0a2e20045f0aec2fe39cf4b172f9c9.tar.gz/dist/lib/JavaScript/D3/Utilities.rakumod (JavaScript::D3::Utilities):339
+[JavaScript::D3] ------> <BOL><HERE>BEGIN { get-named-colors() }
+[JavaScript::D3] Exception details:
+[JavaScript::D3]   ===SORRY!=== Error while compiling:
+[JavaScript::D3]   Expected a modifiable native int argument for '$pos'
+[JavaScript::D3]   at line 
+[JavaScript::D3] at t/07-angle-path.rakutest:4
+[JavaScript::D3] ------> <BOL><HERE>use JavaScript::D3::Utilities;
+===> Testing [FAIL]: JavaScript::D3:ver<0.3.1>:auth<zef:antononcube>:api<1>
+[JavaScript::D3] Failed to get passing tests, but continuing with --force-test
+===> Installing: JavaScript::D3:ver<0.3.1>:auth<zef:antononcube>:api<1>
+===> Install [OK] for JavaScript::D3:ver<0.3.1>:auth<zef:antononcube>:api<1>
+
+1 bin/ script [js-d3-graphics] installed to:
+/home/coke/sandbox/blin/installed/JavaScript::D3_zef:antononcube_0.3.1_1/bin
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 41.599s
+             CPU time consumed: 55.386s
+                   Memory peak: 1.9G (swap: 0B)

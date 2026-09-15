@@ -1,0 +1,53 @@
+Running as unit: run-p1595158-i10007789.service; invocation ID: 78326de5e3524f209fad064ec436d6dc
+Press ^] three times within 1s to disconnect TTY.
+===> Searching for: JSON::Path
+===> Found: JSON::Path:ver<1.10>:auth<zef:raku-community-modules> [via Zef::Repository::Ecosystems<fez>]
+[JSON::Path] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789441199.1595159.2883.621876511302/468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz https://360.zef.pm/J/SO/JSON_PATH/468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz
+===> Fetching [OK]: JSON::Path:ver<1.10>:auth<zef:raku-community-modules> to /home/coke/sandbox/blin/data/zef-data/tmp/1789441199.1595159.2883.621876511302/468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz
+[JSON::Path] Command: tar -t -f ./468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz
+[JSON::Path] Command: tar -xvf ./468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz -C ../468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz
+===> Extraction [OK]: JSON::Path to /home/coke/sandbox/blin/data/zef-data/tmp/468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz
+===> Testing: JSON::Path:ver<1.10>:auth<zef:raku-community-modules>
+[JSON::Path] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz/JSON-Path-1.10 t/01-basic.rakutest
+[JSON::Path] 1..24
+[JSON::Path] Expected a modifiable native int argument for '$pos'
+[JSON::Path]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Path]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Path]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Path]   in block <unit> at t/01-basic.rakutest line 7
+[JSON::Path] # You planned 24 tests, but ran 0
+[JSON::Path] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz/JSON-Path-1.10 t/02-zeroth.rakutest
+[JSON::Path] 1..5
+[JSON::Path] Expected a modifiable native int argument for '$pos'
+[JSON::Path]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Path]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Path]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Path]   in method get at /home/coke/sandbox/blin/data/zef-data/tmp/468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz/JSON-Path-1.10/lib/JSON/Path.rakumod (JSON::Path) line 219
+[JSON::Path]   in method values at /home/coke/sandbox/blin/data/zef-data/tmp/468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz/JSON-Path-1.10/lib/JSON/Path.rakumod (JSON::Path) line 230
+[JSON::Path]   in block <unit> at t/02-zeroth.rakutest line 23
+[JSON::Path] # You planned 5 tests, but ran 0
+[JSON::Path] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz/JSON-Path-1.10 t/03-shortcuts.rakutest
+[JSON::Path] 1..2
+[JSON::Path] Expected a modifiable native int argument for '$pos'
+[JSON::Path]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Path]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Path]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Path]   in block <unit> at t/03-shortcuts.rakutest line 7
+[JSON::Path] # You planned 2 tests, but ran 0
+[JSON::Path] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/468133b7c450de7a9e4cce7af67cca77733f31f6.tar.gz/JSON-Path-1.10 t/04-map.rakutest
+[JSON::Path] 1..4
+[JSON::Path] Expected a modifiable native int argument for '$pos'
+[JSON::Path]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[JSON::Path]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[JSON::Path]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[JSON::Path]   in block <unit> at t/04-map.rakutest line 7
+[JSON::Path] # You planned 4 tests, but ran 0
+===> Testing [FAIL]: JSON::Path:ver<1.10>:auth<zef:raku-community-modules>
+[JSON::Path] Failed to get passing tests, but continuing with --force-test
+===> Installing: JSON::Path:ver<1.10>:auth<zef:raku-community-modules>
+===> Install [OK] for JSON::Path:ver<1.10>:auth<zef:raku-community-modules>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 11.761s
+             CPU time consumed: 14.314s
+                   Memory peak: 1G (swap: 0B)

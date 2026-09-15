@@ -1,14 +1,14 @@
-Running as unit: run-p2535657-i2480449.service; invocation ID: 84ccce9e481b483f954510d3d878e7e0
+Running as unit: run-p1690007-i10102722.service; invocation ID: 59e5e4a23d364e1186e0ed340d9c08b2
 Press ^] three times within 1s to disconnect TTY.
 ===> Searching for: LIVR
 ===> Found: LIVR:ver<2.1.0>:auth<cpan:KOORCHIK> [via Zef::Repository::Ecosystems<rea>]
-[LIVR] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1786659192.2535658.712.1094966216112/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/L/LIVR/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz
-===> Fetching [OK]: LIVR:ver<2.1.0>:auth<cpan:KOORCHIK> to /home/coke/sandbox/blin/data/zef-data/tmp/1786659192.2535658.712.1094966216112/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz
+[LIVR] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789443241.1690010.139.87778496949542/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/L/LIVR/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz
+===> Fetching [OK]: LIVR:ver<2.1.0>:auth<cpan:KOORCHIK> to /home/coke/sandbox/blin/data/zef-data/tmp/1789443241.1690010.139.87778496949542/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz
 [LIVR] Command: tar -t -f ./LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz
 [LIVR] Command: tar -xvf ./LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz -C ../LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz
 ===> Extraction [OK]: LIVR to /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz
 ===> Testing: LIVR:ver<2.1.0>
-[LIVR] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/00-simple.t
+[LIVR] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/00-simple.t
 [LIVR] # Subtest: POSITIVE: required
 [LIVR]     ok 1 - Should return true on success validation
 [LIVR]     ok 2 - should return cleaned object
@@ -21,23 +21,8 @@ Press ^] three times within 1s to disconnect TTY.
 [LIVR]     1..3
 [LIVR] ok 2 - NEGATIVE: required
 [LIVR] 1..2
-[LIVR] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/01-livr-test-suite.t
+[LIVR] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/01-livr-test-suite.t
 [LIVR] PROCESSING: /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0/t/test_suite/positive
-[LIVR]     # Failed test 'Validator should contain no errors'
-[LIVR]     # at t/01-livr-test-suite.t line 14
-[LIVR]     # url1	WRONG_URL
-[LIVR]     # url2	WRONG_URL
-[LIVR]     # url3	WRONG_URL
-[LIVR]     # Failed test 'Validator should return validated data'
-[LIVR]     # at t/01-livr-test-suite.t line 15
-[LIVR]     # expected: ${:empty_field(""), :url1("https://google.com"), :url2("HTTP://127.0.0.1:3233/?param_1=123\&param_2=asd"), :url3("http://webbylab.com/?param_1=123#anchor")}
-[LIVR]     #      got: Any
-[LIVR] {got_error => {url1 => WRONG_URL, url2 => WRONG_URL, url3 => WRONG_URL}, test_data => {input => {empty_field => , extra_field => aaaa, url1 => https://google.com, url2 => HTTP://127.0.0.1:3233/?param_1=123&param_2=asd, url3 => http://webbylab.com/?param_1=123#anchor}, output => {empty_field => , url1 => https://google.com, url2 => HTTP://127.0.0.1:3233/?param_1=123&param_2=asd, url3 => http://webbylab.com/?param_1=123#anchor}, rules => {empty_field => url, url1 => url, url2 => {url => []}, url3 => [{url => []}]}, testname => "/home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0/t/test_suite/positive/23-url".IO}}
-[LIVR]   in sub  at t/01-livr-test-suite.t line 15
-[LIVR]   in sub  at t/01-livr-test-suite.t line 84
-[LIVR]   in sub subtest at /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/share/perl6/core/sources/A4049D41EB0894A4E785A2713F9B3A193F2E1E2A (Test) line 430
-[LIVR]   in sub iterate-test-data at t/01-livr-test-suite.t line 83
-[LIVR]   in block <unit> at t/01-livr-test-suite.t line 8
 [LIVR] # Subtest: Test /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0/t/test_suite/positive/09-integer
 [LIVR]     ok 1 - Validator should contain no errors
 [LIVR]     ok 2 - Validator should return validated data
@@ -198,8 +183,23 @@ Press ^] three times within 1s to disconnect TTY.
 [LIVR] ok 32 - Test /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0/t/test_suite/positive/27-any_object
 [LIVR] # Subtest: Test /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0/t/test_suite/positive/23-url
 [LIVR]     not ok 1 - Validator should contain no errors
+[LIVR]     # Failed test 'Validator should contain no errors'
+[LIVR]     # at t/01-livr-test-suite.t line 14
+[LIVR]     # url1	WRONG_URL
+[LIVR]     # url2	WRONG_URL
+[LIVR]     # url3	WRONG_URL
 [LIVR]     not ok 2 - Validator should return validated data
-[LIVR] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/02-rules-registration.t
+[LIVR]     # Failed test 'Validator should return validated data'
+[LIVR]     # at t/01-livr-test-suite.t line 15
+[LIVR]     # expected: ${:empty_field(""), :url1("https://google.com"), :url2("HTTP://127.0.0.1:3233/?param_1=123\&param_2=asd"), :url3("http://webbylab.com/?param_1=123#anchor")}
+[LIVR]     #      got: Any
+[LIVR] {got_error => {url1 => WRONG_URL, url2 => WRONG_URL, url3 => WRONG_URL}, test_data => {input => {empty_field => , extra_field => aaaa, url1 => https://google.com, url2 => HTTP://127.0.0.1:3233/?param_1=123&param_2=asd, url3 => http://webbylab.com/?param_1=123#anchor}, output => {empty_field => , url1 => https://google.com, url2 => HTTP://127.0.0.1:3233/?param_1=123&param_2=asd, url3 => http://webbylab.com/?param_1=123#anchor}, rules => {empty_field => url, url1 => url, url2 => {url => []}, url3 => [{url => []}]}, testname => "/home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0/t/test_suite/positive/23-url".IO}}
+[LIVR]   in sub  at t/01-livr-test-suite.t line 15
+[LIVR]   in sub  at t/01-livr-test-suite.t line 84
+[LIVR]   in sub subtest at /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/share/perl6/core/sources/85B0B38C91488F2043E2A4FFFD69E92785352B7A (Test) line 431
+[LIVR]   in sub iterate-test-data at t/01-livr-test-suite.t line 83
+[LIVR]   in block <unit> at t/01-livr-test-suite.t line 8
+[LIVR] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/02-rules-registration.t
 [LIVR] # Subtest: Check default rules existence
 [LIVR]     ok 1 - Default rules should contain "strong_password" rule
 [LIVR]     ok 2 - Default rules should not contain "alphanumeric" rule
@@ -217,7 +217,7 @@ Press ^] three times within 1s to disconnect TTY.
 [LIVR]     1..3
 [LIVR] ok 3 - Validate data with registered rules
 [LIVR] 1..3
-[LIVR] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/03-auto-trim.t
+[LIVR] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/03-auto-trim.t
 [LIVR] # Subtest: Validate data with automatic trim
 [LIVR]     ok 1 - Should build all rules
 [LIVR]     ok 2 - should return false due to validation errors for trimmed values
@@ -231,13 +231,13 @@ Press ^] three times within 1s to disconnect TTY.
 [LIVR]     1..3
 [LIVR] ok 2 - Validate data with automatic trim
 [LIVR] 1..2
-[LIVR] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/04-custom-filters.t
+[LIVR] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/04-custom-filters.t
 [LIVR] # Subtest: Validate data with registered rules
 [LIVR]     ok 1 - Should appluy changes to values
 [LIVR]     1..1
 [LIVR] ok 1 - Validate data with registered rules
 [LIVR] 1..1
-[LIVR] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/05-perl6-like.t
+[LIVR] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/05-perl6-like.t
 [LIVR] # Subtest: POSITIVE: perl6 "like" rule implementation
 [LIVR]     ok 1 - Should return true on success validation
 [LIVR]     ok 2 - should return cleaned object
@@ -250,7 +250,7 @@ Press ^] three times within 1s to disconnect TTY.
 [LIVR]     1..3
 [LIVR] ok 2 - NEGATIVE: perl6 "like" rule implementation
 [LIVR] 1..2
-[LIVR] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/06-patch-all-rules.t
+[LIVR] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/06-patch-all-rules.t
 [LIVR] # Subtest: POSITIVE: Validate data with registered rules
 [LIVR]     ok 1 - Should build all rules
 [LIVR]     ok 2 - should return clean data
@@ -263,7 +263,7 @@ Press ^] three times within 1s to disconnect TTY.
 [LIVR]     1..2
 [LIVR] ok 2 - NAGATIVE: Validate data with registered rules
 [LIVR] 1..2
-[LIVR] Command: /tmp/whateverable/rakudo-moar/19a125e7e9b369856fad37f9668b226874dbe076/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/07-register-aliased-default-rule.t
+[LIVR] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/LIVR%3Aver%3C2.1.0%3E%3Aauth%3Ccpan%3AKOORCHIK%3E.tar.gz/LIVR-2.1.0 t/07-register-aliased-default-rule.t
 [LIVR] # Subtest: POSITIVE: strong_password
 [LIVR]     ok 1 - Should return true on success validation
 [LIVR]     ok 2 - should return cleaned object
@@ -281,6 +281,6 @@ Press ^] three times within 1s to disconnect TTY.
 ===> Install [OK] for LIVR:ver<2.1.0>
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 4min 27.131s
-             CPU time consumed: 4min 27.348s
-                   Memory peak: 2.9G (swap: 754.7M)
+               Service runtime: 43.852s
+             CPU time consumed: 57.305s
+                   Memory peak: 2.7G (swap: 0B)

@@ -1,0 +1,137 @@
+Running as unit: run-p1873838-i10230882.service; invocation ID: 231bedde5a28431a94b293aba01f3a0f
+Press ^] three times within 1s to disconnect TTY.
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_0:1
+    ------> [32mity>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_1:1
+    ------> [32mZef>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_2:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_3:1
+    ------> [32mery>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_4:1
+    ------> [32mion>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_5:1
+    ------> [32mcal>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_6:1
+    ------> [32mory>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_7:1
+    ------> [32mtem>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_8:1
+    ------> [32mtch>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_9:1
+    ------> [32mact>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_10:1
+    ------> [32mild>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_11:1
+    ------> [32mest>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_12:1
+    ------> [32mall>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_13:1
+    ------> [32mort>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_14:1
+    ------> [32ment>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_15:1
+    ------> [32mfig>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+Potential difficulties:
+    Pair with <> really means an empty list, not null string; use :auth-matcher('') to represent the null string,
+      or :auth-matcher() to represent the empty list more accurately
+    at /home/coke/sandbox/blin/EVAL_16:1
+    ------> [32mURI>,:version-matcher<*>,:auth-matcher<>[33m⏏[31m,:api-matcher<*>)[0m
+===> Searching for: Pod::Test::Code
+===> Found: Pod::Test::Code:ver<0.0.5>:auth<cpan:FCO> [via Zef::Repository::Ecosystems<rea>]
+[Pod::Test::Code] Command: curl --silent -L -o /home/coke/sandbox/blin/data/zef-data/tmp/1789447386.1873843.5337.212232193739/Pod%3A%3ATest%3A%3ACode%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3AFCO%3E.tar.gz https://raw.githubusercontent.com/raku/REA/main/archive/P/Pod%3A%3ATest%3A%3ACode/Pod%3A%3ATest%3A%3ACode%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3AFCO%3E.tar.gz
+===> Fetching [OK]: Pod::Test::Code:ver<0.0.5>:auth<cpan:FCO> to /home/coke/sandbox/blin/data/zef-data/tmp/1789447386.1873843.5337.212232193739/Pod%3A%3ATest%3A%3ACode%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3AFCO%3E.tar.gz
+[Pod::Test::Code] Command: tar -t -f ./Pod%3A%3ATest%3A%3ACode%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3AFCO%3E.tar.gz
+[Pod::Test::Code] Command: tar -xvf ./Pod%3A%3ATest%3A%3ACode%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3AFCO%3E.tar.gz -C ../Pod%3A%3ATest%3A%3ACode%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3AFCO%3E.tar.gz
+===> Extraction [OK]: Pod::Test::Code to /home/coke/sandbox/blin/data/zef-data/tmp/Pod%3A%3ATest%3A%3ACode%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3AFCO%3E.tar.gz
+===> Testing: Pod::Test::Code:ver<0.0.5>:auth<cpan:FCO>
+[Pod::Test::Code] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Pod%3A%3ATest%3A%3ACode%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3AFCO%3E.tar.gz/Pod-Test-Code-0.0.5 t/01-basic.rakutest
+[Pod::Test::Code] Expected a modifiable native int argument for '$pos'
+[Pod::Test::Code]   in sub parse-obj at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 761
+[Pod::Test::Code]   in sub parse-thing at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 874
+[Pod::Test::Code]   in sub from-json at /home/coke/sandbox/blin/installed/JSON::Fast_zef:timo_0.20.1_0/sources/AE1DAEF331A49121F8ED6BBF7F2323647934008D (JSON::Fast) line 1043
+[Pod::Test::Code]   in sub test-code-snippets at /home/coke/sandbox/blin/data/zef-data/tmp/Pod%3A%3ATest%3A%3ACode%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3AFCO%3E.tar.gz/Pod-Test-Code-0.0.5/lib/Pod/Test/Code.rakumod (Pod::Test::Code) line 22
+[Pod::Test::Code]   in block <unit> at t/01-basic.rakutest line 2
+[Pod::Test::Code] Command: /tmp/whateverable/rakudo-moar/1b72ad88068e658c0c3ca021d297a72d5bd70af5/bin/perl6 -I /home/coke/sandbox/blin/data/zef-data/tmp/Pod%3A%3ATest%3A%3ACode%3Aver%3C0.0.5%3E%3Aauth%3Ccpan%3AFCO%3E.tar.gz/Pod-Test-Code-0.0.5 t/02-by-module.rakutest
+[Pod::Test::Code] ok 1 - No Raku code blocks to test
+[Pod::Test::Code] # Subtest: Pod::Test::Code
+[Pod::Test::Code]     ok 1 - This seems to be working
+[Pod::Test::Code] bla
+[Pod::Test::Code]     ok 2 - testing lives ok
+[Pod::Test::Code]     ok 3 - testing dies ok
+[Pod::Test::Code]     # Subtest: blablabla
+[Pod::Test::Code] bla
+[Pod::Test::Code]         1..0
+[Pod::Test::Code]     ok 4 - blablabla
+[Pod::Test::Code]     ok 5 - 
+[Pod::Test::Code]     # Subtest: testing output
+[Pod::Test::Code]         ok 1 - print 42
+[Pod::Test::Code]         1..1
+[Pod::Test::Code]     ok 6 - testing output
+[Pod::Test::Code]     # Subtest: testing output
+[Pod::Test::Code]         ok 1 - say 42
+[Pod::Test::Code]         ok 2 - say 13
+[Pod::Test::Code]         ok 3 - say 3.14
+[Pod::Test::Code]         1..3
+[Pod::Test::Code]     ok 7 - testing output
+[Pod::Test::Code]     1..7
+[Pod::Test::Code] ok 2 - Pod::Test::Code
+[Pod::Test::Code] ok 3 - The Pod6 code snipets live ok
+[Pod::Test::Code] 1..3
+===> Testing [FAIL]: Pod::Test::Code:ver<0.0.5>:auth<cpan:FCO>
+[Pod::Test::Code] Failed to get passing tests, but continuing with --force-test
+===> Installing: Pod::Test::Code:ver<0.0.5>:auth<cpan:FCO>
+===> Install [OK] for Pod::Test::Code:ver<0.0.5>:auth<cpan:FCO>
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 30.448s
+             CPU time consumed: 36.032s
+                   Memory peak: 1.5G (swap: 0B)
